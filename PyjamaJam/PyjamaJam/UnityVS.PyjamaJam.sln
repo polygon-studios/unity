@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.PyjamaJam.CSharp.Plugins", "UnityVS.PyjamaJam.CSharp.Plugins.csproj", "{271EA508-6E4A-4F2F-63D8-E3AA3FB5EBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.PyjamaJam.CSharp", "UnityVS.PyjamaJam.CSharp.csproj", "{365DD5DC-9003-DD7B-B725-78B290ED97FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.PyjamaJam.CSharp.Editor", "UnityVS.PyjamaJam.CSharp.Editor.csproj", "{2E3471C1-99E9-D3C6-8609-EB1D93D72F7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{271EA508-6E4A-4F2F-63D8-E3AA3FB5EBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271EA508-6E4A-4F2F-63D8-E3AA3FB5EBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271EA508-6E4A-4F2F-63D8-E3AA3FB5EBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271EA508-6E4A-4F2F-63D8-E3AA3FB5EBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365DD5DC-9003-DD7B-B725-78B290ED97FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365DD5DC-9003-DD7B-B725-78B290ED97FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365DD5DC-9003-DD7B-B725-78B290ED97FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365DD5DC-9003-DD7B-B725-78B290ED97FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3471C1-99E9-D3C6-8609-EB1D93D72F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3471C1-99E9-D3C6-8609-EB1D93D72F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3471C1-99E9-D3C6-8609-EB1D93D72F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3471C1-99E9-D3C6-8609-EB1D93D72F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
