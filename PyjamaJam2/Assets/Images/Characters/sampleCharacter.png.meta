@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: cdf8e35894ecb0d43ba2bccedcb3eb9d
+timeCreated: 1452113945
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sampleCharacter_0
+    21300002: sampleCharacter_1
+    21300004: sampleCharacter_2
+    21300006: sampleCharacter_3
+    21300008: sampleCharacter_4
+    21300010: sampleCharacter_5
+    21300012: sampleCharacter_6
+    21300014: sampleCharacter_7
+    21300016: sampleCharacter_8
+    21300018: sampleCharacter_9
+    21300020: sampleCharacter_10
+    21300022: sampleCharacter_11
+    21300024: sampleCharacter_12
+    21300026: sampleCharacter_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sampleCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 214
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 214
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 214
+        width: 44
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 214
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 215
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 215
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 215
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 113
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 112
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 112
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 108
+        width: 34
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 109
+        width: 34
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
