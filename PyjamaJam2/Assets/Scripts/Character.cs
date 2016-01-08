@@ -9,6 +9,7 @@ public class Character : MonoBehaviour {
 
 	float speed = 0.8f; //walk 0.5f //run 
 	Animator animator;
+	Item item; //holds item
 
 	// Use this for initialization
 	void Start () {
@@ -37,5 +38,16 @@ public class Character : MonoBehaviour {
 			GetComponent<Rigidbody2D>().AddForce(transform.up * 300f);
 			animator.SetTrigger ("foxJump");
 		}
-	}	
+	}
+
+	void OnTriggerEnter2D(Collider2D objectHit){
+		if(objectHit.gameObject.tag == "item"){
+			objectHit.gameObject.SetActive (false);
+			//Slippers slippers = objectHit.gameObject;
+			//item = objectHit.;
+			//if item is slippers then..
+
+		}
+	}
+
 }
