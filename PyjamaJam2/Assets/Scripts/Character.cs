@@ -7,7 +7,7 @@ public class Character : MonoBehaviour {
 		onGround = passThrough;
 	}
 
-	float speed = 0.5f;
+	float speed = 0.8f; //walk 0.5f //run 
 	Animator animator;
 
 	// Use this for initialization
@@ -35,7 +35,7 @@ public class Character : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space) && onGround) {
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * 300f);
-			animator.SetTrigger ("jump");
+			animator.SetTrigger ("foxJump");
 		}
 	}	
 }

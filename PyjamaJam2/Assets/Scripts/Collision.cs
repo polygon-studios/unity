@@ -15,7 +15,7 @@ public class Collision : MonoBehaviour {
 	}
     
     void OnTriggerEnter2D(Collider2D objectHit){
-        if(objectHit.gameObject.tag == "characterFOX"){
+        if(objectHit.gameObject.tag == "character"){
             foxChar.isOnGround(true);
         }
     }

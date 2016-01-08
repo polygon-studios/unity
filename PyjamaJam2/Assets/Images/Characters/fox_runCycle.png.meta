@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 19b7cc9a617b57b47ad70edd2fab4592
+timeCreated: 1452185393
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_runCycle_0
+    21300002: fox_runCycle_1
+    21300004: fox_runCycle_2
+    21300006: fox_runCycle_3
+    21300008: fox_runCycle_4
+    21300010: fox_runCycle_5
+    21300012: fox_runCycle_6
+    21300014: fox_runCycle_7
+    21300016: fox_runCycle_8
+    21300018: fox_runCycle_9
+    21300020: fox_runCycle_10
+    21300022: fox_runCycle_11
+    21300024: fox_runCycle_12
+    21300026: fox_runCycle_13
+    21300028: fox_runCycle_14
+    21300030: fox_runCycle_15
+    21300032: fox_runCycle_16
+    21300034: fox_runCycle_17
+    21300036: fox_runCycle_18
+    21300038: fox_runCycle_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_runCycle_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 222
+        width: 47
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 220
+        width: 46
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 218
+        width: 45
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 218
+        width: 46
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 218
+        width: 46
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 147
+        width: 46
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 147
+        width: 45
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 147
+        width: 45
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 147
+        width: 46
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 150
+        width: 46
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 82
+        width: 45
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 45
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 77
+        width: 45
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 77
+        width: 46
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 77
+        width: 46
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 46
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 7
+        width: 45
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 7
+        width: 45
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 46
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_runCycle_19
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 9
+        width: 46
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
