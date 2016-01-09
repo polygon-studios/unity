@@ -6,14 +6,18 @@ public class Character : MonoBehaviour {
 	public void isOnGround(bool passThrough){
 		onGround = passThrough;
 	}
+	public float currentJump = 0f;
 
-	float speed = 0.8f; //walk 0.5f //run 
 	Animator animator;
 	Item item; //holds item
+
+	float speed = 0.8f; //walk 0.5f //run 0.8f
+	float starterJump = 300f;
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
+		currentJump = starterJump;
 	}
 	
 	// Update is called once per frame
@@ -35,7 +39,7 @@ public class Character : MonoBehaviour {
 		}
 		if (Input.GetKeyDown (KeyCode.Space) && onGround) {
 			onGround = false;
-			GetComponent<Rigidbody2D>().AddForce(transform.up * 300f);
+			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger ("foxJump");
 		}
 	}
@@ -43,10 +47,10 @@ public class Character : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D objectHit){
 		if(objectHit.gameObject.tag == "item"){
 			objectHit.gameObject.SetActive (false);
-			//Slippers slippers = objectHit.gameObject;
-			//item = objectHit.;
-			//if item is slippers then..
+			Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
+			slippers.TriggerEffect(this.gameObject.GetComponent<Character>());
 
+			item = slippers;
 		}
 	}
 
