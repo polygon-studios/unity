@@ -7,12 +7,13 @@ public class Character : MonoBehaviour {
 		onGround = passThrough;
 	}
 	public float currentJump = 0f;
+	public float starterJump = 300f;
 
 	Animator animator;
 	Item item; //holds item
 
 	float speed = 0.8f; //walk 0.5f //run 0.8f
-	float starterJump = 300f;
+
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +24,9 @@ public class Character : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Movement ();
-	
+		if (item != null) {
+			item.doUpdate();
+		}
 	}
 
 	void Movement(){

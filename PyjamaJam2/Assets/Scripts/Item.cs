@@ -14,4 +14,8 @@ public class Item : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	public void doUpdate(){
+		this.Update();
+	}
 }
