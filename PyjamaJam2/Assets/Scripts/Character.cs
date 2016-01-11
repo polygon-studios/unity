@@ -49,11 +49,11 @@ public class Character : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D objectHit){
 		if(objectHit.gameObject.tag == "item"){
-			objectHit.gameObject.SetActive (false);
 			Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
 			slippers.TriggerEffect(this.gameObject.GetComponent<Character>());
+			slippers.Hide();
 
-			item = slippers;
+			item = slippers; 
 		}
 	}
 

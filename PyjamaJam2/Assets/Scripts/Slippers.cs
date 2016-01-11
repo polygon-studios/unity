@@ -18,28 +18,25 @@ public class Slippers : Item{
 	void Update () {
 
 		if (this.character != null) {
-			Debug.Log(character.currentJump);
 			updateTrigger ();
 		}
 	}
-
 	public void TriggerEffect(Character currCharacter){
 		this.character = currCharacter;
-		Debug.Log(character);
 		this.character.currentJump = newHeightJump;
 		timer -= Time.deltaTime;
-		Update();
-		if (this.character != null) {
-			Debug.Log ("NOT NULL");
-		}
+
 	}
 
 	void updateTrigger(){
 		timer -= Time.deltaTime;
 
-		if (timer < 0) {
+   		if (timer < 0) {
 			//jump sequence ends
 			character.currentJump = character.starterJump;
+
+			//destroy from existence
+			Destroy(gameObject);
 		}
 	}
 }
