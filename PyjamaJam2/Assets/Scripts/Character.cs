@@ -49,11 +49,20 @@ public class Character : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D objectHit){
 		if(objectHit.gameObject.tag == "item"){
+
+			/*Chili chili = objectHit.gameObject.GetComponent<Chili>();
+			chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
+			chili.Hide();
+
+			item = chili;*/
+
+
+
 			Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
 			slippers.TriggerEffect(this.gameObject.GetComponent<Character>());
 			slippers.Hide();
 
-			item = slippers; 
+			item = slippers;
 		}
 	}
 

@@ -32,11 +32,15 @@ public class Slippers : Item{
 		timer -= Time.deltaTime;
 
    		if (timer < 0) {
-			//jump sequence ends
-			character.currentJump = character.starterJump;
-
-			//destroy from existence
-			Destroy(gameObject);
+			Reset();
 		}
+	}
+
+	void Reset(){
+		//jump sequence ends
+		character.currentJump = character.starterJump;
+		
+		//destroy from existence
+		Destroy(gameObject);
 	}
 }
