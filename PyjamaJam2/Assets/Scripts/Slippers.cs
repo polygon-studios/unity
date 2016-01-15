@@ -8,7 +8,6 @@ public class Slippers : Item{
 	float timer = 20; //in seconds
 	float newHeightJump = 500f;
 
-
 	// Use this for initialization
 	void Start () {
 	

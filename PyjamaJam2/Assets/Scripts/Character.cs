@@ -50,19 +50,30 @@ public class Character : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D objectHit){
 		if(objectHit.gameObject.tag == "item"){
 
-			/*Chili chili = objectHit.gameObject.GetComponent<Chili>();
-			chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
-			chili.Hide();
+			if(objectHit.gameObject.GetComponent<Chili>() != null){
+				//requires other multiplayer prior to coding
 
-			item = chili;*/
+				/*Chili chili = objectHit.gameObject.GetComponent<Chili>();
+				chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
+				chili.Hide();
+				
+				item = chili;*/
+			}else if(objectHit.gameObject.GetComponent<Pinwheel>() != null){
+				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel>();
+				pinwheel.TriggerEffect(this.gameObject.GetComponent<Character>());
+				pinwheel.Hide();
+
+				item = pinwheel;
+				
+			}else if(objectHit.gameObject.GetComponent<Slippers>() != null){
+				Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
+				slippers.TriggerEffect(this.gameObject.GetComponent<Character>());
+				slippers.Hide();
+				
+				item = slippers;
+			}
 
 
-
-			Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
-			slippers.TriggerEffect(this.gameObject.GetComponent<Character>());
-			slippers.Hide();
-
-			item = slippers;
 		}
 	}
 

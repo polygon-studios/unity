@@ -4,6 +4,7 @@ using System.Collections;
 public class Collision : MonoBehaviour {
     public Character foxChar;
 
+
 	// Use this for initialization
 	void Start () {
 	
