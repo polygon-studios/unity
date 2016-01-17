@@ -2,16 +2,16 @@
 /PyjamaJam2/Library
 *.svd
 
-!Library/*.asset
-!Library/AssetImportState
-!Library/AssetVersioning.db
-!Library/BuildPlayer.prefs
-!Library/ScriptMapper
-!Library/assetservercachev3
-!Library/expandedItems
-!Library/guidmapper
-!Library/unity default resources
-!Library/unity editor resources
+!PyjamaJam2/Library/*.asset
+!PyjamaJam2/Library/AssetImportState
+!PyjamaJam2/Library/AssetVersioning.db
+!PyjamaJam2/Library/BuildPlayer.prefs
+!PyjamaJam2/Library/ScriptMapper
+!PyjamaJam2/Library/assetservercachev3
+!PyjamaJam2/Library/expandedItems
+!PyjamaJam2/Library/guidmapper
+!PyjamaJam2/Library/unity default resources
+!PyjamaJam2/Library/unity editor resources
 
 
 
