@@ -56,9 +56,9 @@ public class Character : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D objectHit){
 
 		///picking up an item
-		if(objectHit.gameObject.tag == "item"){
+		if (objectHit.gameObject.tag == "item") {
 
-			if(objectHit.gameObject.GetComponent<Chili>() != null){
+			if (objectHit.gameObject.GetComponent<Chili> () != null) {
 				//requires other multiplayer prior to coding
 
 				/*Chili chili = objectHit.gameObject.GetComponent<Chili>();
@@ -66,30 +66,30 @@ public class Character : MonoBehaviour {
 				chili.Hide();
 				
 				item = chili;*/
-			}else if(objectHit.gameObject.GetComponent<Pinwheel>() != null){
-				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel>();
-				pinwheel.initVariables(this.gameObject.GetComponent<Character>());
-				pinwheel.Hide();
+			} else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
+				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
+				pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
+				pinwheel.Hide ();
 
 				item = pinwheel;
-				//item.TriggerEffect();
-
-			}else if(objectHit.gameObject.GetComponent<Slippers>() != null){
-				Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
-				slippers.initVariables(this.gameObject.GetComponent<Character>());
-				slippers.Hide();
+			} else if (objectHit.gameObject.GetComponent<Slippers> () != null) {
+				Slippers slippers = objectHit.gameObject.GetComponent<Slippers> ();
+				slippers.initVariables (this.gameObject.GetComponent<Character> ());
+				slippers.Hide ();
 				
 				item = slippers;
-				//item.TriggerEffect();
-			}else if(objectHit.gameObject.GetComponent<TreasureChest>() != null){
-				TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest>();
-				treasure.initVariables(this.gameObject.GetComponent<Character>());
-				treasure.Hide();
+			} else if (objectHit.gameObject.GetComponent<TreasureChest> () != null) {
+				TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest> ();
+				treasure.initVariables (this.gameObject.GetComponent<Character> ());
+				treasure.Hide ();
 				
 				item = treasure;
-				//item.TriggerEffect();
 			}
 
+		} else if (objectHit.gameObject.tag == "coin") {
+			//increase points
+			Coin coin = objectHit.gameObject.GetComponent<Coin>();
+			coin.destroySelf();
 
 		}
 	}

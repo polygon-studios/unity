@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 public class TreasureChest : Item {
 	public GameObject coinPrefab;
-	List<Object> coinsArray = new List<Object>();
 	Character character;
 
-	float timer = 5f; //seconds
+	float timer = 10f; //seconds
+	float timerInterval = 0.5f; //seconds
 
 	// Use this for initialization
 	protected override void Start () {
@@ -28,17 +28,25 @@ public class TreasureChest : Item {
 	}
 
 	public override void TriggerEffect(){
-		float xPosition = Random.Range (character.transform.position.x - 6.0f, character.transform.position.x + 6.0f);
-		Object coin = Instantiate (coinPrefab, new Vector3 (xPosition, 5.0f, 0), Quaternion.identity);
-		coinsArray.Add (coin);
-
 		timer -= Time.deltaTime;
-
+		timerInterval -= Time.deltaTime;
 	}
 
 	void updateTrigger(){
 		timer -= Time.deltaTime;
-		
+		timerInterval -= Time.deltaTime;
+
+		if (timerInterval < 0) {
+
+			float xPosition = Random.Range (character.transform.position.x - 4.0f, character.transform.position.x + 4.0f);
+			GameObject coin = (GameObject)Instantiate (coinPrefab, new Vector3 (xPosition, 5.0f, 0), Quaternion.identity);
+
+			Coin coinScript =  coin.GetComponent<Coin>();
+			coinScript.lifeSpan = Random.Range(5f, 10f);
+
+			timerInterval = 0.5f;
+		}
+
 		if (timer < 0) {
 			base.DestroySelf ();
 			Destroy (this.gameObject);
