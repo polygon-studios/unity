@@ -16,7 +16,7 @@ public class Slippers : Item{
 	// Update is called once per frame
 	protected override void Update () {
 		//base.Update ();
- 		if (this.character != null) {
+ 		if (base.beenTriggered == true) {
 			updateTrigger ();
 		}
 	}

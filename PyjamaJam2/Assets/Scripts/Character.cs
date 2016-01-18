@@ -25,10 +25,12 @@ public class Character : MonoBehaviour {
 	void Update () {
 		Movement ();
 		if (item != null) {
-			//if(item.beenTriggered == true)
+			if(item.beenTriggered == true)
 				item.doUpdate();
-			//else if(Input.GetKeyDown(KeyCode.I))
-			 //   item.TriggerEffect();
+			else if(Input.GetKeyDown(KeyCode.I)){
+			    item.TriggerEffect();
+				item.beenTriggered = true;
+			}
 
 		}
 	}
@@ -70,7 +72,7 @@ public class Character : MonoBehaviour {
 				pinwheel.Hide();
 
 				item = pinwheel;
-				item.TriggerEffect();
+				//item.TriggerEffect();
 
 			}else if(objectHit.gameObject.GetComponent<Slippers>() != null){
 				Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
@@ -78,15 +80,15 @@ public class Character : MonoBehaviour {
 				slippers.Hide();
 				
 				item = slippers;
-				item.TriggerEffect();
-			}/*else if(objectHit.gameObject.GetComponent<TreasureChest>() != null){
-				TreasureChest treasure = objectHit.gameObject.GetComponent<Slippers>();
-				treasure.TriggerEffect();
+				//item.TriggerEffect();
+			}else if(objectHit.gameObject.GetComponent<TreasureChest>() != null){
+				TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest>();
+				treasure.initVariables(this.gameObject.GetComponent<Character>());
 				treasure.Hide();
 				
 				item = treasure;
-				item.TriggerEffect();
-			}*/
+				//item.TriggerEffect();
+			}
 
 
 		}
