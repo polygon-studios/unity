@@ -4,6 +4,7 @@ using System.Collections;
 public class Item : MonoBehaviour {
 	public Items allItems;
 	int points = 10;
+	public bool beenTriggered = false;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -16,10 +17,15 @@ public class Item : MonoBehaviour {
 	
 	}
 
+	public virtual void TriggerEffect(){
+
+	}
+
 	public void Hide(){
   		this.gameObject.GetComponent<Renderer>().enabled = false;
 		this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
 	}
+
 
 	public void doUpdate(){
 		this.Update();

@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\SpoutSender.cs" />
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
+     <Compile Include="Assets\Scripts\TreasureChest.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

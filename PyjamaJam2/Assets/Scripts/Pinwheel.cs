@@ -17,24 +17,20 @@ public class Pinwheel : Item {
 	
 	}
 
-	public void TriggerEffect(Character currCharacter){
+	public void initVariables(Character currCharacter){
 		character = currCharacter;
+	}
+
+	public override void TriggerEffect(){
 		timer -= Time.deltaTime;
 
 		foreach (GameObject item in base.allItems.ITEMSARRAY) {
 			Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
 			rb.AddForce(force, ForceMode2D.Impulse);
 		}
-	
-	}
-	
-	void updateTrigger(){
-		timer -= Time.deltaTime;
 		
-		if (timer < 0) {
-			base.DestroySelf();
-			Destroy(this.gameObject);
-		}
+		base.DestroySelf();
+		Destroy(this.gameObject);
 	}
 
 }

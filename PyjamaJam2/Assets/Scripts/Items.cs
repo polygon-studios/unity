@@ -13,20 +13,11 @@ public class Items : MonoBehaviour {
 		else
 			ITEMS = this;
 		DontDestroyOnLoad (this);
-
-
-		
 	}
 
 	
 	public void removeItemFromArray(GameObject itemObj){
 		ITEMSARRAY.Remove (itemObj);
-
-		/*int i = 0;
-		while (i < ITEMSARRAY.Length && ITEMSARRAY[i] != item)
-			i++;
-		if (i != null)
-			ITEMSARRAY.RemoveAt (i);*/
 
 	}
 }

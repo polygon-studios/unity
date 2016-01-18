@@ -25,7 +25,11 @@ public class Character : MonoBehaviour {
 	void Update () {
 		Movement ();
 		if (item != null) {
-			item.doUpdate();
+			//if(item.beenTriggered == true)
+				item.doUpdate();
+			//else if(Input.GetKeyDown(KeyCode.I))
+			 //   item.TriggerEffect();
+
 		}
 	}
 
@@ -48,6 +52,8 @@ public class Character : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D objectHit){
+
+		///picking up an item
 		if(objectHit.gameObject.tag == "item"){
 
 			if(objectHit.gameObject.GetComponent<Chili>() != null){
@@ -60,18 +66,27 @@ public class Character : MonoBehaviour {
 				item = chili;*/
 			}else if(objectHit.gameObject.GetComponent<Pinwheel>() != null){
 				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel>();
-				pinwheel.TriggerEffect(this.gameObject.GetComponent<Character>());
+				pinwheel.initVariables(this.gameObject.GetComponent<Character>());
 				pinwheel.Hide();
 
 				item = pinwheel;
-				
+				item.TriggerEffect();
+
 			}else if(objectHit.gameObject.GetComponent<Slippers>() != null){
 				Slippers slippers = objectHit.gameObject.GetComponent<Slippers>();
-				slippers.TriggerEffect(this.gameObject.GetComponent<Character>());
+				slippers.initVariables(this.gameObject.GetComponent<Character>());
 				slippers.Hide();
 				
 				item = slippers;
-			}
+				item.TriggerEffect();
+			}/*else if(objectHit.gameObject.GetComponent<TreasureChest>() != null){
+				TreasureChest treasure = objectHit.gameObject.GetComponent<Slippers>();
+				treasure.TriggerEffect();
+				treasure.Hide();
+				
+				item = treasure;
+				item.TriggerEffect();
+			}*/
 
 
 		}

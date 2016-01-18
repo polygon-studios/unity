@@ -20,7 +20,7 @@ public class Chili : Item {
 	
 	}
 
-	void TriggerEffect(Character[] characters){
+	public override void TriggerEffect(){
 		//ask Ian how he is doing the character constants (perhaps need a constants page)
 		//save last button press and continue direction of characters in here by going through a for loop of character array
 

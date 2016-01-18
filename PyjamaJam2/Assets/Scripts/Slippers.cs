@@ -5,23 +5,27 @@ public class Slippers : Item{
 
 	int effectTimer; 
 	Character character;
-	float timer = 20; //in seconds
+	float timer = 10; //in seconds
 	float newHeightJump = 500f;
 
 	// Use this for initialization
-	void Start () {
-	
+	protected override void Start () {
+		base.Start ();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-
-		if (this.character != null) {
+	protected override void Update () {
+		//base.Update ();
+ 		if (this.character != null) {
 			updateTrigger ();
 		}
 	}
-	public void TriggerEffect(Character currCharacter){
+
+	public void initVariables(Character currCharacter){
 		this.character = currCharacter;
+	}
+
+	public override void TriggerEffect(){
 		this.character.currentJump = newHeightJump;
 		timer -= Time.deltaTime;
 
