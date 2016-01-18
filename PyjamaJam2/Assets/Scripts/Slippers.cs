@@ -32,14 +32,13 @@ public class Slippers : Item{
 
    		if (timer < 0) {
 			Reset();
+			base.DestroySelf();
+			Destroy(this.gameObject);
 		}
 	}
 
 	void Reset(){
 		//jump sequence ends
 		character.currentJump = character.starterJump;
-		
-		//destroy from existence
-		Destroy(gameObject);
 	}
 }

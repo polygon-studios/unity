@@ -2,16 +2,17 @@
 using System.Collections;
 
 public class Item : MonoBehaviour {
-
+	public Items allItems;
 	int points = 10;
 
 	// Use this for initialization
-	void Start () {
-	
+	protected virtual void Start () {
+		GameObject goItems = GameObject.Find("GameMasterItems");    
+		allItems = goItems.GetComponent<Items> ();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	protected virtual void Update () {
 	
 	}
 
@@ -22,5 +23,10 @@ public class Item : MonoBehaviour {
 
 	public void doUpdate(){
 		this.Update();
+	}
+
+	public void DestroySelf(){
+		allItems.removeItemFromArray (this.gameObject);
+		Destroy(gameObject);
 	}
 }

@@ -6,7 +6,8 @@ public class GameMaster:MonoBehaviour
 	public static GameMaster GM;
 
 	public Character[] CHARACTERS;
-	//public int number;
+	//public Item[] ITEMS;
+
 
 	void Awake(){
 		if (GM != null)
@@ -16,5 +17,7 @@ public class GameMaster:MonoBehaviour
 		DontDestroyOnLoad (this);
 
 	}
+
+
 }
 
