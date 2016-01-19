@@ -9,6 +9,7 @@ public class Character : MonoBehaviour {
 	public float currentJump = 0f;
 	public float starterJump = 300f;
 
+
 	Animator animator;
 	Item item; //holds item
 
@@ -88,6 +89,7 @@ public class Character : MonoBehaviour {
 
 		} else if (objectHit.gameObject.tag == "coin") {
 			//increase points
+
 			Coin coin = objectHit.gameObject.GetComponent<Coin>();
 			coin.destroySelf();
 
