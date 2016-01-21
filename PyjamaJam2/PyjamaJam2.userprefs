@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Downloads/create-effect-like-center-of-gravity-of-planet-in-unity-master/Assets/Scripts/ScoreSystem.cs">
     <Files>
-      <File FileName="../../../../Downloads/create-effect-like-center-of-gravity-of-planet-in-unity-master/Assets/Scripts/ScoreSystem.cs" Line="105" Column="4" />
+      <File FileName="../../../../Downloads/create-effect-like-center-of-gravity-of-planet-in-unity-master/Assets/Scripts/ScoreSystem.cs" Line="111" Column="64" />
+      <File FileName="Assets/Scripts/Collision.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
