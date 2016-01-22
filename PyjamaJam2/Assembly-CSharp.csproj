@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Items.cs" />
      <Compile Include="Assets\Scripts\Pinwheel.cs" />
      <Compile Include="Assets\Scripts\Slippers.cs" />
+     <Compile Include="Assets\Scripts\SocketIOLogic.cs" />
      <Compile Include="Assets\Scripts\Spout.cs" />
      <Compile Include="Assets\Scripts\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\SpoutSender.cs" />
