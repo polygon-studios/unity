@@ -23,7 +23,6 @@ public class BackgroundChanger : MonoBehaviour {
 
 			Color newColor = new Color(1, 1, 1, 0.0f);
 			background.GetComponent<Renderer>().material.color = newColor;
-			Debug.Log ("Trynna change colour");
 		}
 	}
 

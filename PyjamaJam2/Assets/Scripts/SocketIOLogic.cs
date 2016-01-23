@@ -20,9 +20,21 @@ public class SocketIOLogic : MonoBehaviour
 		
 		StartCoroutine("BeepBoop");
 	}
+
+	public void Update()
+	{
+		//socket.On("open", TestOpen);
+		//socket.On("news", TestBoop);
+		//socket.On("success", TestBoop);
+		//socket.On("error", TestError);
+		//socket.On("close", TestClose);
+		//socket.Emit("beep");
+		//socket.Emit("open");
+	}
 	
 	private IEnumerator BeepBoop()
 	{
+		Debug.Log ("Testing beepboop");
 		// wait 1 seconds and continue
 		yield return new WaitForSeconds(1);
 		
@@ -31,12 +43,12 @@ public class SocketIOLogic : MonoBehaviour
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(3);
 		
-		socket.Emit("getPositions");
+		socket.Emit("beep");
 		
 		// wait 2 seconds and continue
 		yield return new WaitForSeconds(2);
 		
-		socket.Emit("getPositions");
+		socket.Emit("beep");
 		
 		// wait ONE FRAME and continue
 		yield return null;
