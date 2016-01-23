@@ -15,10 +15,11 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("open", TestOpen);
 		socket.On("news", TestBoop);
 		socket.On("success", TestBoop);
+		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
 		
-		StartCoroutine("BeepBoop");
+		StartCoroutine(BeepBoop(1.0f));
 	}
 
 	public void Update()
@@ -32,19 +33,19 @@ public class SocketIOLogic : MonoBehaviour
 		//socket.Emit("open");
 	}
 	
-	private IEnumerator BeepBoop()
+	IEnumerator BeepBoop(float disValue)
 	{
 		Debug.Log ("Testing beepboop");
 		// wait 1 seconds and continue
 		yield return new WaitForSeconds(1);
 		
 		socket.Emit("open");
-		
+		Debug.Log ("Opendone");
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(3);
 		
 		socket.Emit("beep");
-		
+		Debug.Log ("Beepdone");
 		// wait 2 seconds and continue
 		yield return new WaitForSeconds(2);
 		
