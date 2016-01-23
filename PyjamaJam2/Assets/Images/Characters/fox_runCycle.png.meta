@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 19b7cc9a617b57b47ad70edd2fab4592
-timeCreated: 1453156479
+timeCreated: 1453573398
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -76,7 +76,7 @@ TextureImporter:
         y: 232
         width: 52
         height: 66
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_1
@@ -86,7 +86,7 @@ TextureImporter:
         y: 230
         width: 51
         height: 68
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_2
@@ -96,7 +96,7 @@ TextureImporter:
         y: 227
         width: 51
         height: 70
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_3
@@ -106,7 +106,7 @@ TextureImporter:
         y: 226
         width: 52
         height: 71
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_4
@@ -116,7 +116,7 @@ TextureImporter:
         y: 227
         width: 51
         height: 70
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_5
@@ -126,7 +126,7 @@ TextureImporter:
         y: 151
         width: 51
         height: 71
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_6
@@ -136,7 +136,7 @@ TextureImporter:
         y: 152
         width: 52
         height: 70
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_7
@@ -146,7 +146,7 @@ TextureImporter:
         y: 152
         width: 53
         height: 71
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_8
@@ -156,7 +156,7 @@ TextureImporter:
         y: 152
         width: 54
         height: 71
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_9
@@ -166,7 +166,7 @@ TextureImporter:
         y: 155
         width: 53
         height: 68
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_10
@@ -176,7 +176,7 @@ TextureImporter:
         y: 84
         width: 54
         height: 64
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_11
@@ -186,7 +186,7 @@ TextureImporter:
         y: 81
         width: 53
         height: 67
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_12
@@ -196,7 +196,7 @@ TextureImporter:
         y: 78
         width: 53
         height: 69
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_13
@@ -206,7 +206,7 @@ TextureImporter:
         y: 78
         width: 52
         height: 70
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_14
@@ -216,7 +216,7 @@ TextureImporter:
         y: 77
         width: 52
         height: 71
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_15
@@ -226,7 +226,7 @@ TextureImporter:
         y: 3
         width: 51
         height: 70
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_16
@@ -236,7 +236,7 @@ TextureImporter:
         y: 5
         width: 52
         height: 68
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_17
@@ -246,7 +246,7 @@ TextureImporter:
         y: 5
         width: 52
         height: 68
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_18
@@ -256,7 +256,7 @@ TextureImporter:
         y: 5
         width: 51
         height: 69
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_runCycle_19
@@ -266,7 +266,7 @@ TextureImporter:
         y: 6
         width: 50
         height: 68
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

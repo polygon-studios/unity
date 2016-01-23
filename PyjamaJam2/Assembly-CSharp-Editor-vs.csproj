@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\SpoutReceiverEditor.cs" />
+     <Compile Include="Assets\SocketIO\JSONObject\Editor\JSONChecker.cs" />
+     <None Include="Assets\SocketIO\JSONObject\readme.txt" />
+     <None Include="Assets\SocketIO\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

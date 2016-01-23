@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 147db272c9d994644bf10c18ba1019ce
+timeCreated: 1453580755
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pinwheelGlow_0
+    21300002: pinwheelGlow_1
+    21300004: pinwheelGlow_2
+    21300006: pinwheelGlow_3
+    21300008: pinwheelGlow_4
+    21300010: pinwheelGlow_5
+    21300012: pinwheelGlow_6
+    21300014: pinwheelGlow_7
+    21300016: pinwheelGlow_8
+    21300018: pinwheelGlow_9
+    21300020: pinwheelGlow_10
+    21300022: pinwheelGlow_11
+    21300024: pinwheelGlow_12
+    21300026: pinwheelGlow_13
+    21300028: pinwheelGlow_14
+    21300030: pinwheelGlow_15
+    21300032: pinwheelGlow_16
+    21300034: pinwheelGlow_17
+    21300036: pinwheelGlow_18
+    21300038: pinwheelGlow_19
+    21300040: pinwheelGlow_20
+    21300042: pinwheelGlow_21
+    21300044: pinwheelGlow_22
+    21300046: pinwheelGlow_23
+    21300048: pinwheelGlow_24
+    21300050: pinwheelGlow_25
+    21300052: pinwheelGlow_26
+    21300054: pinwheelGlow_27
+    21300056: pinwheelGlow_28
+    21300058: pinwheelGlow_29
+    21300060: pinwheelGlow_30
+    21300062: pinwheelGlow_31
+    21300064: pinwheelGlow_32
+    21300066: pinwheelGlow_33
+    21300068: pinwheelGlow_34
+    21300070: pinwheelGlow_35
+    21300072: pinwheelGlow_36
+    21300074: pinwheelGlow_37
+    21300076: pinwheelGlow_38
+    21300078: pinwheelGlow_39
+    21300080: pinwheelGlow_40
+    21300082: pinwheelGlow_41
+    21300084: pinwheelGlow_42
+    21300086: pinwheelGlow_43
+    21300088: pinwheelGlow_44
+    21300090: pinwheelGlow_45
+    21300092: pinwheelGlow_46
+    21300094: pinwheelGlow_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pinwheelGlow_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1340
+        width: 93
+        height: 172
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1340
+        width: 93
+        height: 173
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1340
+        width: 94
+        height: 174
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1340
+        width: 95
+        height: 175
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1339
+        width: 95
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_5
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1339
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_6
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1339
+        width: 97
+        height: 179
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1120
+        width: 98
+        height: 179
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1120
+        width: 99
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1120
+        width: 99
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1120
+        width: 100
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1120
+        width: 101
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1120
+        width: 102
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_13
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1119
+        width: 103
+        height: 184
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 899
+        width: 103
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 899
+        width: 104
+        height: 186
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 898
+        width: 105
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_17
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 898
+        width: 105
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 897
+        width: 106
+        height: 189
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_19
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 897
+        width: 107
+        height: 189
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_20
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 896
+        width: 108
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 677
+        width: 109
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_22
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 676
+        width: 109
+        height: 192
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 675
+        width: 110
+        height: 194
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_24
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 676
+        width: 109
+        height: 192
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 677
+        width: 109
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_26
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 677
+        width: 108
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_27
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 677
+        width: 107
+        height: 190
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 459
+        width: 106
+        height: 189
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 459
+        width: 106
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 460
+        width: 105
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_31
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 460
+        width: 104
+        height: 186
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_32
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 461
+        width: 104
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_33
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 461
+        width: 103
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_34
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 462
+        width: 102
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 243
+        width: 101
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_36
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 243
+        width: 101
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 244
+        width: 100
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_38
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 244
+        width: 99
+        height: 179
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_39
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 244
+        width: 98
+        height: 179
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_40
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 244
+        width: 97
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_41
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 244
+        width: 97
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_42
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 25
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 25
+        width: 95
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_44
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 25
+        width: 95
+        height: 175
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 26
+        width: 94
+        height: 174
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_46
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 26
+        width: 93
+        height: 173
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinwheelGlow_47
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 26
+        width: 92
+        height: 172
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

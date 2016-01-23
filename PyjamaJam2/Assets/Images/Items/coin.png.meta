@@ -1,9 +1,33 @@
 fileFormatVersion: 2
 guid: 5930e202f5656c9418078b2aafe5ca77
-timeCreated: 1453139332
+timeCreated: 1453571027
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: coin_0
+    21300002: coin_1
+    21300004: coin_2
+    21300006: coin_3
+    21300008: coin_4
+    21300010: coin_5
+    21300012: coin_6
+    21300014: coin_7
+    21300016: coin_8
+    21300018: coin_9
+    21300020: coin_10
+    21300022: coin_11
+    21300024: coin_12
+    21300026: coin_13
+    21300028: coin_14
+    21300030: coin_15
+    21300032: coin_16
+    21300034: coin_17
+    21300036: coin_18
+    21300038: coin_19
+    21300040: coin_20
+    21300042: coin_21
+    21300044: coin_22
+    21300046: coin_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,18 +50,18 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +72,247 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: coin_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2037
+        width: 385
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_1
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2037
+        width: 385
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_2
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2028
+        width: 248
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_3
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 2028
+        width: 246
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_4
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 2026
+        width: 174
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_5
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 2026
+        width: 174
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1379
+        width: 295
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_7
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1379
+        width: 295
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_8
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1391
+        width: 422
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_9
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1391
+        width: 422
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_10
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1410
+        width: 491
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_11
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 1410
+        width: 492
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 799
+        width: 502
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_13
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 799
+        width: 501
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_14
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 852
+        width: 500
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_15
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 852
+        width: 500
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_16
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 875
+        width: 496
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_17
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 875
+        width: 494
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 184
+        width: 504
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_19
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 184
+        width: 504
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_20
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 148
+        width: 502
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_21
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 148
+        width: 502
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_22
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 105
+        width: 492
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_23
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 105
+        width: 490
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

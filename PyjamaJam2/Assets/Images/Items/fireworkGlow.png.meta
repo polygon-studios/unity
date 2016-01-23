@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 1bf92a570d04b6c478dbae1dcfc4488c
+timeCreated: 1453580117
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fireworkGlow_0
+    21300002: fireworkGlow_1
+    21300004: fireworkGlow_2
+    21300006: fireworkGlow_3
+    21300008: fireworkGlow_4
+    21300010: fireworkGlow_5
+    21300012: fireworkGlow_6
+    21300014: fireworkGlow_7
+    21300016: fireworkGlow_8
+    21300018: fireworkGlow_9
+    21300020: fireworkGlow_10
+    21300022: fireworkGlow_11
+    21300024: fireworkGlow_12
+    21300026: fireworkGlow_13
+    21300028: fireworkGlow_14
+    21300030: fireworkGlow_15
+    21300032: fireworkGlow_16
+    21300034: fireworkGlow_17
+    21300036: fireworkGlow_18
+    21300038: fireworkGlow_19
+    21300040: fireworkGlow_20
+    21300042: fireworkGlow_21
+    21300044: fireworkGlow_22
+    21300046: fireworkGlow_23
+    21300048: fireworkGlow_24
+    21300050: fireworkGlow_25
+    21300052: fireworkGlow_26
+    21300054: fireworkGlow_27
+    21300056: fireworkGlow_28
+    21300058: fireworkGlow_29
+    21300060: fireworkGlow_30
+    21300062: fireworkGlow_31
+    21300064: fireworkGlow_32
+    21300066: fireworkGlow_33
+    21300068: fireworkGlow_34
+    21300070: fireworkGlow_35
+    21300072: fireworkGlow_36
+    21300074: fireworkGlow_37
+    21300076: fireworkGlow_38
+    21300078: fireworkGlow_39
+    21300080: fireworkGlow_40
+    21300082: fireworkGlow_41
+    21300084: fireworkGlow_42
+    21300086: fireworkGlow_43
+    21300088: fireworkGlow_44
+    21300090: fireworkGlow_45
+    21300092: fireworkGlow_46
+    21300094: fireworkGlow_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fireworkGlow_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1340
+        width: 88
+        height: 174
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1340
+        width: 89
+        height: 175
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1340
+        width: 90
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1340
+        width: 90
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1340
+        width: 92
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1340
+        width: 93
+        height: 179
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1339
+        width: 93
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1120
+        width: 94
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1120
+        width: 95
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1120
+        width: 96
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_10
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1120
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1120
+        width: 97
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_12
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1119
+        width: 99
+        height: 186
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_13
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1119
+        width: 100
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 899
+        width: 100
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 899
+        width: 101
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 898
+        width: 102
+        height: 189
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 897
+        width: 103
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 897
+        width: 104
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_19
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 896
+        width: 105
+        height: 193
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_20
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 896
+        width: 106
+        height: 193
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 676
+        width: 107
+        height: 194
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 675
+        width: 107
+        height: 195
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_23
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 674
+        width: 108
+        height: 197
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 675
+        width: 108
+        height: 195
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_25
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 676
+        width: 107
+        height: 194
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_26
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 676
+        width: 105
+        height: 194
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_27
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 677
+        width: 105
+        height: 192
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 458
+        width: 104
+        height: 192
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 459
+        width: 103
+        height: 190
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_30
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 459
+        width: 103
+        height: 190
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 460
+        width: 102
+        height: 189
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_32
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 460
+        width: 101
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_33
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 461
+        width: 100
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_34
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 461
+        width: 99
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 243
+        width: 98
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_36
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 243
+        width: 97
+        height: 184
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 243
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_38
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 243
+        width: 96
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_39
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 244
+        width: 95
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_40
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 244
+        width: 93
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_41
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 244
+        width: 93
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 25
+        width: 92
+        height: 179
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 25
+        width: 91
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 25
+        width: 91
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_45
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 26
+        width: 90
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_46
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 26
+        width: 89
+        height: 175
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireworkGlow_47
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 26
+        width: 89
+        height: 174
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

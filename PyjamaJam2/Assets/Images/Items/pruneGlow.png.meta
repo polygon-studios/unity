@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 0c2a85244d5261d4393ca10bdfacbed6
+timeCreated: 1453581355
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pruneGlow_0
+    21300002: pruneGlow_1
+    21300004: pruneGlow_2
+    21300006: pruneGlow_3
+    21300008: pruneGlow_4
+    21300010: pruneGlow_5
+    21300012: pruneGlow_6
+    21300014: pruneGlow_7
+    21300016: pruneGlow_8
+    21300018: pruneGlow_9
+    21300020: pruneGlow_10
+    21300022: pruneGlow_11
+    21300024: pruneGlow_12
+    21300026: pruneGlow_13
+    21300028: pruneGlow_14
+    21300030: pruneGlow_15
+    21300032: pruneGlow_16
+    21300034: pruneGlow_17
+    21300036: pruneGlow_18
+    21300038: pruneGlow_19
+    21300040: pruneGlow_20
+    21300042: pruneGlow_21
+    21300044: pruneGlow_22
+    21300046: pruneGlow_23
+    21300048: pruneGlow_24
+    21300050: pruneGlow_25
+    21300052: pruneGlow_26
+    21300054: pruneGlow_27
+    21300056: pruneGlow_28
+    21300058: pruneGlow_29
+    21300060: pruneGlow_30
+    21300062: pruneGlow_31
+    21300064: pruneGlow_32
+    21300066: pruneGlow_33
+    21300068: pruneGlow_34
+    21300070: pruneGlow_35
+    21300072: pruneGlow_36
+    21300074: pruneGlow_37
+    21300076: pruneGlow_38
+    21300078: pruneGlow_39
+    21300080: pruneGlow_40
+    21300082: pruneGlow_41
+    21300084: pruneGlow_42
+    21300086: pruneGlow_43
+    21300088: pruneGlow_44
+    21300090: pruneGlow_45
+    21300092: pruneGlow_46
+    21300094: pruneGlow_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pruneGlow_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1041
+        width: 99
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1041
+        width: 100
+        height: 130
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1041
+        width: 101
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1040
+        width: 103
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1040
+        width: 104
+        height: 134
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_5
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1040
+        width: 104
+        height: 135
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_6
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1039
+        width: 106
+        height: 138
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 870
+        width: 107
+        height: 138
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 870
+        width: 108
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 870
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 869
+        width: 111
+        height: 142
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 869
+        width: 113
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 868
+        width: 114
+        height: 145
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_13
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 867
+        width: 115
+        height: 146
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 698
+        width: 116
+        height: 146
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 697
+        width: 118
+        height: 148
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 696
+        width: 118
+        height: 149
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_17
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 695
+        width: 119
+        height: 150
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_18
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 694
+        width: 121
+        height: 152
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_19
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 693
+        width: 122
+        height: 153
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_20
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 693
+        width: 124
+        height: 154
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 523
+        width: 125
+        height: 155
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 522
+        width: 126
+        height: 156
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_23
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 521
+        width: 128
+        height: 158
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_24
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 522
+        width: 126
+        height: 156
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 522
+        width: 125
+        height: 156
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_26
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 523
+        width: 124
+        height: 155
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_27
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 524
+        width: 122
+        height: 153
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 356
+        width: 121
+        height: 151
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 356
+        width: 120
+        height: 151
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_30
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 357
+        width: 119
+        height: 149
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_31
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 358
+        width: 118
+        height: 148
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_32
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 358
+        width: 117
+        height: 148
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_33
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 359
+        width: 116
+        height: 146
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_34
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 360
+        width: 114
+        height: 145
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 192
+        width: 113
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_36
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 192
+        width: 112
+        height: 142
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_37
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 192
+        width: 110
+        height: 141
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_38
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 193
+        width: 109
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_39
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 193
+        width: 108
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_40
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 194
+        width: 107
+        height: 137
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_41
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 194
+        width: 106
+        height: 136
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 25
+        width: 104
+        height: 135
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 26
+        width: 104
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 26
+        width: 102
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 26
+        width: 101
+        height: 132
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_46
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 26
+        width: 100
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pruneGlow_47
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 27
+        width: 99
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

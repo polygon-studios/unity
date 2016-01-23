@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 4e8ffa47bab0dcd448281ac954f18e69
+timeCreated: 1453569920
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_jumpCycle_0
+    21300002: fox_jumpCycle_1
+    21300004: fox_jumpCycle_2
+    21300006: fox_jumpCycle_3
+    21300008: fox_jumpCycle_4
+    21300010: fox_jumpCycle_5
+    21300012: fox_jumpCycle_6
+    21300014: fox_jumpCycle_7
+    21300016: fox_jumpCycle_8
+    21300018: fox_jumpCycle_9
+    21300020: fox_jumpCycle_10
+    21300022: fox_jumpCycle_11
+    21300024: fox_jumpCycle_12
+    21300026: fox_jumpCycle_13
+    21300028: fox_jumpCycle_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_jumpCycle_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 150
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 150
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 150
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 150
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 150
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 75
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 76
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 76
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 75
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 76
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_jumpCycle_14
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

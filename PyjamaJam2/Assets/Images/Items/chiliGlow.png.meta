@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 56e58fb6f1c881d4ca907ea7c6e8619f
+timeCreated: 1453579778
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chiliGlow_0
+    21300002: chiliGlow_1
+    21300004: chiliGlow_2
+    21300006: chiliGlow_3
+    21300008: chiliGlow_4
+    21300010: chiliGlow_5
+    21300012: chiliGlow_6
+    21300014: chiliGlow_7
+    21300016: chiliGlow_8
+    21300018: chiliGlow_9
+    21300020: chiliGlow_10
+    21300022: chiliGlow_11
+    21300024: chiliGlow_12
+    21300026: chiliGlow_13
+    21300028: chiliGlow_14
+    21300030: chiliGlow_15
+    21300032: chiliGlow_16
+    21300034: chiliGlow_17
+    21300036: chiliGlow_18
+    21300038: chiliGlow_19
+    21300040: chiliGlow_20
+    21300042: chiliGlow_21
+    21300044: chiliGlow_22
+    21300046: chiliGlow_23
+    21300048: chiliGlow_24
+    21300050: chiliGlow_25
+    21300052: chiliGlow_26
+    21300054: chiliGlow_27
+    21300056: chiliGlow_28
+    21300058: chiliGlow_29
+    21300060: chiliGlow_30
+    21300062: chiliGlow_31
+    21300064: chiliGlow_32
+    21300066: chiliGlow_33
+    21300068: chiliGlow_34
+    21300070: chiliGlow_35
+    21300072: chiliGlow_36
+    21300074: chiliGlow_37
+    21300076: chiliGlow_38
+    21300078: chiliGlow_39
+    21300080: chiliGlow_40
+    21300082: chiliGlow_41
+    21300084: chiliGlow_42
+    21300086: chiliGlow_43
+    21300088: chiliGlow_44
+    21300090: chiliGlow_45
+    21300092: chiliGlow_46
+    21300094: chiliGlow_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chiliGlow_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 586
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 585
+        width: 49
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 585
+        width: 50
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 585
+        width: 52
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 585
+        width: 52
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 585
+        width: 54
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 585
+        width: 54
+        height: 102
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_7
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 585
+        width: 56
+        height: 103
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_8
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 585
+        width: 56
+        height: 104
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 585
+        width: 58
+        height: 104
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 585
+        width: 58
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 445
+        width: 60
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 444
+        width: 60
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 443
+        width: 62
+        height: 109
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 443
+        width: 63
+        height: 109
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 442
+        width: 64
+        height: 110
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 441
+        width: 65
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_17
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 441
+        width: 67
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 440
+        width: 68
+        height: 113
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_19
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 439
+        width: 69
+        height: 114
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_20
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 439
+        width: 69
+        height: 114
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_21
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 438
+        width: 71
+        height: 115
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 298
+        width: 72
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 297
+        width: 74
+        height: 117
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 298
+        width: 72
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_25
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 298
+        width: 71
+        height: 115
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_26
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 299
+        width: 70
+        height: 114
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 299
+        width: 69
+        height: 114
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_28
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 300
+        width: 68
+        height: 113
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_29
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 300
+        width: 67
+        height: 112
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_30
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 301
+        width: 65
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 301
+        width: 65
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_32
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 302
+        width: 63
+        height: 110
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 162
+        width: 62
+        height: 109
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 163
+        width: 62
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 164
+        width: 60
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 164
+        width: 58
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 164
+        width: 58
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_38
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 164
+        width: 58
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_39
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 164
+        width: 56
+        height: 104
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 164
+        width: 56
+        height: 103
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_41
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 165
+        width: 54
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_42
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 165
+        width: 53
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_43
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 165
+        width: 52
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_44
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 25
+        width: 51
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 25
+        width: 50
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_46
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 25
+        width: 49
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chiliGlow_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 26
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 8b0c30692da1854469eaf274cfaa8d4a
+timeCreated: 1453580616
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oilGlow_0
+    21300002: oilGlow_1
+    21300004: oilGlow_2
+    21300006: oilGlow_3
+    21300008: oilGlow_4
+    21300010: oilGlow_5
+    21300012: oilGlow_6
+    21300014: oilGlow_7
+    21300016: oilGlow_8
+    21300018: oilGlow_9
+    21300020: oilGlow_10
+    21300022: oilGlow_11
+    21300024: oilGlow_12
+    21300026: oilGlow_13
+    21300028: oilGlow_14
+    21300030: oilGlow_15
+    21300032: oilGlow_16
+    21300034: oilGlow_17
+    21300036: oilGlow_18
+    21300038: oilGlow_19
+    21300040: oilGlow_20
+    21300042: oilGlow_21
+    21300044: oilGlow_22
+    21300046: oilGlow_23
+    21300048: oilGlow_24
+    21300050: oilGlow_25
+    21300052: oilGlow_26
+    21300054: oilGlow_27
+    21300056: oilGlow_28
+    21300058: oilGlow_29
+    21300060: oilGlow_30
+    21300062: oilGlow_31
+    21300064: oilGlow_32
+    21300066: oilGlow_33
+    21300068: oilGlow_34
+    21300070: oilGlow_35
+    21300072: oilGlow_36
+    21300074: oilGlow_37
+    21300076: oilGlow_38
+    21300078: oilGlow_39
+    21300080: oilGlow_40
+    21300082: oilGlow_41
+    21300084: oilGlow_42
+    21300086: oilGlow_43
+    21300088: oilGlow_44
+    21300090: oilGlow_45
+    21300092: oilGlow_46
+    21300094: oilGlow_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: oilGlow_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1210
+        width: 116
+        height: 127
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1210
+        width: 118
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1210
+        width: 118
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_3
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1209
+        width: 119
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_4
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1209
+        width: 121
+        height: 132
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_5
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1209
+        width: 121
+        height: 134
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1039
+        width: 122
+        height: 135
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1039
+        width: 123
+        height: 136
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1039
+        width: 124
+        height: 137
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1039
+        width: 125
+        height: 138
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1038
+        width: 126
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_11
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1038
+        width: 126
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 868
+        width: 128
+        height: 142
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 867
+        width: 128
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 867
+        width: 130
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 866
+        width: 130
+        height: 145
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_16
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 865
+        width: 131
+        height: 146
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_17
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 864
+        width: 131
+        height: 147
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 694
+        width: 133
+        height: 149
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 694
+        width: 133
+        height: 149
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_20
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 693
+        width: 135
+        height: 150
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 692
+        width: 135
+        height: 151
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 691
+        width: 136
+        height: 152
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_23
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 690
+        width: 138
+        height: 154
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 522
+        width: 136
+        height: 152
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 523
+        width: 135
+        height: 151
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_26
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 523
+        width: 135
+        height: 151
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_27
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 524
+        width: 133
+        height: 149
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 525
+        width: 133
+        height: 148
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_29
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 525
+        width: 132
+        height: 148
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 357
+        width: 131
+        height: 146
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 358
+        width: 131
+        height: 145
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_32
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 359
+        width: 130
+        height: 144
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_33
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 359
+        width: 129
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_34
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 360
+        width: 128
+        height: 142
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_35
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 361
+        width: 127
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 126
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 193
+        width: 126
+        height: 138
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_38
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 193
+        width: 125
+        height: 137
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_39
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 193
+        width: 123
+        height: 136
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_40
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 194
+        width: 123
+        height: 135
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_41
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 194
+        width: 121
+        height: 134
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 25
+        width: 121
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_43
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 26
+        width: 120
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 26
+        width: 119
+        height: 131
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_45
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 26
+        width: 118
+        height: 130
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_46
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 26
+        width: 118
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oilGlow_47
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 27
+        width: 116
+        height: 127
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

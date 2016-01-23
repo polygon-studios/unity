@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1fc59135c62d67d4c848e99a7b769110
-timeCreated: 1452124137
+timeCreated: 1453569797
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -77,81 +77,81 @@ TextureImporter:
     - name: fox_walkCycle_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 5
         y: 287
-        width: 46
+        width: 45
         height: 64
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_1
       rect:
         serializedVersion: 2
-        x: 58
+        x: 59
         y: 287
-        width: 45
+        width: 46
         height: 64
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_2
       rect:
         serializedVersion: 2
-        x: 112
+        x: 113
         y: 287
-        width: 45
+        width: 46
         height: 64
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_3
       rect:
         serializedVersion: 2
-        x: 165
+        x: 168
         y: 288
         width: 45
         height: 63
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_4
       rect:
         serializedVersion: 2
-        x: 220
+        x: 222
         y: 288
-        width: 44
+        width: 45
         height: 64
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_5
       rect:
         serializedVersion: 2
-        x: 3
+        x: 6
         y: 217
         width: 45
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_6
       rect:
         serializedVersion: 2
-        x: 58
+        x: 59
         y: 217
         width: 45
         height: 66
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_7
       rect:
         serializedVersion: 2
-        x: 112
+        x: 113
         y: 217
         width: 45
         height: 66
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_8
@@ -161,107 +161,107 @@ TextureImporter:
         y: 217
         width: 46
         height: 66
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_9
       rect:
         serializedVersion: 2
-        x: 220
+        x: 221
         y: 217
         width: 45
         height: 66
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_10
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 146
         width: 45
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_11
       rect:
         serializedVersion: 2
-        x: 58
+        x: 59
         y: 145
         width: 45
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_12
       rect:
         serializedVersion: 2
-        x: 112
+        x: 114
         y: 144
         width: 44
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_13
       rect:
         serializedVersion: 2
-        x: 166
+        x: 168
         y: 144
-        width: 44
+        width: 45
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_14
       rect:
         serializedVersion: 2
-        x: 220
+        x: 222
         y: 144
-        width: 44
+        width: 45
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_15
       rect:
         serializedVersion: 2
-        x: 3
+        x: 6
         y: 73
         width: 45
         height: 65
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_16
       rect:
         serializedVersion: 2
-        x: 57
+        x: 59
         y: 74
-        width: 45
+        width: 46
         height: 64
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_17
       rect:
         serializedVersion: 2
-        x: 112
+        x: 113
         y: 73
-        width: 45
+        width: 46
         height: 66
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_18
       rect:
         serializedVersion: 2
-        x: 166
+        x: 167
         y: 73
-        width: 45
+        width: 46
         height: 67
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_19
@@ -269,19 +269,19 @@ TextureImporter:
         serializedVersion: 2
         x: 220
         y: 73
-        width: 46
+        width: 47
         height: 68
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_20
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 2
-        width: 47
+        width: 46
         height: 68
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_21
@@ -291,37 +291,37 @@ TextureImporter:
         y: 2
         width: 46
         height: 68
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_22
       rect:
         serializedVersion: 2
-        x: 111
+        x: 112
         y: 2
         width: 47
         height: 68
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_23
       rect:
         serializedVersion: 2
-        x: 165
+        x: 167
         y: 2
-        width: 47
+        width: 46
         height: 67
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fox_walkCycle_24
       rect:
         serializedVersion: 2
-        x: 220
+        x: 221
         y: 2
         width: 46
         height: 66
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
