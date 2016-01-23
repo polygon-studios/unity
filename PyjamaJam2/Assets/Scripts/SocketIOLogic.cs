@@ -15,6 +15,7 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("open", TestOpen);
 		socket.On("news", TestBoop);
 		socket.On("success", TestBoop);
+		socket.On("Position", TestPosition);
 		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
@@ -49,8 +50,8 @@ public class SocketIOLogic : MonoBehaviour
 		// wait 2 seconds and continue
 		yield return new WaitForSeconds(2);
 		
-		socket.Emit("beep");
-		
+		socket.Emit("getPositions");
+		Debug.Log ("getPositions done");
 		// wait ONE FRAME and continue
 		yield return null;
 		
@@ -64,6 +65,19 @@ public class SocketIOLogic : MonoBehaviour
 	}
 	
 	public void TestBoop(SocketIOEvent e)
+	{
+		Debug.Log("[SocketIO] Boop received: " + e.name + " " + e.data);
+		
+		if (e.data == null) { return; }
+		
+		Debug.Log(
+			"#####################################################" +
+			"THIS: " + e.data.GetField("this").str +
+			"#####################################################"
+			);
+	}
+
+	public void TestPosition(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Boop received: " + e.name + " " + e.data);
 		
