@@ -32,16 +32,14 @@ public class SocketIOLogic : MonoBehaviour
 		//socket.On("close", TestClose);
 		//socket.Emit("beep");
 		//socket.Emit("open");
+		//socket.On("Position", TestPosition);
+		//socket.On("boop", TestBoop);
 	}
 	
 	IEnumerator BeepBoop(float disValue)
 	{
 		Debug.Log ("Testing beepboop");
-		// wait 1 seconds and continue
-		yield return new WaitForSeconds(1);
-		
-		socket.Emit("open");
-		Debug.Log ("Opendone");
+
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(3);
 		
