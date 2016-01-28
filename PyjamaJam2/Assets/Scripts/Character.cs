@@ -26,11 +26,16 @@ public class Character : MonoBehaviour {
 	void Update () {
 		Movement ();
 		if (item != null) {
-			if(item.beenTriggered == true)
+			if(item.beenTriggered == false){
+				animator.SetTrigger ("foxBindle");
+			}
+			if(item.beenTriggered == true){
 				item.doUpdate();
+			}
 			else if(Input.GetKeyDown(KeyCode.I)){
 			    item.TriggerEffect();
 				item.beenTriggered = true;
+				animator.ResetTrigger ("foxBindle");
 			}
 
 		}
@@ -38,6 +43,7 @@ public class Character : MonoBehaviour {
 
 	void Movement(){
 		animator.SetFloat ("foxMoveSpeed", Mathf.Abs (Input.GetAxis ("Horizontal")));
+       
 
 		if (Input.GetAxisRaw ("Horizontal") > 0) {
 			transform.Translate(Vector3.right*speed*Time.deltaTime);
