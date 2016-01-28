@@ -45,6 +45,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JSON\JSONObject.cs" />
+     <Compile Include="Assets\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\JSON\VectorTemplates.cs" />
      <Compile Include="Assets\Scripts\BackgroundChanger.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\Chili.cs" />
@@ -63,9 +66,6 @@
      <Compile Include="Assets\Scripts\SpoutSender.cs" />
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
      <Compile Include="Assets\Scripts\TreasureChest.cs" />
-     <Compile Include="Assets\SocketIO\JSONObject\JSONObject.cs" />
-     <Compile Include="Assets\SocketIO\JSONObject\JSONTemplates.cs" />
-     <Compile Include="Assets\SocketIO\JSONObject\VectorTemplates.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Ack.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Decoder.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Encoder.cs" />
@@ -143,20 +143,14 @@
      <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketFrame.cs" />
      <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketState.cs" />
      <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketStream.cs" />
-     <None Include="Assets\SocketIO\JSONObject\readme.txt" />
+     <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\SocketIO\Readme.txt" />
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -49,16 +49,9 @@ public class SocketIOLogic : MonoBehaviour
 		yield return new WaitForSeconds(3);
 		
 		socket.Emit("beep");
-		Debug.Log ("Beepdone");
 		// wait 2 seconds and continue
 		yield return new WaitForSeconds(2);
 		
-		socket.Emit("getPositions");
-		Debug.Log ("getPositions done");
-		// wait ONE FRAME and continue
-		yield return null;
-		
-		socket.Emit("getPositions");
 		socket.Emit("getPositions");
 	}
 	
@@ -86,8 +79,13 @@ public class SocketIOLogic : MonoBehaviour
 		Debug.Log("Trap x pos:" + e.data["pos-x"] + " trap y pos: " + e.data["pos-y"]);
 
 
-		Debug.Log (e.data ["pos-x"]);
-		GameObject trap = (GameObject)Instantiate (trapPrefab, new Vector3 (14.0f, 4.0f, 0), Quaternion.identity);
+		string tempx = string.Format ("{0}", e.data ["pos-x"]);
+		float xPos = (float.Parse (tempx)) * 0.733f;
+		string tempy = string.Format ("{0}", e.data ["pos-y"]);
+		float yPos = (float.Parse (tempy)) * 0.777f;
+
+
+		GameObject trap = (GameObject)Instantiate (trapPrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
 
 		if (e.data == null) { return; }
 		
@@ -106,5 +104,39 @@ public class SocketIOLogic : MonoBehaviour
 	public void TestClose(SocketIOEvent e)
 	{	
 		Debug.Log("[SocketIO] Close received: " + e.name + " " + e.data);
+	}
+
+	public void accessData(JSONObject obj){
+		switch(obj.type){
+		case JSONObject.Type.OBJECT:
+			for(int i = 0; i < obj.list.Count; i++){
+				string key = (string)obj.keys[i];
+				JSONObject j = (JSONObject)obj.list[i];
+				Debug.Log(key);
+				accessData(j);
+			}
+			break;
+		case JSONObject.Type.ARRAY:
+			foreach(JSONObject j in obj.list){
+				accessData(j);
+				Debug.Log("ARRAY");
+			}
+			break;
+		case JSONObject.Type.STRING:
+			Debug.Log("STRING");
+			Debug.Log(obj.str);
+			break;
+		case JSONObject.Type.NUMBER:
+			Debug.Log("NUMBER");
+			Debug.Log(obj.n);
+			break;
+		case JSONObject.Type.BOOL:
+			Debug.Log(obj.b);
+			break;
+		case JSONObject.Type.NULL:
+			Debug.Log("NULL");
+			break;
+			
+		}
 	}
 }
