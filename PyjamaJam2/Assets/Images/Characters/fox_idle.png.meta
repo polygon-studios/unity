@@ -1,29 +1,29 @@
 fileFormatVersion: 2
-guid: 75aed502bce5a514eba12e6e0698410d
-timeCreated: 1453989403
+guid: d4bcc2120ca6d1d4c8834d204276624a
+timeCreated: 1453989543
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fox_runBindle_0
-    21300002: fox_runBindle_1
-    21300004: fox_runBindle_2
-    21300006: fox_runBindle_3
-    21300008: fox_runBindle_4
-    21300010: fox_runBindle_5
-    21300012: fox_runBindle_6
-    21300014: fox_runBindle_7
-    21300016: fox_runBindle_8
-    21300018: fox_runBindle_9
-    21300020: fox_runBindle_10
-    21300022: fox_runBindle_11
-    21300024: fox_runBindle_12
-    21300026: fox_runBindle_13
-    21300028: fox_runBindle_14
-    21300030: fox_runBindle_15
-    21300032: fox_runBindle_16
-    21300034: fox_runBindle_17
-    21300036: fox_runBindle_18
-    21300038: fox_runBindle_19
+    21300000: fox_idle_0
+    21300002: fox_idle_1
+    21300004: fox_idle_2
+    21300006: fox_idle_3
+    21300008: fox_idle_4
+    21300010: fox_idle_5
+    21300012: fox_idle_6
+    21300014: fox_idle_7
+    21300016: fox_idle_8
+    21300018: fox_idle_9
+    21300020: fox_idle_10
+    21300022: fox_idle_11
+    21300024: fox_idle_12
+    21300026: fox_idle_13
+    21300028: fox_idle_14
+    21300030: fox_idle_15
+    21300032: fox_idle_16
+    21300034: fox_idle_17
+    21300036: fox_idle_18
+    21300038: fox_idle_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,203 +69,203 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: fox_runBindle_0
+    - name: fox_idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 310
-        width: 59
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_1
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 308
-        width: 57
+        y: 438
+        width: 46
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_2
+    - name: fox_idle_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 306
-        width: 58
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_3
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 306
-        width: 57
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_4
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 229
-        width: 58
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_5
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 228
-        width: 61
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_6
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 229
-        width: 63
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_7
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 229
-        width: 60
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 151
-        width: 62
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_9
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 154
-        width: 63
+        x: 50
+        y: 438
+        width: 46
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_10
+    - name: fox_idle_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 158
-        width: 61
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_11
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 156
-        width: 61
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 76
-        width: 60
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_13
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 76
-        width: 59
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_14
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 75
-        width: 63
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_15
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 76
-        width: 58
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_16
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 58
+        x: 101
+        y: 438
+        width: 45
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_17
+    - name: fox_idle_3
       rect:
         serializedVersion: 2
-        x: 62
-        y: 0
-        width: 56
+        x: 152
+        y: 438
+        width: 45
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_18
+    - name: fox_idle_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 58
+        x: 202
+        y: 438
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 364
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 364
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 364
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 364
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 364
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 290
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 290
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 290
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 290
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 290
+        width: 46
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runBindle_19
+    - name: fox_idle_15
       rect:
         serializedVersion: 2
-        x: 184
-        y: 2
-        width: 56
-        height: 72
+        x: 2
+        y: 216
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 216
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 216
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 216
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fox_idle_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 216
+        width: 46
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

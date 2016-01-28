@@ -25,20 +25,8 @@ public class Character : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Movement ();
-		if (item != null) {
-			if(item.beenTriggered == false){
-				animator.SetTrigger ("foxBindle");
-			}
-			if(item.beenTriggered == true){
-				item.doUpdate();
-			}
-			else if(Input.GetKeyDown(KeyCode.I)){
-			    item.TriggerEffect();
-				item.beenTriggered = true;
-				animator.ResetTrigger ("foxBindle");
-			}
+		ItemCheck ();
 
-		}
 	}
 
 	void Movement(){
@@ -60,25 +48,64 @@ public class Character : MonoBehaviour {
 		}
 	}
 
+	void ItemCheck(){
+		if (item != null) {
+
+			if(item.beenTriggered == true){
+				item.doUpdate();
+			}
+			else if(Input.GetKeyDown(KeyCode.I)){
+				item.TriggerEffect();
+				item.beenTriggered = true;
+				animator.ResetTrigger ("foxBindle");
+			}else{
+				animator.SetTrigger ("foxBindle");
+			}
+			
+		}
+
+	}
+
 	void OnTriggerEnter2D(Collider2D objectHit){
 
 		///picking up an item
 		if (objectHit.gameObject.tag == "item") {
 
+
 			if (objectHit.gameObject.GetComponent<Chili> () != null) {
 				//requires other multiplayer prior to coding
 
-				/*Chili chili = objectHit.gameObject.GetComponent<Chili>();
-				chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
+				Chili chili = objectHit.gameObject.GetComponent<Chili>();
+				chili.initVariables (this.gameObject.GetComponent<Character> ());
+				//chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
 				chili.Hide();
 				
-				item = chili;*/
+				item = chili;
+			}else if (objectHit.gameObject.GetComponent<Fish> () != null) {
+				Fish fish = objectHit.gameObject.GetComponent<Fish> ();
+				fish.initVariables (this.gameObject.GetComponent<Character> ());
+				fish.Hide ();
+				
+				item = fish;
+			}else if (objectHit.gameObject.GetComponent<GhostItem> () != null) {
+				GhostItem ghost = objectHit.gameObject.GetComponent<GhostItem> ();
+				ghost.initVariables (this.gameObject.GetComponent<Character> ());
+				ghost.Hide ();
+				
+				item = ghost;
 			} else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
 				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
 				pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
 				pinwheel.Hide ();
 
 				item = pinwheel;
+			} else if (objectHit.gameObject.GetComponent<Prune> () != null) {
+				//requires other multiplayer prior to coding
+				Prune prune = objectHit.gameObject.GetComponent<Prune>();
+				prune.initVariables (this.gameObject.GetComponent<Character> ());
+				prune.Hide();
+				
+				item = prune;
 			} else if (objectHit.gameObject.GetComponent<Slippers> () != null) {
 				Slippers slippers = objectHit.gameObject.GetComponent<Slippers> ();
 				slippers.initVariables (this.gameObject.GetComponent<Character> ());
@@ -91,7 +118,11 @@ public class Character : MonoBehaviour {
 				treasure.Hide ();
 				
 				item = treasure;
-			}
+			}/*else{
+				Item newItem = objectHit.gameObject.GetComponent<Item>();
+				newItem.Hide();
+				item = newItem;
+			}*/
 
 		} else if (objectHit.gameObject.tag == "coin") {
 			//increase points

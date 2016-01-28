@@ -55,11 +55,14 @@
      <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\Collision.cs" />
      <Compile Include="Assets\Scripts\DatabaseConnector.cs" />
+     <Compile Include="Assets\Scripts\Fish.cs" />
      <Compile Include="Assets\Scripts\GameMaster.cs" />
+     <Compile Include="Assets\Scripts\GhostItem.cs" />
      <Compile Include="Assets\Scripts\InvertCamera.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\Items.cs" />
      <Compile Include="Assets\Scripts\Pinwheel.cs" />
+     <Compile Include="Assets\Scripts\Prune.cs" />
      <Compile Include="Assets\Scripts\Slippers.cs" />
      <Compile Include="Assets\Scripts\SocketIOLogic.cs" />
      <Compile Include="Assets\Scripts\Spout.cs" />
