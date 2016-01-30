@@ -7,6 +7,7 @@ public class Chili : Item {
 	int effectTimer; 
 	Character character;
 	float timer = 20; //in seconds
+	public GameMaster GM;
 	//Character characters[];//holds all other characters
 
 
@@ -17,8 +18,10 @@ public class Chili : Item {
 	
 	// Update is called once per frame
 	protected override void Update () {
-		base.Update ();
-		
+		//base.Update ();
+		if (base.beenTriggered == true) {
+			updateTrigger();
+		}
 	}
 
 	public void initVariables(Character currCharacter){
@@ -26,13 +29,32 @@ public class Chili : Item {
 	}
 
 	public override void TriggerEffect(){
-		//ask Ian how he is doing the character constants (perhaps need a constants page)
-		//save last button press and continue direction of characters in here by going through a for loop of character array
-		base.DestroySelf();
-		Destroy(this.gameObject);
+		timer -= Time.deltaTime;
 	}
 
 	void updateTrigger(){
+		timer -= Time.deltaTime;
+		
+		if (timer < 0) {
+			character.currentJump = character.starterJump;
+			base.DestroySelf();
+			Destroy(this.gameObject);
+		}
 
+
+		foreach (Character currChar in GM.CHARACTERS) {
+			if(currChar != character && currChar != null){
+				if(currChar.lastPressedKey == currChar.inputRight){
+					currChar.transform.Translate (currChar.speed * Time.deltaTime, 0.0f, 0.0f);
+					currChar.transform.eulerAngles = new Vector2 (0, 0);
+				}else if (currChar.lastPressedKey == currChar.inputLeft){
+					currChar.transform.Translate(currChar.speed * Time.deltaTime, 0.0f, 0.0f);
+					currChar.transform.eulerAngles = new Vector2(0, 180);
+				}
+				
+
+			}
+			
+		}
 	}
 }

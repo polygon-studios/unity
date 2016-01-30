@@ -12,12 +12,13 @@ public class Character : MonoBehaviour {
 	public KeyCode inputRight;
 	public KeyCode inputJump;
 	public string charID;
+	public KeyCode lastPressedKey;
 
 
 	Animator animator;
 	Item item; //holds item
 
-	float speed = 0.8f; //walk 0.5f //run 0.8f
+	public float speed = 0.8f; //walk 0.5f //run 0.8f
 
 
 	// Use this for initialization
@@ -40,11 +41,13 @@ public class Character : MonoBehaviour {
 		if (Input.GetKey (inputRight)) { //moving character right
 			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
 			transform.eulerAngles = new Vector2 (0, 0);
+			lastPressedKey = inputRight;
 		}
 		
 		if (Input.GetKey (inputLeft)) {//move character left
 			transform.Translate(speed * Time.deltaTime, 0.0f, 0.0f);
 			transform.eulerAngles = new Vector2(0, 180);
+			lastPressedKey = inputLeft;
 		}
 
 		/*if (Input.GetAxisRaw ("Horizontal") > 0) {
