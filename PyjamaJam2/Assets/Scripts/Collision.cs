@@ -2,8 +2,6 @@ using UnityEngine;
 using System.Collections;
 
 public class Collision : MonoBehaviour {
-    public Character foxChar;
-
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +15,8 @@ public class Collision : MonoBehaviour {
     
     void OnTriggerEnter2D(Collider2D objectHit){
         if(objectHit.gameObject.tag == "character"){
-            foxChar.isOnGround(true);
+			Character character = objectHit.gameObject.GetComponent<Character>();
+			character.isOnGround(true);
         }
     }
 }

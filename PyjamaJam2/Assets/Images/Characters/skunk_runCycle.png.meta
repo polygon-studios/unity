@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 53091a4592b03604c8dbe51de74c91ad
+timeCreated: 1454166886
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk_runCycle_0
+    21300002: skunk_runCycle_1
+    21300004: skunk_runCycle_2
+    21300006: skunk_runCycle_3
+    21300008: skunk_runCycle_4
+    21300010: skunk_runCycle_5
+    21300012: skunk_runCycle_6
+    21300014: skunk_runCycle_7
+    21300016: skunk_runCycle_8
+    21300018: skunk_runCycle_9
+    21300020: skunk_runCycle_10
+    21300022: skunk_runCycle_11
+    21300024: skunk_runCycle_12
+    21300026: skunk_runCycle_13
+    21300028: skunk_runCycle_14
+    21300030: skunk_runCycle_15
+    21300032: skunk_runCycle_16
+    21300034: skunk_runCycle_17
+    21300036: skunk_runCycle_18
+    21300038: skunk_runCycle_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk_runCycle_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 232
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 230
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 227
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 227
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 227
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 152
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 152
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 153
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 153
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 157
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 84
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 82
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 79
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 79
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 79
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 5
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 6
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skunk_runCycle_19
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 7
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

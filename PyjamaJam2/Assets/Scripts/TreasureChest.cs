@@ -39,7 +39,7 @@ public class TreasureChest : Item {
 		if (timerInterval < 0) {
 
 			float xPosition = Random.Range (character.transform.position.x - 4.0f, character.transform.position.x + 4.0f);
-			GameObject coin = (GameObject)Instantiate (coinPrefab, new Vector3 (xPosition, 5.0f, 0), Quaternion.identity);
+			GameObject coin = (GameObject)Instantiate (coinPrefab, new Vector3 (xPosition, 8.0f, 0), Quaternion.identity);
 
 			Coin coinScript =  coin.GetComponent<Coin>();
 			coinScript.lifeSpan = Random.Range(5f, 10f);

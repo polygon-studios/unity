@@ -8,6 +8,10 @@ public class Character : MonoBehaviour {
 	}
 	public float currentJump = 0f;
 	public float starterJump = 300f;
+	public KeyCode inputLeft;
+	public KeyCode inputRight;
+	public KeyCode inputJump;
+	public string charID;
 
 
 	Animator animator;
@@ -30,21 +34,31 @@ public class Character : MonoBehaviour {
 	}
 
 	void Movement(){
-		animator.SetFloat ("foxMoveSpeed", Mathf.Abs (Input.GetAxis ("Horizontal")));
+		animator.SetFloat (charID +"MoveSpeed", Mathf.Abs (Input.GetAxis ("Horizontal")));
        
 
-		if (Input.GetAxisRaw ("Horizontal") > 0) {
+		if (Input.GetKey (inputRight)) { //moving character right
+			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
+			transform.eulerAngles = new Vector2 (0, 0);
+		}
+		
+		if (Input.GetKey (inputLeft)) {//move character left
+			transform.Translate(speed * Time.deltaTime, 0.0f, 0.0f);
+			transform.eulerAngles = new Vector2(0, 180);
+		}
+
+		/*if (Input.GetAxisRaw ("Horizontal") > 0) {
 			transform.Translate(Vector3.right*speed*Time.deltaTime);
 			transform.eulerAngles = new Vector2 (0,0);
 		}
 		if (Input.GetAxisRaw ("Horizontal") < 0) {
 			transform.Translate(Vector3.right * speed * Time.deltaTime);
 			transform.eulerAngles = new Vector2(0, 180);
-		}
-		if (Input.GetKeyDown (KeyCode.Space) && onGround) {
+		}*/
+		if (Input.GetKey (inputJump) && onGround) {
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
-			animator.SetTrigger ("foxJump");
+			animator.SetTrigger (charID +"Jump");
 		}
 	}
 
@@ -57,9 +71,9 @@ public class Character : MonoBehaviour {
 			else if(Input.GetKeyDown(KeyCode.I)){
 				item.TriggerEffect();
 				item.beenTriggered = true;
-				animator.ResetTrigger ("foxBindle");
+				animator.ResetTrigger (charID + "Bindle");
 			}else{
-				animator.SetTrigger ("foxBindle");
+				animator.SetTrigger (charID + "Bindle");
 			}
 			
 		}
