@@ -41,7 +41,6 @@ public class Chili : Item {
 			Destroy(this.gameObject);
 		}
 
-
 		foreach (Character currChar in GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
 				if(currChar.lastPressedKey == currChar.inputRight){
@@ -51,10 +50,7 @@ public class Chili : Item {
 					currChar.transform.Translate(currChar.speed * Time.deltaTime, 0.0f, 0.0f);
 					currChar.transform.eulerAngles = new Vector2(0, 180);
 				}
-				
-
 			}
-			
 		}
 	}
 }
