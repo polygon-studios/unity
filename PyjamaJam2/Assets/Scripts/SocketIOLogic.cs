@@ -20,7 +20,7 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("open", TestOpen);
 		socket.On("news", TestBoop);
 		socket.On("success", TestBoop);
-		socket.On("trapPlace", TestPosition);
+		socket.On("trapPlace", placeTrap);
 		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
@@ -39,6 +39,7 @@ public class SocketIOLogic : MonoBehaviour
 		//socket.Emit("open");
 		//socket.On("Position", TestPosition);
 		//socket.On("boop", TestBoop);
+		getFoxPosition ();
 	}
 	
 	IEnumerator BeepBoop(float disValue)
@@ -54,11 +55,7 @@ public class SocketIOLogic : MonoBehaviour
 		
 		socket.Emit("getPositions");
 	}
-	
-	public void TestOpen(SocketIOEvent e)
-	{
-		Debug.Log("[SocketIO] Open received: " + e.name + " " + e.data);
-	}
+
 	
 	public void TestBoop(SocketIOEvent e)
 	{
@@ -73,7 +70,7 @@ public class SocketIOLogic : MonoBehaviour
 			);
 	}
 
-	public void TestPosition(SocketIOEvent e)
+	public void placeTrap(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Trap place received: " + e.name + " " + e.data);
 		Debug.Log("Trap x pos:" + e.data["pos-x"] + " trap y pos: " + e.data["pos-y"]);
@@ -95,6 +92,42 @@ public class SocketIOLogic : MonoBehaviour
 			"#####################################################"
 			);
 	}
+
+
+	/*
+	 * 
+	 * Non- socket.io functions
+	 * 
+	 */
+	public void getFoxPosition() {
+		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
+		
+		foreach (GameObject character in Players) {
+			float positionX = character.transform.position.x;
+			float positionY = character.transform.position.y;
+			Dictionary<string, string> data = new Dictionary<string, string>();
+			if(character.name == "character_Fox"){
+				data["fox-X"] = positionX.ToString();
+				data["fox-Y"] = positionY.ToString();
+			}
+
+			Debug.Log (data);
+		}
+
+
+	}
+
+
+	/*
+	 * 
+	 * Open, close and error handling functions
+	 * 
+	 */
+
+	public void TestOpen(SocketIOEvent e)
+	{
+		Debug.Log("[SocketIO] Open received: " + e.name + " " + e.data);
+	}
 	
 	public void TestError(SocketIOEvent e)
 	{
@@ -106,37 +139,4 @@ public class SocketIOLogic : MonoBehaviour
 		Debug.Log("[SocketIO] Close received: " + e.name + " " + e.data);
 	}
 
-	public void accessData(JSONObject obj){
-		switch(obj.type){
-		case JSONObject.Type.OBJECT:
-			for(int i = 0; i < obj.list.Count; i++){
-				string key = (string)obj.keys[i];
-				JSONObject j = (JSONObject)obj.list[i];
-				Debug.Log(key);
-				accessData(j);
-			}
-			break;
-		case JSONObject.Type.ARRAY:
-			foreach(JSONObject j in obj.list){
-				accessData(j);
-				Debug.Log("ARRAY");
-			}
-			break;
-		case JSONObject.Type.STRING:
-			Debug.Log("STRING");
-			Debug.Log(obj.str);
-			break;
-		case JSONObject.Type.NUMBER:
-			Debug.Log("NUMBER");
-			Debug.Log(obj.n);
-			break;
-		case JSONObject.Type.BOOL:
-			Debug.Log(obj.b);
-			break;
-		case JSONObject.Type.NULL:
-			Debug.Log("NULL");
-			break;
-			
-		}
-	}
 }
