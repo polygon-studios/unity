@@ -101,19 +101,23 @@ public class SocketIOLogic : MonoBehaviour
 	 */
 	public void getFoxPosition() {
 		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
-		
+		Dictionary<string, string> data = new Dictionary<string, string>();
+
 		foreach (GameObject character in Players) {
 			float positionX = character.transform.position.x;
 			float positionY = character.transform.position.y;
-			Dictionary<string, string> data = new Dictionary<string, string>();
+
 			if(character.name == "character_Fox"){
 				data["fox-X"] = positionX.ToString();
 				data["fox-Y"] = positionY.ToString();
 			}
+			if(character.name == "character_Skunk"){
+				data["skunk-X"] = positionX.ToString();
+				data["skunk-Y"] = positionY.ToString();
+			}
 
-			Debug.Log (data);
 		}
-
+		socket.Emit("playerPositions", new JSONObject(data));
 
 	}
 
