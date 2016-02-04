@@ -10,8 +10,8 @@ public class SocketIOLogic : MonoBehaviour
 {
 	private SocketIOComponent socket;
 	public GameObject trapPrefab;
-	
-	public void Start() 
+
+	public void Start()
 	{
 		GameObject go = GameObject.FindWithTag("SocketIO");
 		if (go) {
@@ -24,7 +24,7 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
-		
+
 		StartCoroutine(BeepBoop(1.0f));
 	}
 
@@ -41,28 +41,28 @@ public class SocketIOLogic : MonoBehaviour
 		//socket.On("boop", TestBoop);
 		getFoxPosition ();
 	}
-	
+
 	IEnumerator BeepBoop(float disValue)
 	{
 		Debug.Log ("Testing beepboop");
 
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(3);
-		
+
 		socket.Emit("beep");
 		// wait 2 seconds and continue
 		yield return new WaitForSeconds(2);
-		
+
 		socket.Emit("getPositions");
 	}
 
-	
+
 	public void TestBoop(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Boop received: " + e.name + " " + e.data);
-		
+
 		if (e.data == null) { return; }
-		
+
 		Debug.Log(
 			"#####################################################" +
 			"THIS: " + e.data.GetField("this").str +
@@ -85,7 +85,7 @@ public class SocketIOLogic : MonoBehaviour
 		GameObject trap = (GameObject)Instantiate (trapPrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
 
 		if (e.data == null) { return; }
-		
+
 		Debug.Log(
 			"#####################################################" +
 			"THIS: " + e.data.GetField("this").str +
@@ -95,9 +95,9 @@ public class SocketIOLogic : MonoBehaviour
 
 
 	/*
-	 * 
+	 *
 	 * Non- socket.io functions
-	 * 
+	 *
 	 */
 	public void getFoxPosition() {
 		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
@@ -108,8 +108,8 @@ public class SocketIOLogic : MonoBehaviour
 			float positionY = character.transform.position.y;
 
 			if(character.name == "character_Fox"){
-				data["fox-X"] = positionX.ToString();
-				data["fox-Y"] = positionY.ToString();
+				data["foxX"] = positionX.ToString();
+				data["foxY"] = positionY.ToString();
 			}
 			if(character.name == "character_Skunk"){
 				data["skunk-X"] = positionX.ToString();
@@ -123,23 +123,23 @@ public class SocketIOLogic : MonoBehaviour
 
 
 	/*
-	 * 
+	 *
 	 * Open, close and error handling functions
-	 * 
+	 *
 	 */
 
 	public void TestOpen(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Open received: " + e.name + " " + e.data);
 	}
-	
+
 	public void TestError(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Error received: " + e.name + " " + e.data);
 	}
-	
+
 	public void TestClose(SocketIOEvent e)
-	{	
+	{
 		Debug.Log("[SocketIO] Close received: " + e.name + " " + e.data);
 	}
 
