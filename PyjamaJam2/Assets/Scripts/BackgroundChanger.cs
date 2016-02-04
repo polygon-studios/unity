@@ -16,15 +16,6 @@ public class BackgroundChanger : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		GameObject[] BGs = GameObject.FindGameObjectsWithTag("NightMap");
-		
-		foreach (GameObject background in BGs) {
-			float alpha = background.GetComponent<Renderer>().material.color.a;
-
-			Color newColor = new Color(1, 1, 1, 0.0f);
-			background.GetComponent<Renderer>().material.color = newColor;
-		}
-
 		GameObject[] trap = GameObject.FindGameObjectsWithTag("Trap");
 		
 		foreach (GameObject traps in trap) {
@@ -38,7 +29,7 @@ public class BackgroundChanger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.B)){
-			StartCoroutine(FadeTo(1.0f, 3.75f));
+			StartCoroutine(FadeTo(0.0f, 3.75f));
 		}
 		if(Input.GetKeyDown(KeyCode.T)){
 			StartCoroutine(TrapFadeTo(1.0f, 0.25f));
@@ -49,7 +40,7 @@ public class BackgroundChanger : MonoBehaviour {
 
 	IEnumerator FadeTo(float aValue, float aTime)
 	{
-		GameObject[] BGs = GameObject.FindGameObjectsWithTag("NightMap");
+		GameObject[] BGs = GameObject.FindGameObjectsWithTag("DayMap");
 		
 		foreach (GameObject background in BGs) {
 			float alpha = background.GetComponent<Renderer>().material.color.a;

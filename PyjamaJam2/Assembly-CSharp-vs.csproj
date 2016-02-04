@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\InvertCamera.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\Items.cs" />
+     <Compile Include="Assets\Scripts\OilLatern.cs" />
      <Compile Include="Assets\Scripts\Pinwheel.cs" />
      <Compile Include="Assets\Scripts\Prune.cs" />
      <Compile Include="Assets\Scripts\Slippers.cs" />

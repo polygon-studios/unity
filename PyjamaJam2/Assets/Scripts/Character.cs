@@ -110,7 +110,13 @@ public class Character : MonoBehaviour {
 				ghost.Hide ();
 				
 				item = ghost;
-			} else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
+			} else if (objectHit.gameObject.GetComponent<OilLatern> () != null) {
+				OilLatern oil = objectHit.gameObject.GetComponent<OilLatern> ();
+				oil.initVariables (this.gameObject.GetComponent<Character> ());
+				oil.Hide ();
+				
+				item = oil;
+			}else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
 				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
 				pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
 				pinwheel.Hide ();
