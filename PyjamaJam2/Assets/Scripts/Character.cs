@@ -49,11 +49,17 @@ public class Character : MonoBehaviour {
 			transform.eulerAngles = new Vector2(0, 180);
 			lastPressedKey = inputLeft;
 		}
+		/*if(Input.GetAxis("Player1_JoystickX") >0 ){
+			//movementVector.x = Input.GetAxis("LeftJoystickX") * movementSpeed;
+
+			transform.Translate(Vector3.right*speed*Time.deltaTime);
+			transform.eulerAngles = new Vector2 (0,0);
+		}*/
 
 		/*if (Input.GetAxisRaw ("Horizontal") > 0) {
 			transform.Translate(Vector3.right*speed*Time.deltaTime);
 			transform.eulerAngles = new Vector2 (0,0);
-		}
+		}/*
 		if (Input.GetAxisRaw ("Horizontal") < 0) {
 			transform.Translate(Vector3.right * speed * Time.deltaTime);
 			transform.eulerAngles = new Vector2(0, 180);
