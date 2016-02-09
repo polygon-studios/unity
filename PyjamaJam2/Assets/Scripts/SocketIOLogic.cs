@@ -9,7 +9,9 @@ using System.Collections.Generic;
 public class SocketIOLogic : MonoBehaviour
 {
 	private SocketIOComponent socket;
-	public GameObject trapPrefab;
+	public GameObject buttonPrefab;
+	public GameObject bramblePrefab;
+	public GameObject pineconePrefab;
 
 	public void Start()
 	{
@@ -79,11 +81,17 @@ public class SocketIOLogic : MonoBehaviour
 		string tempx = string.Format ("{0}", e.data ["pos-x"]);
 		float xPos = (float.Parse (tempx)) * 0.733f;
 		string tempy = string.Format ("{0}", e.data ["pos-y"]);
-		float yPos = (float.Parse (tempy)) * 0.777f;
+		float yPos = (float.Parse (tempy)) * 0.747f;
+		string tempTrap = string.Format ("{0}", e.data ["trap"]);
 
+		Debug.Log(tempTrap);
 
-		GameObject trap = (GameObject)Instantiate (trapPrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
+		if (tempTrap == "bramble") {
+			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
 
+		} else {
+			GameObject button = (GameObject)Instantiate (buttonPrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
+		}
 		if (e.data == null) { return; }
 
 		Debug.Log(
@@ -92,36 +100,7 @@ public class SocketIOLogic : MonoBehaviour
 			"#####################################################"
 			);
 	}
-
-
-	/*
-	 *
-	 * Non- socket.io functions
-	 *
-	 */
-	public void getFoxPosition() {
-		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
-		Dictionary<string, string> data = new Dictionary<string, string>();
-
-		foreach (GameObject character in Players) {
-			float positionX = character.transform.position.x;
-			float positionY = character.transform.position.y;
-
-			if(character.name == "character_Fox"){
-				data["foxX"] = positionX.ToString();
-				data["foxY"] = positionY.ToString();
-			}
-			if(character.name == "character_Skunk"){
-				data["skunk-X"] = positionX.ToString();
-				data["skunk-Y"] = positionY.ToString();
-			}
-
-		}
-		socket.Emit("playerPositions", new JSONObject(data));
-
-	}
-
-
+	
 	/*
 	 *
 	 * Open, close and error handling functions
@@ -141,6 +120,33 @@ public class SocketIOLogic : MonoBehaviour
 	public void TestClose(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Close received: " + e.name + " " + e.data);
+	}
+
+	/*
+	 *
+	 * Non- socket.io functions
+	 *
+	 */
+	public void getFoxPosition() {
+		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
+		Dictionary<string, string> data = new Dictionary<string, string>();
+		
+		foreach (GameObject character in Players) {
+			float positionX = character.transform.position.x;
+			float positionY = character.transform.position.y;
+			
+			if(character.name == "character_Fox"){
+				data["foxX"] = positionX.ToString();
+				data["foxY"] = positionY.ToString();
+			}
+			if(character.name == "character_skunk2"){
+				data["skunkX"] = positionX.ToString();
+				data["skunkY"] = positionY.ToString();
+			}
+			
+		}
+		socket.Emit("playerPositions", new JSONObject(data));
+		
 	}
 
 }
