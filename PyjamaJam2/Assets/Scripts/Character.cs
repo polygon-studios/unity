@@ -67,7 +67,7 @@ public class Character : MonoBehaviour {
 		}
 
 		//if (Input.GetKey (inputJump) && onGround) {
-		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround){
+		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround){ //
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger (charID +"Jump");
@@ -80,7 +80,7 @@ public class Character : MonoBehaviour {
 			if(item.beenTriggered == true){
 				item.doUpdate();
 			}
-			else if(Input.GetKeyDown(KeyCode.I) || Input.GetButtonDown(controllerX)){
+			else if(Input.GetKey(KeyCode.I) || Input.GetButtonDown(controllerX)){
 				item.TriggerEffect();
 				item.beenTriggered = true;
 				animator.ResetTrigger (charID + "Bindle");
