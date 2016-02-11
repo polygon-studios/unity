@@ -70,6 +70,8 @@
      <Compile Include="Assets\Scripts\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\SpoutSender.cs" />
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
+     <Compile Include="Assets\Scripts\Trap.cs" />
+     <Compile Include="Assets\Scripts\Traps.cs" />
      <Compile Include="Assets\Scripts\TreasureChest.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Ack.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Decoder.cs" />

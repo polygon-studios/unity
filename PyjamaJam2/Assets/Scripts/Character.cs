@@ -17,6 +17,10 @@ public class Character : MonoBehaviour {
 	public string controllerA;
 	public string controllerX;
 
+	float itemDebounceTimerSaveTime = 0.03f; //seconds
+	float itemDebounceTimer; 
+	bool itemDebounceTimeDone = false;
+
 
 	Animator animator;
 	Item item; //holds item
@@ -26,8 +30,9 @@ public class Character : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		animator = GetComponent<Animator> ();
+		animator = this.gameObject.GetComponent<Animator> ();
 		currentJump = starterJump;
+		itemDebounceTimer = itemDebounceTimerSaveTime; 
 	}
 	
 	// Update is called once per frame
@@ -81,9 +86,14 @@ public class Character : MonoBehaviour {
 				item.doUpdate();
 			}
 			else if(Input.GetKey(KeyCode.I) || Input.GetButtonDown(controllerX)){
-				item.TriggerEffect();
-				item.beenTriggered = true;
-				animator.ResetTrigger (charID + "Bindle");
+				itemDebounceTimer -= Time.deltaTime;
+				
+				if (itemDebounceTimer < 0f) {
+
+					item.TriggerEffect();
+					item.beenTriggered = true;
+					animator.ResetTrigger (charID + "Bindle");
+				}
 			}else{
 				animator.SetTrigger (charID + "Bindle");
 			}
@@ -97,6 +107,7 @@ public class Character : MonoBehaviour {
 		///picking up an item
 		if (objectHit.gameObject.tag == "item" && item == null ) {
 			if(Input.GetButtonDown(controllerX)){
+				itemDebounceTimer = itemDebounceTimerSaveTime;
 
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {
 					//requires other multiplayer prior to coding
