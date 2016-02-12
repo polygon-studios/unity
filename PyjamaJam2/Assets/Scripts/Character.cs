@@ -3,11 +3,12 @@ using System.Collections;
 
 public class Character : MonoBehaviour {
 	public bool onGround = false;
+
 	public void isOnGround(bool passThrough){
 		onGround = passThrough;
 	}
 	public float currentJump = 0f;
-	public float starterJump = 300f;
+	public float starterJump;
 	public KeyCode inputLeft;
 	public KeyCode inputRight;
 	public KeyCode inputJump;
@@ -17,15 +18,17 @@ public class Character : MonoBehaviour {
 	public string controllerA;
 	public string controllerX;
 
+
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
 	float itemDebounceTimer; 
 	bool itemDebounceTimeDone = false;
+	float lastY;
 
 
 	Animator animator;
 	Item item; //holds item
 
-	public float speed = 1.0f; //walk 0.5f //run 0.8f
+	public float speed; //walk 0.5f //run 0.8f
 
 
 	// Use this for initialization
@@ -37,9 +40,9 @@ public class Character : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		lastY = transform.position.y;
 		Movement ();
 		ItemCheck ();
-
 	}
 
 	void Movement(){
@@ -175,6 +178,11 @@ public class Character : MonoBehaviour {
 			coin.destroySelf();
 
 		}
+	}
+
+	public bool isFalling(){
+
+		return (lastY > transform.position.y);
 	}
 
 }
