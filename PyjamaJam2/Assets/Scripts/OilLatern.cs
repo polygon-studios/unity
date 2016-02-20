@@ -26,6 +26,9 @@ public class OilLatern : Item {
 	public override void TriggerEffect(){
 		//ask Ian how he is doing the character constants (perhaps need a constants page)
 		//save last button press and continue direction of characters in here by going through a for loop of character array
+		Latern laternScript = character.latern.GetComponent<Latern> ();
+		laternScript.lightBoost ();
+
 		base.DestroySelf();
 		Destroy(this.gameObject);
 	}

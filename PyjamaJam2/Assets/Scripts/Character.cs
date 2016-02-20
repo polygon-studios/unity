@@ -18,11 +18,14 @@ public class Character : MonoBehaviour {
 	public string controllerA;
 	public string controllerX;
 
+	public GameObject latern;
+
 
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
 	float itemDebounceTimer; 
 	bool itemDebounceTimeDone = false;
 	float lastY;
+	Latern laternScript;
 
 
 	Animator animator;
@@ -36,6 +39,8 @@ public class Character : MonoBehaviour {
 		animator = this.gameObject.GetComponent<Animator> ();
 		currentJump = starterJump;
 		itemDebounceTimer = itemDebounceTimerSaveTime; 
+
+		laternScript = latern.GetComponent<Latern> ();
 	}
 	
 	// Update is called once per frame
@@ -43,6 +48,10 @@ public class Character : MonoBehaviour {
 		lastY = transform.position.y;
 		Movement ();
 		ItemCheck ();
+
+		if (laternScript.isActivated == true) {
+			updateLatern();
+		}
 	}
 
 	void Movement(){
@@ -80,6 +89,15 @@ public class Character : MonoBehaviour {
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger (charID +"Jump");
 		}
+	}
+
+	public void activateLight(){
+		if (latern != null)
+			laternScript.activateLatern ();
+	}
+
+	void updateLatern(){
+		laternScript.updateWithCharData (transform.position.x, transform.position.y);
 	}
 
 	void ItemCheck(){

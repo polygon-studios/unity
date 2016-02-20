@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -11,6 +11,7 @@ public class BackgroundChanger : MonoBehaviour {
 	public GameObject darkBG;
 	public int whichDeathLvl;
 	public int whichNextLvl;
+	public GameMaster GM;
 	
 	
 	
@@ -29,7 +30,14 @@ public class BackgroundChanger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.B)){
+
+			//go to night map
 			StartCoroutine(FadeTo(0.0f, 3.75f));
+
+			//turn characters lights on
+			foreach (Character character in GM.CHARACTERS) {
+				character.activateLight();
+			}
 		}
 		if(Input.GetKeyDown(KeyCode.T)){
 			StartCoroutine(TrapFadeTo(1.0f, 0.25f));
