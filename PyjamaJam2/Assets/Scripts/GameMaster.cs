@@ -6,6 +6,7 @@ public class GameMaster:MonoBehaviour
 {
 	public static GameMaster GM;
 	public List<Character> CHARACTERS;
+	public bool isDark;
 
 	void Awake(){
 		if (GM != null)

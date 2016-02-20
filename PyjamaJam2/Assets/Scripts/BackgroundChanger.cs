@@ -34,6 +34,9 @@ public class BackgroundChanger : MonoBehaviour {
 			//go to night map
 			StartCoroutine(FadeTo(0.0f, 3.75f));
 
+			//set GameMaster to darkmode
+			GM.isDark = true;
+
 			//turn characters lights on
 			foreach (Character character in GM.CHARACTERS) {
 				character.activateLight();

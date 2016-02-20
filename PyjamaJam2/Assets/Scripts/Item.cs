@@ -3,8 +3,11 @@ using System.Collections;
 
 public class Item : MonoBehaviour {
 	public Items allItems;
-	int points = 10;
 	public bool beenTriggered = false;
+	public int difficulty;
+	public Material diffuseMat;
+
+	int points = 10;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -34,5 +37,9 @@ public class Item : MonoBehaviour {
 	public void DestroySelf(){
 		allItems.removeItemFromArray (this.gameObject);
 		Destroy(gameObject);
+	}
+
+	public void setDarkMode(){
+		this.gameObject.GetComponent<SpriteRenderer> ().material = diffuseMat;
 	}
 }
