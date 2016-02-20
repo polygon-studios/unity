@@ -1,21 +1,26 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Latern.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Items.cs">
     <Files>
-      <File FileName="Assets\Scripts\Latern.cs" Line="14" Column="10" />
-      <File FileName="Assets\Scripts\BackgroundChanger.cs" Line="30" Column="27" />
-      <File FileName="Assets\Scripts\Character.cs" Line="88" Column="3" />
+      <File FileName="Assets\Scripts\Latern.cs" Line="22" Column="22" />
+      <File FileName="Assets\Scripts\BackgroundChanger.cs" Line="43" Column="5" />
+      <File FileName="Assets\Scripts\Character.cs" Line="96" Column="18" />
       <File FileName="Assets\Scripts\Traps.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Trap.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Items.cs" Line="36" Column="2" />
       <File FileName="Assets\Scripts\Collision.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameMaster.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Fish.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameMaster.cs" Line="29" Column="1" />
+      <File FileName="Assets\Scripts\Fish.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\Item.cs" Line="18" Column="36" />
+      <File FileName="Assets\Scripts\OilLatern.cs" Line="34" Column="3" />
+      <File FileName="Assets\Scripts\Slippers.cs" Line="17" Column="37" />
+      <File FileName="Assets\Scripts\Pinwheel.cs" Line="27" Column="26" />
+      <File FileName="Assets\Scripts\TreasureChest.cs" Line="42" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="D:\Documents\School\Senior Project\PyjamaJam5\unity\PyjamaJam2\Assets\Scripts\Character.cs" line="71" />
+      <Breakpoint enabled="false" file="D:\Documents\School\Senior Project\PyjamaJam5\unity\PyjamaJam2\Assets\Scripts\Character.cs" line="71" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
