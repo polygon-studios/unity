@@ -26,7 +26,7 @@ public class Items : MonoBehaviour {
 
 	void Update(){
 		timer -= Time.deltaTime;
-		Debug.Log (timer);
+		//Debug.Log (timer);
 		Debug.Log ("HERE");
 		if (timer < 0) {
 			timer = 20;

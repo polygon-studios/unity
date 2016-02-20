@@ -41,7 +41,7 @@ public class SocketIOLogic : MonoBehaviour
 		//socket.Emit("open");
 		//socket.On("Position", TestPosition);
 		//socket.On("boop", TestBoop);
-		getFoxPosition ();
+		getPlayerPositions ();
 	}
 
 	IEnumerator BeepBoop(float disValue)
@@ -74,7 +74,6 @@ public class SocketIOLogic : MonoBehaviour
 
 	public void placeTrap(SocketIOEvent e)
 	{
-		Debug.Log("[SocketIO] Trap place received: " + e.name + " " + e.data);
 		Debug.Log("Trap x pos:" + e.data["pos-x"] + " trap y pos: " + e.data["pos-y"]);
 
 
@@ -86,9 +85,9 @@ public class SocketIOLogic : MonoBehaviour
 
 		Debug.Log(tempTrap);
 
-		if (tempTrap == "bramble") {
+		if (tempTrap.Contains ("bramble")) {
 			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
-
+			Debug.Log("Placing bramble");
 		} else {
 			GameObject button = (GameObject)Instantiate (buttonPrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
 		}
@@ -127,7 +126,7 @@ public class SocketIOLogic : MonoBehaviour
 	 * Non- socket.io functions
 	 *
 	 */
-	public void getFoxPosition() {
+	public void getPlayerPositions() {
 		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
 		Dictionary<string, string> data = new Dictionary<string, string>();
 		

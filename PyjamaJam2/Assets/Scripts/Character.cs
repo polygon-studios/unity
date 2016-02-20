@@ -26,6 +26,7 @@ public class Character : MonoBehaviour {
 	bool itemDebounceTimeDone = false;
 	float lastY;
 	Latern laternScript;
+	bool isStunned;
 
 
 	Animator animator;
@@ -64,18 +65,18 @@ public class Character : MonoBehaviour {
 		animator.SetFloat (charID +"MoveSpeed", Mathf.Abs (Input.GetAxis ("Horizontal")));
        
 
-		if (Input.GetKey (inputRight)) { //moving character right
+		if (Input.GetKey (inputRight) && isStunned == false) { //moving character right
 			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
 			transform.eulerAngles = new Vector2 (0, 0);
 			lastPressedKey = inputRight;
 		}
 		
-		if (Input.GetKey (inputLeft)) {//move character left
+		if (Input.GetKey (inputLeft) && isStunned == false) {//move character left
 			transform.Translate(speed * Time.deltaTime, 0.0f, 0.0f);
 			transform.eulerAngles = new Vector2(0, 180);
 			lastPressedKey = inputLeft;
 		}
-		if(Input.GetAxis(controllerXAxis) != 0 ){
+		if(Input.GetAxis(controllerXAxis) != 0 && isStunned == false){
 			transform.Translate(Vector3.right*Mathf.Abs(Input.GetAxis(controllerXAxis))*speed*Time.deltaTime);
 			if(Input.GetAxis(controllerXAxis) < 0)
 				transform.eulerAngles = new Vector2(0, 180);
@@ -84,7 +85,7 @@ public class Character : MonoBehaviour {
 		}
 
 		//if (Input.GetKey (inputJump) && onGround) {
-		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround){ //
+		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false){ //
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger (charID +"Jump");
@@ -196,11 +197,28 @@ public class Character : MonoBehaviour {
 			coin.destroySelf();
 
 		}
+
+		if (objectHit.gameObject.tag == "Trap") {
+			stunCharacter();
+		}
 	}
 
 	public bool isFalling(){
 
 		return (lastY > transform.position.y);
+	}
+
+	public void stunCharacter(){
+		isStunned = true;
+		StartCoroutine(Unstun(1.0f));
+	}
+
+	IEnumerator Unstun(float disValue)
+	{
+		// wait 3 seconds and continue
+		yield return new WaitForSeconds(3);
+		
+		isStunned = false;
 	}
 
 }
