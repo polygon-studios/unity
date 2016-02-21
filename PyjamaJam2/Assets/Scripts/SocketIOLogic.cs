@@ -138,7 +138,7 @@ public class SocketIOLogic : MonoBehaviour
 				data["foxX"] = positionX.ToString();
 				data["foxY"] = positionY.ToString();
 			}
-			if(character.name == "character_skunk2"){
+			if(character.name == "character_Skunk"){
 				data["skunkX"] = positionX.ToString();
 				data["skunkY"] = positionY.ToString();
 			}
