@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: fdf544561557d432f911f91f6af1c91d
+timeCreated: 1456091405
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite_Charles_Move_0
+    21300002: Sprite_Charles_Move_1
+    21300004: Sprite_Charles_Move_2
+    21300006: Sprite_Charles_Move_3
+    21300008: Sprite_Charles_Move_4
+    21300010: Sprite_Charles_Move_5
+    21300012: Sprite_Charles_Move_6
+    21300014: Sprite_Charles_Move_7
+    21300016: Sprite_Charles_Move_8
+    21300018: Sprite_Charles_Move_9
+    21300020: Sprite_Charles_Move_10
+    21300022: Sprite_Charles_Move_11
+    21300024: Sprite_Charles_Move_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sprite_Charles_Move_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 629
+        width: 279
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 625
+        width: 278
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 626
+        width: 271
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 469
+        width: 266
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 473
+        width: 279
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_5
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 473
+        width: 288
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 317
+        width: 289
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 315
+        width: 281
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 314
+        width: 270
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 155
+        width: 272
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 154
+        width: 274
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_11
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 157
+        width: 276
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Charles_Move_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 277
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
