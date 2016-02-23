@@ -6,7 +6,13 @@ public class Items : MonoBehaviour {
 
 	public static Items ITEMS;
 	public List<GameObject> ITEMSARRAY = new List<GameObject>();
-	public List<GameObject> easyItemsPrefabs = new List<GameObject> ();
+	public List<GameObject> lev1ItemsPrefabs = new List<GameObject> ();
+	public List<GameObject> lev2ItemsPrefabs = new List<GameObject>();
+	public List<GameObject> lev3ItemsPrefabs = new List<GameObject>();
+
+	public List<GameObject> lev1ItemsCurrent = new List<GameObject>();
+	public List<GameObject> lev2ItemsCurrent = new List<GameObject>();
+	public List<GameObject> lev3ItemsCurrent = new List<GameObject>();
 	public GameMaster GM;
 
 	int maxEasyItems = 8;
@@ -35,28 +41,20 @@ public class Items : MonoBehaviour {
 	}
 
 	void checkTypes(){
-		int easyCount = 0;
-		int medCount = 0;
-		int hardCount = 0;
+		int easyCount = lev1ItemsCurrent.Count;
+		int medCount = lev2ItemsCurrent.Count;
+		int hardCount = lev3ItemsCurrent.Count;
 
-		foreach (GameObject item in ITEMSARRAY) {
-			Item itemScript = item.GetComponent<Item>();
-			switch(itemScript.difficulty){
-			case 1:
-				easyCount++;
-				break;
-			case 2:
-				medCount++;
-				break;
-			case 3:
-				hardCount++;
-				break;
-			}
+		if (lev1ItemsCurrent.Count < maxEasyItems) {
+			GameObject itemObj = (GameObject)Instantiate (lev1ItemsPrefabs[0], new Vector3 (15, 4.0f, 0), Quaternion.identity);
+			if(itemObj.gameObject.GetComponent<Fish> () != null)
 
+			ITEMSARRAY.Add (itemObj);
 		}
+
 		Debug.Log ("easy: " + easyCount + "   med: " + medCount + "   hard: " + hardCount);
 
-		if (easyCount < maxEasyItems) {
+		/*if (easyCount < maxEasyItems) {
 			GameObject easyItem = (GameObject)Instantiate (easyItemsPrefabs[0], new Vector3 (15, 4.0f, 0), Quaternion.identity);
 			addItemToArray(easyItem);
 
@@ -64,7 +62,7 @@ public class Items : MonoBehaviour {
 				Item itemScript = easyItem.GetComponent<Item>();
 				itemScript.setDarkMode();
 			}
-		}
+		}*/
 
 	}
 

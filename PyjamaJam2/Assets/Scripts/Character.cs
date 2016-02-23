@@ -128,7 +128,7 @@ public class Character : MonoBehaviour {
 
 		///picking up an item
 		if (objectHit.gameObject.tag == "item" && item == null ) {
-			if(Input.GetButtonDown(controllerX)){
+			if(Input.GetKey(KeyCode.I) ||Input.GetButtonDown(controllerX)){
 				itemDebounceTimer = itemDebounceTimerSaveTime;
 
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {
