@@ -50,9 +50,10 @@
      <Compile Include="Assets\JSON\VectorTemplates.cs" />
      <Compile Include="Assets\Scripts\BackgroundChanger.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
-     <Compile Include="Assets\Scripts\Charles.cs" />
      <Compile Include="Assets\Scripts\Collision.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Charles.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Dug.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
      <Compile Include="Assets\Scripts\GameMaster.cs" />
      <Compile Include="Assets\Scripts\InvertCamera.cs" />
      <Compile Include="Assets\Scripts\Items\Chili.cs" />
