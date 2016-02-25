@@ -36,7 +36,7 @@ public class Items : MonoBehaviour {
 		Debug.Log ("HERE");
 		if (timer < 0) {
 			timer = 20;
-			checkTypes();
+			//checkTypes();
 		}
 	}
 
