@@ -66,7 +66,7 @@ public class Dug: MonoBehaviour {
 
 		if (Vector3.Distance(enemyTransform.position,target.position)<4f){//move if distance from target is greater than 1
 			transform.Translate(new Vector3(actualXSpeed* Time.deltaTime,actualYSpeed* Time.deltaTime,0) );
-			Debug.Log("Moving towards: " + target.position);
+			//Debug.Log("Moving towards: " + target.position);
 		}
 		
 	}
