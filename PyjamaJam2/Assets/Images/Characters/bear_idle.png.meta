@@ -1,29 +1,29 @@
 fileFormatVersion: 2
-guid: 19b7cc9a617b57b47ad70edd2fab4592
-timeCreated: 1456503552
+guid: 888e52b68d8779f4eae7344e459558c0
+timeCreated: 1456506978
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fox_runCycle_0
-    21300002: fox_runCycle_1
-    21300004: fox_runCycle_2
-    21300006: fox_runCycle_3
-    21300008: fox_runCycle_4
-    21300010: fox_runCycle_5
-    21300012: fox_runCycle_6
-    21300014: fox_runCycle_7
-    21300016: fox_runCycle_8
-    21300018: fox_runCycle_9
-    21300020: fox_runCycle_10
-    21300022: fox_runCycle_11
-    21300024: fox_runCycle_12
-    21300026: fox_runCycle_13
-    21300028: fox_runCycle_14
-    21300030: fox_runCycle_15
-    21300032: fox_runCycle_16
-    21300034: fox_runCycle_17
-    21300036: fox_runCycle_18
-    21300038: fox_runCycle_19
+    21300000: bear_idle_0
+    21300002: bear_idle_1
+    21300004: bear_idle_2
+    21300006: bear_idle_3
+    21300008: bear_idle_4
+    21300010: bear_idle_5
+    21300012: bear_idle_6
+    21300014: bear_idle_7
+    21300016: bear_idle_8
+    21300018: bear_idle_9
+    21300020: bear_idle_10
+    21300022: bear_idle_11
+    21300024: bear_idle_12
+    21300026: bear_idle_13
+    21300028: bear_idle_14
+    21300030: bear_idle_15
+    21300032: bear_idle_16
+    21300034: bear_idle_17
+    21300036: bear_idle_18
+    21300038: bear_idle_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -46,7 +46,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: -2
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
@@ -69,203 +69,203 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: fox_runCycle_0
+    - name: bear_idle_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 232
-        width: 52
-        height: 66
+        x: 15
+        y: 437
+        width: 36
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_1
+    - name: bear_idle_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 230
-        width: 51
-        height: 68
+        x: 76
+        y: 437
+        width: 36
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_2
+    - name: bear_idle_2
       rect:
         serializedVersion: 2
-        x: 134
-        y: 227
-        width: 51
-        height: 70
+        x: 137
+        y: 437
+        width: 36
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_3
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 226
-        width: 52
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_4
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 227
-        width: 51
-        height: 70
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_5
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 151
-        width: 51
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_6
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 152
-        width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_7
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 152
-        width: 53
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_8
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 152
-        width: 54
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_9
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 155
-        width: 53
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_10
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 84
-        width: 54
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_11
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 81
-        width: 53
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_12
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 78
-        width: 53
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_13
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 78
-        width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_14
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 77
-        width: 52
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_15
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 3
-        width: 51
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_16
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 5
-        width: 52
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_17
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 5
-        width: 52
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_18
+    - name: bear_idle_3
       rect:
         serializedVersion: 2
         x: 198
-        y: 5
-        width: 51
-        height: 69
+        y: 437
+        width: 36
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_runCycle_19
+    - name: bear_idle_4
       rect:
         serializedVersion: 2
-        x: 261
-        y: 6
-        width: 50
-        height: 68
+        x: 15
+        y: 361
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 285
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 288
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 289
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 292
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 219
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 216
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 214
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 212
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 134
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 134
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 134
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_idle_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 134
+        width: 36
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

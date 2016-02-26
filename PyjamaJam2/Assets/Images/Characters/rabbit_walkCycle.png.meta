@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 1fc59135c62d67d4c848e99a7b769110
-timeCreated: 1456503544
+guid: 4b91103d8f07b7c4285851cbbbc830f8
+timeCreated: 1456510160
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fox_walkCycle_0
-    21300002: fox_walkCycle_1
-    21300004: fox_walkCycle_2
-    21300006: fox_walkCycle_3
-    21300008: fox_walkCycle_4
-    21300010: fox_walkCycle_5
-    21300012: fox_walkCycle_6
-    21300014: fox_walkCycle_7
-    21300016: fox_walkCycle_8
-    21300018: fox_walkCycle_9
-    21300020: fox_walkCycle_10
-    21300022: fox_walkCycle_11
-    21300024: fox_walkCycle_12
-    21300026: fox_walkCycle_13
-    21300028: fox_walkCycle_14
-    21300030: fox_walkCycle_15
-    21300032: fox_walkCycle_16
-    21300034: fox_walkCycle_17
-    21300036: fox_walkCycle_18
-    21300038: fox_walkCycle_19
-    21300040: fox_walkCycle_20
-    21300042: fox_walkCycle_21
-    21300044: fox_walkCycle_22
-    21300046: fox_walkCycle_23
-    21300048: fox_walkCycle_24
+    21300000: rabbit_walkCycle_0
+    21300002: rabbit_walkCycle_1
+    21300004: rabbit_walkCycle_2
+    21300006: rabbit_walkCycle_3
+    21300008: rabbit_walkCycle_4
+    21300010: rabbit_walkCycle_5
+    21300012: rabbit_walkCycle_6
+    21300014: rabbit_walkCycle_7
+    21300016: rabbit_walkCycle_8
+    21300018: rabbit_walkCycle_9
+    21300020: rabbit_walkCycle_10
+    21300022: rabbit_walkCycle_11
+    21300024: rabbit_walkCycle_12
+    21300026: rabbit_walkCycle_13
+    21300028: rabbit_walkCycle_14
+    21300030: rabbit_walkCycle_15
+    21300032: rabbit_walkCycle_16
+    21300034: rabbit_walkCycle_17
+    21300036: rabbit_walkCycle_18
+    21300038: rabbit_walkCycle_19
+    21300040: rabbit_walkCycle_20
+    21300042: rabbit_walkCycle_21
+    21300044: rabbit_walkCycle_22
+    21300046: rabbit_walkCycle_23
+    21300048: rabbit_walkCycle_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,253 +74,253 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: fox_walkCycle_0
+    - name: rabbit_walkCycle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 287
-        width: 45
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_1
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 287
-        width: 46
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_2
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 287
-        width: 46
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_3
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 288
-        width: 45
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_4
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 288
-        width: 45
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_5
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 217
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_6
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 217
-        width: 45
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_7
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 217
-        width: 45
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_8
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 217
-        width: 46
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_9
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 217
-        width: 45
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_10
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 146
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_11
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 145
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_12
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 144
+        x: 14
+        y: 435
         width: 44
-        height: 65
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_13
+    - name: rabbit_walkCycle_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 144
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_14
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 144
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_15
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 73
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_16
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 74
+        x: 73
+        y: 436
         width: 46
-        height: 64
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_17
+    - name: rabbit_walkCycle_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 73
-        width: 46
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_18
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 73
-        width: 46
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_19
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 73
+        x: 132
+        y: 436
         width: 47
-        height: 68
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_20
+    - name: rabbit_walkCycle_3
       rect:
         serializedVersion: 2
-        x: 4
-        y: 2
-        width: 46
-        height: 68
+        x: 191
+        y: 436
+        width: 48
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_21
+    - name: rabbit_walkCycle_4
       rect:
         serializedVersion: 2
-        x: 58
-        y: 2
-        width: 46
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_22
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 2
+        x: 252
+        y: 437
         width: 47
-        height: 68
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_23
+    - name: rabbit_walkCycle_5
       rect:
         serializedVersion: 2
-        x: 167
-        y: 2
+        x: 313
+        y: 437
         width: 46
-        height: 67
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_24
+    - name: rabbit_walkCycle_6
       rect:
         serializedVersion: 2
-        x: 221
-        y: 2
+        x: 375
+        y: 437
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 437
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 359
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 359
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 358
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 357
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 356
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 356
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 356
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 357
         width: 46
-        height: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 277
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 277
+        width: 47
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 277
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 277
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_20
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 278
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_21
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 278
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_22
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 278
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_23
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 278
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_walkCycle_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 199
+        width: 46
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

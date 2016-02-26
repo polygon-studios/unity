@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 1fc59135c62d67d4c848e99a7b769110
-timeCreated: 1456503544
+guid: f95f438547ac3444aa92655df9607df6
+timeCreated: 1456506575
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fox_walkCycle_0
-    21300002: fox_walkCycle_1
-    21300004: fox_walkCycle_2
-    21300006: fox_walkCycle_3
-    21300008: fox_walkCycle_4
-    21300010: fox_walkCycle_5
-    21300012: fox_walkCycle_6
-    21300014: fox_walkCycle_7
-    21300016: fox_walkCycle_8
-    21300018: fox_walkCycle_9
-    21300020: fox_walkCycle_10
-    21300022: fox_walkCycle_11
-    21300024: fox_walkCycle_12
-    21300026: fox_walkCycle_13
-    21300028: fox_walkCycle_14
-    21300030: fox_walkCycle_15
-    21300032: fox_walkCycle_16
-    21300034: fox_walkCycle_17
-    21300036: fox_walkCycle_18
-    21300038: fox_walkCycle_19
-    21300040: fox_walkCycle_20
-    21300042: fox_walkCycle_21
-    21300044: fox_walkCycle_22
-    21300046: fox_walkCycle_23
-    21300048: fox_walkCycle_24
+    21300000: bear_walkCycle_0
+    21300002: bear_walkCycle_1
+    21300004: bear_walkCycle_2
+    21300006: bear_walkCycle_3
+    21300008: bear_walkCycle_4
+    21300010: bear_walkCycle_5
+    21300012: bear_walkCycle_6
+    21300014: bear_walkCycle_7
+    21300016: bear_walkCycle_8
+    21300018: bear_walkCycle_9
+    21300020: bear_walkCycle_10
+    21300022: bear_walkCycle_11
+    21300024: bear_walkCycle_12
+    21300026: bear_walkCycle_13
+    21300028: bear_walkCycle_14
+    21300030: bear_walkCycle_15
+    21300032: bear_walkCycle_16
+    21300034: bear_walkCycle_17
+    21300036: bear_walkCycle_18
+    21300038: bear_walkCycle_19
+    21300040: bear_walkCycle_20
+    21300042: bear_walkCycle_21
+    21300044: bear_walkCycle_22
+    21300046: bear_walkCycle_23
+    21300048: bear_walkCycle_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,253 +74,253 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: fox_walkCycle_0
+    - name: bear_walkCycle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 287
-        width: 45
-        height: 64
+        x: 15
+        y: 435
+        width: 43
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_1
+    - name: bear_walkCycle_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 287
-        width: 46
-        height: 64
+        x: 78
+        y: 436
+        width: 39
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_2
+    - name: bear_walkCycle_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 287
-        width: 46
-        height: 64
+        x: 140
+        y: 436
+        width: 37
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_3
+    - name: bear_walkCycle_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 288
-        width: 45
+        x: 201
+        y: 436
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 437
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 437
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 437
+        width: 35
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_4
+    - name: bear_walkCycle_7
       rect:
         serializedVersion: 2
-        x: 222
-        y: 288
-        width: 45
+        x: 442
+        y: 437
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 359
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 359
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 358
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 357
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 356
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 356
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 356
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 357
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_walkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 277
+        width: 38
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_5
+    - name: bear_walkCycle_17
       rect:
         serializedVersion: 2
-        x: 6
-        y: 217
-        width: 45
+        x: 81
+        y: 277
+        width: 36
         height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_6
+    - name: bear_walkCycle_18
       rect:
         serializedVersion: 2
-        x: 59
-        y: 217
-        width: 45
+        x: 138
+        y: 277
+        width: 39
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_7
+    - name: bear_walkCycle_19
       rect:
         serializedVersion: 2
-        x: 113
-        y: 217
-        width: 45
+        x: 195
+        y: 277
+        width: 42
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_8
+    - name: bear_walkCycle_20
       rect:
         serializedVersion: 2
-        x: 166
-        y: 217
-        width: 46
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_9
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 217
-        width: 45
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_10
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 146
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_11
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 145
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_12
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 144
+        x: 254
+        y: 278
         width: 44
         height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_13
+    - name: bear_walkCycle_21
       rect:
         serializedVersion: 2
-        x: 168
-        y: 144
-        width: 45
+        x: 313
+        y: 278
+        width: 46
         height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_14
+    - name: bear_walkCycle_22
       rect:
         serializedVersion: 2
-        x: 222
-        y: 144
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_15
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 73
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_16
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 74
+        x: 373
+        y: 278
         width: 46
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_17
+    - name: bear_walkCycle_23
       rect:
         serializedVersion: 2
-        x: 113
-        y: 73
+        x: 433
+        y: 278
         width: 46
-        height: 66
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_18
+    - name: bear_walkCycle_24
       rect:
         serializedVersion: 2
-        x: 167
-        y: 73
-        width: 46
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_19
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 73
-        width: 47
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_20
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 2
-        width: 46
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_21
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 2
-        width: 46
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_22
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 2
-        width: 47
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_23
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 2
-        width: 46
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fox_walkCycle_24
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 2
-        width: 46
-        height: 66
+        x: 13
+        y: 199
+        width: 45
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

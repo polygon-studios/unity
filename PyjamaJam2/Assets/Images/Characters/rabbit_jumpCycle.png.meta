@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 4664baab039b1dd45bd5e4457157711e
+timeCreated: 1456511126
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit_jumpCycle_0
+    21300002: rabbit_jumpCycle_1
+    21300004: rabbit_jumpCycle_2
+    21300006: rabbit_jumpCycle_3
+    21300008: rabbit_jumpCycle_4
+    21300010: rabbit_jumpCycle_5
+    21300012: rabbit_jumpCycle_6
+    21300014: rabbit_jumpCycle_7
+    21300016: rabbit_jumpCycle_8
+    21300018: rabbit_jumpCycle_9
+    21300020: rabbit_jumpCycle_10
+    21300022: rabbit_jumpCycle_11
+    21300024: rabbit_jumpCycle_12
+    21300026: rabbit_jumpCycle_13
+    21300028: rabbit_jumpCycle_14
+    21300030: rabbit_jumpCycle_15
+    21300032: rabbit_jumpCycle_16
+    21300034: rabbit_jumpCycle_17
+    21300036: rabbit_jumpCycle_18
+    21300038: rabbit_jumpCycle_19
+    21300040: rabbit_jumpCycle_20
+    21300042: rabbit_jumpCycle_21
+    21300044: rabbit_jumpCycle_22
+    21300046: rabbit_jumpCycle_23
+    21300048: rabbit_jumpCycle_24
+    21300050: rabbit_jumpCycle_25
+    21300052: rabbit_jumpCycle_26
+    21300054: rabbit_jumpCycle_27
+    21300056: rabbit_jumpCycle_28
+    21300058: rabbit_jumpCycle_29
+    21300060: rabbit_jumpCycle_30
+    21300062: rabbit_jumpCycle_31
+    21300064: rabbit_jumpCycle_32
+    21300066: rabbit_jumpCycle_33
+    21300068: rabbit_jumpCycle_34
+    21300070: rabbit_jumpCycle_35
+    21300072: rabbit_jumpCycle_36
+    21300074: rabbit_jumpCycle_37
+    21300076: rabbit_jumpCycle_38
+    21300078: rabbit_jumpCycle_39
+    21300080: rabbit_jumpCycle_40
+    21300082: rabbit_jumpCycle_41
+    21300084: rabbit_jumpCycle_42
+    21300086: rabbit_jumpCycle_43
+    21300088: rabbit_jumpCycle_44
+    21300090: rabbit_jumpCycle_45
+    21300092: rabbit_jumpCycle_46
+    21300094: rabbit_jumpCycle_47
+    21300096: rabbit_jumpCycle_48
+    21300098: rabbit_jumpCycle_49
+    21300100: rabbit_jumpCycle_50
+    21300102: rabbit_jumpCycle_51
+    21300104: rabbit_jumpCycle_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit_jumpCycle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 437
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 437
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 438
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 361
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 362
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 363
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 362
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 285
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_27
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 286
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_30
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 287
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 286
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_39
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 210
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_47
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_48
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 209
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_49
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 209
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbit_jumpCycle_52
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

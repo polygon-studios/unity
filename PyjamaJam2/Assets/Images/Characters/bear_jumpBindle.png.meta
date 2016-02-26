@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 0ce980e0c514e2945ae4f43c3bb89b86
+timeCreated: 1456508733
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear_jumpBindle_0
+    21300002: bear_jumpBindle_1
+    21300004: bear_jumpBindle_2
+    21300006: bear_jumpBindle_3
+    21300008: bear_jumpBindle_4
+    21300010: bear_jumpBindle_5
+    21300012: bear_jumpBindle_6
+    21300014: bear_jumpBindle_7
+    21300016: bear_jumpBindle_8
+    21300018: bear_jumpBindle_9
+    21300020: bear_jumpBindle_10
+    21300022: bear_jumpBindle_11
+    21300024: bear_jumpBindle_12
+    21300026: bear_jumpBindle_13
+    21300028: bear_jumpBindle_14
+    21300030: bear_jumpBindle_15
+    21300032: bear_jumpBindle_16
+    21300034: bear_jumpBindle_17
+    21300036: bear_jumpBindle_18
+    21300038: bear_jumpBindle_19
+    21300040: bear_jumpBindle_20
+    21300042: bear_jumpBindle_21
+    21300044: bear_jumpBindle_22
+    21300046: bear_jumpBindle_23
+    21300048: bear_jumpBindle_24
+    21300050: bear_jumpBindle_25
+    21300052: bear_jumpBindle_26
+    21300054: bear_jumpBindle_27
+    21300056: bear_jumpBindle_28
+    21300058: bear_jumpBindle_29
+    21300060: bear_jumpBindle_30
+    21300062: bear_jumpBindle_31
+    21300064: bear_jumpBindle_32
+    21300066: bear_jumpBindle_33
+    21300068: bear_jumpBindle_34
+    21300070: bear_jumpBindle_35
+    21300072: bear_jumpBindle_36
+    21300074: bear_jumpBindle_37
+    21300076: bear_jumpBindle_38
+    21300078: bear_jumpBindle_39
+    21300080: bear_jumpBindle_40
+    21300082: bear_jumpBindle_41
+    21300084: bear_jumpBindle_42
+    21300086: bear_jumpBindle_43
+    21300088: bear_jumpBindle_44
+    21300090: bear_jumpBindle_45
+    21300092: bear_jumpBindle_46
+    21300094: bear_jumpBindle_47
+    21300096: bear_jumpBindle_48
+    21300098: bear_jumpBindle_49
+    21300100: bear_jumpBindle_50
+    21300102: bear_jumpBindle_51
+    21300104: bear_jumpBindle_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear_jumpBindle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 437
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 437
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 437
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 438
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 361
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 362
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 363
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 362
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 285
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 286
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_37
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_38
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 287
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_41
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_42
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 286
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 210
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_47
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_48
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 209
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_49
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 209
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_jumpBindle_52
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
