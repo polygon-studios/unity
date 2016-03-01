@@ -30,7 +30,7 @@ public class Character : MonoBehaviour {
 	bool isStunned;
 
 
-	Animator animator;
+	public Animator animator;
 	Rigidbody2D rigidbody;
 	Item item; //holds item
 
