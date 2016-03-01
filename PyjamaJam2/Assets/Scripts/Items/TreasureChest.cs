@@ -48,6 +48,7 @@ public class TreasureChest : Item {
 		}
 
 		if (timer < 0) {
+			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);
 		}

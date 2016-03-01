@@ -38,7 +38,6 @@ public class Character : MonoBehaviour {
 	Vector3 lastPosition = Vector3.zero;
 
 
-
 	// Use this for initialization
 	void Start () {
 		animator = this.gameObject.GetComponent<Animator> ();

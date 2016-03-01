@@ -60,6 +60,7 @@ public class Fish : Item {
 			}
 
 			base.DestroySelf();
+			base.allItems.removeItemFromArray(this.gameObject);
 			Destroy(this.gameObject);
 		}
 	}

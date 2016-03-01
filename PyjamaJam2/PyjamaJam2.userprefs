@@ -1,15 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Items\Slippers.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Items\Items.cs">
     <Files>
-      <File FileName="Assets\Scripts\Character.cs" Line="39" Column="2" />
-      <File FileName="Assets\Scripts\Items\Items.cs" Line="56" Column="22" />
-      <File FileName="Assets\Scripts\Networking\DatabaseConnector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Networking\SocketIOLogic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\Dug.cs" Line="1" Column="1" />
-      <File FileName="Assets\SocketIO\Scripts\SocketIO\SocketIOComponent.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\TreasureChest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Slippers.cs" Line="21" Column="4" />
+      <File FileName="Assets\Scripts\Items\Items.cs" Line="118" Column="42" />
+      <File FileName="Assets\Scripts\Items\TreasureChest.cs" Line="57" Column="1" />
+      <File FileName="Assets\Scripts\Items\Slippers.cs" Line="44" Column="3" />
+      <File FileName="Assets\Scripts\Items\Pinwheel.cs" Line="62" Column="4" />
+      <File FileName="Assets\Scripts\Items\Fish.cs" Line="68" Column="1" />
+      <File FileName="Assets\Scripts\Items\Chili.cs" Line="58" Column="1" />
+      <File FileName="Assets\Scripts\Items\GhostItem.cs" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\Items\OilLatern.cs" Line="41" Column="1" />
+      <File FileName="Assets\Scripts\Items\Prune.cs" Line="16" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

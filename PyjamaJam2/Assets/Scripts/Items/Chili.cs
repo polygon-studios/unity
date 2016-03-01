@@ -37,6 +37,7 @@ public class Chili : Item {
 		
 		if (timer < 0) {
 			character.currentJump = character.starterJump;
+			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf();
 			Destroy(this.gameObject);
 		}

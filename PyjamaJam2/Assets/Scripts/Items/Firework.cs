@@ -1,14 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GhostItem : Item {
-	//stuns enemies and characters
-	
-	int effectTimer; 
+public class Firework : Item {
+
 	Character character;
-	//Character characters[];//holds all other characters
-	
-	
+
 	// Use this for initialization
 	protected override void Start () {
 		base.Start ();

@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\InvertCamera.cs" />
      <Compile Include="Assets\Scripts\Items\Chili.cs" />
      <Compile Include="Assets\Scripts\Items\Coin.cs" />
+     <Compile Include="Assets\Scripts\Items\Firework.cs" />
      <Compile Include="Assets\Scripts\Items\Fish.cs" />
      <Compile Include="Assets\Scripts\Items\GhostItem.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />

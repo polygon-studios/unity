@@ -35,21 +35,31 @@ public class Pinwheel : Item {
 		wind1 = (GameObject)Instantiate (windPrefab, new Vector3 (22.0f, 4.0f, -2.4f), Quaternion.identity);
 		wind2 = (GameObject)Instantiate (windPrefab, new Vector3 (8.0f, 4.0f, -2.4f), Quaternion.identity);
 
-		foreach (GameObject item in base.allItems.ITEMSARRAY) {
-			Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
-			rb.AddForce(force, ForceMode2D.Impulse);
+		foreach (GameObject item in base.allItems.lev1ItemsCurrent) {
+			if(item != null){
+				Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
+				rb.AddForce(force, ForceMode2D.Impulse);
+			}
+		}foreach (GameObject item in base.allItems.lev2ItemsCurrent) {
+			if(item != null){
+				Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
+				rb.AddForce(force, ForceMode2D.Impulse);
+			}
+		}foreach (GameObject item in base.allItems.lev3ItemsCurrent) {
+			if(item != null){
+				Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
+				rb.AddForce(force, ForceMode2D.Impulse);
+			}
 		}
 
 	}
-
 	void updateTrigger(){
 		timer -= Time.deltaTime;
 		Debug.Log ("YES");
 		if (timer < 0) {
 			Destroy(wind1);
 			Destroy(wind2);
-			Debug.Log("TIMER");
-	
+			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);
 		}

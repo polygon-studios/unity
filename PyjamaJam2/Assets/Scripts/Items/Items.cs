@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Items : MonoBehaviour {
 
 	public static Items ITEMS;
-	public List<GameObject> ITEMSARRAY = new List<GameObject>();
+	//public List<GameObject> ITEMSARRAY = new List<GameObject>();
 	public List<GameObject> lev1ItemsPrefabs = new List<GameObject> ();
 	public List<GameObject> lev2ItemsPrefabs = new List<GameObject>();
 	public List<GameObject> lev3ItemsPrefabs = new List<GameObject>();
@@ -94,11 +94,30 @@ public class Items : MonoBehaviour {
 	}
 	
 	public void addItemToArray(GameObject itemObj){
-		ITEMSARRAY.Add (itemObj);
+		//ITEMSARRAY.Add (itemObj);
 	}
 	
 	public void removeItemFromArray(GameObject itemObj){
-		ITEMSARRAY.Remove (itemObj);
+		//ITEMSARRAY.Remove (itemObj);
+		if (itemObj.GetComponent<Prune> () != null) {
+			lev1ItemsCurrent.Remove(itemObj);
+		}if (itemObj.GetComponent<Chili> () != null) {
+			lev1ItemsCurrent.Remove(itemObj);
+		}if (itemObj.GetComponent<Fish> () != null) {
+			lev1ItemsCurrent.Remove(itemObj);
+		}
+		else if (itemObj.GetComponent<Slippers> () != null) {
+			lev2ItemsCurrent.Remove(itemObj);
+		}else if (itemObj.GetComponent<Pinwheel> () != null) {
+			lev2ItemsCurrent.Remove(itemObj);
+		}else if (itemObj.GetComponent<GhostItem> () != null) {
+			lev2ItemsCurrent.Remove(itemObj);
+		}
+		else if (itemObj.GetComponent<TreasureChest> () != null) {
+			lev2ItemsCurrent.Remove(itemObj);
+		}else if (itemObj.GetComponent<Firework> () != null) {
+			lev2ItemsCurrent.Remove(itemObj);
+		}
 	}
 
 	void fillArrayPositions(){
@@ -209,8 +228,6 @@ public class Items : MonoBehaviour {
 		hardItemPositions.Add(new Vector2(25.7f, 6.5f));
 		hardItemPositions.Add(new Vector2(27f, 6.5f));
 		hardItemPositions.Add(new Vector2(28.6f, 6.5f));
-
-
 	}
 
 }
