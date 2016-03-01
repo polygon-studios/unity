@@ -32,15 +32,6 @@ public class SocketIOLogic : MonoBehaviour
 
 	public void Update()
 	{
-		//socket.On("open", TestOpen);
-		//socket.On("news", TestBoop);
-		//socket.On("success", TestBoop);
-		//socket.On("error", TestError);
-		//socket.On("close", TestClose);
-		//socket.Emit("beep");
-		//socket.Emit("open");
-		//socket.On("Position", TestPosition);
-		//socket.On("boop", TestBoop);
 		getPlayerPositions ();
 	}
 
@@ -141,6 +132,14 @@ public class SocketIOLogic : MonoBehaviour
 			if(character.name == "character_Skunk"){
 				data["skunkX"] = positionX.ToString();
 				data["skunkY"] = positionY.ToString();
+			}
+			if(character.name == "character_Bear"){
+				data["bearX"] = positionX.ToString();
+				data["bearY"] = positionY.ToString();
+			}
+			if(character.name == "character_Rabbit"){
+				data["rabbitX"] = positionX.ToString();
+				data["rabbitY"] = positionY.ToString();
 			}
 			
 		}
