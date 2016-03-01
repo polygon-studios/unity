@@ -15,12 +15,16 @@ public class Items : MonoBehaviour {
 	public List<GameObject> lev3ItemsCurrent = new List<GameObject>();
 	public GameMaster GM;
 
-	int maxEasyItems = 8;
+	int maxEasyItemsInScene = 5;
 	int maxMedItems = 6;
 	int maxHardItems = 4;
 
+	int maxEasyPositions;
 
-	float timer = 20; //in seconds
+	List<Vector2> easyItemPositions ;
+
+
+	float timer = 5; //in seconds
 
 	void Awake(){
 		if (ITEMS != null)
@@ -28,6 +32,8 @@ public class Items : MonoBehaviour {
 		else
 			ITEMS = this;
 		DontDestroyOnLoad (this);
+
+		fillArrayPositions ();
 	}
 
 	void Update(){
@@ -35,8 +41,8 @@ public class Items : MonoBehaviour {
 		//Debug.Log (timer);
 		Debug.Log ("HERE");
 		if (timer < 0) {
-			timer = 20;
-			//checkTypes();
+			timer = 5;
+			checkTypes();
 		}
 	}
 
@@ -45,12 +51,35 @@ public class Items : MonoBehaviour {
 		int medCount = lev2ItemsCurrent.Count;
 		int hardCount = lev3ItemsCurrent.Count;
 
-		if (lev1ItemsCurrent.Count < maxEasyItems) {
-			GameObject itemObj = (GameObject)Instantiate (lev1ItemsPrefabs[0], new Vector3 (15, 4.0f, 0), Quaternion.identity);
-			if(itemObj.gameObject.GetComponent<Fish> () != null)
+		if (easyCount < maxEasyItemsInScene) {
+			int randPos = -10;
+			//Vector3 finalPos = new Vector3(0,0,0);
+			bool randPosIsUnique= false;
 
-			ITEMSARRAY.Add (itemObj);
-		}
+			while(randPosIsUnique == false){
+				randPos = Random.Range (0, maxEasyPositions); 
+				//finalPos = new Vector3(easyItemPositions[randPos].x, easyItemPositions[randPos].y, 0);
+
+				if(lev1ItemsCurrent.Count > 0){
+					foreach(GameObject itmObj in lev1ItemsCurrent){
+						if( easyItemPositions[randPos].x > itmObj.transform.position.x + 0.1 ||
+						    easyItemPositions[randPos].x < itmObj.transform.position.x - 0.1 )
+							randPosIsUnique = true;
+						else{
+							randPosIsUnique = false;
+							break;
+						}
+					}	
+				}else
+					randPosIsUnique = true;
+			}
+
+			int randItem = Random.Range (0, lev1ItemsPrefabs.Count);
+
+			GameObject itemObj = (GameObject)Instantiate (lev1ItemsPrefabs[randItem], new Vector3(easyItemPositions[randPos].x,easyItemPositions[randPos].y, 0) , Quaternion.identity);
+			if(itemObj != null)
+		 		lev1ItemsCurrent.Add (itemObj);
+			
 
 		Debug.Log ("easy: " + easyCount + "   med: " + medCount + "   hard: " + hardCount);
 
@@ -63,6 +92,7 @@ public class Items : MonoBehaviour {
 				itemScript.setDarkMode();
 			}
 		}*/
+		}
 
 	}
 
@@ -73,4 +103,23 @@ public class Items : MonoBehaviour {
 	public void removeItemFromArray(GameObject itemObj){
 		ITEMSARRAY.Remove (itemObj);
 	}
+
+	void fillArrayPositions(){
+		easyItemPositions = new List<Vector2> ();
+		easyItemPositions.Add(new Vector2(7, 0));
+		easyItemPositions.Add(new Vector2(8.35f, 0));
+		easyItemPositions.Add(new Vector2(10, 0));
+		easyItemPositions.Add(new Vector2(11.39f, 0));
+		easyItemPositions.Add(new Vector2(18.75f, 0));
+		easyItemPositions.Add(new Vector2(20.2f, 0));
+		easyItemPositions.Add(new Vector2(21.63f, 0));
+
+		easyItemPositions.Add(new Vector2(7.2f, 2.1f));
+		easyItemPositions.Add(new Vector2(9, 2.1f));
+		easyItemPositions.Add(new Vector2(10.5f, 2.1f));
+		easyItemPositions.Add(new Vector2(19.1f, 2.1f));
+		easyItemPositions.Add(new Vector2(20.7f, 2.1f));
+		maxEasyPositions = easyItemPositions.Count;
+	}
+
 }

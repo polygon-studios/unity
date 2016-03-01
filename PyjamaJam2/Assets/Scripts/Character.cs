@@ -66,13 +66,10 @@ public class Character : MonoBehaviour {
 		X button used for picking up, activating, and using items
 		B button used to drop items
 		*/
+
 		moveSpeed = (transform.position - lastPosition).magnitude;
 		lastPosition = transform.position;
-		//float vel = rigidbody.velocity;      //to get a Vector3 representation of the velocity
-		//float speed = vel.;   
-		//animator.SetFloat (charID +"MoveSpeed", Mathf.Abs (Input.GetAxis ("Horizontal")));
 		animator.SetFloat (charID +"MoveSpeed", moveSpeed*50);
-		Debug.Log (charID + "MoveSpeed: " +moveSpeed*50);
 
 		if (Input.GetKey (inputRight) && isStunned == false) { //moving character right
 			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
