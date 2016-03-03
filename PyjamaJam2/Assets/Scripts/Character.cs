@@ -9,6 +9,7 @@ public class Character : MonoBehaviour {
 		onGround = passThrough;
 	}
 	public Items gameMaster;
+	public SocketIOLogic io;
 	public float currentJump = 0f;
 	public float starterJump;
 	public KeyCode inputLeft;
@@ -149,7 +150,7 @@ public class Character : MonoBehaviour {
 				float itemX = eItem.transform.position.x;
 				float itemY = eItem.transform.position.y;
 				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
-					Debug.Log (eItem.name + " item near character: " + this.name);
+					//Debug.Log (eItem.name + " item near character: " + this.name);
 					doCollision (eItem);
 				}
 
@@ -161,7 +162,7 @@ public class Character : MonoBehaviour {
 				float itemX = mItem.transform.position.x;
 				float itemY = mItem.transform.position.y;
 				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
-					Debug.Log (mItem.name + " item near character: " + this.name);
+					//Debug.Log (mItem.name + " item near character: " + this.name);
 					doCollision (mItem);
 				}
 				
@@ -173,7 +174,7 @@ public class Character : MonoBehaviour {
 				float itemX = hItem.transform.position.x;
 				float itemY = hItem.transform.position.y;
 				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
-					Debug.Log (hItem.name + " item near character: " + this.name);
+					//Debug.Log (hItem.name + " item near character: " + this.name);
 					doCollision (hItem);
 				}
 				
@@ -248,7 +249,7 @@ public class Character : MonoBehaviour {
 			}
 	}
 
-	void OnTriggerStay2D(Collider2D objectHit){
+	void OnTriggerEnter2D(Collider2D objectHit){
 		if (objectHit.gameObject.tag == "coin") {
 			//increase points
 			
@@ -260,6 +261,21 @@ public class Character : MonoBehaviour {
 		if (objectHit.gameObject.tag == "Trap") {
 			stunCharacter();
 		}
+
+		if (objectHit.gameObject.tag == "Door") {
+			string itemHeld;
+
+			if(item){
+				itemHeld = "bloop";
+			}
+			else {
+				itemHeld = "none";
+			}
+
+			io.playerEnter(this.name, 1.0f, itemHeld);
+
+		}
+
 
 	}
 
