@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Character : MonoBehaviour {
 	public bool onGround = false;
@@ -7,6 +8,7 @@ public class Character : MonoBehaviour {
 	public void isOnGround(bool passThrough){
 		onGround = passThrough;
 	}
+	public Items gameMaster;
 	public float currentJump = 0f;
 	public float starterJump;
 	public KeyCode inputLeft;
@@ -32,6 +34,7 @@ public class Character : MonoBehaviour {
 
 	public Animator animator;
 	Rigidbody2D rigidbody;
+	Renderer rend;
 	Item item; //holds item
 
 	public float speed; //walk 0.5f //run 0.8f
@@ -42,6 +45,7 @@ public class Character : MonoBehaviour {
 	void Start () {
 		animator = this.gameObject.GetComponent<Animator> ();
 		rigidbody = this.gameObject.GetComponent<Rigidbody2D> ();
+		rend = GetComponent<Renderer>();
 		currentJump = starterJump;
 		itemDebounceTimer = itemDebounceTimerSaveTime; 
 
@@ -50,9 +54,13 @@ public class Character : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		Physics2D.IgnoreLayerCollision(8,8, true);
+		Physics2D.IgnoreLayerCollision(8,9, true);
+
 		lastY = transform.position.y;
 		Movement ();
 		ItemCheck ();
+		checkCollisions ();
 
 		if (laternScript.isActivated == true) {
 			updateLatern();
@@ -60,6 +68,7 @@ public class Character : MonoBehaviour {
 	}
 
 	void Movement(){
+
 		/*
 		A button used to jump
 		X button used for picking up, activating, and using items
@@ -129,16 +138,59 @@ public class Character : MonoBehaviour {
 
 	}
 
-	void OnTriggerStay2D(Collider2D objectHit){
+	void checkCollisions(){
+		List<GameObject> easyItems = gameMaster.getEasyItems ();
+		List<GameObject> mediumItems = gameMaster.getMedItems ();
+		List<GameObject> hardItems = gameMaster.getHardItems ();
 
-		///picking up an item
-		if (objectHit.gameObject.tag == "item" && item == null ) {
+		if(easyItems != null){
+			foreach(GameObject eItem in easyItems)
+			{
+				float itemX = eItem.transform.position.x;
+				float itemY = eItem.transform.position.y;
+				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
+					Debug.Log (eItem.name + " item near character: " + this.name);
+					doCollision (eItem);
+				}
+
+			}
+		}
+		if(mediumItems != null){
+			foreach(GameObject mItem in mediumItems)
+			{
+				float itemX = mItem.transform.position.x;
+				float itemY = mItem.transform.position.y;
+				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
+					Debug.Log (mItem.name + " item near character: " + this.name);
+					doCollision (mItem);
+				}
+				
+			}
+		}
+		if(hardItems != null){
+			foreach(GameObject hItem in hardItems)
+			{
+				float itemX = hItem.transform.position.x;
+				float itemY = hItem.transform.position.y;
+				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
+					Debug.Log (hItem.name + " item near character: " + this.name);
+					doCollision (hItem);
+				}
+				
+			}
+		}
+
+				   
+
+	}
+
+	void doCollision(GameObject objectHit){
 			if(Input.GetKey(KeyCode.I) ||Input.GetButtonDown(controllerX)){
 				itemDebounceTimer = itemDebounceTimerSaveTime;
-
+				
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {
 					//requires other multiplayer prior to coding
-
+					
 					Chili chili = objectHit.gameObject.GetComponent<Chili>();
 					chili.initVariables (this.gameObject.GetComponent<Character> ());
 					//chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
@@ -167,7 +219,7 @@ public class Character : MonoBehaviour {
 					Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
 					pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
 					pinwheel.Hide ();
-
+					
 					item = pinwheel;
 				} else if (objectHit.gameObject.GetComponent<Prune> () != null) {
 					//requires other multiplayer prior to coding
@@ -194,18 +246,21 @@ public class Character : MonoBehaviour {
 					item = newItem;
 				}*/
 			}
+	}
 
-		} else if (objectHit.gameObject.tag == "coin") {
+	void OnTriggerStay2D(Collider2D objectHit){
+		if (objectHit.gameObject.tag == "coin") {
 			//increase points
-
+			
 			Coin coin = objectHit.gameObject.GetComponent<Coin>();
 			coin.destroySelf();
-
+			
 		}
-
+		
 		if (objectHit.gameObject.tag == "Trap") {
 			stunCharacter();
 		}
+
 	}
 
 	public bool isFalling(){

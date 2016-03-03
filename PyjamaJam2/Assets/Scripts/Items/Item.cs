@@ -6,6 +6,7 @@ public class Item : MonoBehaviour {
 	public bool beenTriggered = false;
 	public int difficulty;
 	public Material diffuseMat;
+	public Renderer rend;
 
 	int points = 10;
 
@@ -13,11 +14,12 @@ public class Item : MonoBehaviour {
 	protected virtual void Start () {
 		GameObject goItems = GameObject.Find("GameMasterItems");    
 		allItems = goItems.GetComponent<Items> ();
+		rend = GetComponent<Renderer>();
 	}
 	
 	// Update is called once per frame
 	protected virtual void Update () {
-	
+		Physics.IgnoreLayerCollision(9,11, true);
 	}
 
 	public virtual void TriggerEffect(){
@@ -41,5 +43,18 @@ public class Item : MonoBehaviour {
 
 	public void setDarkMode(){
 		this.gameObject.GetComponent<SpriteRenderer> ().material = diffuseMat;
+	}
+
+	// Subtracts health from character when hit
+	public Vector2 getItemPosition()
+	{
+		Vector2 pos = transform.position;
+		return pos;
+	}
+	
+	public float getItemRadius()
+	{
+		float radius = rend.bounds.extents.magnitude;
+		return radius;
 	}
 }

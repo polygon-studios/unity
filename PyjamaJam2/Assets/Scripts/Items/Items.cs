@@ -37,8 +37,6 @@ public class Items : MonoBehaviour {
 
 	void Update(){
 		timer -= Time.deltaTime;
-		//Debug.Log (timer);
-		Debug.Log ("HERE");
 		if (timer < 0) {
 			timer = 5;
 			checkTypes();
@@ -118,6 +116,18 @@ public class Items : MonoBehaviour {
 		}else if (itemObj.GetComponent<Firework> () != null) {
 			lev2ItemsCurrent.Remove(itemObj);
 		}
+	}
+
+	public List<GameObject> getEasyItems(){
+		return lev1ItemsCurrent;
+	}
+
+	public List<GameObject> getMedItems(){
+		return lev2ItemsCurrent;
+	}
+
+	public List<GameObject> getHardItems(){
+		return lev3ItemsCurrent;
 	}
 
 	void fillArrayPositions(){
