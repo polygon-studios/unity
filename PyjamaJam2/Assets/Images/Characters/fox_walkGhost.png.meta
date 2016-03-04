@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: 75537dd41fd8a294ca9581e0bfec115d
+timeCreated: 1457101264
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_walkGhost_0
+    21300002: fox_walkGhost_1
+    21300004: fox_walkGhost_2
+    21300006: fox_walkGhost_3
+    21300008: fox_walkGhost_4
+    21300010: fox_walkGhost_5
+    21300012: fox_walkGhost_6
+    21300014: fox_walkGhost_7
+    21300016: fox_walkGhost_8
+    21300018: fox_walkGhost_9
+    21300020: fox_walkGhost_10
+    21300022: fox_walkGhost_11
+    21300024: fox_walkGhost_12
+    21300026: fox_walkGhost_13
+    21300028: fox_walkGhost_14
+    21300030: fox_walkGhost_15
+    21300032: fox_walkGhost_16
+    21300034: fox_walkGhost_17
+    21300036: fox_walkGhost_18
+    21300038: fox_walkGhost_19
+    21300040: fox_walkGhost_20
+    21300042: fox_walkGhost_21
+    21300044: fox_walkGhost_22
+    21300046: fox_walkGhost_23
+    21300048: fox_walkGhost_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_walkGhost_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 438
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 37}
+        - {x: -26.5, y: 25}
+        - {x: -26.5, y: -37}
+        - {x: 26.5, y: -37}
+        - {x: 26.5, y: 31}
+        - {x: 24.5, y: 37}
+    - name: fox_walkGhost_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 439
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36.5}
+        - {x: -27, y: 25.5}
+        - {x: -27, y: -23.5}
+        - {x: -22, y: -36.5}
+        - {x: 25, y: -36.5}
+        - {x: 27, y: -35.5}
+        - {x: 27, y: 36.5}
+    - name: fox_walkGhost_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 439
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36.5}
+        - {x: -27, y: 7.5}
+        - {x: -27, y: -27.5}
+        - {x: -12, y: -36.5}
+        - {x: 27, y: -36.5}
+        - {x: 27, y: 36.5}
+      - - {x: -27, y: 10.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: 14.5}
+        - {x: -26, y: 16.5}
+        - {x: -27, y: 16.5}
+    - name: fox_walkGhost_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 439
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 36.5}
+        - {x: -26.5, y: 5.5}
+        - {x: -26.5, y: -29.5}
+        - {x: -16.5, y: -36.5}
+        - {x: 18.5, y: -36.5}
+        - {x: 26.5, y: -12.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 21.5, y: 36.5}
+    - name: fox_walkGhost_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 439
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 36.5}
+        - {x: -26.5, y: 9.5}
+        - {x: -26.5, y: -18.5}
+        - {x: -12.5, y: -36.5}
+        - {x: 15.5, y: -36.5}
+        - {x: 26.5, y: -5.5}
+        - {x: 26.5, y: 27.5}
+        - {x: 19.5, y: 36.5}
+    - name: fox_walkGhost_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 437
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 37}
+        - {x: -26.5, y: 10}
+        - {x: -26.5, y: -28}
+        - {x: -8.5, y: -37}
+        - {x: 24.5, y: -37}
+        - {x: 26.5, y: -24}
+        - {x: 26.5, y: 25}
+        - {x: 20.5, y: 37}
+      - - {x: 23.5, y: -11}
+        - {x: 25.5, y: -13}
+        - {x: 26.5, y: -13}
+        - {x: 26.5, y: -8}
+        - {x: 24.5, y: -8}
+    - name: fox_walkGhost_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 436
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 25}
+        - {x: 13.5, y: 38}
+        - {x: 2.5, y: 38}
+        - {x: -3.5, y: 28}
+        - {x: -17.5, y: 19}
+        - {x: -26.5, y: 10}
+        - {x: -26.5, y: -19}
+        - {x: -6.5, y: -36}
+        - {x: -4.5, y: -38}
+        - {x: 16.5, y: -38}
+        - {x: 25.5, y: -17}
+        - {x: 26.5, y: -11}
+        - {x: 26.5, y: 23}
+      - - {x: -26.5, y: 11}
+        - {x: -23.5, y: 12}
+        - {x: -23.5, y: 15}
+        - {x: -25.5, y: 17}
+        - {x: -26.5, y: 17}
+    - name: fox_walkGhost_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 436
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 38}
+        - {x: -21.5, y: 22}
+        - {x: -26.5, y: 12}
+        - {x: -26.5, y: -17}
+        - {x: -5.5, y: -38}
+        - {x: 11.5, y: -38}
+        - {x: 26.5, y: -24}
+        - {x: 26.5, y: 38}
+    - name: fox_walkGhost_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 436
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 37.5}
+        - {x: -3, y: 32.5}
+        - {x: -8, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -17, y: 16.5}
+        - {x: -24, y: 14.5}
+        - {x: -27, y: 11.5}
+        - {x: -27, y: -27.5}
+        - {x: -11, y: -37.5}
+        - {x: 26, y: -37.5}
+        - {x: 27, y: -31.5}
+        - {x: 27, y: 29.5}
+        - {x: 15, y: 37.5}
+    - name: fox_walkGhost_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 359
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 38}
+        - {x: -26.5, y: 12}
+        - {x: -26.5, y: -18}
+        - {x: -9.5, y: -38}
+        - {x: 18.5, y: -38}
+        - {x: 26.5, y: -15}
+        - {x: 26.5, y: 33}
+        - {x: 14.5, y: 38}
+      - - {x: 23.5, y: -11}
+        - {x: 25.5, y: -13}
+        - {x: 26.5, y: -13}
+        - {x: 26.5, y: -8}
+        - {x: 24.5, y: -8}
+    - name: fox_walkGhost_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 359
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 30}
+        - {x: 23.5, y: 38}
+        - {x: -7.5, y: 38}
+        - {x: -8.5, y: 37}
+        - {x: -26.5, y: 13}
+        - {x: -26.5, y: -24}
+        - {x: -9.5, y: -38}
+        - {x: 7.5, y: -38}
+        - {x: 12.5, y: -36}
+        - {x: 26.5, y: -22}
+      - - {x: -26.5, y: 13}
+        - {x: -23.5, y: 14}
+        - {x: -23.5, y: 18}
+        - {x: -25.5, y: 20}
+        - {x: -26.5, y: 20}
+    - name: fox_walkGhost_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 360
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 38}
+        - {x: -26, y: 16}
+        - {x: -26, y: -15}
+        - {x: -20, y: -38}
+        - {x: 18, y: -38}
+        - {x: 26, y: -35}
+        - {x: 26, y: 27}
+        - {x: 20, y: 38}
+    - name: fox_walkGhost_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 360
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -15.5}
+        - {x: 26, y: 26.5}
+        - {x: 20, y: 37.5}
+        - {x: -19, y: 37.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 26, y: -30.5}
+        - {x: 26, y: -24.5}
+        - {x: 24, y: -21.5}
+    - name: fox_walkGhost_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 37.5}
+        - {x: -3, y: 37.5}
+        - {x: -7, y: 35.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -27.5}
+        - {x: -14, y: -37.5}
+        - {x: 16, y: -37.5}
+        - {x: 24, y: -25.5}
+        - {x: 26, y: -17.5}
+        - {x: 26, y: 27.5}
+      - - {x: 23, y: -7.5}
+        - {x: 25, y: -9.5}
+        - {x: 26, y: -9.5}
+        - {x: 26, y: -4.5}
+        - {x: 24, y: -4.5}
+    - name: fox_walkGhost_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 360
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 37.5}
+        - {x: -9.5, y: 37.5}
+        - {x: -26.5, y: 28.5}
+        - {x: -26.5, y: -18.5}
+        - {x: -15.5, y: -37.5}
+        - {x: 16.5, y: -37.5}
+        - {x: 20.5, y: -30.5}
+        - {x: 26.5, y: 5.5}
+        - {x: 26.5, y: 30.5}
+      - - {x: 23.5, y: -7.5}
+        - {x: 25.5, y: -9.5}
+        - {x: 26.5, y: -9.5}
+        - {x: 26.5, y: -4.5}
+        - {x: 24.5, y: -4.5}
+      - - {x: -26.5, y: 11.5}
+        - {x: -23.5, y: 12.5}
+        - {x: -23.5, y: 15.5}
+        - {x: -25.5, y: 17.5}
+        - {x: -26.5, y: 17.5}
+    - name: fox_walkGhost_15
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 361
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 37}
+        - {x: -27, y: 28}
+        - {x: -27, y: -37}
+        - {x: 15, y: -37}
+        - {x: 27, y: -10}
+        - {x: 27, y: 26}
+        - {x: 21, y: 37}
+    - name: fox_walkGhost_16
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 359
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 38}
+        - {x: -27, y: 28}
+        - {x: -27, y: -31}
+        - {x: -25, y: -38}
+        - {x: 17, y: -38}
+        - {x: 23, y: -36}
+        - {x: 27, y: -19}
+        - {x: 27, y: 26}
+        - {x: 20, y: 38}
+    - name: fox_walkGhost_17
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 357
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -15.5}
+        - {x: -6, y: -38.5}
+        - {x: 12, y: -38.5}
+        - {x: 27, y: -3.5}
+        - {x: 27, y: 38.5}
+        - {x: -12, y: 38.5}
+        - {x: -27, y: 30.5}
+    - name: fox_walkGhost_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 39.5}
+        - {x: -8, y: 9.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: 7.5}
+        - {x: -16, y: 20.5}
+        - {x: -27, y: 13.5}
+        - {x: -27, y: -20.5}
+        - {x: -7, y: -39.5}
+        - {x: 17, y: -39.5}
+        - {x: 27, y: -10.5}
+        - {x: 27, y: 33.5}
+        - {x: 14, y: 39.5}
+    - name: fox_walkGhost_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 277
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 39.5}
+        - {x: -27, y: 27.5}
+        - {x: -27, y: -16.5}
+        - {x: -7, y: -38.5}
+        - {x: -5, y: -39.5}
+        - {x: 9, y: -39.5}
+        - {x: 27, y: -15.5}
+        - {x: 27, y: 39.5}
+    - name: fox_walkGhost_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 278
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 38.5}
+        - {x: -27, y: 24.5}
+        - {x: -27, y: -27.5}
+        - {x: -23, y: -38.5}
+        - {x: 9, y: -38.5}
+        - {x: 27, y: -15.5}
+        - {x: 27, y: 35.5}
+        - {x: 19, y: 38.5}
+    - name: fox_walkGhost_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 278
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 39}
+        - {x: -27.5, y: 27}
+        - {x: -27.5, y: -15}
+        - {x: -25.5, y: -16}
+        - {x: -21.5, y: -16}
+        - {x: -13.5, y: -36}
+        - {x: -10.5, y: -39}
+        - {x: 7.5, y: -39}
+        - {x: 27.5, y: -12}
+        - {x: 27.5, y: 33}
+        - {x: 24.5, y: 39}
+    - name: fox_walkGhost_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 279
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 38.5}
+        - {x: -1.5, y: 38.5}
+        - {x: -6.5, y: 36.5}
+        - {x: -27.5, y: 8.5}
+        - {x: -27.5, y: -26.5}
+        - {x: -14.5, y: -38.5}
+        - {x: 22.5, y: -38.5}
+        - {x: 27.5, y: -23.5}
+        - {x: 27.5, y: 34.5}
+    - name: fox_walkGhost_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 281
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 38}
+        - {x: -10, y: 38}
+        - {x: -27, y: 9}
+        - {x: -27, y: -26}
+        - {x: -14, y: -38}
+        - {x: 16, y: -38}
+        - {x: 21, y: -36}
+        - {x: 27, y: -16}
+        - {x: 27, y: 29}
+    - name: fox_walkGhost_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 282
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 37}
+        - {x: -26.5, y: 16}
+        - {x: -26.5, y: -20}
+        - {x: -13.5, y: -37}
+        - {x: 26.5, y: -37}
+        - {x: 26.5, y: 32}
+        - {x: 24.5, y: 37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

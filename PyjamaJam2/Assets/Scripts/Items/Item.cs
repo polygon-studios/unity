@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Item : MonoBehaviour {
 	public Items allItems;
+    public GameMaster GM;
 	public bool beenTriggered = false;
 	public int difficulty;
 	public Material diffuseMat;
@@ -12,8 +13,12 @@ public class Item : MonoBehaviour {
 
 	// Use this for initialization
 	protected virtual void Start () {
-		GameObject goItems = GameObject.Find("GameMasterItems");    
+		GameObject goItems = GameObject.Find("GameMasterItems"); 
 		allItems = goItems.GetComponent<Items> ();
+
+        GameObject goMaster = GameObject.Find("GameMaster");
+        GM = goMaster.GetComponent<GameMaster>();
+
 		rend = GetComponent<Renderer>();
 	}
 	

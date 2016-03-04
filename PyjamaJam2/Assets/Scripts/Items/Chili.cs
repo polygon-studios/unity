@@ -7,7 +7,6 @@ public class Chili : Item {
 	int effectTimer; 
 	Character character;
 	float timer = 20; //in seconds
-	public GameMaster GM;
 	//Character characters[];//holds all other characters
 
 
@@ -42,7 +41,7 @@ public class Chili : Item {
 			Destroy(this.gameObject);
 		}
 
-		foreach (Character currChar in GM.CHARACTERS) {
+		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
 				if(currChar.lastPressedKey == currChar.inputRight){
 					currChar.transform.Translate (currChar.speed * Time.deltaTime, 0.0f, 0.0f);

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Fish : Item {
 	//other characters turn to fish
 	public GameObject floppingFishPrefab;
-	public GameMaster GM;
+	//public GameMaster GM;
 
 	Character character;
 	List<GameObject> floppingFishes;
@@ -33,7 +33,7 @@ public class Fish : Item {
 	public override void TriggerEffect(){
 		timer -= Time.deltaTime;
 		floppingFishes = new List<GameObject>();
-		foreach (Character currChar in GM.CHARACTERS) {
+		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
 				floppingFishes.Add((GameObject)Instantiate (floppingFishPrefab, new Vector3 (currChar.transform.position.x, currChar.transform.position.y, 0), Quaternion.identity));
 				currChar.gameObject.GetComponent<Renderer>().enabled = false;
@@ -52,7 +52,7 @@ public class Fish : Item {
 					Destroy(floppingFish.gameObject);
 			}
 
-			foreach (Character currChar in GM.CHARACTERS) {
+			foreach (Character currChar in base.GM.CHARACTERS) {
 				if(currChar != character && currChar != null){
 					currChar.gameObject.SetActive(true);
 					currChar.gameObject.GetComponent<Renderer>().enabled = true;
