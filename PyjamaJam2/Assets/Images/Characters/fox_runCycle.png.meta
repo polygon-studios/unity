@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 19b7cc9a617b57b47ad70edd2fab4592
-timeCreated: 1456503552
+timeCreated: 1457112907
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -37,7 +37,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -57,11 +57,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -72,203 +73,446 @@ TextureImporter:
     - name: fox_runCycle_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 232
-        width: 52
-        height: 66
+        x: 5
+        y: 441
+        width: 57
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 1.5}
+        - {x: 20.5, y: 0.5}
+        - {x: 26.5, y: 3.5}
+        - {x: 28.5, y: 7.5}
+        - {x: 28.5, y: 11.5}
+        - {x: 14.5, y: 35.5}
+        - {x: -0.5, y: 35.5}
+        - {x: -27.5, y: 15.5}
+        - {x: -28.5, y: 9.5}
+        - {x: -28.5, y: -34.5}
+        - {x: -26.5, y: -35.5}
+        - {x: 21.5, y: -35.5}
+        - {x: 28.5, y: -11.5}
+        - {x: 28.5, y: 1.5}
     - name: fox_runCycle_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 230
-        width: 51
-        height: 68
+        x: 69
+        y: 438
+        width: 55
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 37}
+        - {x: -27.5, y: 13}
+        - {x: -27.5, y: -35}
+        - {x: -14.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 27.5, y: -18}
+        - {x: 27.5, y: 21}
+        - {x: 22.5, y: 37}
     - name: fox_runCycle_2
       rect:
         serializedVersion: 2
-        x: 134
-        y: 227
-        width: 51
-        height: 70
+        x: 132
+        y: 435
+        width: 54
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 38}
+        - {x: -27, y: 21}
+        - {x: -27, y: -37}
+        - {x: -22, y: -38}
+        - {x: 25, y: -38}
+        - {x: 27, y: -32}
+        - {x: 27, y: 30}
+        - {x: 15, y: 38}
     - name: fox_runCycle_3
       rect:
         serializedVersion: 2
-        x: 197
-        y: 226
-        width: 52
-        height: 71
+        x: 194
+        y: 436
+        width: 56
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 37.5}
+        - {x: 2, y: 37.5}
+        - {x: 0, y: 35.5}
+        - {x: -7, y: 19.5}
+        - {x: -19, y: 13.5}
+        - {x: -28, y: 9.5}
+        - {x: -28, y: -15.5}
+        - {x: -24, y: -17.5}
+        - {x: -26, y: -20.5}
+        - {x: -24, y: -33.5}
+        - {x: -10, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 28, y: -13.5}
+        - {x: 28, y: 22.5}
+        - {x: 17, y: 36.5}
     - name: fox_runCycle_4
       rect:
         serializedVersion: 2
-        x: 260
-        y: 227
-        width: 51
-        height: 70
+        x: 5
+        y: 357
+        width: 55
+        height: 76
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 17}
+        - {x: 15.5, y: 38}
+        - {x: 2.5, y: 38}
+        - {x: -8.5, y: 20}
+        - {x: -9.5, y: 12}
+        - {x: -24.5, y: 14}
+        - {x: -27.5, y: 10}
+        - {x: -27.5, y: -19}
+        - {x: -22.5, y: -29}
+        - {x: -19.5, y: -33}
+        - {x: -18.5, y: -33}
+        - {x: -7.5, y: -38}
+        - {x: 11.5, y: -38}
+        - {x: 9.5, y: -32}
+        - {x: 27.5, y: -12}
     - name: fox_runCycle_5
       rect:
         serializedVersion: 2
-        x: 8
-        y: 151
-        width: 51
-        height: 71
+        x: 67
+        y: 358
+        width: 56
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 37.5}
+        - {x: 4, y: 37.5}
+        - {x: 1, y: 34.5}
+        - {x: -5, y: 22.5}
+        - {x: -7, y: 9.5}
+        - {x: -5, y: 7.5}
+        - {x: -23, y: 10.5}
+        - {x: -28, y: 7.5}
+        - {x: -28, y: -20.5}
+        - {x: -10, y: -37.5}
+        - {x: 13, y: -37.5}
+        - {x: 23, y: -22.5}
+        - {x: 28, y: -2.5}
+        - {x: 28, y: 22.5}
     - name: fox_runCycle_6
       rect:
         serializedVersion: 2
-        x: 70
-        y: 152
-        width: 52
-        height: 70
+        x: 130
+        y: 357
+        width: 56
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 25}
+        - {x: 18, y: 38}
+        - {x: -15, y: 38}
+        - {x: -28, y: 27}
+        - {x: -28, y: -36}
+        - {x: -27, y: -38}
+        - {x: 15, y: -38}
+        - {x: 20, y: -23}
+        - {x: 28, y: -3}
+        - {x: 28, y: 19}
     - name: fox_runCycle_7
       rect:
         serializedVersion: 2
-        x: 133
-        y: 152
-        width: 53
-        height: 71
+        x: 192
+        y: 358
+        width: 57
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 38}
+        - {x: -13.5, y: 38}
+        - {x: -28.5, y: 13}
+        - {x: -28.5, y: -38}
+        - {x: 17.5, y: -38}
+        - {x: 28.5, y: -12}
+        - {x: 28.5, y: 28}
     - name: fox_runCycle_8
       rect:
         serializedVersion: 2
-        x: 195
-        y: 152
-        width: 54
-        height: 71
+        x: 3
+        y: 280
+        width: 57
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 0}
+        - {x: 23.5, y: 3}
+        - {x: 25.5, y: 4}
+        - {x: 28.5, y: 8}
+        - {x: 28.5, y: 30}
+        - {x: 17.5, y: 38}
+        - {x: -9.5, y: 38}
+        - {x: -26.5, y: 12}
+        - {x: -28.5, y: 7}
+        - {x: -28.5, y: -16}
+        - {x: -25.5, y: -20}
+        - {x: -19.5, y: -20}
+        - {x: -20.5, y: -31}
+        - {x: -15.5, y: -38}
+        - {x: 14.5, y: -38}
+        - {x: 22.5, y: -31}
+        - {x: 27.5, y: -4}
     - name: fox_runCycle_9
       rect:
         serializedVersion: 2
-        x: 258
-        y: 155
-        width: 53
-        height: 68
+        x: 66
+        y: 283
+        width: 57
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -25.5}
+        - {x: 27.5, y: -4.5}
+        - {x: 28.5, y: 2.5}
+        - {x: 28.5, y: 29.5}
+        - {x: 17.5, y: 36.5}
+        - {x: -6.5, y: 36.5}
+        - {x: -28.5, y: 10.5}
+        - {x: -28.5, y: -22.5}
+        - {x: -25.5, y: -36.5}
+        - {x: 21.5, y: -36.5}
+        - {x: 28.5, y: -34.5}
+        - {x: 28.5, y: -30.5}
+        - {x: 21.5, y: -25.5}
     - name: fox_runCycle_10
       rect:
         serializedVersion: 2
-        x: 6
-        y: 84
-        width: 54
-        height: 64
+        x: 129
+        y: 287
+        width: 57
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 34.5}
+        - {x: -28.5, y: 19.5}
+        - {x: -28.5, y: -29.5}
+        - {x: -13.5, y: -34.5}
+        - {x: 28.5, y: -34.5}
+        - {x: 28.5, y: 28.5}
+        - {x: 25.5, y: 34.5}
     - name: fox_runCycle_11
       rect:
         serializedVersion: 2
-        x: 70
-        y: 81
-        width: 53
-        height: 67
+        x: 192
+        y: 284
+        width: 57
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 36}
+        - {x: -5.5, y: 23}
+        - {x: -28.5, y: 9}
+        - {x: -28.5, y: -27}
+        - {x: -26.5, y: -35}
+        - {x: -21.5, y: -36}
+        - {x: 27.5, y: -36}
+        - {x: 28.5, y: -31}
+        - {x: 28.5, y: 15}
+        - {x: 16.5, y: 36}
     - name: fox_runCycle_12
       rect:
         serializedVersion: 2
-        x: 133
-        y: 78
-        width: 53
-        height: 69
+        x: 4
+        y: 203
+        width: 56
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 37}
+        - {x: -28, y: 11}
+        - {x: -28, y: -32}
+        - {x: -12, y: -37}
+        - {x: 25, y: -37}
+        - {x: 28, y: -20}
+        - {x: 28, y: 16}
+        - {x: 16, y: 37}
     - name: fox_runCycle_13
       rect:
         serializedVersion: 2
-        x: 196
-        y: 78
-        width: 52
-        height: 70
+        x: 67
+        y: 203
+        width: 56
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 37.5}
+        - {x: -28, y: 10.5}
+        - {x: -28, y: -23.5}
+        - {x: -26, y: -34.5}
+        - {x: -16, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 28, y: -12.5}
+        - {x: 28, y: 23.5}
+        - {x: 16, y: 37.5}
     - name: fox_runCycle_14
       rect:
         serializedVersion: 2
-        x: 260
-        y: 77
-        width: 52
-        height: 71
+        x: 131
+        y: 202
+        width: 55
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 38}
+        - {x: -27.5, y: 21}
+        - {x: -27.5, y: -33}
+        - {x: -26.5, y: -38}
+        - {x: 18.5, y: -38}
+        - {x: 27.5, y: -7}
+        - {x: 27.5, y: 17}
+        - {x: 17.5, y: 38}
     - name: fox_runCycle_15
       rect:
         serializedVersion: 2
-        x: 8
-        y: 3
-        width: 51
-        height: 70
+        x: 194
+        y: 204
+        width: 55
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 37}
+        - {x: -20.5, y: 15}
+        - {x: -27.5, y: 6}
+        - {x: -27.5, y: -34}
+        - {x: -21.5, y: -37}
+        - {x: 22.5, y: -37}
+        - {x: 27.5, y: -10}
+        - {x: 27.5, y: 16}
+        - {x: 19.5, y: 37}
     - name: fox_runCycle_16
       rect:
         serializedVersion: 2
-        x: 71
-        y: 5
-        width: 52
-        height: 68
+        x: 5
+        y: 127
+        width: 55
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 36.5}
+        - {x: -27.5, y: 26.5}
+        - {x: -27.5, y: -31.5}
+        - {x: -15.5, y: -36.5}
+        - {x: 12.5, y: -36.5}
+        - {x: 27.5, y: -0.5}
+        - {x: 27.5, y: 36.5}
     - name: fox_runCycle_17
       rect:
         serializedVersion: 2
-        x: 134
-        y: 5
-        width: 52
-        height: 68
+        x: 69
+        y: 127
+        width: 54
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 36.5}
+        - {x: -5, y: 23.5}
+        - {x: -8, y: 10.5}
+        - {x: -8, y: 9.5}
+        - {x: -5, y: 6.5}
+        - {x: -15, y: 9.5}
+        - {x: -26, y: 9.5}
+        - {x: -27, y: 8.5}
+        - {x: -27, y: -30.5}
+        - {x: -16, y: -36.5}
+        - {x: 21, y: -36.5}
+        - {x: 27, y: -27.5}
+        - {x: 27, y: 21.5}
+        - {x: 22, y: 36.5}
     - name: fox_runCycle_18
       rect:
         serializedVersion: 2
-        x: 198
-        y: 5
-        width: 51
-        height: 69
+        x: 132
+        y: 127
+        width: 54
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 0.5}
+        - {x: 18, y: 0.5}
+        - {x: 26, y: 1.5}
+        - {x: 27, y: 3.5}
+        - {x: 27, y: 19.5}
+        - {x: 18, y: 36.5}
+        - {x: -15, y: 36.5}
+        - {x: -27, y: 13.5}
+        - {x: -27, y: -35.5}
+        - {x: -25, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 27, y: -12.5}
+        - {x: 27, y: -0.5}
+        - {x: 19, y: 0.5}
     - name: fox_runCycle_19
       rect:
         serializedVersion: 2
-        x: 261
-        y: 6
-        width: 50
-        height: 68
+        x: 195
+        y: 128
+        width: 54
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -0.5}
+        - {x: 26, y: -0.5}
+        - {x: 20, y: 0.5}
+        - {x: 18, y: -0.5}
+        - {x: 25, y: 2.5}
+        - {x: 27, y: 3.5}
+        - {x: 27, y: 27.5}
+        - {x: 17, y: 36.5}
+        - {x: -7, y: 36.5}
+        - {x: -27, y: 8.5}
+        - {x: -27, y: -22.5}
+        - {x: -23, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 23, y: -28.5}
+        - {x: 27, y: -11.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

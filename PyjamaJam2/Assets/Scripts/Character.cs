@@ -266,7 +266,7 @@ public class Character : MonoBehaviour {
 			string itemHeld;
 
 			if(item){
-				itemHeld = "bloop";
+                itemHeld = item.name;
 			}
 			else {
 				itemHeld = "none";
