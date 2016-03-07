@@ -272,7 +272,7 @@ public class Character : MonoBehaviour {
 				itemHeld = "none";
 			}
 
-			io.playerEnter(this.name, 1.0f, itemHeld);
+			io.playerEnter(this.name, "right", itemHeld);
 
 		}
 

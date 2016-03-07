@@ -91,7 +91,7 @@ public class SocketIOLogic : MonoBehaviour
 			"#####################################################"
 			);
 	}
-	
+
 	/*
 	 *
 	 * Open, close and error handling functions
@@ -121,11 +121,11 @@ public class SocketIOLogic : MonoBehaviour
 	public void getPlayerPositions() {
 		GameObject[] Players = GameObject.FindGameObjectsWithTag("character");
 		Dictionary<string, string> data = new Dictionary<string, string>();
-		
+
 		foreach (GameObject character in Players) {
 			float positionX = character.transform.position.x;
 			float positionY = character.transform.position.y;
-			
+
 			if(character.name == "character_Fox"){
 				data["foxX"] = positionX.ToString();
 				data["foxY"] = positionY.ToString();
@@ -142,35 +142,33 @@ public class SocketIOLogic : MonoBehaviour
 				data["rabbitX"] = positionX.ToString();
 				data["rabbitY"] = positionY.ToString();
 			}
-			
+
 		}
 		socket.Emit("playerPositions", new JSONObject(data));
-		
+
 	}
 
-	public void playerEnter(string name, float side, string item) {
+	public void playerEnter(string name, string side, string item) {
 		Dictionary<string, string> data = new Dictionary<string, string>();
-	
+
 		data["character"] = name;
-		data["side"] = side.ToString();
+		data["side"] = side;
 		data["holdingItem"] = item;
 
-		//Debug.Log("Player " + name + " entered from " + side.ToString () + " with item " + item);
 		socket.Emit("playerEnter", new JSONObject(data));
-		
 	}
 
 
 	public void fuckYou (SocketIOEvent e){
 		Debug.Log("Character " + e.data["character"] + " came from " + e.data["side"] + " with ze item " + e.data["holdingItem"]);
-		
-		
+
+
 		string tempSide = string.Format ("{0}", e.data ["side"]);
 		float side = (float.Parse (tempSide)) * 1.0f;
 
 		string tempChar = string.Format ("{0}", e.data ["character"]);
 		string tempItem = string.Format ("{0}", e.data ["holdingItem"]);
-		
+
 		Debug.Log("Character " + tempChar + " came from " + side + " with ze item " + tempItem);
 	}
 

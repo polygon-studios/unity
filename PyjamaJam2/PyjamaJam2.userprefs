@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Items/Items.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../house/HouseProj/Assets/Scripts/SocketIOLogic.cs">
     <Files>
-      <File FileName="Assets/Scripts/Character.cs" Line="50" Column="3" />
-      <File FileName="Assets/Scripts/Items/Item.cs" Line="18" Column="46" />
-      <File FileName="Assets/Scripts/Items/Items.cs" Line="40" Column="27" />
+      <File FileName="../../house/HouseProj/Assets/Scripts/SocketIOLogic.cs" Line="56" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
