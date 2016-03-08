@@ -193,14 +193,14 @@ public class Items : MonoBehaviour {
 
 		////hard Item Positions
 		hardItemPositions = new List<Vector2> ();
-		hardItemPositions.Add(new Vector2(0.42f, 0));
-		hardItemPositions.Add(new Vector2(1.18f, 0));
-		hardItemPositions.Add(new Vector2(1.88f, 0));
-		hardItemPositions.Add(new Vector2(2.6f, 0));
-		hardItemPositions.Add(new Vector2(26.36f, 0));
-		hardItemPositions.Add(new Vector2(27.17f, 0));
-		hardItemPositions.Add(new Vector2(27.9f, 0));
-		hardItemPositions.Add(new Vector2(28.7f, 0));
+		//hardItemPositions.Add(new Vector2(0.42f, 0));
+		//hardItemPositions.Add(new Vector2(1.18f, 0));
+		//hardItemPositions.Add(new Vector2(1.88f, 0));
+		//hardItemPositions.Add(new Vector2(2.6f, 0));
+		//hardItemPositions.Add(new Vector2(26.36f, 0));
+		//hardItemPositions.Add(new Vector2(27.17f, 0));
+		//hardItemPositions.Add(new Vector2(27.9f, 0));
+		//hardItemPositions.Add(new Vector2(28.7f, 0));
 
 		hardItemPositions.Add(new Vector2(0.42f, 1.5f));
 		hardItemPositions.Add(new Vector2(2.64f, 1.5f));

@@ -259,11 +259,12 @@ public class Character : MonoBehaviour {
 		}
 		
 		if (objectHit.gameObject.tag == "Trap") {
-			stunCharacter();
+			stunCharacter(3);
 		}
 
 		if (objectHit.gameObject.tag == "Door") {
 			string itemHeld;
+			string side;
 
 			if(item){
                 itemHeld = item.name;
@@ -272,7 +273,14 @@ public class Character : MonoBehaviour {
 				itemHeld = "none";
 			}
 
-			io.playerEnter(this.name, "right", itemHeld);
+			if(objectHit.gameObject.name.Contains("Right")){
+				side = "right";
+			}
+			else {
+				side = "left";
+			}
+			stunCharacter(10);
+			io.playerEnter(this.name, side, itemHeld);
 
 		}
 
@@ -284,15 +292,16 @@ public class Character : MonoBehaviour {
 		return (lastY > transform.position.y);
 	}
 
-	public void stunCharacter(){
+	public void stunCharacter(int duration){
 		isStunned = true;
-		StartCoroutine(Unstun(1.0f));
+		StartCoroutine(Unstun(duration));
 	}
 
-	IEnumerator Unstun(float disValue)
+	IEnumerator Unstun(int stunDuration)
 	{
+		int seconds = stunDuration;
 		// wait 3 seconds and continue
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(seconds);
 		
 		isStunned = false;
 	}

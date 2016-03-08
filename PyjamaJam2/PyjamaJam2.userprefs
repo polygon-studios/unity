@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../house/HouseProj/Assets/Scripts/SocketIOLogic.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Character.cs">
     <Files>
-      <File FileName="../../house/HouseProj/Assets/Scripts/SocketIOLogic.cs" Line="56" Column="4" />
+      <File FileName="Assets/Scripts/Character.cs" Line="282" Column="20" />
+      <File FileName="../../../../Downloads/SwitchMode.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Traps/Trap.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Traps/Traps.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
