@@ -129,10 +129,10 @@ public class Character : MonoBehaviour {
 
 					item.TriggerEffect();
 					item.beenTriggered = true;
-					animator.ResetTrigger (charID + "Bindle");
+					animator.SetBool (charID + "Bindle", false);
 				}
 			}else{
-				animator.SetTrigger (charID + "Bindle");
+				animator.SetBool (charID + "Bindle", true);
 			}
 			
 		}

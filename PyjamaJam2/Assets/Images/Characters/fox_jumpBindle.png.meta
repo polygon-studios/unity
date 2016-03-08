@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 562cba8984de2724d92fc3e01b9c04fc
+timeCreated: 1457446268
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_jumpBindle_0
+    21300002: fox_jumpBindle_1
+    21300004: fox_jumpBindle_2
+    21300006: fox_jumpBindle_3
+    21300008: fox_jumpBindle_4
+    21300010: fox_jumpBindle_5
+    21300012: fox_jumpBindle_6
+    21300014: fox_jumpBindle_7
+    21300016: fox_jumpBindle_8
+    21300018: fox_jumpBindle_9
+    21300020: fox_jumpBindle_10
+    21300022: fox_jumpBindle_11
+    21300024: fox_jumpBindle_12
+    21300026: fox_jumpBindle_13
+    21300028: fox_jumpBindle_14
+    21300030: fox_jumpBindle_15
+    21300032: fox_jumpBindle_16
+    21300034: fox_jumpBindle_17
+    21300036: fox_jumpBindle_18
+    21300038: fox_jumpBindle_19
+    21300040: fox_jumpBindle_20
+    21300042: fox_jumpBindle_21
+    21300044: fox_jumpBindle_22
+    21300046: fox_jumpBindle_23
+    21300048: fox_jumpBindle_24
+    21300050: fox_jumpBindle_25
+    21300052: fox_jumpBindle_26
+    21300054: fox_jumpBindle_27
+    21300056: fox_jumpBindle_28
+    21300058: fox_jumpBindle_29
+    21300060: fox_jumpBindle_30
+    21300062: fox_jumpBindle_31
+    21300064: fox_jumpBindle_32
+    21300066: fox_jumpBindle_33
+    21300068: fox_jumpBindle_34
+    21300070: fox_jumpBindle_35
+    21300072: fox_jumpBindle_36
+    21300074: fox_jumpBindle_37
+    21300076: fox_jumpBindle_38
+    21300078: fox_jumpBindle_39
+    21300080: fox_jumpBindle_40
+    21300082: fox_jumpBindle_41
+    21300084: fox_jumpBindle_42
+    21300086: fox_jumpBindle_43
+    21300088: fox_jumpBindle_44
+    21300090: fox_jumpBindle_45
+    21300092: fox_jumpBindle_46
+    21300094: fox_jumpBindle_47
+    21300096: fox_jumpBindle_48
+    21300098: fox_jumpBindle_49
+    21300100: fox_jumpBindle_50
+    21300102: fox_jumpBindle_51
+    21300104: fox_jumpBindle_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_jumpBindle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 437
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 37.5}
+        - {x: -23, y: 26.5}
+        - {x: -23, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 23, y: 37.5}
+    - name: fox_jumpBindle_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 437
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 37}
+        - {x: -22, y: 29}
+        - {x: -22, y: -37}
+        - {x: 19, y: -37}
+        - {x: 22, y: -25}
+        - {x: 22, y: 32}
+        - {x: 13, y: 37}
+    - name: fox_jumpBindle_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 437
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 37}
+        - {x: -22, y: 28}
+        - {x: -22, y: -37}
+        - {x: 15, y: -37}
+        - {x: 22, y: -7}
+        - {x: 22, y: 23}
+        - {x: 7, y: 37}
+    - name: fox_jumpBindle_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 438
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 36.5}
+        - {x: -22, y: 27.5}
+        - {x: -22, y: 9.5}
+        - {x: -20, y: 7.5}
+        - {x: -10, y: 5.5}
+        - {x: -6, y: 5.5}
+        - {x: -8, y: 5.5}
+        - {x: -12, y: 2.5}
+        - {x: -22, y: -20.5}
+        - {x: -22, y: -36.5}
+        - {x: 13, y: -36.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 21.5}
+        - {x: 4, y: 36.5}
+    - name: fox_jumpBindle_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 361
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 37}
+        - {x: -22.5, y: 26}
+        - {x: -22.5, y: -37}
+        - {x: 6.5, y: -37}
+        - {x: 22.5, y: -32}
+        - {x: 22.5, y: 23}
+        - {x: 10.5, y: 37}
+    - name: fox_jumpBindle_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 362
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36.5}
+        - {x: -23, y: 33.5}
+        - {x: -23, y: -36.5}
+        - {x: 23, y: -36.5}
+        - {x: 23, y: 30.5}
+        - {x: 7, y: 36.5}
+    - name: fox_jumpBindle_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 363
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 35.5}
+        - {x: -22.5, y: 21.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -24.5, y: -35.5}
+        - {x: 14.5, y: -35.5}
+        - {x: 24.5, y: -8.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 9.5, y: 35.5}
+    - name: fox_jumpBindle_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_22
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 362
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 36.5}
+        - {x: -23, y: 32.5}
+        - {x: -23, y: -36.5}
+        - {x: 10, y: -36.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 26.5}
+        - {x: 13, y: 36.5}
+    - name: fox_jumpBindle_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 285
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 37}
+        - {x: -23, y: 37}
+        - {x: -23, y: -37}
+        - {x: 9, y: -37}
+        - {x: 21, y: -13}
+        - {x: 23, y: -4}
+        - {x: 23, y: 22}
+    - name: fox_jumpBindle_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_27
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 286
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 36}
+        - {x: -22, y: 36}
+        - {x: -23, y: 34}
+        - {x: -23, y: -36}
+        - {x: 9, y: -36}
+        - {x: 23, y: -13}
+        - {x: 23, y: 26}
+    - name: fox_jumpBindle_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_30
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_31
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 287
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 36}
+        - {x: -23, y: 18}
+        - {x: -22, y: 7}
+        - {x: -25, y: -10}
+        - {x: -25, y: -36}
+        - {x: 15, y: -36}
+        - {x: 25, y: -29}
+        - {x: 25, y: 29}
+        - {x: 6, y: 36}
+    - name: fox_jumpBindle_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_34
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 286
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 36}
+        - {x: -18, y: 36}
+        - {x: -24, y: 24}
+        - {x: -24, y: -36}
+        - {x: -15, y: -36}
+        - {x: -12, y: -34}
+        - {x: -11, y: -32}
+        - {x: -11, y: -36}
+        - {x: 7, y: -36}
+        - {x: 20, y: -29}
+        - {x: 24, y: -8}
+        - {x: 24, y: 31}
+    - name: fox_jumpBindle_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_39
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 210
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 36}
+        - {x: -13.5, y: 32}
+        - {x: -23.5, y: 23}
+        - {x: -23.5, y: -36}
+        - {x: 10.5, y: -36}
+        - {x: 23.5, y: -7}
+        - {x: 23.5, y: 23}
+        - {x: 1.5, y: 36}
+    - name: fox_jumpBindle_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_47
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_48
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 209
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 37}
+        - {x: -23.5, y: 37}
+        - {x: -23.5, y: -37}
+        - {x: 7.5, y: -37}
+        - {x: 15.5, y: -26}
+        - {x: 23.5, y: 1}
+        - {x: 23.5, y: 22}
+    - name: fox_jumpBindle_49
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBindle_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 209
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 36.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -23.5, y: 27.5}
+        - {x: -23.5, y: -36.5}
+        - {x: 4.5, y: -36.5}
+        - {x: 15.5, y: -26.5}
+        - {x: 23.5, y: -13.5}
+        - {x: 23.5, y: 25.5}
+    - name: fox_jumpBindle_52
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
