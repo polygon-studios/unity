@@ -5,7 +5,7 @@ public class Slippers : Item{
 
 	int effectTimer; 
 	Character character;
-	float timer = 10; //in seconds
+	float timer = 15; //in seconds
 	float newHeightJump = 500f;
 
 	// Use this for initialization

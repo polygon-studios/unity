@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: d51dac7b592ee654cbdc5147380169f1
+timeCreated: 1457475542
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_walkSlippers_0
+    21300002: fox_walkSlippers_1
+    21300004: fox_walkSlippers_2
+    21300006: fox_walkSlippers_3
+    21300008: fox_walkSlippers_4
+    21300010: fox_walkSlippers_5
+    21300012: fox_walkSlippers_6
+    21300014: fox_walkSlippers_7
+    21300016: fox_walkSlippers_8
+    21300018: fox_walkSlippers_9
+    21300020: fox_walkSlippers_10
+    21300022: fox_walkSlippers_11
+    21300024: fox_walkSlippers_12
+    21300026: fox_walkSlippers_13
+    21300028: fox_walkSlippers_14
+    21300030: fox_walkSlippers_15
+    21300032: fox_walkSlippers_16
+    21300034: fox_walkSlippers_17
+    21300036: fox_walkSlippers_18
+    21300038: fox_walkSlippers_19
+    21300040: fox_walkSlippers_20
+    21300042: fox_walkSlippers_21
+    21300044: fox_walkSlippers_22
+    21300046: fox_walkSlippers_23
+    21300048: fox_walkSlippers_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_walkSlippers_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 429
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 40.5}
+        - {x: -27.5, y: 22.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -23.5, y: -34.5}
+        - {x: -16.5, y: -40.5}
+        - {x: 27.5, y: -40.5}
+        - {x: 27.5, y: 40.5}
+    - name: fox_walkSlippers_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 430
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 39.5}
+        - {x: -28, y: 10.5}
+        - {x: -28, y: -35.5}
+        - {x: -26, y: -37.5}
+        - {x: -20, y: -39.5}
+        - {x: 28, y: -39.5}
+        - {x: 28, y: 25.5}
+        - {x: 22, y: 39.5}
+    - name: fox_walkSlippers_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 430
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 40}
+        - {x: -28, y: 33}
+        - {x: -28, y: -32}
+        - {x: -25, y: -40}
+        - {x: 28, y: -40}
+        - {x: 28, y: 29}
+        - {x: 15, y: 40}
+    - name: fox_walkSlippers_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 430
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 39.5}
+        - {x: -27.5, y: 8.5}
+        - {x: -27.5, y: -19.5}
+        - {x: -14.5, y: -39.5}
+        - {x: 27.5, y: -39.5}
+        - {x: 27.5, y: 24.5}
+        - {x: 17.5, y: 39.5}
+    - name: fox_walkSlippers_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 431
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 40}
+        - {x: -27.5, y: 11}
+        - {x: -27.5, y: -19}
+        - {x: -11.5, y: -40}
+        - {x: 21.5, y: -40}
+        - {x: 27.5, y: -13}
+        - {x: 27.5, y: 26}
+        - {x: 15.5, y: 40}
+    - name: fox_walkSlippers_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 431
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 40.5}
+        - {x: -7.5, y: 23.5}
+        - {x: -8.5, y: 14.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -7.5, y: -5.5}
+        - {x: -7.5, y: -8.5}
+        - {x: -7.5, y: 5.5}
+        - {x: -8.5, y: 12.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -27.5, y: 10.5}
+        - {x: -27.5, y: -19.5}
+        - {x: -10.5, y: -40.5}
+        - {x: 21.5, y: -40.5}
+        - {x: 27.5, y: 0.5}
+        - {x: 27.5, y: 23.5}
+        - {x: 15.5, y: 40.5}
+    - name: fox_walkSlippers_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 431
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 40.5}
+        - {x: -20.5, y: 39.5}
+        - {x: -27.5, y: 16.5}
+        - {x: -27.5, y: -16.5}
+        - {x: -6.5, y: -40.5}
+        - {x: 22.5, y: -40.5}
+        - {x: 27.5, y: -25.5}
+        - {x: 27.5, y: 40.5}
+    - name: fox_walkSlippers_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 431
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 40.5}
+        - {x: -27.5, y: 39.5}
+        - {x: -27.5, y: -40.5}
+        - {x: 20.5, y: -40.5}
+        - {x: 27.5, y: -16.5}
+        - {x: 27.5, y: 40.5}
+    - name: fox_walkSlippers_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 348
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 40.5}
+        - {x: -27.5, y: 31.5}
+        - {x: -27.5, y: -23.5}
+        - {x: -10.5, y: -40.5}
+        - {x: 15.5, y: -40.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 27.5, y: 40.5}
+    - name: fox_walkSlippers_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 348
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 40.5}
+        - {x: -27.5, y: 13.5}
+        - {x: -27.5, y: -23.5}
+        - {x: -10.5, y: -40.5}
+        - {x: 20.5, y: -40.5}
+        - {x: 27.5, y: -39.5}
+        - {x: 27.5, y: 35.5}
+        - {x: 13.5, y: 40.5}
+    - name: fox_walkSlippers_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 346
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 41}
+        - {x: -27.5, y: 14}
+        - {x: -27.5, y: -22}
+        - {x: -9.5, y: -41}
+        - {x: 16.5, y: -41}
+        - {x: 21.5, y: -39}
+        - {x: 27.5, y: -9}
+        - {x: 27.5, y: 26}
+        - {x: 13.5, y: 41}
+    - name: fox_walkSlippers_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 345
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: -9, y: 24}
+        - {x: -8, y: 11}
+        - {x: -4, y: 6}
+        - {x: -6, y: -1}
+        - {x: -6, y: 7}
+        - {x: -8, y: 10}
+        - {x: -15, y: 17}
+        - {x: -19, y: 20}
+        - {x: -27, y: 12}
+        - {x: -27, y: -23}
+        - {x: -13, y: -41}
+        - {x: 16, y: -41}
+        - {x: 27, y: -36}
+        - {x: 27, y: 26}
+        - {x: 16, y: 41}
+    - name: fox_walkSlippers_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 343
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 41.5}
+        - {x: -27, y: 20.5}
+        - {x: -27, y: -31.5}
+        - {x: -17, y: -41.5}
+        - {x: 14, y: -41.5}
+        - {x: 27, y: -37.5}
+        - {x: 27, y: 41.5}
+    - name: fox_walkSlippers_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 344
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 40.5}
+        - {x: -8, y: 23.5}
+        - {x: -9, y: 15.5}
+        - {x: -8, y: 13.5}
+        - {x: -3, y: 9.5}
+        - {x: -8, y: 13.5}
+        - {x: -17, y: 24.5}
+        - {x: -27, y: 12.5}
+        - {x: -27, y: -30.5}
+        - {x: -26, y: -32.5}
+        - {x: -13, y: -40.5}
+        - {x: 14, y: -40.5}
+        - {x: 27, y: -29.5}
+        - {x: 27, y: 22.5}
+        - {x: 19, y: 40.5}
+    - name: fox_walkSlippers_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 344
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -37}
+        - {x: -22, y: -41}
+        - {x: 17, y: -41}
+        - {x: 27, y: -38}
+        - {x: 27, y: 32}
+        - {x: 25, y: 41}
+        - {x: -18, y: 41}
+        - {x: -27, y: 23}
+    - name: fox_walkSlippers_15
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 344
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 40.5}
+        - {x: -15.5, y: 40.5}
+        - {x: -27.5, y: 35.5}
+        - {x: -27.5, y: -40.5}
+        - {x: 19.5, y: -40.5}
+        - {x: 24.5, y: -39.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 27.5, y: 19.5}
+    - name: fox_walkSlippers_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 257
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 42}
+        - {x: -19, y: 42}
+        - {x: -28, y: 16}
+        - {x: -28, y: -27}
+        - {x: -11, y: -42}
+        - {x: 17, y: -42}
+        - {x: 28, y: -3}
+        - {x: 28, y: 29}
+        - {x: 20, y: 40}
+    - name: fox_walkSlippers_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 257
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 42.5}
+        - {x: -28, y: 15.5}
+        - {x: -28, y: -18.5}
+        - {x: -8, y: -42.5}
+        - {x: 18, y: -42.5}
+        - {x: 28, y: 0.5}
+        - {x: 28, y: 27.5}
+        - {x: 16, y: 42.5}
+    - name: fox_walkSlippers_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 257
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 43}
+        - {x: -5.5, y: 27}
+        - {x: -26.5, y: 20}
+        - {x: -27.5, y: 18}
+        - {x: -27.5, y: -22}
+        - {x: -7.5, y: -43}
+        - {x: 17.5, y: -43}
+        - {x: 27.5, y: -40}
+        - {x: 27.5, y: 33}
+        - {x: 21.5, y: 43}
+    - name: fox_walkSlippers_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 257
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 43}
+        - {x: -27.5, y: 25}
+        - {x: -27.5, y: -16}
+        - {x: -17.5, y: -43}
+        - {x: 8.5, y: -43}
+        - {x: 27.5, y: -32}
+        - {x: 27.5, y: 25}
+        - {x: 14.5, y: 43}
+    - name: fox_walkSlippers_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 42.5}
+        - {x: -28, y: 21.5}
+        - {x: -28, y: -28.5}
+        - {x: -10, y: -42.5}
+        - {x: 26, y: -42.5}
+        - {x: 28, y: -40.5}
+        - {x: 28, y: 29.5}
+        - {x: 18, y: 42.5}
+    - name: fox_walkSlippers_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 259
+        width: 57
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 42}
+        - {x: -28.5, y: 16}
+        - {x: -28.5, y: -35}
+        - {x: -15.5, y: -42}
+        - {x: 25.5, y: -42}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 34}
+        - {x: 16.5, y: 42}
+    - name: fox_walkSlippers_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 259
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 41.5}
+        - {x: -1, y: 41.5}
+        - {x: -4, y: 32.5}
+        - {x: -8, y: 23.5}
+        - {x: -28, y: 13.5}
+        - {x: -28, y: -20.5}
+        - {x: -16, y: -41.5}
+        - {x: 17, y: -41.5}
+        - {x: 27, y: -20.5}
+        - {x: 28, y: -15.5}
+        - {x: 28, y: 23.5}
+    - name: fox_walkSlippers_23
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 259
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 41}
+        - {x: -27, y: 27}
+        - {x: -28, y: 23}
+        - {x: -28, y: -31}
+        - {x: -17, y: -41}
+        - {x: 28, y: -41}
+        - {x: 28, y: 32}
+        - {x: 18, y: 41}
+    - name: fox_walkSlippers_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 173
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 40.5}
+        - {x: -27.5, y: 19.5}
+        - {x: -27.5, y: -15.5}
+        - {x: -15.5, y: -40.5}
+        - {x: 14.5, y: -40.5}
+        - {x: 27.5, y: -33.5}
+        - {x: 27.5, y: 22.5}
+        - {x: 19.5, y: 40.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

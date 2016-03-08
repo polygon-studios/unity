@@ -24,12 +24,12 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if (1 > 2) {
+		/*if (1 > 2) {
 			generateEnemy(dugPositions, enemyPrefs, 0);
-		}
+		}*/
 	}
 
-	GameObject generateEnemy(List<GameObject> possiblePositions, List<GameObject> enemyPrefabs, int enemy){
+	/*GameObject generateEnemy(List<GameObject> possiblePositions, List<GameObject> enemyPrefabs, int enemy){
 		
 		int randPos = -10;
 
@@ -69,5 +69,5 @@ public class Enemy : MonoBehaviour {
 		gruntPositions.Add(new Vector2(2.6f, 0));
 		gruntPositions.Add(new Vector2(26.36f, 0));
 
-	}
+	}*/
 }

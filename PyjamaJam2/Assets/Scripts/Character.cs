@@ -70,15 +70,16 @@ public class Character : MonoBehaviour {
 
 	void Movement(){
 
-		/*
+        /*
 		A button used to jump
 		X button used for picking up, activating, and using items
 		B button used to drop items
 		*/
 
-		moveSpeed = (transform.position - lastPosition).magnitude;
+        moveSpeed = Mathf.Abs((transform.position.x - lastPosition.x));
 		lastPosition = transform.position;
 		animator.SetFloat (charID +"MoveSpeed", moveSpeed*50);
+        Debug.Log(moveSpeed * 50);
 
 		if (Input.GetKey (inputRight) && isStunned == false) { //moving character right
 			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
