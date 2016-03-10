@@ -8,9 +8,13 @@ public class Enemy : MonoBehaviour {
 
 	public List<GameObject> enemyPrefs = new List<GameObject> ();
 
+	List<GameObject> currentEnemies = new List<GameObject>();
+
 	List<Vector2> dugPositions ;
 	List<Vector2> charlesPositions ;
 	List<Vector2> gruntPositions ;
+
+	float timer = 10; //in seconds
 
 	int spawns;
 	int deaths;
@@ -19,17 +23,23 @@ public class Enemy : MonoBehaviour {
 	void Start () {
 		spawns = 0;
 		deaths = 0;
+
+		fillArrayPositions ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		timer -= Time.deltaTime;
+		if (timer < 0) {
+			timer = 10;
+			currentEnemies.Add (generateEnemy(dugPositions, enemyPrefs, 0));
+			Debug.Log ("Enemies: " + enemyPrefs[0]);
+		}
 	
-		/*if (1 > 2) {
-			generateEnemy(dugPositions, enemyPrefs, 0);
-		}*/
 	}
 
-	/*GameObject generateEnemy(List<GameObject> possiblePositions, List<GameObject> enemyPrefabs, int enemy){
+	GameObject generateEnemy(List<Vector2> possiblePositions, List<GameObject> enemyPrefabs, int enemy){
 		
 		int randPos = -10;
 
@@ -37,7 +47,7 @@ public class Enemy : MonoBehaviour {
 			
 
 		
-		//GameObject itemObj = (GameObject)Instantiate (enemyPrefabs[enemy], new Vector3(possiblePositions[randPos].x,possiblePositions[randPos].y, 0) , Quaternion.identity);
+		GameObject itemObj = (GameObject)Instantiate (enemyPrefabs[enemy], new Vector3(possiblePositions[randPos].x,possiblePositions[randPos].y, 0) , Quaternion.identity);
 		if (itemObj != null)
 			return itemObj; 
 		return null;
@@ -69,5 +79,5 @@ public class Enemy : MonoBehaviour {
 		gruntPositions.Add(new Vector2(2.6f, 0));
 		gruntPositions.Add(new Vector2(26.36f, 0));
 
-	}*/
+	}
 }
