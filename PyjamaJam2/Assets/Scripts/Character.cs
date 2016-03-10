@@ -280,7 +280,7 @@ public class Character : MonoBehaviour {
 			else {
 				side = "left";
 			}
-			stunCharacter(6.5, true, side);
+			stunCharacter(7, true, side);
 			io.playerEnter(this.name, side, itemHeld);
 
 		}
@@ -304,6 +304,9 @@ public class Character : MonoBehaviour {
 
 	IEnumerator Unstun(int stunDuration, bool houseMove = false, string side = "right")
 	{
+		Vector3 houseCenter = new Vector3(14.3f,2.21f,-6.0f);
+		transform.position = houseCenter;
+
 		int seconds = stunDuration;
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(seconds);
