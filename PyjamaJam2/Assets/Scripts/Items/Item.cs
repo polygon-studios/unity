@@ -42,7 +42,7 @@ public class Item : MonoBehaviour {
 	}
 
 	public void DestroySelf(){
-		allItems.removeItemFromArray (this.gameObject);
+		//allItems.removeItemFromArray (this.gameObject);
 		Destroy(gameObject);
 	}
 

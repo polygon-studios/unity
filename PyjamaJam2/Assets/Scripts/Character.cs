@@ -79,7 +79,6 @@ public class Character : MonoBehaviour {
         moveSpeed = Mathf.Abs((transform.position.x - lastPosition.x));
 		lastPosition = transform.position;
 		animator.SetFloat (charID +"MoveSpeed", moveSpeed*50);
-        Debug.Log(moveSpeed * 50);
 
 		if (Input.GetKey (inputRight) && isStunned == false) { //moving character right
 			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
@@ -172,12 +171,14 @@ public class Character : MonoBehaviour {
 		if(hardItems != null){
 			foreach(GameObject hItem in hardItems)
 			{
+                if(hItem != null) { 
 				float itemX = hItem.transform.position.x;
 				float itemY = hItem.transform.position.y;
 				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
 					//Debug.Log (hItem.name + " item near character: " + this.name);
 					doCollision (hItem);
 				}
+                }
 				
 			}
 		}
@@ -280,7 +281,7 @@ public class Character : MonoBehaviour {
 			else {
 				side = "left";
 			}
-			stunCharacter(7, true, side);
+			stunCharacter(2, true, side);
 			io.playerEnter(this.name, side, itemHeld);
 
 		}
@@ -304,7 +305,7 @@ public class Character : MonoBehaviour {
 
 	IEnumerator Unstun(int stunDuration, bool houseMove = false, string side = "right")
 	{
-		Vector3 houseCenter = new Vector3(14.3f,2.21f,-6.0f);
+		Vector3 houseCenter = new Vector3(14.3f,1.82f,-6.0f);
 		transform.position = houseCenter;
 
 		int seconds = stunDuration;
@@ -314,7 +315,7 @@ public class Character : MonoBehaviour {
 		if (houseMove) {
 			Vector3 temp;
 			if(side.Contains("left")){
-				temp = new Vector3(16.3f,0.54f,-6.0f);
+				temp = new Vector3(16.53f,0.54f,-6.0f);
 			}
 			else {
 				temp = new Vector3(12.3f,0.54f,-6.0f);

@@ -33,8 +33,11 @@ public class Enemy : MonoBehaviour {
 		timer -= Time.deltaTime;
 		if (timer < 0) {
 			timer = 10;
-			currentEnemies.Add (generateEnemy(dugPositions, enemyPrefs, 0));
-			Debug.Log ("Enemies: " + enemyPrefs[0]);
+            if (currentEnemies.Count < 2)
+            {
+               // currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+                Debug.Log("Enemies: " + enemyPrefs[0]);
+            }
 		}
 	
 	}

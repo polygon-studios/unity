@@ -112,7 +112,9 @@ public class Items : MonoBehaviour {
 			lev2ItemsCurrent.Remove(itemObj);
 		}
 		else if (itemObj.GetComponent<TreasureChest> () != null) {
-			lev2ItemsCurrent.Remove(itemObj);
+            Debug.Log("break3");
+            lev2ItemsCurrent.Remove(itemObj);
+            Debug.Log("Break4");
 		}else if (itemObj.GetComponent<Firework> () != null) {
 			lev2ItemsCurrent.Remove(itemObj);
 		}
