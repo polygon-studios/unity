@@ -260,7 +260,7 @@ public class Character : MonoBehaviour {
 		}
 		
 		if (objectHit.gameObject.tag == "Trap") {
-			stunCharacter(3);
+			stunCharacter(3, false);
 		}
 
 		if (objectHit.gameObject.tag == "Door") {
@@ -280,7 +280,7 @@ public class Character : MonoBehaviour {
 			else {
 				side = "left";
 			}
-			stunCharacter(10);
+			stunCharacter(6.5, true, side);
 			io.playerEnter(this.name, side, itemHeld);
 
 		}
@@ -293,16 +293,31 @@ public class Character : MonoBehaviour {
 		return (lastY > transform.position.y);
 	}
 
-	public void stunCharacter(int duration){
+	public void stunCharacter(int duration, bool houseMove = false, string side = "right"){
 		isStunned = true;
-		StartCoroutine(Unstun(duration));
+		if (houseMove) {
+			StartCoroutine (Unstun (duration, true, side));
+		} else {
+			StartCoroutine (Unstun (duration));
+		}
 	}
 
-	IEnumerator Unstun(int stunDuration)
+	IEnumerator Unstun(int stunDuration, bool houseMove = false, string side = "right")
 	{
 		int seconds = stunDuration;
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(seconds);
+
+		if (houseMove) {
+			Vector3 temp;
+			if(side.Contains("left")){
+				temp = new Vector3(16.3f,0.54f,-6.0f);
+			}
+			else {
+				temp = new Vector3(12.3f,0.54f,-6.0f);
+			}
+			transform.position = temp;
+		}
 		
 		isStunned = false;
 	}
