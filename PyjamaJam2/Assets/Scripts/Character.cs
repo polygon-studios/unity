@@ -264,12 +264,18 @@ public class Character : MonoBehaviour {
 			stunCharacter(3, false);
 		}
 
+		if (objectHit.gameObject.tag == "Enemy") {
+			stunCharacter(3, false);
+		}
+
 		if (objectHit.gameObject.tag == "Door") {
 			string itemHeld;
 			string side;
+			bool hasItem = false;
 
 			if(item){
                 itemHeld = item.name;
+				hasItem = true;
 			}
 			else {
 				itemHeld = "none";
@@ -281,7 +287,7 @@ public class Character : MonoBehaviour {
 			else {
 				side = "left";
 			}
-			stunCharacter(2, true, side);
+			stunCharacter(2, true, side, hasItem);
 			io.playerEnter(this.name, side, itemHeld);
 
 		}
@@ -294,31 +300,37 @@ public class Character : MonoBehaviour {
 		return (lastY > transform.position.y);
 	}
 
-	public void stunCharacter(int duration, bool houseMove = false, string side = "right"){
+	public void stunCharacter(int duration, bool houseMove = false, string side = "right", bool hasItem = false){
 		isStunned = true;
 		if (houseMove) {
-			StartCoroutine (Unstun (duration, true, side));
+			StartCoroutine (Unstun (duration, true, side, hasItem));
 		} else {
 			StartCoroutine (Unstun (duration));
 		}
 	}
 
-	IEnumerator Unstun(int stunDuration, bool houseMove = false, string side = "right")
+	IEnumerator Unstun(int stunDuration, bool houseMove = false, string side = "right", bool hasItem = false)
 	{
-		Vector3 houseCenter = new Vector3(14.3f,1.82f,-6.0f);
-		transform.position = houseCenter;
+		if (houseMove) {
+			Vector3 houseCenter = new Vector3 (14.3f, 1.82f, -6.0f);
+			transform.position = houseCenter;
+		}
 
 		int seconds = stunDuration;
+
+		if(hasItem)
+			seconds += 4;
+
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(seconds);
 
 		if (houseMove) {
 			Vector3 temp;
 			if(side.Contains("left")){
-				temp = new Vector3(16.53f,0.54f,-6.0f);
+				temp = new Vector3(16.33f,0.54f,-6.0f);
 			}
 			else {
-				temp = new Vector3(12.3f,0.54f,-6.0f);
+				temp = new Vector3(12.8f,0.54f,-6.0f);
 			}
 			transform.position = temp;
 		}
