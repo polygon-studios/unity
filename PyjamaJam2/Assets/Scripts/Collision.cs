@@ -16,8 +16,10 @@ public class Collision : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D objectHit){
         if(objectHit.gameObject.tag == "character"){
 			Character character = objectHit.gameObject.GetComponent<Character>();
-			if(character.isFalling() == true)
-				character.isOnGround(true);
+            if (character.isFalling() == true)
+            {
+                character.isOnGround(true);
+            }
         }
     }
 }
