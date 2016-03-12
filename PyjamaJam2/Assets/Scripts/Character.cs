@@ -21,8 +21,10 @@ public class Character : MonoBehaviour {
 	public string controllerA;
 	public string controllerX;
     public bool invincible;
+    public float currentSpeed; //walk 0.5f //run 0.8f
+    public float starterSpeed;
 
-	public GameObject latern;
+    public GameObject latern;
 
 
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
@@ -39,7 +41,7 @@ public class Character : MonoBehaviour {
 	Renderer rend;
 	Item item; //holds item
 
-	public float speed; //walk 0.5f //run 0.8f
+	
 	Vector3 lastPosition = Vector3.zero;
 
 
@@ -49,6 +51,7 @@ public class Character : MonoBehaviour {
 		rigidbody = this.gameObject.GetComponent<Rigidbody2D> ();
 		rend = GetComponent<Renderer>();
 		currentJump = starterJump;
+        currentSpeed = starterSpeed;
 		itemDebounceTimer = itemDebounceTimerSaveTime; 
 
 		laternScript = latern.GetComponent<Latern> ();
@@ -82,18 +85,18 @@ public class Character : MonoBehaviour {
 		animator.SetFloat (charID +"MoveSpeed", moveSpeed*50);
 
 		if (Input.GetKey (inputRight) && isStunned == false) { //moving character right
-			transform.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
+			transform.Translate (currentSpeed * Time.deltaTime, 0.0f, 0.0f);
 			transform.eulerAngles = new Vector2 (0, 0);
 			lastPressedKey = inputRight;
 		}
 		
 		if (Input.GetKey (inputLeft) && isStunned == false) {//move character left
-			transform.Translate(speed * Time.deltaTime, 0.0f, 0.0f);
+			transform.Translate(currentSpeed * Time.deltaTime, 0.0f, 0.0f);
 			transform.eulerAngles = new Vector2(0, 180);
 			lastPressedKey = inputLeft;
 		}
 		if(Input.GetAxis(controllerXAxis) != 0 && isStunned == false){
-			transform.Translate(Vector3.right*Mathf.Abs(Input.GetAxis(controllerXAxis))*speed*Time.deltaTime);
+			transform.Translate(Vector3.right*Mathf.Abs(Input.GetAxis(controllerXAxis))* currentSpeed * Time.deltaTime);
             if (Input.GetAxis(controllerXAxis) < 0)
             {
                 transform.eulerAngles = new Vector2(0, 180);

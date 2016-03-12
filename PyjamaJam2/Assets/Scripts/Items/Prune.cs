@@ -7,6 +7,7 @@ public class Prune : Item {
 	int effectTimer; 
 	Character character;
 	float timer = 20; //in seconds
+    float newSpeed = 0.6f;
 	//Character characters[];//holds all other characters
 	
 	
@@ -34,6 +35,7 @@ public class Prune : Item {
             if (currChar != character && currChar != null)
             {
                 currChar.animator.SetBool(currChar.charID + "Old", true);
+                currChar.currentSpeed = newSpeed;
             }
         }
     }
@@ -49,6 +51,7 @@ public class Prune : Item {
                 if (currChar != character && currChar != null)
                 {
                     currChar.animator.SetBool(currChar.charID + "Old", false);
+                    currChar.currentSpeed = currChar.starterSpeed;
                 }
             }
 

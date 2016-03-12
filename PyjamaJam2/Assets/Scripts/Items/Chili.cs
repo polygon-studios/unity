@@ -59,12 +59,12 @@ public class Chili : Item {
                     Debug.Log("Fire in the hole");
                     if (currChar.lastPressedKey == currChar.inputRight)
                     {
-                        currChar.transform.Translate(currChar.speed * Time.deltaTime, 0.0f, 0.0f);
+                        currChar.transform.Translate(currChar.currentSpeed * Time.deltaTime, 0.0f, 0.0f);
                         currChar.transform.eulerAngles = new Vector2(0, 0);
                     }
                     else if (currChar.lastPressedKey == currChar.inputLeft)
                     {
-                        currChar.transform.Translate(currChar.speed * Time.deltaTime, 0.0f, 0.0f);
+                        currChar.transform.Translate(currChar.currentSpeed * Time.deltaTime, 0.0f, 0.0f);
                         currChar.transform.eulerAngles = new Vector2(0, 180);
                     }
                 }

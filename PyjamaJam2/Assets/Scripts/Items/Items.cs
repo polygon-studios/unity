@@ -135,13 +135,13 @@ public class Items : MonoBehaviour {
 	void fillArrayPositions(){
 		///// easy Item Positions
 		easyItemPositions = new List<Vector2> ();
-		easyItemPositions.Add(new Vector2(7, 0));
-		easyItemPositions.Add(new Vector2(8.35f, 0));
-		easyItemPositions.Add(new Vector2(10, 0));
-		easyItemPositions.Add(new Vector2(11.39f, 0));
-		easyItemPositions.Add(new Vector2(18.75f, 0));
-		easyItemPositions.Add(new Vector2(20.2f, 0));
-		easyItemPositions.Add(new Vector2(21.63f, 0));
+		easyItemPositions.Add(new Vector2(7, 1));
+		easyItemPositions.Add(new Vector2(8.35f, 1f));
+		easyItemPositions.Add(new Vector2(10,1f));
+		easyItemPositions.Add(new Vector2(11.39f, 1f));
+		easyItemPositions.Add(new Vector2(18.75f, 1f));
+		easyItemPositions.Add(new Vector2(20.2f, 1));
+		easyItemPositions.Add(new Vector2(21.63f, 1f));
 
 		easyItemPositions.Add(new Vector2(7.2f, 2.1f));
 		easyItemPositions.Add(new Vector2(9, 2.1f));
@@ -151,16 +151,16 @@ public class Items : MonoBehaviour {
 
 		/////medium Item Positions
 		mediumItemPositions = new List<Vector2> ();
-		mediumItemPositions.Add(new Vector2(3.3f, 0));
-		mediumItemPositions.Add(new Vector2(4, 0));
-		mediumItemPositions.Add(new Vector2(4.7f, 0));
-		mediumItemPositions.Add(new Vector2(5.4f, 0));
-		mediumItemPositions.Add(new Vector2(6.1f, 0));
-		mediumItemPositions.Add(new Vector2(22.8f, 0));
-		mediumItemPositions.Add(new Vector2(23.5f, 0));
-		mediumItemPositions.Add(new Vector2(24.2f, 0));
-		mediumItemPositions.Add(new Vector2(24.9f, 0));
-		mediumItemPositions.Add(new Vector2(25.6f, 0));
+		mediumItemPositions.Add(new Vector2(3.3f, 0.5f));
+		mediumItemPositions.Add(new Vector2(4, 0.5f));
+		mediumItemPositions.Add(new Vector2(4.7f, 0.5f));
+		mediumItemPositions.Add(new Vector2(5.4f, 0.5f));
+		mediumItemPositions.Add(new Vector2(6.1f, 0.5f));
+		mediumItemPositions.Add(new Vector2(22.8f, 0.5f));
+		mediumItemPositions.Add(new Vector2(23.5f, 0.5f));
+		mediumItemPositions.Add(new Vector2(24.2f, 0.5f));
+		mediumItemPositions.Add(new Vector2(24.9f, 0.5f));
+		mediumItemPositions.Add(new Vector2(25.6f, 0.5f));
 
 		mediumItemPositions.Add(new Vector2(24.9f, 1.5f));
 		mediumItemPositions.Add(new Vector2(25.6f, 1.5f));

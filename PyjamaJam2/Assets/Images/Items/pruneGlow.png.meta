@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0c2a85244d5261d4393ca10bdfacbed6
-timeCreated: 1453581355
+timeCreated: 1457802996
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -65,7 +65,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -85,11 +85,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -100,483 +101,893 @@ TextureImporter:
     - name: pruneGlow_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 1041
-        width: 99
-        height: 129
-      alignment: 7
+        x: 17
+        y: 844
+        width: 57
+        height: 146
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 73}
+        - {x: -28.5, y: -68}
+        - {x: -23.5, y: -73}
+        - {x: 19.5, y: -73}
+        - {x: 28.5, y: -71}
+        - {x: 28.5, y: 66}
+        - {x: 26.5, y: 73}
     - name: pruneGlow_1
       rect:
         serializedVersion: 2
-        x: 164
-        y: 1041
-        width: 100
-        height: 130
-      alignment: 7
+        x: 146
+        y: 844
+        width: 58
+        height: 147
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 73.5}
+        - {x: -29, y: 67.5}
+        - {x: -29, y: -72.5}
+        - {x: -26, y: -73.5}
+        - {x: 27, y: -73.5}
+        - {x: 29, y: -55.5}
+        - {x: 29, y: 70.5}
+        - {x: 26, y: 73.5}
     - name: pruneGlow_2
       rect:
         serializedVersion: 2
-        x: 307
-        y: 1041
-        width: 101
-        height: 131
-      alignment: 7
+        x: 274
+        y: 844
+        width: 59
+        height: 149
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 74.5}
+        - {x: -29.5, y: 73.5}
+        - {x: -29.5, y: -19.5}
+        - {x: -23.5, y: -74.5}
+        - {x: 29.5, y: -74.5}
+        - {x: 29.5, y: 71.5}
+        - {x: 21.5, y: 74.5}
     - name: pruneGlow_3
       rect:
         serializedVersion: 2
-        x: 449
-        y: 1040
-        width: 103
-        height: 133
-      alignment: 7
+        x: 402
+        y: 844
+        width: 62
+        height: 150
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 75}
+        - {x: -31, y: 75}
+        - {x: -31, y: -29}
+        - {x: -24, y: -66}
+        - {x: -13, y: -75}
+        - {x: 19, y: -75}
+        - {x: 30, y: -58}
+        - {x: 31, y: -31}
+        - {x: 31, y: 68}
     - name: pruneGlow_4
       rect:
         serializedVersion: 2
-        x: 592
-        y: 1040
-        width: 104
-        height: 134
-      alignment: 7
+        x: 531
+        y: 844
+        width: 62
+        height: 151
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 75.5}
+        - {x: -31, y: 2.5}
+        - {x: -26, y: -64.5}
+        - {x: -20, y: -75.5}
+        - {x: 27, y: -75.5}
+        - {x: 31, y: -72.5}
+        - {x: 31, y: 75.5}
     - name: pruneGlow_5
       rect:
         serializedVersion: 2
-        x: 735
-        y: 1040
-        width: 104
-        height: 135
-      alignment: 7
+        x: 660
+        y: 844
+        width: 63
+        height: 153
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 76.5}
+        - {x: -26.5, y: 76.5}
+        - {x: -31.5, y: 75.5}
+        - {x: -31.5, y: -71.5}
+        - {x: -18.5, y: -76.5}
+        - {x: 22.5, y: -76.5}
+        - {x: 26.5, y: -67.5}
+        - {x: 31.5, y: -18.5}
+        - {x: 31.5, y: 67.5}
     - name: pruneGlow_6
       rect:
         serializedVersion: 2
-        x: 877
-        y: 1039
-        width: 106
-        height: 138
-      alignment: 7
+        x: 789
+        y: 844
+        width: 64
+        height: 154
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 77}
+        - {x: -32, y: 70}
+        - {x: -32, y: -37}
+        - {x: -26, y: -77}
+        - {x: 21, y: -77}
+        - {x: 32, y: -65}
+        - {x: 32, y: 77}
     - name: pruneGlow_7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 870
-        width: 107
-        height: 138
-      alignment: 7
+        x: 918
+        y: 843
+        width: 65
+        height: 156
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -24}
+        - {x: -28.5, y: -69}
+        - {x: -22.5, y: -78}
+        - {x: 32.5, y: -78}
+        - {x: 32.5, y: 78}
+        - {x: -28.5, y: 78}
+        - {x: -32.5, y: 74}
     - name: pruneGlow_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 870
-        width: 108
-        height: 139
-      alignment: 7
+        x: 1046
+        y: 843
+        width: 66
+        height: 157
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 78.5}
+        - {x: -32, y: 78.5}
+        - {x: -33, y: 76.5}
+        - {x: -33, y: -39.5}
+        - {x: -31, y: -75.5}
+        - {x: -21, y: -78.5}
+        - {x: 25, y: -78.5}
+        - {x: 30, y: -74.5}
+        - {x: 33, y: -52.5}
+        - {x: 33, y: 76.5}
     - name: pruneGlow_9
       rect:
         serializedVersion: 2
-        x: 302
-        y: 870
-        width: 110
-        height: 140
-      alignment: 7
+        x: 1175
+        y: 843
+        width: 67
+        height: 159
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 79.5}
+        - {x: -26.5, y: 79.5}
+        - {x: -33.5, y: 76.5}
+        - {x: -33.5, y: -76.5}
+        - {x: -21.5, y: -79.5}
+        - {x: 22.5, y: -79.5}
+        - {x: 29.5, y: -71.5}
+        - {x: 33.5, y: -35.5}
+        - {x: 33.5, y: 74.5}
     - name: pruneGlow_10
       rect:
         serializedVersion: 2
-        x: 445
-        y: 869
-        width: 111
-        height: 142
-      alignment: 7
+        x: 12
+        y: 634
+        width: 68
+        height: 159
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 79.5}
+        - {x: -34, y: -79.5}
+        - {x: 29, y: -79.5}
+        - {x: 34, y: -77.5}
+        - {x: 34, y: 79.5}
     - name: pruneGlow_11
       rect:
         serializedVersion: 2
-        x: 587
-        y: 869
-        width: 113
-        height: 143
-      alignment: 7
+        x: 141
+        y: 634
+        width: 69
+        height: 161
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 80.5}
+        - {x: -34.5, y: 76.5}
+        - {x: -34.5, y: -28.5}
+        - {x: -31.5, y: -64.5}
+        - {x: -21.5, y: -80.5}
+        - {x: 22.5, y: -80.5}
+        - {x: 34.5, y: -67.5}
+        - {x: 34.5, y: 75.5}
+        - {x: 26.5, y: 80.5}
     - name: pruneGlow_12
       rect:
         serializedVersion: 2
-        x: 730
-        y: 868
-        width: 114
-        height: 145
-      alignment: 7
+        x: 270
+        y: 633
+        width: 70
+        height: 162
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 81}
+        - {x: -35, y: 71}
+        - {x: -35, y: -34}
+        - {x: -31, y: -60}
+        - {x: -27, y: -74}
+        - {x: -18, y: -81}
+        - {x: 26, y: -81}
+        - {x: 35, y: -51}
+        - {x: 35, y: 65}
+        - {x: 23, y: 81}
     - name: pruneGlow_13
       rect:
         serializedVersion: 2
-        x: 873
-        y: 867
-        width: 115
-        height: 146
-      alignment: 7
+        x: 398
+        y: 632
+        width: 72
+        height: 163
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 81.5}
+        - {x: -36, y: -81.5}
+        - {x: 25, y: -81.5}
+        - {x: 36, y: -61.5}
+        - {x: 36, y: 77.5}
+        - {x: 27, y: 81.5}
     - name: pruneGlow_14
       rect:
         serializedVersion: 2
-        x: 13
-        y: 698
-        width: 116
-        height: 146
-      alignment: 7
+        x: 527
+        y: 631
+        width: 73
+        height: 165
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 82.5}
+        - {x: -36.5, y: 78.5}
+        - {x: -36.5, y: -63.5}
+        - {x: -20.5, y: -82.5}
+        - {x: 36.5, y: -82.5}
+        - {x: 36.5, y: 79.5}
+        - {x: 34.5, y: 82.5}
     - name: pruneGlow_15
       rect:
         serializedVersion: 2
-        x: 155
-        y: 697
-        width: 118
-        height: 148
-      alignment: 7
+        x: 656
+        y: 630
+        width: 73
+        height: 167
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 83.5}
+        - {x: -30.5, y: 83.5}
+        - {x: -36.5, y: 79.5}
+        - {x: -36.5, y: -71.5}
+        - {x: -35.5, y: -79.5}
+        - {x: -23.5, y: -83.5}
+        - {x: 22.5, y: -83.5}
+        - {x: 36.5, y: -55.5}
+        - {x: 36.5, y: 66.5}
+        - {x: 28.5, y: 81.5}
     - name: pruneGlow_16
       rect:
         serializedVersion: 2
-        x: 298
-        y: 696
-        width: 118
-        height: 149
-      alignment: 7
+        x: 784
+        y: 630
+        width: 75
+        height: 167
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 83.5}
+        - {x: -37.5, y: 82.5}
+        - {x: -37.5, y: -79.5}
+        - {x: -31.5, y: -83.5}
+        - {x: 25.5, y: -83.5}
+        - {x: 37.5, y: -80.5}
+        - {x: 37.5, y: 68.5}
+        - {x: 28.5, y: 83.5}
     - name: pruneGlow_17
       rect:
         serializedVersion: 2
-        x: 441
-        y: 695
-        width: 119
-        height: 150
-      alignment: 7
+        x: 913
+        y: 629
+        width: 76
+        height: 168
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 84}
+        - {x: -38, y: 84}
+        - {x: -38, y: -77}
+        - {x: -33, y: -81}
+        - {x: -22, y: -84}
+        - {x: 21, y: -84}
+        - {x: 27, y: -77}
+        - {x: 38, y: -62}
+        - {x: 38, y: 78}
     - name: pruneGlow_18
       rect:
         serializedVersion: 2
-        x: 583
-        y: 694
-        width: 121
-        height: 152
-      alignment: 7
+        x: 1041
+        y: 628
+        width: 78
+        height: 170
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 85}
+        - {x: -39, y: 84}
+        - {x: -39, y: -83}
+        - {x: -34, y: -85}
+        - {x: 38, y: -85}
+        - {x: 39, y: -77}
+        - {x: 39, y: 85}
     - name: pruneGlow_19
       rect:
         serializedVersion: 2
-        x: 726
-        y: 693
-        width: 122
-        height: 153
-      alignment: 7
+        x: 1170
+        y: 627
+        width: 79
+        height: 171
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 85.5}
+        - {x: -39.5, y: -82.5}
+        - {x: -32.5, y: -85.5}
+        - {x: 39.5, y: -85.5}
+        - {x: 39.5, y: 85.5}
     - name: pruneGlow_20
       rect:
         serializedVersion: 2
-        x: 868
-        y: 693
-        width: 124
-        height: 154
-      alignment: 7
+        x: 6
+        y: 417
+        width: 81
+        height: 173
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 86.5}
+        - {x: -40.5, y: 81.5}
+        - {x: -40.5, y: -71.5}
+        - {x: -38.5, y: -86.5}
+        - {x: 32.5, y: -86.5}
+        - {x: 40.5, y: -73.5}
+        - {x: 40.5, y: 70.5}
+        - {x: 34.5, y: 86.5}
     - name: pruneGlow_21
       rect:
         serializedVersion: 2
-        x: 8
-        y: 523
-        width: 125
-        height: 155
-      alignment: 7
+        x: 135
+        y: 416
+        width: 82
+        height: 174
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 87}
+        - {x: -41, y: 82}
+        - {x: -41, y: -77}
+        - {x: -39, y: -82}
+        - {x: -23, y: -87}
+        - {x: 41, y: -87}
+        - {x: 41, y: 87}
     - name: pruneGlow_22
       rect:
         serializedVersion: 2
-        x: 151
-        y: 522
-        width: 126
-        height: 156
-      alignment: 7
+        x: 264
+        y: 416
+        width: 82
+        height: 174
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 87}
+        - {x: -41, y: -84}
+        - {x: -37, y: -87}
+        - {x: 30, y: -87}
+        - {x: 41, y: -83}
+        - {x: 41, y: 85}
+        - {x: 33, y: 87}
     - name: pruneGlow_23
       rect:
         serializedVersion: 2
-        x: 293
-        y: 521
-        width: 128
-        height: 158
-      alignment: 7
+        x: 392
+        y: 414
+        width: 84
+        height: 177
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 88.5}
+        - {x: -42, y: 72.5}
+        - {x: -42, y: -82.5}
+        - {x: -23, y: -88.5}
+        - {x: 35, y: -88.5}
+        - {x: 42, y: -82.5}
+        - {x: 42, y: 78.5}
+        - {x: 28, y: 88.5}
     - name: pruneGlow_24
       rect:
         serializedVersion: 2
-        x: 437
-        y: 522
-        width: 126
-        height: 156
-      alignment: 7
+        x: 523
+        y: 416
+        width: 81
+        height: 174
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 87}
+        - {x: -40.5, y: 86}
+        - {x: -40.5, y: -69}
+        - {x: -28.5, y: -87}
+        - {x: 23.5, y: -87}
+        - {x: 40.5, y: -80}
+        - {x: 40.5, y: 86}
+        - {x: 37.5, y: 87}
     - name: pruneGlow_25
       rect:
         serializedVersion: 2
-        x: 581
-        y: 522
-        width: 125
-        height: 156
-      alignment: 7
+        x: 652
+        y: 416
+        width: 81
+        height: 174
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 87}
+        - {x: -40.5, y: 81}
+        - {x: -40.5, y: -74}
+        - {x: -31.5, y: -87}
+        - {x: 29.5, y: -87}
+        - {x: 40.5, y: -67}
+        - {x: 40.5, y: 81}
+        - {x: 26.5, y: 87}
     - name: pruneGlow_26
       rect:
         serializedVersion: 2
-        x: 725
-        y: 523
-        width: 124
-        height: 155
-      alignment: 7
+        x: 781
+        y: 417
+        width: 80
+        height: 173
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 86.5}
+        - {x: -40, y: -57.5}
+        - {x: -34, y: -86.5}
+        - {x: 23, y: -86.5}
+        - {x: 40, y: -69.5}
+        - {x: 40, y: 75.5}
+        - {x: 34, y: 86.5}
     - name: pruneGlow_27
       rect:
         serializedVersion: 2
-        x: 869
-        y: 524
-        width: 122
-        height: 153
-      alignment: 7
+        x: 912
+        y: 418
+        width: 78
+        height: 171
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 85.5}
+        - {x: -39, y: -85.5}
+        - {x: 27, y: -85.5}
+        - {x: 38, y: -81.5}
+        - {x: 39, y: -58.5}
+        - {x: 39, y: 72.5}
+        - {x: 28, y: 85.5}
     - name: pruneGlow_28
       rect:
         serializedVersion: 2
-        x: 10
-        y: 356
-        width: 121
-        height: 151
-      alignment: 7
+        x: 1041
+        y: 418
+        width: 77
+        height: 171
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 85.5}
+        - {x: -38.5, y: -84.5}
+        - {x: -37.5, y: -85.5}
+        - {x: 33.5, y: -85.5}
+        - {x: 38.5, y: -82.5}
+        - {x: 38.5, y: 76.5}
+        - {x: 22.5, y: 85.5}
     - name: pruneGlow_29
       rect:
         serializedVersion: 2
-        x: 154
-        y: 356
-        width: 120
-        height: 151
-      alignment: 7
+        x: 1170
+        y: 419
+        width: 77
+        height: 169
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 84.5}
+        - {x: -38.5, y: 80.5}
+        - {x: -38.5, y: -75.5}
+        - {x: -37.5, y: -80.5}
+        - {x: -29.5, y: -84.5}
+        - {x: 19.5, y: -84.5}
+        - {x: 30.5, y: -82.5}
+        - {x: 38.5, y: -63.5}
+        - {x: 38.5, y: 76.5}
+        - {x: 33.5, y: 84.5}
     - name: pruneGlow_30
       rect:
         serializedVersion: 2
-        x: 298
-        y: 357
-        width: 119
-        height: 149
-      alignment: 7
+        x: 9
+        y: 211
+        width: 76
+        height: 168
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 84}
+        - {x: -38, y: -84}
+        - {x: 38, y: -84}
+        - {x: 38, y: 82}
+        - {x: 37, y: 84}
     - name: pruneGlow_31
       rect:
         serializedVersion: 2
-        x: 441
-        y: 358
-        width: 118
-        height: 148
-      alignment: 7
+        x: 139
+        y: 212
+        width: 74
+        height: 166
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 83}
+        - {x: -37, y: -79}
+        - {x: -36, y: -83}
+        - {x: 30, y: -83}
+        - {x: 37, y: -57}
+        - {x: 37, y: 80}
+        - {x: 26, y: 83}
     - name: pruneGlow_32
       rect:
         serializedVersion: 2
-        x: 585
-        y: 358
-        width: 117
-        height: 148
-      alignment: 7
+        x: 268
+        y: 213
+        width: 73
+        height: 165
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 82.5}
+        - {x: -36.5, y: 78.5}
+        - {x: -36.5, y: -76.5}
+        - {x: -21.5, y: -82.5}
+        - {x: 29.5, y: -82.5}
+        - {x: 36.5, y: -74.5}
+        - {x: 36.5, y: 82.5}
     - name: pruneGlow_33
       rect:
         serializedVersion: 2
-        x: 729
-        y: 359
-        width: 116
-        height: 146
-      alignment: 7
+        x: 398
+        y: 213
+        width: 72
+        height: 165
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 82.5}
+        - {x: -36, y: 71.5}
+        - {x: -36, y: -67.5}
+        - {x: -29, y: -82.5}
+        - {x: 34, y: -82.5}
+        - {x: 36, y: -64.5}
+        - {x: 36, y: 77.5}
+        - {x: 27, y: 82.5}
     - name: pruneGlow_34
       rect:
         serializedVersion: 2
-        x: 873
-        y: 360
-        width: 114
-        height: 145
-      alignment: 7
+        x: 528
+        y: 214
+        width: 70
+        height: 163
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 81.5}
+        - {x: -35, y: 79.5}
+        - {x: -35, y: -65.5}
+        - {x: -22, y: -81.5}
+        - {x: 25, y: -81.5}
+        - {x: 35, y: -62.5}
+        - {x: 35, y: 78.5}
+        - {x: 24, y: 81.5}
     - name: pruneGlow_35
       rect:
         serializedVersion: 2
-        x: 14
-        y: 192
-        width: 113
-        height: 143
-      alignment: 7
+        x: 657
+        y: 215
+        width: 70
+        height: 161
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 80.5}
+        - {x: -35, y: -80.5}
+        - {x: 26, y: -80.5}
+        - {x: 35, y: -78.5}
+        - {x: 35, y: 78.5}
+        - {x: 32, y: 80.5}
     - name: pruneGlow_36
       rect:
         serializedVersion: 2
-        x: 158
-        y: 192
-        width: 112
-        height: 142
-      alignment: 7
+        x: 787
+        y: 215
+        width: 68
+        height: 160
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 80}
+        - {x: -26, y: 80}
+        - {x: -34, y: 77}
+        - {x: -34, y: -75}
+        - {x: -24, y: -80}
+        - {x: 26, y: -80}
+        - {x: 31, y: -68}
+        - {x: 34, y: -43}
+        - {x: 34, y: 71}
     - name: pruneGlow_37
       rect:
         serializedVersion: 2
-        x: 302
-        y: 192
-        width: 110
-        height: 141
-      alignment: 7
+        x: 916
+        y: 215
+        width: 68
+        height: 159
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 79.5}
+        - {x: -34, y: -73.5}
+        - {x: -20, y: -79.5}
+        - {x: 16, y: -79.5}
+        - {x: 19, y: -78.5}
+        - {x: 34, y: -72.5}
+        - {x: 34, y: 79.5}
     - name: pruneGlow_38
       rect:
         serializedVersion: 2
-        x: 446
-        y: 193
-        width: 109
-        height: 140
-      alignment: 7
+        x: 1046
+        y: 215
+        width: 67
+        height: 158
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 79}
+        - {x: -28.5, y: 79}
+        - {x: -33.5, y: 77}
+        - {x: -33.5, y: -67}
+        - {x: -19.5, y: -79}
+        - {x: 17.5, y: -79}
+        - {x: 31.5, y: -63}
+        - {x: 33.5, y: -21}
+        - {x: 33.5, y: 66}
     - name: pruneGlow_39
       rect:
         serializedVersion: 2
-        x: 590
-        y: 193
-        width: 108
-        height: 139
-      alignment: 7
+        x: 1175
+        y: 216
+        width: 66
+        height: 156
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 78}
+        - {x: -33, y: 67}
+        - {x: -33, y: -72}
+        - {x: -19, y: -78}
+        - {x: 26, y: -78}
+        - {x: 33, y: -65}
+        - {x: 33, y: 76}
+        - {x: 24, y: 78}
     - name: pruneGlow_40
       rect:
         serializedVersion: 2
-        x: 733
-        y: 194
-        width: 107
-        height: 137
-      alignment: 7
+        x: 14
+        y: 6
+        width: 64
+        height: 156
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 78}
+        - {x: -32, y: 76}
+        - {x: -32, y: -29}
+        - {x: -29, y: -60}
+        - {x: -18, y: -78}
+        - {x: 22, y: -78}
+        - {x: 32, y: -74}
+        - {x: 32, y: 74}
+        - {x: 20, y: 78}
     - name: pruneGlow_41
       rect:
         serializedVersion: 2
-        x: 877
-        y: 194
-        width: 106
-        height: 136
-      alignment: 7
+        x: 144
+        y: 7
+        width: 63
+        height: 154
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 77}
+        - {x: -31.5, y: 77}
+        - {x: -31.5, y: -77}
+        - {x: 18.5, y: -77}
+        - {x: 30.5, y: -65}
+        - {x: 31.5, y: -45}
+        - {x: 31.5, y: 76}
     - name: pruneGlow_42
       rect:
         serializedVersion: 2
-        x: 19
-        y: 25
-        width: 104
-        height: 135
-      alignment: 7
+        x: 273
+        y: 7
+        width: 62
+        height: 153
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 76.5}
+        - {x: -31, y: 69.5}
+        - {x: -31, y: -70.5}
+        - {x: -18, y: -76.5}
+        - {x: 31, y: -76.5}
+        - {x: 31, y: 76.5}
     - name: pruneGlow_43
       rect:
         serializedVersion: 2
-        x: 162
-        y: 26
-        width: 104
-        height: 133
-      alignment: 7
+        x: 402
+        y: 8
+        width: 62
+        height: 151
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 75.5}
+        - {x: -31, y: 75.5}
+        - {x: -31, y: -73.5}
+        - {x: -26, y: -75.5}
+        - {x: 26, y: -75.5}
+        - {x: 29, y: -68.5}
+        - {x: 31, y: -37.5}
+        - {x: 31, y: 69.5}
     - name: pruneGlow_44
       rect:
         serializedVersion: 2
-        x: 306
-        y: 26
-        width: 102
-        height: 133
-      alignment: 7
+        x: 532
+        y: 8
+        width: 60
+        height: 150
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 75}
+        - {x: -30, y: -75}
+        - {x: 30, y: -75}
+        - {x: 30, y: 75}
     - name: pruneGlow_45
       rect:
         serializedVersion: 2
-        x: 450
-        y: 26
-        width: 101
-        height: 132
-      alignment: 7
+        x: 661
+        y: 8
+        width: 60
+        height: 149
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 74.5}
+        - {x: -30, y: -70.5}
+        - {x: -21, y: -74.5}
+        - {x: 30, y: -74.5}
+        - {x: 30, y: 74.5}
     - name: pruneGlow_46
       rect:
         serializedVersion: 2
-        x: 594
-        y: 26
-        width: 100
-        height: 131
-      alignment: 7
+        x: 791
+        y: 9
+        width: 58
+        height: 147
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 73.5}
+        - {x: -29, y: -50.5}
+        - {x: -19, y: -68.5}
+        - {x: -12, y: -73.5}
+        - {x: 17, y: -73.5}
+        - {x: 29, y: -64.5}
+        - {x: 29, y: 69.5}
+        - {x: 22, y: 73.5}
     - name: pruneGlow_47
       rect:
         serializedVersion: 2
-        x: 738
-        y: 27
-        width: 99
-        height: 129
-      alignment: 7
+        x: 921
+        y: 9
+        width: 57
+        height: 145
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 72.5}
+        - {x: -28.5, y: 71.5}
+        - {x: -28.5, y: -61.5}
+        - {x: -17.5, y: -72.5}
+        - {x: 23.5, y: -72.5}
+        - {x: 28.5, y: -71.5}
+        - {x: 28.5, y: 72.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

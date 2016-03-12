@@ -12,7 +12,7 @@ public class Latern : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		light.range -= 0.005f;
+		light.range -= 0.00005f;
 		light.intensity -= 0.0002f;
 	}
 
