@@ -20,6 +20,7 @@ public class Character : MonoBehaviour {
 	public string controllerXAxis;
 	public string controllerA;
 	public string controllerX;
+    public bool invincible;
 
 	public GameObject latern;
 
@@ -265,11 +266,11 @@ public class Character : MonoBehaviour {
 			
 		}
 		
-		if (objectHit.gameObject.tag == "Trap") {
+		if (objectHit.gameObject.tag == "Trap" && invincible == false) {
 			stunCharacter(3, false);
 		}
 
-		if (objectHit.gameObject.tag == "Enemy") {
+		if (objectHit.gameObject.tag == "Enemy" && invincible == false) {
 			stunCharacter(3, false);
 		}
 

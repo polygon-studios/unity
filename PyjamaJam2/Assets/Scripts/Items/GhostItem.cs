@@ -4,7 +4,7 @@ using System.Collections;
 public class GhostItem : Item {
     //stuns enemies and characters
 
-    float timer = 200; 
+    float timer = 20; 
 	Character character;
 	//Character characters[];//holds all other characters
 	
@@ -31,9 +31,10 @@ public class GhostItem : Item {
         //ask Ian how he is doing the character constants (perhaps need a constants page)
         //save last button press and continue direction of characters in here by going through a for loop of character array
         this.character.animator.SetBool(this.character.charID + "Ghost", true);
+        this.character.invincible = true;
+        this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.8f);
 
-     
-	}
+    }
 
     void updateTrigger()
     {
@@ -41,7 +42,9 @@ public class GhostItem : Item {
 
         if (timer < 0)
         {
+            this.character.invincible = false;
             this.character.animator.SetBool(this.character.charID + "Ghost", false);
+            this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
             base.allItems.removeItemFromArray(this.gameObject);
             base.DestroySelf();
             Destroy(this.gameObject);
