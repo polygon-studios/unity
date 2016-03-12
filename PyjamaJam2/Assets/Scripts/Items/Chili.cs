@@ -6,7 +6,7 @@ public class Chili : Item {
 
 	int effectTimer; 
 	Character character;
-	float timer = 20; //in seconds
+	float timer = 10; //in seconds
 	//Character characters[];//holds all other characters
 
 
@@ -35,19 +35,29 @@ public class Chili : Item {
 		timer -= Time.deltaTime;
 		
 		if (timer < 0) {
-			character.currentJump = character.starterJump;
-			base.allItems.removeItemFromArray(this.gameObject);
+			//character.currentJump = character.starterJump;
+            foreach (Character currChar in base.GM.CHARACTERS)
+            {
+                if (currChar != character && currChar != null)
+                {
+                    currChar.animator.SetBool(currChar.charID + "Fire", false);
+                }
+            }
+
+            base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf();
 			Destroy(this.gameObject);
 		}
 
 		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
+                currChar.animator.SetBool(currChar.charID + "Fire", true);
+                Debug.Log("Fire in the hole");
 				if(currChar.lastPressedKey == currChar.inputRight){
-					currChar.transform.Translate (currChar.speed * Time.deltaTime, 0.0f, 0.0f);
+					currChar.transform.Translate (10f * currChar.speed * Time.deltaTime, 0.0f, 0.0f);
 					currChar.transform.eulerAngles = new Vector2 (0, 0);
 				}else if (currChar.lastPressedKey == currChar.inputLeft){
-					currChar.transform.Translate(currChar.speed * Time.deltaTime, 0.0f, 0.0f);
+					currChar.transform.Translate(10f * currChar.speed * Time.deltaTime, 0.0f, 0.0f);
 					currChar.transform.eulerAngles = new Vector2(0, 180);
 				}
 			}

@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 5382fc7821e194a408091e3b689aa884
+timeCreated: 1457755651
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_idleOld_0
+    21300002: fox_idleOld_1
+    21300004: fox_idleOld_2
+    21300006: fox_idleOld_3
+    21300008: fox_idleOld_4
+    21300010: fox_idleOld_5
+    21300012: fox_idleOld_6
+    21300014: fox_idleOld_7
+    21300016: fox_idleOld_8
+    21300018: fox_idleOld_9
+    21300020: fox_idleOld_10
+    21300022: fox_idleOld_11
+    21300024: fox_idleOld_12
+    21300026: fox_idleOld_13
+    21300028: fox_idleOld_14
+    21300030: fox_idleOld_15
+    21300032: fox_idleOld_16
+    21300034: fox_idleOld_17
+    21300036: fox_idleOld_18
+    21300038: fox_idleOld_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_idleOld_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 437
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 36.5}
+        - {x: -24, y: 28.5}
+        - {x: -24, y: -24.5}
+        - {x: -21, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 24, y: -27.5}
+        - {x: 24, y: 29.5}
+        - {x: 22, y: 36.5}
+    - name: fox_idleOld_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 437
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 24, y: -17.5}
+        - {x: 24, y: 26.5}
+        - {x: 16, y: 36.5}
+        - {x: -10, y: 36.5}
+        - {x: -11, y: 23.5}
+        - {x: -11, y: 9.5}
+        - {x: -8, y: 6.5}
+        - {x: -11, y: 9.5}
+        - {x: -12, y: 11.5}
+        - {x: -20, y: 16.5}
+        - {x: -24, y: 15.5}
+        - {x: -24, y: -7.5}
+        - {x: -18, y: -36.5}
+        - {x: 0, y: -36.5}
+        - {x: 1, y: -35.5}
+        - {x: 1, y: -25.5}
+        - {x: 1, y: -34.5}
+    - name: fox_idleOld_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 437
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 28.5}
+        - {x: 16, y: 36.5}
+        - {x: -14, y: 36.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -24.5}
+        - {x: -19, y: -36.5}
+        - {x: 0, y: -36.5}
+        - {x: 1, y: -35.5}
+        - {x: 1, y: -25.5}
+        - {x: 1, y: -34.5}
+    - name: fox_idleOld_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 437
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: -36.5}
+        - {x: 14.5, y: -36.5}
+        - {x: 23.5, y: -20.5}
+        - {x: 23.5, y: 34.5}
+        - {x: 17.5, y: 36.5}
+        - {x: -13.5, y: 36.5}
+        - {x: -23.5, y: 20.5}
+        - {x: -23.5, y: -8.5}
+        - {x: -19.5, y: -36.5}
+        - {x: -0.5, y: -36.5}
+        - {x: 0.5, y: -35.5}
+        - {x: 0.5, y: -25.5}
+        - {x: 0.5, y: -34.5}
+    - name: fox_idleOld_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 361
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: -36.5}
+        - {x: 14.5, y: -36.5}
+        - {x: 23.5, y: -18.5}
+        - {x: 23.5, y: 18.5}
+        - {x: 13.5, y: 36.5}
+        - {x: -10.5, y: 36.5}
+        - {x: -23.5, y: 19.5}
+        - {x: -23.5, y: -28.5}
+        - {x: -18.5, y: -36.5}
+        - {x: -0.5, y: -36.5}
+        - {x: 0.5, y: -35.5}
+        - {x: 0.5, y: -30.5}
+        - {x: 0.5, y: -35.5}
+    - name: fox_idleOld_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 361
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 36.5}
+        - {x: -23, y: 26.5}
+        - {x: -23, y: -29.5}
+        - {x: -18, y: -36.5}
+        - {x: 23, y: -36.5}
+        - {x: 23, y: 32.5}
+        - {x: 16, y: 36.5}
+    - name: fox_idleOld_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 361
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -36.5}
+        - {x: 15.5, y: -36.5}
+        - {x: 22.5, y: -23.5}
+        - {x: 22.5, y: 36.5}
+        - {x: -22.5, y: 36.5}
+        - {x: -22.5, y: -22.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -17.5, y: -36.5}
+        - {x: -1.5, y: -36.5}
+        - {x: -0.5, y: -35.5}
+        - {x: -0.5, y: -32.5}
+        - {x: -0.5, y: -35.5}
+    - name: fox_idleOld_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 361
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -36.5}
+        - {x: 13.5, y: -36.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 21.5}
+        - {x: 17.5, y: 36.5}
+        - {x: -12.5, y: 36.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -36.5}
+        - {x: -0.5, y: -36.5}
+        - {x: -0.5, y: -30.5}
+        - {x: -0.5, y: -35.5}
+    - name: fox_idleOld_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 285
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -36.5}
+        - {x: 13.5, y: -36.5}
+        - {x: 22.5, y: -27.5}
+        - {x: 22.5, y: 31.5}
+        - {x: 21.5, y: 36.5}
+        - {x: -22.5, y: 36.5}
+        - {x: -22.5, y: -36.5}
+        - {x: -1.5, y: -36.5}
+        - {x: -0.5, y: -35.5}
+        - {x: -0.5, y: -30.5}
+        - {x: -0.5, y: -35.5}
+    - name: fox_idleOld_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 285
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 22, y: -26.5}
+        - {x: 22, y: 24.5}
+        - {x: 18, y: 36.5}
+        - {x: -11, y: 36.5}
+        - {x: -22, y: 26.5}
+        - {x: -22, y: -36.5}
+        - {x: -2, y: -36.5}
+        - {x: -1, y: -35.5}
+        - {x: -2, y: -26.5}
+        - {x: -1, y: -35.5}
+    - name: fox_idleOld_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 285
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 22, y: -22.5}
+        - {x: 22, y: 26.5}
+        - {x: 14, y: 36.5}
+        - {x: -12, y: 36.5}
+        - {x: -22, y: 27.5}
+        - {x: -22, y: -31.5}
+        - {x: -21, y: -36.5}
+        - {x: -2, y: -36.5}
+        - {x: -1, y: -35.5}
+        - {x: -1, y: -30.5}
+        - {x: -1, y: -35.5}
+    - name: fox_idleOld_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 285
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -36.5}
+        - {x: 15.5, y: -36.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 14.5, y: 36.5}
+    - name: fox_idleOld_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 209
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 23, y: -13.5}
+        - {x: 23, y: 20.5}
+        - {x: 14, y: 36.5}
+        - {x: -12, y: 36.5}
+        - {x: -23, y: 22.5}
+        - {x: -23, y: -18.5}
+        - {x: -20, y: -35.5}
+        - {x: -18, y: -36.5}
+        - {x: -2, y: -36.5}
+        - {x: -1, y: -35.5}
+        - {x: -1, y: -30.5}
+        - {x: -1, y: -34.5}
+    - name: fox_idleOld_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 209
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -36.5}
+        - {x: 13.5, y: -36.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 13.5, y: 36.5}
+        - {x: -10.5, y: 36.5}
+        - {x: -22.5, y: 16.5}
+        - {x: -22.5, y: -6.5}
+        - {x: -18.5, y: -36.5}
+        - {x: -1.5, y: -36.5}
+        - {x: -0.5, y: -35.5}
+        - {x: -0.5, y: -30.5}
+        - {x: -0.5, y: -34.5}
+    - name: fox_idleOld_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 209
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -36.5}
+        - {x: 14, y: -36.5}
+        - {x: 23, y: -22.5}
+        - {x: 23, y: 32.5}
+        - {x: 15, y: 36.5}
+        - {x: -21, y: 36.5}
+        - {x: -23, y: 34.5}
+        - {x: -23, y: -36.5}
+        - {x: -1, y: -36.5}
+        - {x: 0, y: -35.5}
+        - {x: 0, y: -25.5}
+        - {x: 0, y: -34.5}
+    - name: fox_idleOld_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 209
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36.5}
+        - {x: -23, y: 27.5}
+        - {x: -23, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 23, y: -13.5}
+        - {x: 23, y: 18.5}
+        - {x: 14, y: 36.5}
+    - name: fox_idleOld_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 133
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36.5}
+        - {x: -23.5, y: 30.5}
+        - {x: -23.5, y: -36.5}
+        - {x: 18.5, y: -36.5}
+        - {x: 23.5, y: -15.5}
+        - {x: 23.5, y: 21.5}
+        - {x: 16.5, y: 36.5}
+    - name: fox_idleOld_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 133
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 36.5}
+        - {x: -10, y: 36.5}
+        - {x: -24, y: 25.5}
+        - {x: -24, y: -33.5}
+        - {x: -23, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 18.5}
+    - name: fox_idleOld_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 36.5}
+        - {x: -24, y: 36.5}
+        - {x: -24, y: -30.5}
+        - {x: -18, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 24, y: -27.5}
+        - {x: 24, y: 29.5}
+    - name: fox_idleOld_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 133
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 36.5}
+        - {x: -24, y: 28.5}
+        - {x: -24, y: -24.5}
+        - {x: -21, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 24, y: -27.5}
+        - {x: 24, y: 29.5}
+        - {x: 22, y: 36.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

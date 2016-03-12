@@ -17,23 +17,46 @@ public class Prune : Item {
 	
 	// Update is called once per frame
 	protected override void Update () {
-		base.Update ();
-		
-	}
+        if (base.beenTriggered == true)
+        {
+            updateTrigger();
+        }
+    }
 	
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
 	}
 	
 	public override void TriggerEffect(){
-		//ask Ian how he is doing the character constants (perhaps need a constants page)
-		//save last button press and continue direction of characters in here by going through a for loop of character array
-		base.allItems.removeItemFromArray(this.gameObject);
-		base.DestroySelf();
-		Destroy(this.gameObject);
-	}
+        timer -= Time.deltaTime;
+        foreach (Character currChar in base.GM.CHARACTERS)
+        {
+            if (currChar != character && currChar != null)
+            {
+                currChar.animator.SetBool(currChar.charID + "Old", true);
+            }
+        }
+    }
 	
 	void updateTrigger(){
-		
-	}
+        timer -= Time.deltaTime;
+
+        if (timer < 0)
+        {
+            //character.currentJump = character.starterJump;
+            foreach (Character currChar in base.GM.CHARACTERS)
+            {
+                if (currChar != character && currChar != null)
+                {
+                    currChar.animator.SetBool(currChar.charID + "Old", false);
+                }
+            }
+
+            base.allItems.removeItemFromArray(this.gameObject);
+            base.DestroySelf();
+            Destroy(this.gameObject);
+        }
+
+       
+    }
 }

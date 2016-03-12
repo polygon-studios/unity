@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: 2062cad319d85474dab3df76ea816c4d
+timeCreated: 1457745000
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_jumpBunny_0
+    21300002: fox_jumpBunny_1
+    21300004: fox_jumpBunny_2
+    21300006: fox_jumpBunny_3
+    21300008: fox_jumpBunny_4
+    21300010: fox_jumpBunny_5
+    21300012: fox_jumpBunny_6
+    21300014: fox_jumpBunny_7
+    21300016: fox_jumpBunny_8
+    21300018: fox_jumpBunny_9
+    21300020: fox_jumpBunny_10
+    21300022: fox_jumpBunny_11
+    21300024: fox_jumpBunny_12
+    21300026: fox_jumpBunny_13
+    21300028: fox_jumpBunny_14
+    21300030: fox_jumpBunny_15
+    21300032: fox_jumpBunny_16
+    21300034: fox_jumpBunny_17
+    21300036: fox_jumpBunny_18
+    21300038: fox_jumpBunny_19
+    21300040: fox_jumpBunny_20
+    21300042: fox_jumpBunny_21
+    21300044: fox_jumpBunny_22
+    21300046: fox_jumpBunny_23
+    21300048: fox_jumpBunny_24
+    21300050: fox_jumpBunny_25
+    21300052: fox_jumpBunny_26
+    21300054: fox_jumpBunny_27
+    21300056: fox_jumpBunny_28
+    21300058: fox_jumpBunny_29
+    21300060: fox_jumpBunny_30
+    21300062: fox_jumpBunny_31
+    21300064: fox_jumpBunny_32
+    21300066: fox_jumpBunny_33
+    21300068: fox_jumpBunny_34
+    21300070: fox_jumpBunny_35
+    21300072: fox_jumpBunny_36
+    21300074: fox_jumpBunny_37
+    21300076: fox_jumpBunny_38
+    21300078: fox_jumpBunny_39
+    21300080: fox_jumpBunny_40
+    21300082: fox_jumpBunny_41
+    21300084: fox_jumpBunny_42
+    21300086: fox_jumpBunny_43
+    21300088: fox_jumpBunny_44
+    21300090: fox_jumpBunny_45
+    21300092: fox_jumpBunny_46
+    21300094: fox_jumpBunny_47
+    21300096: fox_jumpBunny_48
+    21300098: fox_jumpBunny_49
+    21300100: fox_jumpBunny_50
+    21300102: fox_jumpBunny_51
+    21300104: fox_jumpBunny_52
+    21300106: fox_jumpBunny_53
+    21300108: fox_jumpBunny_54
+    21300110: fox_jumpBunny_55
+    21300112: fox_jumpBunny_56
+    21300114: fox_jumpBunny_57
+    21300116: fox_jumpBunny_58
+    21300118: fox_jumpBunny_59
+    21300120: fox_jumpBunny_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_jumpBunny_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 436
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 38}
+        - {x: -23, y: -2}
+        - {x: -23, y: -38}
+        - {x: 22, y: -38}
+        - {x: 23, y: -27}
+        - {x: 23, y: 24}
+        - {x: 11, y: 38}
+    - name: fox_jumpBunny_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 436
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 37.5}
+        - {x: -22, y: -13.5}
+        - {x: -22, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 22, y: 26.5}
+        - {x: 11, y: 37.5}
+    - name: fox_jumpBunny_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 436
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 37.5}
+        - {x: -22, y: 3.5}
+        - {x: -22, y: -37.5}
+        - {x: -17, y: -37.5}
+        - {x: -15, y: -36.5}
+        - {x: -11, y: -37.5}
+        - {x: 15, y: -37.5}
+        - {x: 22, y: -34.5}
+        - {x: 22, y: 37.5}
+    - name: fox_jumpBunny_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 436
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 25.5}
+        - {x: 7, y: 37.5}
+        - {x: -16, y: 37.5}
+        - {x: -22, y: -6.5}
+        - {x: -22, y: -37.5}
+        - {x: 9, y: -37.5}
+        - {x: 14, y: -32.5}
+        - {x: 20, y: -25.5}
+        - {x: 22, y: -7.5}
+    - name: fox_jumpBunny_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 359
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37.5}
+        - {x: -20, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 36.5}
+        - {x: 21, y: 37.5}
+    - name: fox_jumpBunny_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 359
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 37.5}
+        - {x: -14, y: 37.5}
+        - {x: -23, y: -2.5}
+        - {x: -23, y: -37.5}
+        - {x: 11, y: -37.5}
+        - {x: 19, y: -24.5}
+        - {x: 23, y: -6.5}
+        - {x: 23, y: 30.5}
+    - name: fox_jumpBunny_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 359
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 37}
+        - {x: -11.5, y: 37}
+        - {x: -13.5, y: 12}
+        - {x: -24.5, y: -22}
+        - {x: -24.5, y: -35}
+        - {x: -14.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 18.5, y: -36}
+        - {x: 24.5, y: -15}
+        - {x: 24.5, y: 23}
+    - name: fox_jumpBunny_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 359
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 37.5}
+        - {x: -23, y: 17.5}
+        - {x: -23, y: -37.5}
+        - {x: 16, y: -37.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 27.5}
+        - {x: 4, y: 37.5}
+    - name: fox_jumpBunny_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 283
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 37.5}
+        - {x: -16, y: 22.5}
+        - {x: -22, y: -15.5}
+        - {x: -22, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 22, y: 23.5}
+        - {x: 2, y: 37.5}
+    - name: fox_jumpBunny_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 283
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 27}
+        - {x: 8, y: 37}
+        - {x: -16, y: 37}
+        - {x: -14, y: 12}
+        - {x: -21, y: -14}
+        - {x: -23, y: -21}
+        - {x: -23, y: -36}
+        - {x: -14, y: -37}
+        - {x: 8, y: -37}
+        - {x: 14, y: -33}
+        - {x: 22, y: -20}
+        - {x: 23, y: -6}
+    - name: fox_jumpBunny_37
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_38
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_39
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 284
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 37}
+        - {x: -25, y: 12}
+        - {x: -25, y: -37}
+        - {x: 21, y: -37}
+        - {x: 25, y: -5}
+        - {x: 25, y: 23}
+        - {x: 4, y: 37}
+    - name: fox_jumpBunny_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_41
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_42
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 284
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 36.5}
+        - {x: -15, y: 36.5}
+        - {x: -15, y: 33.5}
+        - {x: -24, y: -6.5}
+        - {x: -24, y: -36.5}
+        - {x: 14, y: -36.5}
+        - {x: 21, y: -27.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 28.5}
+    - name: fox_jumpBunny_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_47
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_48
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_49
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_50
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 283
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_51
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 283
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 208
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 36.5}
+        - {x: -13.5, y: 36.5}
+        - {x: -19.5, y: 34.5}
+        - {x: -23.5, y: 11.5}
+        - {x: -23.5, y: -36.5}
+        - {x: 14.5, y: -36.5}
+        - {x: 21.5, y: -23.5}
+        - {x: 23.5, y: -7.5}
+        - {x: 23.5, y: 23.5}
+    - name: fox_jumpBunny_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_55
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_56
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 208
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 37}
+        - {x: -16, y: 37}
+        - {x: -23, y: -10}
+        - {x: -23, y: -37}
+        - {x: 20, y: -37}
+        - {x: 23, y: -19}
+        - {x: 23, y: 20}
+        - {x: 21, y: 26}
+    - name: fox_jumpBunny_57
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_58
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBunny_59
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 208
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 36.5}
+        - {x: -22.5, y: -36.5}
+        - {x: 12.5, y: -36.5}
+        - {x: 22.5, y: -26.5}
+        - {x: 22.5, y: 29.5}
+        - {x: 9.5, y: 36.5}
+    - name: fox_jumpBunny_60
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
