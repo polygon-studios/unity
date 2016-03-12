@@ -93,10 +93,15 @@ public class Character : MonoBehaviour {
 		}
 		if(Input.GetAxis(controllerXAxis) != 0 && isStunned == false){
 			transform.Translate(Vector3.right*Mathf.Abs(Input.GetAxis(controllerXAxis))*speed*Time.deltaTime);
-			if(Input.GetAxis(controllerXAxis) < 0)
-				transform.eulerAngles = new Vector2(0, 180);
-			else
-				transform.eulerAngles = new Vector2 (0,0);
+            if (Input.GetAxis(controllerXAxis) < 0)
+            {
+                transform.eulerAngles = new Vector2(0, 180);
+                lastPressedKey = inputLeft;
+            }
+            else {
+                transform.eulerAngles = new Vector2(0, 0);
+                lastPressedKey = inputRight;
+            }
 		}
 
 		//if (Input.GetKey (inputJump) && onGround) {
