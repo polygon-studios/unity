@@ -9,6 +9,7 @@ public class Item : MonoBehaviour {
 	public Material diffuseMat;
 	public Renderer rend;
 
+    bool isDark = false;
 	int points = 10;
 
 	// Use this for initialization
@@ -20,6 +21,8 @@ public class Item : MonoBehaviour {
         GM = goMaster.GetComponent<GameMaster>();
 
 		rend = GetComponent<Renderer>();
+        if (isDark == true)
+            this.gameObject.GetComponent<Animator>().SetBool("night", true);
 	}
 	
 	// Update is called once per frame
