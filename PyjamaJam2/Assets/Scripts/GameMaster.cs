@@ -24,5 +24,9 @@ public class GameMaster:MonoBehaviour
 
 	}
 
+	public void addPoints(string character, int pointVal){
+
+	}
+
 }
 
