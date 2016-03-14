@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a144a57007356b246986443d84d33827
-timeCreated: 1457802328
+timeCreated: 1457972863
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -101,874 +101,814 @@ TextureImporter:
     - name: ghostGlow_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1228
-        width: 103
-        height: 135
+        x: 14
+        y: 921
+        width: 78
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -51.5, y: 67.5}
-        - {x: -51.5, y: -67.5}
-        - {x: 49.5, y: -67.5}
-        - {x: 51.5, y: -64.5}
-        - {x: 51.5, y: 63.5}
-        - {x: 46.5, y: 67.5}
+      - - {x: -39, y: 51}
+        - {x: -39, y: -51}
+        - {x: 39, y: -51}
+        - {x: 39, y: 51}
     - name: ghostGlow_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1227
-        width: 105
-        height: 137
+        x: 120
+        y: 921
+        width: 79
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52.5, y: 68.5}
-        - {x: -52.5, y: -44.5}
-        - {x: -46.5, y: -68.5}
-        - {x: 51.5, y: -68.5}
-        - {x: 52.5, y: -67.5}
-        - {x: 52.5, y: 61.5}
-        - {x: 51.5, y: 68.5}
+      - - {x: -39.5, y: 51.5}
+        - {x: -39.5, y: -5.5}
+        - {x: -35.5, y: -51.5}
+        - {x: 33.5, y: -51.5}
+        - {x: 39.5, y: -48.5}
+        - {x: 39.5, y: 51.5}
     - name: ghostGlow_2
       rect:
         serializedVersion: 2
-        x: 301
-        y: 1227
-        width: 106
-        height: 138
+        x: 226
+        y: 921
+        width: 79
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -53, y: 69}
-        - {x: -53, y: -38}
-        - {x: -49, y: -59}
-        - {x: -44, y: -69}
-        - {x: 46, y: -69}
-        - {x: 53, y: -63}
-        - {x: 53, y: 69}
+      - - {x: -39.5, y: 51.5}
+        - {x: -39.5, y: -51.5}
+        - {x: 35.5, y: -51.5}
+        - {x: 39.5, y: -49.5}
+        - {x: 39.5, y: 51.5}
     - name: ghostGlow_3
       rect:
         serializedVersion: 2
-        x: 442
-        y: 1227
-        width: 106
-        height: 139
+        x: 332
+        y: 921
+        width: 79
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -48, y: 69.5}
-        - {x: -53, y: 63.5}
-        - {x: -53, y: -13.5}
-        - {x: -51, y: -55.5}
-        - {x: -44, y: -69.5}
-        - {x: 44, y: -69.5}
-        - {x: 53, y: -60.5}
-        - {x: 53, y: 63.5}
-        - {x: 44, y: 69.5}
+      - - {x: -39.5, y: 52}
+        - {x: -39.5, y: -28}
+        - {x: -38.5, y: -50}
+        - {x: -34.5, y: -52}
+        - {x: 39.5, y: -52}
+        - {x: 39.5, y: 52}
     - name: ghostGlow_4
       rect:
         serializedVersion: 2
-        x: 583
-        y: 1227
-        width: 108
-        height: 140
+        x: 437
+        y: 921
+        width: 81
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 46, y: 68}
-        - {x: 43, y: 70}
-        - {x: -51, y: 70}
-        - {x: -54, y: 68}
-        - {x: -54, y: -28}
-        - {x: -49, y: -70}
-        - {x: 35, y: -70}
-        - {x: 41, y: -69}
-        - {x: 54, y: -64}
-        - {x: 54, y: 61}
+      - - {x: -36.5, y: 52.5}
+        - {x: -40.5, y: 48.5}
+        - {x: -40.5, y: -52.5}
+        - {x: 40.5, y: -52.5}
+        - {x: 40.5, y: 52.5}
     - name: ghostGlow_5
       rect:
         serializedVersion: 2
-        x: 724
-        y: 1226
-        width: 109
-        height: 142
+        x: 543
+        y: 920
+        width: 82
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52.5, y: 71}
-        - {x: -54.5, y: 61}
-        - {x: -54.5, y: -71}
-        - {x: 54.5, y: -71}
-        - {x: 54.5, y: 71}
+      - - {x: -41, y: 53.5}
+        - {x: -41, y: -53.5}
+        - {x: 41, y: -53.5}
+        - {x: 41, y: 53.5}
     - name: ghostGlow_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1054
-        width: 110
-        height: 143
+        x: 12
+        y: 791
+        width: 82
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -55, y: 71.5}
-        - {x: -55, y: -50.5}
-        - {x: -51, y: -71.5}
-        - {x: 54, y: -71.5}
-        - {x: 55, y: -66.5}
-        - {x: 55, y: 71.5}
+      - - {x: -37, y: 53.5}
+        - {x: -41, y: 50.5}
+        - {x: -41, y: -53.5}
+        - {x: 40, y: -53.5}
+        - {x: 41, y: -51.5}
+        - {x: 41, y: 51.5}
+        - {x: 40, y: 53.5}
     - name: ghostGlow_7
       rect:
         serializedVersion: 2
-        x: 158
-        y: 1054
-        width: 110
-        height: 144
+        x: 118
+        y: 791
+        width: 83
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -55, y: 72}
-        - {x: -55, y: -56}
-        - {x: -49, y: -67}
-        - {x: -44, y: -72}
-        - {x: 50, y: -72}
-        - {x: 55, y: -61}
-        - {x: 55, y: 71}
-        - {x: 47, y: 72}
+      - - {x: -41.5, y: 54}
+        - {x: -41.5, y: -54}
+        - {x: 37.5, y: -54}
+        - {x: 41.5, y: -53}
+        - {x: 41.5, y: 54}
     - name: ghostGlow_8
       rect:
         serializedVersion: 2
-        x: 298
-        y: 1054
-        width: 112
-        height: 145
+        x: 224
+        y: 791
+        width: 83
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -56, y: 72.5}
-        - {x: -56, y: -72.5}
-        - {x: 48, y: -72.5}
-        - {x: 56, y: -69.5}
-        - {x: 56, y: 72.5}
+      - - {x: -41.5, y: 54.5}
+        - {x: -41.5, y: -54.5}
+        - {x: 41.5, y: -54.5}
+        - {x: 41.5, y: 54.5}
     - name: ghostGlow_9
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1053
-        width: 112
-        height: 146
+        x: 330
+        y: 790
+        width: 84
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -53, y: 73}
-        - {x: -56, y: 70}
-        - {x: -56, y: -26}
-        - {x: -54, y: -66}
-        - {x: -52, y: -73}
-        - {x: 47, y: -73}
-        - {x: 56, y: -71}
-        - {x: 56, y: 65}
-        - {x: 50, y: 73}
+      - - {x: -42, y: 55}
+        - {x: -42, y: -43}
+        - {x: -38, y: -55}
+        - {x: 34, y: -55}
+        - {x: 42, y: -48}
+        - {x: 42, y: 55}
     - name: ghostGlow_10
       rect:
         serializedVersion: 2
-        x: 580
-        y: 1053
-        width: 114
-        height: 147
+        x: 435
+        y: 790
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 50, y: 73.5}
-        - {x: -52, y: 73.5}
-        - {x: -57, y: 65.5}
-        - {x: -57, y: -73.5}
-        - {x: 57, y: -73.5}
-        - {x: 57, y: 54.5}
-        - {x: 56, y: 64.5}
+      - - {x: -41.5, y: 55}
+        - {x: -42.5, y: 54}
+        - {x: -42.5, y: -30}
+        - {x: -37.5, y: -55}
+        - {x: 42.5, y: -55}
+        - {x: 42.5, y: 54}
+        - {x: 38.5, y: 55}
     - name: ghostGlow_11
       rect:
         serializedVersion: 2
-        x: 721
-        y: 1053
-        width: 115
-        height: 148
+        x: 541
+        y: 790
+        width: 86
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -50.5, y: 74}
-        - {x: -57.5, y: 68}
-        - {x: -57.5, y: -43}
-        - {x: -55.5, y: -63}
-        - {x: -42.5, y: -74}
-        - {x: 48.5, y: -74}
-        - {x: 57.5, y: -70}
-        - {x: 57.5, y: 67}
-        - {x: 56.5, y: 74}
+      - - {x: -43, y: 55.5}
+        - {x: -43, y: -55.5}
+        - {x: 42, y: -55.5}
+        - {x: 43, y: -53.5}
+        - {x: 43, y: 55.5}
     - name: ghostGlow_12
       rect:
         serializedVersion: 2
-        x: 13
-        y: 880
-        width: 116
-        height: 149
+        x: 10
+        y: 660
+        width: 87
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -56, y: 74.5}
-        - {x: -58, y: 67.5}
-        - {x: -58, y: 5.5}
-        - {x: -55, y: -45.5}
-        - {x: -52, y: -65.5}
-        - {x: -48, y: -74.5}
-        - {x: 48, y: -74.5}
-        - {x: 58, y: -68.5}
-        - {x: 58, y: 63.5}
-        - {x: 49, y: 74.5}
+      - - {x: -37.5, y: 56}
+        - {x: -43.5, y: 51}
+        - {x: -43.5, y: -56}
+        - {x: 43.5, y: -56}
+        - {x: 43.5, y: 53}
+        - {x: 41.5, y: 56}
     - name: ghostGlow_13
       rect:
         serializedVersion: 2
-        x: 154
-        y: 879
-        width: 117
-        height: 151
+        x: 116
+        y: 660
+        width: 87
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -58.5, y: 75.5}
-        - {x: -58.5, y: -70.5}
-        - {x: -54.5, y: -75.5}
-        - {x: 48.5, y: -75.5}
-        - {x: 58.5, y: -73.5}
-        - {x: 58.5, y: 61.5}
-        - {x: 52.5, y: 75.5}
+      - - {x: -38.5, y: 56.5}
+        - {x: -43.5, y: 49.5}
+        - {x: -43.5, y: -56.5}
+        - {x: 43.5, y: -56.5}
+        - {x: 43.5, y: 56.5}
     - name: ghostGlow_14
       rect:
         serializedVersion: 2
-        x: 295
-        y: 878
-        width: 118
-        height: 152
+        x: 221
+        y: 659
+        width: 89
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 52, y: 76}
-        - {x: -55, y: 76}
-        - {x: -59, y: 71}
-        - {x: -59, y: -39}
-        - {x: -56, y: -72}
-        - {x: -52, y: -76}
-        - {x: 45, y: -76}
-        - {x: 59, y: -73}
-        - {x: 59, y: 60}
+      - - {x: -44.5, y: 57}
+        - {x: -44.5, y: -40}
+        - {x: -35.5, y: -57}
+        - {x: 44.5, y: -57}
+        - {x: 44.5, y: 57}
     - name: ghostGlow_15
       rect:
         serializedVersion: 2
-        x: 436
-        y: 878
-        width: 119
-        height: 153
+        x: 328
+        y: 659
+        width: 88
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -49.5, y: 76.5}
-        - {x: -59.5, y: 66.5}
-        - {x: -59.5, y: -8.5}
-        - {x: -54.5, y: -67.5}
-        - {x: -48.5, y: -76.5}
-        - {x: 59.5, y: -76.5}
-        - {x: 59.5, y: 65.5}
-        - {x: 53.5, y: 76.5}
+      - - {x: -41, y: 57.5}
+        - {x: -44, y: 51.5}
+        - {x: -44, y: -56.5}
+        - {x: -41, y: -57.5}
+        - {x: 44, y: -57.5}
+        - {x: 44, y: 55.5}
+        - {x: 38, y: 57.5}
     - name: ghostGlow_16
       rect:
         serializedVersion: 2
-        x: 578
-        y: 878
-        width: 118
-        height: 153
+        x: 433
+        y: 659
+        width: 89
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -59, y: 76.5}
-        - {x: -59, y: -75.5}
-        - {x: -52, y: -76.5}
-        - {x: 53, y: -76.5}
-        - {x: 59, y: -72.5}
-        - {x: 59, y: 76.5}
+      - - {x: -43.5, y: 57.5}
+        - {x: -44.5, y: 55.5}
+        - {x: -44.5, y: -46.5}
+        - {x: -42.5, y: -57.5}
+        - {x: 44.5, y: -57.5}
+        - {x: 44.5, y: 57.5}
     - name: ghostGlow_17
       rect:
         serializedVersion: 2
-        x: 719
-        y: 877
-        width: 119
-        height: 154
+        x: 539
+        y: 658
+        width: 90
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -49.5, y: 77}
-        - {x: -59.5, y: 70}
-        - {x: -59.5, y: -29}
-        - {x: -55.5, y: -69}
-        - {x: -46.5, y: -77}
-        - {x: 54.5, y: -77}
-        - {x: 59.5, y: -74}
-        - {x: 59.5, y: 77}
+      - - {x: -42, y: 58}
+        - {x: -45, y: 56}
+        - {x: -45, y: -35}
+        - {x: -44, y: -52}
+        - {x: -37, y: -58}
+        - {x: 36, y: -58}
+        - {x: 45, y: -49}
+        - {x: 45, y: 44}
+        - {x: 41, y: 58}
     - name: ghostGlow_18
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 704
-        width: 121
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -60.5, y: 78}
-        - {x: -60.5, y: -75}
-        - {x: -58.5, y: -78}
-        - {x: 60.5, y: -78}
-        - {x: 60.5, y: 76}
-        - {x: 56.5, y: 78}
-    - name: ghostGlow_19
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 703
-        width: 122
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61, y: 78.5}
-        - {x: -61, y: -71.5}
-        - {x: -51, y: -78.5}
-        - {x: 48, y: -78.5}
-        - {x: 61, y: -69.5}
-        - {x: 61, y: 68.5}
-        - {x: 46, y: 78.5}
-    - name: ghostGlow_20
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 702
-        width: 123
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61.5, y: 79.5}
-        - {x: -61.5, y: -67.5}
-        - {x: -58.5, y: -79.5}
-        - {x: 50.5, y: -79.5}
-        - {x: 61.5, y: -66.5}
-        - {x: 61.5, y: 79.5}
-    - name: ghostGlow_21
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 701
-        width: 124
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: 80}
-        - {x: -62, y: -46}
-        - {x: -56, y: -80}
-        - {x: 50, y: -80}
-        - {x: 62, y: -66}
-        - {x: 62, y: 67}
-        - {x: 48, y: 80}
-    - name: ghostGlow_22
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 700
-        width: 124
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 49, y: 81}
-        - {x: -54, y: 81}
-        - {x: -62, y: 73}
-        - {x: -62, y: -48}
-        - {x: -59, y: -81}
-        - {x: 46, y: -81}
-        - {x: 62, y: -70}
-        - {x: 62, y: 63}
-        - {x: 54, y: 80}
-    - name: ghostGlow_23
-      rect:
-        serializedVersion: 2
-        x: 716
-        y: 700
-        width: 127
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -60.5, y: 81}
-        - {x: -63.5, y: 76}
-        - {x: -63.5, y: -58}
-        - {x: -61.5, y: -79}
-        - {x: -49.5, y: -81}
-        - {x: 52.5, y: -81}
-        - {x: 63.5, y: -73}
-        - {x: 63.5, y: 80}
-        - {x: 57.5, y: 81}
-    - name: ghostGlow_24
       rect:
         serializedVersion: 2
         x: 8
         y: 528
-        width: 126
-        height: 162
+        width: 91
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -55, y: 81}
-        - {x: -63, y: 75}
-        - {x: -63, y: -65}
-        - {x: -61, y: -81}
-        - {x: 60, y: -81}
-        - {x: 63, y: -66}
-        - {x: 63, y: 70}
-        - {x: 55, y: 81}
+      - - {x: -45.5, y: 58.5}
+        - {x: -45.5, y: -58.5}
+        - {x: 44.5, y: -58.5}
+        - {x: 45.5, y: -57.5}
+        - {x: 45.5, y: 58.5}
+    - name: ghostGlow_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 528
+        width: 91
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 58.5}
+        - {x: -45.5, y: 57.5}
+        - {x: -45.5, y: -56.5}
+        - {x: -38.5, y: -58.5}
+        - {x: 45.5, y: -58.5}
+        - {x: 45.5, y: 46.5}
+        - {x: 43.5, y: 58.5}
+    - name: ghostGlow_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 527
+        width: 92
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 59.5}
+        - {x: -46, y: 54.5}
+        - {x: -46, y: -54.5}
+        - {x: -44, y: -59.5}
+        - {x: 46, y: -59.5}
+        - {x: 46, y: 52.5}
+        - {x: 37, y: 59.5}
+    - name: ghostGlow_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 526
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 60}
+        - {x: -46.5, y: -55}
+        - {x: -45.5, y: -60}
+        - {x: 38.5, y: -60}
+        - {x: 46.5, y: -55}
+        - {x: 46.5, y: 56}
+        - {x: 44.5, y: 60}
+    - name: ghostGlow_22
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 525
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 61}
+        - {x: -47, y: -46}
+        - {x: -43, y: -59}
+        - {x: -41, y: -61}
+        - {x: 47, y: -61}
+        - {x: 47, y: 61}
+    - name: ghostGlow_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 525
+        width: 96
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 61}
+        - {x: -48, y: -45}
+        - {x: -38, y: -61}
+        - {x: 41, y: -61}
+        - {x: 48, y: -60}
+        - {x: 48, y: 53}
+        - {x: 41, y: 61}
+    - name: ghostGlow_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 396
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 61}
+        - {x: -47, y: -61}
+        - {x: 47, y: -61}
+        - {x: 47, y: 58}
+        - {x: 37, y: 61}
     - name: ghostGlow_25
       rect:
         serializedVersion: 2
-        x: 151
-        y: 529
-        width: 124
-        height: 160
+        x: 113
+        y: 397
+        width: 93
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -50, y: 80}
-        - {x: -62, y: 67}
-        - {x: -62, y: -29}
-        - {x: -61, y: -57}
-        - {x: -55, y: -80}
-        - {x: 56, y: -80}
-        - {x: 62, y: -65}
-        - {x: 62, y: 64}
-        - {x: 54, y: 80}
+      - - {x: -46.5, y: 60}
+        - {x: -46.5, y: -60}
+        - {x: 46.5, y: -60}
+        - {x: 46.5, y: 46}
+        - {x: 41.5, y: 60}
     - name: ghostGlow_26
       rect:
         serializedVersion: 2
-        x: 293
-        y: 530
-        width: 123
-        height: 159
+        x: 220
+        y: 398
+        width: 92
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -54.5, y: 79.5}
-        - {x: -61.5, y: 72.5}
-        - {x: -61.5, y: -65.5}
-        - {x: -53.5, y: -79.5}
-        - {x: 61.5, y: -79.5}
-        - {x: 61.5, y: 79.5}
+      - - {x: -46, y: 59.5}
+        - {x: -46, y: -59.5}
+        - {x: 46, y: -59.5}
+        - {x: 46, y: 59.5}
     - name: ghostGlow_27
       rect:
         serializedVersion: 2
-        x: 434
-        y: 531
-        width: 122
-        height: 157
+        x: 326
+        y: 398
+        width: 91
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -61, y: 78.5}
-        - {x: -61, y: -73.5}
-        - {x: -50, y: -78.5}
-        - {x: 61, y: -78.5}
-        - {x: 61, y: 78.5}
+      - - {x: -45.5, y: 59}
+        - {x: -45.5, y: -59}
+        - {x: 45.5, y: -59}
+        - {x: 45.5, y: 55}
+        - {x: 37.5, y: 59}
     - name: ghostGlow_28
       rect:
         serializedVersion: 2
-        x: 577
-        y: 531
-        width: 121
-        height: 157
+        x: 433
+        y: 398
+        width: 90
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52.5, y: 78.5}
-        - {x: -60.5, y: 70.5}
-        - {x: -60.5, y: -64.5}
-        - {x: -48.5, y: -78.5}
-        - {x: 51.5, y: -78.5}
-        - {x: 54.5, y: -77.5}
-        - {x: 60.5, y: -68.5}
-        - {x: 60.5, y: 78.5}
+      - - {x: -40, y: 59}
+        - {x: -45, y: 56}
+        - {x: -45, y: -47}
+        - {x: -43, y: -59}
+        - {x: 35, y: -59}
+        - {x: 45, y: -56}
+        - {x: 45, y: 59}
     - name: ghostGlow_29
       rect:
         serializedVersion: 2
-        x: 719
-        y: 532
-        width: 120
-        height: 155
+        x: 539
+        y: 399
+        width: 90
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -58, y: 77.5}
-        - {x: -60, y: 69.5}
-        - {x: -60, y: -39.5}
-        - {x: -56, y: -68.5}
-        - {x: -44, y: -77.5}
-        - {x: 60, y: -77.5}
-        - {x: 60, y: 67.5}
-        - {x: 51, y: 77.5}
+      - - {x: -43, y: 58}
+        - {x: -45, y: 57}
+        - {x: -45, y: -44}
+        - {x: -44, y: -58}
+        - {x: 35, y: -58}
+        - {x: 41, y: -57}
+        - {x: 45, y: -48}
+        - {x: 45, y: 45}
+        - {x: 38, y: 58}
     - name: ghostGlow_30
       rect:
         serializedVersion: 2
-        x: 12
-        y: 361
-        width: 119
-        height: 154
+        x: 9
+        y: 271
+        width: 89
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52.5, y: 77}
-        - {x: -59.5, y: 68}
-        - {x: -59.5, y: -19}
-        - {x: -57.5, y: -68}
-        - {x: -45.5, y: -77}
-        - {x: 52.5, y: -77}
-        - {x: 59.5, y: -62}
-        - {x: 59.5, y: 61}
-        - {x: 49.5, y: 77}
+      - - {x: -44.5, y: 57.5}
+        - {x: -44.5, y: -35.5}
+        - {x: -41.5, y: -57.5}
+        - {x: 44.5, y: -57.5}
+        - {x: 44.5, y: 57.5}
     - name: ghostGlow_31
       rect:
         serializedVersion: 2
-        x: 153
-        y: 362
-        width: 119
-        height: 152
+        x: 115
+        y: 271
+        width: 89
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -53.5, y: 76}
-        - {x: -59.5, y: 74}
-        - {x: -59.5, y: -72}
-        - {x: -53.5, y: -76}
-        - {x: 59.5, y: -76}
-        - {x: 59.5, y: 76}
+      - - {x: -44.5, y: 57.5}
+        - {x: -44.5, y: -57.5}
+        - {x: 44.5, y: -57.5}
+        - {x: 44.5, y: 49.5}
+        - {x: 36.5, y: 57.5}
     - name: ghostGlow_32
       rect:
         serializedVersion: 2
-        x: 295
-        y: 362
-        width: 118
-        height: 152
+        x: 221
+        y: 272
+        width: 89
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -59, y: 76}
-        - {x: -59, y: -59}
-        - {x: -49, y: -76}
-        - {x: 48, y: -76}
-        - {x: 59, y: -67}
-        - {x: 59, y: 74}
-        - {x: 55, y: 76}
+      - - {x: -38.5, y: 57}
+        - {x: -44.5, y: 52}
+        - {x: -44.5, y: -57}
+        - {x: 44.5, y: -57}
+        - {x: 44.5, y: 57}
     - name: ghostGlow_33
       rect:
         serializedVersion: 2
-        x: 437
-        y: 363
-        width: 117
-        height: 150
+        x: 328
+        y: 272
+        width: 88
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -58.5, y: 75}
-        - {x: -58.5, y: -70}
-        - {x: -52.5, y: -75}
-        - {x: 56.5, y: -75}
-        - {x: 58.5, y: -69}
-        - {x: 58.5, y: 69}
-        - {x: 56.5, y: 75}
+      - - {x: 41, y: 56.5}
+        - {x: -44, y: 56.5}
+        - {x: -44, y: -56.5}
+        - {x: 36, y: -56.5}
+        - {x: 44, y: -49.5}
+        - {x: 44, y: 37.5}
+        - {x: 43, y: 49.5}
     - name: ghostGlow_34
       rect:
         serializedVersion: 2
-        x: 579
-        y: 363
-        width: 116
-        height: 150
+        x: 434
+        y: 272
+        width: 87
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52, y: 75}
-        - {x: -58, y: 74}
-        - {x: -58, y: -20}
-        - {x: -54, y: -67}
-        - {x: -47, y: -75}
-        - {x: 54, y: -75}
-        - {x: 58, y: -68}
-        - {x: 58, y: 73}
-        - {x: 55, y: 75}
+      - - {x: -43.5, y: 56.5}
+        - {x: -43.5, y: -48.5}
+        - {x: -38.5, y: -56.5}
+        - {x: 35.5, y: -56.5}
+        - {x: 43.5, y: -49.5}
+        - {x: 43.5, y: 56.5}
     - name: ghostGlow_35
       rect:
         serializedVersion: 2
-        x: 721
-        y: 364
-        width: 115
-        height: 148
+        x: 541
+        y: 273
+        width: 86
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -57.5, y: 74}
-        - {x: -57.5, y: -54}
-        - {x: -52.5, y: -74}
-        - {x: 57.5, y: -74}
-        - {x: 57.5, y: 74}
+      - - {x: -42, y: 55.5}
+        - {x: -43, y: 52.5}
+        - {x: -43, y: -37.5}
+        - {x: -42, y: -45.5}
+        - {x: -33, y: -55.5}
+        - {x: 43, y: -55.5}
+        - {x: 43, y: 55.5}
     - name: ghostGlow_36
       rect:
         serializedVersion: 2
-        x: 14
-        y: 192
-        width: 114
-        height: 148
+        x: 11
+        y: 144
+        width: 85
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -57, y: 74}
-        - {x: -57, y: -74}
-        - {x: 57, y: -74}
-        - {x: 57, y: 70}
-        - {x: 56, y: 74}
+      - - {x: -42.5, y: 55.5}
+        - {x: -42.5, y: -46.5}
+        - {x: -41.5, y: -55.5}
+        - {x: 40.5, y: -55.5}
+        - {x: 42.5, y: -54.5}
+        - {x: 42.5, y: 55.5}
     - name: ghostGlow_37
       rect:
         serializedVersion: 2
-        x: 156
-        y: 192
-        width: 113
-        height: 148
+        x: 117
+        y: 144
+        width: 85
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -56.5, y: 74}
-        - {x: -56.5, y: -59}
-        - {x: -54.5, y: -74}
-        - {x: 55.5, y: -74}
-        - {x: 56.5, y: -71}
-        - {x: 56.5, y: 53}
-        - {x: 53.5, y: 74}
+      - - {x: -42.5, y: 55.5}
+        - {x: -42.5, y: -45.5}
+        - {x: -40.5, y: -55.5}
+        - {x: 42.5, y: -55.5}
+        - {x: 42.5, y: 55.5}
     - name: ghostGlow_38
       rect:
         serializedVersion: 2
-        x: 298
-        y: 193
-        width: 112
-        height: 146
+        x: 224
+        y: 145
+        width: 83
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -53, y: 73}
-        - {x: -56, y: 72}
-        - {x: -56, y: -70}
-        - {x: -50, y: -73}
-        - {x: 56, y: -73}
-        - {x: 56, y: 71}
-        - {x: 52, y: 73}
+      - - {x: -41.5, y: 54.5}
+        - {x: -41.5, y: -50.5}
+        - {x: -35.5, y: -54.5}
+        - {x: 37.5, y: -54.5}
+        - {x: 41.5, y: -48.5}
+        - {x: 41.5, y: 54.5}
     - name: ghostGlow_39
       rect:
         serializedVersion: 2
-        x: 440
-        y: 193
-        width: 111
-        height: 145
+        x: 330
+        y: 145
+        width: 83
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -55.5, y: 72.5}
-        - {x: -55.5, y: -67.5}
-        - {x: -47.5, y: -72.5}
-        - {x: 55.5, y: -72.5}
-        - {x: 55.5, y: 72.5}
+      - - {x: -36.5, y: 54.5}
+        - {x: -41.5, y: 48.5}
+        - {x: -41.5, y: -54.5}
+        - {x: 41.5, y: -54.5}
+        - {x: 41.5, y: 54.5}
     - name: ghostGlow_40
       rect:
         serializedVersion: 2
-        x: 582
-        y: 193
-        width: 110
-        height: 144
+        x: 437
+        y: 145
+        width: 82
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -55, y: 72}
-        - {x: -55, y: -65}
-        - {x: -51, y: -72}
-        - {x: 55, y: -72}
-        - {x: 55, y: 72}
+      - - {x: -41, y: 54}
+        - {x: -41, y: -54}
+        - {x: 39, y: -54}
+        - {x: 41, y: -49}
+        - {x: 41, y: 54}
     - name: ghostGlow_41
       rect:
         serializedVersion: 2
-        x: 724
-        y: 194
-        width: 109
-        height: 142
+        x: 543
+        y: 146
+        width: 82
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -54.5, y: 71}
-        - {x: -54.5, y: -66}
-        - {x: -51.5, y: -71}
-        - {x: 54.5, y: -71}
-        - {x: 54.5, y: 63}
-        - {x: 45.5, y: 71}
+      - - {x: -41, y: 53}
+        - {x: -41, y: -49}
+        - {x: -39, y: -53}
+        - {x: 41, y: -53}
+        - {x: 41, y: 51}
+        - {x: 40, y: 53}
     - name: ghostGlow_42
       rect:
         serializedVersion: 2
-        x: 17
-        y: 22
-        width: 108
-        height: 141
+        x: 13
+        y: 16
+        width: 81
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52, y: 70.5}
-        - {x: -54, y: 69.5}
-        - {x: -54, y: -47.5}
-        - {x: -52, y: -70.5}
-        - {x: 44, y: -70.5}
-        - {x: 54, y: -67.5}
-        - {x: 54, y: 65.5}
-        - {x: 53, y: 70.5}
+      - - {x: -38.5, y: 53.5}
+        - {x: -40.5, y: 52.5}
+        - {x: -40.5, y: -26.5}
+        - {x: -38.5, y: -53.5}
+        - {x: 40.5, y: -53.5}
+        - {x: 40.5, y: 53.5}
     - name: ghostGlow_43
       rect:
         serializedVersion: 2
-        x: 159
-        y: 22
-        width: 107
-        height: 141
+        x: 119
+        y: 16
+        width: 80
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 50.5, y: 70.5}
-        - {x: -53.5, y: 70.5}
-        - {x: -53.5, y: -20.5}
-        - {x: -50.5, y: -65.5}
-        - {x: -43.5, y: -70.5}
-        - {x: 30.5, y: -70.5}
-        - {x: 47.5, y: -69.5}
-        - {x: 53.5, y: -61.5}
-        - {x: 53.5, y: 42.5}
-        - {x: 52.5, y: 65.5}
+      - - {x: -39, y: 53}
+        - {x: -40, y: 51}
+        - {x: -40, y: 1}
+        - {x: -37, y: -48}
+        - {x: -31, y: -53}
+        - {x: 40, y: -53}
+        - {x: 40, y: 53}
     - name: ghostGlow_44
       rect:
         serializedVersion: 2
-        x: 300
-        y: 23
-        width: 107
-        height: 139
+        x: 225
+        y: 17
+        width: 80
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -50.5, y: 69.5}
-        - {x: -53.5, y: 65.5}
-        - {x: -53.5, y: -6.5}
-        - {x: -48.5, y: -69.5}
-        - {x: 53.5, y: -69.5}
-        - {x: 53.5, y: 69.5}
+      - - {x: -40, y: 52}
+        - {x: -40, y: -47}
+        - {x: -39, y: -52}
+        - {x: 40, y: -52}
+        - {x: 40, y: 52}
     - name: ghostGlow_45
       rect:
         serializedVersion: 2
-        x: 442
-        y: 23
-        width: 106
-        height: 138
+        x: 332
+        y: 17
+        width: 79
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -47, y: 69}
-        - {x: -53, y: 61}
-        - {x: -53, y: -14}
-        - {x: -51, y: -62}
-        - {x: -45, y: -69}
-        - {x: 52, y: -69}
-        - {x: 53, y: -68}
-        - {x: 53, y: 69}
+      - - {x: -37.5, y: 52}
+        - {x: -39.5, y: 49}
+        - {x: -39.5, y: -1}
+        - {x: -36.5, y: -47}
+        - {x: -36.5, y: -52}
+        - {x: 36.5, y: -52}
+        - {x: 39.5, y: -51}
+        - {x: 39.5, y: 48}
+        - {x: 38.5, y: 51}
+        - {x: 37.5, y: 52}
     - name: ghostGlow_46
       rect:
         serializedVersion: 2
-        x: 585
-        y: 23
-        width: 104
-        height: 137
+        x: 439
+        y: 17
+        width: 78
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52, y: 68.5}
-        - {x: -52, y: -47.5}
-        - {x: -48, y: -68.5}
-        - {x: 52, y: -68.5}
-        - {x: 52, y: 68.5}
+      - - {x: -39, y: 51.5}
+        - {x: -39, y: -51.5}
+        - {x: 32, y: -51.5}
+        - {x: 39, y: -46.5}
+        - {x: 39, y: 51.5}
     - name: ghostGlow_47
       rect:
         serializedVersion: 2
-        x: 727
-        y: 24
-        width: 103
-        height: 135
+        x: 545
+        y: 18
+        width: 77
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -51.5, y: 67.5}
-        - {x: -51.5, y: -67.5}
-        - {x: 51.5, y: -67.5}
-        - {x: 51.5, y: 67.5}
+      - - {x: -38.5, y: 51}
+        - {x: -38.5, y: -51}
+        - {x: 36.5, y: -51}
+        - {x: 38.5, y: -48}
+        - {x: 38.5, y: 50}
+        - {x: 36.5, y: 51}
     outline: []
   spritePackingTag: 
   userData: 

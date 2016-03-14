@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: fb254e9f15d5a9f409da71349fe8a78b
+timeCreated: 1457972408
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chestGlow_night_0
+    21300002: chestGlow_night_1
+    21300004: chestGlow_night_2
+    21300006: chestGlow_night_3
+    21300008: chestGlow_night_4
+    21300010: chestGlow_night_5
+    21300012: chestGlow_night_6
+    21300014: chestGlow_night_7
+    21300016: chestGlow_night_8
+    21300018: chestGlow_night_9
+    21300020: chestGlow_night_10
+    21300022: chestGlow_night_11
+    21300024: chestGlow_night_12
+    21300026: chestGlow_night_13
+    21300028: chestGlow_night_14
+    21300030: chestGlow_night_15
+    21300032: chestGlow_night_16
+    21300034: chestGlow_night_17
+    21300036: chestGlow_night_18
+    21300038: chestGlow_night_19
+    21300040: chestGlow_night_20
+    21300042: chestGlow_night_21
+    21300044: chestGlow_night_22
+    21300046: chestGlow_night_23
+    21300048: chestGlow_night_24
+    21300050: chestGlow_night_25
+    21300052: chestGlow_night_26
+    21300054: chestGlow_night_27
+    21300056: chestGlow_night_28
+    21300058: chestGlow_night_29
+    21300060: chestGlow_night_30
+    21300062: chestGlow_night_31
+    21300064: chestGlow_night_32
+    21300066: chestGlow_night_33
+    21300068: chestGlow_night_34
+    21300070: chestGlow_night_35
+    21300072: chestGlow_night_36
+    21300074: chestGlow_night_37
+    21300076: chestGlow_night_38
+    21300078: chestGlow_night_39
+    21300080: chestGlow_night_40
+    21300082: chestGlow_night_41
+    21300084: chestGlow_night_42
+    21300086: chestGlow_night_43
+    21300088: chestGlow_night_44
+    21300090: chestGlow_night_45
+    21300092: chestGlow_night_46
+    21300094: chestGlow_night_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chestGlow_night_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 943
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 32}
+        - {x: -42, y: -32}
+        - {x: 42, y: -32}
+        - {x: 42, y: 32}
+    - name: chestGlow_night_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 943
+        width: 85
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 32.5}
+        - {x: -42.5, y: -32.5}
+        - {x: 42.5, y: -32.5}
+        - {x: 42.5, y: 32.5}
+    - name: chestGlow_night_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 943
+        width: 86
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 32.5}
+        - {x: -43, y: 27.5}
+        - {x: -43, y: -32.5}
+        - {x: 43, y: -32.5}
+        - {x: 43, y: 32.5}
+    - name: chestGlow_night_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 943
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 33}
+        - {x: -43, y: 32}
+        - {x: -43, y: -33}
+        - {x: 43, y: -33}
+        - {x: 43, y: 33}
+    - name: chestGlow_night_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 858
+        width: 86
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 33.5}
+        - {x: -43, y: -33.5}
+        - {x: 43, y: -33.5}
+        - {x: 43, y: 33.5}
+    - name: chestGlow_night_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 858
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 33.5}
+        - {x: -43.5, y: -33.5}
+        - {x: 43.5, y: -33.5}
+        - {x: 43.5, y: 33.5}
+    - name: chestGlow_night_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 858
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 34}
+        - {x: -44, y: -34}
+        - {x: 44, y: -34}
+        - {x: 44, y: 34}
+    - name: chestGlow_night_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 858
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 34}
+        - {x: -44.5, y: 31}
+        - {x: -44.5, y: -34}
+        - {x: 44.5, y: -34}
+        - {x: 44.5, y: 30}
+        - {x: 39.5, y: 34}
+    - name: chestGlow_night_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 773
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 34.5}
+        - {x: -45, y: 31.5}
+        - {x: -45, y: -34.5}
+        - {x: 45, y: -34.5}
+        - {x: 45, y: 27.5}
+        - {x: 40, y: 34.5}
+    - name: chestGlow_night_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 773
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 34.5}
+        - {x: -45, y: -34.5}
+        - {x: 45, y: -34.5}
+        - {x: 45, y: 34.5}
+    - name: chestGlow_night_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 773
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 35}
+        - {x: -42, y: 35}
+        - {x: -45, y: 32}
+        - {x: -45, y: -34}
+        - {x: -44, y: -35}
+        - {x: 42, y: -35}
+        - {x: 45, y: -31}
+        - {x: 45, y: 26}
+    - name: chestGlow_night_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 773
+        width: 91
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 35}
+        - {x: -45.5, y: -30}
+        - {x: -40.5, y: -35}
+        - {x: 45.5, y: -35}
+        - {x: 45.5, y: 34}
+        - {x: 43.5, y: 35}
+    - name: chestGlow_night_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 687
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 36}
+        - {x: -46, y: 33}
+        - {x: -46, y: -36}
+        - {x: 46, y: -36}
+        - {x: 46, y: 32}
+        - {x: 45, y: 36}
+    - name: chestGlow_night_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 687
+        width: 93
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 36}
+        - {x: -46.5, y: -36}
+        - {x: 46.5, y: -36}
+        - {x: 46.5, y: 34}
+        - {x: 45.5, y: 36}
+    - name: chestGlow_night_14
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 687
+        width: 93
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 36.5}
+        - {x: -46.5, y: 33.5}
+        - {x: -46.5, y: -36.5}
+        - {x: 46.5, y: -36.5}
+        - {x: 46.5, y: 36.5}
+    - name: chestGlow_night_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 686
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 37}
+        - {x: -47, y: 32}
+        - {x: -47, y: -37}
+        - {x: 45, y: -37}
+        - {x: 47, y: -35}
+        - {x: 47, y: 32}
+        - {x: 43, y: 37}
+    - name: chestGlow_night_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 601
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 37}
+        - {x: -47, y: -37}
+        - {x: 47, y: -37}
+        - {x: 47, y: 37}
+    - name: chestGlow_night_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 601
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 33}
+        - {x: 43.5, y: 37}
+        - {x: -47.5, y: 37}
+        - {x: -47.5, y: -31}
+        - {x: -40.5, y: -37}
+        - {x: 42.5, y: -37}
+        - {x: 47.5, y: -30}
+        - {x: 47.5, y: 24}
+        - {x: 46.5, y: 28}
+    - name: chestGlow_night_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 600
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 38}
+        - {x: -48, y: -38}
+        - {x: 48, y: -38}
+        - {x: 48, y: 38}
+    - name: chestGlow_night_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 600
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 38}
+        - {x: -48, y: 30}
+        - {x: -48, y: -32}
+        - {x: -41, y: -38}
+        - {x: 48, y: -38}
+        - {x: 48, y: 31}
+        - {x: 45, y: 38}
+    - name: chestGlow_night_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 515
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: -38.5}
+        - {x: 48.5, y: -38.5}
+        - {x: 48.5, y: 38.5}
+        - {x: -47.5, y: 38.5}
+        - {x: -48.5, y: 34.5}
+    - name: chestGlow_night_21
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 515
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 38.5}
+        - {x: -48.5, y: 27.5}
+        - {x: -48.5, y: -32.5}
+        - {x: -41.5, y: -38.5}
+        - {x: 40.5, y: -38.5}
+        - {x: 48.5, y: -34.5}
+        - {x: 48.5, y: 34.5}
+        - {x: 43.5, y: 38.5}
+    - name: chestGlow_night_22
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 514
+        width: 98
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 39}
+        - {x: -49, y: 32}
+        - {x: -49, y: -39}
+        - {x: 46, y: -39}
+        - {x: 49, y: -36}
+        - {x: 49, y: 34}
+        - {x: 43, y: 39}
+    - name: chestGlow_night_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 513
+        width: 100
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 39.5}
+        - {x: -50, y: 31.5}
+        - {x: -50, y: -39.5}
+        - {x: 50, y: -39.5}
+        - {x: 50, y: 38.5}
+        - {x: 45, y: 39.5}
+    - name: chestGlow_night_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 430
+        width: 98
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 38.5}
+        - {x: -49, y: -38.5}
+        - {x: 49, y: -38.5}
+        - {x: 49, y: 38.5}
+    - name: chestGlow_night_25
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 430
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 38.5}
+        - {x: -43.5, y: 38.5}
+        - {x: -48.5, y: 34.5}
+        - {x: -48.5, y: -31.5}
+        - {x: -47.5, y: -35.5}
+        - {x: -42.5, y: -38.5}
+        - {x: 40.5, y: -38.5}
+        - {x: 48.5, y: -34.5}
+        - {x: 48.5, y: 30.5}
+    - name: chestGlow_night_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 430
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 38.5}
+        - {x: -48.5, y: -38.5}
+        - {x: 48.5, y: -38.5}
+        - {x: 48.5, y: 34.5}
+        - {x: 45.5, y: 38.5}
+    - name: chestGlow_night_27
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 431
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 38}
+        - {x: -48, y: -38}
+        - {x: 42, y: -38}
+        - {x: 48, y: -36}
+        - {x: 48, y: 37}
+        - {x: 47, y: 38}
+    - name: chestGlow_night_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 347
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 37.5}
+        - {x: -48, y: -37.5}
+        - {x: 48, y: -37.5}
+        - {x: 48, y: 37.5}
+    - name: chestGlow_night_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 347
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 37.5}
+        - {x: -47.5, y: -37.5}
+        - {x: 47.5, y: -37.5}
+        - {x: 47.5, y: 37.5}
+    - name: chestGlow_night_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 347
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 37.5}
+        - {x: -47.5, y: -32.5}
+        - {x: -42.5, y: -37.5}
+        - {x: 47.5, y: -37.5}
+        - {x: 47.5, y: 37.5}
+    - name: chestGlow_night_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 347
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 37}
+        - {x: -47, y: -37}
+        - {x: 47, y: -37}
+        - {x: 47, y: 37}
+    - name: chestGlow_night_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 263
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 37}
+        - {x: -47, y: -37}
+        - {x: 47, y: -37}
+        - {x: 47, y: 37}
+    - name: chestGlow_night_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 264
+        width: 93
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 36}
+        - {x: -46.5, y: -36}
+        - {x: 46.5, y: -36}
+        - {x: 46.5, y: 36}
+    - name: chestGlow_night_34
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 264
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 36}
+        - {x: -46, y: -36}
+        - {x: 46, y: -36}
+        - {x: 46, y: 36}
+    - name: chestGlow_night_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 265
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 35.5}
+        - {x: -46, y: 30.5}
+        - {x: -46, y: -35.5}
+        - {x: 46, y: -35.5}
+        - {x: 46, y: 35.5}
+    - name: chestGlow_night_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 181
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 35}
+        - {x: -45, y: -35}
+        - {x: 45, y: -35}
+        - {x: 45, y: 35}
+    - name: chestGlow_night_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 181
+        width: 91
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 34.5}
+        - {x: -45.5, y: -29.5}
+        - {x: -42.5, y: -34.5}
+        - {x: 43.5, y: -34.5}
+        - {x: 45.5, y: -33.5}
+        - {x: 45.5, y: 34.5}
+    - name: chestGlow_night_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 181
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 34.5}
+        - {x: -45, y: 26.5}
+        - {x: -45, y: -34.5}
+        - {x: 45, y: -34.5}
+        - {x: 45, y: 34.5}
+    - name: chestGlow_night_39
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 181
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 34}
+        - {x: -44.5, y: -33}
+        - {x: -42.5, y: -34}
+        - {x: 44.5, y: -34}
+        - {x: 44.5, y: 34}
+    - name: chestGlow_night_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 97
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 34}
+        - {x: -44, y: -33}
+        - {x: -41, y: -34}
+        - {x: 44, y: -34}
+        - {x: 44, y: 32}
+        - {x: 42, y: 34}
+    - name: chestGlow_night_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 97
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 33.5}
+        - {x: -44, y: 31.5}
+        - {x: -44, y: -31.5}
+        - {x: -42, y: -33.5}
+        - {x: 44, y: -33.5}
+        - {x: 44, y: 31.5}
+        - {x: 43, y: 33.5}
+    - name: chestGlow_night_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 97
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 33.5}
+        - {x: -43.5, y: -33.5}
+        - {x: 40.5, y: -33.5}
+        - {x: 43.5, y: -30.5}
+        - {x: 43.5, y: 33.5}
+    - name: chestGlow_night_43
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 97
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 33}
+        - {x: -43, y: -33}
+        - {x: 43, y: -33}
+        - {x: 43, y: 33}
+    - name: chestGlow_night_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 12
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 33}
+        - {x: -43, y: -33}
+        - {x: 43, y: -33}
+        - {x: 43, y: 33}
+    - name: chestGlow_night_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 13
+        width: 85
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 32.5}
+        - {x: -42.5, y: -32.5}
+        - {x: 42.5, y: -32.5}
+        - {x: 42.5, y: 32.5}
+    - name: chestGlow_night_46
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 13
+        width: 85
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 32.5}
+        - {x: -42.5, y: -31.5}
+        - {x: -40.5, y: -32.5}
+        - {x: 42.5, y: -32.5}
+        - {x: 42.5, y: 32.5}
+    - name: chestGlow_night_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 13
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 32}
+        - {x: -42, y: -32}
+        - {x: 42, y: -32}
+        - {x: 42, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,20 +12,22 @@ public class Latern : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		light.range -= 0.00005f;
-		light.intensity -= 0.0002f;
+		
 	}
 
 	public void activateLatern(){
 		//start latern
-		light.range = 10;
+		light.range = 40;
 		isActivated = true;
 	}
 
 	public void updateWithCharData(float xPos, float yPos){
-		Vector3 newPos = new Vector3(xPos, yPos, gameObject.transform.position.z);
+		Vector3 newPos = new Vector3(xPos, yPos, gameObject.transform.position.z + 0.003f);
 		gameObject.transform.position = newPos;
-	}
+
+        light.range -= 0.0007f;
+        light.intensity -= 0.0007f;
+    }
 
 	public void lightBoost(){
 		light.range += 10f;

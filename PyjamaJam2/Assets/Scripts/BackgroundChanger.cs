@@ -12,6 +12,7 @@ public class BackgroundChanger : MonoBehaviour {
 	public int whichDeathLvl;
 	public int whichNextLvl;
 	public GameMaster GM;
+    public Items items;
 	
 	
 	
@@ -41,6 +42,9 @@ public class BackgroundChanger : MonoBehaviour {
 			foreach (Character character in GM.CHARACTERS) {
 				character.activateLight();
 			}
+
+            //set items to night mode
+            items.setDarkMode();
 		}
 		if(Input.GetKeyDown(KeyCode.T)){
 			StartCoroutine(TrapFadeTo(1.0f, 0.25f));

@@ -90,6 +90,26 @@ public class Items : MonoBehaviour {
 			return itemObj; 
 		return null;
 	}
+
+    public void setDarkMode()
+    {
+        Debug.Log("SETTING DARK MODE");
+        foreach(GameObject itemObj in lev1ItemsCurrent)
+        {
+            if (itemObj != null)
+                itemObj.gameObject.GetComponent<Item>().setDarkMode();
+        }
+        foreach (GameObject itemObj in lev2ItemsCurrent)
+        {
+            if (itemObj != null)
+                itemObj.gameObject.GetComponent<Item>().setDarkMode();
+        }
+        foreach (GameObject itemObj in lev3ItemsCurrent)
+        {
+            if (itemObj != null)
+                itemObj.gameObject.GetComponent<Item>().setDarkMode();
+        }
+    }
 	
 	public void addItemToArray(GameObject itemObj){
 		//ITEMSARRAY.Add (itemObj);

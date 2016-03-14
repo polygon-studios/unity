@@ -1,0 +1,997 @@
+fileFormatVersion: 2
+guid: 90dccabc8f753be4baebf6a0204f2db6
+timeCreated: 1457971459
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chiliNight_0
+    21300002: chiliNight_1
+    21300004: chiliNight_2
+    21300006: chiliNight_3
+    21300008: chiliNight_4
+    21300010: chiliNight_5
+    21300012: chiliNight_6
+    21300014: chiliNight_7
+    21300016: chiliNight_8
+    21300018: chiliNight_9
+    21300020: chiliNight_10
+    21300022: chiliNight_11
+    21300024: chiliNight_12
+    21300026: chiliNight_13
+    21300028: chiliNight_14
+    21300030: chiliNight_15
+    21300032: chiliNight_16
+    21300034: chiliNight_17
+    21300036: chiliNight_18
+    21300038: chiliNight_19
+    21300040: chiliNight_20
+    21300042: chiliNight_21
+    21300044: chiliNight_22
+    21300046: chiliNight_23
+    21300048: chiliNight_24
+    21300050: chiliNight_25
+    21300052: chiliNight_26
+    21300054: chiliNight_27
+    21300056: chiliNight_28
+    21300058: chiliNight_29
+    21300060: chiliNight_30
+    21300062: chiliNight_31
+    21300064: chiliNight_32
+    21300066: chiliNight_33
+    21300068: chiliNight_34
+    21300070: chiliNight_35
+    21300072: chiliNight_36
+    21300074: chiliNight_37
+    21300076: chiliNight_38
+    21300078: chiliNight_39
+    21300080: chiliNight_40
+    21300082: chiliNight_41
+    21300084: chiliNight_42
+    21300086: chiliNight_43
+    21300088: chiliNight_44
+    21300090: chiliNight_45
+    21300092: chiliNight_46
+    21300094: chiliNight_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chiliNight_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 586
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 48}
+        - {x: -24, y: -48}
+        - {x: 23, y: -48}
+        - {x: 24, y: -43}
+        - {x: 24, y: 38}
+        - {x: 16, y: 48}
+    - name: chiliNight_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 585
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 49}
+        - {x: -24.5, y: -36}
+        - {x: -10.5, y: -49}
+        - {x: 20.5, y: -49}
+        - {x: 24.5, y: -46}
+        - {x: 24.5, y: 33}
+        - {x: 16.5, y: 49}
+    - name: chiliNight_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 585
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 49.5}
+        - {x: -25, y: 45.5}
+        - {x: -25, y: -29.5}
+        - {x: -19, y: -45.5}
+        - {x: -8, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 25, y: -48.5}
+        - {x: 25, y: 40.5}
+        - {x: 19, y: 49.5}
+    - name: chiliNight_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 585
+        width: 52
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 50}
+        - {x: -25, y: 50}
+        - {x: -26, y: 47}
+        - {x: -26, y: -36}
+        - {x: -12, y: -50}
+        - {x: 15, y: -50}
+        - {x: 25, y: -46}
+        - {x: 26, y: -42}
+        - {x: 26, y: 34}
+    - name: chiliNight_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 585
+        width: 52
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 50.5}
+        - {x: -20, y: 43.5}
+        - {x: -26, y: 28.5}
+        - {x: -26, y: -39.5}
+        - {x: -11, y: -50.5}
+        - {x: 26, y: -50.5}
+        - {x: 26, y: 42.5}
+        - {x: 14, y: 50.5}
+    - name: chiliNight_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 585
+        width: 54
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 50.5}
+        - {x: -27, y: 37.5}
+        - {x: -27, y: -30.5}
+        - {x: -14, y: -50.5}
+        - {x: 26, y: -50.5}
+        - {x: 27, y: -49.5}
+        - {x: 27, y: 44.5}
+        - {x: 26, y: 50.5}
+    - name: chiliNight_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 585
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 51}
+        - {x: -27, y: 51}
+        - {x: -27, y: -31}
+        - {x: -12, y: -51}
+        - {x: 25, y: -51}
+        - {x: 27, y: -50}
+        - {x: 27, y: 32}
+        - {x: 20, y: 44}
+    - name: chiliNight_7
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 585
+        width: 56
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -36.5}
+        - {x: -21, y: -51.5}
+        - {x: 28, y: -51.5}
+        - {x: 28, y: 42.5}
+        - {x: 27, y: 51.5}
+        - {x: -26, y: 51.5}
+        - {x: -28, y: 49.5}
+    - name: chiliNight_8
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 585
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 52}
+        - {x: -28, y: 34}
+        - {x: -28, y: -28}
+        - {x: -12, y: -52}
+        - {x: 27, y: -52}
+        - {x: 28, y: -51}
+        - {x: 28, y: 37}
+        - {x: 25, y: 52}
+    - name: chiliNight_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 585
+        width: 58
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 52}
+        - {x: -29, y: 50}
+        - {x: -29, y: -27}
+        - {x: -19, y: -52}
+        - {x: 29, y: -52}
+        - {x: 29, y: 47}
+        - {x: 18, y: 52}
+    - name: chiliNight_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 585
+        width: 58
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 53}
+        - {x: -24, y: 50}
+        - {x: -29, y: 23}
+        - {x: -29, y: -28}
+        - {x: -25, y: -50}
+        - {x: -20, y: -53}
+        - {x: 28, y: -53}
+        - {x: 29, y: -50}
+        - {x: 29, y: 47}
+        - {x: 23, y: 53}
+    - name: chiliNight_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 445
+        width: 60
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 53}
+        - {x: -28, y: 53}
+        - {x: -30, y: 51}
+        - {x: -30, y: -36}
+        - {x: -15, y: -53}
+        - {x: 23, y: -53}
+        - {x: 30, y: -51}
+        - {x: 30, y: 48}
+    - name: chiliNight_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 444
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 54}
+        - {x: -30, y: -35}
+        - {x: -15, y: -54}
+        - {x: 22, y: -54}
+        - {x: 30, y: -52}
+        - {x: 30, y: 42}
+        - {x: 22, y: 54}
+    - name: chiliNight_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 443
+        width: 62
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 54.5}
+        - {x: -29, y: 52.5}
+        - {x: -31, y: 41.5}
+        - {x: -31, y: -32.5}
+        - {x: -18, y: -54.5}
+        - {x: 28, y: -54.5}
+        - {x: 31, y: -53.5}
+        - {x: 31, y: 44.5}
+        - {x: 18, y: 54.5}
+    - name: chiliNight_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 443
+        width: 63
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 54.5}
+        - {x: -31.5, y: 42.5}
+        - {x: -31.5, y: -42.5}
+        - {x: -19.5, y: -54.5}
+        - {x: 28.5, y: -54.5}
+        - {x: 31.5, y: -38.5}
+        - {x: 31.5, y: 34.5}
+        - {x: 20.5, y: 54.5}
+    - name: chiliNight_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 442
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 55}
+        - {x: -32, y: 40}
+        - {x: -32, y: -42}
+        - {x: -26, y: -50}
+        - {x: -19, y: -55}
+        - {x: 29, y: -55}
+        - {x: 32, y: -45}
+        - {x: 32, y: 47}
+        - {x: 23, y: 55}
+    - name: chiliNight_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 441
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 55.5}
+        - {x: -26.5, y: 55.5}
+        - {x: -32.5, y: 49.5}
+        - {x: -32.5, y: -55.5}
+        - {x: 32.5, y: -55.5}
+        - {x: 32.5, y: 34.5}
+        - {x: 29.5, y: 53.5}
+    - name: chiliNight_17
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 441
+        width: 67
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 55.5}
+        - {x: -33.5, y: 51.5}
+        - {x: -33.5, y: -30.5}
+        - {x: -15.5, y: -55.5}
+        - {x: 30.5, y: -55.5}
+        - {x: 33.5, y: -44.5}
+        - {x: 33.5, y: 37.5}
+        - {x: 21.5, y: 55.5}
+    - name: chiliNight_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 440
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 56.5}
+        - {x: -34, y: 39.5}
+        - {x: -34, y: -54.5}
+        - {x: -28, y: -56.5}
+        - {x: 34, y: -56.5}
+        - {x: 34, y: 52.5}
+        - {x: 27, y: 56.5}
+    - name: chiliNight_19
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 439
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 57}
+        - {x: -34.5, y: 57}
+        - {x: -34.5, y: -41}
+        - {x: -23.5, y: -57}
+        - {x: 22.5, y: -57}
+        - {x: 34.5, y: -55}
+        - {x: 34.5, y: 30}
+        - {x: 27.5, y: 45}
+    - name: chiliNight_20
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 439
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 57}
+        - {x: -34.5, y: 44}
+        - {x: -34.5, y: -43}
+        - {x: -23.5, y: -57}
+        - {x: 34.5, y: -57}
+        - {x: 34.5, y: 48}
+        - {x: 20.5, y: 57}
+    - name: chiliNight_21
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 438
+        width: 71
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 57.5}
+        - {x: -35.5, y: 37.5}
+        - {x: -35.5, y: -31.5}
+        - {x: -18.5, y: -57.5}
+        - {x: 35.5, y: -57.5}
+        - {x: 35.5, y: 57.5}
+    - name: chiliNight_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 298
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 58}
+        - {x: -36, y: 53}
+        - {x: -36, y: -27}
+        - {x: -27, y: -46}
+        - {x: -14, y: -56}
+        - {x: -10, y: -58}
+        - {x: 21, y: -58}
+        - {x: 36, y: -53}
+        - {x: 36, y: 43}
+        - {x: 18, y: 58}
+    - name: chiliNight_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 297
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 58.5}
+        - {x: -34, y: 58.5}
+        - {x: -37, y: 54.5}
+        - {x: -37, y: -36.5}
+        - {x: -29, y: -58.5}
+        - {x: 23, y: -58.5}
+        - {x: 31, y: -50.5}
+        - {x: 37, y: -35.5}
+        - {x: 37, y: 48.5}
+    - name: chiliNight_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 298
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -58}
+        - {x: 36, y: -58}
+        - {x: 36, y: 58}
+        - {x: -36, y: 58}
+        - {x: -36, y: -41}
+    - name: chiliNight_25
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 298
+        width: 71
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 18.5}
+        - {x: 34.5, y: 24.5}
+        - {x: 32.5, y: 34.5}
+        - {x: 24.5, y: 47.5}
+        - {x: 13.5, y: 57.5}
+        - {x: -33.5, y: 57.5}
+        - {x: -35.5, y: 47.5}
+        - {x: -35.5, y: -42.5}
+        - {x: -20.5, y: -57.5}
+        - {x: 18.5, y: -57.5}
+        - {x: 30.5, y: -48.5}
+        - {x: 35.5, y: -35.5}
+    - name: chiliNight_26
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 299
+        width: 70
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 57}
+        - {x: -24, y: 57}
+        - {x: -31, y: 52}
+        - {x: -35, y: 33}
+        - {x: -35, y: -34}
+        - {x: -19, y: -57}
+        - {x: 34, y: -57}
+        - {x: 35, y: -52}
+        - {x: 35, y: 45}
+        - {x: 29, y: 54}
+    - name: chiliNight_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 299
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 57}
+        - {x: -34.5, y: 44}
+        - {x: -34.5, y: -35}
+        - {x: -16.5, y: -57}
+        - {x: 21.5, y: -57}
+        - {x: 34.5, y: -46}
+        - {x: 34.5, y: 32}
+        - {x: 23.5, y: 57}
+    - name: chiliNight_28
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 300
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 56.5}
+        - {x: -34, y: 56.5}
+        - {x: -34, y: -56.5}
+        - {x: 28, y: -56.5}
+        - {x: 33, y: -44.5}
+        - {x: 34, y: -37.5}
+        - {x: 34, y: 47.5}
+    - name: chiliNight_29
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 300
+        width: 67
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 56}
+        - {x: -33.5, y: 38}
+        - {x: -33.5, y: -42}
+        - {x: -14.5, y: -56}
+        - {x: 33.5, y: -56}
+        - {x: 33.5, y: 30}
+        - {x: 21.5, y: 56}
+    - name: chiliNight_30
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 301
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 55.5}
+        - {x: -32.5, y: 53.5}
+        - {x: -32.5, y: -55.5}
+        - {x: 32.5, y: -55.5}
+        - {x: 32.5, y: 39.5}
+        - {x: 29.5, y: 55.5}
+    - name: chiliNight_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 301
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 55.5}
+        - {x: -32.5, y: -55.5}
+        - {x: 32.5, y: -55.5}
+        - {x: 32.5, y: 44.5}
+        - {x: 17.5, y: 55.5}
+    - name: chiliNight_32
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 302
+        width: 63
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 55}
+        - {x: -31.5, y: 37}
+        - {x: -31.5, y: -29}
+        - {x: -27.5, y: -47}
+        - {x: -18.5, y: -55}
+        - {x: 26.5, y: -55}
+        - {x: 31.5, y: -54}
+        - {x: 31.5, y: 36}
+        - {x: 16.5, y: 55}
+    - name: chiliNight_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 162
+        width: 62
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 54.5}
+        - {x: -28, y: 54.5}
+        - {x: -31, y: 52.5}
+        - {x: -31, y: -54.5}
+        - {x: 21, y: -54.5}
+        - {x: 31, y: -40.5}
+        - {x: 31, y: 37.5}
+        - {x: 29, y: 50.5}
+    - name: chiliNight_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 163
+        width: 62
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 54}
+        - {x: -31, y: 54}
+        - {x: -31, y: -39}
+        - {x: -25, y: -54}
+        - {x: 29, y: -54}
+        - {x: 31, y: -44}
+        - {x: 31, y: 53}
+    - name: chiliNight_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 164
+        width: 60
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -39.5}
+        - {x: -23, y: -53.5}
+        - {x: 30, y: -53.5}
+        - {x: 30, y: 44.5}
+        - {x: 27, y: 53.5}
+        - {x: -22, y: 53.5}
+        - {x: -30, y: 46.5}
+    - name: chiliNight_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 164
+        width: 58
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 53}
+        - {x: -29, y: 53}
+        - {x: -29, y: -30}
+        - {x: -23, y: -53}
+        - {x: 23, y: -53}
+        - {x: 29, y: -48}
+        - {x: 29, y: 41}
+        - {x: 28, y: 49}
+    - name: chiliNight_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 164
+        width: 58
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 52.5}
+        - {x: -29, y: 45.5}
+        - {x: -29, y: -40.5}
+        - {x: -25, y: -52.5}
+        - {x: 29, y: -52.5}
+        - {x: 29, y: 45.5}
+        - {x: 21, y: 52.5}
+    - name: chiliNight_38
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 164
+        width: 58
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 52.5}
+        - {x: -29, y: 45.5}
+        - {x: -29, y: -36.5}
+        - {x: -14, y: -52.5}
+        - {x: 20, y: -52.5}
+        - {x: 29, y: -41.5}
+        - {x: 29, y: 33.5}
+        - {x: 17, y: 52.5}
+    - name: chiliNight_39
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 164
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 52}
+        - {x: -28, y: 41}
+        - {x: -28, y: -37}
+        - {x: -13, y: -52}
+        - {x: 26, y: -52}
+        - {x: 28, y: -51}
+        - {x: 28, y: 52}
+    - name: chiliNight_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 164
+        width: 56
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 51.5}
+        - {x: -28, y: -43.5}
+        - {x: -18, y: -51.5}
+        - {x: 27, y: -51.5}
+        - {x: 28, y: -46.5}
+        - {x: 28, y: 40.5}
+        - {x: 20, y: 51.5}
+    - name: chiliNight_41
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 165
+        width: 54
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 50.5}
+        - {x: -27, y: 44.5}
+        - {x: -27, y: -37.5}
+        - {x: -24, y: -50.5}
+        - {x: 25, y: -50.5}
+        - {x: 27, y: -48.5}
+        - {x: 27, y: 45.5}
+        - {x: 15, y: 50.5}
+    - name: chiliNight_42
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 165
+        width: 53
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 50.5}
+        - {x: -26.5, y: 50.5}
+        - {x: -26.5, y: -38.5}
+        - {x: -11.5, y: -50.5}
+        - {x: 19.5, y: -50.5}
+        - {x: 26.5, y: -42.5}
+        - {x: 26.5, y: 39.5}
+    - name: chiliNight_43
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 165
+        width: 52
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 50}
+        - {x: -21, y: 50}
+        - {x: -26, y: 48}
+        - {x: -26, y: -28}
+        - {x: -10, y: -50}
+        - {x: 20, y: -50}
+        - {x: 26, y: -43}
+        - {x: 26, y: 26}
+        - {x: 21, y: 39}
+    - name: chiliNight_44
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 25
+        width: 51
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 49.5}
+        - {x: -25.5, y: -49.5}
+        - {x: 25.5, y: -49.5}
+        - {x: 25.5, y: 49.5}
+    - name: chiliNight_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 25
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 49.5}
+        - {x: -25, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 25, y: 39.5}
+        - {x: 15, y: 49.5}
+    - name: chiliNight_46
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 25
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 49}
+        - {x: -24.5, y: -37}
+        - {x: -10.5, y: -49}
+        - {x: 17.5, y: -49}
+        - {x: 24.5, y: -47}
+        - {x: 24.5, y: 32}
+        - {x: 17.5, y: 49}
+    - name: chiliNight_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 26
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 48}
+        - {x: -24, y: 41}
+        - {x: -24, y: -48}
+        - {x: 24, y: -48}
+        - {x: 24, y: 31}
+        - {x: 15, y: 48}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

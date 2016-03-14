@@ -45,9 +45,12 @@ public class Item : MonoBehaviour {
 		//allItems.removeItemFromArray (this.gameObject);
 		Destroy(gameObject);
 	}
-
+    
 	public void setDarkMode(){
-		this.gameObject.GetComponent<SpriteRenderer> ().material = diffuseMat;
+        Debug.Log("ITEM DARK");
+        //this.gameObject.GetComponent<SpriteRenderer> ().material = diffuseMat;
+        Debug.Log(this.gameObject);
+        this.gameObject.GetComponent<Animator>().SetBool("night", true);
 	}
 
 	// Subtracts health from character when hit
