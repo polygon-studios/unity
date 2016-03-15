@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 2db8f4f2f1040a742b1e10ec75d03bb4
+timeCreated: 1457983003
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_jumpLSlippers_0
+    21300002: fox_jumpLSlippers_1
+    21300004: fox_jumpLSlippers_2
+    21300006: fox_jumpLSlippers_3
+    21300008: fox_jumpLSlippers_4
+    21300010: fox_jumpLSlippers_5
+    21300012: fox_jumpLSlippers_6
+    21300014: fox_jumpLSlippers_7
+    21300016: fox_jumpLSlippers_8
+    21300018: fox_jumpLSlippers_9
+    21300020: fox_jumpLSlippers_10
+    21300022: fox_jumpLSlippers_11
+    21300024: fox_jumpLSlippers_12
+    21300026: fox_jumpLSlippers_13
+    21300028: fox_jumpLSlippers_14
+    21300030: fox_jumpLSlippers_15
+    21300032: fox_jumpLSlippers_16
+    21300034: fox_jumpLSlippers_17
+    21300036: fox_jumpLSlippers_18
+    21300038: fox_jumpLSlippers_19
+    21300040: fox_jumpLSlippers_20
+    21300042: fox_jumpLSlippers_21
+    21300044: fox_jumpLSlippers_22
+    21300046: fox_jumpLSlippers_23
+    21300048: fox_jumpLSlippers_24
+    21300050: fox_jumpLSlippers_25
+    21300052: fox_jumpLSlippers_26
+    21300054: fox_jumpLSlippers_27
+    21300056: fox_jumpLSlippers_28
+    21300058: fox_jumpLSlippers_29
+    21300060: fox_jumpLSlippers_30
+    21300062: fox_jumpLSlippers_31
+    21300064: fox_jumpLSlippers_32
+    21300066: fox_jumpLSlippers_33
+    21300068: fox_jumpLSlippers_34
+    21300070: fox_jumpLSlippers_35
+    21300072: fox_jumpLSlippers_36
+    21300074: fox_jumpLSlippers_37
+    21300076: fox_jumpLSlippers_38
+    21300078: fox_jumpLSlippers_39
+    21300080: fox_jumpLSlippers_40
+    21300082: fox_jumpLSlippers_41
+    21300084: fox_jumpLSlippers_42
+    21300086: fox_jumpLSlippers_43
+    21300088: fox_jumpLSlippers_44
+    21300090: fox_jumpLSlippers_45
+    21300092: fox_jumpLSlippers_46
+    21300094: fox_jumpLSlippers_47
+    21300096: fox_jumpLSlippers_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_jumpLSlippers_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 436
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 38}
+        - {x: -23, y: -1}
+        - {x: -23, y: -38}
+        - {x: 22, y: -38}
+        - {x: 23, y: -26}
+        - {x: 23, y: 24}
+        - {x: 10, y: 38}
+    - name: fox_jumpLSlippers_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 436
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 37.5}
+        - {x: -10.5, y: 24.5}
+        - {x: -22.5, y: -14.5}
+        - {x: -22.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 22.5, y: -35.5}
+        - {x: 22.5, y: 25.5}
+        - {x: 16.5, y: 37.5}
+    - name: fox_jumpLSlippers_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 436
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 37.5}
+        - {x: -11.5, y: 23.5}
+        - {x: -23.5, y: -12.5}
+        - {x: -23.5, y: -37.5}
+        - {x: 15.5, y: -37.5}
+        - {x: 22.5, y: -35.5}
+        - {x: 23.5, y: -18.5}
+        - {x: 23.5, y: 23.5}
+        - {x: 8.5, y: 37.5}
+    - name: fox_jumpLSlippers_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 436
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 37.5}
+        - {x: -26.5, y: -11.5}
+        - {x: -26.5, y: -37.5}
+        - {x: 19.5, y: -37.5}
+        - {x: 26.5, y: -15.5}
+        - {x: 26.5, y: 33.5}
+        - {x: 16.5, y: 37.5}
+      - - {x: -26.5, y: 37.5}
+        - {x: -26.5, y: 31.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -20.5, y: 33.5}
+        - {x: -20.5, y: 37.5}
+    - name: fox_jumpLSlippers_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_18
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 40}
+        - {x: -8.5, y: 40}
+        - {x: -13.5, y: 24}
+        - {x: -26.5, y: -16}
+        - {x: -26.5, y: -40}
+        - {x: 8.5, y: -40}
+        - {x: 22.5, y: -34}
+        - {x: 26.5, y: -26}
+        - {x: 26.5, y: 31}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpLSlippers_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 354
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 40}
+        - {x: -13.5, y: 40}
+        - {x: -26.5, y: -15}
+        - {x: -26.5, y: -40}
+        - {x: -0.5, y: -40}
+        - {x: 21.5, y: -35}
+        - {x: 23.5, y: -22}
+        - {x: 26.5, y: -6}
+        - {x: 26.5, y: 33}
+      - - {x: -6.5, y: -35}
+        - {x: -8.5, y: -40}
+        - {x: 7.5, y: -40}
+        - {x: 7.5, y: -39}
+        - {x: 5.5, y: -35}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpLSlippers_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 354
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 39.5}
+        - {x: -13.5, y: 26.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -26.5, y: -39.5}
+        - {x: 16.5, y: -39.5}
+        - {x: 26.5, y: -21.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 11.5, y: 39.5}
+      - - {x: -26.5, y: 39.5}
+        - {x: -26.5, y: 34.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -20.5, y: 39.5}
+    - name: fox_jumpLSlippers_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_28
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 354
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 40}
+        - {x: -13.5, y: 40}
+        - {x: -26.5, y: 24}
+        - {x: -26.5, y: -40}
+        - {x: 10.5, y: -40}
+        - {x: 24.5, y: -37}
+        - {x: 26.5, y: -14}
+        - {x: 26.5, y: 38}
+      - - {x: -6.5, y: -35}
+        - {x: -8.5, y: -38}
+        - {x: -8.5, y: -40}
+        - {x: 6.5, y: -40}
+        - {x: 6.5, y: -39}
+        - {x: 3.5, y: -35}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpLSlippers_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 430
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 40}
+        - {x: -13.5, y: 38}
+        - {x: -26.5, y: -16}
+        - {x: -26.5, y: -40}
+        - {x: 19.5, y: -40}
+        - {x: 26.5, y: -28}
+        - {x: 26.5, y: 28}
+        - {x: 11.5, y: 40}
+      - - {x: -6.5, y: -35}
+        - {x: -8.5, y: -38}
+        - {x: -8.5, y: -40}
+        - {x: 6.5, y: -40}
+        - {x: 6.5, y: -39}
+        - {x: 3.5, y: -35}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpLSlippers_32
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_33
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 278
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 39.5}
+        - {x: -13.5, y: 39.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -26.5, y: -39.5}
+        - {x: -7.5, y: -39.5}
+        - {x: 22.5, y: -35.5}
+        - {x: 26.5, y: -15.5}
+        - {x: 26.5, y: 36.5}
+      - - {x: -7.5, y: -33.5}
+        - {x: -8.5, y: -36.5}
+        - {x: -8.5, y: -39.5}
+        - {x: 6.5, y: -39.5}
+        - {x: 6.5, y: -38.5}
+        - {x: 3.5, y: -33.5}
+      - - {x: -26.5, y: 39.5}
+        - {x: -26.5, y: 34.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -20.5, y: 39.5}
+    - name: fox_jumpLSlippers_34
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_35
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 278
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 40}
+        - {x: -15, y: 13}
+        - {x: -27, y: -19}
+        - {x: -27, y: -40}
+        - {x: 25, y: -40}
+        - {x: 27, y: -27}
+        - {x: 27, y: 25}
+        - {x: 9, y: 40}
+      - - {x: -27, y: 40}
+        - {x: -27, y: 34}
+        - {x: -23, y: 34}
+        - {x: -21, y: 36}
+        - {x: -21, y: 40}
+    - name: fox_jumpLSlippers_36
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_37
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 283
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 37}
+        - {x: -12, y: 37}
+        - {x: -16, y: 35}
+        - {x: -27, y: -10}
+        - {x: -27, y: -37}
+        - {x: 25, y: -37}
+        - {x: 27, y: -22}
+        - {x: 27, y: 22}
+      - - {x: -27, y: 37}
+        - {x: -27, y: 32}
+        - {x: -23, y: 32}
+        - {x: -21, y: 34}
+        - {x: -21, y: 37}
+    - name: fox_jumpLSlippers_38
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 354
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_39
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_40
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 278
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_42
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 283
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 37}
+        - {x: -16, y: 35}
+        - {x: -27, y: -11}
+        - {x: -27, y: -37}
+        - {x: 27, y: -37}
+        - {x: 27, y: 33}
+        - {x: 17, y: 37}
+      - - {x: -27, y: 37}
+        - {x: -27, y: 32}
+        - {x: -23, y: 32}
+        - {x: -21, y: 34}
+        - {x: -21, y: 37}
+    - name: fox_jumpLSlippers_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 207
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 37.5}
+        - {x: -27, y: -20.5}
+        - {x: -27, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 27, y: -18.5}
+        - {x: 27, y: 29.5}
+        - {x: 14, y: 37.5}
+      - - {x: -27, y: 37.5}
+        - {x: -27, y: 31.5}
+        - {x: -23, y: 31.5}
+        - {x: -21, y: 33.5}
+        - {x: -21, y: 37.5}
+    - name: fox_jumpLSlippers_46
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpLSlippers_47
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 207
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 37}
+        - {x: -16, y: 35}
+        - {x: -27, y: -10}
+        - {x: -27, y: -37}
+        - {x: 15, y: -37}
+        - {x: 27, y: -21}
+        - {x: 27, y: 28}
+        - {x: 13, y: 37}
+      - - {x: -27, y: 37}
+        - {x: -27, y: 32}
+        - {x: -23, y: 32}
+        - {x: -21, y: 34}
+        - {x: -21, y: 37}
+    - name: fox_jumpLSlippers_48
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 207
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

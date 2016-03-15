@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 75b027336d5555a4c987f20bf2369009
+timeCreated: 1457995337
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-walk-ghost_0
+    21300002: bear-walk-ghost_1
+    21300004: bear-walk-ghost_2
+    21300006: bear-walk-ghost_3
+    21300008: bear-walk-ghost_4
+    21300010: bear-walk-ghost_5
+    21300012: bear-walk-ghost_6
+    21300014: bear-walk-ghost_7
+    21300016: bear-walk-ghost_8
+    21300018: bear-walk-ghost_9
+    21300020: bear-walk-ghost_10
+    21300022: bear-walk-ghost_11
+    21300024: bear-walk-ghost_12
+    21300026: bear-walk-ghost_13
+    21300028: bear-walk-ghost_14
+    21300030: bear-walk-ghost_15
+    21300032: bear-walk-ghost_16
+    21300034: bear-walk-ghost_17
+    21300036: bear-walk-ghost_18
+    21300038: bear-walk-ghost_19
+    21300040: bear-walk-ghost_20
+    21300042: bear-walk-ghost_21
+    21300044: bear-walk-ghost_22
+    21300046: bear-walk-ghost_23
+    21300048: bear-walk-ghost_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-walk-ghost_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 432
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 28.5}
+        - {x: 15, y: 32.5}
+        - {x: -15, y: 32.5}
+        - {x: -22, y: 11.5}
+        - {x: -22, y: -32.5}
+        - {x: 16, y: -32.5}
+        - {x: 20, y: -29.5}
+        - {x: 18, y: -23.5}
+        - {x: 22, y: -7.5}
+    - name: bear-walk-ghost_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 432
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32.5}
+        - {x: -20, y: 11.5}
+        - {x: -20, y: -31.5}
+        - {x: -18, y: -32.5}
+        - {x: 13, y: -32.5}
+        - {x: 20, y: -31.5}
+        - {x: 20, y: 25.5}
+        - {x: 16, y: 32.5}
+    - name: bear-walk-ghost_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 433
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 32}
+        - {x: -20, y: 24}
+        - {x: -20, y: -32}
+        - {x: 17, y: -32}
+        - {x: 20, y: -26}
+        - {x: 20, y: 31}
+        - {x: 16, y: 32}
+    - name: bear-walk-ghost_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 433
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -20, y: 13}
+        - {x: -20, y: -31}
+        - {x: -18, y: -32}
+        - {x: 16, y: -32}
+        - {x: 20, y: -14}
+        - {x: 20, y: 24}
+        - {x: 18, y: 32}
+    - name: bear-walk-ghost_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 434
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 32}
+        - {x: -20, y: 14}
+        - {x: -20, y: -29}
+        - {x: -18, y: -32}
+        - {x: 11, y: -32}
+        - {x: 20, y: -28}
+        - {x: 20, y: 32}
+    - name: bear-walk-ghost_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 434
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 22.5}
+        - {x: 17, y: 31.5}
+        - {x: 15, y: 32.5}
+        - {x: -17, y: 32.5}
+        - {x: -20, y: 8.5}
+        - {x: -20, y: -31.5}
+        - {x: -15, y: -32.5}
+        - {x: 8, y: -32.5}
+        - {x: 8, y: -30.5}
+        - {x: 11, y: -18.5}
+        - {x: 20, y: 2.5}
+    - name: bear-walk-ghost_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 434
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 29}
+        - {x: 19, y: 33}
+        - {x: -7, y: 33}
+        - {x: -19, y: 13}
+        - {x: -20, y: 5}
+        - {x: -20, y: -28}
+        - {x: -11, y: -33}
+        - {x: 6, y: -33}
+        - {x: 6, y: -31}
+        - {x: 16, y: -10}
+        - {x: 20, y: 1}
+    - name: bear-walk-ghost_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 434
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 33}
+        - {x: -16, y: 28}
+        - {x: -20, y: 7}
+        - {x: -20, y: -32}
+        - {x: -14, y: -33}
+        - {x: 9, y: -33}
+        - {x: 20, y: -5}
+        - {x: 20, y: 30}
+        - {x: 16, y: 33}
+    - name: bear-walk-ghost_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 353
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 33}
+        - {x: -20, y: 13}
+        - {x: -20, y: -29}
+        - {x: -13, y: -33}
+        - {x: 13, y: -33}
+        - {x: 20, y: -15}
+        - {x: 20, y: 32}
+        - {x: 18, y: 33}
+    - name: bear-walk-ghost_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 353
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 33}
+        - {x: -17, y: 33}
+        - {x: -20, y: 11}
+        - {x: -20, y: -33}
+        - {x: 4, y: -33}
+        - {x: 16, y: -28}
+        - {x: 20, y: -13}
+        - {x: 20, y: 26}
+        - {x: 19, y: 30}
+    - name: bear-walk-ghost_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 352
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 33}
+        - {x: -20, y: 25}
+        - {x: -20, y: -33}
+        - {x: 10, y: -33}
+        - {x: 20, y: -10}
+        - {x: 20, y: 32}
+        - {x: 17, y: 33}
+    - name: bear-walk-ghost_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 351
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 33}
+        - {x: -10, y: 33}
+        - {x: -18, y: 30}
+        - {x: -20, y: 18}
+        - {x: -20, y: -32}
+        - {x: -18, y: -33}
+        - {x: 12, y: -33}
+        - {x: 20, y: -28}
+    - name: bear-walk-ghost_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 350
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 33}
+        - {x: -9, y: 33}
+        - {x: -20, y: 25}
+        - {x: -20, y: -33}
+        - {x: 7, y: -33}
+        - {x: 20, y: -28}
+        - {x: 20, y: 24}
+        - {x: 19, y: 28}
+    - name: bear-walk-ghost_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 350
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 33}
+        - {x: -20, y: 12}
+        - {x: -20, y: -32}
+        - {x: -19, y: -33}
+        - {x: 17, y: -33}
+        - {x: 20, y: -32}
+        - {x: 20, y: 33}
+    - name: bear-walk-ghost_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 350
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 33}
+        - {x: -11.5, y: 31}
+        - {x: -16.5, y: 12}
+        - {x: -20.5, y: -11}
+        - {x: -20.5, y: -30}
+        - {x: -17.5, y: -33}
+        - {x: 20.5, y: -33}
+        - {x: 20.5, y: 31}
+        - {x: 18.5, y: 33}
+    - name: bear-walk-ghost_15
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 351
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 32.5}
+        - {x: -5, y: 32.5}
+        - {x: -12, y: 30.5}
+        - {x: -21, y: 22.5}
+        - {x: -21, y: -32.5}
+        - {x: 12, y: -32.5}
+        - {x: 17, y: -26.5}
+        - {x: 21, y: -4.5}
+        - {x: 21, y: 31.5}
+    - name: bear-walk-ghost_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 268
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 24.5}
+        - {x: 17, y: 33.5}
+        - {x: -10, y: 33.5}
+        - {x: -20, y: 26.5}
+        - {x: -20, y: -33.5}
+        - {x: 5, y: -33.5}
+        - {x: 7, y: -32.5}
+        - {x: 9, y: -30.5}
+        - {x: 9, y: -29.5}
+        - {x: 20, y: -1.5}
+    - name: bear-walk-ghost_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 268
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34}
+        - {x: -16, y: 32}
+        - {x: -20, y: 11}
+        - {x: -20, y: -34}
+        - {x: 7, y: -34}
+        - {x: 20, y: 4}
+        - {x: 20, y: 27}
+        - {x: 19, y: 34}
+    - name: bear-walk-ghost_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 267
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 35}
+        - {x: -14, y: 32}
+        - {x: -20, y: 14}
+        - {x: -20, y: -29}
+        - {x: -11, y: -35}
+        - {x: 2, y: -35}
+        - {x: 17, y: -23}
+        - {x: 20, y: -16}
+        - {x: 20, y: 35}
+    - name: bear-walk-ghost_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 268
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 34.5}
+        - {x: -17, y: 31.5}
+        - {x: -22, y: 21.5}
+        - {x: -22, y: -25.5}
+        - {x: -16, y: -34.5}
+        - {x: 5, y: -34.5}
+        - {x: 22, y: -11.5}
+        - {x: 22, y: 34.5}
+    - name: bear-walk-ghost_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 269
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34}
+        - {x: -20, y: 29}
+        - {x: -23, y: 13}
+        - {x: -23, y: -33}
+        - {x: -20, y: -34}
+        - {x: 12, y: -34}
+        - {x: 23, y: -16}
+        - {x: 23, y: 31}
+        - {x: 21, y: 34}
+    - name: bear-walk-ghost_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 269
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 34}
+        - {x: -23.5, y: 15}
+        - {x: -23.5, y: -24}
+        - {x: -19.5, y: -34}
+        - {x: 5.5, y: -34}
+        - {x: 23.5, y: -6}
+        - {x: 23.5, y: 22}
+        - {x: 18.5, y: 34}
+    - name: bear-walk-ghost_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 269
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 33.5}
+        - {x: -10, y: 33.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -18.5}
+        - {x: -20, y: -29.5}
+        - {x: -15, y: -33.5}
+        - {x: 8, y: -33.5}
+        - {x: 9, y: -29.5}
+        - {x: 24, y: -7.5}
+        - {x: 24, y: 24.5}
+    - name: bear-walk-ghost_23
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 269
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 33}
+        - {x: -6, y: 33}
+        - {x: -10, y: 32}
+        - {x: -24, y: 0}
+        - {x: -24, y: -20}
+        - {x: -19, y: -33}
+        - {x: 15, y: -33}
+        - {x: 15, y: -28}
+        - {x: 24, y: -15}
+        - {x: 24, y: 32}
+    - name: bear-walk-ghost_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 187
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 32.5}
+        - {x: -7, y: 32.5}
+        - {x: -23, y: 5.5}
+        - {x: -23, y: -23.5}
+        - {x: -20, y: -32.5}
+        - {x: 11, y: -32.5}
+        - {x: 21, y: -28.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

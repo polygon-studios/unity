@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 33214a020aedd57479cd76b4c681e71d
+timeCreated: 1457994332
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-idle-prunes_0
+    21300002: bear-idle-prunes_1
+    21300004: bear-idle-prunes_2
+    21300006: bear-idle-prunes_3
+    21300008: bear-idle-prunes_4
+    21300010: bear-idle-prunes_5
+    21300012: bear-idle-prunes_6
+    21300014: bear-idle-prunes_7
+    21300016: bear-idle-prunes_8
+    21300018: bear-idle-prunes_9
+    21300020: bear-idle-prunes_10
+    21300022: bear-idle-prunes_11
+    21300024: bear-idle-prunes_12
+    21300026: bear-idle-prunes_13
+    21300028: bear-idle-prunes_14
+    21300030: bear-idle-prunes_15
+    21300032: bear-idle-prunes_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-idle-prunes_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 438
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -33}
+        - {x: 8.5, y: -33}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 30}
+        - {x: 12.5, y: 33}
+        - {x: -11.5, y: 33}
+        - {x: -16.5, y: 24}
+        - {x: -20.5, y: -6}
+        - {x: -20.5, y: -33}
+        - {x: -6.5, y: -33}
+        - {x: -5.5, y: -32}
+        - {x: -5.5, y: -23}
+        - {x: -5.5, y: -32}
+    - name: bear-idle-prunes_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 438
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 20.5, y: -24.5}
+        - {x: 20.5, y: 32.5}
+        - {x: -17.5, y: 32.5}
+        - {x: -20.5, y: -2.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -6.5, y: -32.5}
+        - {x: -5.5, y: -31.5}
+        - {x: -5.5, y: -26.5}
+        - {x: -5.5, y: -31.5}
+    - name: bear-idle-prunes_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 438
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32.5}
+        - {x: 9.5, y: -32.5}
+        - {x: 20.5, y: -7.5}
+        - {x: 20.5, y: 30.5}
+        - {x: 13.5, y: 32.5}
+        - {x: -10.5, y: 32.5}
+        - {x: -20.5, y: -7.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -6.5, y: -32.5}
+        - {x: -5.5, y: -31.5}
+        - {x: -5.5, y: -22.5}
+        - {x: -5.5, y: -30.5}
+    - name: bear-idle-prunes_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 438
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 20.5, y: -9.5}
+        - {x: 20.5, y: 29.5}
+        - {x: 11.5, y: 32.5}
+        - {x: -13.5, y: 32.5}
+        - {x: -20.5, y: 16.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -6.5, y: -32.5}
+        - {x: -5.5, y: -31.5}
+        - {x: -5.5, y: -22.5}
+        - {x: -5.5, y: -30.5}
+    - name: bear-idle-prunes_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 362
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32.5}
+        - {x: 17, y: -32.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 32.5}
+        - {x: -13, y: 32.5}
+        - {x: -20, y: -6.5}
+        - {x: -20, y: -32.5}
+        - {x: -6, y: -32.5}
+        - {x: -5, y: -31.5}
+        - {x: -5, y: -26.5}
+        - {x: -5, y: -31.5}
+    - name: bear-idle-prunes_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 362
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32.5}
+        - {x: 10, y: -32.5}
+        - {x: 19, y: -11.5}
+        - {x: 20, y: -5.5}
+        - {x: 20, y: 25.5}
+        - {x: 14, y: 32.5}
+        - {x: -13, y: 32.5}
+        - {x: -18, y: 7.5}
+        - {x: -20, y: -9.5}
+        - {x: -20, y: -32.5}
+        - {x: -6, y: -32.5}
+        - {x: -5, y: -31.5}
+        - {x: -5, y: -26.5}
+        - {x: -5, y: -31.5}
+    - name: bear-idle-prunes_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 362
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32.5}
+        - {x: 9, y: -32.5}
+        - {x: 20, y: -11.5}
+        - {x: 20, y: 30.5}
+        - {x: 14, y: 32.5}
+        - {x: -12, y: 32.5}
+        - {x: -20, y: -9.5}
+        - {x: -20, y: -32.5}
+        - {x: -6, y: -32.5}
+        - {x: -5, y: -31.5}
+        - {x: -5, y: -26.5}
+        - {x: -5, y: -31.5}
+    - name: bear-idle-prunes_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 362
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32}
+        - {x: 9, y: -32}
+        - {x: 20, y: -23}
+        - {x: 20, y: 32}
+        - {x: -10, y: 32}
+        - {x: -20, y: 4}
+        - {x: -20, y: -32}
+        - {x: -6, y: -32}
+        - {x: -5, y: -31}
+        - {x: -5, y: -26}
+        - {x: -5, y: -31}
+    - name: bear-idle-prunes_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 286
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 20, y: -22.5}
+        - {x: 20, y: 32.5}
+        - {x: -12, y: 32.5}
+        - {x: -16, y: 31.5}
+        - {x: -20, y: -2.5}
+        - {x: -20, y: -32.5}
+        - {x: -6, y: -32.5}
+        - {x: -5, y: -31.5}
+        - {x: -5, y: -26.5}
+        - {x: -5, y: -31.5}
+    - name: bear-idle-prunes_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 286
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32}
+        - {x: 11, y: -32}
+        - {x: 20, y: -20}
+        - {x: 20, y: 28}
+        - {x: 18, y: 32}
+        - {x: -12, y: 32}
+        - {x: -20, y: -6}
+        - {x: -20, y: -32}
+        - {x: -6, y: -32}
+        - {x: -5, y: -31}
+        - {x: -5, y: -24}
+        - {x: -5, y: -31}
+    - name: bear-idle-prunes_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 286
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -32}
+        - {x: 19, y: -32}
+        - {x: 20, y: -26}
+        - {x: 20, y: 32}
+        - {x: -13, y: 32}
+        - {x: -20, y: 6}
+        - {x: -20, y: -32}
+        - {x: -6, y: -32}
+        - {x: -5, y: -31}
+        - {x: -5, y: -26}
+        - {x: -5, y: -31}
+    - name: bear-idle-prunes_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 286
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 32}
+        - {x: -20, y: -6}
+        - {x: -20, y: -32}
+        - {x: 14, y: -32}
+        - {x: 20, y: -24}
+        - {x: 20, y: 29}
+        - {x: 19, y: 32}
+    - name: bear-idle-prunes_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 210
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32}
+        - {x: 10.5, y: -32}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 32}
+        - {x: -10.5, y: 32}
+        - {x: -20.5, y: -4}
+        - {x: -20.5, y: -32}
+        - {x: -6.5, y: -32}
+        - {x: -5.5, y: -31}
+        - {x: -5.5, y: -22}
+        - {x: -5.5, y: -30}
+    - name: bear-idle-prunes_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 210
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32}
+        - {x: 10.5, y: -32}
+        - {x: 20.5, y: -22}
+        - {x: 20.5, y: 29}
+        - {x: 19.5, y: 32}
+        - {x: -12.5, y: 32}
+        - {x: -12.5, y: 31}
+        - {x: -20.5, y: -8}
+        - {x: -20.5, y: -32}
+        - {x: -6.5, y: -32}
+        - {x: -5.5, y: -31}
+        - {x: -5.5, y: -26}
+        - {x: -5.5, y: -31}
+    - name: bear-idle-prunes_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 210
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32}
+        - {x: 10.5, y: -32}
+        - {x: 20.5, y: -20}
+        - {x: 20.5, y: 32}
+        - {x: -10.5, y: 32}
+        - {x: -20.5, y: 6}
+        - {x: -20.5, y: -32}
+        - {x: -6.5, y: -32}
+        - {x: -5.5, y: -31}
+        - {x: -5.5, y: -22}
+        - {x: -5.5, y: -30}
+    - name: bear-idle-prunes_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 210
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32}
+        - {x: 15.5, y: -32}
+        - {x: 20.5, y: -17}
+        - {x: 20.5, y: 29}
+        - {x: 16.5, y: 32}
+        - {x: -7.5, y: 32}
+        - {x: -10.5, y: 29}
+        - {x: -20.5, y: 7}
+        - {x: -20.5, y: -32}
+        - {x: -6.5, y: -32}
+        - {x: -5.5, y: -31}
+        - {x: -5.5, y: -22}
+        - {x: -5.5, y: -31}
+    - name: bear-idle-prunes_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 134
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -32}
+        - {x: 15.5, y: -32}
+        - {x: 20.5, y: -17}
+        - {x: 20.5, y: 29}
+        - {x: 16.5, y: 32}
+        - {x: -7.5, y: 32}
+        - {x: -10.5, y: 29}
+        - {x: -20.5, y: 7}
+        - {x: -20.5, y: -32}
+        - {x: -6.5, y: -32}
+        - {x: -5.5, y: -31}
+        - {x: -5.5, y: -22}
+        - {x: -5.5, y: -31}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

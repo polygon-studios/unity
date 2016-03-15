@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f79b4b7890788c54d9f406898d536b35
-timeCreated: 1457753330
+timeCreated: 1457985072
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -30,6 +30,7 @@ TextureImporter:
     21300046: fox_fire_23
     21300048: fox_fire_24
     21300050: fox_fire_25
+    21300052: fox_fire_26
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -101,27 +102,42 @@ TextureImporter:
     - name: fox_fire_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 445
+        x: 10
+        y: 443
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 32.5}
+        - {x: -26.5, y: -32.5}
+        - {x: 26.5, y: -32.5}
+        - {x: 26.5, y: 22.5}
+        - {x: 1.5, y: 32.5}
+    - name: fox_fire_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 441
         width: 51
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14.5, y: 33}
-        - {x: -25.5, y: 17}
-        - {x: -25.5, y: -17}
-        - {x: -24.5, y: -27}
-        - {x: -6.5, y: -33}
+      - - {x: -25.5, y: 33}
+        - {x: -25.5, y: -18}
+        - {x: -21.5, y: -32}
+        - {x: -14.5, y: -33}
         - {x: 25.5, y: -33}
-        - {x: 25.5, y: 19}
-        - {x: 2.5, y: 33}
-    - name: fox_fire_3
+        - {x: 25.5, y: 24}
+        - {x: 16.5, y: 33}
+    - name: fox_fire_4
       rect:
         serializedVersion: 2
-        x: 131
-        y: 443
+        x: 212
+        y: 438
         width: 51
         height: 69
       alignment: 0
@@ -134,96 +150,57 @@ TextureImporter:
         - {x: -20.5, y: -27.5}
         - {x: 0.5, y: -34.5}
         - {x: 25.5, y: -34.5}
-        - {x: 25.5, y: 22.5}
+        - {x: 25.5, y: 21.5}
         - {x: 15.5, y: 34.5}
-    - name: fox_fire_4
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 443
-        width: 47
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20.5, y: 34.5}
-        - {x: -23.5, y: 32.5}
-        - {x: -23.5, y: -26.5}
-        - {x: -19.5, y: -34.5}
-        - {x: 23.5, y: -34.5}
-        - {x: 23.5, y: 22.5}
-        - {x: -1.5, y: 34.5}
-    - name: fox_fire_5
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 443
-        width: 53
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 24.5, y: 12.5}
-        - {x: -1.5, y: 32.5}
-        - {x: -17.5, y: 32.5}
-        - {x: -26.5, y: 18.5}
-        - {x: -26.5, y: -25.5}
-        - {x: -6.5, y: -32.5}
-        - {x: 24.5, y: -32.5}
-        - {x: 26.5, y: -31.5}
-        - {x: 26.5, y: -21.5}
-        - {x: 24.5, y: -21.5}
     - name: fox_fire_6
       rect:
         serializedVersion: 2
-        x: 189
-        y: 493
-        width: 4
-        height: 4
+        x: 314
+        y: 438
+        width: 51
+        height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -13.5, y: 34.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: 1.5}
+        - {x: -21.5, y: -15.5}
+        - {x: -18.5, y: -16.5}
+        - {x: -13.5, y: -16.5}
+        - {x: -17.5, y: -27.5}
+        - {x: -7.5, y: -34.5}
+        - {x: 25.5, y: -34.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 1.5, y: 34.5}
+      - - {x: -24.5, y: 21.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -25.5, y: 13.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -19.5, y: 16.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -21.5, y: 21.5}
     - name: fox_fire_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 436
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: fox_fire_8
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 436
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: fox_fire_9
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 367
+        x: 415
+        y: 438
         width: 53
         height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 34.5}
-        - {x: -22.5, y: -34.5}
-        - {x: 26.5, y: -34.5}
-        - {x: 26.5, y: 20.5}
-        - {x: 1.5, y: 34.5}
+      - - {x: -16.5, y: 34.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -22.5, y: -23.5}
+        - {x: -16.5, y: -29.5}
+        - {x: -2.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 26.5, y: -21.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 2.5, y: 34.5}
       - - {x: -23.5, y: 6.5}
         - {x: -20.5, y: 7.5}
         - {x: -20.5, y: 10.5}
@@ -235,121 +212,125 @@ TextureImporter:
         - {x: -20.5, y: 17.5}
         - {x: -20.5, y: 19.5}
         - {x: -23.5, y: 20.5}
-    - name: fox_fire_10
+    - name: fox_fire_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 367
+        x: 517
+        y: 438
         width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34.5}
+        - {x: -13, y: 30.5}
+        - {x: -14, y: 11.5}
+        - {x: -15, y: 14.5}
+        - {x: -20, y: 23.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: -9.5}
+        - {x: -24, y: -25.5}
+        - {x: -3, y: -34.5}
+        - {x: 22, y: -34.5}
+        - {x: 26, y: -1.5}
+        - {x: 26, y: 20.5}
+        - {x: 3, y: 34.5}
+    - name: fox_fire_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 438
+        width: 49
         height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 34.5}
-        - {x: -16, y: 21.5}
-        - {x: -14, y: 10.5}
-        - {x: -15, y: 14.5}
-        - {x: -20, y: 23.5}
-        - {x: -26, y: 21.5}
-        - {x: -26, y: -11.5}
-        - {x: -25, y: -26.5}
-        - {x: -3, y: -34.5}
-        - {x: 23, y: -34.5}
-        - {x: 26, y: -10.5}
-        - {x: 26, y: 19.5}
-        - {x: 3, y: 34.5}
-    - name: fox_fire_11
+      - - {x: -19.5, y: 34.5}
+        - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: -21.5}
+        - {x: -8.5, y: -34.5}
+        - {x: 21.5, y: -34.5}
+        - {x: 24.5, y: -22.5}
+        - {x: 24.5, y: 24.5}
+        - {x: 17.5, y: 34.5}
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -24.5, y: 21.5}
+        - {x: -24.5, y: 16.5}
+    - name: fox_fire_10
       rect:
         serializedVersion: 2
-        x: 127
-        y: 304
-        width: 60
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30, y: 65.5}
-        - {x: -30, y: -62.5}
-        - {x: -25, y: -65.5}
-        - {x: 30, y: -65.5}
-        - {x: 30, y: 51.5}
-        - {x: 15, y: 65.5}
-      - - {x: -27, y: -32.5}
-        - {x: -24, y: -31.5}
-        - {x: -24, y: -28.5}
-        - {x: -27, y: -27.5}
-        - {x: -29, y: -29.5}
-      - - {x: -30, y: -19.5}
-        - {x: -30, y: -24.5}
-        - {x: -27, y: -24.5}
-        - {x: -24, y: -21.5}
-        - {x: -24, y: -19.5}
-        - {x: -27, y: -18.5}
-      - - {x: 27, y: 27.5}
-        - {x: 29, y: 25.5}
-        - {x: 30, y: 25.5}
-        - {x: 30, y: 35.5}
-        - {x: 27, y: 34.5}
-      - - {x: 26, y: 48.5}
-        - {x: 24, y: 43.5}
-        - {x: 24, y: 38.5}
-        - {x: 28, y: 35.5}
-        - {x: 30, y: 35.5}
-        - {x: 30, y: 48.5}
-      - - {x: -27, y: 48.5}
-        - {x: -27, y: 51.5}
-        - {x: -30, y: 52.5}
-        - {x: -30, y: 47.5}
-    - name: fox_fire_12
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 367
+        x: 723
+        y: 439
         width: 50
         height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18, y: 34}
-        - {x: -25, y: 22}
-        - {x: -25, y: -2}
-        - {x: -21, y: -21}
-        - {x: -5, y: -34}
+      - - {x: -19, y: 34}
+        - {x: -25, y: 32}
+        - {x: -25, y: -26}
+        - {x: -21, y: -34}
         - {x: 25, y: -34}
-        - {x: 25, y: 20}
-        - {x: 10, y: 34}
-    - name: fox_fire_13
+        - {x: 25, y: 21}
+        - {x: 11, y: 34}
+    - name: fox_fire_11
       rect:
         serializedVersion: 2
-        x: 7
-        y: 297
+        x: 824
+        y: 439
         width: 51
         height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 25.5, y: 18.5}
+      - - {x: -15.5, y: 34.5}
+        - {x: -25.5, y: 17.5}
+        - {x: -25.5, y: -15.5}
+        - {x: -23.5, y: -26.5}
+        - {x: -6.5, y: -34.5}
+        - {x: 25.5, y: -34.5}
+        - {x: 25.5, y: 18.5}
         - {x: 1.5, y: 34.5}
-        - {x: -14.5, y: 34.5}
-        - {x: -25.5, y: 22.5}
-        - {x: -25.5, y: -9.5}
-        - {x: -22.5, y: -25.5}
-        - {x: -8.5, y: -34.5}
-        - {x: 7.5, y: -34.5}
-        - {x: 7.5, y: -31.5}
-        - {x: 14.5, y: -33.5}
-        - {x: 25.5, y: -31.5}
+    - name: fox_fire_13
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 442
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 22}
+        - {x: 0.5, y: 33}
+        - {x: -18.5, y: 33}
+        - {x: -26.5, y: 2}
+        - {x: -26.5, y: -14}
+        - {x: -22.5, y: -24}
+        - {x: -12.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 27.5, y: -32}
+        - {x: 27.5, y: 14}
+      - - {x: -26.5, y: 19}
+        - {x: -27.5, y: 17}
+        - {x: -27.5, y: 11}
+        - {x: -24.5, y: 11}
+        - {x: -21.5, y: 14}
+        - {x: -21.5, y: 17}
+        - {x: -23.5, y: 19}
     - name: fox_fire_14
       rect:
         serializedVersion: 2
-        x: 66
-        y: 346
+        x: 4
+        y: 436
         width: 4
-        height: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,50 +338,71 @@ TextureImporter:
     - name: fox_fire_15
       rect:
         serializedVersion: 2
-        x: 69
-        y: 300
-        width: 52
-        height: 66
+        x: 60
+        y: 436
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 33}
-        - {x: -26, y: 11}
-        - {x: -26, y: -20}
-        - {x: -24, y: -24}
-        - {x: -14, y: -33}
-        - {x: 26, y: -33}
-        - {x: 26, y: 16}
-        - {x: 5, y: 33}
-      - - {x: -26, y: 12}
-        - {x: -23, y: 13}
-        - {x: -23, y: 17}
-        - {x: -25, y: 19}
-        - {x: -26, y: 19}
+      outline: []
     - name: fox_fire_16
       rect:
         serializedVersion: 2
-        x: 193
-        y: 301
-        width: 57
-        height: 64
+        x: 7
+        y: 335
+        width: 60
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 32}
-        - {x: -28.5, y: 25}
-        - {x: -28.5, y: -28}
-        - {x: -19.5, y: -32}
-        - {x: 28.5, y: -32}
-        - {x: 28.5, y: 18}
-        - {x: 8.5, y: 32}
+      - - {x: -18, y: 31}
+        - {x: -27, y: 11}
+        - {x: -27, y: -18}
+        - {x: -21, y: -30}
+        - {x: -17, y: -31}
+        - {x: 30, y: -31}
+        - {x: 30, y: 9}
+        - {x: 6, y: 31}
+      - - {x: -27, y: 2}
+        - {x: -24, y: 3}
+        - {x: -24, y: 6}
+        - {x: -27, y: 7}
+        - {x: -29, y: 5}
+      - - {x: -30, y: 15}
+        - {x: -30, y: 10}
+        - {x: -27, y: 10}
+        - {x: -24, y: 13}
+        - {x: -24, y: 15}
+        - {x: -27, y: 16}
     - name: fox_fire_17
       rect:
         serializedVersion: 2
-        x: 9
-        y: 229
+        x: 109
+        y: 332
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 16}
+        - {x: 0.5, y: 32}
+        - {x: -22.5, y: 32}
+        - {x: -28.5, y: 25}
+        - {x: -28.5, y: -7}
+        - {x: -26.5, y: -22}
+        - {x: -18.5, y: -32}
+        - {x: 27.5, y: -32}
+        - {x: 28.5, y: -31}
+        - {x: 28.5, y: -6}
+        - {x: 26.5, y: 9}
+    - name: fox_fire_18
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 329
         width: 50
         height: 67
       alignment: 0
@@ -408,101 +410,101 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -22, y: 33.5}
-        - {x: -25, y: 22.5}
-        - {x: -25, y: -31.5}
-        - {x: -11, y: -33.5}
+        - {x: -25, y: 27.5}
+        - {x: -25, y: -27.5}
+        - {x: 2, y: -33.5}
         - {x: 25, y: -33.5}
-        - {x: 25, y: 20.5}
-        - {x: 2, y: 33.5}
+        - {x: 25, y: 24.5}
+        - {x: 4, y: 33.5}
       - - {x: -22, y: 16.5}
         - {x: -22, y: 19.5}
         - {x: -25, y: 20.5}
         - {x: -25, y: 15.5}
-    - name: fox_fire_18
+    - name: fox_fire_19
       rect:
         serializedVersion: 2
-        x: 67
-        y: 229
+        x: 315
+        y: 329
         width: 49
         height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24.5, y: 33.5}
-        - {x: -24.5, y: -24.5}
-        - {x: -21.5, y: -33.5}
+      - - {x: -23.5, y: 33.5}
+        - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: -13.5}
+        - {x: -14.5, y: -33.5}
         - {x: 24.5, y: -33.5}
-        - {x: 24.5, y: 23.5}
-        - {x: 14.5, y: 33.5}
-    - name: fox_fire_19
+        - {x: 24.5, y: 26.5}
+        - {x: 8.5, y: 33.5}
+    - name: fox_fire_20
       rect:
         serializedVersion: 2
-        x: 124
-        y: 228
+        x: 416
+        y: 328
         width: 50
         height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: 34.5}
-        - {x: -25, y: 34.5}
-        - {x: -25, y: -19.5}
-        - {x: -18, y: -34.5}
-        - {x: 23, y: -34.5}
-        - {x: 25, y: -26.5}
-        - {x: 25, y: 18.5}
-        - {x: 22, y: 26.5}
-    - name: fox_fire_20
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 277
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: fox_fire_21
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 229
-        width: 45
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: 34}
-        - {x: -22.5, y: 17}
-        - {x: -22.5, y: -25}
-        - {x: -6.5, y: -34}
-        - {x: 17.5, y: -34}
-        - {x: 22.5, y: -12}
-        - {x: 22.5, y: 23}
-        - {x: -0.5, y: 34}
+      - - {x: -18, y: 34.5}
+        - {x: -25, y: 28.5}
+        - {x: -25, y: -17.5}
+        - {x: -12, y: -34.5}
+        - {x: 24, y: -34.5}
+        - {x: 25, y: -31.5}
+        - {x: 25, y: 17.5}
+        - {x: 9, y: 34.5}
     - name: fox_fire_22
       rect:
         serializedVersion: 2
-        x: 6
-        y: 162
+        x: 518
+        y: 329
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 18.5}
+        - {x: 1, y: 34.5}
+        - {x: -12, y: 34.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: -10.5}
+        - {x: -19, y: -19.5}
+        - {x: -3, y: -34.5}
+        - {x: 17, y: -34.5}
+        - {x: 17, y: -33.5}
+        - {x: 22, y: -22.5}
+        - {x: 25, y: -0.5}
+      - - {x: -24, y: 19.5}
+        - {x: -25, y: 17.5}
+        - {x: -25, y: 11.5}
+        - {x: -22, y: 11.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: 17.5}
+        - {x: -21, y: 19.5}
+    - name: fox_fire_23
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 331
         width: 51
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18.5, y: 33}
-        - {x: -21.5, y: 19}
+      - - {x: 3.5, y: 33}
+        - {x: -18.5, y: 33}
+        - {x: -21.5, y: 31}
         - {x: -21.5, y: -26}
-        - {x: -1.5, y: -33}
-        - {x: 18.5, y: -33}
-        - {x: 25.5, y: -19}
-        - {x: 25.5, y: 19}
-        - {x: 9.5, y: 33}
+        - {x: -17.5, y: -33}
+        - {x: 17.5, y: -33}
+        - {x: 25.5, y: -15}
+        - {x: 25.5, y: 25}
       - - {x: -22.5, y: 4}
         - {x: -19.5, y: 5}
         - {x: -19.5, y: 8}
@@ -514,53 +516,51 @@ TextureImporter:
         - {x: -19.5, y: 15}
         - {x: -19.5, y: 17}
         - {x: -22.5, y: 18}
-    - name: fox_fire_23
+    - name: fox_fire_24
       rect:
         serializedVersion: 2
-        x: 64
-        y: 162
+        x: 721
+        y: 331
         width: 51
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -15.5, y: 33}
-        - {x: -25.5, y: 25}
-        - {x: -25.5, y: -14}
-        - {x: -24.5, y: -20}
-        - {x: -6.5, y: -33}
+      - - {x: 14.5, y: 33}
+        - {x: -25.5, y: 33}
+        - {x: -25.5, y: -15}
+        - {x: -16.5, y: -33}
         - {x: 21.5, y: -33}
-        - {x: 25.5, y: -22}
-        - {x: 25.5, y: 20}
-        - {x: 15.5, y: 33}
-    - name: fox_fire_24
+        - {x: 25.5, y: -14}
+        - {x: 25.5, y: 17}
+    - name: fox_fire_25
       rect:
         serializedVersion: 2
-        x: 125
-        y: 161
+        x: 827
+        y: 331
         width: 47
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -15.5, y: 33}
-        - {x: -23.5, y: 19}
-        - {x: -23.5, y: -21}
-        - {x: -11.5, y: -33}
+      - - {x: -20.5, y: 33}
+        - {x: -23.5, y: 18}
+        - {x: -23.5, y: -29}
+        - {x: -17.5, y: -33}
         - {x: 23.5, y: -33}
-        - {x: 23.5, y: 17}
-        - {x: 0.5, y: 33}
+        - {x: 23.5, y: 22}
+        - {x: 2.5, y: 33}
       - - {x: -20.5, y: 15}
         - {x: -20.5, y: 18}
         - {x: -23.5, y: 19}
         - {x: -23.5, y: 14}
-    - name: fox_fire_25
+    - name: fox_fire_26
       rect:
         serializedVersion: 2
-        x: 180
-        y: 162
+        x: 926
+        y: 332
         width: 52
         height: 65
       alignment: 0
@@ -569,8 +569,8 @@ TextureImporter:
       outline:
       - - {x: -24, y: 32.5}
         - {x: -26, y: 31.5}
-        - {x: -26, y: -19.5}
-        - {x: -11, y: -32.5}
+        - {x: -26, y: -28.5}
+        - {x: -12, y: -32.5}
         - {x: 26, y: -32.5}
         - {x: 26, y: 16.5}
         - {x: 14, y: 32.5}

@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: a8d76b834ba2d5440991505ecef1e0ef
+timeCreated: 1457993424
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-fire_0
+    21300002: bear-fire_1
+    21300004: bear-fire_2
+    21300006: bear-fire_3
+    21300008: bear-fire_4
+    21300010: bear-fire_5
+    21300012: bear-fire_6
+    21300014: bear-fire_7
+    21300016: bear-fire_8
+    21300018: bear-fire_9
+    21300020: bear-fire_10
+    21300022: bear-fire_11
+    21300024: bear-fire_12
+    21300026: bear-fire_13
+    21300028: bear-fire_14
+    21300030: bear-fire_15
+    21300032: bear-fire_16
+    21300034: bear-fire_17
+    21300036: bear-fire_18
+    21300038: bear-fire_19
+    21300040: bear-fire_20
+    21300042: bear-fire_21
+    21300044: bear-fire_22
+    21300046: bear-fire_23
+    21300048: bear-fire_24
+    21300050: bear-fire_25
+    21300052: bear-fire_26
+    21300054: bear-fire_27
+    21300056: bear-fire_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-fire_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 453
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 29}
+        - {x: -22, y: 13}
+        - {x: -22, y: -23}
+        - {x: -2, y: -29}
+        - {x: 22, y: -29}
+        - {x: 22, y: 29}
+    - name: bear-fire_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 451
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 30.5}
+        - {x: -22.5, y: 17.5}
+        - {x: -22.5, y: -8.5}
+        - {x: -18.5, y: -8.5}
+        - {x: -20.5, y: -12.5}
+        - {x: -19.5, y: -25.5}
+        - {x: -2.5, y: -30.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 22.5, y: 23.5}
+        - {x: 18.5, y: 30.5}
+    - name: bear-fire_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 451
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 30.5}
+        - {x: -11, y: 30.5}
+        - {x: -12, y: 28.5}
+        - {x: -12, y: 8.5}
+        - {x: -11, y: 7.5}
+        - {x: -11, y: 3.5}
+        - {x: -11, y: 6.5}
+        - {x: -13, y: 8.5}
+        - {x: -16, y: 13.5}
+        - {x: -23, y: 9.5}
+        - {x: -23, y: -1.5}
+        - {x: -22, y: -1.5}
+        - {x: -18, y: 2.5}
+        - {x: -18, y: 1.5}
+        - {x: -19, y: -2.5}
+        - {x: -19, y: -23.5}
+        - {x: 1, y: -30.5}
+        - {x: 19, y: -30.5}
+        - {x: 20, y: -27.5}
+        - {x: 23, y: -4.5}
+        - {x: 23, y: 23.5}
+      - - {x: -20, y: 13.5}
+        - {x: -20, y: 16.5}
+        - {x: -23, y: 17.5}
+        - {x: -23, y: 12.5}
+    - name: bear-fire_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 443
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 28.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -25.5}
+        - {x: -15, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 23, y: 22.5}
+        - {x: 15, y: 28.5}
+      - - {x: -20, y: 2.5}
+        - {x: -17, y: 3.5}
+        - {x: -17, y: 6.5}
+        - {x: -20, y: 7.5}
+        - {x: -22, y: 5.5}
+    - name: bear-fire_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 375
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30.5}
+        - {x: -23, y: -30.5}
+        - {x: 14, y: -30.5}
+        - {x: 21, y: -26.5}
+        - {x: 21, y: 30.5}
+      - - {x: -26, y: 11.5}
+        - {x: -28, y: 10.5}
+        - {x: -28, y: -0.5}
+        - {x: -24, y: -0.5}
+        - {x: -16, y: 4.5}
+        - {x: -16, y: 11.5}
+      - - {x: 25, y: 1.5}
+        - {x: 27, y: -0.5}
+        - {x: 28, y: -0.5}
+        - {x: 28, y: 4.5}
+        - {x: 26, y: 4.5}
+      - - {x: 24, y: 10.5}
+        - {x: 24, y: 6.5}
+        - {x: 26, y: 4.5}
+        - {x: 28, y: 5.5}
+        - {x: 28, y: 10.5}
+        - {x: 27, y: 11.5}
+    - name: bear-fire_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 375
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 30.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -20.5, y: -13.5}
+        - {x: -6.5, y: -30.5}
+        - {x: 20.5, y: -30.5}
+        - {x: 20.5, y: 30.5}
+    - name: bear-fire_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 321
+        width: 54
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -11.5}
+        - {x: 12, y: -3.5}
+        - {x: 8, y: -3.5}
+        - {x: 13, y: -3.5}
+        - {x: 16, y: 10.5}
+        - {x: 20, y: 45.5}
+        - {x: 8, y: 57.5}
+        - {x: -27, y: 57.5}
+        - {x: -27, y: -57.5}
+        - {x: 26, y: -57.5}
+        - {x: 27, y: -56.5}
+        - {x: 27, y: -42.5}
+        - {x: 23, y: -18.5}
+      - - {x: -25, y: -23.5}
+        - {x: -27, y: -24.5}
+        - {x: -27, y: -35.5}
+        - {x: -25, y: -35.5}
+        - {x: -15, y: -28.5}
+        - {x: -15, y: -24.5}
+        - {x: -17, y: -23.5}
+      - - {x: 23, y: 30.5}
+        - {x: 23, y: 22.5}
+        - {x: 26, y: 20.5}
+        - {x: 27, y: 20.5}
+        - {x: 27, y: 33.5}
+        - {x: 25, y: 33.5}
+    - name: bear-fire_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 375
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 30}
+        - {x: -21.5, y: 20}
+        - {x: -21.5, y: -19}
+        - {x: -13.5, y: -30}
+        - {x: 14.5, y: -30}
+        - {x: 21.5, y: -28}
+        - {x: 21.5, y: 23}
+        - {x: 16.5, y: 30}
+    - name: bear-fire_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 337
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 314
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30.5}
+        - {x: -17, y: 29.5}
+        - {x: -19, y: 13.5}
+        - {x: -19, y: -30.5}
+        - {x: 19, y: -30.5}
+        - {x: 19, y: 23.5}
+        - {x: 13, y: 30.5}
+    - name: bear-fire_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 344
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 317
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -21, y: -29}
+        - {x: 21, y: -29}
+        - {x: 21, y: 22}
+        - {x: 20, y: 29}
+    - name: bear-fire_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 318
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 28}
+        - {x: -14.5, y: 27}
+        - {x: -25.5, y: 6}
+        - {x: -25.5, y: -28}
+        - {x: 25.5, y: -28}
+        - {x: 25.5, y: 15}
+        - {x: 21.5, y: 28}
+      - - {x: -25.5, y: 2}
+        - {x: -22.5, y: 3}
+        - {x: -22.5, y: 7}
+        - {x: -24.5, y: 9}
+        - {x: -25.5, y: 9}
+    - name: bear-fire_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 254
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29.5}
+        - {x: -21, y: -29.5}
+        - {x: 21, y: -29.5}
+        - {x: 21, y: 23.5}
+        - {x: 18, y: 29.5}
+      - - {x: -17, y: 4.5}
+        - {x: -14, y: 5.5}
+        - {x: -14, y: 8.5}
+        - {x: -17, y: 9.5}
+        - {x: -19, y: 7.5}
+    - name: bear-fire_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 254
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 29.5}
+        - {x: -21, y: 20.5}
+        - {x: -21, y: -18.5}
+        - {x: -16, y: -29.5}
+        - {x: 21, y: -29.5}
+        - {x: 21, y: 29.5}
+    - name: bear-fire_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 276
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 253
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 30.5}
+        - {x: -18.5, y: -26.5}
+        - {x: -6.5, y: -30.5}
+        - {x: 18.5, y: -30.5}
+        - {x: 18.5, y: 27.5}
+        - {x: 17.5, y: 30.5}
+    - name: bear-fire_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 283
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-fire_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 254
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 30}
+        - {x: -18.5, y: -14}
+        - {x: -12.5, y: -30}
+        - {x: 10.5, y: -30}
+        - {x: 18.5, y: -5}
+        - {x: 18.5, y: 30}
+    - name: bear-fire_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 29}
+        - {x: -13.5, y: 29}
+        - {x: -15.5, y: 27}
+        - {x: -22.5, y: 7}
+        - {x: -22.5, y: -9}
+        - {x: -9.5, y: -29}
+        - {x: 7.5, y: -29}
+        - {x: 12.5, y: -20}
+        - {x: 19.5, y: 4}
+        - {x: 19.5, y: 19}
+      - - {x: -25.5, y: 9}
+        - {x: -27.5, y: 8}
+        - {x: -27.5, y: -3}
+        - {x: -23.5, y: -3}
+        - {x: -15.5, y: 2}
+        - {x: -15.5, y: 9}
+      - - {x: 24.5, y: -1}
+        - {x: 26.5, y: -3}
+        - {x: 27.5, y: -3}
+        - {x: 27.5, y: 2}
+        - {x: 25.5, y: 2}
+      - - {x: 23.5, y: 8}
+        - {x: 23.5, y: 4}
+        - {x: 25.5, y: 2}
+        - {x: 27.5, y: 3}
+        - {x: 27.5, y: 8}
+        - {x: 26.5, y: 9}
+    - name: bear-fire_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 195
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 29}
+        - {x: -20, y: 11}
+        - {x: -20, y: -7}
+        - {x: -13, y: -29}
+        - {x: 15, y: -29}
+        - {x: 20, y: -26}
+        - {x: 20, y: 29}
+    - name: bear-fire_27
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 194
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 29}
+        - {x: -19.5, y: -17}
+        - {x: -14.5, y: -29}
+        - {x: 19.5, y: -29}
+        - {x: 19.5, y: 29}
+    - name: bear-fire_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 195
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28.5}
+        - {x: -16.5, y: 27.5}
+        - {x: -22.5, y: 3.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -16.5, y: -28.5}
+        - {x: 22.5, y: -28.5}
+        - {x: 22.5, y: 23.5}
+        - {x: 17.5, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 79a5fc1b1b3c06344aae5066d15a64df
+timeCreated: 1457999457
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-idle-bun_0
+    21300002: bear-idle-bun_1
+    21300004: bear-idle-bun_2
+    21300006: bear-idle-bun_3
+    21300008: bear-idle-bun_4
+    21300010: bear-idle-bun_5
+    21300012: bear-idle-bun_6
+    21300014: bear-idle-bun_7
+    21300016: bear-idle-bun_8
+    21300018: bear-idle-bun_9
+    21300020: bear-idle-bun_10
+    21300022: bear-idle-bun_11
+    21300024: bear-idle-bun_12
+    21300026: bear-idle-bun_13
+    21300028: bear-idle-bun_14
+    21300030: bear-idle-bun_15
+    21300032: bear-idle-bun_16
+    21300034: bear-idle-bun_17
+    21300036: bear-idle-bun_18
+    21300038: bear-idle-bun_19
+    21300040: bear-idle-bun_20
+    21300042: bear-idle-bun_21
+    21300044: bear-idle-bun_22
+    21300046: bear-idle-bun_23
+    21300048: bear-idle-bun_24
+    21300050: bear-idle-bun_25
+    21300052: bear-idle-bun_26
+    21300054: bear-idle-bun_27
+    21300056: bear-idle-bun_28
+    21300058: bear-idle-bun_29
+    21300060: bear-idle-bun_30
+    21300062: bear-idle-bun_31
+    21300064: bear-idle-bun_32
+    21300066: bear-idle-bun_33
+    21300068: bear-idle-bun_34
+    21300070: bear-idle-bun_35
+    21300072: bear-idle-bun_36
+    21300074: bear-idle-bun_37
+    21300076: bear-idle-bun_38
+    21300078: bear-idle-bun_39
+    21300080: bear-idle-bun_40
+    21300082: bear-idle-bun_41
+    21300084: bear-idle-bun_42
+    21300086: bear-idle-bun_43
+    21300088: bear-idle-bun_44
+    21300090: bear-idle-bun_45
+    21300092: bear-idle-bun_46
+    21300094: bear-idle-bun_47
+    21300096: bear-idle-bun_48
+    21300098: bear-idle-bun_49
+    21300100: bear-idle-bun_50
+    21300102: bear-idle-bun_51
+    21300104: bear-idle-bun_52
+    21300106: bear-idle-bun_53
+    21300108: bear-idle-bun_54
+    21300110: bear-idle-bun_55
+    21300112: bear-idle-bun_56
+    21300114: bear-idle-bun_57
+    21300116: bear-idle-bun_58
+    21300118: bear-idle-bun_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-idle-bun_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 436
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32.5}
+        - {x: -16, y: 28.5}
+        - {x: -18, y: 8.5}
+        - {x: -18, y: -32.5}
+        - {x: 16, y: -32.5}
+        - {x: 18, y: -26.5}
+        - {x: 18, y: 29.5}
+        - {x: 16, y: 32.5}
+    - name: bear-idle-bun_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 435
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 32.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -18.5, y: -32.5}
+        - {x: 18.5, y: -32.5}
+        - {x: 18.5, y: 29.5}
+        - {x: 10.5, y: 32.5}
+    - name: bear-idle-bun_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_4
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 436
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32.5}
+        - {x: -11, y: 27.5}
+        - {x: -18, y: 4.5}
+        - {x: -18, y: -28.5}
+        - {x: -16, y: -32.5}
+        - {x: 14, y: -32.5}
+        - {x: 18, y: -24.5}
+        - {x: 18, y: 25.5}
+        - {x: 9, y: 32.5}
+    - name: bear-idle-bun_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 436
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 32.5}
+        - {x: -13.5, y: 32.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -18.5, y: -32.5}
+        - {x: 14.5, y: -32.5}
+        - {x: 16.5, y: -20.5}
+        - {x: 18.5, y: -3.5}
+        - {x: 18.5, y: 26.5}
+    - name: bear-idle-bun_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 433
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 360
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32.5}
+        - {x: -18, y: 16.5}
+        - {x: -18, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 18, y: 25.5}
+        - {x: 8, y: 32.5}
+    - name: bear-idle-bun_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 360
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 32.5}
+        - {x: -18, y: 20.5}
+        - {x: -18, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 18, y: 24.5}
+        - {x: 9, y: 32.5}
+    - name: bear-idle-bun_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 360
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 32.5}
+        - {x: -18, y: 13.5}
+        - {x: -18, y: -32.5}
+        - {x: 15, y: -32.5}
+        - {x: 18, y: -25.5}
+        - {x: 18, y: 27.5}
+        - {x: 14, y: 32.5}
+    - name: bear-idle-bun_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 360
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 32.5}
+        - {x: -18, y: 17.5}
+        - {x: -18, y: -32.5}
+        - {x: 15, y: -32.5}
+        - {x: 18, y: -23.5}
+        - {x: 18, y: 20.5}
+        - {x: 9, y: 32.5}
+    - name: bear-idle-bun_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 284
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32.5}
+        - {x: -18, y: 13.5}
+        - {x: -18, y: -27.5}
+        - {x: -17, y: -30.5}
+        - {x: -14, y: -32.5}
+        - {x: 17, y: -32.5}
+        - {x: 18, y: -10.5}
+        - {x: 18, y: 20.5}
+        - {x: 8, y: 32.5}
+    - name: bear-idle-bun_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 288
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -23.5}
+        - {x: -14, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 18, y: 29.5}
+        - {x: -8, y: 29.5}
+        - {x: -18, y: 7.5}
+    - name: bear-idle-bun_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 289
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 28.5}
+        - {x: -18, y: 7.5}
+        - {x: -18, y: -27.5}
+        - {x: -13, y: -32.5}
+        - {x: 8, y: -32.5}
+        - {x: 18, y: -29.5}
+        - {x: 18, y: 14.5}
+        - {x: 7, y: 28.5}
+    - name: bear-idle-bun_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 291
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26.5}
+        - {x: -16, y: 9.5}
+        - {x: -18, y: -3.5}
+        - {x: -18, y: -25.5}
+        - {x: -10, y: -32.5}
+        - {x: 10, y: -32.5}
+        - {x: 18, y: -26.5}
+        - {x: 18, y: 13.5}
+        - {x: 7, y: 26.5}
+    - name: bear-idle-bun_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_31
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_33
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 281
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 217
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 24.5}
+        - {x: -18, y: 0.5}
+        - {x: -18, y: -30.5}
+        - {x: -17, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 18, y: 18.5}
+        - {x: 10, y: 24.5}
+    - name: bear-idle-bun_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 215
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 24.5}
+        - {x: -18, y: 5.5}
+        - {x: -18, y: -32.5}
+        - {x: 14, y: -32.5}
+        - {x: 18, y: -31.5}
+        - {x: 18, y: 22.5}
+        - {x: 13, y: 24.5}
+    - name: bear-idle-bun_38
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 213
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25.5}
+        - {x: -18, y: 5.5}
+        - {x: -18, y: -28.5}
+        - {x: -7, y: -32.5}
+        - {x: 15, y: -32.5}
+        - {x: 18, y: -27.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 25.5}
+    - name: bear-idle-bun_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 211
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 25.5}
+        - {x: -13, y: 20.5}
+        - {x: -18, y: 0.5}
+        - {x: -18, y: -30.5}
+        - {x: -10, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 18, y: 22.5}
+        - {x: 12, y: 25.5}
+    - name: bear-idle-bun_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_42
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_43
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_44
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_45
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_46
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_47
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 206
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_49
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 133
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 27.5}
+        - {x: -18, y: 7.5}
+        - {x: -18, y: -30.5}
+        - {x: -12, y: -32.5}
+        - {x: 13, y: -32.5}
+        - {x: 18, y: -29.5}
+        - {x: 18, y: 13.5}
+        - {x: 9, y: 27.5}
+    - name: bear-idle-bun_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_51
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 133
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27.5}
+        - {x: -18, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 18, y: 27.5}
+    - name: bear-idle-bun_53
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_54
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 133
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -30.5}
+        - {x: -14, y: -32.5}
+        - {x: 15, y: -32.5}
+        - {x: 18, y: -29.5}
+        - {x: 18, y: 22.5}
+        - {x: 16, y: 27.5}
+        - {x: -3, y: 27.5}
+        - {x: -18, y: 8.5}
+    - name: bear-idle-bun_56
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_57
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-idle-bun_58
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 133
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 27.5}
+        - {x: -8, y: 27.5}
+        - {x: -18, y: 8.5}
+        - {x: -18, y: -29.5}
+        - {x: -6, y: -32.5}
+        - {x: 12, y: -32.5}
+        - {x: 18, y: -23.5}
+        - {x: 18, y: 26.5}
+    - name: bear-idle-bun_59
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 134
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

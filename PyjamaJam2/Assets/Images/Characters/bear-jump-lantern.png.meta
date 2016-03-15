@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: c9516147690478c4a864a4e3548aa455
+timeCreated: 1457995817
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-jump-lantern_0
+    21300002: bear-jump-lantern_1
+    21300004: bear-jump-lantern_2
+    21300006: bear-jump-lantern_3
+    21300008: bear-jump-lantern_4
+    21300010: bear-jump-lantern_5
+    21300012: bear-jump-lantern_6
+    21300014: bear-jump-lantern_7
+    21300016: bear-jump-lantern_8
+    21300018: bear-jump-lantern_9
+    21300020: bear-jump-lantern_10
+    21300022: bear-jump-lantern_11
+    21300024: bear-jump-lantern_12
+    21300026: bear-jump-lantern_13
+    21300028: bear-jump-lantern_14
+    21300030: bear-jump-lantern_15
+    21300032: bear-jump-lantern_16
+    21300034: bear-jump-lantern_17
+    21300036: bear-jump-lantern_18
+    21300038: bear-jump-lantern_19
+    21300040: bear-jump-lantern_20
+    21300042: bear-jump-lantern_21
+    21300044: bear-jump-lantern_22
+    21300046: bear-jump-lantern_23
+    21300048: bear-jump-lantern_24
+    21300050: bear-jump-lantern_25
+    21300052: bear-jump-lantern_26
+    21300054: bear-jump-lantern_27
+    21300056: bear-jump-lantern_28
+    21300058: bear-jump-lantern_29
+    21300060: bear-jump-lantern_30
+    21300062: bear-jump-lantern_31
+    21300064: bear-jump-lantern_32
+    21300066: bear-jump-lantern_33
+    21300068: bear-jump-lantern_34
+    21300070: bear-jump-lantern_35
+    21300072: bear-jump-lantern_36
+    21300074: bear-jump-lantern_37
+    21300076: bear-jump-lantern_38
+    21300078: bear-jump-lantern_39
+    21300080: bear-jump-lantern_40
+    21300082: bear-jump-lantern_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-jump-lantern_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 437
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 31}
+        - {x: -6, y: 22}
+        - {x: -11, y: 7}
+        - {x: -23, y: -16}
+        - {x: -23, y: -28}
+        - {x: -18, y: -31}
+        - {x: 23, y: -31}
+        - {x: 23, y: 27}
+        - {x: 15, y: 31}
+    - name: bear-jump-lantern_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 437
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 31}
+        - {x: -6.5, y: 24}
+        - {x: -12.5, y: 0}
+        - {x: -23.5, y: -17}
+        - {x: -23.5, y: -31}
+        - {x: 20.5, y: -31}
+        - {x: 23.5, y: -6}
+        - {x: 23.5, y: 21}
+        - {x: 12.5, y: 31}
+    - name: bear-jump-lantern_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 437
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 31.5}
+        - {x: -7, y: 23.5}
+        - {x: -24, y: -19.5}
+        - {x: -24, y: -27.5}
+        - {x: -20, y: -31.5}
+        - {x: 17, y: -31.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 20.5}
+        - {x: 11, y: 31.5}
+    - name: bear-jump-lantern_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 437
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 31.5}
+        - {x: -9, y: 23.5}
+        - {x: -24, y: -13.5}
+        - {x: -24, y: -31.5}
+        - {x: 14, y: -31.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 20.5}
+        - {x: 11, y: 31.5}
+    - name: bear-jump-lantern_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: -35}
+        - {x: 25.5, y: -21}
+        - {x: 26.5, y: -14}
+        - {x: 26.5, y: 33}
+        - {x: 24.5, y: 35}
+        - {x: -3.5, y: 35}
+        - {x: -14.5, y: 28}
+        - {x: -26.5, y: -15}
+        - {x: -26.5, y: -35}
+        - {x: -19.5, y: -35}
+        - {x: -12.5, y: -29}
+        - {x: -6.5, y: -23}
+        - {x: -7.5, y: -35}
+    - name: bear-jump-lantern_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 355
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 35}
+        - {x: -26.5, y: -11}
+        - {x: -26.5, y: -35}
+        - {x: 12.5, y: -35}
+        - {x: 26.5, y: -6}
+        - {x: 26.5, y: 29}
+        - {x: 14.5, y: 35}
+    - name: bear-jump-lantern_23
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 31}
+        - {x: 14.5, y: 35}
+        - {x: -2.5, y: 35}
+        - {x: -5.5, y: 28}
+        - {x: -26.5, y: -16}
+        - {x: -26.5, y: -35}
+        - {x: -17.5, y: -35}
+        - {x: 6.5, y: -30}
+        - {x: 23.5, y: -19}
+        - {x: 26.5, y: 0}
+    - name: bear-jump-lantern_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 355
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 35}
+        - {x: -12.5, y: 28}
+        - {x: -26.5, y: -21}
+        - {x: -26.5, y: -35}
+        - {x: 12.5, y: -35}
+        - {x: 26.5, y: -10}
+        - {x: 26.5, y: 35}
+    - name: bear-jump-lantern_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 27}
+        - {x: 18.5, y: 35}
+        - {x: -1.5, y: 35}
+        - {x: -12.5, y: 28}
+        - {x: -26.5, y: -21}
+        - {x: -26.5, y: -35}
+        - {x: -17.5, y: -35}
+        - {x: 6.5, y: -30}
+        - {x: 18.5, y: -18}
+        - {x: 26.5, y: 8}
+    - name: bear-jump-lantern_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 279
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 35}
+        - {x: -13.5, y: 28}
+        - {x: -26.5, y: -15}
+        - {x: -26.5, y: -35}
+        - {x: 11.5, y: -35}
+        - {x: 26.5, y: -1}
+        - {x: 26.5, y: 31}
+        - {x: 18.5, y: 35}
+    - name: bear-jump-lantern_31
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 279
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 35}
+        - {x: -5, y: 35}
+        - {x: -27, y: -16}
+        - {x: -27, y: -35}
+        - {x: -16, y: -35}
+        - {x: 9, y: -31}
+        - {x: 17, y: -17}
+        - {x: 27, y: 12}
+        - {x: 27, y: 26}
+    - name: bear-jump-lantern_33
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 4.5}
+        - {x: 27, y: 24.5}
+        - {x: 11, y: 32.5}
+        - {x: -4, y: 32.5}
+        - {x: -27, y: -13.5}
+        - {x: -27, y: -32.5}
+        - {x: 9, y: -32.5}
+        - {x: 25, y: -7.5}
+    - name: bear-jump-lantern_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32.5}
+        - {x: -27, y: -23.5}
+        - {x: -27, y: -32.5}
+        - {x: 9, y: -32.5}
+        - {x: 27, y: -14.5}
+        - {x: 27, y: 24.5}
+        - {x: 13, y: 32.5}
+    - name: bear-jump-lantern_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 208
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32.5}
+        - {x: -10, y: 24.5}
+        - {x: -27, y: -21.5}
+        - {x: -27, y: -32.5}
+        - {x: 13, y: -32.5}
+        - {x: 27, y: -11.5}
+        - {x: 27, y: 30.5}
+        - {x: 23, y: 32.5}
+    - name: bear-jump-lantern_39
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-lantern_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32.5}
+        - {x: -7, y: 23.5}
+        - {x: -27, y: -19.5}
+        - {x: -27, y: -32.5}
+        - {x: 21, y: -32.5}
+        - {x: 27, y: -10.5}
+        - {x: 27, y: 27.5}
+        - {x: 12, y: 32.5}
+    - name: bear-jump-lantern_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,7 +42,7 @@ public class Chili : Item {
                 if (currChar != character && currChar != null)
                 {
                     Debug.Log(currChar);
-                    currChar.animator.SetBool(currChar.charID + "Fire", false);
+                    currChar.animator.SetBool("fire", false);
                 }
             }
 
@@ -55,7 +55,7 @@ public class Chili : Item {
             {
                 if (currChar != character && currChar != null)
                 {
-                    currChar.animator.SetBool(currChar.charID + "Fire", true);
+                    currChar.animator.SetBool("fire", true);
                     Debug.Log("Fire in the hole");
                     if (currChar.lastPressedKey == currChar.inputRight)
                     {

@@ -28,14 +28,14 @@ public class Slippers : Item{
 	public override void TriggerEffect(){
 		this.character.currentJump = newHeightJump;
 		timer -= Time.deltaTime;
-		this.character.animator.SetBool (this.character.charID +"Slippers", true);
+		this.character.animator.SetBool ("slippers", true);
 	}
 
 	void updateTrigger(){
 		timer -= Time.deltaTime;
 
    		if (timer < 0) {
-			this.character.animator.SetBool (this.character.charID +"Slippers", false);
+			this.character.animator.SetBool ("slippers", false);
 			base.allItems.removeItemFromArray(this.gameObject);
 			Reset();
 			base.DestroySelf();

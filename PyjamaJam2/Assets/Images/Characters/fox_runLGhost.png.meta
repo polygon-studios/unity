@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: bdefb81e3b73110418851039d512bac2
+timeCreated: 1457981333
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_runLGhost_0
+    21300002: fox_runLGhost_1
+    21300004: fox_runLGhost_2
+    21300006: fox_runLGhost_3
+    21300008: fox_runLGhost_4
+    21300010: fox_runLGhost_5
+    21300012: fox_runLGhost_6
+    21300014: fox_runLGhost_7
+    21300016: fox_runLGhost_8
+    21300018: fox_runLGhost_9
+    21300020: fox_runLGhost_10
+    21300022: fox_runLGhost_11
+    21300024: fox_runLGhost_12
+    21300026: fox_runLGhost_13
+    21300028: fox_runLGhost_14
+    21300030: fox_runLGhost_15
+    21300032: fox_runLGhost_16
+    21300034: fox_runLGhost_17
+    21300036: fox_runLGhost_18
+    21300038: fox_runLGhost_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_runLGhost_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 441
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 35.5}
+        - {x: -28.5, y: 10.5}
+        - {x: -28.5, y: -30.5}
+        - {x: -17.5, y: -35.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 28.5, y: -31.5}
+        - {x: 28.5, y: 14.5}
+        - {x: 17.5, y: 35.5}
+    - name: fox_runLGhost_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 438
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 37}
+        - {x: -28, y: 12}
+        - {x: -28, y: -34}
+        - {x: -8, y: -37}
+        - {x: 18, y: -37}
+        - {x: 28, y: -32}
+        - {x: 28, y: 19}
+        - {x: 19, y: 37}
+    - name: fox_runLGhost_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 435
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 38.5}
+        - {x: -28, y: 9.5}
+        - {x: -28, y: -36.5}
+        - {x: -26, y: -38.5}
+        - {x: 28, y: -38.5}
+        - {x: 28, y: 14.5}
+        - {x: 17, y: 38.5}
+    - name: fox_runLGhost_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 436
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 38}
+        - {x: -28.5, y: 13}
+        - {x: -28.5, y: -29}
+        - {x: -24.5, y: -34}
+        - {x: -16.5, y: -38}
+        - {x: 25.5, y: -38}
+        - {x: 28.5, y: -32}
+        - {x: 28.5, y: 22}
+        - {x: 17.5, y: 38}
+    - name: fox_runLGhost_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 357
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 4.5}
+        - {x: 24.5, y: 4.5}
+        - {x: 28.5, y: 6.5}
+        - {x: 28.5, y: 38.5}
+        - {x: -8.5, y: 38.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -28.5, y: -25.5}
+        - {x: -20.5, y: -38.5}
+        - {x: 28.5, y: -38.5}
+        - {x: 28.5, y: 1.5}
+        - {x: 25.5, y: 4.5}
+    - name: fox_runLGhost_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 358
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 38}
+        - {x: -29, y: 28}
+        - {x: -29, y: -27}
+        - {x: -22, y: -38}
+        - {x: 29, y: -38}
+        - {x: 29, y: 38}
+    - name: fox_runLGhost_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 357
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -27.5}
+        - {x: 18, y: -30.5}
+        - {x: 29, y: -38.5}
+        - {x: 29, y: 31.5}
+        - {x: 24, y: 38.5}
+        - {x: -4, y: 38.5}
+        - {x: -29, y: 10.5}
+        - {x: -29, y: -20.5}
+        - {x: -28, y: -26.5}
+        - {x: -19, y: -38.5}
+        - {x: 15, y: -38.5}
+        - {x: 14, y: -24.5}
+        - {x: 14, y: -18.5}
+        - {x: 14, y: -23.5}
+    - name: fox_runLGhost_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 358
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -21}
+        - {x: 12.5, y: -18}
+        - {x: 14.5, y: -20}
+        - {x: 14.5, y: -22}
+        - {x: 15.5, y: -26}
+        - {x: 18.5, y: -32}
+        - {x: 29.5, y: -30}
+        - {x: 29.5, y: 16}
+        - {x: 18.5, y: 38}
+        - {x: -0.5, y: 38}
+        - {x: -29.5, y: 7}
+        - {x: -29.5, y: -30}
+        - {x: -16.5, y: -38}
+        - {x: 15.5, y: -38}
+        - {x: 16.5, y: -30}
+        - {x: 14.5, y: -23}
+    - name: fox_runLGhost_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 280
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 38.5}
+        - {x: -15.5, y: 26.5}
+        - {x: -29.5, y: 9.5}
+        - {x: -29.5, y: -33.5}
+        - {x: -26.5, y: -38.5}
+        - {x: 23.5, y: -38.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 29.5, y: 15.5}
+        - {x: 20.5, y: 38.5}
+    - name: fox_runLGhost_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 283
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 37}
+        - {x: -4.5, y: 37}
+        - {x: -29.5, y: 11}
+        - {x: -29.5, y: -27}
+        - {x: -28.5, y: -29}
+        - {x: -20.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 29.5, y: -32}
+        - {x: 29.5, y: 19}
+    - name: fox_runLGhost_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 287
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 35}
+        - {x: -29.5, y: 9}
+        - {x: -29.5, y: -32}
+        - {x: -21.5, y: -35}
+        - {x: 29.5, y: -35}
+        - {x: 29.5, y: 28}
+        - {x: 28.5, y: 35}
+    - name: fox_runLGhost_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 284
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 3}
+        - {x: 29.5, y: 8}
+        - {x: 29.5, y: 12}
+        - {x: 24.5, y: 23}
+        - {x: 17.5, y: 36}
+        - {x: 1.5, y: 36}
+        - {x: -1.5, y: 29}
+        - {x: -28.5, y: 18}
+        - {x: -29.5, y: 16}
+        - {x: -29.5, y: -31}
+        - {x: -8.5, y: -36}
+        - {x: 26.5, y: -36}
+        - {x: 29.5, y: -35}
+        - {x: 29.5, y: -1}
+    - name: fox_runLGhost_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 203
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 37.5}
+        - {x: -29, y: 11.5}
+        - {x: -29, y: -23.5}
+        - {x: -27, y: -35.5}
+        - {x: -6, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 29, y: -36.5}
+        - {x: 29, y: 23.5}
+        - {x: 26, y: 37.5}
+    - name: fox_runLGhost_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 203
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -23.5}
+        - {x: 15, y: -30.5}
+        - {x: 28, y: -31.5}
+        - {x: 29, y: -31.5}
+        - {x: 29, y: 18.5}
+        - {x: 17, y: 37.5}
+        - {x: 1, y: 37.5}
+        - {x: -2, y: 30.5}
+        - {x: -28, y: 14.5}
+        - {x: -29, y: 11.5}
+        - {x: -29, y: -26.5}
+        - {x: -24, y: -35.5}
+        - {x: -4, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 16, y: -32.5}
+        - {x: 15, y: -27.5}
+    - name: fox_runLGhost_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 202
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 38.5}
+        - {x: -28.5, y: 14.5}
+        - {x: -28.5, y: -26.5}
+        - {x: -23.5, y: -38.5}
+        - {x: 19.5, y: -38.5}
+        - {x: 28.5, y: -31.5}
+        - {x: 28.5, y: 13.5}
+        - {x: 17.5, y: 38.5}
+    - name: fox_runLGhost_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 204
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 37.5}
+        - {x: -28.5, y: 14.5}
+        - {x: -28.5, y: -25.5}
+        - {x: -27.5, y: -28.5}
+        - {x: -23.5, y: -37.5}
+        - {x: 28.5, y: -37.5}
+        - {x: 28.5, y: 16.5}
+        - {x: 17.5, y: 37.5}
+    - name: fox_runLGhost_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 37}
+        - {x: 0.5, y: 36}
+        - {x: -25.5, y: 17}
+        - {x: -28.5, y: 7}
+        - {x: -28.5, y: -27}
+        - {x: -27.5, y: -28}
+        - {x: -14.5, y: -37}
+        - {x: 8.5, y: -37}
+        - {x: 28.5, y: -33}
+        - {x: 28.5, y: 12}
+        - {x: 17.5, y: 37}
+    - name: fox_runLGhost_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 37}
+        - {x: -28, y: 30}
+        - {x: -28, y: -37}
+        - {x: 28, y: -37}
+        - {x: 28, y: 37}
+    - name: fox_runLGhost_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 127
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -29}
+        - {x: 16, y: -31}
+        - {x: 28, y: -31}
+        - {x: 28, y: 17}
+        - {x: 19, y: 37}
+        - {x: -2, y: 37}
+        - {x: -28, y: 10}
+        - {x: -28, y: -34}
+        - {x: -25, y: -37}
+        - {x: 11, y: -37}
+        - {x: 15, y: -33}
+        - {x: 15, y: -31}
+    - name: fox_runLGhost_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 128
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 36.5}
+        - {x: -13, y: 36.5}
+        - {x: -28, y: 17.5}
+        - {x: -28, y: -36.5}
+        - {x: 25, y: -36.5}
+        - {x: 28, y: -35.5}
+        - {x: 28, y: 19.5}
+        - {x: 27, y: 26.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

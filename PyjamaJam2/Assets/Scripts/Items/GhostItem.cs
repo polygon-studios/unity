@@ -30,7 +30,7 @@ public class GhostItem : Item {
 	public override void TriggerEffect(){
         //ask Ian how he is doing the character constants (perhaps need a constants page)
         //save last button press and continue direction of characters in here by going through a for loop of character array
-        this.character.animator.SetBool(this.character.charID + "Ghost", true);
+        this.character.animator.SetBool("ghost", true);
         this.character.invincible = true;
         this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.8f);
 
@@ -43,7 +43,7 @@ public class GhostItem : Item {
         if (timer < 0)
         {
             this.character.invincible = false;
-            this.character.animator.SetBool(this.character.charID + "Ghost", false);
+            this.character.animator.SetBool("ghost", false);
             this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
             base.allItems.removeItemFromArray(this.gameObject);
             base.DestroySelf();

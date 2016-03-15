@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 17090a5e44d157c458b3aac9cdad4f9c
+timeCreated: 1457998339
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-walk-lantern_0
+    21300002: bear-walk-lantern_1
+    21300004: bear-walk-lantern_2
+    21300006: bear-walk-lantern_3
+    21300008: bear-walk-lantern_4
+    21300010: bear-walk-lantern_5
+    21300012: bear-walk-lantern_6
+    21300014: bear-walk-lantern_7
+    21300016: bear-walk-lantern_8
+    21300018: bear-walk-lantern_9
+    21300020: bear-walk-lantern_10
+    21300022: bear-walk-lantern_11
+    21300024: bear-walk-lantern_12
+    21300026: bear-walk-lantern_13
+    21300028: bear-walk-lantern_14
+    21300030: bear-walk-lantern_15
+    21300032: bear-walk-lantern_16
+    21300034: bear-walk-lantern_17
+    21300036: bear-walk-lantern_18
+    21300038: bear-walk-lantern_19
+    21300040: bear-walk-lantern_20
+    21300042: bear-walk-lantern_21
+    21300044: bear-walk-lantern_22
+    21300046: bear-walk-lantern_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-walk-lantern_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 435
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 31}
+        - {x: -8.5, y: 31}
+        - {x: -21.5, y: 4}
+        - {x: -21.5, y: -31}
+        - {x: 15.5, y: -31}
+        - {x: 21.5, y: -28}
+        - {x: 21.5, y: 16}
+    - name: bear-walk-lantern_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 436
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -22.5}
+        - {x: 21, y: -22.5}
+        - {x: 21, y: 15.5}
+        - {x: 12, y: 30.5}
+        - {x: -4, y: 30.5}
+        - {x: -10, y: 28.5}
+        - {x: -21, y: -9.5}
+        - {x: -21, y: -30.5}
+        - {x: 11, y: -30.5}
+        - {x: 14, y: -24.5}
+        - {x: 10, y: -22.5}
+    - name: bear-walk-lantern_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 436
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30.5}
+        - {x: -15, y: 25.5}
+        - {x: -20, y: 12.5}
+        - {x: -20, y: -30.5}
+        - {x: 11, y: -30.5}
+        - {x: 20, y: -28.5}
+        - {x: 20, y: 22.5}
+        - {x: 15, y: 30.5}
+    - name: bear-walk-lantern_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 436
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 30}
+        - {x: -10.5, y: 29}
+        - {x: -15.5, y: 17}
+        - {x: -19.5, y: 8}
+        - {x: -19.5, y: -30}
+        - {x: 16.5, y: -30}
+        - {x: 19.5, y: -28}
+        - {x: 19.5, y: 15}
+        - {x: 12.5, y: 30}
+    - name: bear-walk-lantern_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 359
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 30.5}
+        - {x: -11, y: 29.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: -30.5}
+        - {x: 17, y: -30.5}
+        - {x: 19, y: -28.5}
+        - {x: 19, y: 16.5}
+        - {x: 10, y: 30.5}
+    - name: bear-walk-lantern_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 359
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 31}
+        - {x: -8, y: 31}
+        - {x: -19, y: 11}
+        - {x: -19, y: -29}
+        - {x: -16, y: -31}
+        - {x: 4, y: -31}
+        - {x: 5, y: -28}
+        - {x: 19, y: -21}
+        - {x: 19, y: 18}
+    - name: bear-walk-lantern_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 359
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 31.5}
+        - {x: -10, y: 31.5}
+        - {x: -19, y: 18.5}
+        - {x: -19, y: -31.5}
+        - {x: 16, y: -31.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: 23.5}
+        - {x: 16, y: 27.5}
+    - name: bear-walk-lantern_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 359
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -19, y: 30.5}
+        - {x: -19, y: -31.5}
+        - {x: 10, y: -31.5}
+        - {x: 19, y: -27.5}
+        - {x: 19, y: 18.5}
+        - {x: 8, y: 31.5}
+    - name: bear-walk-lantern_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 281
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: -31.5}
+        - {x: 4, y: -31.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: 19.5}
+        - {x: 7, y: 31.5}
+    - name: bear-walk-lantern_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 281
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -31.5}
+        - {x: 10, y: -31.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: 24.5}
+        - {x: 7, y: 31.5}
+    - name: bear-walk-lantern_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 280
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31.5}
+        - {x: -19, y: 17.5}
+        - {x: -19, y: -30.5}
+        - {x: -18, y: -31.5}
+        - {x: 10, y: -31.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: 25.5}
+        - {x: 8, y: 31.5}
+    - name: bear-walk-lantern_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 279
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -18}
+        - {x: 19.5, y: -18}
+        - {x: 19.5, y: 19}
+        - {x: 7.5, y: 32}
+        - {x: -5.5, y: 32}
+        - {x: -18.5, y: 15}
+        - {x: -19.5, y: 8}
+        - {x: -19.5, y: -32}
+        - {x: 3.5, y: -32}
+        - {x: 12.5, y: -25}
+        - {x: 11.5, y: -22}
+        - {x: 9.5, y: -20}
+    - name: bear-walk-lantern_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 200
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -32}
+        - {x: 7.5, y: -32}
+        - {x: 20.5, y: -25}
+        - {x: 20.5, y: 17}
+        - {x: 17.5, y: 28}
+        - {x: 11.5, y: 32}
+        - {x: -10.5, y: 32}
+        - {x: -20.5, y: 14}
+    - name: bear-walk-lantern_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 200
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 25}
+        - {x: 19, y: 32}
+        - {x: -11, y: 32}
+        - {x: -21, y: 8}
+        - {x: -21, y: -31}
+        - {x: -20, y: -32}
+        - {x: -8, y: -32}
+        - {x: -8, y: -29}
+        - {x: 9, y: -30}
+        - {x: 21, y: -27}
+    - name: bear-walk-lantern_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 200
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -20}
+        - {x: 8, y: -19}
+        - {x: 8, y: -14}
+        - {x: 8, y: -17}
+        - {x: 10, y: -22}
+        - {x: 21, y: -22}
+        - {x: 21, y: 21}
+        - {x: 12, y: 32}
+        - {x: -9, y: 32}
+        - {x: -21, y: 20}
+        - {x: -21, y: -32}
+        - {x: 8, y: -32}
+        - {x: 14, y: -25}
+        - {x: 12, y: -22}
+        - {x: 9, y: -22}
+    - name: bear-walk-lantern_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 201
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: -22.5}
+        - {x: 21.5, y: -21.5}
+        - {x: 21.5, y: 17.5}
+        - {x: 13.5, y: 31.5}
+        - {x: -10.5, y: 31.5}
+        - {x: -21.5, y: 3.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 8.5, y: -31.5}
+        - {x: 13.5, y: -30.5}
+        - {x: 8.5, y: -18.5}
+        - {x: 8.5, y: -14.5}
+        - {x: 8.5, y: -16.5}
+    - name: bear-walk-lantern_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 121
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 32.5}
+        - {x: -12.5, y: 29.5}
+        - {x: -19.5, y: 4.5}
+        - {x: -20.5, y: -2.5}
+        - {x: -20.5, y: -28.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 20.5, y: -29.5}
+        - {x: 20.5, y: 30.5}
+        - {x: 17.5, y: 32.5}
+    - name: bear-walk-lantern_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 121
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 32.5}
+        - {x: -18, y: 28.5}
+        - {x: -19, y: 24.5}
+        - {x: -19, y: -30.5}
+        - {x: -18, y: -32.5}
+        - {x: 5, y: -32.5}
+        - {x: 6, y: -31.5}
+        - {x: 19, y: -21.5}
+        - {x: 19, y: 18.5}
+        - {x: 12, y: 32.5}
+    - name: bear-walk-lantern_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 121
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 18}
+        - {x: 8, y: 33}
+        - {x: -5, y: 33}
+        - {x: -13, y: 26}
+        - {x: -19, y: 8}
+        - {x: -19, y: -26}
+        - {x: -15, y: -33}
+        - {x: 0, y: -33}
+        - {x: 3, y: -24}
+        - {x: 19, y: -20}
+    - name: bear-walk-lantern_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 121
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 33}
+        - {x: -19, y: 15}
+        - {x: -19, y: -33}
+        - {x: -1, y: -33}
+        - {x: 19, y: -20}
+        - {x: 19, y: 27}
+        - {x: 9, y: 33}
+    - name: bear-walk-lantern_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 43
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 32.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: -30.5}
+        - {x: -16, y: -32.5}
+        - {x: 19, y: -32.5}
+        - {x: 19, y: 32.5}
+    - name: bear-walk-lantern_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 43
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 32.5}
+        - {x: -5.5, y: 32.5}
+        - {x: -12.5, y: 23.5}
+        - {x: -15.5, y: 15.5}
+        - {x: -19.5, y: 1.5}
+        - {x: -19.5, y: -32.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 19.5, y: -21.5}
+        - {x: 19.5, y: 19.5}
+    - name: bear-walk-lantern_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 43
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 32}
+        - {x: -14.5, y: 27}
+        - {x: -20.5, y: 6}
+        - {x: -20.5, y: -32}
+        - {x: 13.5, y: -32}
+        - {x: 20.5, y: -24}
+        - {x: 20.5, y: 20}
+        - {x: 14.5, y: 32}
+    - name: bear-walk-lantern_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 43
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -21.5}
+        - {x: 21, y: -21.5}
+        - {x: 21, y: 21.5}
+        - {x: 10, y: 31.5}
+        - {x: -5, y: 31.5}
+        - {x: -17, y: 15.5}
+        - {x: -21, y: -10.5}
+        - {x: -21, y: -31.5}
+        - {x: 9, y: -31.5}
+        - {x: 11, y: -27.5}
+        - {x: 11, y: -26.5}
+        - {x: 8, y: -23.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

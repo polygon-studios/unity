@@ -1,0 +1,770 @@
+fileFormatVersion: 2
+guid: 0cbc2dc08f5b40746b36b5e2442eebd9
+timeCreated: 1457979694
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_jumpBL_0
+    21300002: fox_jumpBL_1
+    21300004: fox_jumpBL_2
+    21300006: fox_jumpBL_3
+    21300008: fox_jumpBL_4
+    21300010: fox_jumpBL_5
+    21300012: fox_jumpBL_6
+    21300014: fox_jumpBL_7
+    21300016: fox_jumpBL_8
+    21300018: fox_jumpBL_9
+    21300020: fox_jumpBL_10
+    21300022: fox_jumpBL_11
+    21300024: fox_jumpBL_12
+    21300026: fox_jumpBL_13
+    21300028: fox_jumpBL_14
+    21300030: fox_jumpBL_15
+    21300032: fox_jumpBL_16
+    21300034: fox_jumpBL_17
+    21300036: fox_jumpBL_18
+    21300038: fox_jumpBL_19
+    21300040: fox_jumpBL_20
+    21300042: fox_jumpBL_21
+    21300044: fox_jumpBL_22
+    21300046: fox_jumpBL_23
+    21300048: fox_jumpBL_24
+    21300050: fox_jumpBL_25
+    21300052: fox_jumpBL_26
+    21300054: fox_jumpBL_27
+    21300056: fox_jumpBL_28
+    21300058: fox_jumpBL_29
+    21300060: fox_jumpBL_30
+    21300062: fox_jumpBL_31
+    21300064: fox_jumpBL_32
+    21300066: fox_jumpBL_33
+    21300068: fox_jumpBL_34
+    21300070: fox_jumpBL_35
+    21300072: fox_jumpBL_36
+    21300074: fox_jumpBL_37
+    21300076: fox_jumpBL_38
+    21300078: fox_jumpBL_39
+    21300080: fox_jumpBL_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_jumpBL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 437
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 37.5}
+        - {x: -23, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 23, y: -22.5}
+        - {x: 23, y: 34.5}
+        - {x: 20, y: 37.5}
+    - name: fox_jumpBL_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -22.5, y: -37}
+        - {x: 20.5, y: -37}
+        - {x: 22.5, y: -30}
+        - {x: 22.5, y: 28}
+        - {x: 19.5, y: 37}
+    - name: fox_jumpBL_5
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 437
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 37}
+        - {x: -23.5, y: 36}
+        - {x: -23.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 23.5, y: -7}
+        - {x: 23.5, y: 23}
+        - {x: 9.5, y: 37}
+    - name: fox_jumpBL_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 31}
+        - {x: 17.5, y: 40}
+        - {x: -13.5, y: 40}
+        - {x: -25.5, y: 36}
+        - {x: -21.5, y: 15}
+        - {x: -15.5, y: 11}
+        - {x: -5.5, y: 9}
+        - {x: -1.5, y: 9}
+        - {x: -3.5, y: 9}
+        - {x: -9.5, y: 3}
+        - {x: -23.5, y: -22}
+        - {x: -26.5, y: -27}
+        - {x: -26.5, y: -40}
+        - {x: -14.5, y: -40}
+        - {x: 9.5, y: -37}
+        - {x: 24.5, y: -23}
+        - {x: 26.5, y: -7}
+      - - {x: -7.5, y: -37}
+        - {x: -7.5, y: -40}
+        - {x: 7.5, y: -40}
+        - {x: 5.5, y: -35}
+        - {x: 0.5, y: -34}
+        - {x: -5.5, y: -35}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpBL_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: -34}
+        - {x: 24.5, y: -25}
+        - {x: 26.5, y: -15}
+        - {x: 26.5, y: 35}
+        - {x: 18.5, y: 40}
+        - {x: -19.5, y: 40}
+        - {x: -26.5, y: 38}
+        - {x: -26.5, y: -40}
+        - {x: 7.5, y: -40}
+        - {x: 7.5, y: -39}
+        - {x: 2.5, y: -34}
+        - {x: 0.5, y: -34}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpBL_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 355
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 40}
+        - {x: -15.5, y: 40}
+        - {x: -26.5, y: 15}
+        - {x: -26.5, y: -40}
+        - {x: -16.5, y: -40}
+        - {x: 6.5, y: -35}
+        - {x: 25.5, y: -30}
+        - {x: 26.5, y: -24}
+        - {x: 26.5, y: 36}
+      - - {x: -6.5, y: -35}
+        - {x: -8.5, y: -40}
+        - {x: 7.5, y: -40}
+        - {x: 7.5, y: -39}
+        - {x: 5.5, y: -35}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpBL_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 39.5}
+        - {x: -26.5, y: 39.5}
+        - {x: -26.5, y: -39.5}
+        - {x: 10.5, y: -39.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 26.5, y: -11.5}
+        - {x: 26.5, y: 25.5}
+      - - {x: -8.5, y: -39.5}
+        - {x: 6.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: -7.5, y: -33.5}
+        - {x: -8.5, y: -37.5}
+      - - {x: -26.5, y: 39.5}
+        - {x: -26.5, y: 34.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -20.5, y: 39.5}
+    - name: fox_jumpBL_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 355
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 40}
+        - {x: -24.5, y: 27}
+        - {x: -26.5, y: 12}
+        - {x: -26.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 26.5, y: -11}
+        - {x: 26.5, y: 38}
+        - {x: 19.5, y: 40}
+      - - {x: -6.5, y: -35}
+        - {x: -8.5, y: -38}
+        - {x: -8.5, y: -40}
+        - {x: 6.5, y: -40}
+        - {x: 6.5, y: -39}
+        - {x: 3.5, y: -35}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpBL_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: -22}
+        - {x: 19.5, y: -9}
+        - {x: 26.5, y: 5}
+        - {x: 26.5, y: 26}
+        - {x: 5.5, y: 40}
+        - {x: -26.5, y: 40}
+        - {x: -26.5, y: -40}
+        - {x: 7.5, y: -40}
+        - {x: 2.5, y: -35}
+        - {x: 5.5, y: -34}
+      - - {x: -26.5, y: 40}
+        - {x: -26.5, y: 34}
+        - {x: -22.5, y: 34}
+        - {x: -20.5, y: 36}
+        - {x: -20.5, y: 40}
+    - name: fox_jumpBL_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 279
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 39.5}
+        - {x: -23.5, y: 24.5}
+        - {x: -26.5, y: -0.5}
+        - {x: -26.5, y: -39.5}
+        - {x: 18.5, y: -39.5}
+        - {x: 26.5, y: -5.5}
+        - {x: 26.5, y: 33.5}
+        - {x: 8.5, y: 39.5}
+      - - {x: -7.5, y: -33.5}
+        - {x: -8.5, y: -36.5}
+        - {x: -8.5, y: -39.5}
+        - {x: 6.5, y: -39.5}
+        - {x: 6.5, y: -38.5}
+        - {x: 3.5, y: -33.5}
+      - - {x: -26.5, y: 39.5}
+        - {x: -26.5, y: 34.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -20.5, y: 39.5}
+    - name: fox_jumpBL_26
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_27
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 279
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 40}
+        - {x: -11, y: 40}
+        - {x: -27, y: 34}
+        - {x: -27, y: -40}
+        - {x: -8, y: -40}
+        - {x: 17, y: -32}
+        - {x: 27, y: 5}
+        - {x: 27, y: 25}
+      - - {x: -8, y: -35}
+        - {x: -9, y: -37}
+        - {x: -9, y: -40}
+        - {x: 6, y: -40}
+        - {x: 6, y: -39}
+        - {x: 3, y: -35}
+      - - {x: -27, y: 40}
+        - {x: -27, y: 34}
+        - {x: -23, y: 34}
+        - {x: -21, y: 36}
+        - {x: -21, y: 40}
+    - name: fox_jumpBL_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 37}
+        - {x: -27, y: 26}
+        - {x: -27, y: -37}
+        - {x: 18, y: -37}
+        - {x: 27, y: -24}
+        - {x: 27, y: 28}
+        - {x: 6, y: 37}
+      - - {x: -27, y: 37}
+        - {x: -27, y: 32}
+        - {x: -23, y: 32}
+        - {x: -21, y: 34}
+        - {x: -21, y: 37}
+    - name: fox_jumpBL_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_32
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_33
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 37}
+        - {x: -27, y: 28}
+        - {x: -27, y: -37}
+        - {x: 11, y: -37}
+        - {x: 27, y: -14}
+        - {x: 27, y: 29}
+        - {x: 17, y: 37}
+      - - {x: -27, y: 37}
+        - {x: -27, y: 32}
+        - {x: -23, y: 32}
+        - {x: -21, y: 34}
+        - {x: -21, y: 37}
+    - name: fox_jumpBL_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 208
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 37.5}
+        - {x: -13, y: 37.5}
+        - {x: -27, y: 25.5}
+        - {x: -27, y: -37.5}
+        - {x: 7, y: -37.5}
+        - {x: 17, y: -24.5}
+        - {x: 27, y: 7.5}
+        - {x: 27, y: 21.5}
+      - - {x: -27, y: 37.5}
+        - {x: -27, y: 31.5}
+        - {x: -23, y: 31.5}
+        - {x: -21, y: 33.5}
+        - {x: -21, y: 37.5}
+    - name: fox_jumpBL_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_jumpBL_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37}
+        - {x: -27, y: 24}
+        - {x: -27, y: -37}
+        - {x: 21, y: -37}
+        - {x: 27, y: -15}
+        - {x: 27, y: 26}
+        - {x: 12, y: 37}
+      - - {x: -27, y: 37}
+        - {x: -27, y: 32}
+        - {x: -23, y: 32}
+        - {x: -21, y: 34}
+        - {x: -21, y: 37}
+    - name: fox_jumpBL_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

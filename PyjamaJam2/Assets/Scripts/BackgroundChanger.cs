@@ -40,7 +40,8 @@ public class BackgroundChanger : MonoBehaviour {
 
 			//turn characters lights on
 			foreach (Character character in GM.CHARACTERS) {
-				character.activateLight();
+                if(character != null)
+				    character.activateLight();
 			}
 
             //set items to night mode

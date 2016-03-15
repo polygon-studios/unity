@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 20b06516c162755489f94de5d91d1546
+timeCreated: 1457983576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_idleLSlippers_0
+    21300002: fox_idleLSlippers_1
+    21300004: fox_idleLSlippers_2
+    21300006: fox_idleLSlippers_3
+    21300008: fox_idleLSlippers_4
+    21300010: fox_idleLSlippers_5
+    21300012: fox_idleLSlippers_6
+    21300014: fox_idleLSlippers_7
+    21300016: fox_idleLSlippers_8
+    21300018: fox_idleLSlippers_9
+    21300020: fox_idleLSlippers_10
+    21300022: fox_idleLSlippers_11
+    21300024: fox_idleLSlippers_12
+    21300026: fox_idleLSlippers_13
+    21300028: fox_idleLSlippers_14
+    21300030: fox_idleLSlippers_15
+    21300032: fox_idleLSlippers_16
+    21300034: fox_idleLSlippers_17
+    21300036: fox_idleLSlippers_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_idleLSlippers_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 435
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 37.5}
+        - {x: -11, y: 25.5}
+        - {x: -11, y: 10.5}
+        - {x: -14, y: 12.5}
+        - {x: -19, y: 16.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 24, y: -35.5}
+        - {x: 24, y: 26.5}
+        - {x: 16, y: 37.5}
+    - name: fox_idleLSlippers_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 435
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 37.5}
+        - {x: -11, y: 24.5}
+        - {x: -11, y: 10.5}
+        - {x: -8, y: 7.5}
+        - {x: -11, y: 10.5}
+        - {x: -12, y: 12.5}
+        - {x: -20, y: 17.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -18.5}
+        - {x: -20, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 24, y: -34.5}
+        - {x: 24, y: 22.5}
+        - {x: 9, y: 37.5}
+    - name: fox_idleLSlippers_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 435
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 37.5}
+        - {x: -18, y: 26.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -28.5}
+        - {x: -20, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 24, y: -32.5}
+        - {x: 24, y: 21.5}
+        - {x: 12, y: 37.5}
+    - name: fox_idleLSlippers_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 435
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 37.5}
+        - {x: -23.5, y: 26.5}
+        - {x: -23.5, y: -25.5}
+        - {x: -21.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 23.5, y: -36.5}
+        - {x: 23.5, y: 25.5}
+        - {x: 9.5, y: 37.5}
+    - name: fox_idleLSlippers_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 357
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 37.5}
+        - {x: -10.5, y: 26.5}
+        - {x: -21.5, y: 19.5}
+        - {x: -23.5, y: 17.5}
+        - {x: -23.5, y: -15.5}
+        - {x: -20.5, y: -37.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 23.5, y: -34.5}
+        - {x: 23.5, y: 27.5}
+        - {x: 17.5, y: 37.5}
+    - name: fox_idleLSlippers_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 357
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 37.5}
+        - {x: -19, y: 27.5}
+        - {x: -23, y: 20.5}
+        - {x: -23, y: -28.5}
+        - {x: -19, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 23, y: -35.5}
+        - {x: 23, y: 25.5}
+        - {x: 11, y: 37.5}
+    - name: fox_idleLSlippers_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 357
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 37.5}
+        - {x: -7, y: 37.5}
+        - {x: -22, y: 24.5}
+        - {x: -22, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 22, y: 26.5}
+        - {x: 12, y: 36.5}
+    - name: fox_idleLSlippers_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 357
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 37.5}
+        - {x: -22, y: 27.5}
+        - {x: -22, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 22, y: 37.5}
+    - name: fox_idleLSlippers_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 279
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37.5}
+        - {x: -22, y: 28.5}
+        - {x: -22, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 22, y: 30.5}
+        - {x: 12, y: 37.5}
+    - name: fox_idleLSlippers_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 279
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 37.5}
+        - {x: -9.5, y: 37.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -21.5, y: -35.5}
+        - {x: -19.5, y: -37.5}
+        - {x: 16.5, y: -37.5}
+        - {x: 21.5, y: -34.5}
+        - {x: 21.5, y: 29.5}
+    - name: fox_idleLSlippers_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 279
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 37.5}
+        - {x: -22, y: 22.5}
+        - {x: -22, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 22, y: -36.5}
+        - {x: 22, y: 20.5}
+        - {x: 13, y: 37.5}
+    - name: fox_idleLSlippers_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 279
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 37.5}
+        - {x: -22.5, y: 30.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -37.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 22.5, y: 35.5}
+        - {x: 20.5, y: 37.5}
+    - name: fox_idleLSlippers_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 201
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 37.5}
+        - {x: -23, y: 23.5}
+        - {x: -23, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 23, y: -34.5}
+        - {x: 23, y: 24.5}
+        - {x: 8, y: 37.5}
+    - name: fox_idleLSlippers_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 201
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 37.5}
+        - {x: -22.5, y: 29.5}
+        - {x: -22.5, y: -37.5}
+        - {x: 17.5, y: -37.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 15.5, y: 37.5}
+    - name: fox_idleLSlippers_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 201
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 37.5}
+        - {x: -23, y: 30.5}
+        - {x: -23, y: -28.5}
+        - {x: -21, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 23, y: -35.5}
+        - {x: 23, y: 27.5}
+        - {x: 9, y: 37.5}
+    - name: fox_idleLSlippers_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 201
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 37.5}
+        - {x: -23, y: 20.5}
+        - {x: -23, y: -32.5}
+        - {x: -22, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 23, y: -36.5}
+        - {x: 23, y: 28.5}
+        - {x: 11, y: 37.5}
+    - name: fox_idleLSlippers_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 123
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 37.5}
+        - {x: -21.5, y: 37.5}
+        - {x: -23.5, y: 35.5}
+        - {x: -23.5, y: -32.5}
+        - {x: -18.5, y: -37.5}
+        - {x: 17.5, y: -37.5}
+        - {x: 23.5, y: -32.5}
+        - {x: 23.5, y: 28.5}
+    - name: fox_idleLSlippers_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 123
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 37.5}
+        - {x: -24, y: 30.5}
+        - {x: -24, y: -28.5}
+        - {x: -20, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 24, y: -34.5}
+        - {x: 24, y: 22.5}
+        - {x: 19, y: 37.5}
+    - name: fox_idleLSlippers_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 123
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 37.5}
+        - {x: -11, y: 25.5}
+        - {x: -24, y: 19.5}
+        - {x: -24, y: -1.5}
+        - {x: -22, y: -4.5}
+        - {x: -24, y: -15.5}
+        - {x: -19, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 24, y: 24.5}
+        - {x: 20, y: 37.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

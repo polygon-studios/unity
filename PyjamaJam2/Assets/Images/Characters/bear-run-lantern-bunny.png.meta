@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: bd4a7fa9b8ae4cb4eb5d77f056f42ec2
+timeCreated: 1457998729
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-run-lantern-bunny_0
+    21300002: bear-run-lantern-bunny_1
+    21300004: bear-run-lantern-bunny_2
+    21300006: bear-run-lantern-bunny_3
+    21300008: bear-run-lantern-bunny_4
+    21300010: bear-run-lantern-bunny_5
+    21300012: bear-run-lantern-bunny_6
+    21300014: bear-run-lantern-bunny_7
+    21300016: bear-run-lantern-bunny_8
+    21300018: bear-run-lantern-bunny_9
+    21300020: bear-run-lantern-bunny_10
+    21300022: bear-run-lantern-bunny_11
+    21300024: bear-run-lantern-bunny_12
+    21300026: bear-run-lantern-bunny_13
+    21300028: bear-run-lantern-bunny_14
+    21300030: bear-run-lantern-bunny_15
+    21300032: bear-run-lantern-bunny_16
+    21300034: bear-run-lantern-bunny_17
+    21300036: bear-run-lantern-bunny_18
+    21300038: bear-run-lantern-bunny_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-run-lantern-bunny_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 439
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 29}
+        - {x: -30, y: -10}
+        - {x: -30, y: -26}
+        - {x: -24, y: -29}
+        - {x: 19, y: -29}
+        - {x: 30, y: -24}
+        - {x: 30, y: 13}
+        - {x: 19, y: 29}
+    - name: bear-run-lantern-bunny_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 437
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -30}
+        - {x: 29, y: 30}
+        - {x: -9, y: 30}
+        - {x: -29, y: 17}
+        - {x: -29, y: -30}
+    - name: bear-run-lantern-bunny_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 435
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 31}
+        - {x: -28, y: -9}
+        - {x: -28, y: -27}
+        - {x: -18, y: -31}
+        - {x: 20, y: -31}
+        - {x: 28, y: -27}
+        - {x: 28, y: 24}
+        - {x: 27, y: 31}
+    - name: bear-run-lantern-bunny_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 435
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 31}
+        - {x: -26.5, y: 0}
+        - {x: -26.5, y: -30}
+        - {x: -12.5, y: -30}
+        - {x: -8.5, y: -27}
+        - {x: -7.5, y: -23}
+        - {x: -7.5, y: -25}
+        - {x: -8.5, y: -26}
+        - {x: -8.5, y: -30}
+        - {x: -7.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 26.5, y: -27}
+        - {x: 26.5, y: 25}
+        - {x: 25.5, y: 31}
+    - name: bear-run-lantern-bunny_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 356
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: -31}
+        - {x: 25.5, y: -31}
+        - {x: 25.5, y: 23}
+        - {x: 23.5, y: 31}
+        - {x: -0.5, y: 31}
+        - {x: -25.5, y: -5}
+    - name: bear-run-lantern-bunny_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 356
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 31}
+        - {x: -21.5, y: 7}
+        - {x: -21.5, y: -28}
+        - {x: -20.5, y: -31}
+        - {x: 21.5, y: -31}
+        - {x: 21.5, y: 23}
+        - {x: 19.5, y: 31}
+    - name: bear-run-lantern-bunny_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 356
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 31}
+        - {x: -14.5, y: 25}
+        - {x: -21.5, y: -1}
+        - {x: -21.5, y: -31}
+        - {x: 10.5, y: -31}
+        - {x: 21.5, y: -22}
+        - {x: 21.5, y: 14}
+        - {x: 13.5, y: 31}
+    - name: bear-run-lantern-bunny_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 354
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 13}
+        - {x: -22, y: -32}
+        - {x: 18, y: -32}
+        - {x: 22, y: -26}
+        - {x: 22, y: 30}
+        - {x: 20, y: 32}
+    - name: bear-run-lantern-bunny_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 274
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -1.5}
+        - {x: -23.5, y: -32.5}
+        - {x: 3.5, y: -32.5}
+        - {x: 23.5, y: -26.5}
+        - {x: 23.5, y: 20.5}
+        - {x: 20.5, y: 32.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -14.5, y: 27.5}
+    - name: bear-run-lantern-bunny_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 275
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 32}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: -32}
+        - {x: 9.5, y: -32}
+        - {x: 24.5, y: -27}
+        - {x: 24.5, y: 16}
+        - {x: 17.5, y: 32}
+    - name: bear-run-lantern-bunny_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 275
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 31.5}
+        - {x: -30, y: -4.5}
+        - {x: -30, y: -31.5}
+        - {x: 25, y: -31.5}
+        - {x: 30, y: -28.5}
+        - {x: 30, y: 17.5}
+        - {x: 27, y: 31.5}
+    - name: bear-run-lantern-bunny_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 273
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 32.5}
+        - {x: -2.5, y: 31.5}
+        - {x: -28.5, y: -13.5}
+        - {x: -28.5, y: -30.5}
+        - {x: -26.5, y: -32.5}
+        - {x: 26.5, y: -32.5}
+        - {x: 28.5, y: -31.5}
+        - {x: 28.5, y: 30.5}
+        - {x: 27.5, y: 32.5}
+    - name: bear-run-lantern-bunny_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 192
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 33}
+        - {x: -27.5, y: -6}
+        - {x: -27.5, y: -26}
+        - {x: -21.5, y: -33}
+        - {x: 14.5, y: -33}
+        - {x: 20.5, y: -32}
+        - {x: 27.5, y: -24}
+        - {x: 27.5, y: 17}
+        - {x: 24.5, y: 33}
+    - name: bear-run-lantern-bunny_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 195
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -31.5}
+        - {x: 26.5, y: -27.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 21.5, y: 31.5}
+        - {x: -2.5, y: 31.5}
+        - {x: -4.5, y: 30.5}
+        - {x: -26.5, y: -12.5}
+        - {x: -26.5, y: -26.5}
+        - {x: -18.5, y: -31.5}
+        - {x: -3.5, y: -31.5}
+        - {x: -0.5, y: -29.5}
+        - {x: -1.5, y: -29.5}
+        - {x: 2.5, y: -31.5}
+    - name: bear-run-lantern-bunny_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 195
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 31.5}
+        - {x: 1, y: 31.5}
+        - {x: -9, y: 27.5}
+        - {x: -25, y: -9.5}
+        - {x: -25, y: -30.5}
+        - {x: -18, y: -31.5}
+        - {x: 17, y: -31.5}
+        - {x: 25, y: -18.5}
+        - {x: 25, y: 15.5}
+    - name: bear-run-lantern-bunny_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 197
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 30.5}
+        - {x: -16.5, y: 27.5}
+        - {x: -21.5, y: 8.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 6.5, y: -30.5}
+        - {x: 21.5, y: -26.5}
+        - {x: 21.5, y: 23.5}
+        - {x: 16.5, y: 30.5}
+    - name: bear-run-lantern-bunny_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 115
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -18}
+        - {x: 21.5, y: 17}
+        - {x: 13.5, y: 31}
+        - {x: -2.5, y: 31}
+        - {x: -13.5, y: 27}
+        - {x: -21.5, y: 5}
+        - {x: -21.5, y: -30}
+        - {x: -19.5, y: -31}
+        - {x: 8.5, y: -31}
+        - {x: 10.5, y: -28}
+        - {x: 9.5, y: -19}
+        - {x: 11.5, y: -20}
+    - name: bear-run-lantern-bunny_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 116
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 31}
+        - {x: -22, y: -4}
+        - {x: -22, y: -31}
+        - {x: 13, y: -31}
+        - {x: 22, y: -21}
+        - {x: 22, y: 19}
+        - {x: 12, y: 31}
+    - name: bear-run-lantern-bunny_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 117
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -30.5}
+        - {x: 14.5, y: -30.5}
+        - {x: 23.5, y: -28.5}
+        - {x: 23.5, y: 17.5}
+        - {x: 19.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: -23.5, y: 6.5}
+    - name: bear-run-lantern-bunny_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 119
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 29.5}
+        - {x: -26, y: -10.5}
+        - {x: -26, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 26, y: -26.5}
+        - {x: 26, y: 21.5}
+        - {x: 17, y: 29.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

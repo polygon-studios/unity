@@ -1,0 +1,810 @@
+fileFormatVersion: 2
+guid: 78f961d8140c85747a3a625ef4f293e6
+timeCreated: 1457994505
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-jump-ghost_0
+    21300002: bear-jump-ghost_1
+    21300004: bear-jump-ghost_2
+    21300006: bear-jump-ghost_3
+    21300008: bear-jump-ghost_4
+    21300010: bear-jump-ghost_5
+    21300012: bear-jump-ghost_6
+    21300014: bear-jump-ghost_7
+    21300016: bear-jump-ghost_8
+    21300018: bear-jump-ghost_9
+    21300020: bear-jump-ghost_10
+    21300022: bear-jump-ghost_11
+    21300024: bear-jump-ghost_12
+    21300026: bear-jump-ghost_13
+    21300028: bear-jump-ghost_14
+    21300030: bear-jump-ghost_15
+    21300032: bear-jump-ghost_16
+    21300034: bear-jump-ghost_17
+    21300036: bear-jump-ghost_18
+    21300038: bear-jump-ghost_19
+    21300040: bear-jump-ghost_20
+    21300042: bear-jump-ghost_21
+    21300044: bear-jump-ghost_22
+    21300046: bear-jump-ghost_23
+    21300048: bear-jump-ghost_24
+    21300050: bear-jump-ghost_25
+    21300052: bear-jump-ghost_26
+    21300054: bear-jump-ghost_27
+    21300056: bear-jump-ghost_28
+    21300058: bear-jump-ghost_29
+    21300060: bear-jump-ghost_30
+    21300062: bear-jump-ghost_31
+    21300064: bear-jump-ghost_32
+    21300066: bear-jump-ghost_33
+    21300068: bear-jump-ghost_34
+    21300070: bear-jump-ghost_35
+    21300072: bear-jump-ghost_36
+    21300074: bear-jump-ghost_37
+    21300076: bear-jump-ghost_38
+    21300078: bear-jump-ghost_39
+    21300080: bear-jump-ghost_40
+    21300082: bear-jump-ghost_41
+    21300084: bear-jump-ghost_42
+    21300086: bear-jump-ghost_43
+    21300088: bear-jump-ghost_44
+    21300090: bear-jump-ghost_45
+    21300092: bear-jump-ghost_46
+    21300094: bear-jump-ghost_47
+    21300096: bear-jump-ghost_48
+    21300098: bear-jump-ghost_49
+    21300100: bear-jump-ghost_50
+    21300102: bear-jump-ghost_51
+    21300104: bear-jump-ghost_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-jump-ghost_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 437
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 32}
+        - {x: -19.5, y: 17}
+        - {x: -19.5, y: -31}
+        - {x: -8.5, y: -32}
+        - {x: 13.5, y: -32}
+        - {x: 19.5, y: -19}
+        - {x: 19.5, y: 27}
+        - {x: 18.5, y: 32}
+    - name: bear-jump-ghost_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 437
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 32}
+        - {x: -18.5, y: 16}
+        - {x: -18.5, y: -32}
+        - {x: 13.5, y: -32}
+        - {x: 18.5, y: -19}
+        - {x: 18.5, y: 31}
+        - {x: 16.5, y: 32}
+    - name: bear-jump-ghost_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 437
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -18, y: 20}
+        - {x: -18, y: -27}
+        - {x: -16, y: -31}
+        - {x: -12, y: -32}
+        - {x: 11, y: -32}
+        - {x: 18, y: -3}
+        - {x: 18, y: 26}
+        - {x: 12, y: 32}
+    - name: bear-jump-ghost_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 438
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 32}
+        - {x: -17, y: 32}
+        - {x: -17, y: -30}
+        - {x: -16, y: -32}
+        - {x: 5, y: -32}
+        - {x: 12, y: -26}
+        - {x: 17, y: -12}
+        - {x: 17, y: 20}
+    - name: bear-jump-ghost_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 431
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 361
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 32.5}
+        - {x: -17.5, y: 32.5}
+        - {x: -17.5, y: -27.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 0.5, y: -32.5}
+        - {x: 12.5, y: -19.5}
+        - {x: 17.5, y: -5.5}
+        - {x: 17.5, y: 22.5}
+    - name: bear-jump-ghost_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 362
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 32}
+        - {x: -18, y: 32}
+        - {x: -18, y: -32}
+        - {x: 7, y: -32}
+        - {x: 9, y: -31}
+        - {x: 16, y: -13}
+        - {x: 18, y: -3}
+        - {x: 18, y: 29}
+    - name: bear-jump-ghost_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_27
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 363
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -18, y: -31.5}
+        - {x: 13, y: -31.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: 23.5}
+        - {x: 8, y: 31.5}
+    - name: bear-jump-ghost_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 362
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 32}
+        - {x: -17, y: 32}
+        - {x: -18, y: 30}
+        - {x: -18, y: -29}
+        - {x: -15, y: -32}
+        - {x: -1, y: -32}
+        - {x: 14, y: -20}
+        - {x: 18, y: 2}
+        - {x: 18, y: 22}
+    - name: bear-jump-ghost_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 355
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 285
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 32.5}
+        - {x: -17.5, y: 32.5}
+        - {x: -17.5, y: -32.5}
+        - {x: -2.5, y: -32.5}
+        - {x: 12.5, y: -19.5}
+        - {x: 17.5, y: 1.5}
+        - {x: 17.5, y: 23.5}
+    - name: bear-jump-ghost_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_36
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 286
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 32}
+        - {x: -18, y: 31}
+        - {x: -18, y: -32}
+        - {x: 8, y: -32}
+        - {x: 18, y: -12}
+        - {x: 18, y: 30}
+        - {x: 13, y: 32}
+    - name: bear-jump-ghost_37
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_38
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_39
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 287
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 31.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 8.5, y: -31.5}
+        - {x: 18.5, y: -8.5}
+        - {x: 18.5, y: 27.5}
+        - {x: 8.5, y: 31.5}
+    - name: bear-jump-ghost_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 279
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_41
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 286
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 32.5}
+        - {x: -12, y: 32.5}
+        - {x: -18, y: 27.5}
+        - {x: -18, y: -32.5}
+        - {x: -2, y: -32.5}
+        - {x: 12, y: -20.5}
+        - {x: 18, y: 7.5}
+        - {x: 18, y: 23.5}
+    - name: bear-jump-ghost_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 210
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 32.5}
+        - {x: -18.5, y: 32.5}
+        - {x: -18.5, y: -26.5}
+        - {x: -16.5, y: -32.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 13.5, y: -21.5}
+        - {x: 18.5, y: 4.5}
+        - {x: 18.5, y: 24.5}
+    - name: bear-jump-ghost_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_47
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 209
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 33}
+        - {x: -14, y: 33}
+        - {x: -18, y: 27}
+        - {x: -18, y: -29}
+        - {x: -17, y: -33}
+        - {x: 0, y: -33}
+        - {x: 12, y: -20}
+        - {x: 18, y: 9}
+        - {x: 18, y: 24}
+    - name: bear-jump-ghost_49
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear-jump-ghost_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 209
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 33}
+        - {x: -18, y: 33}
+        - {x: -18, y: -27}
+        - {x: -16, y: -33}
+        - {x: -2, y: -33}
+        - {x: 12, y: -20}
+        - {x: 18, y: 10}
+        - {x: 18, y: 24}
+    - name: bear-jump-ghost_52
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 208
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

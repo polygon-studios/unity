@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: d281e2d9e72341f4fb4abd9d72cb10ab
+timeCreated: 1457986961
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_fireLatern_0
+    21300002: fox_fireLatern_1
+    21300004: fox_fireLatern_2
+    21300006: fox_fireLatern_3
+    21300008: fox_fireLatern_4
+    21300010: fox_fireLatern_5
+    21300012: fox_fireLatern_6
+    21300014: fox_fireLatern_7
+    21300016: fox_fireLatern_8
+    21300018: fox_fireLatern_9
+    21300020: fox_fireLatern_10
+    21300022: fox_fireLatern_11
+    21300024: fox_fireLatern_12
+    21300026: fox_fireLatern_13
+    21300028: fox_fireLatern_14
+    21300030: fox_fireLatern_15
+    21300032: fox_fireLatern_16
+    21300034: fox_fireLatern_17
+    21300036: fox_fireLatern_18
+    21300038: fox_fireLatern_19
+    21300040: fox_fireLatern_20
+    21300042: fox_fireLatern_21
+    21300044: fox_fireLatern_22
+    21300046: fox_fireLatern_23
+    21300048: fox_fireLatern_24
+    21300050: fox_fireLatern_25
+    21300052: fox_fireLatern_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_fireLatern_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_fireLatern_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_fireLatern_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 445
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 33}
+        - {x: -27, y: 24}
+        - {x: -27, y: -16}
+        - {x: -24, y: -27}
+        - {x: -8, y: -31}
+        - {x: -1, y: -30}
+        - {x: 7, y: -33}
+        - {x: 23, y: -33}
+        - {x: 27, y: -31}
+        - {x: 27, y: 13}
+        - {x: -1, y: 33}
+    - name: fox_fireLatern_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 443
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 34.5}
+        - {x: -27.5, y: 30.5}
+        - {x: -27.5, y: -16.5}
+        - {x: -22.5, y: -27.5}
+        - {x: -1.5, y: -34.5}
+        - {x: 27.5, y: -34.5}
+        - {x: 27.5, y: 24.5}
+        - {x: 16.5, y: 34.5}
+    - name: fox_fireLatern_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 443
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 34.5}
+        - {x: -15.5, y: 34.5}
+        - {x: -24.5, y: 16.5}
+        - {x: -24.5, y: -16.5}
+        - {x: -15.5, y: -16.5}
+        - {x: -15.5, y: -26.5}
+        - {x: -13.5, y: -28.5}
+        - {x: 2.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 27.5, y: -30.5}
+        - {x: 27.5, y: 17.5}
+      - - {x: -26.5, y: 21.5}
+        - {x: -27.5, y: 19.5}
+        - {x: -27.5, y: 13.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -21.5, y: 16.5}
+        - {x: -21.5, y: 19.5}
+        - {x: -23.5, y: 21.5}
+    - name: fox_fireLatern_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 443
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 32.5}
+        - {x: -26.5, y: 21.5}
+        - {x: -26.5, y: -29.5}
+        - {x: -14.5, y: -32.5}
+        - {x: 26.5, y: -32.5}
+        - {x: 26.5, y: 19.5}
+        - {x: -1.5, y: 32.5}
+    - name: fox_fireLatern_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_fireLatern_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fox_fireLatern_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 367
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 34.5}
+        - {x: -24, y: -34.5}
+        - {x: 20, y: -34.5}
+        - {x: 28, y: -25.5}
+        - {x: 28, y: 16.5}
+        - {x: 2, y: 34.5}
+      - - {x: -25, y: 6.5}
+        - {x: -22, y: 7.5}
+        - {x: -22, y: 10.5}
+        - {x: -25, y: 11.5}
+        - {x: -27, y: 9.5}
+      - - {x: -28, y: 19.5}
+        - {x: -28, y: 14.5}
+        - {x: -25, y: 14.5}
+        - {x: -22, y: 17.5}
+        - {x: -22, y: 19.5}
+        - {x: -25, y: 20.5}
+    - name: fox_fireLatern_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 367
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34.5}
+        - {x: -18, y: 21.5}
+        - {x: -16, y: 10.5}
+        - {x: -17, y: 14.5}
+        - {x: -22, y: 23.5}
+        - {x: -28, y: 21.5}
+        - {x: -28, y: -18.5}
+        - {x: -16, y: -34.5}
+        - {x: 28, y: -34.5}
+        - {x: 28, y: 13.5}
+        - {x: 17, y: 34.5}
+    - name: fox_fireLatern_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 366
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 34.5}
+        - {x: -26, y: 33.5}
+        - {x: -26, y: -32.5}
+        - {x: -25, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: 26.5}
+        - {x: 12, y: 34.5}
+      - - {x: -23, y: 17.5}
+        - {x: -23, y: 20.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: 16.5}
+    - name: fox_fireLatern_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 367
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34}
+        - {x: -26.5, y: 29}
+        - {x: -26.5, y: -6}
+        - {x: -23.5, y: -23}
+        - {x: -10.5, y: -34}
+        - {x: 26.5, y: -34}
+        - {x: 26.5, y: 25}
+        - {x: 4.5, y: 34}
+    - name: fox_fireLatern_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 297
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 22.5}
+        - {x: 3, y: 34.5}
+        - {x: -21, y: 34.5}
+        - {x: -27, y: 20.5}
+        - {x: -27, y: -6.5}
+        - {x: -22, y: -22.5}
+        - {x: -8, y: -34.5}
+        - {x: 6, y: -34.5}
+        - {x: 6, y: -31.5}
+        - {x: 13, y: -34.5}
+        - {x: 27, y: -31.5}
+    - name: fox_fireLatern_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 300
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 33}
+        - {x: -27, y: 14}
+        - {x: -27, y: -30}
+        - {x: -21, y: -33}
+        - {x: 21, y: -33}
+        - {x: 27, y: -31}
+        - {x: 27, y: 12}
+        - {x: 5, y: 33}
+      - - {x: -24, y: 19}
+        - {x: -27, y: 19}
+        - {x: -27, y: 11}
+        - {x: -25, y: 11}
+        - {x: -22, y: 14}
+        - {x: -22, y: 18}
+    - name: fox_fireLatern_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 304
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 31}
+        - {x: -17, y: 31}
+        - {x: -27, y: 10}
+        - {x: -27, y: -24}
+        - {x: -14, y: -31}
+        - {x: 30, y: -31}
+        - {x: 30, y: -4}
+        - {x: 28, y: 8}
+      - - {x: -27, y: 2}
+        - {x: -24, y: 3}
+        - {x: -24, y: 6}
+        - {x: -27, y: 7}
+        - {x: -29, y: 5}
+      - - {x: -30, y: 15}
+        - {x: -30, y: 10}
+        - {x: -27, y: 10}
+        - {x: -24, y: 13}
+        - {x: -24, y: 15}
+        - {x: -27, y: 16}
+    - name: fox_fireLatern_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 301
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32}
+        - {x: -29, y: 25}
+        - {x: -29, y: -28}
+        - {x: -20, y: -32}
+        - {x: 29, y: -32}
+        - {x: 29, y: 11}
+        - {x: -1, y: 32}
+    - name: fox_fireLatern_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 229
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 33.5}
+        - {x: -27.5, y: 25.5}
+        - {x: -27.5, y: -26.5}
+        - {x: -25.5, y: -33.5}
+        - {x: 25.5, y: -33.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 27.5, y: 9.5}
+        - {x: 0.5, y: 33.5}
+      - - {x: -24.5, y: 16.5}
+        - {x: -24.5, y: 19.5}
+        - {x: -27.5, y: 20.5}
+        - {x: -27.5, y: 15.5}
+    - name: fox_fireLatern_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 229
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33.5}
+        - {x: -28.5, y: 23.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -19.5, y: -33.5}
+        - {x: 28.5, y: -33.5}
+        - {x: 28.5, y: 14.5}
+        - {x: 16.5, y: 33.5}
+    - name: fox_fireLatern_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 228
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 34.5}
+        - {x: -29, y: 33.5}
+        - {x: -29, y: -19.5}
+        - {x: -23, y: -34.5}
+        - {x: 25, y: -34.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 19.5}
+        - {x: -1, y: 34.5}
+    - name: fox_fireLatern_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 160
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 33.5}
+        - {x: -20.5, y: 33.5}
+        - {x: -26.5, y: 17.5}
+        - {x: -26.5, y: -25.5}
+        - {x: -6.5, y: -33.5}
+        - {x: 20.5, y: -33.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 28.5, y: 5.5}
+        - {x: 24.5, y: 12.5}
+      - - {x: -25.5, y: 20.5}
+        - {x: -28.5, y: 20.5}
+        - {x: -28.5, y: 12.5}
+        - {x: -26.5, y: 12.5}
+        - {x: -23.5, y: 15.5}
+        - {x: -23.5, y: 19.5}
+    - name: fox_fireLatern_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 162
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 33}
+        - {x: -25, y: -28}
+        - {x: -6, y: -33}
+        - {x: 22, y: -33}
+        - {x: 29, y: -29}
+        - {x: 29, y: 30}
+        - {x: 16, y: 33}
+      - - {x: -26, y: 4}
+        - {x: -23, y: 5}
+        - {x: -23, y: 8}
+        - {x: -26, y: 9}
+        - {x: -28, y: 7}
+      - - {x: -29, y: 17}
+        - {x: -29, y: 12}
+        - {x: -26, y: 12}
+        - {x: -23, y: 15}
+        - {x: -23, y: 17}
+        - {x: -26, y: 18}
+    - name: fox_fireLatern_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 162
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 33}
+        - {x: -21, y: 33}
+        - {x: -29, y: 28}
+        - {x: -29, y: -29}
+        - {x: -19, y: -33}
+        - {x: 29, y: -33}
+        - {x: 29, y: 12}
+        - {x: 24, y: 28}
+    - name: fox_fireLatern_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 161
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 33}
+        - {x: -27, y: 28}
+        - {x: -27, y: -30}
+        - {x: -22, y: -33}
+        - {x: 21, y: -33}
+        - {x: 24, y: -32}
+        - {x: 27, y: -28}
+        - {x: 27, y: 11}
+        - {x: -2, y: 33}
+      - - {x: -24, y: 15}
+        - {x: -24, y: 18}
+        - {x: -27, y: 19}
+        - {x: -27, y: 14}
+    - name: fox_fireLatern_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 94
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -20.5}
+        - {x: -21.5, y: -32.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 28.5, y: 13.5}
+        - {x: 27.5, y: 15.5}
+        - {x: 12.5, y: 32.5}
+        - {x: -26.5, y: 32.5}
+        - {x: -28.5, y: 31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

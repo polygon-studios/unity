@@ -1,0 +1,1036 @@
+fileFormatVersion: 2
+guid: fe653d6e7f7db2044875af9f4cbdb24f
+timeCreated: 1457999296
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear--idle-lantern_0
+    21300002: bear--idle-lantern_1
+    21300004: bear--idle-lantern_2
+    21300006: bear--idle-lantern_3
+    21300008: bear--idle-lantern_4
+    21300010: bear--idle-lantern_5
+    21300012: bear--idle-lantern_6
+    21300014: bear--idle-lantern_7
+    21300016: bear--idle-lantern_8
+    21300018: bear--idle-lantern_9
+    21300020: bear--idle-lantern_10
+    21300022: bear--idle-lantern_11
+    21300024: bear--idle-lantern_12
+    21300026: bear--idle-lantern_13
+    21300028: bear--idle-lantern_14
+    21300030: bear--idle-lantern_15
+    21300032: bear--idle-lantern_16
+    21300034: bear--idle-lantern_17
+    21300036: bear--idle-lantern_18
+    21300038: bear--idle-lantern_19
+    21300040: bear--idle-lantern_20
+    21300042: bear--idle-lantern_21
+    21300044: bear--idle-lantern_22
+    21300046: bear--idle-lantern_23
+    21300048: bear--idle-lantern_24
+    21300050: bear--idle-lantern_25
+    21300052: bear--idle-lantern_26
+    21300054: bear--idle-lantern_27
+    21300056: bear--idle-lantern_28
+    21300058: bear--idle-lantern_29
+    21300060: bear--idle-lantern_30
+    21300062: bear--idle-lantern_31
+    21300064: bear--idle-lantern_32
+    21300066: bear--idle-lantern_33
+    21300068: bear--idle-lantern_34
+    21300070: bear--idle-lantern_35
+    21300072: bear--idle-lantern_36
+    21300074: bear--idle-lantern_37
+    21300076: bear--idle-lantern_38
+    21300078: bear--idle-lantern_39
+    21300080: bear--idle-lantern_40
+    21300082: bear--idle-lantern_41
+    21300084: bear--idle-lantern_42
+    21300086: bear--idle-lantern_43
+    21300088: bear--idle-lantern_44
+    21300090: bear--idle-lantern_45
+    21300092: bear--idle-lantern_46
+    21300094: bear--idle-lantern_47
+    21300096: bear--idle-lantern_48
+    21300098: bear--idle-lantern_49
+    21300100: bear--idle-lantern_50
+    21300102: bear--idle-lantern_51
+    21300104: bear--idle-lantern_52
+    21300106: bear--idle-lantern_53
+    21300108: bear--idle-lantern_54
+    21300110: bear--idle-lantern_55
+    21300112: bear--idle-lantern_56
+    21300114: bear--idle-lantern_57
+    21300116: bear--idle-lantern_58
+    21300118: bear--idle-lantern_59
+    21300120: bear--idle-lantern_60
+    21300122: bear--idle-lantern_61
+    21300124: bear--idle-lantern_62
+    21300126: bear--idle-lantern_63
+    21300128: bear--idle-lantern_64
+    21300130: bear--idle-lantern_65
+    21300132: bear--idle-lantern_66
+    21300134: bear--idle-lantern_67
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear--idle-lantern_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 437
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -15, y: 27}
+        - {x: -18, y: 20}
+        - {x: -18, y: -31}
+        - {x: 18, y: -31}
+        - {x: 18, y: 31}
+    - name: bear--idle-lantern_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 437
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -17, y: 15}
+        - {x: -18, y: 2}
+        - {x: -18, y: -26}
+        - {x: -17, y: -31}
+        - {x: 13, y: -31}
+        - {x: 18, y: 4}
+        - {x: 18, y: 20}
+        - {x: 10, y: 31}
+    - name: bear--idle-lantern_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 437
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 31}
+        - {x: -7, y: 31}
+        - {x: -11, y: 26}
+        - {x: -18, y: 3}
+        - {x: -18, y: -26}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 18, y: -17}
+        - {x: 18, y: 27}
+    - name: bear--idle-lantern_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 437
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -18, y: 18}
+        - {x: -18, y: -30}
+        - {x: -16, y: -31}
+        - {x: 10, y: -31}
+        - {x: 18, y: 3}
+        - {x: 18, y: 22}
+        - {x: 13, y: 31}
+    - name: bear--idle-lantern_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 432
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 31}
+        - {x: -8, y: 31}
+        - {x: -11, y: 30}
+        - {x: -18, y: 7}
+        - {x: -18, y: -28}
+        - {x: -15, y: -31}
+        - {x: 13, y: -31}
+        - {x: 18, y: -10}
+        - {x: 18, y: 17}
+        - {x: 12, y: 30}
+    - name: bear--idle-lantern_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 31}
+        - {x: -18, y: 20}
+        - {x: -18, y: -31}
+        - {x: 10, y: -31}
+        - {x: 18, y: -11}
+        - {x: 18, y: 22}
+        - {x: 13, y: 31}
+    - name: bear--idle-lantern_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 31}
+        - {x: -18, y: 14}
+        - {x: -18, y: -31}
+        - {x: 12, y: -31}
+        - {x: 18, y: -8}
+        - {x: 18, y: 20}
+        - {x: 14, y: 31}
+    - name: bear--idle-lantern_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 361
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 31}
+        - {x: -15, y: 27}
+        - {x: -18, y: 13}
+        - {x: -18, y: -27}
+        - {x: -16, y: -31}
+        - {x: 15, y: -31}
+        - {x: 18, y: -17}
+        - {x: 18, y: 21}
+        - {x: 13, y: 31}
+    - name: bear--idle-lantern_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 356
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 285
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 22}
+        - {x: 14, y: 31}
+        - {x: -6, y: 31}
+        - {x: -14, y: 27}
+        - {x: -18, y: 5}
+        - {x: -18, y: -25}
+        - {x: -15, y: -31}
+        - {x: 10, y: -31}
+        - {x: 11, y: -26}
+        - {x: 17, y: -11}
+        - {x: 18, y: -8}
+    - name: bear--idle-lantern_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 288
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30}
+        - {x: -18, y: 10}
+        - {x: -18, y: -31}
+        - {x: 13, y: -31}
+        - {x: 18, y: -14}
+        - {x: 18, y: 18}
+        - {x: 11, y: 30}
+    - name: bear--idle-lantern_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 289
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 29}
+        - {x: -18, y: 7}
+        - {x: -18, y: -29}
+        - {x: -15, y: -31}
+        - {x: 8, y: -31}
+        - {x: 18, y: -27}
+        - {x: 18, y: 16}
+        - {x: 7, y: 29}
+    - name: bear--idle-lantern_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 292
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -17, y: 9}
+        - {x: -18, y: 1}
+        - {x: -18, y: -27}
+        - {x: -11, y: -31}
+        - {x: 13, y: -31}
+        - {x: 18, y: -19}
+        - {x: 18, y: 16}
+        - {x: 11, y: 26}
+    - name: bear--idle-lantern_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_39
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 280
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 217
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -15, y: 20}
+        - {x: -18, y: 0}
+        - {x: -18, y: -31}
+        - {x: 18, y: -31}
+        - {x: 18, y: 14}
+        - {x: 14, y: 25}
+    - name: bear--idle-lantern_45
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 216
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 24}
+        - {x: -18, y: 13}
+        - {x: -18, y: -31}
+        - {x: 14, y: -31}
+        - {x: 18, y: -23}
+        - {x: 18, y: 17}
+        - {x: 14, y: 24}
+    - name: bear--idle-lantern_46
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 214
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -18, y: 1}
+        - {x: -18, y: -28}
+        - {x: -15, y: -31}
+        - {x: 14, y: -31}
+        - {x: 18, y: -29}
+        - {x: 18, y: 21}
+        - {x: 10, y: 25}
+    - name: bear--idle-lantern_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 212
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 17}
+        - {x: 10, y: 25}
+        - {x: -3, y: 25}
+        - {x: -14, y: 21}
+        - {x: -18, y: 1}
+        - {x: -18, y: -30}
+        - {x: -15, y: -31}
+        - {x: 11, y: -31}
+        - {x: 17, y: -23}
+        - {x: 15, y: -14}
+        - {x: 18, y: -8}
+    - name: bear--idle-lantern_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_50
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_51
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_52
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_53
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_55
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 204
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_57
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 134
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -13, y: 20}
+        - {x: -18, y: -3}
+        - {x: -18, y: -31}
+        - {x: 18, y: -31}
+        - {x: 18, y: 20}
+        - {x: 9, y: 26}
+    - name: bear--idle-lantern_58
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_59
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_60
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 134
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -14, y: 22}
+        - {x: -18, y: 1}
+        - {x: -18, y: -31}
+        - {x: 18, y: -31}
+        - {x: 18, y: 19}
+        - {x: 12, y: 26}
+    - name: bear--idle-lantern_61
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_63
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 134
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -18, y: 5}
+        - {x: -18, y: -31}
+        - {x: 17, y: -31}
+        - {x: 18, y: -27}
+        - {x: 18, y: 20}
+        - {x: 11, y: 26}
+    - name: bear--idle-lantern_64
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_65
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bear--idle-lantern_66
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 134
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 26}
+        - {x: -3, y: 26}
+        - {x: -8, y: 25}
+        - {x: -18, y: -2}
+        - {x: -18, y: -31}
+        - {x: 13, y: -31}
+        - {x: 18, y: -29}
+        - {x: 18, y: 13}
+        - {x: 15, y: 23}
+    - name: bear--idle-lantern_67
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 132
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

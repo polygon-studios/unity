@@ -34,7 +34,7 @@ public class Prune : Item {
         {
             if (currChar != character && currChar != null)
             {
-                currChar.animator.SetBool(currChar.charID + "Old", true);
+                currChar.animator.SetBool("old", true);
                 currChar.currentSpeed = newSpeed;
             }
         }
@@ -50,7 +50,7 @@ public class Prune : Item {
             {
                 if (currChar != character && currChar != null)
                 {
-                    currChar.animator.SetBool(currChar.charID + "Old", false);
+                    currChar.animator.SetBool("old", false);
                     currChar.currentSpeed = currChar.starterSpeed;
                 }
             }

@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 1a3ea0be6b86abb4f951339d3cf4ad75
+timeCreated: 1457979146
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox_runBL_0
+    21300002: fox_runBL_1
+    21300004: fox_runBL_2
+    21300006: fox_runBL_3
+    21300008: fox_runBL_4
+    21300010: fox_runBL_5
+    21300012: fox_runBL_6
+    21300014: fox_runBL_7
+    21300016: fox_runBL_8
+    21300018: fox_runBL_9
+    21300020: fox_runBL_10
+    21300022: fox_runBL_11
+    21300024: fox_runBL_12
+    21300026: fox_runBL_13
+    21300028: fox_runBL_14
+    21300030: fox_runBL_15
+    21300032: fox_runBL_16
+    21300034: fox_runBL_17
+    21300036: fox_runBL_18
+    21300038: fox_runBL_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox_runBL_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 441
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 35.5}
+        - {x: -27.5, y: 25.5}
+        - {x: -28.5, y: 14.5}
+        - {x: -28.5, y: -31.5}
+        - {x: -16.5, y: -35.5}
+        - {x: 16.5, y: -35.5}
+        - {x: 28.5, y: -30.5}
+        - {x: 28.5, y: 14.5}
+        - {x: 18.5, y: 35.5}
+    - name: fox_runBL_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 438
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -29}
+        - {x: 28, y: -29}
+        - {x: 28, y: 26}
+        - {x: 26, y: 37}
+        - {x: -1, y: 37}
+        - {x: -28, y: 14}
+        - {x: -28, y: -34}
+        - {x: -10, y: -37}
+        - {x: 15, y: -37}
+        - {x: 18, y: -33}
+        - {x: 18, y: -31}
+        - {x: 16, y: -29}
+    - name: fox_runBL_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 435
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 38}
+        - {x: -27, y: 32}
+        - {x: -28, y: 26}
+        - {x: -28, y: -17}
+        - {x: -23, y: -17}
+        - {x: -17, y: -14}
+        - {x: -22, y: -17}
+        - {x: -24, y: -17}
+        - {x: -28, y: -18}
+        - {x: -28, y: -31}
+        - {x: -23, y: -38}
+        - {x: 28, y: -38}
+        - {x: 28, y: 22}
+        - {x: 23, y: 38}
+    - name: fox_runBL_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 436
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 37.5}
+        - {x: 1.5, y: 37.5}
+        - {x: -0.5, y: 34.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -28.5, y: 8.5}
+        - {x: -28.5, y: -14.5}
+        - {x: -24.5, y: -17.5}
+        - {x: -26.5, y: -20.5}
+        - {x: -26.5, y: -35.5}
+        - {x: -20.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 28.5, y: 26.5}
+        - {x: 16.5, y: 36.5}
+    - name: fox_runBL_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 357
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 17}
+        - {x: 17.5, y: 38}
+        - {x: -5.5, y: 38}
+        - {x: -28.5, y: 18}
+        - {x: -28.5, y: -34}
+        - {x: -10.5, y: -38}
+        - {x: 10.5, y: -38}
+        - {x: 8.5, y: -32}
+        - {x: 28.5, y: -28}
+    - name: fox_runBL_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 358
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 37.5}
+        - {x: -29, y: 31.5}
+        - {x: -29, y: -20.5}
+        - {x: -11, y: -37.5}
+        - {x: 10, y: -37.5}
+        - {x: 29, y: -27.5}
+        - {x: 29, y: 16.5}
+        - {x: 23, y: 37.5}
+    - name: fox_runBL_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 357
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -21}
+        - {x: 15, y: -25}
+        - {x: 17, y: -30}
+        - {x: 29, y: -28}
+        - {x: 29, y: 18}
+        - {x: 15, y: 38}
+        - {x: -4, y: 38}
+        - {x: -29, y: 14}
+        - {x: -29, y: -17}
+        - {x: -28, y: -20}
+        - {x: -15, y: -38}
+        - {x: 10, y: -38}
+        - {x: 17, y: -32}
+        - {x: 14, y: -24}
+        - {x: 14, y: -18}
+    - name: fox_runBL_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 358
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 38}
+        - {x: 1.5, y: 38}
+        - {x: -18.5, y: 23}
+        - {x: -18.5, y: 7}
+        - {x: -13.5, y: 3}
+        - {x: -4.5, y: 3}
+        - {x: -12.5, y: 2}
+        - {x: -16.5, y: 5}
+        - {x: -21.5, y: 8}
+        - {x: -26.5, y: 10}
+        - {x: -29.5, y: 6}
+        - {x: -29.5, y: -19}
+        - {x: -16.5, y: -38}
+        - {x: 19.5, y: -38}
+        - {x: 29.5, y: -31}
+        - {x: 29.5, y: 14}
+        - {x: 17.5, y: 37}
+    - name: fox_runBL_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 280
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -27}
+        - {x: 29.5, y: 18}
+        - {x: 23.5, y: 38}
+        - {x: -9.5, y: 38}
+        - {x: -23.5, y: 34}
+        - {x: -21.5, y: 13}
+        - {x: -13.5, y: 3}
+        - {x: -4.5, y: 3}
+        - {x: -6.5, y: -3}
+        - {x: -15.5, y: 4}
+        - {x: -27.5, y: 12}
+        - {x: -29.5, y: 6}
+        - {x: -29.5, y: -16}
+        - {x: -26.5, y: -20}
+        - {x: -20.5, y: -20}
+        - {x: -21.5, y: -31}
+        - {x: -16.5, y: -38}
+        - {x: 13.5, y: -38}
+        - {x: 20.5, y: -30}
+        - {x: 28.5, y: -27}
+    - name: fox_runBL_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 283
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 36.5}
+        - {x: -22.5, y: 29.5}
+        - {x: -17.5, y: 6.5}
+        - {x: -13.5, y: 1.5}
+        - {x: -4.5, y: 1.5}
+        - {x: -6.5, y: -4.5}
+        - {x: -14.5, y: 2.5}
+        - {x: -21.5, y: 5.5}
+        - {x: -25.5, y: 6.5}
+        - {x: -29.5, y: 2.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -23.5, y: -36.5}
+        - {x: 20.5, y: -36.5}
+        - {x: 29.5, y: -33.5}
+        - {x: 29.5, y: 21.5}
+        - {x: 24.5, y: 36.5}
+    - name: fox_runBL_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 287
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 34.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -18.5, y: 8.5}
+        - {x: -16.5, y: 2.5}
+        - {x: -12.5, y: -0.5}
+        - {x: -4.5, y: -0.5}
+        - {x: -6.5, y: -6.5}
+        - {x: -15.5, y: 1.5}
+        - {x: -20.5, y: 3.5}
+        - {x: -25.5, y: 4.5}
+        - {x: -29.5, y: 2.5}
+        - {x: -29.5, y: -29.5}
+        - {x: -28.5, y: -30.5}
+        - {x: -14.5, y: -32.5}
+        - {x: 1.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 29.5, y: -31.5}
+        - {x: 29.5, y: 15.5}
+        - {x: 24.5, y: 34.5}
+    - name: fox_runBL_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 284
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 36}
+        - {x: -24.5, y: 27}
+        - {x: -18.5, y: 6}
+        - {x: -13.5, y: 2}
+        - {x: -22.5, y: 9}
+        - {x: -29.5, y: 5}
+        - {x: -29.5, y: -30}
+        - {x: -20.5, y: -36}
+        - {x: 29.5, y: -36}
+        - {x: 29.5, y: 14}
+        - {x: 22.5, y: 36}
+    - name: fox_runBL_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 203
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 37}
+        - {x: -28, y: 29}
+        - {x: -17, y: 7}
+        - {x: -13, y: 4}
+        - {x: -4, y: 4}
+        - {x: -12, y: 2}
+        - {x: -19, y: 8}
+        - {x: -25, y: 9}
+        - {x: -29, y: 6}
+        - {x: -29, y: -24}
+        - {x: -24, y: -33}
+        - {x: -4, y: -37}
+        - {x: 26, y: -37}
+        - {x: 29, y: -35}
+        - {x: 29, y: 16}
+        - {x: 25, y: 37}
+    - name: fox_runBL_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 203
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -22.5}
+        - {x: 16, y: -26.5}
+        - {x: 18, y: -28.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 16.5}
+        - {x: 18, y: 37.5}
+        - {x: -1, y: 37.5}
+        - {x: -17, y: 21.5}
+        - {x: -18, y: 9.5}
+        - {x: -17, y: 6.5}
+        - {x: -13, y: 3.5}
+        - {x: -4, y: 3.5}
+        - {x: -7, y: -3.5}
+        - {x: -14, y: 4.5}
+        - {x: -17, y: 6.5}
+        - {x: -22, y: 8.5}
+        - {x: -25, y: 8.5}
+        - {x: -29, y: 7.5}
+        - {x: -29, y: -23.5}
+        - {x: -27, y: -34.5}
+        - {x: -6, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 15, y: -27.5}
+        - {x: 15, y: -20.5}
+    - name: fox_runBL_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 202
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 38}
+        - {x: -28.5, y: 13}
+        - {x: -28.5, y: -27}
+        - {x: -12.5, y: -38}
+        - {x: 14.5, y: -38}
+        - {x: 28.5, y: -30}
+        - {x: 28.5, y: 24}
+        - {x: 14.5, y: 38}
+    - name: fox_runBL_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 204
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -28.5, y: 17}
+        - {x: -28.5, y: -22}
+        - {x: -23.5, y: -37}
+        - {x: 28.5, y: -37}
+        - {x: 28.5, y: 27}
+        - {x: 17.5, y: 37}
+    - name: fox_runBL_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 12.5}
+        - {x: 14.5, y: 36.5}
+        - {x: -3.5, y: 36.5}
+        - {x: -28.5, y: 11.5}
+        - {x: -28.5, y: -23.5}
+        - {x: -13.5, y: -36.5}
+        - {x: 1.5, y: -36.5}
+        - {x: 8.5, y: -27.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 28.5, y: -30.5}
+    - name: fox_runBL_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -36.5}
+        - {x: 28, y: -36.5}
+        - {x: 28, y: 24.5}
+        - {x: 25, y: 36.5}
+        - {x: -25, y: 36.5}
+        - {x: -28, y: 26.5}
+    - name: fox_runBL_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 127
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 36.5}
+        - {x: -28, y: 22.5}
+        - {x: -28, y: -36.5}
+        - {x: 21, y: -36.5}
+        - {x: 28, y: -29.5}
+        - {x: 28, y: 15.5}
+        - {x: 17, y: 36.5}
+    - name: fox_runBL_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 128
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 36.5}
+        - {x: -28, y: 27.5}
+        - {x: -28, y: -17.5}
+        - {x: -25, y: -19.5}
+        - {x: -23, y: -19.5}
+        - {x: -25, y: -22.5}
+        - {x: -25, y: -31.5}
+        - {x: -22, y: -35.5}
+        - {x: -21, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 28, y: -30.5}
+        - {x: 28, y: 17.5}
+        - {x: 22, y: 36.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

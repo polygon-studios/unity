@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: cd2457e58853bd646be6205a37896704
+timeCreated: 1457995474
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-walk-prune_0
+    21300002: bear-walk-prune_1
+    21300004: bear-walk-prune_2
+    21300006: bear-walk-prune_3
+    21300008: bear-walk-prune_4
+    21300010: bear-walk-prune_5
+    21300012: bear-walk-prune_6
+    21300014: bear-walk-prune_7
+    21300016: bear-walk-prune_8
+    21300018: bear-walk-prune_9
+    21300020: bear-walk-prune_10
+    21300022: bear-walk-prune_11
+    21300024: bear-walk-prune_12
+    21300026: bear-walk-prune_13
+    21300028: bear-walk-prune_14
+    21300030: bear-walk-prune_15
+    21300032: bear-walk-prune_16
+    21300034: bear-walk-prune_17
+    21300036: bear-walk-prune_18
+    21300038: bear-walk-prune_19
+    21300040: bear-walk-prune_20
+    21300042: bear-walk-prune_21
+    21300044: bear-walk-prune_22
+    21300046: bear-walk-prune_23
+    21300048: bear-walk-prune_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-walk-prune_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 432
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -24}
+        - {x: 15, y: -19}
+        - {x: 19, y: -16}
+        - {x: 25, y: -13}
+        - {x: 25, y: 34}
+        - {x: -5, y: 34}
+        - {x: -25, y: 3}
+        - {x: -25, y: -34}
+        - {x: 11, y: -34}
+        - {x: 14, y: -25}
+        - {x: 10, y: -24}
+        - {x: 5, y: -24}
+    - name: bear-walk-prune_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 432
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -24}
+        - {x: 7.5, y: -24}
+        - {x: 14.5, y: -21}
+        - {x: 24.5, y: -8}
+        - {x: 24.5, y: 27}
+        - {x: 17.5, y: 34}
+        - {x: -0.5, y: 34}
+        - {x: -24.5, y: 14}
+        - {x: -24.5, y: -34}
+        - {x: 4.5, y: -34}
+        - {x: 12.5, y: -30}
+        - {x: 10.5, y: -26}
+        - {x: 8.5, y: -24}
+    - name: bear-walk-prune_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 433
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 28.5}
+        - {x: 20.5, y: 33.5}
+        - {x: -15.5, y: 33.5}
+        - {x: -23.5, y: 9.5}
+        - {x: -23.5, y: -33.5}
+        - {x: 7.5, y: -33.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 23.5, y: -3.5}
+    - name: bear-walk-prune_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 433
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 33}
+        - {x: -22.5, y: 11}
+        - {x: -22.5, y: -32}
+        - {x: -20.5, y: -33}
+        - {x: 16.5, y: -33}
+        - {x: 22.5, y: -18}
+        - {x: 22.5, y: 33}
+    - name: bear-walk-prune_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 434
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 33}
+        - {x: -23, y: 11}
+        - {x: -23, y: -30}
+        - {x: -19, y: -33}
+        - {x: 10, y: -33}
+        - {x: 23, y: -20}
+        - {x: 23, y: 27}
+        - {x: 19, y: 33}
+    - name: bear-walk-prune_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 434
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 34}
+        - {x: -12, y: 30}
+        - {x: -23, y: 20}
+        - {x: -23, y: -34}
+        - {x: 7, y: -34}
+        - {x: 23, y: -16}
+        - {x: 23, y: 32}
+        - {x: 22, y: 34}
+    - name: bear-walk-prune_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 434
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: -32.5}
+        - {x: 22.5, y: -16.5}
+        - {x: 22.5, y: 29.5}
+        - {x: 20.5, y: 34.5}
+        - {x: -10.5, y: 34.5}
+        - {x: -22.5, y: 20.5}
+        - {x: -22.5, y: -31.5}
+        - {x: -21.5, y: -34.5}
+        - {x: -0.5, y: -34.5}
+        - {x: -0.5, y: -32.5}
+        - {x: -2.5, y: -30.5}
+        - {x: 0.5, y: -25.5}
+    - name: bear-walk-prune_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 341
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 35}
+        - {x: -23, y: 15}
+        - {x: -23, y: -23}
+        - {x: -20, y: -35}
+        - {x: -1, y: -35}
+        - {x: 23, y: -18}
+        - {x: 23, y: 32}
+        - {x: 16, y: 35}
+    - name: bear-walk-prune_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 341
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 35}
+        - {x: -23, y: 14}
+        - {x: -23, y: -35}
+        - {x: 13, y: -35}
+        - {x: 23, y: -22}
+        - {x: 23, y: 34}
+        - {x: 21, y: 35}
+    - name: bear-walk-prune_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 341
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 35}
+        - {x: -23, y: 18}
+        - {x: -23, y: -35}
+        - {x: 9, y: -35}
+        - {x: 19, y: -32}
+        - {x: 23, y: -23}
+        - {x: 23, y: 26}
+        - {x: 21, y: 35}
+    - name: bear-walk-prune_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 340
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -24}
+        - {x: 22, y: -13}
+        - {x: 23, y: -10}
+        - {x: 23, y: 27}
+        - {x: 19, y: 35}
+        - {x: -6, y: 35}
+        - {x: -23, y: 16}
+        - {x: -23, y: -35}
+        - {x: 1, y: -35}
+        - {x: 2, y: -30}
+        - {x: 5, y: -22}
+        - {x: 3, y: -23}
+    - name: bear-walk-prune_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 339
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -22.5}
+        - {x: 4, y: -18.5}
+        - {x: 5, y: -20.5}
+        - {x: 7, y: -22.5}
+        - {x: 10, y: -23.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 30.5}
+        - {x: 17, y: 34.5}
+        - {x: -3, y: 34.5}
+        - {x: -23, y: 11.5}
+        - {x: -23, y: -34.5}
+        - {x: -2, y: -34.5}
+        - {x: 4, y: -31.5}
+        - {x: 10, y: -25.5}
+        - {x: 8, y: -22.5}
+    - name: bear-walk-prune_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 338
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34.5}
+        - {x: -24, y: 29.5}
+        - {x: -24, y: -34.5}
+        - {x: 16, y: -34.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 34.5}
+    - name: bear-walk-prune_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 338
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 34.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -24.5, y: 4.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 8.5, y: -34.5}
+        - {x: 24.5, y: -22.5}
+        - {x: 24.5, y: 30.5}
+        - {x: 22.5, y: 34.5}
+    - name: bear-walk-prune_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 244
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 34.5}
+        - {x: -23, y: 9.5}
+        - {x: -25, y: -4.5}
+        - {x: -25, y: -34.5}
+        - {x: 12, y: -34.5}
+        - {x: 17, y: -33.5}
+        - {x: 25, y: -6.5}
+        - {x: 25, y: 27.5}
+        - {x: 19, y: 34.5}
+    - name: bear-walk-prune_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 245
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -10.5}
+        - {x: 25, y: 33.5}
+        - {x: -4, y: 33.5}
+        - {x: -25, y: 26.5}
+        - {x: -25, y: -33.5}
+        - {x: 7, y: -33.5}
+        - {x: 10, y: -32.5}
+        - {x: 8, y: -29.5}
+        - {x: 24, y: -17.5}
+    - name: bear-walk-prune_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 244
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -34.5}
+        - {x: 13, y: -34.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 31.5}
+        - {x: 23, y: 34.5}
+    - name: bear-walk-prune_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 244
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 35.5}
+        - {x: -23, y: 14.5}
+        - {x: -23, y: -30.5}
+        - {x: -18, y: -35.5}
+        - {x: 14, y: -35.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 35.5}
+    - name: bear-walk-prune_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 243
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 36.5}
+        - {x: -23, y: 13.5}
+        - {x: -23, y: -24.5}
+        - {x: -19, y: -36.5}
+        - {x: 13, y: -36.5}
+        - {x: 23, y: -13.5}
+        - {x: 23, y: 36.5}
+    - name: bear-walk-prune_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 244
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 36.5}
+        - {x: -23.5, y: 19.5}
+        - {x: -23.5, y: -36.5}
+        - {x: -2.5, y: -36.5}
+        - {x: 23.5, y: -20.5}
+        - {x: 23.5, y: 32.5}
+        - {x: 14.5, y: 36.5}
+    - name: bear-walk-prune_20
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 245
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 36}
+        - {x: -23.5, y: 18}
+        - {x: -23.5, y: -36}
+        - {x: -6.5, y: -36}
+        - {x: 23.5, y: -23}
+        - {x: 23.5, y: 34}
+        - {x: 16.5, y: 36}
+    - name: bear-walk-prune_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 151
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 36}
+        - {x: -7, y: 36}
+        - {x: -24, y: 23}
+        - {x: -24, y: -36}
+        - {x: -3, y: -36}
+        - {x: 13, y: -24}
+        - {x: 24, y: -12}
+        - {x: 24, y: 28}
+    - name: bear-walk-prune_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 151
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 35.5}
+        - {x: -24.5, y: 11.5}
+        - {x: -24.5, y: -35.5}
+        - {x: 5.5, y: -35.5}
+        - {x: 24.5, y: -16.5}
+        - {x: 24.5, y: 32.5}
+        - {x: 18.5, y: 35.5}
+    - name: bear-walk-prune_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 151
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 34.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 24.5, y: -18.5}
+        - {x: 24.5, y: 32.5}
+        - {x: 19.5, y: 34.5}
+    - name: bear-walk-prune_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 151
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -24}
+        - {x: 15, y: -19}
+        - {x: 19, y: -16}
+        - {x: 25, y: -13}
+        - {x: 25, y: 34}
+        - {x: -5, y: 34}
+        - {x: -25, y: 3}
+        - {x: -25, y: -34}
+        - {x: 11, y: -34}
+        - {x: 14, y: -25}
+        - {x: 10, y: -24}
+        - {x: 5, y: -24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

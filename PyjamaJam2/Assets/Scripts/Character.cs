@@ -29,11 +29,12 @@ public class Character : MonoBehaviour {
 
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
 	float itemDebounceTimer; 
-	bool itemDebounceTimeDone = false;
 	float lastY;
 	float moveSpeed = 0f;
 	Latern laternScript;
-	bool isStunned;
+    bool itemDebounceTimeDone = false;
+    bool isStunned;
+    bool isDark;
 
 
 	public Animator animator;
@@ -82,7 +83,7 @@ public class Character : MonoBehaviour {
 
         moveSpeed = Mathf.Abs((transform.position.x - lastPosition.x));
 		lastPosition = transform.position;
-		animator.SetFloat (charID +"MoveSpeed", moveSpeed*50);
+		animator.SetFloat ("moveSpeed", moveSpeed*50);
 
 		if (Input.GetKey (inputRight) && isStunned == false) { //moving character right
 			transform.Translate (currentSpeed * Time.deltaTime, 0.0f, 0.0f);
@@ -112,13 +113,15 @@ public class Character : MonoBehaviour {
 		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false){ //
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
-			animator.SetTrigger (charID +"Jump");
+			animator.SetTrigger ("jump");
 		}
 	}
 
 	public void activateLight(){
 		if (latern != null)
 			laternScript.activateLatern ();
+        isDark = true;
+        animator.SetBool("night", true);
 	}
 
 	void updateLatern(){
@@ -138,10 +141,10 @@ public class Character : MonoBehaviour {
 
 					item.TriggerEffect();
 					item.beenTriggered = true;
-					animator.SetBool (charID + "Bindle", false);
+					animator.SetBool ("bindle", false);
 				}
 			}else{
-				animator.SetBool (charID + "Bindle", true);
+				animator.SetBool ("bindle", true);
 			}
 			
 		}
