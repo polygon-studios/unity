@@ -23,7 +23,7 @@ public class Items : MonoBehaviour {
 	List<Vector2> mediumItemPositions ;
 	List<Vector2> hardItemPositions ;
 
-	float timer = 5; //in seconds
+	float timer = 3; //in seconds
 
 	void Awake(){
 		if (ITEMS != null)
@@ -38,7 +38,7 @@ public class Items : MonoBehaviour {
 	void Update(){
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			timer = 5;
+			timer = 3;
 			checkTypes();
 		}
 	}
