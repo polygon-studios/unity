@@ -42,10 +42,10 @@ public class GameMaster:MonoBehaviour
 
 		timer += Time.deltaTime;
 
-		OnGUI ();
+		//OnGUI ();
 	}
 
-	void OnGUI()
+	/*void OnGUI()
 	{
 		if (!gameOver)
 		{
@@ -71,7 +71,7 @@ public class GameMaster:MonoBehaviour
 			centeredStyle.alignment = TextAnchor.UpperCenter;
 			GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 250, 100), "GAME OVER!!", centeredStyle);
 		}
-	}
+	}*/
 
 	public void addPoints(string character, int pointVal){
 		if (character.Contains ("Fox")) {
