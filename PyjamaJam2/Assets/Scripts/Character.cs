@@ -25,6 +25,7 @@ public class Character : MonoBehaviour {
     public float starterSpeed;
 
     public GameObject latern;
+	public GameObject GM;
 
 
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
@@ -32,6 +33,7 @@ public class Character : MonoBehaviour {
 	float lastY;
 	float moveSpeed = 0f;
 	Latern laternScript;
+	GameMaster GMScript;
     bool itemDebounceTimeDone = false;
     bool isStunned;
     bool isDark;
@@ -56,6 +58,7 @@ public class Character : MonoBehaviour {
 		itemDebounceTimer = itemDebounceTimerSaveTime; 
 
 		laternScript = latern.GetComponent<Latern> ();
+		GMScript = GM.GetComponent<GameMaster> ();
 	}
 	
 	// Update is called once per frame
@@ -301,7 +304,7 @@ public class Character : MonoBehaviour {
 			}
 			stunCharacter(2, true, side, hasItem);
 			io.playerEnter(this.name, side, itemHeld);
-
+			GMScript.addPoints(this.name, item.points);
 		}
 
 

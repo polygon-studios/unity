@@ -10,7 +10,7 @@ public class Item : MonoBehaviour {
 	public Renderer rend;
 
     bool isDark = false;
-	int points = 10;
+	public int points = 10;
 
 	// Use this for initialization
 	protected virtual void Start () {
