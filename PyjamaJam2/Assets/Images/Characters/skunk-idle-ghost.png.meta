@@ -1,0 +1,1505 @@
+fileFormatVersion: 2
+guid: 717270f5c4239a5488bc2f5018a3d0ed
+timeCreated: 1458010958
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-idle-ghost_0
+    21300002: skunk-idle-ghost_1
+    21300004: skunk-idle-ghost_2
+    21300006: skunk-idle-ghost_3
+    21300008: skunk-idle-ghost_4
+    21300010: skunk-idle-ghost_5
+    21300012: skunk-idle-ghost_6
+    21300014: skunk-idle-ghost_7
+    21300016: skunk-idle-ghost_8
+    21300018: skunk-idle-ghost_9
+    21300020: skunk-idle-ghost_10
+    21300022: skunk-idle-ghost_11
+    21300024: skunk-idle-ghost_12
+    21300026: skunk-idle-ghost_13
+    21300028: skunk-idle-ghost_14
+    21300030: skunk-idle-ghost_15
+    21300032: skunk-idle-ghost_16
+    21300034: skunk-idle-ghost_17
+    21300036: skunk-idle-ghost_18
+    21300038: skunk-idle-ghost_19
+    21300040: skunk-idle-ghost_20
+    21300042: skunk-idle-ghost_21
+    21300044: skunk-idle-ghost_22
+    21300046: skunk-idle-ghost_23
+    21300048: skunk-idle-ghost_24
+    21300050: skunk-idle-ghost_25
+    21300052: skunk-idle-ghost_26
+    21300054: skunk-idle-ghost_27
+    21300056: skunk-idle-ghost_28
+    21300058: skunk-idle-ghost_29
+    21300060: skunk-idle-ghost_30
+    21300062: skunk-idle-ghost_31
+    21300064: skunk-idle-ghost_32
+    21300066: skunk-idle-ghost_33
+    21300068: skunk-idle-ghost_34
+    21300070: skunk-idle-ghost_35
+    21300072: skunk-idle-ghost_36
+    21300074: skunk-idle-ghost_37
+    21300076: skunk-idle-ghost_38
+    21300078: skunk-idle-ghost_39
+    21300080: skunk-idle-ghost_40
+    21300082: skunk-idle-ghost_41
+    21300084: skunk-idle-ghost_42
+    21300086: skunk-idle-ghost_43
+    21300088: skunk-idle-ghost_44
+    21300090: skunk-idle-ghost_45
+    21300092: skunk-idle-ghost_46
+    21300094: skunk-idle-ghost_47
+    21300096: skunk-idle-ghost_48
+    21300098: skunk-idle-ghost_49
+    21300100: skunk-idle-ghost_50
+    21300102: skunk-idle-ghost_51
+    21300104: skunk-idle-ghost_52
+    21300106: skunk-idle-ghost_53
+    21300108: skunk-idle-ghost_54
+    21300110: skunk-idle-ghost_55
+    21300112: skunk-idle-ghost_56
+    21300114: skunk-idle-ghost_57
+    21300116: skunk-idle-ghost_58
+    21300118: skunk-idle-ghost_59
+    21300120: skunk-idle-ghost_60
+    21300122: skunk-idle-ghost_61
+    21300124: skunk-idle-ghost_62
+    21300126: skunk-idle-ghost_63
+    21300128: skunk-idle-ghost_64
+    21300130: skunk-idle-ghost_65
+    21300132: skunk-idle-ghost_66
+    21300134: skunk-idle-ghost_67
+    21300136: skunk-idle-ghost_68
+    21300138: skunk-idle-ghost_69
+    21300140: skunk-idle-ghost_70
+    21300142: skunk-idle-ghost_71
+    21300144: skunk-idle-ghost_72
+    21300146: skunk-idle-ghost_73
+    21300148: skunk-idle-ghost_74
+    21300150: skunk-idle-ghost_75
+    21300152: skunk-idle-ghost_76
+    21300154: skunk-idle-ghost_77
+    21300156: skunk-idle-ghost_78
+    21300158: skunk-idle-ghost_79
+    21300160: skunk-idle-ghost_80
+    21300162: skunk-idle-ghost_81
+    21300164: skunk-idle-ghost_82
+    21300166: skunk-idle-ghost_83
+    21300168: skunk-idle-ghost_84
+    21300170: skunk-idle-ghost_85
+    21300172: skunk-idle-ghost_86
+    21300174: skunk-idle-ghost_87
+    21300176: skunk-idle-ghost_88
+    21300178: skunk-idle-ghost_89
+    21300180: skunk-idle-ghost_90
+    21300182: skunk-idle-ghost_91
+    21300184: skunk-idle-ghost_92
+    21300186: skunk-idle-ghost_93
+    21300188: skunk-idle-ghost_94
+    21300190: skunk-idle-ghost_95
+    21300192: skunk-idle-ghost_96
+    21300194: skunk-idle-ghost_97
+    21300196: skunk-idle-ghost_98
+    21300198: skunk-idle-ghost_99
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-idle-ghost_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 437
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 34.5}
+        - {x: -12.5, y: 34.5}
+        - {x: -26.5, y: 17.5}
+        - {x: -26.5, y: -22.5}
+        - {x: -17.5, y: -34.5}
+        - {x: 13.5, y: -34.5}
+        - {x: 26.5, y: -4.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 19.5, y: 33.5}
+      - - {x: 23.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 23.5, y: -29.5}
+    - name: skunk-idle-ghost_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 437
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 13.5}
+        - {x: -26.5, y: -34.5}
+        - {x: 16.5, y: -34.5}
+        - {x: 26.5, y: -27.5}
+        - {x: 26.5, y: 28.5}
+        - {x: 22.5, y: 32.5}
+        - {x: 19.5, y: 34.5}
+        - {x: -7.5, y: 34.5}
+        - {x: -17.5, y: 31.5}
+      - - {x: 23.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 23.5, y: -29.5}
+    - name: skunk-idle-ghost_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_19
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 437
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 34.5}
+        - {x: -13.5, y: 34.5}
+        - {x: -26.5, y: 16.5}
+        - {x: -26.5, y: -17.5}
+        - {x: -19.5, y: -28.5}
+        - {x: -12.5, y: -34.5}
+        - {x: 12.5, y: -34.5}
+        - {x: 26.5, y: -12.5}
+        - {x: 26.5, y: 31.5}
+      - - {x: 23.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 23.5, y: -29.5}
+    - name: skunk-idle-ghost_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 437
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 34.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -16.5}
+        - {x: -23, y: -31.5}
+        - {x: -14, y: -34.5}
+        - {x: 12, y: -34.5}
+        - {x: 26, y: -6.5}
+        - {x: 26, y: 18.5}
+        - {x: 18, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_25
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 437
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 34.5}
+        - {x: -26, y: 34.5}
+        - {x: -26, y: -33.5}
+        - {x: -18, y: -34.5}
+        - {x: 12, y: -34.5}
+        - {x: 13, y: -33.5}
+        - {x: 26, y: -13.5}
+        - {x: 26, y: 30.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_28
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 437
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34}
+        - {x: -26, y: 18}
+        - {x: -26, y: -33}
+        - {x: -18, y: -34}
+        - {x: 17, y: -34}
+        - {x: 26, y: -9}
+        - {x: 26, y: 18}
+        - {x: 17, y: 34}
+      - - {x: 23, y: -34}
+        - {x: 26, y: -34}
+        - {x: 26, y: -28}
+        - {x: 23, y: -29}
+    - name: skunk-idle-ghost_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_35
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_41
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_43
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 332
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -21.5}
+        - {x: -17, y: -34.5}
+        - {x: 15, y: -34.5}
+        - {x: 26, y: -12.5}
+        - {x: 26, y: 26.5}
+        - {x: 15, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 332
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 34}
+        - {x: -26, y: -31}
+        - {x: -17, y: -34}
+        - {x: 14, y: -34}
+        - {x: 26, y: -16}
+        - {x: 26, y: 16}
+        - {x: 19, y: 34}
+      - - {x: 23, y: -34}
+        - {x: 26, y: -34}
+        - {x: 26, y: -28}
+        - {x: 23, y: -29}
+    - name: skunk-idle-ghost_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_48
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_49
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 332
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 34}
+        - {x: -19.5, y: 34}
+        - {x: -25.5, y: 16}
+        - {x: -25.5, y: -20}
+        - {x: -21.5, y: -27}
+        - {x: -13.5, y: -34}
+        - {x: 11.5, y: -34}
+        - {x: 25.5, y: -5}
+        - {x: 25.5, y: 17}
+        - {x: 18.5, y: 29}
+      - - {x: 22.5, y: -34}
+        - {x: 25.5, y: -34}
+        - {x: 25.5, y: -28}
+        - {x: 22.5, y: -29}
+    - name: skunk-idle-ghost_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 332
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 34}
+        - {x: -25.5, y: 18}
+        - {x: -25.5, y: -25}
+        - {x: -18.5, y: -34}
+        - {x: 17.5, y: -34}
+        - {x: 25.5, y: -7}
+        - {x: 25.5, y: 21}
+        - {x: 15.5, y: 34}
+      - - {x: 22.5, y: -34}
+        - {x: 25.5, y: -34}
+        - {x: 25.5, y: -28}
+        - {x: 22.5, y: -29}
+    - name: skunk-idle-ghost_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_55
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 332
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 34}
+        - {x: -25.5, y: 20}
+        - {x: -25.5, y: -18}
+        - {x: -24.5, y: -27}
+        - {x: -14.5, y: -34}
+        - {x: 11.5, y: -34}
+        - {x: 25.5, y: -5}
+        - {x: 25.5, y: 16}
+        - {x: 14.5, y: 34}
+      - - {x: 22.5, y: -34}
+        - {x: 25.5, y: -34}
+        - {x: 25.5, y: -28}
+        - {x: 22.5, y: -29}
+    - name: skunk-idle-ghost_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_57
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_58
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 332
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 32}
+        - {x: 14.5, y: 34}
+        - {x: -12.5, y: 34}
+        - {x: -25.5, y: 19}
+        - {x: -25.5, y: -21}
+        - {x: -17.5, y: -34}
+        - {x: 12.5, y: -34}
+        - {x: 13.5, y: -26}
+        - {x: 25.5, y: -5}
+        - {x: 25.5, y: 23}
+      - - {x: 22.5, y: -34}
+        - {x: 25.5, y: -34}
+        - {x: 25.5, y: -28}
+        - {x: 22.5, y: -29}
+    - name: skunk-idle-ghost_59
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_62
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_65
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_66
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_67
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_68
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_71
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_73
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 227
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 34.5}
+        - {x: -17, y: 31.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -26.5}
+        - {x: -20, y: -34.5}
+        - {x: 17, y: -34.5}
+        - {x: 26, y: -7.5}
+        - {x: 26, y: 21.5}
+        - {x: 17, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_74
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 227
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 34.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -25.5, y: -25.5}
+        - {x: -13.5, y: -34.5}
+        - {x: 11.5, y: -34.5}
+        - {x: 25.5, y: -8.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 17.5, y: 34.5}
+      - - {x: 22.5, y: -34.5}
+        - {x: 25.5, y: -34.5}
+        - {x: 25.5, y: -28.5}
+        - {x: 22.5, y: -29.5}
+    - name: skunk-idle-ghost_77
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_79
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 227
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34.5}
+        - {x: -26, y: 17.5}
+        - {x: -26, y: -18.5}
+        - {x: -14, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_80
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_81
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_82
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 227
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34.5}
+        - {x: -26, y: 19.5}
+        - {x: -26, y: -18.5}
+        - {x: -23, y: -24.5}
+        - {x: -21, y: -26.5}
+        - {x: -12, y: -34.5}
+        - {x: 14, y: -34.5}
+        - {x: 26, y: -7.5}
+        - {x: 26, y: 10.5}
+        - {x: 21, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_83
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_84
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_85
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 227
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34.5}
+        - {x: -26, y: 19.5}
+        - {x: -26, y: -26.5}
+        - {x: -13, y: -34.5}
+        - {x: 15, y: -34.5}
+        - {x: 26, y: -17.5}
+        - {x: 26, y: 26.5}
+        - {x: 24, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_87
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_88
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 227
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 34.5}
+        - {x: -26, y: 19.5}
+        - {x: -26, y: -20.5}
+        - {x: -25, y: -25.5}
+        - {x: -13, y: -34.5}
+        - {x: 12, y: -34.5}
+        - {x: 26, y: -4.5}
+        - {x: 26, y: 17.5}
+        - {x: 19, y: 34.5}
+      - - {x: 23, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 26, y: -28.5}
+        - {x: 23, y: -29.5}
+    - name: skunk-idle-ghost_89
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_92
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_93
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_95
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 122
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 34.5}
+        - {x: -26.5, y: 25.5}
+        - {x: -26.5, y: -25.5}
+        - {x: -23.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 26.5, y: -15.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 20.5, y: 34.5}
+      - - {x: 23.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 23.5, y: -29.5}
+    - name: skunk-idle-ghost_96
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_97
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-ghost_98
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 122
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 34.5}
+        - {x: -26.5, y: 15.5}
+        - {x: -26.5, y: -26.5}
+        - {x: -16.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 26.5, y: 34.5}
+      - - {x: 23.5, y: -34.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 23.5, y: -29.5}
+    - name: skunk-idle-ghost_99
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

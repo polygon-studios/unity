@@ -1,0 +1,1113 @@
+fileFormatVersion: 2
+guid: acd435d4392e6f04bb4343b704c422ab
+timeCreated: 1458010380
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-jump-buns_0
+    21300002: skunk-jump-buns_1
+    21300004: skunk-jump-buns_2
+    21300006: skunk-jump-buns_3
+    21300008: skunk-jump-buns_4
+    21300010: skunk-jump-buns_5
+    21300012: skunk-jump-buns_6
+    21300014: skunk-jump-buns_7
+    21300016: skunk-jump-buns_8
+    21300018: skunk-jump-buns_9
+    21300020: skunk-jump-buns_10
+    21300022: skunk-jump-buns_11
+    21300024: skunk-jump-buns_12
+    21300026: skunk-jump-buns_13
+    21300028: skunk-jump-buns_14
+    21300030: skunk-jump-buns_15
+    21300032: skunk-jump-buns_16
+    21300034: skunk-jump-buns_17
+    21300036: skunk-jump-buns_18
+    21300038: skunk-jump-buns_19
+    21300040: skunk-jump-buns_20
+    21300042: skunk-jump-buns_21
+    21300044: skunk-jump-buns_22
+    21300046: skunk-jump-buns_23
+    21300048: skunk-jump-buns_24
+    21300050: skunk-jump-buns_25
+    21300052: skunk-jump-buns_26
+    21300054: skunk-jump-buns_27
+    21300056: skunk-jump-buns_28
+    21300058: skunk-jump-buns_29
+    21300060: skunk-jump-buns_30
+    21300062: skunk-jump-buns_31
+    21300064: skunk-jump-buns_32
+    21300066: skunk-jump-buns_33
+    21300068: skunk-jump-buns_34
+    21300070: skunk-jump-buns_35
+    21300072: skunk-jump-buns_36
+    21300074: skunk-jump-buns_37
+    21300076: skunk-jump-buns_38
+    21300078: skunk-jump-buns_39
+    21300080: skunk-jump-buns_40
+    21300082: skunk-jump-buns_41
+    21300084: skunk-jump-buns_42
+    21300086: skunk-jump-buns_43
+    21300088: skunk-jump-buns_44
+    21300090: skunk-jump-buns_45
+    21300092: skunk-jump-buns_46
+    21300094: skunk-jump-buns_47
+    21300096: skunk-jump-buns_48
+    21300098: skunk-jump-buns_49
+    21300100: skunk-jump-buns_50
+    21300102: skunk-jump-buns_51
+    21300104: skunk-jump-buns_52
+    21300106: skunk-jump-buns_53
+    21300108: skunk-jump-buns_54
+    21300110: skunk-jump-buns_55
+    21300112: skunk-jump-buns_56
+    21300114: skunk-jump-buns_57
+    21300116: skunk-jump-buns_58
+    21300118: skunk-jump-buns_59
+    21300120: skunk-jump-buns_60
+    21300122: skunk-jump-buns_61
+    21300124: skunk-jump-buns_62
+    21300126: skunk-jump-buns_63
+    21300128: skunk-jump-buns_64
+    21300130: skunk-jump-buns_65
+    21300132: skunk-jump-buns_66
+    21300134: skunk-jump-buns_67
+    21300136: skunk-jump-buns_68
+    21300138: skunk-jump-buns_69
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-jump-buns_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 432
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 37.5}
+        - {x: -26.5, y: 31.5}
+        - {x: -26.5, y: -33.5}
+        - {x: -17.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 26.5, y: 37.5}
+      - - {x: 19.5, y: -26.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 26.5, y: -35.5}
+        - {x: 26.5, y: -26.5}
+    - name: skunk-jump-buns_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 432
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 37.5}
+        - {x: -26.5, y: 34.5}
+        - {x: -26.5, y: -31.5}
+        - {x: -19.5, y: -35.5}
+        - {x: -14.5, y: -37.5}
+        - {x: 17.5, y: -37.5}
+        - {x: 26.5, y: -13.5}
+        - {x: 26.5, y: 31.5}
+        - {x: 21.5, y: 37.5}
+      - - {x: 19.5, y: -26.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 26.5, y: -35.5}
+        - {x: 26.5, y: -26.5}
+    - name: skunk-jump-buns_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 431
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 38}
+        - {x: -12.5, y: 38}
+        - {x: -26.5, y: 27}
+        - {x: -26.5, y: -37}
+        - {x: -22.5, y: -38}
+        - {x: 5.5, y: -38}
+        - {x: 20.5, y: -30}
+        - {x: 26.5, y: -11}
+        - {x: 26.5, y: 17}
+        - {x: 13.5, y: 37}
+      - - {x: 20.5, y: -28}
+        - {x: 20.5, y: -33}
+        - {x: 22.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 26.5, y: -26}
+        - {x: 22.5, y: -26}
+    - name: skunk-jump-buns_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_19
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 432
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 9.5}
+        - {x: 9.5, y: 11.5}
+        - {x: 9.5, y: 10.5}
+        - {x: 11.5, y: 11.5}
+        - {x: 15.5, y: 16.5}
+        - {x: 18.5, y: 20.5}
+        - {x: 20.5, y: 25.5}
+        - {x: 11.5, y: 33.5}
+        - {x: 8.5, y: 37.5}
+        - {x: -13.5, y: 37.5}
+        - {x: -22.5, y: 33.5}
+        - {x: -26.5, y: 12.5}
+        - {x: -26.5, y: -8.5}
+        - {x: -17.5, y: -33.5}
+        - {x: -14.5, y: -37.5}
+        - {x: 13.5, y: -37.5}
+        - {x: 26.5, y: -22.5}
+        - {x: 26.5, y: 8.5}
+        - {x: 18.5, y: 8.5}
+      - - {x: 20.5, y: -28.5}
+        - {x: 20.5, y: -33.5}
+        - {x: 22.5, y: -35.5}
+        - {x: 26.5, y: -35.5}
+        - {x: 26.5, y: -26.5}
+        - {x: 22.5, y: -26.5}
+    - name: skunk-jump-buns_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_21
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 433
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 37}
+        - {x: -13.5, y: 37}
+        - {x: -26.5, y: 27}
+        - {x: -26.5, y: -19}
+        - {x: -14.5, y: -37}
+        - {x: 13.5, y: -37}
+        - {x: 26.5, y: -4}
+        - {x: 26.5, y: 18}
+        - {x: 20.5, y: 26}
+      - - {x: 21.5, y: -29}
+        - {x: 21.5, y: -34}
+        - {x: 23.5, y: -36}
+        - {x: 26.5, y: -36}
+        - {x: 26.5, y: -27}
+        - {x: 23.5, y: -27}
+    - name: skunk-jump-buns_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_24
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 431
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 38}
+        - {x: -14.5, y: 38}
+        - {x: -25.5, y: 15}
+        - {x: -25.5, y: -6}
+        - {x: -15.5, y: -38}
+        - {x: 12.5, y: -38}
+        - {x: 25.5, y: -2}
+        - {x: 25.5, y: 22}
+        - {x: 12.5, y: 37}
+      - - {x: 20.5, y: -28}
+        - {x: 20.5, y: -33}
+        - {x: 22.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 25.5, y: -26}
+        - {x: 22.5, y: -26}
+    - name: skunk-jump-buns_25
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_31
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_33
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_36
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_37
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 320
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 27.5}
+        - {x: 4, y: 38.5}
+        - {x: -25, y: 38.5}
+        - {x: -25, y: -38.5}
+        - {x: 9, y: -38.5}
+        - {x: 19, y: -22.5}
+        - {x: 25, y: -0.5}
+        - {x: 25, y: 17.5}
+      - - {x: 19, y: -27.5}
+        - {x: 19, y: -32.5}
+        - {x: 21, y: -34.5}
+        - {x: 25, y: -34.5}
+        - {x: 25, y: -25.5}
+        - {x: 21, y: -25.5}
+    - name: skunk-jump-buns_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_41
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 321
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 38}
+        - {x: -19.5, y: 38}
+        - {x: -25.5, y: 31}
+        - {x: -25.5, y: -33}
+        - {x: -24.5, y: -37}
+        - {x: -15.5, y: -38}
+        - {x: 18.5, y: -38}
+        - {x: 25.5, y: -4}
+        - {x: 25.5, y: 25}
+      - - {x: 20.5, y: -28}
+        - {x: 20.5, y: -33}
+        - {x: 22.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 25.5, y: -26}
+        - {x: 22.5, y: -26}
+    - name: skunk-jump-buns_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_44
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 323
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 37}
+        - {x: -15.5, y: 37}
+        - {x: -22.5, y: 21}
+        - {x: -26.5, y: 8}
+        - {x: -26.5, y: -5}
+        - {x: -17.5, y: -36}
+        - {x: -15.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 26.5, y: -8}
+        - {x: 26.5, y: 24}
+        - {x: 21.5, y: 32}
+      - - {x: 21.5, y: -29}
+        - {x: 21.5, y: -34}
+        - {x: 23.5, y: -36}
+        - {x: 26.5, y: -36}
+        - {x: 26.5, y: -27}
+        - {x: 23.5, y: -27}
+    - name: skunk-jump-buns_45
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_46
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_47
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 321
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37.5}
+        - {x: -25, y: 10.5}
+        - {x: -25, y: -10.5}
+        - {x: -14, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 25, y: -35.5}
+        - {x: 25, y: 37.5}
+      - - {x: 21, y: -27.5}
+        - {x: 21, y: -32.5}
+        - {x: 23, y: -34.5}
+        - {x: 25, y: -34.5}
+        - {x: 25, y: -25.5}
+        - {x: 23, y: -25.5}
+    - name: skunk-jump-buns_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_50
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 320
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 37.5}
+        - {x: 19, y: 38.5}
+        - {x: -16, y: 38.5}
+        - {x: -21, y: 29.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -1.5}
+        - {x: -17, y: -12.5}
+        - {x: -19, y: -31.5}
+        - {x: -10, y: -38.5}
+        - {x: 12, y: -38.5}
+        - {x: 14, y: -21.5}
+        - {x: 24, y: -4.5}
+        - {x: 24, y: 34.5}
+      - - {x: 20, y: -27.5}
+        - {x: 20, y: -32.5}
+        - {x: 22, y: -34.5}
+        - {x: 24, y: -34.5}
+        - {x: 24, y: -25.5}
+        - {x: 22, y: -25.5}
+    - name: skunk-jump-buns_51
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_52
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_53
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 321
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 18.5}
+        - {x: 14, y: 16.5}
+        - {x: 14, y: 15.5}
+        - {x: 19, y: 26.5}
+        - {x: 16, y: 29.5}
+        - {x: 7, y: 37.5}
+        - {x: -13, y: 37.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -21.5}
+        - {x: -14, y: -37.5}
+        - {x: 14, y: -37.5}
+        - {x: 19, y: -32.5}
+        - {x: 24, y: 0.5}
+        - {x: 24, y: 19.5}
+        - {x: 20, y: 20.5}
+      - - {x: 21, y: -32.5}
+        - {x: 23, y: -34.5}
+        - {x: 24, y: -34.5}
+        - {x: 24, y: -25.5}
+        - {x: 21, y: -26.5}
+    - name: skunk-jump-buns_54
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_57
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_58
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_59
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_60
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_62
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 210
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 38}
+        - {x: -24, y: 8}
+        - {x: -24, y: -6}
+        - {x: -13, y: -38}
+        - {x: 16, y: -38}
+        - {x: 24, y: -16}
+        - {x: 24, y: 28}
+        - {x: 9, y: 38}
+    - name: skunk-jump-buns_63
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_64
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_65
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 211
+        width: 49
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 37.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -24.5, y: -16.5}
+        - {x: -14.5, y: -37.5}
+        - {x: 19.5, y: -37.5}
+        - {x: 24.5, y: -4.5}
+        - {x: 24.5, y: 34.5}
+        - {x: 14.5, y: 37.5}
+    - name: skunk-jump-buns_66
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-buns_68
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 212
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 37}
+        - {x: -24.5, y: 17}
+        - {x: -24.5, y: -19}
+        - {x: -14.5, y: -37}
+        - {x: 18.5, y: -37}
+        - {x: 24.5, y: -14}
+        - {x: 24.5, y: 29}
+        - {x: 12.5, y: 37}
+    - name: skunk-jump-buns_69
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 215
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

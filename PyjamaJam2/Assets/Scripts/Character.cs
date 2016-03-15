@@ -314,7 +314,8 @@ public class Character : MonoBehaviour {
 
 	public void stunCharacter(int duration, bool houseMove = false, string side = "right", bool hasItem = false){
 		isStunned = true;
-		if (houseMove) {
+        animator.SetBool("stun", true);
+        if (houseMove) {
 			StartCoroutine (Unstun (duration, true, side, hasItem));
 		} else {
 			StartCoroutine (Unstun (duration));
@@ -348,6 +349,7 @@ public class Character : MonoBehaviour {
 		}
 		
 		isStunned = false;
+        animator.SetBool("stun", false);
 	}
 
 }

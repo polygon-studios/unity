@@ -1,0 +1,964 @@
+fileFormatVersion: 2
+guid: 6e7ea32db9e8b874585954398b284454
+timeCreated: 1458010083
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-jump-ghost-lantern_0
+    21300002: skunk-jump-ghost-lantern_1
+    21300004: skunk-jump-ghost-lantern_2
+    21300006: skunk-jump-ghost-lantern_3
+    21300008: skunk-jump-ghost-lantern_4
+    21300010: skunk-jump-ghost-lantern_5
+    21300012: skunk-jump-ghost-lantern_6
+    21300014: skunk-jump-ghost-lantern_7
+    21300016: skunk-jump-ghost-lantern_8
+    21300018: skunk-jump-ghost-lantern_9
+    21300020: skunk-jump-ghost-lantern_10
+    21300022: skunk-jump-ghost-lantern_11
+    21300024: skunk-jump-ghost-lantern_12
+    21300026: skunk-jump-ghost-lantern_13
+    21300028: skunk-jump-ghost-lantern_14
+    21300030: skunk-jump-ghost-lantern_15
+    21300032: skunk-jump-ghost-lantern_16
+    21300034: skunk-jump-ghost-lantern_17
+    21300036: skunk-jump-ghost-lantern_18
+    21300038: skunk-jump-ghost-lantern_19
+    21300040: skunk-jump-ghost-lantern_20
+    21300042: skunk-jump-ghost-lantern_21
+    21300044: skunk-jump-ghost-lantern_22
+    21300046: skunk-jump-ghost-lantern_23
+    21300048: skunk-jump-ghost-lantern_24
+    21300050: skunk-jump-ghost-lantern_25
+    21300052: skunk-jump-ghost-lantern_26
+    21300054: skunk-jump-ghost-lantern_27
+    21300056: skunk-jump-ghost-lantern_28
+    21300058: skunk-jump-ghost-lantern_29
+    21300060: skunk-jump-ghost-lantern_30
+    21300062: skunk-jump-ghost-lantern_31
+    21300064: skunk-jump-ghost-lantern_32
+    21300066: skunk-jump-ghost-lantern_33
+    21300068: skunk-jump-ghost-lantern_34
+    21300070: skunk-jump-ghost-lantern_35
+    21300072: skunk-jump-ghost-lantern_36
+    21300074: skunk-jump-ghost-lantern_37
+    21300076: skunk-jump-ghost-lantern_38
+    21300078: skunk-jump-ghost-lantern_39
+    21300080: skunk-jump-ghost-lantern_40
+    21300082: skunk-jump-ghost-lantern_41
+    21300084: skunk-jump-ghost-lantern_42
+    21300086: skunk-jump-ghost-lantern_43
+    21300088: skunk-jump-ghost-lantern_44
+    21300090: skunk-jump-ghost-lantern_45
+    21300092: skunk-jump-ghost-lantern_46
+    21300094: skunk-jump-ghost-lantern_47
+    21300096: skunk-jump-ghost-lantern_48
+    21300098: skunk-jump-ghost-lantern_49
+    21300100: skunk-jump-ghost-lantern_50
+    21300102: skunk-jump-ghost-lantern_51
+    21300104: skunk-jump-ghost-lantern_52
+    21300106: skunk-jump-ghost-lantern_53
+    21300108: skunk-jump-ghost-lantern_54
+    21300110: skunk-jump-ghost-lantern_55
+    21300112: skunk-jump-ghost-lantern_56
+    21300114: skunk-jump-ghost-lantern_57
+    21300116: skunk-jump-ghost-lantern_58
+    21300118: skunk-jump-ghost-lantern_59
+    21300120: skunk-jump-ghost-lantern_60
+    21300122: skunk-jump-ghost-lantern_61
+    21300124: skunk-jump-ghost-lantern_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-jump-ghost-lantern_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 437
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 35}
+        - {x: -8.5, y: 35}
+        - {x: -22.5, y: 23}
+        - {x: -22.5, y: -34}
+        - {x: -19.5, y: -35}
+        - {x: 15.5, y: -35}
+        - {x: 18.5, y: -27}
+        - {x: 22.5, y: -5}
+        - {x: 22.5, y: 28}
+    - name: skunk-jump-ghost-lantern_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 437
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 35}
+        - {x: -22, y: 26}
+        - {x: -22, y: -35}
+        - {x: 17, y: -35}
+        - {x: 22, y: -25}
+        - {x: 22, y: 34}
+        - {x: 20, y: 35}
+    - name: skunk-jump-ghost-lantern_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 436
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 35.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -35.5}
+        - {x: 15.5, y: -35.5}
+        - {x: 22.5, y: -7.5}
+        - {x: 22.5, y: 31.5}
+        - {x: 18.5, y: 35.5}
+    - name: skunk-jump-ghost-lantern_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_18
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 35.5}
+        - {x: -2.5, y: 35.5}
+        - {x: -16.5, y: 17.5}
+        - {x: -25.5, y: -3.5}
+        - {x: -26.5, y: -10.5}
+        - {x: -26.5, y: -35.5}
+        - {x: 11.5, y: -35.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 26.5, y: -9.5}
+        - {x: 26.5, y: 28.5}
+    - name: skunk-jump-ghost-lantern_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_23
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 331
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 35.5}
+        - {x: -27, y: -0.5}
+        - {x: -27, y: -35.5}
+        - {x: 17, y: -35.5}
+        - {x: 27, y: -16.5}
+        - {x: 27, y: 25.5}
+        - {x: 22, y: 35.5}
+    - name: skunk-jump-ghost-lantern_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 331
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 35.5}
+        - {x: -3, y: 35.5}
+        - {x: -10, y: 26.5}
+        - {x: -21, y: -1.5}
+        - {x: -17, y: -3.5}
+        - {x: -26, y: -19.5}
+        - {x: -27, y: -22.5}
+        - {x: -27, y: -35.5}
+        - {x: 11, y: -35.5}
+        - {x: 27, y: -22.5}
+        - {x: 27, y: 27.5}
+    - name: skunk-jump-ghost-lantern_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 226
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 36}
+        - {x: -26.5, y: -4}
+        - {x: -26.5, y: -36}
+        - {x: 6.5, y: -36}
+        - {x: 26.5, y: -24}
+        - {x: 26.5, y: 29}
+        - {x: 18.5, y: 36}
+      - - {x: -26.5, y: 36}
+        - {x: -26.5, y: 33}
+        - {x: -22.5, y: 33}
+        - {x: -20.5, y: 35}
+        - {x: -20.5, y: 36}
+    - name: skunk-jump-ghost-lantern_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_33
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 35.5}
+        - {x: -10.5, y: 35.5}
+        - {x: -26.5, y: -0.5}
+        - {x: -26.5, y: -35.5}
+        - {x: 17.5, y: -35.5}
+        - {x: 19.5, y: -34.5}
+        - {x: 26.5, y: -7.5}
+        - {x: 26.5, y: 26.5}
+    - name: skunk-jump-ghost-lantern_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_36
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 35.5}
+        - {x: -26.5, y: 1.5}
+        - {x: -26.5, y: -35.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 26.5, y: 32.5}
+        - {x: 22.5, y: 35.5}
+    - name: skunk-jump-ghost-lantern_38
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 36}
+        - {x: -26.5, y: 15}
+        - {x: -26.5, y: -36}
+        - {x: 20.5, y: -36}
+        - {x: 26.5, y: -19}
+        - {x: 26.5, y: 36}
+      - - {x: -26.5, y: 36}
+        - {x: -26.5, y: 33}
+        - {x: -22.5, y: 33}
+        - {x: -20.5, y: 35}
+        - {x: -20.5, y: 36}
+    - name: skunk-jump-ghost-lantern_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_43
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36}
+        - {x: -27, y: 19}
+        - {x: -27, y: -36}
+        - {x: 9, y: -36}
+        - {x: 27, y: -27}
+        - {x: 27, y: 25}
+        - {x: 18, y: 36}
+      - - {x: -27, y: 36}
+        - {x: -27, y: 33}
+        - {x: -23, y: 33}
+        - {x: -21, y: 35}
+        - {x: -21, y: 36}
+    - name: skunk-jump-ghost-lantern_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_46
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 121
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -27, y: 3}
+        - {x: -27, y: -36}
+        - {x: 17, y: -36}
+        - {x: 27, y: -30}
+        - {x: 27, y: 36}
+      - - {x: -27, y: 36}
+        - {x: -27, y: 33}
+        - {x: -23, y: 33}
+        - {x: -21, y: 35}
+        - {x: -21, y: 36}
+    - name: skunk-jump-ghost-lantern_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 33}
+        - {x: 22, y: 36}
+        - {x: -17, y: 36}
+        - {x: -27, y: 10}
+        - {x: -27, y: -36}
+        - {x: 11, y: -36}
+        - {x: 27, y: -23}
+      - - {x: -27, y: 36}
+        - {x: -27, y: 33}
+        - {x: -23, y: 33}
+        - {x: -21, y: 35}
+        - {x: -21, y: 36}
+    - name: skunk-jump-ghost-lantern_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_54
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_55
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 16
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 24}
+        - {x: 20, y: 36}
+        - {x: -11, y: 36}
+        - {x: -26, y: -3}
+        - {x: -27, y: -14}
+        - {x: -27, y: -36}
+        - {x: 6, y: -36}
+        - {x: 22, y: -21}
+        - {x: 27, y: 4}
+      - - {x: -27, y: 36}
+        - {x: -27, y: 33}
+        - {x: -23, y: 33}
+        - {x: -21, y: 35}
+        - {x: -21, y: 36}
+    - name: skunk-jump-ghost-lantern_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_57
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_58
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 16
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -24, y: 31}
+        - {x: -27, y: 16}
+        - {x: -27, y: -36}
+        - {x: 17, y: -36}
+        - {x: 27, y: -14}
+        - {x: 27, y: 31}
+        - {x: 17, y: 36}
+      - - {x: -27, y: 36}
+        - {x: -27, y: 33}
+        - {x: -23, y: 33}
+        - {x: -21, y: 35}
+        - {x: -21, y: 36}
+    - name: skunk-jump-ghost-lantern_59
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_60
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_61
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost-lantern_62
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

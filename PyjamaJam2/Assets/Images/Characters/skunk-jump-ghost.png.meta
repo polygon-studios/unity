@@ -1,0 +1,1089 @@
+fileFormatVersion: 2
+guid: aa65b8ae260642a429543722fae8c81b
+timeCreated: 1458009901
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-jump-ghost_0
+    21300002: skunk-jump-ghost_1
+    21300004: skunk-jump-ghost_2
+    21300006: skunk-jump-ghost_3
+    21300008: skunk-jump-ghost_4
+    21300010: skunk-jump-ghost_5
+    21300012: skunk-jump-ghost_6
+    21300014: skunk-jump-ghost_7
+    21300016: skunk-jump-ghost_8
+    21300018: skunk-jump-ghost_9
+    21300020: skunk-jump-ghost_10
+    21300022: skunk-jump-ghost_11
+    21300024: skunk-jump-ghost_12
+    21300026: skunk-jump-ghost_13
+    21300028: skunk-jump-ghost_14
+    21300030: skunk-jump-ghost_15
+    21300032: skunk-jump-ghost_16
+    21300034: skunk-jump-ghost_17
+    21300036: skunk-jump-ghost_18
+    21300038: skunk-jump-ghost_19
+    21300040: skunk-jump-ghost_20
+    21300042: skunk-jump-ghost_21
+    21300044: skunk-jump-ghost_22
+    21300046: skunk-jump-ghost_23
+    21300048: skunk-jump-ghost_24
+    21300050: skunk-jump-ghost_25
+    21300052: skunk-jump-ghost_26
+    21300054: skunk-jump-ghost_27
+    21300056: skunk-jump-ghost_28
+    21300058: skunk-jump-ghost_29
+    21300060: skunk-jump-ghost_30
+    21300062: skunk-jump-ghost_31
+    21300064: skunk-jump-ghost_32
+    21300066: skunk-jump-ghost_33
+    21300068: skunk-jump-ghost_34
+    21300070: skunk-jump-ghost_35
+    21300072: skunk-jump-ghost_36
+    21300074: skunk-jump-ghost_37
+    21300076: skunk-jump-ghost_38
+    21300078: skunk-jump-ghost_39
+    21300080: skunk-jump-ghost_40
+    21300082: skunk-jump-ghost_41
+    21300084: skunk-jump-ghost_42
+    21300086: skunk-jump-ghost_43
+    21300088: skunk-jump-ghost_44
+    21300090: skunk-jump-ghost_45
+    21300092: skunk-jump-ghost_46
+    21300094: skunk-jump-ghost_47
+    21300096: skunk-jump-ghost_48
+    21300098: skunk-jump-ghost_49
+    21300100: skunk-jump-ghost_50
+    21300102: skunk-jump-ghost_51
+    21300104: skunk-jump-ghost_52
+    21300106: skunk-jump-ghost_53
+    21300108: skunk-jump-ghost_54
+    21300110: skunk-jump-ghost_55
+    21300112: skunk-jump-ghost_56
+    21300114: skunk-jump-ghost_57
+    21300116: skunk-jump-ghost_58
+    21300118: skunk-jump-ghost_59
+    21300120: skunk-jump-ghost_60
+    21300122: skunk-jump-ghost_61
+    21300124: skunk-jump-ghost_62
+    21300126: skunk-jump-ghost_63
+    21300128: skunk-jump-ghost_64
+    21300130: skunk-jump-ghost_65
+    21300132: skunk-jump-ghost_66
+    21300134: skunk-jump-ghost_67
+    21300136: skunk-jump-ghost_68
+    21300138: skunk-jump-ghost_69
+    21300140: skunk-jump-ghost_70
+    21300142: skunk-jump-ghost_71
+    21300144: skunk-jump-ghost_72
+    21300146: skunk-jump-ghost_73
+    21300148: skunk-jump-ghost_74
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-jump-ghost_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 437
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 35}
+        - {x: -7.5, y: 35}
+        - {x: -22.5, y: 22}
+        - {x: -22.5, y: -35}
+        - {x: 16.5, y: -35}
+        - {x: 18.5, y: -27}
+        - {x: 22.5, y: -5}
+        - {x: 22.5, y: 28}
+    - name: skunk-jump-ghost_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 437
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 35}
+        - {x: -22, y: 25}
+        - {x: -22, y: -33}
+        - {x: -13, y: -35}
+        - {x: 16, y: -35}
+        - {x: 22, y: -15}
+        - {x: 22, y: 34}
+        - {x: 20, y: 35}
+    - name: skunk-jump-ghost_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 437
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 35}
+        - {x: -22.5, y: 23}
+        - {x: -22.5, y: -21}
+        - {x: -19.5, y: -35}
+        - {x: 15.5, y: -35}
+        - {x: 22.5, y: -4}
+        - {x: 22.5, y: 30}
+        - {x: 17.5, y: 35}
+    - name: skunk-jump-ghost_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_18
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 333
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 34.5}
+        - {x: -8, y: 34.5}
+        - {x: -21, y: 17.5}
+        - {x: -23, y: 5.5}
+        - {x: -23, y: -9.5}
+        - {x: -14, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 22, y: -19.5}
+        - {x: 23, y: -11.5}
+        - {x: 23, y: 27.5}
+    - name: skunk-jump-ghost_23
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 332
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 35}
+        - {x: -23.5, y: 14}
+        - {x: -23.5, y: -11}
+        - {x: -11.5, y: -35}
+        - {x: 14.5, y: -35}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: 24}
+        - {x: 14.5, y: 35}
+    - name: skunk-jump-ghost_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 333
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 34.5}
+        - {x: -14.5, y: 25.5}
+        - {x: -22.5, y: 4.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -14.5, y: -34.5}
+        - {x: 14.5, y: -34.5}
+        - {x: 22.5, y: -7.5}
+        - {x: 22.5, y: 25.5}
+        - {x: 16.5, y: 34.5}
+    - name: skunk-jump-ghost_29
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_33
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 228
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 35}
+        - {x: -10.5, y: 35}
+        - {x: -22.5, y: 11}
+        - {x: -22.5, y: -21}
+        - {x: -15.5, y: -35}
+        - {x: 4.5, y: -35}
+        - {x: 21.5, y: -24}
+        - {x: 22.5, y: -10}
+        - {x: 22.5, y: 28}
+    - name: skunk-jump-ghost_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 229
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 34}
+        - {x: -21.5, y: 17}
+        - {x: -21.5, y: -21}
+        - {x: -18.5, y: -34}
+        - {x: 17.5, y: -34}
+        - {x: 21.5, y: -17}
+        - {x: 21.5, y: 32}
+        - {x: 17.5, y: 34}
+    - name: skunk-jump-ghost_39
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_43
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 227
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 35}
+        - {x: -20.5, y: 35}
+        - {x: -23.5, y: 32}
+        - {x: -23.5, y: -15}
+        - {x: -18.5, y: -35}
+        - {x: 6.5, y: -35}
+        - {x: 20.5, y: -18}
+        - {x: 23.5, y: 4}
+        - {x: 23.5, y: 33}
+    - name: skunk-jump-ghost_44
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 123
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 35}
+        - {x: -15.5, y: 25}
+        - {x: -19.5, y: 14}
+        - {x: -22.5, y: 6}
+        - {x: -22.5, y: -11}
+        - {x: -10.5, y: -35}
+        - {x: 7.5, y: -35}
+        - {x: 22.5, y: -20}
+        - {x: 22.5, y: 26}
+        - {x: 14.5, y: 35}
+    - name: skunk-jump-ghost_47
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_48
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 124
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 34.5}
+        - {x: -16, y: 34.5}
+        - {x: -22, y: 24.5}
+        - {x: -22, y: -29.5}
+        - {x: -15, y: -34.5}
+        - {x: 15, y: -34.5}
+        - {x: 19, y: -23.5}
+        - {x: 22, y: -6.5}
+        - {x: 22, y: 33.5}
+    - name: skunk-jump-ghost_50
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_51
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_52
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 123
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 35}
+        - {x: -22.5, y: 17}
+        - {x: -22.5, y: -21}
+        - {x: -17.5, y: -35}
+        - {x: 13.5, y: -35}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: 30}
+        - {x: 15.5, y: 35}
+    - name: skunk-jump-ghost_53
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_55
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_56
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_57
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_58
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_59
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 35}
+        - {x: -11, y: 34}
+        - {x: -23, y: 9}
+        - {x: -23, y: -6}
+        - {x: -11, y: -35}
+        - {x: 13, y: -35}
+        - {x: 23, y: -18}
+        - {x: 23, y: 32}
+        - {x: 16, y: 35}
+    - name: skunk-jump-ghost_62
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_63
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_64
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 17
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 35.5}
+        - {x: -9.5, y: 35.5}
+        - {x: -22.5, y: 27.5}
+        - {x: -23.5, y: 18.5}
+        - {x: -23.5, y: -9.5}
+        - {x: -10.5, y: -35.5}
+        - {x: 4.5, y: -35.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 23.5, y: -10.5}
+        - {x: 23.5, y: 33.5}
+    - name: skunk-jump-ghost_65
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_66
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_67
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 17
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 35.5}
+        - {x: -14, y: 35.5}
+        - {x: -24, y: 23.5}
+        - {x: -24, y: -16.5}
+        - {x: -18, y: -35.5}
+        - {x: 5, y: -35.5}
+        - {x: 20, y: -25.5}
+        - {x: 24, y: -0.5}
+        - {x: 24, y: 31.5}
+    - name: skunk-jump-ghost_68
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 87
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_71
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_73
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-ghost_74
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

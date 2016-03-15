@@ -1,0 +1,1628 @@
+fileFormatVersion: 2
+guid: 077aa0b052fdd044db6de9f6e854f2bc
+timeCreated: 1458010800
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-idle-bindle_0
+    21300002: skunk-idle-bindle_1
+    21300004: skunk-idle-bindle_2
+    21300006: skunk-idle-bindle_3
+    21300008: skunk-idle-bindle_4
+    21300010: skunk-idle-bindle_5
+    21300012: skunk-idle-bindle_6
+    21300014: skunk-idle-bindle_7
+    21300016: skunk-idle-bindle_8
+    21300018: skunk-idle-bindle_9
+    21300020: skunk-idle-bindle_10
+    21300022: skunk-idle-bindle_11
+    21300024: skunk-idle-bindle_12
+    21300026: skunk-idle-bindle_13
+    21300028: skunk-idle-bindle_14
+    21300030: skunk-idle-bindle_15
+    21300032: skunk-idle-bindle_16
+    21300034: skunk-idle-bindle_17
+    21300036: skunk-idle-bindle_18
+    21300038: skunk-idle-bindle_19
+    21300040: skunk-idle-bindle_20
+    21300042: skunk-idle-bindle_21
+    21300044: skunk-idle-bindle_22
+    21300046: skunk-idle-bindle_23
+    21300048: skunk-idle-bindle_24
+    21300050: skunk-idle-bindle_25
+    21300052: skunk-idle-bindle_26
+    21300054: skunk-idle-bindle_27
+    21300056: skunk-idle-bindle_28
+    21300058: skunk-idle-bindle_29
+    21300060: skunk-idle-bindle_30
+    21300062: skunk-idle-bindle_31
+    21300064: skunk-idle-bindle_32
+    21300066: skunk-idle-bindle_33
+    21300068: skunk-idle-bindle_34
+    21300070: skunk-idle-bindle_35
+    21300072: skunk-idle-bindle_36
+    21300074: skunk-idle-bindle_37
+    21300076: skunk-idle-bindle_38
+    21300078: skunk-idle-bindle_39
+    21300080: skunk-idle-bindle_40
+    21300082: skunk-idle-bindle_41
+    21300084: skunk-idle-bindle_42
+    21300086: skunk-idle-bindle_43
+    21300088: skunk-idle-bindle_44
+    21300090: skunk-idle-bindle_45
+    21300092: skunk-idle-bindle_46
+    21300094: skunk-idle-bindle_47
+    21300096: skunk-idle-bindle_48
+    21300098: skunk-idle-bindle_49
+    21300100: skunk-idle-bindle_50
+    21300102: skunk-idle-bindle_51
+    21300104: skunk-idle-bindle_52
+    21300106: skunk-idle-bindle_53
+    21300108: skunk-idle-bindle_54
+    21300110: skunk-idle-bindle_55
+    21300112: skunk-idle-bindle_56
+    21300114: skunk-idle-bindle_57
+    21300116: skunk-idle-bindle_58
+    21300118: skunk-idle-bindle_59
+    21300120: skunk-idle-bindle_60
+    21300122: skunk-idle-bindle_61
+    21300124: skunk-idle-bindle_62
+    21300126: skunk-idle-bindle_63
+    21300128: skunk-idle-bindle_64
+    21300130: skunk-idle-bindle_65
+    21300132: skunk-idle-bindle_66
+    21300134: skunk-idle-bindle_67
+    21300136: skunk-idle-bindle_68
+    21300138: skunk-idle-bindle_69
+    21300140: skunk-idle-bindle_70
+    21300142: skunk-idle-bindle_71
+    21300144: skunk-idle-bindle_72
+    21300146: skunk-idle-bindle_73
+    21300148: skunk-idle-bindle_74
+    21300150: skunk-idle-bindle_75
+    21300152: skunk-idle-bindle_76
+    21300154: skunk-idle-bindle_77
+    21300156: skunk-idle-bindle_78
+    21300158: skunk-idle-bindle_79
+    21300160: skunk-idle-bindle_80
+    21300162: skunk-idle-bindle_81
+    21300164: skunk-idle-bindle_82
+    21300166: skunk-idle-bindle_83
+    21300168: skunk-idle-bindle_84
+    21300170: skunk-idle-bindle_85
+    21300172: skunk-idle-bindle_86
+    21300174: skunk-idle-bindle_87
+    21300176: skunk-idle-bindle_88
+    21300178: skunk-idle-bindle_89
+    21300180: skunk-idle-bindle_90
+    21300182: skunk-idle-bindle_91
+    21300184: skunk-idle-bindle_92
+    21300186: skunk-idle-bindle_93
+    21300188: skunk-idle-bindle_94
+    21300190: skunk-idle-bindle_95
+    21300192: skunk-idle-bindle_96
+    21300194: skunk-idle-bindle_97
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-idle-bindle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -23, y: -35}
+        - {x: -23, y: -31}
+        - {x: -25, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -29, y: 35}
+        - {x: -29, y: -16}
+        - {x: -21, y: -35}
+        - {x: 17, y: -35}
+        - {x: 29, y: -18}
+        - {x: 29, y: 24}
+        - {x: 10, y: 35}
+      - - {x: 25, y: -31}
+        - {x: 25, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 27, y: -29}
+    - name: skunk-idle-bindle_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 437
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -23, y: -35}
+        - {x: -23, y: -31}
+        - {x: -25, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -29, y: 35}
+        - {x: -29, y: -11}
+        - {x: -17, y: -35}
+        - {x: 17, y: -35}
+        - {x: 29, y: -18}
+        - {x: 29, y: 13}
+        - {x: 19, y: 35}
+      - - {x: 25, y: -31}
+        - {x: 25, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 27, y: -29}
+    - name: skunk-idle-bindle_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 437
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -23, y: -35}
+        - {x: -23, y: -31}
+        - {x: -25, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -29, y: 35}
+        - {x: -29, y: -19}
+        - {x: -12, y: -35}
+        - {x: 16, y: -35}
+        - {x: 29, y: -8}
+        - {x: 29, y: 11}
+        - {x: 12, y: 35}
+      - - {x: 25, y: -31}
+        - {x: 25, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 27, y: -29}
+    - name: skunk-idle-bindle_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 437
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -23, y: -35}
+        - {x: -23, y: -31}
+        - {x: -25, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -29, y: 35}
+        - {x: -29, y: 1}
+        - {x: -28, y: -11}
+        - {x: -13, y: -35}
+        - {x: 16, y: -35}
+        - {x: 29, y: -9}
+        - {x: 29, y: 13}
+        - {x: 8, y: 35}
+      - - {x: 25, y: -31}
+        - {x: 25, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 27, y: -29}
+    - name: skunk-idle-bindle_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 437
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -23, y: -35}
+        - {x: -23, y: -31}
+        - {x: -25, y: -29}
+        - {x: -29, y: -29}
+      - - {x: 13, y: 35}
+        - {x: -29, y: 35}
+        - {x: -29, y: -10}
+        - {x: -19, y: -35}
+        - {x: 14, y: -35}
+        - {x: 29, y: -20}
+        - {x: 29, y: 23}
+      - - {x: 25, y: -31}
+        - {x: 25, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 27, y: -29}
+    - name: skunk-idle-bindle_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_28
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 437
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -35}
+        - {x: -23.5, y: -35}
+        - {x: -23.5, y: -31}
+        - {x: -25.5, y: -29}
+        - {x: -28.5, y: -29}
+      - - {x: -28.5, y: 35}
+        - {x: -28.5, y: -17}
+        - {x: -10.5, y: -35}
+        - {x: 16.5, y: -35}
+        - {x: 28.5, y: -21}
+        - {x: 28.5, y: 12}
+        - {x: 18.5, y: 35}
+      - - {x: 24.5, y: -31}
+        - {x: 24.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 26.5, y: -29}
+    - name: skunk-idle-bindle_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_35
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 332
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -37.5}
+        - {x: -23, y: -37.5}
+        - {x: -23, y: -33.5}
+        - {x: -25, y: -31.5}
+        - {x: -29, y: -31.5}
+      - - {x: 8, y: 36.5}
+        - {x: 2, y: 37.5}
+        - {x: -29, y: 37.5}
+        - {x: -29, y: -10.5}
+        - {x: -12, y: -37.5}
+        - {x: 15, y: -37.5}
+        - {x: 15, y: -29.5}
+        - {x: 29, y: -12.5}
+        - {x: 29, y: 9.5}
+      - - {x: 25, y: -33.5}
+        - {x: 25, y: -37.5}
+        - {x: 29, y: -37.5}
+        - {x: 29, y: -31.5}
+        - {x: 27, y: -31.5}
+      - - {x: 25, y: 37.5}
+        - {x: 25, y: 33.5}
+        - {x: 27, y: 31.5}
+        - {x: 29, y: 31.5}
+        - {x: 29, y: 37.5}
+    - name: skunk-idle-bindle_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 332
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -37.5}
+        - {x: -23, y: -37.5}
+        - {x: -23, y: -33.5}
+        - {x: -25, y: -31.5}
+        - {x: -29, y: -31.5}
+      - - {x: -18, y: 37.5}
+        - {x: -29, y: 37.5}
+        - {x: -29, y: -12.5}
+        - {x: -24, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 29, y: -32.5}
+        - {x: 29, y: 18.5}
+        - {x: 7, y: 33.5}
+      - - {x: 25, y: -33.5}
+        - {x: 25, y: -37.5}
+        - {x: 29, y: -37.5}
+        - {x: 29, y: -31.5}
+        - {x: 27, y: -31.5}
+      - - {x: 25, y: 37.5}
+        - {x: 25, y: 33.5}
+        - {x: 27, y: 31.5}
+        - {x: 29, y: 31.5}
+        - {x: 29, y: 37.5}
+    - name: skunk-idle-bindle_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 332
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -36}
+        - {x: -23.5, y: -36}
+        - {x: -23.5, y: -32}
+        - {x: -25.5, y: -30}
+        - {x: -28.5, y: -30}
+      - - {x: -28.5, y: 36}
+        - {x: -28.5, y: -13}
+        - {x: -13.5, y: -36}
+        - {x: 18.5, y: -36}
+        - {x: 28.5, y: -12}
+        - {x: 28.5, y: 12}
+        - {x: 10.5, y: 36}
+      - - {x: 24.5, y: -32}
+        - {x: 24.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 28.5, y: -30}
+        - {x: 26.5, y: -30}
+      - - {x: 24.5, y: 36}
+        - {x: 25.5, y: 33}
+        - {x: 28.5, y: 33}
+        - {x: 28.5, y: 36}
+    - name: skunk-idle-bindle_42
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 332
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -35}
+        - {x: -23.5, y: -35}
+        - {x: -23.5, y: -31}
+        - {x: -25.5, y: -29}
+        - {x: -28.5, y: -29}
+      - - {x: -28.5, y: 35}
+        - {x: -28.5, y: -17}
+        - {x: -17.5, y: -35}
+        - {x: 15.5, y: -35}
+        - {x: 28.5, y: -12}
+        - {x: 28.5, y: 12}
+        - {x: 11.5, y: 35}
+      - - {x: 24.5, y: -31}
+        - {x: 24.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 26.5, y: -29}
+    - name: skunk-idle-bindle_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_47
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 332
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -24, y: -35}
+        - {x: -24, y: -31}
+        - {x: -26, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -29, y: 35}
+        - {x: -29, y: -14}
+        - {x: -13, y: -35}
+        - {x: 17, y: -35}
+        - {x: 29, y: -9}
+        - {x: 29, y: 11}
+        - {x: 9, y: 35}
+      - - {x: 24, y: -31}
+        - {x: 24, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 26, y: -29}
+    - name: skunk-idle-bindle_48
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_49
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_50
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 332
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -24, y: -35}
+        - {x: -24, y: -31}
+        - {x: -26, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -29, y: 35}
+        - {x: -29, y: -10}
+        - {x: -24, y: -12}
+        - {x: -18, y: -11}
+        - {x: -12, y: -35}
+        - {x: 16, y: -35}
+        - {x: 29, y: -11}
+        - {x: 29, y: 14}
+        - {x: 10, y: 35}
+      - - {x: 24, y: -31}
+        - {x: 24, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 26, y: -29}
+    - name: skunk-idle-bindle_51
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_52
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_56
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_57
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 227
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -36.5}
+        - {x: -24, y: -36.5}
+        - {x: -24, y: -32.5}
+        - {x: -26, y: -30.5}
+        - {x: -29, y: -30.5}
+      - - {x: -29, y: 36.5}
+        - {x: -29, y: -10.5}
+        - {x: -13, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 29, y: -12.5}
+        - {x: 29, y: 11.5}
+        - {x: 6, y: 36.5}
+      - - {x: 24, y: -32.5}
+        - {x: 24, y: -36.5}
+        - {x: 29, y: -36.5}
+        - {x: 29, y: -30.5}
+        - {x: 26, y: -30.5}
+      - - {x: 24, y: 36.5}
+        - {x: 24, y: 34.5}
+        - {x: 26, y: 32.5}
+        - {x: 29, y: 32.5}
+        - {x: 29, y: 36.5}
+    - name: skunk-idle-bindle_60
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_62
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 227
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -37}
+        - {x: -24, y: -37}
+        - {x: -24, y: -33}
+        - {x: -26, y: -31}
+        - {x: -28, y: -31}
+      - - {x: -28, y: 37}
+        - {x: -28, y: -32}
+        - {x: -18, y: -37}
+        - {x: 28, y: -37}
+        - {x: 28, y: 33}
+        - {x: 16, y: 37}
+      - - {x: 24, y: -33}
+        - {x: 24, y: -37}
+        - {x: 28, y: -37}
+        - {x: 28, y: -31}
+        - {x: 26, y: -31}
+      - - {x: 24, y: 37}
+        - {x: 24, y: 34}
+        - {x: 26, y: 32}
+        - {x: 28, y: 32}
+        - {x: 28, y: 37}
+    - name: skunk-idle-bindle_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_65
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 227
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -37}
+        - {x: -24, y: -37}
+        - {x: -24, y: -33}
+        - {x: -26, y: -31}
+        - {x: -28, y: -31}
+      - - {x: -28, y: 37}
+        - {x: -28, y: -12}
+        - {x: -14, y: -37}
+        - {x: 17, y: -37}
+        - {x: 28, y: -29}
+        - {x: 28, y: 24}
+        - {x: 19, y: 37}
+      - - {x: 24, y: -33}
+        - {x: 24, y: -37}
+        - {x: 28, y: -37}
+        - {x: 28, y: -31}
+        - {x: 26, y: -31}
+      - - {x: 24, y: 37}
+        - {x: 24, y: 34}
+        - {x: 26, y: 32}
+        - {x: 28, y: 32}
+        - {x: 28, y: 37}
+    - name: skunk-idle-bindle_66
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_67
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_68
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 227
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -37.5}
+        - {x: -24.5, y: -37.5}
+        - {x: -24.5, y: -33.5}
+        - {x: -26.5, y: -31.5}
+        - {x: -27.5, y: -31.5}
+      - - {x: -3.5, y: 37.5}
+        - {x: -27.5, y: 37.5}
+        - {x: -27.5, y: -20.5}
+        - {x: -22.5, y: -37.5}
+        - {x: 14.5, y: -37.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 27.5, y: 21.5}
+        - {x: 5.5, y: 36.5}
+      - - {x: 23.5, y: -33.5}
+        - {x: 23.5, y: -37.5}
+        - {x: 27.5, y: -37.5}
+        - {x: 27.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+      - - {x: 23.5, y: 37.5}
+        - {x: 23.5, y: 33.5}
+        - {x: 25.5, y: 31.5}
+        - {x: 27.5, y: 31.5}
+        - {x: 27.5, y: 37.5}
+    - name: skunk-idle-bindle_69
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_70
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 297
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_71
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 226
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -38}
+        - {x: -24.5, y: -38}
+        - {x: -24.5, y: -34}
+        - {x: -26.5, y: -32}
+        - {x: -27.5, y: -32}
+      - - {x: -0.5, y: 38}
+        - {x: -27.5, y: 38}
+        - {x: -27.5, y: -24}
+        - {x: -21.5, y: -38}
+        - {x: 14.5, y: -38}
+        - {x: 27.5, y: -18}
+        - {x: 27.5, y: 9}
+        - {x: 21.5, y: 30}
+      - - {x: 23.5, y: -34}
+        - {x: 23.5, y: -38}
+        - {x: 27.5, y: -38}
+        - {x: 27.5, y: -32}
+        - {x: 25.5, y: -32}
+      - - {x: 24.5, y: 38}
+        - {x: 23.5, y: 37}
+        - {x: 23.5, y: 33}
+        - {x: 25.5, y: 31}
+        - {x: 27.5, y: 31}
+        - {x: 27.5, y: 38}
+    - name: skunk-idle-bindle_72
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 297
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_74
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 227
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -37}
+        - {x: -24, y: -37}
+        - {x: -24, y: -33}
+        - {x: -26, y: -31}
+        - {x: -28, y: -31}
+      - - {x: -28, y: 37}
+        - {x: -28, y: -20}
+        - {x: -18, y: -37}
+        - {x: 14, y: -37}
+        - {x: 28, y: -28}
+        - {x: 28, y: 25}
+        - {x: 20, y: 37}
+      - - {x: 24, y: -33}
+        - {x: 24, y: -37}
+        - {x: 28, y: -37}
+        - {x: 28, y: -31}
+        - {x: 26, y: -31}
+      - - {x: 24, y: 37}
+        - {x: 24, y: 34}
+        - {x: 26, y: 32}
+        - {x: 28, y: 32}
+        - {x: 28, y: 37}
+    - name: skunk-idle-bindle_75
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_77
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_78
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_79
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_80
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_81
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_82
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_83
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_84
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 225
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_85
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 225
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_86
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_87
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -36}
+        - {x: -23.5, y: -36}
+        - {x: -23.5, y: -32}
+        - {x: -25.5, y: -30}
+        - {x: -28.5, y: -30}
+      - - {x: -28.5, y: 36}
+        - {x: -28.5, y: -18}
+        - {x: -14.5, y: -36}
+        - {x: 21.5, y: -36}
+        - {x: 28.5, y: -18}
+        - {x: 28.5, y: 15}
+        - {x: 11.5, y: 36}
+      - - {x: 24.5, y: -32}
+        - {x: 24.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 28.5, y: -30}
+        - {x: 26.5, y: -30}
+      - - {x: 24.5, y: 36}
+        - {x: 25.5, y: 33}
+        - {x: 28.5, y: 33}
+        - {x: 28.5, y: 36}
+    - name: skunk-idle-bindle_90
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_91
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_92
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_94
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_95
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -35}
+        - {x: -23, y: -35}
+        - {x: -23, y: -31}
+        - {x: -25, y: -29}
+        - {x: -29, y: -29}
+      - - {x: -26, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: 24}
+        - {x: 18, y: 35}
+        - {x: -29, y: 35}
+        - {x: -29, y: -23}
+      - - {x: 25, y: -31}
+        - {x: 25, y: -35}
+        - {x: 29, y: -35}
+        - {x: 29, y: -29}
+        - {x: 27, y: -29}
+    - name: skunk-idle-bindle_96
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-idle-bindle_97
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
