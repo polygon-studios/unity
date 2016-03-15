@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 59d4707cf6e88cd4cb8a02694dfa90e4
+timeCreated: 1458005118
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-jump-bun-lantern_0
+    21300002: skunk-jump-bun-lantern_1
+    21300004: skunk-jump-bun-lantern_2
+    21300006: skunk-jump-bun-lantern_3
+    21300008: skunk-jump-bun-lantern_4
+    21300010: skunk-jump-bun-lantern_5
+    21300012: skunk-jump-bun-lantern_6
+    21300014: skunk-jump-bun-lantern_7
+    21300016: skunk-jump-bun-lantern_8
+    21300018: skunk-jump-bun-lantern_9
+    21300020: skunk-jump-bun-lantern_10
+    21300022: skunk-jump-bun-lantern_11
+    21300024: skunk-jump-bun-lantern_12
+    21300026: skunk-jump-bun-lantern_13
+    21300028: skunk-jump-bun-lantern_14
+    21300030: skunk-jump-bun-lantern_15
+    21300032: skunk-jump-bun-lantern_16
+    21300034: skunk-jump-bun-lantern_17
+    21300036: skunk-jump-bun-lantern_18
+    21300038: skunk-jump-bun-lantern_19
+    21300040: skunk-jump-bun-lantern_20
+    21300042: skunk-jump-bun-lantern_21
+    21300044: skunk-jump-bun-lantern_22
+    21300046: skunk-jump-bun-lantern_23
+    21300048: skunk-jump-bun-lantern_24
+    21300050: skunk-jump-bun-lantern_25
+    21300052: skunk-jump-bun-lantern_26
+    21300054: skunk-jump-bun-lantern_27
+    21300056: skunk-jump-bun-lantern_28
+    21300058: skunk-jump-bun-lantern_29
+    21300060: skunk-jump-bun-lantern_30
+    21300062: skunk-jump-bun-lantern_31
+    21300064: skunk-jump-bun-lantern_32
+    21300066: skunk-jump-bun-lantern_33
+    21300068: skunk-jump-bun-lantern_34
+    21300070: skunk-jump-bun-lantern_35
+    21300072: skunk-jump-bun-lantern_36
+    21300074: skunk-jump-bun-lantern_37
+    21300076: skunk-jump-bun-lantern_38
+    21300078: skunk-jump-bun-lantern_39
+    21300080: skunk-jump-bun-lantern_40
+    21300082: skunk-jump-bun-lantern_41
+    21300084: skunk-jump-bun-lantern_42
+    21300086: skunk-jump-bun-lantern_43
+    21300088: skunk-jump-bun-lantern_44
+    21300090: skunk-jump-bun-lantern_45
+    21300092: skunk-jump-bun-lantern_46
+    21300094: skunk-jump-bun-lantern_47
+    21300096: skunk-jump-bun-lantern_48
+    21300098: skunk-jump-bun-lantern_49
+    21300100: skunk-jump-bun-lantern_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-jump-bun-lantern_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 432
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 37.5}
+        - {x: -26.5, y: 20.5}
+        - {x: -26.5, y: -34.5}
+        - {x: -19.5, y: -37.5}
+        - {x: 17.5, y: -37.5}
+        - {x: 26.5, y: -19.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 9.5, y: 37.5}
+      - - {x: 19.5, y: -26.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 26.5, y: -35.5}
+        - {x: 26.5, y: -26.5}
+    - name: skunk-jump-bun-lantern_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 432
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 37.5}
+        - {x: -18, y: 37.5}
+        - {x: -27, y: 18.5}
+        - {x: -27, y: -34.5}
+        - {x: -23, y: -35.5}
+        - {x: -14, y: -37.5}
+        - {x: 9, y: -37.5}
+        - {x: 22, y: -27.5}
+        - {x: 27, y: -10.5}
+        - {x: 27, y: 25.5}
+      - - {x: 20, y: -26.5}
+        - {x: 20, y: -35.5}
+        - {x: 27, y: -35.5}
+        - {x: 27, y: -26.5}
+    - name: skunk-jump-bun-lantern_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_17
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 38}
+        - {x: -11, y: 38}
+        - {x: -28, y: 24}
+        - {x: -28, y: -38}
+        - {x: 17, y: -38}
+        - {x: 28, y: -35}
+        - {x: 28, y: 17}
+        - {x: 15, y: 37}
+      - - {x: 22, y: -28}
+        - {x: 22, y: -33}
+        - {x: 24, y: -35}
+        - {x: 28, y: -35}
+        - {x: 28, y: -26}
+        - {x: 24, y: -26}
+    - name: skunk-jump-bun-lantern_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 432
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 8.5}
+        - {x: 22, y: 8.5}
+        - {x: 17, y: 9.5}
+        - {x: 13, y: 11.5}
+        - {x: 13, y: 10.5}
+        - {x: 15, y: 11.5}
+        - {x: 19, y: 16.5}
+        - {x: 22, y: 20.5}
+        - {x: 24, y: 25.5}
+        - {x: 24, y: 37.5}
+        - {x: -30, y: 37.5}
+        - {x: -30, y: 30.5}
+        - {x: -26, y: -0.5}
+        - {x: -22, y: -2.5}
+        - {x: -30, y: -24.5}
+        - {x: -30, y: -35.5}
+        - {x: -19, y: -36.5}
+        - {x: -11, y: -37.5}
+        - {x: 12, y: -37.5}
+        - {x: 14, y: -35.5}
+        - {x: 17, y: -26.5}
+        - {x: 30, y: -0.5}
+      - - {x: 24, y: -28.5}
+        - {x: 24, y: -33.5}
+        - {x: 26, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: -26.5}
+        - {x: 26, y: -26.5}
+    - name: skunk-jump-bun-lantern_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 433
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 37}
+        - {x: -12.5, y: 37}
+        - {x: -29.5, y: 2}
+        - {x: -29.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 29.5, y: -7}
+        - {x: 29.5, y: 23}
+        - {x: 26.5, y: 28}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -34}
+        - {x: 26.5, y: -36}
+        - {x: 29.5, y: -36}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: skunk-jump-bun-lantern_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 431
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 27}
+        - {x: 9.5, y: 38}
+        - {x: -7.5, y: 38}
+        - {x: -12.5, y: 28}
+        - {x: -12.5, y: 27}
+        - {x: -23.5, y: 5}
+        - {x: -23.5, y: 2}
+        - {x: -20.5, y: -1}
+        - {x: -29.5, y: -16}
+        - {x: -29.5, y: -37}
+        - {x: -17.5, y: -38}
+        - {x: 14.5, y: -38}
+        - {x: 18.5, y: -35}
+        - {x: 29.5, y: -6}
+        - {x: 29.5, y: 21}
+      - - {x: 24.5, y: -28}
+        - {x: 24.5, y: -33}
+        - {x: 26.5, y: -35}
+        - {x: 29.5, y: -35}
+        - {x: 29.5, y: -26}
+        - {x: 26.5, y: -26}
+    - name: skunk-jump-bun-lantern_22
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_30
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 397
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 38.5}
+        - {x: -29.5, y: -12.5}
+        - {x: -29.5, y: -38.5}
+        - {x: 15.5, y: -38.5}
+        - {x: 29.5, y: -0.5}
+        - {x: 29.5, y: 23.5}
+        - {x: 19.5, y: 38.5}
+      - - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 26.5, y: -34.5}
+        - {x: 29.5, y: -34.5}
+        - {x: 29.5, y: -25.5}
+        - {x: 26.5, y: -25.5}
+    - name: skunk-jump-bun-lantern_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 321
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 38}
+        - {x: -28, y: 5}
+        - {x: -30, y: -12}
+        - {x: -30, y: -36}
+        - {x: -21, y: -38}
+        - {x: 16, y: -38}
+        - {x: 30, y: -18}
+        - {x: 30, y: 27}
+        - {x: 25, y: 38}
+      - - {x: 24, y: -28}
+        - {x: 24, y: -33}
+        - {x: 26, y: -35}
+        - {x: 30, y: -35}
+        - {x: 30, y: -26}
+        - {x: 26, y: -26}
+    - name: skunk-jump-bun-lantern_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 323
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 37}
+        - {x: -30, y: 0}
+        - {x: -30, y: -37}
+        - {x: 20, y: -37}
+        - {x: 30, y: -15}
+        - {x: 30, y: 25}
+        - {x: 19, y: 37}
+      - - {x: 24, y: -29}
+        - {x: 24, y: -34}
+        - {x: 26, y: -36}
+        - {x: 30, y: -36}
+        - {x: 30, y: -27}
+        - {x: 26, y: -27}
+    - name: skunk-jump-bun-lantern_39
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 321
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 37.5}
+        - {x: -20, y: 37.5}
+        - {x: -30, y: 8.5}
+        - {x: -30, y: -35.5}
+        - {x: -26, y: -34.5}
+        - {x: -18, y: -30.5}
+        - {x: -11, y: -37.5}
+        - {x: 16, y: -37.5}
+        - {x: 30, y: -6.5}
+        - {x: 30, y: 16.5}
+        - {x: 24, y: 34.5}
+      - - {x: 24, y: -27.5}
+        - {x: 24, y: -32.5}
+        - {x: 26, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: -25.5}
+        - {x: 26, y: -25.5}
+    - name: skunk-jump-bun-lantern_40
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 38.5}
+        - {x: -21, y: 38.5}
+        - {x: -30, y: 12.5}
+        - {x: -30, y: -35.5}
+        - {x: -19, y: -38.5}
+        - {x: 12, y: -38.5}
+        - {x: 30, y: -2.5}
+        - {x: 30, y: 14.5}
+        - {x: 25, y: 35.5}
+      - - {x: 24, y: -27.5}
+        - {x: 24, y: -32.5}
+        - {x: 26, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: -25.5}
+        - {x: 26, y: -25.5}
+    - name: skunk-jump-bun-lantern_41
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 321
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -30, y: 21.5}
+        - {x: -30, y: -37.5}
+        - {x: 30, y: -37.5}
+        - {x: 30, y: 37.5}
+      - - {x: 24, y: -27.5}
+        - {x: 24, y: -32.5}
+        - {x: 26, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: -25.5}
+        - {x: 26, y: -25.5}
+    - name: skunk-jump-bun-lantern_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_43
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_44
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_46
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-jump-bun-lantern_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 38}
+        - {x: -26, y: 1}
+        - {x: -30, y: -15}
+        - {x: -30, y: -38}
+        - {x: 26, y: -38}
+        - {x: 30, y: -23}
+        - {x: 30, y: 28}
+        - {x: 20, y: 38}
+      - - {x: 24, y: -28}
+        - {x: 24, y: -33}
+        - {x: 26, y: -35}
+        - {x: 30, y: -35}
+        - {x: 30, y: -26}
+        - {x: 26, y: -26}
+    - name: skunk-jump-bun-lantern_49
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 211
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 37.5}
+        - {x: -30, y: 1.5}
+        - {x: -30, y: -35.5}
+        - {x: -22, y: -37.5}
+        - {x: 21, y: -37.5}
+        - {x: 30, y: -12.5}
+        - {x: 30, y: 26.5}
+        - {x: 16, y: 37.5}
+      - - {x: 24, y: -28.5}
+        - {x: 24, y: -33.5}
+        - {x: 26, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: -26.5}
+        - {x: 26, y: -26.5}
+    - name: skunk-jump-bun-lantern_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 212
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 37}
+        - {x: -15, y: 37}
+        - {x: -30, y: 18}
+        - {x: -30, y: -37}
+        - {x: 16, y: -37}
+        - {x: 19, y: -35}
+        - {x: 30, y: -14}
+        - {x: 30, y: 29}
+      - - {x: 24, y: -29}
+        - {x: 24, y: -34}
+        - {x: 26, y: -36}
+        - {x: 30, y: -36}
+        - {x: 30, y: -27}
+        - {x: 26, y: -27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
