@@ -155,12 +155,15 @@ public class Character : MonoBehaviour {
 	}
 
 	void checkCollisions(){
-		List<GameObject> easyItems = gameMaster.getEasyItems ();
-		List<GameObject> mediumItems = gameMaster.getMedItems ();
-		List<GameObject> hardItems = gameMaster.getHardItems ();
+        List<GameObject> items = new List<GameObject>();
+        items.AddRange(gameMaster.lev1ItemsCurrent);
+        items.AddRange(gameMaster.lev2ItemsCurrent);
+        items.AddRange(gameMaster.lev3ItemsCurrent);
+        items.AddRange(gameMaster.currentOil);
 
-		if(easyItems != null){
-			foreach(GameObject eItem in easyItems)
+
+        if (items != null){
+			foreach(GameObject eItem in items)
 			{
 				float itemX = eItem.transform.position.x;
 				float itemY = eItem.transform.position.y;
@@ -169,32 +172,6 @@ public class Character : MonoBehaviour {
 					doCollision (eItem);
 				}
 
-			}
-		}
-		if(mediumItems != null){
-			foreach(GameObject mItem in mediumItems)
-			{
-				float itemX = mItem.transform.position.x;
-				float itemY = mItem.transform.position.y;
-				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
-					//Debug.Log (mItem.name + " item near character: " + this.name);
-					doCollision (mItem);
-				}
-				
-			}
-		}
-		if(hardItems != null){
-			foreach(GameObject hItem in hardItems)
-			{
-                if(hItem != null) { 
-				float itemX = hItem.transform.position.x;
-				float itemY = hItem.transform.position.y;
-				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
-					//Debug.Log (hItem.name + " item near character: " + this.name);
-					doCollision (hItem);
-				}
-                }
-				
 			}
 		}
 

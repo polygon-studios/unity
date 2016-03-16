@@ -185,7 +185,7 @@ public class Items : MonoBehaviour {
 			lev3ItemsCurrent.Remove(itemObj);
 		}
 	}
-
+    /*
 	public List<GameObject> getEasyItems(){
 		return lev1ItemsCurrent;
 	}
@@ -196,7 +196,7 @@ public class Items : MonoBehaviour {
 
 	public List<GameObject> getHardItems(){
 		return lev3ItemsCurrent;
-	}
+	}*/
 
 	void fillArrayPositions(){
 		///// easy Item Positions
