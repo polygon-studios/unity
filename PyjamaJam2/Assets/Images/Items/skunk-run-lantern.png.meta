@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 3386131521c698140bbdd90a114fba58
+timeCreated: 1458143814
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-run-lantern_0
+    21300002: skunk-run-lantern_1
+    21300004: skunk-run-lantern_2
+    21300006: skunk-run-lantern_3
+    21300008: skunk-run-lantern_4
+    21300010: skunk-run-lantern_5
+    21300012: skunk-run-lantern_6
+    21300014: skunk-run-lantern_7
+    21300016: skunk-run-lantern_8
+    21300018: skunk-run-lantern_9
+    21300020: skunk-run-lantern_10
+    21300022: skunk-run-lantern_11
+    21300024: skunk-run-lantern_12
+    21300026: skunk-run-lantern_13
+    21300028: skunk-run-lantern_14
+    21300030: skunk-run-lantern_15
+    21300032: skunk-run-lantern_16
+    21300034: skunk-run-lantern_17
+    21300036: skunk-run-lantern_18
+    21300038: skunk-run-lantern_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-run-lantern_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 441
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -28.5, y: 21}
+        - {x: -28.5, y: -11}
+        - {x: -27.5, y: -12}
+        - {x: -22.5, y: -12}
+        - {x: -23.5, y: -12}
+        - {x: -28.5, y: -16}
+        - {x: -28.5, y: -31}
+        - {x: -19.5, y: -33}
+        - {x: 28.5, y: -33}
+        - {x: 28.5, y: 33}
+    - name: skunk-run-lantern_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 438
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 34}
+        - {x: -28, y: 24}
+        - {x: -28, y: -11}
+        - {x: -23, y: -12}
+        - {x: -17, y: -8}
+        - {x: -20, y: -12}
+        - {x: -28, y: -15}
+        - {x: -28, y: -28}
+        - {x: -10, y: -34}
+        - {x: 23, y: -34}
+        - {x: 28, y: -30}
+        - {x: 28, y: 23}
+        - {x: 24, y: 34}
+    - name: skunk-run-lantern_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 435
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 35.5}
+        - {x: -28, y: -31.5}
+        - {x: -18, y: -35.5}
+        - {x: 28, y: -35.5}
+        - {x: 28, y: 35.5}
+    - name: skunk-run-lantern_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 436
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 35}
+        - {x: -28.5, y: 27}
+        - {x: -28.5, y: -35}
+        - {x: 13.5, y: -35}
+        - {x: 28.5, y: -23}
+        - {x: 28.5, y: 21}
+        - {x: 19.5, y: 35}
+    - name: skunk-run-lantern_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 435
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 35.5}
+        - {x: -29, y: 27.5}
+        - {x: -29, y: -25.5}
+        - {x: -17, y: -33.5}
+        - {x: -13, y: -35.5}
+        - {x: 23, y: -35.5}
+        - {x: 29, y: -27.5}
+        - {x: 29, y: 20.5}
+        - {x: 18, y: 35.5}
+    - name: skunk-run-lantern_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 329
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 35}
+        - {x: -29, y: 35}
+        - {x: -29, y: -17}
+        - {x: -11, y: -35}
+        - {x: 8, y: -35}
+        - {x: 8, y: -32}
+        - {x: 29, y: -28}
+    - name: skunk-run-lantern_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 328
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 35.5}
+        - {x: -29.5, y: 31.5}
+        - {x: -29.5, y: -25.5}
+        - {x: -23.5, y: -35.5}
+        - {x: 14.5, y: -35.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 23.5}
+        - {x: 18.5, y: 35.5}
+    - name: skunk-run-lantern_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 329
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -35}
+        - {x: 30.5, y: -28}
+        - {x: 30.5, y: 21}
+        - {x: 18.5, y: 35}
+        - {x: -4.5, y: 35}
+        - {x: -30.5, y: 17}
+        - {x: -30.5, y: -19}
+        - {x: -17.5, y: -35}
+        - {x: 2.5, y: -35}
+        - {x: 2.5, y: -33}
+        - {x: 1.5, y: -31}
+        - {x: 14.5, y: -35}
+    - name: skunk-run-lantern_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 329
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 35.5}
+        - {x: -14.5, y: 31.5}
+        - {x: -30.5, y: 22.5}
+        - {x: -30.5, y: -27.5}
+        - {x: -28.5, y: -35.5}
+        - {x: 9.5, y: -35.5}
+        - {x: 30.5, y: -24.5}
+        - {x: 30.5, y: 25.5}
+        - {x: 25.5, y: 35.5}
+    - name: skunk-run-lantern_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 332
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -23}
+        - {x: 31, y: -23}
+        - {x: 31, y: 18}
+        - {x: 19, y: 34}
+        - {x: 2, y: 34}
+        - {x: -7, y: 22}
+        - {x: -6, y: 15}
+        - {x: -21, y: 19}
+        - {x: -31, y: 13}
+        - {x: -31, y: -33}
+        - {x: -29, y: -34}
+        - {x: 29, y: -34}
+        - {x: 31, y: -32}
+        - {x: 31, y: -29}
+        - {x: 22, y: -23}
+    - name: skunk-run-lantern_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 229
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 32}
+        - {x: -30.5, y: 13}
+        - {x: -30.5, y: -31}
+        - {x: -25.5, y: -32}
+        - {x: 30.5, y: -32}
+        - {x: 30.5, y: 28}
+        - {x: 21.5, y: 32}
+    - name: skunk-run-lantern_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 226
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 33}
+        - {x: -30.5, y: 20}
+        - {x: -30.5, y: -31}
+        - {x: -27.5, y: -33}
+        - {x: 30.5, y: -33}
+        - {x: 30.5, y: 24}
+        - {x: 20.5, y: 33}
+    - name: skunk-run-lantern_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 223
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34.5}
+        - {x: -30, y: 27.5}
+        - {x: -30, y: -27.5}
+        - {x: -28, y: -34.5}
+        - {x: 27, y: -34.5}
+        - {x: 30, y: -28.5}
+        - {x: 30, y: 34.5}
+    - name: skunk-run-lantern_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 223
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -20.5}
+        - {x: 17, y: -23.5}
+        - {x: 30, y: -23.5}
+        - {x: 30, y: 23.5}
+        - {x: 29, y: 29.5}
+        - {x: 19, y: 34.5}
+        - {x: -10, y: 34.5}
+        - {x: -30, y: 20.5}
+        - {x: -30, y: -21.5}
+        - {x: -13, y: -34.5}
+        - {x: 18, y: -34.5}
+        - {x: 16, y: -24.5}
+        - {x: 16, y: -17.5}
+    - name: skunk-run-lantern_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 222
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 35.5}
+        - {x: -29.5, y: 29.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -26.5, y: -35.5}
+        - {x: 29.5, y: -35.5}
+        - {x: 29.5, y: 29.5}
+        - {x: 19.5, y: 35.5}
+    - name: skunk-run-lantern_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 117
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 34.5}
+        - {x: -26, y: 32.5}
+        - {x: -29, y: 25.5}
+        - {x: -29, y: -28.5}
+        - {x: -25, y: -34.5}
+        - {x: 26, y: -34.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: 24.5}
+        - {x: 17, y: 34.5}
+    - name: skunk-run-lantern_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 118
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 34}
+        - {x: -29, y: -28}
+        - {x: -21, y: -34}
+        - {x: 7, y: -34}
+        - {x: 29, y: -26}
+        - {x: 29, y: 24}
+        - {x: 17, y: 34}
+    - name: skunk-run-lantern_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 118
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 34}
+        - {x: -28.5, y: 24}
+        - {x: -28.5, y: -27}
+        - {x: -22.5, y: -34}
+        - {x: 22.5, y: -34}
+        - {x: 28.5, y: -32}
+        - {x: 28.5, y: 33}
+        - {x: 26.5, y: 34}
+    - name: skunk-run-lantern_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 118
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 34}
+        - {x: -28.5, y: 28}
+        - {x: -28.5, y: -32}
+        - {x: -26.5, y: -34}
+        - {x: 28.5, y: -34}
+        - {x: 28.5, y: 25}
+        - {x: 17.5, y: 34}
+    - name: skunk-run-lantern_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 119
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 33.5}
+        - {x: -5.5, y: 28.5}
+        - {x: -9.5, y: 14.5}
+        - {x: -5.5, y: 7.5}
+        - {x: -7.5, y: 4.5}
+        - {x: -7.5, y: 11.5}
+        - {x: -17.5, y: 21.5}
+        - {x: -28.5, y: 15.5}
+        - {x: -28.5, y: -21.5}
+        - {x: -22.5, y: -33.5}
+        - {x: 24.5, y: -33.5}
+        - {x: 28.5, y: -28.5}
+        - {x: 28.5, y: 31.5}
+        - {x: 21.5, y: 33.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 3bc11f651b1eadd408fdf030129425d9
+timeCreated: 1458151975
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-fire_0
+    21300002: rabbit-fire_1
+    21300004: rabbit-fire_2
+    21300006: rabbit-fire_3
+    21300008: rabbit-fire_4
+    21300010: rabbit-fire_5
+    21300012: rabbit-fire_6
+    21300014: rabbit-fire_7
+    21300016: rabbit-fire_8
+    21300018: rabbit-fire_9
+    21300020: rabbit-fire_10
+    21300022: rabbit-fire_11
+    21300024: rabbit-fire_12
+    21300026: rabbit-fire_13
+    21300028: rabbit-fire_14
+    21300030: rabbit-fire_15
+    21300032: rabbit-fire_16
+    21300034: rabbit-fire_17
+    21300036: rabbit-fire_18
+    21300038: rabbit-fire_19
+    21300040: rabbit-fire_20
+    21300042: rabbit-fire_21
+    21300044: rabbit-fire_22
+    21300046: rabbit-fire_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-fire_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fire_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fire_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 32}
+        - {x: -30, y: 6}
+        - {x: -14, y: -25}
+        - {x: -2, y: -30}
+        - {x: 6, y: -32}
+        - {x: 30, y: -32}
+        - {x: 30, y: 24}
+        - {x: 4, y: 32}
+    - name: rabbit-fire_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 443
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 34.5}
+        - {x: -29.5, y: 34.5}
+        - {x: -29.5, y: -0.5}
+        - {x: -16.5, y: -5.5}
+        - {x: -13.5, y: -4.5}
+        - {x: -11.5, y: -2.5}
+        - {x: -11.5, y: -1.5}
+        - {x: -13.5, y: 4.5}
+        - {x: -12.5, y: 4.5}
+        - {x: -12.5, y: 1.5}
+        - {x: -10.5, y: -2.5}
+        - {x: -15.5, y: -26.5}
+        - {x: 6.5, y: -34.5}
+        - {x: 29.5, y: -34.5}
+        - {x: 29.5, y: 19.5}
+        - {x: 10.5, y: 31.5}
+    - name: rabbit-fire_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 444
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 34}
+        - {x: -30, y: 6}
+        - {x: -11, y: -32}
+        - {x: 5, y: -34}
+        - {x: 30, y: -34}
+        - {x: 30, y: 19}
+        - {x: -2, y: 34}
+      - - {x: -18, y: -1}
+        - {x: -16, y: -3}
+        - {x: -13, y: -2}
+        - {x: -13, y: 1}
+        - {x: -15, y: 3}
+        - {x: -18, y: 2}
+      - - {x: -19, y: 19}
+        - {x: -22, y: 16}
+        - {x: -22, y: 9}
+        - {x: -20, y: 4}
+        - {x: -18, y: 4}
+        - {x: -11, y: 11}
+        - {x: -11, y: 15}
+        - {x: -12, y: 19}
+    - name: rabbit-fire_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 445
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 33.5}
+        - {x: -30, y: 12.5}
+        - {x: -8, y: -24.5}
+        - {x: -2, y: -32.5}
+        - {x: 1, y: -33.5}
+        - {x: 25, y: -33.5}
+        - {x: 30, y: -20.5}
+        - {x: 30, y: 20.5}
+        - {x: 13, y: 33.5}
+      - - {x: -20, y: 4.5}
+        - {x: -17, y: 5.5}
+        - {x: -17, y: 8.5}
+        - {x: -20, y: 9.5}
+        - {x: -22, y: 7.5}
+      - - {x: -17, y: 20.5}
+        - {x: -22, y: 19.5}
+        - {x: -23, y: 14.5}
+        - {x: -23, y: 11.5}
+        - {x: -20, y: 9.5}
+        - {x: -14, y: 9.5}
+        - {x: -12, y: 13.5}
+        - {x: -12, y: 20.5}
+    - name: rabbit-fire_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 445
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33}
+        - {x: -29.5, y: 33}
+        - {x: -29.5, y: 3}
+        - {x: -27.5, y: -3}
+        - {x: 3.5, y: -33}
+        - {x: 20.5, y: -33}
+        - {x: 24.5, y: -29}
+        - {x: 29.5, y: -4}
+        - {x: 29.5, y: 23}
+      - - {x: -19.5, y: 6}
+        - {x: -16.5, y: 7}
+        - {x: -16.5, y: 10}
+        - {x: -19.5, y: 11}
+        - {x: -21.5, y: 9}
+      - - {x: -22.5, y: 13}
+        - {x: -21.5, y: 11}
+        - {x: -18.5, y: 11}
+        - {x: -12.5, y: 15}
+        - {x: -12.5, y: 18}
+        - {x: -14.5, y: 19}
+        - {x: -20.5, y: 19}
+        - {x: -22.5, y: 18}
+    - name: rabbit-fire_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 30}
+        - {x: -31.5, y: -3}
+        - {x: -29.5, y: -7}
+        - {x: -6.5, y: -30}
+        - {x: 31.5, y: -30}
+        - {x: 31.5, y: 13}
+        - {x: 20.5, y: 30}
+      - - {x: -14.5, y: 11}
+        - {x: -11.5, y: 12}
+        - {x: -11.5, y: 15}
+        - {x: -14.5, y: 16}
+        - {x: -16.5, y: 14}
+    - name: rabbit-fire_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fire_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fire_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 32.5}
+        - {x: -30, y: 32.5}
+        - {x: -30, y: 13.5}
+        - {x: -2, y: -32.5}
+        - {x: 27, y: -32.5}
+        - {x: 30, y: -24.5}
+        - {x: 30, y: 22.5}
+    - name: rabbit-fire_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 342
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 32.5}
+        - {x: -29.5, y: 19.5}
+        - {x: -21.5, y: 14.5}
+        - {x: -16.5, y: 17.5}
+        - {x: -9.5, y: 11.5}
+        - {x: -12.5, y: 13.5}
+        - {x: -15.5, y: 14.5}
+        - {x: -20.5, y: 7.5}
+        - {x: -22.5, y: 0.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 29.5, y: 21.5}
+        - {x: 8.5, y: 32.5}
+    - name: rabbit-fire_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 341
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 33}
+        - {x: -22, y: 33}
+        - {x: -25, y: 32}
+        - {x: -29, y: 30}
+        - {x: -29, y: 16}
+        - {x: -22, y: 15}
+        - {x: -15, y: 17}
+        - {x: -10, y: 19}
+        - {x: -10, y: 11}
+        - {x: -10, y: 13}
+        - {x: -11, y: 16}
+        - {x: -15, y: 16}
+        - {x: -21, y: 12}
+        - {x: -23, y: 3}
+        - {x: -17, y: -5}
+        - {x: -14, y: -4}
+        - {x: -12, y: -2}
+        - {x: -12, y: -1}
+        - {x: -14, y: 5}
+        - {x: -13, y: 5}
+        - {x: -13, y: 2}
+        - {x: -11, y: -2}
+        - {x: -10, y: -33}
+        - {x: 29, y: -33}
+        - {x: 29, y: 22}
+        - {x: 9, y: 32}
+    - name: rabbit-fire_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 31}
+        - {x: -31, y: 14}
+        - {x: -25, y: -2}
+        - {x: -19, y: 2}
+        - {x: -14, y: 8}
+        - {x: -13, y: 12}
+        - {x: -13, y: 14}
+        - {x: -12, y: 10}
+        - {x: -15, y: 7}
+        - {x: -16, y: 2}
+        - {x: -11, y: -28}
+        - {x: -7, y: -31}
+        - {x: 31, y: -31}
+        - {x: 31, y: 27}
+        - {x: 13, y: 31}
+      - - {x: -20, y: -2}
+        - {x: -18, y: -4}
+        - {x: -15, y: -3}
+        - {x: -15, y: 0}
+        - {x: -17, y: 2}
+        - {x: -20, y: 1}
+    - name: rabbit-fire_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 350
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 28.5}
+        - {x: -33.5, y: 10.5}
+        - {x: -31.5, y: 4.5}
+        - {x: -24.5, y: 5.5}
+        - {x: -18.5, y: 7.5}
+        - {x: -15.5, y: 11.5}
+        - {x: -15.5, y: 14.5}
+        - {x: -14.5, y: 10.5}
+        - {x: -18.5, y: 7.5}
+        - {x: -21.5, y: -28.5}
+        - {x: 33.5, y: -28.5}
+        - {x: 33.5, y: 22.5}
+        - {x: 12.5, y: 28.5}
+      - - {x: -23.5, y: 1.5}
+        - {x: -20.5, y: 2.5}
+        - {x: -20.5, y: 5.5}
+        - {x: -23.5, y: 6.5}
+        - {x: -25.5, y: 4.5}
+    - name: rabbit-fire_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 31}
+        - {x: -32, y: 13}
+        - {x: -17, y: -31}
+        - {x: 32, y: -31}
+        - {x: 32, y: 16}
+        - {x: 0, y: 31}
+      - - {x: -22, y: 3}
+        - {x: -19, y: 4}
+        - {x: -19, y: 7}
+        - {x: -22, y: 8}
+        - {x: -24, y: 6}
+      - - {x: -25, y: 10}
+        - {x: -24, y: 8}
+        - {x: -21, y: 8}
+        - {x: -15, y: 12}
+        - {x: -15, y: 15}
+        - {x: -17, y: 16}
+        - {x: -23, y: 16}
+        - {x: -25, y: 15}
+    - name: rabbit-fire_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 245
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 33.5}
+        - {x: -30.5, y: 18.5}
+        - {x: -10.5, y: -25.5}
+        - {x: -8.5, y: -27.5}
+        - {x: 3.5, y: -31.5}
+        - {x: 12.5, y: -33.5}
+        - {x: 30.5, y: -33.5}
+        - {x: 30.5, y: 20.5}
+        - {x: 2.5, y: 33.5}
+    - name: rabbit-fire_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 246
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 33}
+        - {x: -29, y: 14}
+        - {x: -10, y: -29}
+        - {x: 8, y: -33}
+        - {x: 29, y: -33}
+        - {x: 29, y: 20}
+        - {x: -1, y: 33}
+    - name: rabbit-fire_18
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 246
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 33}
+        - {x: -29, y: 33}
+        - {x: -29, y: 21}
+        - {x: -23, y: 18}
+        - {x: -9, y: 19}
+        - {x: -9, y: 11}
+        - {x: -9, y: 13}
+        - {x: -10, y: 16}
+        - {x: -14, y: 16}
+        - {x: -20, y: 12}
+        - {x: -22, y: 3}
+        - {x: -16, y: -5}
+        - {x: -13, y: -4}
+        - {x: -11, y: -2}
+        - {x: -11, y: -1}
+        - {x: -13, y: 5}
+        - {x: -12, y: 5}
+        - {x: -12, y: 2}
+        - {x: -10, y: -2}
+        - {x: -5, y: -31}
+        - {x: 4, y: -33}
+        - {x: 29, y: -33}
+        - {x: 29, y: 20}
+        - {x: 10, y: 32}
+    - name: rabbit-fire_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 247
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 32}
+        - {x: -29, y: 18}
+        - {x: 1, y: -32}
+        - {x: 25, y: -32}
+        - {x: 29, y: -14}
+        - {x: 29, y: 25}
+        - {x: 11, y: 32}
+      - - {x: -17, y: -1}
+        - {x: -15, y: -3}
+        - {x: -12, y: -2}
+        - {x: -12, y: 1}
+        - {x: -14, y: 3}
+        - {x: -17, y: 2}
+      - - {x: -18, y: 19}
+        - {x: -21, y: 16}
+        - {x: -21, y: 9}
+        - {x: -19, y: 4}
+        - {x: -17, y: 4}
+        - {x: -10, y: 11}
+        - {x: -10, y: 15}
+        - {x: -11, y: 19}
+    - name: rabbit-fire_20
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 250
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30.5}
+        - {x: -29, y: 18.5}
+        - {x: -20, y: 7.5}
+        - {x: -15, y: 9.5}
+        - {x: -11, y: 13.5}
+        - {x: -11, y: 17.5}
+        - {x: -10, y: 12.5}
+        - {x: -14, y: 9.5}
+        - {x: -16, y: -18.5}
+        - {x: 2, y: -30.5}
+        - {x: 29, y: -30.5}
+        - {x: 29, y: 21.5}
+        - {x: 22, y: 30.5}
+      - - {x: -19, y: 3.5}
+        - {x: -16, y: 4.5}
+        - {x: -16, y: 7.5}
+        - {x: -19, y: 8.5}
+        - {x: -21, y: 6.5}
+    - name: rabbit-fire_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 31}
+        - {x: -28.5, y: 13}
+        - {x: -23.5, y: 9}
+        - {x: -19.5, y: 9}
+        - {x: -12.5, y: 13}
+        - {x: -12.5, y: 15}
+        - {x: -9.5, y: 17}
+        - {x: -14.5, y: 10}
+        - {x: -17.5, y: 1}
+        - {x: -9.5, y: -15}
+        - {x: 0.5, y: -31}
+        - {x: 23.5, y: -31}
+        - {x: 28.5, y: -7}
+        - {x: 28.5, y: 25}
+        - {x: 9.5, y: 31}
+      - - {x: -19.5, y: 4}
+        - {x: -16.5, y: 5}
+        - {x: -16.5, y: 8}
+        - {x: -19.5, y: 9}
+        - {x: -21.5, y: 7}
+    - name: rabbit-fire_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 152
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 31.5}
+        - {x: -28.5, y: 12.5}
+        - {x: -14.5, y: -31.5}
+        - {x: 28.5, y: -31.5}
+        - {x: 28.5, y: 24.5}
+        - {x: 6.5, y: 31.5}
+    - name: rabbit-fire_23
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 155
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: 18}
+        - {x: -21, y: 13}
+        - {x: -18, y: 15}
+        - {x: -10, y: 10}
+        - {x: -7, y: 6}
+        - {x: -13, y: 12}
+        - {x: -17, y: 13}
+        - {x: -22, y: 5}
+        - {x: -17, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 25}
+        - {x: 27, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

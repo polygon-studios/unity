@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: f81dc68de785d3540b3520d93559ea00
+timeCreated: 1458151656
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-idle-lantern-prunes_0
+    21300002: rabbit-idle-lantern-prunes_1
+    21300004: rabbit-idle-lantern-prunes_2
+    21300006: rabbit-idle-lantern-prunes_3
+    21300008: rabbit-idle-lantern-prunes_4
+    21300010: rabbit-idle-lantern-prunes_5
+    21300012: rabbit-idle-lantern-prunes_6
+    21300014: rabbit-idle-lantern-prunes_7
+    21300016: rabbit-idle-lantern-prunes_8
+    21300018: rabbit-idle-lantern-prunes_9
+    21300020: rabbit-idle-lantern-prunes_10
+    21300022: rabbit-idle-lantern-prunes_11
+    21300024: rabbit-idle-lantern-prunes_12
+    21300026: rabbit-idle-lantern-prunes_13
+    21300028: rabbit-idle-lantern-prunes_14
+    21300030: rabbit-idle-lantern-prunes_15
+    21300032: rabbit-idle-lantern-prunes_16
+    21300034: rabbit-idle-lantern-prunes_17
+    21300036: rabbit-idle-lantern-prunes_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-idle-lantern-prunes_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -22.5, y: 35}
+        - {x: -22.5, y: -25}
+        - {x: -18.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -36}
+    - name: rabbit-idle-lantern-prunes_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 22.5, y: -24}
+        - {x: 22.5, y: 27}
+        - {x: 13.5, y: 37}
+        - {x: -19.5, y: 37}
+        - {x: -22.5, y: 36}
+        - {x: -22.5, y: 9}
+        - {x: -18.5, y: 5}
+        - {x: -13.5, y: 5}
+        - {x: -17.5, y: -14}
+        - {x: -18.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -31}
+        - {x: -0.5, y: -35}
+    - name: rabbit-idle-lantern-prunes_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: 34}
+        - {x: 12.5, y: 37}
+        - {x: -22.5, y: 37}
+        - {x: -22.5, y: 9}
+        - {x: -18.5, y: 5}
+        - {x: -13.5, y: 5}
+        - {x: -10.5, y: 8}
+        - {x: -10.5, y: 11}
+        - {x: -10.5, y: -8}
+        - {x: -14.5, y: -7}
+        - {x: -17.5, y: -14}
+        - {x: -17.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -35}
+    - name: rabbit-idle-lantern-prunes_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 19}
+        - {x: 21.5, y: 25}
+        - {x: 9.5, y: 37}
+        - {x: -22.5, y: 37}
+        - {x: -22.5, y: 7}
+        - {x: -11.5, y: 2}
+        - {x: -18.5, y: -14}
+        - {x: -17.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 22.5, y: -11}
+    - name: rabbit-idle-lantern-prunes_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -22.5, y: -37}
+        - {x: 21.5, y: -37}
+        - {x: 22.5, y: -29}
+        - {x: 22.5, y: 35}
+        - {x: 19.5, y: 37}
+    - name: rabbit-idle-lantern-prunes_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 437
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 37}
+        - {x: -22.5, y: 35}
+        - {x: -22.5, y: -27}
+        - {x: -18.5, y: -37}
+        - {x: 18.5, y: -37}
+        - {x: 22.5, y: -21}
+        - {x: 22.5, y: 23}
+        - {x: 5.5, y: 37}
+    - name: rabbit-idle-lantern-prunes_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 332
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: 24}
+        - {x: 11.5, y: 37}
+        - {x: -19.5, y: 37}
+        - {x: -22.5, y: 33}
+        - {x: -22.5, y: 9}
+        - {x: -18.5, y: 5}
+        - {x: -13.5, y: 5}
+        - {x: -10.5, y: 8}
+        - {x: -17.5, y: -8}
+        - {x: -17.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -33}
+        - {x: -0.5, y: -35}
+    - name: rabbit-idle-lantern-prunes_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 332
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -22.5, y: -37}
+        - {x: 20.5, y: -37}
+        - {x: 22.5, y: -21}
+        - {x: 22.5, y: 30}
+        - {x: 13.5, y: 37}
+    - name: rabbit-idle-lantern-prunes_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 332
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 32}
+        - {x: 2.5, y: 37}
+        - {x: -19.5, y: 37}
+        - {x: -22.5, y: 33}
+        - {x: -22.5, y: 7}
+        - {x: -11.5, y: 2}
+        - {x: -10.5, y: 8}
+        - {x: -10.5, y: 11}
+        - {x: -10.5, y: 9}
+        - {x: -8.5, y: -3}
+        - {x: -15.5, y: -10}
+        - {x: -17.5, y: -14}
+        - {x: -17.5, y: -37}
+        - {x: 13.5, y: -37}
+        - {x: 22.5, y: -22}
+        - {x: 22.5, y: 24}
+    - name: rabbit-idle-lantern-prunes_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 332
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -22.5, y: 35}
+        - {x: -22.5, y: 7}
+        - {x: -11.5, y: 2}
+        - {x: -10.5, y: 8}
+        - {x: -10.5, y: 11}
+        - {x: -10.5, y: 9}
+        - {x: -8.5, y: -3}
+        - {x: -16.5, y: -9}
+        - {x: -18.5, y: -37}
+        - {x: 22.5, y: -37}
+        - {x: 22.5, y: 32}
+        - {x: 13.5, y: 36}
+    - name: rabbit-idle-lantern-prunes_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 332
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -22.5, y: 9}
+        - {x: -18.5, y: 5}
+        - {x: -13.5, y: 5}
+        - {x: -10.5, y: 8}
+        - {x: -10.5, y: 11}
+        - {x: -10.5, y: 9}
+        - {x: -8.5, y: -3}
+        - {x: -16.5, y: -9}
+        - {x: -19.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 22.5, y: -17}
+        - {x: 22.5, y: 30}
+        - {x: 10.5, y: 37}
+    - name: rabbit-idle-lantern-prunes_11
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 332
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 32}
+        - {x: 5, y: 37}
+        - {x: -21, y: 37}
+        - {x: -23, y: 36}
+        - {x: -23, y: 9}
+        - {x: -19, y: 5}
+        - {x: -14, y: 5}
+        - {x: -11, y: 8}
+        - {x: -11, y: 11}
+        - {x: -11, y: 9}
+        - {x: -8, y: 1}
+        - {x: -18, y: -5}
+        - {x: -20, y: -37}
+        - {x: 13, y: -37}
+        - {x: 23, y: -22}
+        - {x: 23, y: 24}
+    - name: rabbit-idle-lantern-prunes_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 227
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -37}
+        - {x: 16, y: -37}
+        - {x: 23, y: -18}
+        - {x: 23, y: 26}
+        - {x: 16, y: 37}
+        - {x: -22, y: 37}
+        - {x: -23, y: 35}
+        - {x: -23, y: 1}
+        - {x: -19, y: -37}
+        - {x: -2, y: -37}
+        - {x: -1, y: -36}
+        - {x: -1, y: -28}
+        - {x: -1, y: -35}
+    - name: rabbit-idle-lantern-prunes_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 227
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: 34}
+        - {x: 11.5, y: 37}
+        - {x: -22.5, y: 37}
+        - {x: -22.5, y: 9}
+        - {x: -18.5, y: 5}
+        - {x: -13.5, y: 5}
+        - {x: -10.5, y: 8}
+        - {x: -10.5, y: 11}
+        - {x: -10.5, y: -8}
+        - {x: -17.5, y: -8}
+        - {x: -17.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -31}
+        - {x: -0.5, y: -35}
+    - name: rabbit-idle-lantern-prunes_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 227
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 22.5, y: -16}
+        - {x: 22.5, y: 21}
+        - {x: 21.5, y: 26}
+        - {x: 9.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -22.5, y: 34}
+        - {x: -22.5, y: 7}
+        - {x: -11.5, y: 2}
+        - {x: -10.5, y: 8}
+        - {x: -10.5, y: 11}
+        - {x: -10.5, y: -8}
+        - {x: -17.5, y: -8}
+        - {x: -17.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -35}
+    - name: rabbit-idle-lantern-prunes_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 227
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 22.5, y: -25}
+        - {x: 22.5, y: 32}
+        - {x: 21.5, y: 37}
+        - {x: -22.5, y: 37}
+        - {x: -22.5, y: -25}
+        - {x: -18.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -36}
+    - name: rabbit-idle-lantern-prunes_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 227
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -22.5, y: 35}
+        - {x: -22.5, y: -25}
+        - {x: -18.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -36}
+    - name: rabbit-idle-lantern-prunes_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 227
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -22.5, y: 35}
+        - {x: -22.5, y: -25}
+        - {x: -18.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -36}
+    - name: rabbit-idle-lantern-prunes_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 122
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -22.5, y: 35}
+        - {x: -22.5, y: -25}
+        - {x: -18.5, y: -37}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -36}
+        - {x: -0.5, y: -26}
+        - {x: -0.5, y: -36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

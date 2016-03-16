@@ -42,7 +42,7 @@ public class GameMaster:MonoBehaviour
 
 		timer += Time.deltaTime;
 
-		OnGUI ();
+		//OnGUI ();
 	}
 
 	void OnGUI() {

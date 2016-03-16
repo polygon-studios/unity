@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: 8bfafeda4273e28449a1e8cf28af4c38
+timeCreated: 1458148661
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-idle-ghost_0
+    21300002: rabbit-idle-ghost_1
+    21300004: rabbit-idle-ghost_2
+    21300006: rabbit-idle-ghost_3
+    21300008: rabbit-idle-ghost_4
+    21300010: rabbit-idle-ghost_5
+    21300012: rabbit-idle-ghost_6
+    21300014: rabbit-idle-ghost_7
+    21300016: rabbit-idle-ghost_8
+    21300018: rabbit-idle-ghost_9
+    21300020: rabbit-idle-ghost_10
+    21300022: rabbit-idle-ghost_11
+    21300024: rabbit-idle-ghost_12
+    21300026: rabbit-idle-ghost_13
+    21300028: rabbit-idle-ghost_14
+    21300030: rabbit-idle-ghost_15
+    21300032: rabbit-idle-ghost_16
+    21300034: rabbit-idle-ghost_17
+    21300036: rabbit-idle-ghost_18
+    21300038: rabbit-idle-ghost_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-idle-ghost_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 437
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 36.5}
+        - {x: -21, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 21, y: -29.5}
+        - {x: 21, y: 31.5}
+        - {x: 19, y: 36.5}
+    - name: rabbit-idle-ghost_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 437
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 36.5}
+        - {x: -21.5, y: 34.5}
+        - {x: -21.5, y: -17.5}
+        - {x: -15.5, y: -36.5}
+        - {x: 21.5, y: -36.5}
+        - {x: 21.5, y: 34.5}
+        - {x: 14.5, y: 36.5}
+    - name: rabbit-idle-ghost_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 437
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 36.5}
+        - {x: -22, y: -13.5}
+        - {x: -19, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 22, y: 36.5}
+    - name: rabbit-idle-ghost_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 437
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 36.5}
+        - {x: -22, y: 32.5}
+        - {x: -22, y: -10.5}
+        - {x: -17, y: -29.5}
+        - {x: -13, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 22, y: 30.5}
+        - {x: 13, y: 36.5}
+    - name: rabbit-idle-ghost_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 437
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 36.5}
+        - {x: -23.5, y: 29.5}
+        - {x: -23.5, y: -11.5}
+        - {x: -18.5, y: -36.5}
+        - {x: 23.5, y: -36.5}
+        - {x: 23.5, y: 14.5}
+        - {x: 15.5, y: 36.5}
+    - name: rabbit-idle-ghost_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 437
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -17}
+        - {x: 22.5, y: 2}
+        - {x: 20.5, y: 7}
+        - {x: 18.5, y: 27}
+        - {x: 8.5, y: 37}
+        - {x: -22.5, y: 37}
+        - {x: -24.5, y: 35}
+        - {x: -24.5, y: -18}
+        - {x: -21.5, y: -34}
+        - {x: -14.5, y: -37}
+        - {x: 1.5, y: -37}
+        - {x: 3.5, y: -35}
+        - {x: 20.5, y: -33}
+        - {x: 24.5, y: -30}
+    - name: rabbit-idle-ghost_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -34}
+        - {x: 26.5, y: 23}
+        - {x: 23.5, y: 37}
+        - {x: -24.5, y: 37}
+        - {x: -26.5, y: 32}
+        - {x: -26.5, y: 11}
+        - {x: -25.5, y: 10}
+        - {x: -17.5, y: -25}
+        - {x: -14.5, y: -37}
+        - {x: 1.5, y: -37}
+        - {x: 3.5, y: -35}
+        - {x: 2.5, y: -29}
+        - {x: 20.5, y: -34}
+    - name: rabbit-idle-ghost_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 332
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 36.5}
+        - {x: -25.5, y: 36.5}
+        - {x: -25.5, y: 5.5}
+        - {x: -17.5, y: -36.5}
+        - {x: 18.5, y: -36.5}
+        - {x: 25.5, y: -33.5}
+        - {x: 25.5, y: 28.5}
+        - {x: 24.5, y: 34.5}
+    - name: rabbit-idle-ghost_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 332
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 2}
+        - {x: 20, y: 31}
+        - {x: 12, y: 37}
+        - {x: -25, y: 37}
+        - {x: -25, y: -6}
+        - {x: -19, y: -30}
+        - {x: -17, y: -37}
+        - {x: 1, y: -37}
+        - {x: 3, y: -35}
+        - {x: 17, y: -34}
+        - {x: 25, y: -31}
+    - name: rabbit-idle-ghost_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 332
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 36.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -22.5, y: -27.5}
+        - {x: -21.5, y: -36.5}
+        - {x: 22.5, y: -36.5}
+        - {x: 22.5, y: 32.5}
+        - {x: 16.5, y: 36.5}
+    - name: rabbit-idle-ghost_10
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 332
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 36.5}
+        - {x: -22.5, y: 35.5}
+        - {x: -22.5, y: -15.5}
+        - {x: -19.5, y: -36.5}
+        - {x: 22.5, y: -36.5}
+        - {x: 22.5, y: 36.5}
+    - name: rabbit-idle-ghost_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 332
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 36.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -20.5, y: -36.5}
+        - {x: 22.5, y: -36.5}
+        - {x: 22.5, y: 35.5}
+        - {x: 13.5, y: 36.5}
+    - name: rabbit-idle-ghost_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 227
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 36}
+        - {x: -22, y: -36}
+        - {x: 19, y: -36}
+        - {x: 22, y: -22}
+        - {x: 22, y: 28}
+        - {x: 18, y: 36}
+    - name: rabbit-idle-ghost_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 227
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 36.5}
+        - {x: -22.5, y: -36.5}
+        - {x: 22.5, y: -36.5}
+        - {x: 22.5, y: 36.5}
+    - name: rabbit-idle-ghost_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 227
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 36.5}
+        - {x: -24, y: -36.5}
+        - {x: 24, y: -36.5}
+        - {x: 24, y: 36.5}
+    - name: rabbit-idle-ghost_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 227
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 36.5}
+        - {x: -26, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 26, y: -23.5}
+        - {x: 26, y: 28.5}
+        - {x: 24, y: 36.5}
+    - name: rabbit-idle-ghost_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 227
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 36.5}
+        - {x: -25, y: 36.5}
+        - {x: -25, y: -32.5}
+        - {x: -19, y: -34.5}
+        - {x: -12, y: -34.5}
+        - {x: -6, y: -36.5}
+        - {x: 14, y: -36.5}
+        - {x: 17, y: -28.5}
+        - {x: 25, y: -20.5}
+        - {x: 25, y: 33.5}
+    - name: rabbit-idle-ghost_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 227
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36.5}
+        - {x: -23, y: 31.5}
+        - {x: -23, y: -34.5}
+        - {x: -21, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 23, y: -35.5}
+        - {x: 23, y: 36.5}
+    - name: rabbit-idle-ghost_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 122
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 36.5}
+        - {x: -21, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 21, y: -33.5}
+        - {x: 21, y: 32.5}
+        - {x: 10, y: 36.5}
+    - name: rabbit-idle-ghost_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 122
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 36.5}
+        - {x: -21, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 21, y: -29.5}
+        - {x: 21, y: 31.5}
+        - {x: 19, y: 36.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

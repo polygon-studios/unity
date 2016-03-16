@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 72a6bda4794523340a2f2dbe7db530d6
+timeCreated: 1458148415
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-idle-bindle_0
+    21300002: rabbit-idle-bindle_1
+    21300004: rabbit-idle-bindle_2
+    21300006: rabbit-idle-bindle_3
+    21300008: rabbit-idle-bindle_4
+    21300010: rabbit-idle-bindle_5
+    21300012: rabbit-idle-bindle_6
+    21300014: rabbit-idle-bindle_7
+    21300016: rabbit-idle-bindle_8
+    21300018: rabbit-idle-bindle_9
+    21300020: rabbit-idle-bindle_10
+    21300022: rabbit-idle-bindle_11
+    21300024: rabbit-idle-bindle_12
+    21300026: rabbit-idle-bindle_13
+    21300028: rabbit-idle-bindle_14
+    21300030: rabbit-idle-bindle_15
+    21300032: rabbit-idle-bindle_16
+    21300034: rabbit-idle-bindle_17
+    21300036: rabbit-idle-bindle_18
+    21300038: rabbit-idle-bindle_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-idle-bindle_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 424
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 37.5}
+        - {x: -27, y: 37.5}
+        - {x: -29, y: 30.5}
+        - {x: -29, y: -0.5}
+        - {x: -19, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 29, y: -15.5}
+        - {x: 29, y: 12.5}
+        - {x: 26, y: 16.5}
+    - name: rabbit-idle-bindle_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 424
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 38}
+        - {x: -29.5, y: 38}
+        - {x: -29.5, y: -5}
+        - {x: -17.5, y: -38}
+        - {x: 19.5, y: -38}
+        - {x: 29.5, y: -29}
+        - {x: 29.5, y: 20}
+        - {x: 16.5, y: 37}
+    - name: rabbit-idle-bindle_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 424
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 38}
+        - {x: -29, y: 30}
+        - {x: -29, y: 2}
+        - {x: -15, y: -38}
+        - {x: 23, y: -38}
+        - {x: 29, y: -23}
+        - {x: 29, y: 15}
+        - {x: 5, y: 38}
+    - name: rabbit-idle-bindle_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 424
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -38.5}
+        - {x: 29.5, y: -38.5}
+        - {x: 29.5, y: 17.5}
+        - {x: 25.5, y: 38.5}
+        - {x: -29.5, y: 38.5}
+        - {x: -29.5, y: -24.5}
+    - name: rabbit-idle-bindle_4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 424
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 38.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -13.5, y: -38.5}
+        - {x: 29.5, y: -38.5}
+        - {x: 29.5, y: 8.5}
+        - {x: 3.5, y: 38.5}
+    - name: rabbit-idle-bindle_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 306
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 39}
+        - {x: -29, y: -16}
+        - {x: -10, y: -39}
+        - {x: 29, y: -39}
+        - {x: 29, y: 18}
+        - {x: 8, y: 39}
+    - name: rabbit-idle-bindle_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 306
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 39}
+        - {x: -31, y: 38}
+        - {x: -31, y: 2}
+        - {x: -19, y: -39}
+        - {x: 31, y: -39}
+        - {x: 31, y: 2}
+        - {x: 8, y: 39}
+    - name: rabbit-idle-bindle_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 306
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 14.5}
+        - {x: 5, y: 36.5}
+        - {x: -10, y: 39.5}
+        - {x: -31, y: 39.5}
+        - {x: -31, y: 0.5}
+        - {x: -9, y: -39.5}
+        - {x: 18, y: -39.5}
+        - {x: 31, y: -33.5}
+        - {x: 31, y: -2.5}
+    - name: rabbit-idle-bindle_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 306
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 40}
+        - {x: -31.5, y: 33}
+        - {x: -31.5, y: 15}
+        - {x: -17.5, y: 5}
+        - {x: -10.5, y: 6}
+        - {x: -13.5, y: -13}
+        - {x: -10.5, y: -40}
+        - {x: 26.5, y: -40}
+        - {x: 31.5, y: -38}
+        - {x: 31.5, y: 20}
+        - {x: -0.5, y: 40}
+    - name: rabbit-idle-bindle_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 306
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -39.5}
+        - {x: 29, y: 39.5}
+        - {x: -29, y: 39.5}
+        - {x: -29, y: -11.5}
+        - {x: -15, y: -39.5}
+        - {x: 7, y: -39.5}
+        - {x: 9, y: -37.5}
+        - {x: 19, y: -38.5}
+        - {x: 23, y: -39.5}
+    - name: rabbit-idle-bindle_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 188
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 38.5}
+        - {x: -29.5, y: 36.5}
+        - {x: -29.5, y: -3.5}
+        - {x: -20.5, y: -38.5}
+        - {x: 25.5, y: -38.5}
+        - {x: 29.5, y: -36.5}
+        - {x: 29.5, y: 18.5}
+        - {x: 1.5, y: 38.5}
+    - name: rabbit-idle-bindle_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 188
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 38}
+        - {x: -29.5, y: 38}
+        - {x: -29.5, y: -38}
+        - {x: 19.5, y: -38}
+        - {x: 29.5, y: -20}
+        - {x: 29.5, y: 17}
+    - name: rabbit-idle-bindle_12
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 188
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 38}
+        - {x: -28.5, y: 29}
+        - {x: -28.5, y: -13}
+        - {x: -24.5, y: -38}
+        - {x: 22.5, y: -38}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: 20}
+        - {x: 3.5, y: 38}
+    - name: rabbit-idle-bindle_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 188
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 37.5}
+        - {x: -28, y: 29.5}
+        - {x: -28, y: 10.5}
+        - {x: -5, y: 3.5}
+        - {x: -4, y: 9.5}
+        - {x: -4, y: 11.5}
+        - {x: -4, y: 9.5}
+        - {x: -2, y: 5.5}
+        - {x: -12, y: -6.5}
+        - {x: -21, y: -29.5}
+        - {x: -17, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 28, y: -32.5}
+        - {x: 28, y: 23.5}
+        - {x: 5, y: 37.5}
+    - name: rabbit-idle-bindle_14
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 188
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 25}
+        - {x: 3, y: 38}
+        - {x: -23, y: 38}
+        - {x: -27, y: 29}
+        - {x: -27, y: 12}
+        - {x: -22, y: 9}
+        - {x: -26, y: -38}
+        - {x: 16, y: -38}
+        - {x: 19, y: -30}
+        - {x: 27, y: -17}
+        - {x: 27, y: 20}
+    - name: rabbit-idle-bindle_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 70
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37.5}
+        - {x: -26.5, y: 35.5}
+        - {x: -26.5, y: 14.5}
+        - {x: -13.5, y: 5.5}
+        - {x: -7.5, y: 6.5}
+        - {x: -4.5, y: 9.5}
+        - {x: -4.5, y: 11.5}
+        - {x: -4.5, y: 9.5}
+        - {x: -5.5, y: 5.5}
+        - {x: -16.5, y: -3.5}
+        - {x: -26.5, y: -20.5}
+        - {x: -26.5, y: -33.5}
+        - {x: -16.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 26.5, y: -24.5}
+        - {x: 26.5, y: 29.5}
+        - {x: 20.5, y: 37.5}
+    - name: rabbit-idle-bindle_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 70
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 28.5}
+        - {x: 4, y: 37.5}
+        - {x: -21, y: 37.5}
+        - {x: -27, y: 28.5}
+        - {x: -27, y: 14.5}
+        - {x: -13, y: 5.5}
+        - {x: -9, y: 6.5}
+        - {x: -6, y: 9.5}
+        - {x: -6, y: 11.5}
+        - {x: -6, y: 6.5}
+        - {x: -20, y: -4.5}
+        - {x: -27, y: -13.5}
+        - {x: -27, y: -37.5}
+        - {x: 17, y: -37.5}
+        - {x: 27, y: -27.5}
+        - {x: 27, y: 14.5}
+    - name: rabbit-idle-bindle_17
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 70
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 37.5}
+        - {x: -28, y: 29.5}
+        - {x: -28, y: -22.5}
+        - {x: -27, y: -28.5}
+        - {x: -21, y: -37.5}
+        - {x: 26, y: -37.5}
+        - {x: 28, y: -30.5}
+        - {x: 28, y: 27.5}
+        - {x: 6, y: 37.5}
+    - name: rabbit-idle-bindle_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 70
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 37.5}
+        - {x: -28.5, y: 29.5}
+        - {x: -28.5, y: 11.5}
+        - {x: -17.5, y: 5.5}
+        - {x: -12.5, y: 6.5}
+        - {x: -9.5, y: 9.5}
+        - {x: -9.5, y: 11.5}
+        - {x: -9.5, y: 9.5}
+        - {x: -10.5, y: 1.5}
+        - {x: -22.5, y: -5.5}
+        - {x: -21.5, y: -37.5}
+        - {x: 18.5, y: -37.5}
+        - {x: 28.5, y: -25.5}
+        - {x: 28.5, y: 11.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 0.5, y: 37.5}
+    - name: rabbit-idle-bindle_19
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 70
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 37.5}
+        - {x: -27, y: 37.5}
+        - {x: -29, y: 30.5}
+        - {x: -29, y: -0.5}
+        - {x: -19, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 29, y: -15.5}
+        - {x: 29, y: 12.5}
+        - {x: 26, y: 16.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

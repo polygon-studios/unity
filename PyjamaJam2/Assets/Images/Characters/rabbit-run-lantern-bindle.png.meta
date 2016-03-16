@@ -1,0 +1,1619 @@
+fileFormatVersion: 2
+guid: d92b187d87ee4534cbd2a98b27dc2c36
+timeCreated: 1458150564
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-run-lantern-bindle_0
+    21300002: rabbit-run-lantern-bindle_1
+    21300004: rabbit-run-lantern-bindle_2
+    21300006: rabbit-run-lantern-bindle_3
+    21300008: rabbit-run-lantern-bindle_4
+    21300010: rabbit-run-lantern-bindle_5
+    21300012: rabbit-run-lantern-bindle_6
+    21300014: rabbit-run-lantern-bindle_7
+    21300016: rabbit-run-lantern-bindle_8
+    21300018: rabbit-run-lantern-bindle_9
+    21300020: rabbit-run-lantern-bindle_10
+    21300022: rabbit-run-lantern-bindle_11
+    21300024: rabbit-run-lantern-bindle_12
+    21300026: rabbit-run-lantern-bindle_13
+    21300028: rabbit-run-lantern-bindle_14
+    21300030: rabbit-run-lantern-bindle_15
+    21300032: rabbit-run-lantern-bindle_16
+    21300034: rabbit-run-lantern-bindle_17
+    21300036: rabbit-run-lantern-bindle_18
+    21300038: rabbit-run-lantern-bindle_19
+    21300040: rabbit-run-lantern-bindle_20
+    21300042: rabbit-run-lantern-bindle_21
+    21300044: rabbit-run-lantern-bindle_22
+    21300046: rabbit-run-lantern-bindle_23
+    21300048: rabbit-run-lantern-bindle_24
+    21300050: rabbit-run-lantern-bindle_25
+    21300052: rabbit-run-lantern-bindle_26
+    21300054: rabbit-run-lantern-bindle_27
+    21300056: rabbit-run-lantern-bindle_28
+    21300058: rabbit-run-lantern-bindle_29
+    21300060: rabbit-run-lantern-bindle_30
+    21300062: rabbit-run-lantern-bindle_31
+    21300064: rabbit-run-lantern-bindle_32
+    21300066: rabbit-run-lantern-bindle_33
+    21300068: rabbit-run-lantern-bindle_34
+    21300070: rabbit-run-lantern-bindle_35
+    21300072: rabbit-run-lantern-bindle_36
+    21300074: rabbit-run-lantern-bindle_37
+    21300076: rabbit-run-lantern-bindle_38
+    21300078: rabbit-run-lantern-bindle_39
+    21300080: rabbit-run-lantern-bindle_40
+    21300082: rabbit-run-lantern-bindle_41
+    21300084: rabbit-run-lantern-bindle_42
+    21300086: rabbit-run-lantern-bindle_43
+    21300088: rabbit-run-lantern-bindle_44
+    21300090: rabbit-run-lantern-bindle_45
+    21300092: rabbit-run-lantern-bindle_46
+    21300094: rabbit-run-lantern-bindle_47
+    21300096: rabbit-run-lantern-bindle_48
+    21300098: rabbit-run-lantern-bindle_49
+    21300100: rabbit-run-lantern-bindle_50
+    21300102: rabbit-run-lantern-bindle_51
+    21300104: rabbit-run-lantern-bindle_52
+    21300106: rabbit-run-lantern-bindle_53
+    21300108: rabbit-run-lantern-bindle_54
+    21300110: rabbit-run-lantern-bindle_55
+    21300112: rabbit-run-lantern-bindle_56
+    21300114: rabbit-run-lantern-bindle_57
+    21300116: rabbit-run-lantern-bindle_58
+    21300118: rabbit-run-lantern-bindle_59
+    21300120: rabbit-run-lantern-bindle_60
+    21300122: rabbit-run-lantern-bindle_61
+    21300124: rabbit-run-lantern-bindle_62
+    21300126: rabbit-run-lantern-bindle_63
+    21300128: rabbit-run-lantern-bindle_64
+    21300130: rabbit-run-lantern-bindle_65
+    21300132: rabbit-run-lantern-bindle_66
+    21300134: rabbit-run-lantern-bindle_67
+    21300136: rabbit-run-lantern-bindle_68
+    21300138: rabbit-run-lantern-bindle_69
+    21300140: rabbit-run-lantern-bindle_70
+    21300142: rabbit-run-lantern-bindle_71
+    21300144: rabbit-run-lantern-bindle_72
+    21300146: rabbit-run-lantern-bindle_73
+    21300148: rabbit-run-lantern-bindle_74
+    21300150: rabbit-run-lantern-bindle_75
+    21300152: rabbit-run-lantern-bindle_76
+    21300154: rabbit-run-lantern-bindle_77
+    21300156: rabbit-run-lantern-bindle_78
+    21300158: rabbit-run-lantern-bindle_79
+    21300160: rabbit-run-lantern-bindle_80
+    21300162: rabbit-run-lantern-bindle_81
+    21300164: rabbit-run-lantern-bindle_82
+    21300166: rabbit-run-lantern-bindle_83
+    21300168: rabbit-run-lantern-bindle_84
+    21300170: rabbit-run-lantern-bindle_85
+    21300172: rabbit-run-lantern-bindle_86
+    21300174: rabbit-run-lantern-bindle_87
+    21300176: rabbit-run-lantern-bindle_88
+    21300178: rabbit-run-lantern-bindle_89
+    21300180: rabbit-run-lantern-bindle_90
+    21300182: rabbit-run-lantern-bindle_91
+    21300184: rabbit-run-lantern-bindle_92
+    21300186: rabbit-run-lantern-bindle_93
+    21300188: rabbit-run-lantern-bindle_94
+    21300190: rabbit-run-lantern-bindle_95
+    21300192: rabbit-run-lantern-bindle_96
+    21300194: rabbit-run-lantern-bindle_97
+    21300196: rabbit-run-lantern-bindle_98
+    21300198: rabbit-run-lantern-bindle_99
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-run-lantern-bindle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 438
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35.5}
+        - {x: -25, y: -35.5}
+        - {x: -25, y: -32.5}
+        - {x: -27, y: -30.5}
+        - {x: -30, y: -30.5}
+      - - {x: -30, y: 35.5}
+        - {x: -30, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: 35.5}
+      - - {x: 25, y: -30.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: -31.5}
+        - {x: 29, y: -30.5}
+      - - {x: 23, y: 35.5}
+        - {x: 24, y: 32.5}
+        - {x: 29, y: 32.5}
+        - {x: 30, y: 33.5}
+        - {x: 30, y: 35.5}
+    - name: rabbit-run-lantern-bindle_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_10
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 438
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35.5}
+        - {x: -25, y: -35.5}
+        - {x: -25, y: -32.5}
+        - {x: -27, y: -30.5}
+        - {x: -30, y: -30.5}
+      - - {x: 16, y: -15.5}
+        - {x: 16, y: -20.5}
+        - {x: 17, y: -24.5}
+        - {x: 18, y: -27.5}
+        - {x: 30, y: -27.5}
+        - {x: 30, y: 35.5}
+        - {x: -30, y: 35.5}
+        - {x: -30, y: 8.5}
+        - {x: -18, y: -32.5}
+        - {x: -8, y: -35.5}
+        - {x: 14, y: -35.5}
+        - {x: 15, y: -32.5}
+        - {x: 16, y: -15.5}
+        - {x: 17, y: -11.5}
+      - - {x: 25, y: -30.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: -31.5}
+        - {x: 29, y: -30.5}
+      - - {x: 23, y: 35.5}
+        - {x: 24, y: 32.5}
+        - {x: 29, y: 32.5}
+        - {x: 30, y: 33.5}
+        - {x: 30, y: 35.5}
+    - name: rabbit-run-lantern-bindle_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 443
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 30.5}
+        - {x: -5.5, y: 32.5}
+        - {x: -28.5, y: 32.5}
+        - {x: -30.5, y: 27.5}
+        - {x: -30.5, y: 6.5}
+        - {x: -23.5, y: 2.5}
+        - {x: -27.5, y: -21.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 30.5, y: -32.5}
+        - {x: 30.5, y: 12.5}
+    - name: rabbit-run-lantern-bindle_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 441
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 33.5}
+        - {x: -30.5, y: 30.5}
+        - {x: -30.5, y: 7.5}
+        - {x: -22.5, y: 6.5}
+        - {x: -12.5, y: 7.5}
+        - {x: -9.5, y: 12.5}
+        - {x: -28.5, y: -25.5}
+        - {x: -12.5, y: -33.5}
+        - {x: 27.5, y: -33.5}
+        - {x: 30.5, y: -32.5}
+        - {x: 30.5, y: 27.5}
+        - {x: 28.5, y: 33.5}
+    - name: rabbit-run-lantern-bindle_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 438
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: -35}
+        - {x: -25.5, y: -35}
+        - {x: -25.5, y: -32}
+        - {x: -27.5, y: -30}
+        - {x: -30.5, y: -30}
+      - - {x: -27.5, y: 35}
+        - {x: -30.5, y: 27}
+        - {x: -30.5, y: 12}
+        - {x: -23.5, y: 6}
+        - {x: -11.5, y: 10}
+        - {x: -30.5, y: -30}
+        - {x: -30.5, y: -35}
+        - {x: 30.5, y: -35}
+        - {x: 30.5, y: 35}
+      - - {x: 22.5, y: -32}
+        - {x: 22.5, y: -35}
+        - {x: 30.5, y: -35}
+        - {x: 30.5, y: -32}
+        - {x: 28.5, y: -30}
+        - {x: 24.5, y: -30}
+    - name: rabbit-run-lantern-bindle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_20
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_22
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 333
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35.5}
+        - {x: -25, y: -35.5}
+        - {x: -25, y: -32.5}
+        - {x: -27, y: -30.5}
+        - {x: -30, y: -30.5}
+      - - {x: 18, y: -25.5}
+        - {x: 27, y: -28.5}
+        - {x: 30, y: -24.5}
+        - {x: 30, y: 16.5}
+        - {x: 22, y: 33.5}
+        - {x: 16, y: 35.5}
+        - {x: -30, y: 35.5}
+        - {x: -30, y: -25.5}
+        - {x: -27, y: -35.5}
+        - {x: 13, y: -35.5}
+        - {x: 16, y: -15.5}
+        - {x: 16, y: -13.5}
+        - {x: 16, y: -20.5}
+      - - {x: 25, y: -30.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: -31.5}
+        - {x: 29, y: -30.5}
+      - - {x: 23, y: 35.5}
+        - {x: 24, y: 32.5}
+        - {x: 29, y: 32.5}
+        - {x: 30, y: 33.5}
+        - {x: 30, y: 35.5}
+    - name: rabbit-run-lantern-bindle_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 333
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35.5}
+        - {x: -25, y: -35.5}
+        - {x: -25, y: -32.5}
+        - {x: -27, y: -30.5}
+        - {x: -30, y: -30.5}
+      - - {x: -6, y: 35.5}
+        - {x: -30, y: 35.5}
+        - {x: -30, y: -17.5}
+        - {x: -12, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: 32.5}
+      - - {x: 25, y: -30.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -35.5}
+        - {x: 30, y: -35.5}
+        - {x: 30, y: -31.5}
+        - {x: 29, y: -30.5}
+      - - {x: 23, y: 35.5}
+        - {x: 24, y: 32.5}
+        - {x: 29, y: 32.5}
+        - {x: 30, y: 33.5}
+        - {x: 30, y: 35.5}
+    - name: rabbit-run-lantern-bindle_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 334
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35}
+        - {x: -25, y: -35}
+        - {x: -25, y: -33}
+        - {x: -27, y: -31}
+        - {x: -30, y: -31}
+      - - {x: -11, y: 35}
+        - {x: -30, y: 35}
+        - {x: -30, y: -15}
+        - {x: -19, y: -35}
+        - {x: 19, y: -35}
+        - {x: 22, y: -34}
+        - {x: 30, y: -25}
+        - {x: 30, y: 17}
+        - {x: 21, y: 28}
+      - - {x: 25, y: -31}
+        - {x: 23, y: -33}
+        - {x: 23, y: -35}
+        - {x: 30, y: -35}
+        - {x: 30, y: -32}
+        - {x: 29, y: -31}
+      - - {x: 23, y: 35}
+        - {x: 24, y: 32}
+        - {x: 29, y: 32}
+        - {x: 30, y: 33}
+        - {x: 30, y: 35}
+    - name: rabbit-run-lantern-bindle_33
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_34
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 334
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35}
+        - {x: -25, y: -35}
+        - {x: -25, y: -33}
+        - {x: -27, y: -31}
+        - {x: -30, y: -31}
+      - - {x: 14, y: 35}
+        - {x: -30, y: 35}
+        - {x: -30, y: -35}
+        - {x: 13, y: -35}
+        - {x: 30, y: -25}
+        - {x: 30, y: 22}
+        - {x: 27, y: 30}
+      - - {x: 25, y: -31}
+        - {x: 23, y: -33}
+        - {x: 23, y: -35}
+        - {x: 30, y: -35}
+        - {x: 30, y: -32}
+        - {x: 29, y: -31}
+      - - {x: 23, y: 35}
+        - {x: 24, y: 32}
+        - {x: 29, y: 32}
+        - {x: 30, y: 33}
+        - {x: 30, y: 35}
+    - name: rabbit-run-lantern-bindle_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 337
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 33.5}
+        - {x: -30, y: 33.5}
+        - {x: -30, y: -33.5}
+        - {x: 30, y: -33.5}
+        - {x: 30, y: 19.5}
+        - {x: 19, y: 32.5}
+      - - {x: 23, y: 33.5}
+        - {x: 24, y: 30.5}
+        - {x: 29, y: 30.5}
+        - {x: 30, y: 31.5}
+        - {x: 30, y: 33.5}
+    - name: rabbit-run-lantern-bindle_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 341
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 31.5}
+        - {x: -30, y: -31.5}
+        - {x: 29, y: -31.5}
+        - {x: 30, y: -30.5}
+        - {x: 30, y: 30.5}
+        - {x: 19, y: 31.5}
+      - - {x: 23, y: 31.5}
+        - {x: 24, y: 28.5}
+        - {x: 29, y: 28.5}
+        - {x: 30, y: 29.5}
+        - {x: 30, y: 31.5}
+    - name: rabbit-run-lantern-bindle_42
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 403
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_48
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_49
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_50
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_52
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_54
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 233
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 33}
+        - {x: -30, y: 33}
+        - {x: -30, y: -33}
+        - {x: 30, y: -33}
+        - {x: 30, y: 19}
+        - {x: 23, y: 30}
+      - - {x: 23, y: 33}
+        - {x: 24, y: 30}
+        - {x: 29, y: 30}
+        - {x: 30, y: 31}
+        - {x: 30, y: 33}
+    - name: rabbit-run-lantern-bindle_57
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_58
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_59
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 229
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35}
+        - {x: -25, y: -35}
+        - {x: -25, y: -33}
+        - {x: -27, y: -31}
+        - {x: -30, y: -31}
+      - - {x: 23, y: 24}
+        - {x: 15, y: 33}
+        - {x: -3, y: 35}
+        - {x: -30, y: 35}
+        - {x: -30, y: 0}
+        - {x: -23, y: -35}
+        - {x: 22, y: -35}
+        - {x: 23, y: -34}
+        - {x: 30, y: -28}
+        - {x: 30, y: 14}
+      - - {x: 25, y: -31}
+        - {x: 23, y: -33}
+        - {x: 23, y: -35}
+        - {x: 30, y: -35}
+        - {x: 30, y: -32}
+        - {x: 29, y: -31}
+      - - {x: 23, y: 35}
+        - {x: 24, y: 32}
+        - {x: 29, y: 32}
+        - {x: 30, y: 33}
+        - {x: 30, y: 35}
+    - name: rabbit-run-lantern-bindle_60
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_61
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_62
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 230
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -34.5}
+        - {x: -26, y: -31.5}
+        - {x: -30, y: -31.5}
+        - {x: -30, y: -34.5}
+      - - {x: 14, y: 34.5}
+        - {x: -30, y: 34.5}
+        - {x: -30, y: -32.5}
+        - {x: -25, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: 15.5}
+        - {x: 24, y: 32.5}
+      - - {x: 30, y: -34.5}
+        - {x: 30, y: -31.5}
+        - {x: 24, y: -31.5}
+        - {x: 23, y: -34.5}
+      - - {x: 23, y: 34.5}
+        - {x: 24, y: 31.5}
+        - {x: 29, y: 31.5}
+        - {x: 30, y: 32.5}
+        - {x: 30, y: 34.5}
+    - name: rabbit-run-lantern-bindle_63
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_65
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 229
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -35}
+        - {x: -25, y: -35}
+        - {x: -25, y: -33}
+        - {x: -27, y: -31}
+        - {x: -30, y: -31}
+      - - {x: -4, y: 35}
+        - {x: -30, y: 35}
+        - {x: -30, y: -22}
+        - {x: -19, y: -35}
+        - {x: 28, y: -35}
+        - {x: 30, y: -32}
+        - {x: 30, y: 26}
+        - {x: 27, y: 29}
+      - - {x: 25, y: -31}
+        - {x: 23, y: -33}
+        - {x: 23, y: -35}
+        - {x: 30, y: -35}
+        - {x: 30, y: -32}
+        - {x: 29, y: -31}
+      - - {x: 23, y: 35}
+        - {x: 24, y: 32}
+        - {x: 29, y: 32}
+        - {x: 30, y: 33}
+        - {x: 30, y: 35}
+    - name: rabbit-run-lantern-bindle_66
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_68
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 230
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -34.5}
+        - {x: -26, y: -31.5}
+        - {x: -30, y: -31.5}
+        - {x: -30, y: -34.5}
+      - - {x: 30, y: 14.5}
+        - {x: 17, y: 31.5}
+        - {x: -8, y: 34.5}
+        - {x: -30, y: 34.5}
+        - {x: -30, y: -13.5}
+        - {x: -21, y: -30.5}
+        - {x: -10, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 28, y: -28.5}
+        - {x: 30, y: -25.5}
+      - - {x: 30, y: -34.5}
+        - {x: 30, y: -31.5}
+        - {x: 24, y: -31.5}
+        - {x: 23, y: -34.5}
+      - - {x: 23, y: 34.5}
+        - {x: 24, y: 31.5}
+        - {x: 29, y: 31.5}
+        - {x: 30, y: 32.5}
+        - {x: 30, y: 34.5}
+    - name: rabbit-run-lantern-bindle_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_71
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 232
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -27.5}
+        - {x: 30, y: -32.5}
+        - {x: 30, y: 15.5}
+        - {x: 18, y: 30.5}
+        - {x: -10, y: 33.5}
+        - {x: -30, y: 33.5}
+        - {x: -30, y: -6.5}
+        - {x: -11, y: -33.5}
+        - {x: 7, y: -33.5}
+        - {x: 12, y: -25.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: -15.5}
+      - - {x: 23, y: 33.5}
+        - {x: 24, y: 30.5}
+        - {x: 29, y: 30.5}
+        - {x: 30, y: 31.5}
+        - {x: 30, y: 33.5}
+    - name: rabbit-run-lantern-bindle_72
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_74
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_76
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_77
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_78
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_79
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_80
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_81
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_82
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_83
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_84
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_86
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_87
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_88
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_89
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_90
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 33}
+        - {x: -29.5, y: 33}
+        - {x: -30.5, y: 31}
+        - {x: -30.5, y: -11}
+        - {x: -22.5, y: -28}
+        - {x: -14.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 29.5, y: -31}
+        - {x: 30.5, y: -31}
+        - {x: 30.5, y: 20}
+    - name: rabbit-run-lantern-bindle_92
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 127
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 33}
+        - {x: -30.5, y: 33}
+        - {x: -30.5, y: -31}
+        - {x: -25.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 30.5, y: -30}
+        - {x: 30.5, y: 27}
+    - name: rabbit-run-lantern-bindle_93
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 128
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 32.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -30.5, y: 26.5}
+        - {x: -30.5, y: 7.5}
+        - {x: -23.5, y: 5.5}
+        - {x: -12.5, y: 7.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -20.5, y: -32.5}
+        - {x: 30.5, y: -32.5}
+        - {x: 30.5, y: 19.5}
+        - {x: 15.5, y: 31.5}
+    - name: rabbit-run-lantern-bindle_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_95
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_96
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_97
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_98
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-run-lantern-bindle_99
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

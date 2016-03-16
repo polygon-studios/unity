@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 61d6e53504960634c9eeb8353dc705d3
+timeCreated: 1458148967
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-idle-buns_0
+    21300002: rabbit-idle-buns_1
+    21300004: rabbit-idle-buns_2
+    21300006: rabbit-idle-buns_3
+    21300008: rabbit-idle-buns_4
+    21300010: rabbit-idle-buns_5
+    21300012: rabbit-idle-buns_6
+    21300014: rabbit-idle-buns_7
+    21300016: rabbit-idle-buns_8
+    21300018: rabbit-idle-buns_9
+    21300020: rabbit-idle-buns_10
+    21300022: rabbit-idle-buns_11
+    21300024: rabbit-idle-buns_12
+    21300026: rabbit-idle-buns_13
+    21300028: rabbit-idle-buns_14
+    21300030: rabbit-idle-buns_15
+    21300032: rabbit-idle-buns_16
+    21300034: rabbit-idle-buns_17
+    21300036: rabbit-idle-buns_18
+    21300038: rabbit-idle-buns_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-idle-buns_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 435
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -21, y: -37.5}
+        - {x: 21, y: -37.5}
+        - {x: 21, y: 28.5}
+        - {x: -2, y: 37.5}
+    - name: rabbit-idle-buns_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 435
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 37.5}
+        - {x: -21.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 21.5, y: 24.5}
+        - {x: 5.5, y: 37.5}
+    - name: rabbit-idle-buns_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 435
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -27.5}
+        - {x: 5, y: -33.5}
+        - {x: 6, y: -36.5}
+        - {x: 22, y: -35.5}
+        - {x: 22, y: -15.5}
+        - {x: 20, y: -14.5}
+        - {x: 22, y: -9.5}
+        - {x: 22, y: 18.5}
+        - {x: 10, y: 31.5}
+        - {x: 1, y: 37.5}
+        - {x: -18, y: 37.5}
+        - {x: -22, y: 32.5}
+        - {x: -22, y: 7.5}
+        - {x: -14, y: 9.5}
+        - {x: -22, y: -12.5}
+        - {x: -22, y: -23.5}
+        - {x: -19, y: -37.5}
+        - {x: 2, y: -37.5}
+        - {x: 5, y: -34.5}
+        - {x: 5, y: -31.5}
+        - {x: 4, y: -28.5}
+    - name: rabbit-idle-buns_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 435
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -34.5}
+        - {x: 23.5, y: 30.5}
+        - {x: 6.5, y: 37.5}
+        - {x: -23.5, y: 37.5}
+        - {x: -23.5, y: -37.5}
+        - {x: 2.5, y: -37.5}
+        - {x: 6.5, y: -35.5}
+        - {x: 4.5, y: -36.5}
+        - {x: 19.5, y: -35.5}
+    - name: rabbit-idle-buns_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 435
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 37.5}
+        - {x: -25, y: -35.5}
+        - {x: -23, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 25, y: -36.5}
+        - {x: 25, y: 14.5}
+        - {x: 14, y: 37.5}
+    - name: rabbit-idle-buns_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 435
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 38}
+        - {x: -26, y: -38}
+        - {x: 20, y: -38}
+        - {x: 26, y: -33}
+        - {x: 26, y: 29}
+        - {x: 7, y: 38}
+    - name: rabbit-idle-buns_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -33}
+        - {x: 28, y: -4}
+        - {x: 7, y: 38}
+        - {x: -22, y: 38}
+        - {x: -28, y: 31}
+        - {x: -28, y: 12}
+        - {x: -27, y: 11}
+        - {x: -20, y: 10}
+        - {x: -24, y: -17}
+        - {x: -23, y: -38}
+        - {x: 3, y: -38}
+        - {x: 4, y: -35}
+        - {x: 3, y: -29}
+        - {x: 20, y: -35}
+    - name: rabbit-idle-buns_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 329
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 37.5}
+        - {x: -25, y: 37.5}
+        - {x: -27, y: 36.5}
+        - {x: -27, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 27, y: -31.5}
+        - {x: 27, y: 5.5}
+        - {x: 18, y: 18.5}
+    - name: rabbit-idle-buns_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 329
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 38}
+        - {x: -26.5, y: 38}
+        - {x: -26.5, y: -38}
+        - {x: 9.5, y: -38}
+        - {x: 26.5, y: -32}
+        - {x: 26.5, y: 2}
+        - {x: 20.5, y: 19}
+    - name: rabbit-idle-buns_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 329
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 37.5}
+        - {x: -20, y: 37.5}
+        - {x: -24, y: 33.5}
+        - {x: -24, y: -20.5}
+        - {x: -21, y: -37.5}
+        - {x: 15, y: -37.5}
+        - {x: 24, y: -34.5}
+        - {x: 24, y: 19.5}
+    - name: rabbit-idle-buns_10
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 329
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -28.5}
+        - {x: 3.5, y: -33.5}
+        - {x: 5.5, y: -37.5}
+        - {x: 19.5, y: -36.5}
+        - {x: 22.5, y: -33.5}
+        - {x: 22.5, y: 25.5}
+        - {x: 12.5, y: 33.5}
+        - {x: 0.5, y: 37.5}
+        - {x: -22.5, y: 37.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -37.5}
+        - {x: 0.5, y: -37.5}
+        - {x: 3.5, y: -34.5}
+        - {x: 3.5, y: -31.5}
+        - {x: 2.5, y: -28.5}
+    - name: rabbit-idle-buns_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 329
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 6.5}
+        - {x: 12.5, y: 4.5}
+        - {x: 14.5, y: 7.5}
+        - {x: 17.5, y: 6.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 21.5, y: 17.5}
+        - {x: 11.5, y: 33.5}
+        - {x: -1.5, y: 37.5}
+        - {x: -22.5, y: 37.5}
+        - {x: -22.5, y: -36.5}
+        - {x: -19.5, y: -37.5}
+        - {x: 15.5, y: -37.5}
+        - {x: 19.5, y: -25.5}
+        - {x: 22.5, y: -15.5}
+        - {x: 22.5, y: 6.5}
+    - name: rabbit-idle-buns_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 223
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 37}
+        - {x: -22.5, y: 37}
+        - {x: -22.5, y: -37}
+        - {x: 22.5, y: -37}
+        - {x: 22.5, y: 25}
+        - {x: 14.5, y: 36}
+    - name: rabbit-idle-buns_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 223
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 37.5}
+        - {x: -24, y: 19.5}
+        - {x: -24, y: 9.5}
+        - {x: -9, y: 5.5}
+        - {x: -8, y: 11.5}
+        - {x: -8, y: 13.5}
+        - {x: -8, y: 11.5}
+        - {x: -9, y: 3.5}
+        - {x: -24, y: -10.5}
+        - {x: -24, y: -33.5}
+        - {x: -8, y: -37.5}
+        - {x: -6, y: -37.5}
+        - {x: -4, y: -33.5}
+        - {x: -4, y: -26.5}
+        - {x: -3, y: -35.5}
+        - {x: -1, y: -37.5}
+        - {x: 17, y: -37.5}
+        - {x: 24, y: -28.5}
+        - {x: 24, y: 27.5}
+        - {x: 6, y: 37.5}
+    - name: rabbit-idle-buns_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 223
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 37.5}
+        - {x: -19.5, y: 10.5}
+        - {x: -13.5, y: 8.5}
+        - {x: -7.5, y: 8.5}
+        - {x: -20.5, y: -5.5}
+        - {x: -23.5, y: -10.5}
+        - {x: -25.5, y: -19.5}
+        - {x: -25.5, y: -30.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -14.5, y: -34.5}
+        - {x: -6.5, y: -37.5}
+        - {x: 25.5, y: -37.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 7.5, y: 37.5}
+    - name: rabbit-idle-buns_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 223
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 8.5}
+        - {x: -6.5, y: 8.5}
+        - {x: -3.5, y: 11.5}
+        - {x: -3.5, y: 13.5}
+        - {x: -3.5, y: 11.5}
+        - {x: -4.5, y: 7.5}
+        - {x: -24.5, y: -2.5}
+        - {x: -27.5, y: -8.5}
+        - {x: -27.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 27.5, y: -24.5}
+        - {x: 27.5, y: 26.5}
+        - {x: 14.5, y: 37.5}
+        - {x: -15.5, y: 37.5}
+        - {x: -21.5, y: 10.5}
+    - name: rabbit-idle-buns_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 223
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 37.5}
+        - {x: -18.5, y: 14.5}
+        - {x: -12.5, y: 7.5}
+        - {x: -7.5, y: 8.5}
+        - {x: -4.5, y: 11.5}
+        - {x: -4.5, y: 13.5}
+        - {x: -4.5, y: 11.5}
+        - {x: -3.5, y: 7.5}
+        - {x: -24.5, y: -2.5}
+        - {x: -26.5, y: -10.5}
+        - {x: -26.5, y: -31.5}
+        - {x: -5.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 26.5, y: 28.5}
+        - {x: 9.5, y: 37.5}
+    - name: rabbit-idle-buns_17
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 223
+        width: 49
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 37.5}
+        - {x: -24.5, y: -37.5}
+        - {x: 20.5, y: -37.5}
+        - {x: 24.5, y: -18.5}
+        - {x: 24.5, y: 25.5}
+        - {x: 5.5, y: 37.5}
+    - name: rabbit-idle-buns_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 117
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -22, y: 31.5}
+        - {x: -22, y: 12.5}
+        - {x: -17, y: 8.5}
+        - {x: -12, y: 8.5}
+        - {x: -9, y: 11.5}
+        - {x: -9, y: 13.5}
+        - {x: -9, y: 11.5}
+        - {x: -10, y: 3.5}
+        - {x: -22, y: -11.5}
+        - {x: -22, y: -36.5}
+        - {x: -17, y: -37.5}
+        - {x: -2, y: -37.5}
+        - {x: -1, y: -33.5}
+        - {x: -1, y: -28.5}
+        - {x: -1, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 22, y: 30.5}
+        - {x: 8, y: 37.5}
+    - name: rabbit-idle-buns_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 117
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -21, y: -37.5}
+        - {x: 21, y: -37.5}
+        - {x: 21, y: 28.5}
+        - {x: -2, y: 37.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

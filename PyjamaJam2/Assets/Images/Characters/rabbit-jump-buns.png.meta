@@ -1,0 +1,1465 @@
+fileFormatVersion: 2
+guid: df6b41f4c695136488b8f781415a6ac0
+timeCreated: 1458147883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-jump-buns_0
+    21300002: rabbit-jump-buns_1
+    21300004: rabbit-jump-buns_2
+    21300006: rabbit-jump-buns_3
+    21300008: rabbit-jump-buns_4
+    21300010: rabbit-jump-buns_5
+    21300012: rabbit-jump-buns_6
+    21300014: rabbit-jump-buns_7
+    21300016: rabbit-jump-buns_8
+    21300018: rabbit-jump-buns_9
+    21300020: rabbit-jump-buns_10
+    21300022: rabbit-jump-buns_11
+    21300024: rabbit-jump-buns_12
+    21300026: rabbit-jump-buns_13
+    21300028: rabbit-jump-buns_14
+    21300030: rabbit-jump-buns_15
+    21300032: rabbit-jump-buns_16
+    21300034: rabbit-jump-buns_17
+    21300036: rabbit-jump-buns_18
+    21300038: rabbit-jump-buns_19
+    21300040: rabbit-jump-buns_20
+    21300042: rabbit-jump-buns_21
+    21300044: rabbit-jump-buns_22
+    21300046: rabbit-jump-buns_23
+    21300048: rabbit-jump-buns_24
+    21300050: rabbit-jump-buns_25
+    21300052: rabbit-jump-buns_26
+    21300054: rabbit-jump-buns_27
+    21300056: rabbit-jump-buns_28
+    21300058: rabbit-jump-buns_29
+    21300060: rabbit-jump-buns_30
+    21300062: rabbit-jump-buns_31
+    21300064: rabbit-jump-buns_32
+    21300066: rabbit-jump-buns_33
+    21300068: rabbit-jump-buns_34
+    21300070: rabbit-jump-buns_35
+    21300072: rabbit-jump-buns_36
+    21300074: rabbit-jump-buns_37
+    21300076: rabbit-jump-buns_38
+    21300078: rabbit-jump-buns_39
+    21300080: rabbit-jump-buns_40
+    21300082: rabbit-jump-buns_41
+    21300084: rabbit-jump-buns_42
+    21300086: rabbit-jump-buns_43
+    21300088: rabbit-jump-buns_44
+    21300090: rabbit-jump-buns_45
+    21300092: rabbit-jump-buns_46
+    21300094: rabbit-jump-buns_47
+    21300096: rabbit-jump-buns_48
+    21300098: rabbit-jump-buns_49
+    21300100: rabbit-jump-buns_50
+    21300102: rabbit-jump-buns_51
+    21300104: rabbit-jump-buns_52
+    21300106: rabbit-jump-buns_53
+    21300108: rabbit-jump-buns_54
+    21300110: rabbit-jump-buns_55
+    21300112: rabbit-jump-buns_56
+    21300114: rabbit-jump-buns_57
+    21300116: rabbit-jump-buns_58
+    21300118: rabbit-jump-buns_59
+    21300120: rabbit-jump-buns_60
+    21300122: rabbit-jump-buns_61
+    21300124: rabbit-jump-buns_62
+    21300126: rabbit-jump-buns_63
+    21300128: rabbit-jump-buns_64
+    21300130: rabbit-jump-buns_65
+    21300132: rabbit-jump-buns_66
+    21300134: rabbit-jump-buns_67
+    21300136: rabbit-jump-buns_68
+    21300138: rabbit-jump-buns_69
+    21300140: rabbit-jump-buns_70
+    21300142: rabbit-jump-buns_71
+    21300144: rabbit-jump-buns_72
+    21300146: rabbit-jump-buns_73
+    21300148: rabbit-jump-buns_74
+    21300150: rabbit-jump-buns_75
+    21300152: rabbit-jump-buns_76
+    21300154: rabbit-jump-buns_77
+    21300156: rabbit-jump-buns_78
+    21300158: rabbit-jump-buns_79
+    21300160: rabbit-jump-buns_80
+    21300162: rabbit-jump-buns_81
+    21300164: rabbit-jump-buns_82
+    21300166: rabbit-jump-buns_83
+    21300168: rabbit-jump-buns_84
+    21300170: rabbit-jump-buns_85
+    21300172: rabbit-jump-buns_86
+    21300174: rabbit-jump-buns_87
+    21300176: rabbit-jump-buns_88
+    21300178: rabbit-jump-buns_89
+    21300180: rabbit-jump-buns_90
+    21300182: rabbit-jump-buns_91
+    21300184: rabbit-jump-buns_92
+    21300186: rabbit-jump-buns_93
+    21300188: rabbit-jump-buns_94
+    21300190: rabbit-jump-buns_95
+    21300192: rabbit-jump-buns_96
+    21300194: rabbit-jump-buns_97
+    21300196: rabbit-jump-buns_98
+    21300198: rabbit-jump-buns_99
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-jump-buns_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 431
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 36}
+        - {x: -23.5, y: 31}
+        - {x: -23.5, y: -32}
+        - {x: -14.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 23.5, y: -25}
+        - {x: 23.5, y: 32}
+        - {x: 15.5, y: 36}
+    - name: rabbit-jump-buns_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 430
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 36.5}
+        - {x: -23.5, y: 23.5}
+        - {x: -23.5, y: -22.5}
+        - {x: -15.5, y: -36.5}
+        - {x: 14.5, y: -36.5}
+        - {x: 23.5, y: -27.5}
+        - {x: 23.5, y: 28.5}
+        - {x: 16.5, y: 36.5}
+    - name: rabbit-jump-buns_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 430
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: -36.5}
+        - {x: -21.5, y: -36.5}
+        - {x: -21.5, y: -31.5}
+        - {x: -23.5, y: -29.5}
+        - {x: -24.5, y: -29.5}
+      - - {x: -8.5, y: 36.5}
+        - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: 9.5}
+        - {x: -17.5, y: 10.5}
+        - {x: -13.5, y: 11.5}
+        - {x: -17.5, y: -30.5}
+        - {x: -2.5, y: -36.5}
+        - {x: 15.5, y: -36.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: 34.5}
+        - {x: 23.5, y: 36.5}
+    - name: rabbit-jump-buns_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 430
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -36.5}
+        - {x: -22, y: -36.5}
+        - {x: -22, y: -31.5}
+        - {x: -24, y: -29.5}
+        - {x: -25, y: -29.5}
+      - - {x: -11, y: 36.5}
+        - {x: -25, y: 30.5}
+        - {x: -25, y: -19.5}
+        - {x: -20, y: -36.5}
+        - {x: 19, y: -36.5}
+        - {x: 25, y: -22.5}
+        - {x: 25, y: 34.5}
+        - {x: 23, y: 36.5}
+    - name: rabbit-jump-buns_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 431
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 36}
+        - {x: -18.5, y: 29}
+        - {x: -24.5, y: 22}
+        - {x: -24.5, y: 9}
+        - {x: -9.5, y: -36}
+        - {x: 21.5, y: -36}
+        - {x: 24.5, y: -21}
+        - {x: 24.5, y: 36}
+    - name: rabbit-jump-buns_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_28
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 429
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37}
+        - {x: -24, y: -37}
+        - {x: 15, y: -37}
+        - {x: 24, y: -25}
+        - {x: 24, y: 34}
+        - {x: 13, y: 37}
+    - name: rabbit-jump-buns_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_35
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_41
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 395
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_43
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 316
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 37.5}
+        - {x: -23.5, y: 29.5}
+        - {x: -23.5, y: -24.5}
+        - {x: -15.5, y: -37.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 23.5, y: 36.5}
+        - {x: 21.5, y: 37.5}
+    - name: rabbit-jump-buns_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 318
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 36.5}
+        - {x: -23.5, y: 30.5}
+        - {x: -23.5, y: 8.5}
+        - {x: -12.5, y: 8.5}
+        - {x: -9.5, y: 10.5}
+        - {x: -11.5, y: 7.5}
+        - {x: -23.5, y: -2.5}
+        - {x: -23.5, y: -22.5}
+        - {x: -14.5, y: -36.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 23.5, y: -23.5}
+        - {x: 23.5, y: 36.5}
+    - name: rabbit-jump-buns_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_48
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_49
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 319
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 36}
+        - {x: -22.5, y: 30}
+        - {x: -22.5, y: 7}
+        - {x: -17.5, y: 7}
+        - {x: -12.5, y: 8}
+        - {x: -9.5, y: 11}
+        - {x: -9.5, y: 13}
+        - {x: -9.5, y: 10}
+        - {x: -17.5, y: 3}
+        - {x: -15.5, y: -34}
+        - {x: -11.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 22.5, y: -12}
+        - {x: 22.5, y: 33}
+        - {x: 12.5, y: 36}
+    - name: rabbit-jump-buns_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 317
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 37}
+        - {x: -21, y: 34}
+        - {x: -23, y: 29}
+        - {x: -23, y: 5}
+        - {x: -12, y: 8}
+        - {x: -10, y: 11}
+        - {x: -12, y: 8}
+        - {x: -18, y: -7}
+        - {x: -16, y: -34}
+        - {x: -8, y: -37}
+        - {x: 20, y: -37}
+        - {x: 23, y: -6}
+        - {x: 23, y: 34}
+        - {x: 19, y: 37}
+    - name: rabbit-jump-buns_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_55
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 316
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -24, y: 26.5}
+        - {x: -24, y: -1.5}
+        - {x: -12, y: -34.5}
+        - {x: -5, y: -37.5}
+        - {x: 17, y: -37.5}
+        - {x: 24, y: -3.5}
+        - {x: 24, y: 37.5}
+    - name: rabbit-jump-buns_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_57
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_58
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 317
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 36.5}
+        - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: -4.5}
+        - {x: -15.5, y: -31.5}
+        - {x: -2.5, y: -36.5}
+        - {x: 12.5, y: -36.5}
+        - {x: 24.5, y: -9.5}
+        - {x: 24.5, y: 33.5}
+        - {x: 22.5, y: 36.5}
+    - name: rabbit-jump-buns_59
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 319
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_62
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_65
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_66
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_67
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_68
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_71
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 282
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_73
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 205
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: -36.5}
+        - {x: -22.5, y: -36.5}
+        - {x: -22.5, y: -31.5}
+        - {x: -24.5, y: -29.5}
+        - {x: -25.5, y: -29.5}
+      - - {x: -16.5, y: 36.5}
+        - {x: -25.5, y: 31.5}
+        - {x: -25.5, y: -22.5}
+        - {x: -15.5, y: -36.5}
+        - {x: 20.5, y: -36.5}
+        - {x: 25.5, y: -16.5}
+        - {x: 25.5, y: 33.5}
+        - {x: 15.5, y: 36.5}
+    - name: rabbit-jump-buns_74
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_76
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 205
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: -36.5}
+        - {x: -22.5, y: -36.5}
+        - {x: -22.5, y: -31.5}
+        - {x: -24.5, y: -29.5}
+        - {x: -25.5, y: -29.5}
+      - - {x: -13.5, y: 36.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -25.5, y: 26.5}
+        - {x: -25.5, y: 7.5}
+        - {x: -8.5, y: -36.5}
+        - {x: 23.5, y: -36.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: 30.5}
+        - {x: 21.5, y: 36.5}
+    - name: rabbit-jump-buns_77
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_79
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 206
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 36}
+        - {x: -11, y: 36}
+        - {x: -25, y: 28}
+        - {x: -25, y: -1}
+        - {x: -9, y: -36}
+        - {x: 16, y: -36}
+        - {x: 20, y: -33}
+        - {x: 25, y: -8}
+        - {x: 25, y: 32}
+    - name: rabbit-jump-buns_80
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_81
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_82
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 206
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -24.5, y: 29}
+        - {x: -24.5, y: -20}
+        - {x: -18.5, y: -36}
+        - {x: 19.5, y: -36}
+        - {x: 24.5, y: -18}
+        - {x: 24.5, y: 35}
+        - {x: 23.5, y: 36}
+    - name: rabbit-jump-buns_83
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_84
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_85
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 206
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 36}
+        - {x: -24, y: 28}
+        - {x: -24, y: -20}
+        - {x: -16, y: -35}
+        - {x: -11, y: -36}
+        - {x: 19, y: -36}
+        - {x: 22, y: -35}
+        - {x: 24, y: -13}
+        - {x: 24, y: 36}
+    - name: rabbit-jump-buns_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_87
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_88
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 206
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 36}
+        - {x: -20, y: 36}
+        - {x: -24, y: 24}
+        - {x: -24, y: -4}
+        - {x: -10, y: -36}
+        - {x: 15, y: -36}
+        - {x: 19, y: -33}
+        - {x: 24, y: -7}
+        - {x: 24, y: 30}
+    - name: rabbit-jump-buns_89
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 170
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_92
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 170
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_93
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 170
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_95
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 94
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 36}
+        - {x: -23, y: 25}
+        - {x: -23, y: 4}
+        - {x: -13, y: 8}
+        - {x: -10, y: 11}
+        - {x: -10, y: 13}
+        - {x: -10, y: 10}
+        - {x: -13, y: 7}
+        - {x: -18, y: -13}
+        - {x: -12, y: -36}
+        - {x: 14, y: -36}
+        - {x: 18, y: -33}
+        - {x: 23, y: -7}
+        - {x: 23, y: 36}
+    - name: rabbit-jump-buns_96
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 94
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_97
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 94
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-buns_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 94
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -24, y: 33}
+        - {x: -24, y: -21}
+        - {x: -10, y: -36}
+        - {x: 18, y: -36}
+        - {x: 24, y: -17}
+        - {x: 24, y: 36}
+    - name: rabbit-jump-buns_99
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 94
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

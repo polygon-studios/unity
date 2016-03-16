@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: c84e90d8a90020d4f8dbc05008748b9a
+timeCreated: 1458146682
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-fire_0
+    21300002: skunk-fire_1
+    21300004: skunk-fire_2
+    21300006: skunk-fire_3
+    21300008: skunk-fire_5
+    21300010: skunk-fire_6
+    21300012: skunk-fire_9
+    21300014: skunk-fire_10
+    21300016: skunk-fire_11
+    21300018: skunk-fire_12
+    21300020: skunk-fire_13
+    21300022: skunk-fire_14
+    21300024: skunk-fire_16
+    21300026: skunk-fire_18
+    21300028: skunk-fire_20
+    21300030: skunk-fire_21
+    21300032: skunk-fire_22
+    21300034: skunk-fire_23
+    21300036: skunk-fire_25
+    21300038: skunk-fire_27
+    21300040: skunk-fire_29
+    21300042: skunk-fire_30
+    21300044: skunk-fire_31
+    21300046: skunk-fire_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-fire_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-fire_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 508
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-fire_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 443
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 15.5}
+        - {x: 10, y: 30.5}
+        - {x: -17, y: 30.5}
+        - {x: -28, y: 19.5}
+        - {x: -28, y: -10.5}
+        - {x: -25, y: -25.5}
+        - {x: -9, y: -30.5}
+        - {x: 24, y: -30.5}
+        - {x: 28, y: -28.5}
+        - {x: 28, y: -19.5}
+        - {x: 26, y: -19.5}
+    - name: skunk-fire_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 446
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31}
+        - {x: -27, y: 26}
+        - {x: -27, y: -6}
+        - {x: -21, y: -19}
+        - {x: -13, y: -13}
+        - {x: -11, y: -10}
+        - {x: -15, y: -14}
+        - {x: -17, y: -21}
+        - {x: -19, y: -27}
+        - {x: -6, y: -31}
+        - {x: 25, y: -31}
+        - {x: 27, y: -29}
+        - {x: 27, y: 24}
+        - {x: 11, y: 31}
+    - name: skunk-fire_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 443
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 33}
+        - {x: -16.5, y: 22}
+        - {x: -18.5, y: 19}
+        - {x: -16.5, y: 24}
+        - {x: -18.5, y: 26}
+        - {x: -24.5, y: 27}
+        - {x: -27.5, y: 22}
+        - {x: -27.5, y: 0}
+        - {x: -13.5, y: -27}
+        - {x: 3.5, y: -33}
+        - {x: 27.5, y: -33}
+        - {x: 27.5, y: 22}
+        - {x: 17.5, y: 33}
+    - name: skunk-fire_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 443
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 32.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: -12.5}
+        - {x: -18, y: -32.5}
+        - {x: 27, y: -32.5}
+        - {x: 28, y: -24.5}
+        - {x: 28, y: 22.5}
+        - {x: 15, y: 32.5}
+      - - {x: -20, y: 27.5}
+        - {x: -22, y: 27.5}
+        - {x: -28, y: 24.5}
+        - {x: -28, y: 12.5}
+        - {x: -25, y: 14.5}
+        - {x: -21, y: 19.5}
+        - {x: -19, y: 22.5}
+        - {x: -19, y: 25.5}
+      - - {x: -28, y: 32.5}
+        - {x: -28, y: 29.5}
+        - {x: -27, y: 28.5}
+        - {x: -24, y: 29.5}
+        - {x: -24, y: 32.5}
+    - name: skunk-fire_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 443
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 32.5}
+        - {x: -15, y: 32.5}
+        - {x: -23, y: 24.5}
+        - {x: -26, y: 17.5}
+        - {x: -26, y: 2.5}
+        - {x: -22, y: -10.5}
+        - {x: -8, y: -27.5}
+        - {x: 2, y: -32.5}
+        - {x: 20, y: -32.5}
+        - {x: 21, y: -31.5}
+        - {x: 28, y: -15.5}
+        - {x: 28, y: 22.5}
+      - - {x: -25, y: 14.5}
+        - {x: -25, y: 17.5}
+        - {x: -28, y: 18.5}
+        - {x: -28, y: 13.5}
+      - - {x: -28, y: 26.5}
+        - {x: -28, y: 18.5}
+        - {x: -23, y: 18.5}
+        - {x: -20, y: 25.5}
+        - {x: -20, y: 27.5}
+        - {x: -23, y: 28.5}
+    - name: skunk-fire_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-fire_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: skunk-fire_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 338
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 32.5}
+        - {x: -12.5, y: 32.5}
+        - {x: -22.5, y: 22.5}
+        - {x: -22.5, y: -13.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 18.5, y: -32.5}
+        - {x: 19.5, y: -31.5}
+        - {x: 28.5, y: -6.5}
+        - {x: 28.5, y: 21.5}
+      - - {x: -28.5, y: 26.5}
+        - {x: -28.5, y: 19.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -21.5, y: 21.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -24.5, y: 27.5}
+    - name: skunk-fire_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 338
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 32.5}
+        - {x: -25, y: 32.5}
+        - {x: -25, y: -19.5}
+        - {x: -19, y: -32.5}
+        - {x: 21, y: -32.5}
+        - {x: 23, y: -31.5}
+        - {x: 25, y: -15.5}
+        - {x: 25, y: 25.5}
+      - - {x: -20, y: 20.5}
+        - {x: -17, y: 21.5}
+        - {x: -17, y: 24.5}
+        - {x: -20, y: 25.5}
+        - {x: -22, y: 23.5}
+      - - {x: -22, y: 23.5}
+        - {x: -22, y: 26.5}
+        - {x: -25, y: 27.5}
+        - {x: -25, y: 22.5}
+    - name: skunk-fire_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 339
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 32}
+        - {x: -26.5, y: -24}
+        - {x: -22.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 26.5, y: -31}
+        - {x: 26.5, y: 27}
+        - {x: 14.5, y: 32}
+    - name: skunk-fire_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 339
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 22.5}
+        - {x: 8, y: 32.5}
+        - {x: -8, y: 32.5}
+        - {x: -14, y: 24.5}
+        - {x: -18, y: 20.5}
+        - {x: -19, y: 17.5}
+        - {x: -17, y: 23.5}
+        - {x: -20, y: 26.5}
+        - {x: -27, y: 24.5}
+        - {x: -27, y: -1.5}
+        - {x: -25, y: -13.5}
+        - {x: -6, y: -32.5}
+        - {x: 9, y: -32.5}
+        - {x: 9, y: -29.5}
+        - {x: 16, y: -31.5}
+        - {x: 27, y: -28.5}
+    - name: skunk-fire_18
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 342
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 31}
+        - {x: -16.5, y: 31}
+        - {x: -27.5, y: 18}
+        - {x: -27.5, y: -9}
+        - {x: -22.5, y: -24}
+        - {x: -12.5, y: -31}
+        - {x: 26.5, y: -31}
+        - {x: 29.5, y: -30}
+        - {x: 29.5, y: 19}
+        - {x: 22.5, y: 28}
+      - - {x: -21.5, y: 25}
+        - {x: -23.5, y: 25}
+        - {x: -29.5, y: 22}
+        - {x: -29.5, y: 10}
+        - {x: -26.5, y: 12}
+        - {x: -22.5, y: 17}
+        - {x: -20.5, y: 20}
+        - {x: -20.5, y: 23}
+      - - {x: -29.5, y: 27}
+        - {x: -28.5, y: 26}
+        - {x: -25.5, y: 27}
+        - {x: -25.5, y: 30}
+        - {x: -28.5, y: 31}
+        - {x: -29.5, y: 30}
+    - name: skunk-fire_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 248
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 29}
+        - {x: -29.5, y: 13}
+        - {x: -29.5, y: -7}
+        - {x: -20.5, y: -29}
+        - {x: 31.5, y: -29}
+        - {x: 31.5, y: 8}
+        - {x: 21.5, y: 29}
+      - - {x: -28.5, y: 10}
+        - {x: -28.5, y: 13}
+        - {x: -31.5, y: 14}
+        - {x: -31.5, y: 9}
+      - - {x: -31.5, y: 22}
+        - {x: -31.5, y: 14}
+        - {x: -26.5, y: 14}
+        - {x: -23.5, y: 21}
+        - {x: -23.5, y: 23}
+        - {x: -26.5, y: 24}
+    - name: skunk-fire_21
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 245
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 30}
+        - {x: -24.5, y: 22}
+        - {x: -24.5, y: -23}
+        - {x: -12.5, y: -30}
+        - {x: 30.5, y: -30}
+        - {x: 30.5, y: 26}
+        - {x: 21.5, y: 30}
+      - - {x: -30.5, y: 24}
+        - {x: -30.5, y: 17}
+        - {x: -28.5, y: 17}
+        - {x: -23.5, y: 19}
+        - {x: -23.5, y: 24}
+        - {x: -26.5, y: 25}
+    - name: skunk-fire_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 242
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 31.5}
+        - {x: -26, y: -18.5}
+        - {x: -22, y: -31.5}
+        - {x: 26, y: -31.5}
+        - {x: 26, y: 23.5}
+        - {x: 8, y: 31.5}
+      - - {x: -21, y: 19.5}
+        - {x: -18, y: 20.5}
+        - {x: -18, y: 23.5}
+        - {x: -21, y: 24.5}
+        - {x: -23, y: 22.5}
+      - - {x: -23, y: 22.5}
+        - {x: -23, y: 25.5}
+        - {x: -26, y: 26.5}
+        - {x: -26, y: 21.5}
+    - name: skunk-fire_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 242
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 31.5}
+        - {x: -26.5, y: 30.5}
+        - {x: -26.5, y: -14.5}
+        - {x: -12.5, y: -31.5}
+        - {x: 26.5, y: -31.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 12.5, y: 31.5}
+    - name: skunk-fire_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 241
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 33}
+        - {x: -17.5, y: 20}
+        - {x: -18.5, y: 17}
+        - {x: -16.5, y: 23}
+        - {x: -18.5, y: 25}
+        - {x: -27.5, y: 23}
+        - {x: -27.5, y: 3}
+        - {x: -22.5, y: -18}
+        - {x: 5.5, y: -33}
+        - {x: 24.5, y: -33}
+        - {x: 27.5, y: -9}
+        - {x: 27.5, y: 19}
+        - {x: 5.5, y: 33}
+    - name: skunk-fire_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 145
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 32}
+        - {x: -25.5, y: 21}
+        - {x: -25.5, y: -10}
+        - {x: -23.5, y: -13}
+        - {x: 1.5, y: -32}
+        - {x: 21.5, y: -32}
+        - {x: 27.5, y: -8}
+        - {x: 27.5, y: 26}
+        - {x: 19.5, y: 32}
+      - - {x: -19.5, y: 26}
+        - {x: -21.5, y: 26}
+        - {x: -27.5, y: 23}
+        - {x: -27.5, y: 11}
+        - {x: -24.5, y: 13}
+        - {x: -20.5, y: 18}
+        - {x: -18.5, y: 21}
+        - {x: -18.5, y: 24}
+      - - {x: -27.5, y: 28}
+        - {x: -26.5, y: 27}
+        - {x: -23.5, y: 28}
+        - {x: -23.5, y: 31}
+        - {x: -26.5, y: 32}
+        - {x: -27.5, y: 31}
+    - name: skunk-fire_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 147
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 31}
+        - {x: -25.5, y: 14}
+        - {x: -25.5, y: -14}
+        - {x: -8.5, y: -31}
+        - {x: 19.5, y: -31}
+        - {x: 27.5, y: -4}
+        - {x: 27.5, y: 23}
+        - {x: 14.5, y: 31}
+      - - {x: -24.5, y: 12}
+        - {x: -24.5, y: 15}
+        - {x: -27.5, y: 16}
+        - {x: -27.5, y: 11}
+      - - {x: -27.5, y: 24}
+        - {x: -27.5, y: 16}
+        - {x: -22.5, y: 16}
+        - {x: -19.5, y: 23}
+        - {x: -19.5, y: 25}
+        - {x: -22.5, y: 26}
+    - name: skunk-fire_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 147
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 19}
+        - {x: 10, y: 31}
+        - {x: -9, y: 31}
+        - {x: -22, y: 19}
+        - {x: -22, y: -13}
+        - {x: -19, y: -21}
+        - {x: -5, y: -31}
+        - {x: 22, y: -31}
+        - {x: 26, y: -10}
+        - {x: 28, y: 0}
+      - - {x: -28, y: 24}
+        - {x: -28, y: 17}
+        - {x: -26, y: 17}
+        - {x: -21, y: 19}
+        - {x: -21, y: 24}
+        - {x: -24, y: 25}
+    - name: skunk-fire_31
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 147
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 31}
+        - {x: -25, y: 27}
+        - {x: -25, y: -22}
+        - {x: -11, y: -31}
+        - {x: 25, y: -31}
+        - {x: 25, y: 27}
+        - {x: 12, y: 31}
+      - - {x: -20, y: 18}
+        - {x: -17, y: 19}
+        - {x: -17, y: 22}
+        - {x: -20, y: 23}
+        - {x: -22, y: 21}
+      - - {x: -22, y: 21}
+        - {x: -22, y: 24}
+        - {x: -25, y: 25}
+        - {x: -25, y: 20}
+    - name: skunk-fire_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 148
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30.5}
+        - {x: -27.5, y: 21.5}
+        - {x: -27.5, y: -13.5}
+        - {x: -16.5, y: -30.5}
+        - {x: 27.5, y: -30.5}
+        - {x: 27.5, y: 19.5}
+        - {x: 11.5, y: 30.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1574 @@
+fileFormatVersion: 2
+guid: 847eb0d15b0a7c941a033e4f338e8709
+timeCreated: 1458147208
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-jump-lantern-bindle_0
+    21300002: rabbit-jump-lantern-bindle_1
+    21300004: rabbit-jump-lantern-bindle_2
+    21300006: rabbit-jump-lantern-bindle_3
+    21300008: rabbit-jump-lantern-bindle_4
+    21300010: rabbit-jump-lantern-bindle_5
+    21300012: rabbit-jump-lantern-bindle_6
+    21300014: rabbit-jump-lantern-bindle_7
+    21300016: rabbit-jump-lantern-bindle_8
+    21300018: rabbit-jump-lantern-bindle_9
+    21300020: rabbit-jump-lantern-bindle_10
+    21300022: rabbit-jump-lantern-bindle_11
+    21300024: rabbit-jump-lantern-bindle_12
+    21300026: rabbit-jump-lantern-bindle_13
+    21300028: rabbit-jump-lantern-bindle_14
+    21300030: rabbit-jump-lantern-bindle_15
+    21300032: rabbit-jump-lantern-bindle_16
+    21300034: rabbit-jump-lantern-bindle_17
+    21300036: rabbit-jump-lantern-bindle_18
+    21300038: rabbit-jump-lantern-bindle_19
+    21300040: rabbit-jump-lantern-bindle_20
+    21300042: rabbit-jump-lantern-bindle_21
+    21300044: rabbit-jump-lantern-bindle_22
+    21300046: rabbit-jump-lantern-bindle_23
+    21300048: rabbit-jump-lantern-bindle_24
+    21300050: rabbit-jump-lantern-bindle_25
+    21300052: rabbit-jump-lantern-bindle_26
+    21300054: rabbit-jump-lantern-bindle_27
+    21300056: rabbit-jump-lantern-bindle_28
+    21300058: rabbit-jump-lantern-bindle_29
+    21300060: rabbit-jump-lantern-bindle_30
+    21300062: rabbit-jump-lantern-bindle_31
+    21300064: rabbit-jump-lantern-bindle_32
+    21300066: rabbit-jump-lantern-bindle_33
+    21300068: rabbit-jump-lantern-bindle_34
+    21300070: rabbit-jump-lantern-bindle_35
+    21300072: rabbit-jump-lantern-bindle_36
+    21300074: rabbit-jump-lantern-bindle_37
+    21300076: rabbit-jump-lantern-bindle_38
+    21300078: rabbit-jump-lantern-bindle_39
+    21300080: rabbit-jump-lantern-bindle_40
+    21300082: rabbit-jump-lantern-bindle_41
+    21300084: rabbit-jump-lantern-bindle_42
+    21300086: rabbit-jump-lantern-bindle_43
+    21300088: rabbit-jump-lantern-bindle_44
+    21300090: rabbit-jump-lantern-bindle_45
+    21300092: rabbit-jump-lantern-bindle_46
+    21300094: rabbit-jump-lantern-bindle_47
+    21300096: rabbit-jump-lantern-bindle_48
+    21300098: rabbit-jump-lantern-bindle_49
+    21300100: rabbit-jump-lantern-bindle_50
+    21300102: rabbit-jump-lantern-bindle_51
+    21300104: rabbit-jump-lantern-bindle_52
+    21300106: rabbit-jump-lantern-bindle_53
+    21300108: rabbit-jump-lantern-bindle_54
+    21300110: rabbit-jump-lantern-bindle_55
+    21300112: rabbit-jump-lantern-bindle_56
+    21300114: rabbit-jump-lantern-bindle_57
+    21300116: rabbit-jump-lantern-bindle_58
+    21300118: rabbit-jump-lantern-bindle_59
+    21300120: rabbit-jump-lantern-bindle_60
+    21300122: rabbit-jump-lantern-bindle_61
+    21300124: rabbit-jump-lantern-bindle_62
+    21300126: rabbit-jump-lantern-bindle_63
+    21300128: rabbit-jump-lantern-bindle_64
+    21300130: rabbit-jump-lantern-bindle_65
+    21300132: rabbit-jump-lantern-bindle_66
+    21300134: rabbit-jump-lantern-bindle_67
+    21300136: rabbit-jump-lantern-bindle_68
+    21300138: rabbit-jump-lantern-bindle_69
+    21300140: rabbit-jump-lantern-bindle_70
+    21300142: rabbit-jump-lantern-bindle_71
+    21300144: rabbit-jump-lantern-bindle_72
+    21300146: rabbit-jump-lantern-bindle_73
+    21300148: rabbit-jump-lantern-bindle_74
+    21300150: rabbit-jump-lantern-bindle_75
+    21300152: rabbit-jump-lantern-bindle_76
+    21300154: rabbit-jump-lantern-bindle_77
+    21300156: rabbit-jump-lantern-bindle_78
+    21300158: rabbit-jump-lantern-bindle_79
+    21300160: rabbit-jump-lantern-bindle_80
+    21300162: rabbit-jump-lantern-bindle_81
+    21300164: rabbit-jump-lantern-bindle_82
+    21300166: rabbit-jump-lantern-bindle_83
+    21300168: rabbit-jump-lantern-bindle_84
+    21300170: rabbit-jump-lantern-bindle_85
+    21300172: rabbit-jump-lantern-bindle_86
+    21300174: rabbit-jump-lantern-bindle_87
+    21300176: rabbit-jump-lantern-bindle_88
+    21300178: rabbit-jump-lantern-bindle_89
+    21300180: rabbit-jump-lantern-bindle_90
+    21300182: rabbit-jump-lantern-bindle_91
+    21300184: rabbit-jump-lantern-bindle_92
+    21300186: rabbit-jump-lantern-bindle_93
+    21300188: rabbit-jump-lantern-bindle_94
+    21300190: rabbit-jump-lantern-bindle_95
+    21300192: rabbit-jump-lantern-bindle_96
+    21300194: rabbit-jump-lantern-bindle_97
+    21300196: rabbit-jump-lantern-bindle_98
+    21300198: rabbit-jump-lantern-bindle_99
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-jump-lantern-bindle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 507
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 437
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -33.5}
+        - {x: -25, y: -33.5}
+        - {x: -25, y: -29.5}
+        - {x: -27, y: -27.5}
+        - {x: -29, y: -27.5}
+      - - {x: -29, y: 33.5}
+        - {x: -29, y: 5.5}
+        - {x: -20, y: 1.5}
+        - {x: -13, y: 4.5}
+        - {x: -10, y: 8.5}
+        - {x: -14, y: -0.5}
+        - {x: -20, y: -27.5}
+        - {x: -12, y: -33.5}
+        - {x: 16, y: -33.5}
+        - {x: 29, y: -20.5}
+        - {x: 29, y: 26.5}
+        - {x: 25, y: 33.5}
+      - - {x: 23, y: -29.5}
+        - {x: 23, y: -33.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: -27.5}
+        - {x: 25, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 437
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -33.5}
+        - {x: -24, y: -33.5}
+        - {x: -24, y: -29.5}
+        - {x: -26, y: -27.5}
+        - {x: -29, y: -27.5}
+      - - {x: 25, y: 22.5}
+        - {x: 12, y: 33.5}
+        - {x: -29, y: 33.5}
+        - {x: -29, y: 6.5}
+        - {x: -15, y: -33.5}
+        - {x: 13, y: -33.5}
+        - {x: 18, y: -24.5}
+        - {x: 29, y: -10.5}
+        - {x: 29, y: 11.5}
+      - - {x: 24, y: -29.5}
+        - {x: 24, y: -33.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: -27.5}
+        - {x: 26, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 437
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -33.5}
+        - {x: -24, y: -33.5}
+        - {x: -24, y: -29.5}
+        - {x: -26, y: -27.5}
+        - {x: -29, y: -27.5}
+      - - {x: 11, y: 33.5}
+        - {x: -29, y: 33.5}
+        - {x: -29, y: 0.5}
+        - {x: -19, y: -31.5}
+        - {x: -16, y: -33.5}
+        - {x: 16, y: -33.5}
+        - {x: 29, y: -11.5}
+        - {x: 29, y: 13.5}
+        - {x: 24, y: 28.5}
+      - - {x: 24, y: -29.5}
+        - {x: 24, y: -33.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: -27.5}
+        - {x: 26, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 437
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -33.5}
+        - {x: -24, y: -33.5}
+        - {x: -24, y: -29.5}
+        - {x: -26, y: -27.5}
+        - {x: -29, y: -27.5}
+      - - {x: -29, y: 33.5}
+        - {x: -29, y: -33.5}
+        - {x: 15, y: -33.5}
+        - {x: 29, y: -19.5}
+        - {x: 29, y: 32.5}
+        - {x: 24, y: 33.5}
+      - - {x: 24, y: -29.5}
+        - {x: 24, y: -33.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: -27.5}
+        - {x: 26, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 437
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 34}
+        - {x: -29, y: 34}
+        - {x: -29, y: -34}
+        - {x: 8, y: -34}
+        - {x: 18, y: -24}
+        - {x: 29, y: -3}
+        - {x: 29, y: 21}
+      - - {x: 25, y: -30}
+        - {x: 25, y: -34}
+        - {x: 29, y: -34}
+        - {x: 29, y: -28}
+        - {x: 27, y: -28}
+    - name: rabbit-jump-lantern-bindle_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 438
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 33}
+        - {x: -29, y: 9}
+        - {x: -28, y: 6}
+        - {x: -19, y: 3}
+        - {x: -13, y: 4}
+        - {x: -29, y: -21}
+        - {x: -29, y: -33}
+        - {x: 17, y: -33}
+        - {x: 29, y: -17}
+        - {x: 29, y: 28}
+        - {x: 22, y: 33}
+      - - {x: 25, y: -30}
+        - {x: 25, y: -33}
+        - {x: 29, y: -33}
+        - {x: 29, y: -28}
+        - {x: 27, y: -28}
+    - name: rabbit-jump-lantern-bindle_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 436
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_35
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_41
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 32.5}
+        - {x: -29, y: 32.5}
+        - {x: -29, y: -32.5}
+        - {x: 11, y: -32.5}
+        - {x: 29, y: -8.5}
+        - {x: 29, y: 8.5}
+        - {x: 24, y: 24.5}
+      - - {x: 25, y: -30.5}
+        - {x: 25, y: -32.5}
+        - {x: 29, y: -32.5}
+        - {x: 29, y: -28.5}
+        - {x: 27, y: -28.5}
+    - name: rabbit-jump-lantern-bindle_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 333
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 33}
+        - {x: -29.5, y: 33}
+        - {x: -29.5, y: 13}
+        - {x: -22.5, y: 4}
+        - {x: -12.5, y: 4}
+        - {x: -9.5, y: 6}
+        - {x: -12.5, y: 4}
+        - {x: -29.5, y: -21}
+        - {x: -29.5, y: -33}
+        - {x: 15.5, y: -33}
+        - {x: 29.5, y: -19}
+        - {x: 29.5, y: 13}
+        - {x: 22.5, y: 24}
+      - - {x: 24.5, y: -30}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -28}
+        - {x: 26.5, y: -28}
+    - name: rabbit-jump-lantern-bindle_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_48
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 332
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 33}
+        - {x: -29, y: 11}
+        - {x: -20, y: 3}
+        - {x: -11, y: 5}
+        - {x: -8, y: 8}
+        - {x: -8, y: 10}
+        - {x: -8, y: 7}
+        - {x: -11, y: 4}
+        - {x: -12, y: -1}
+        - {x: -25, y: -19}
+        - {x: -29, y: -26}
+        - {x: -29, y: -33}
+        - {x: 11, y: -33}
+        - {x: 29, y: -12}
+        - {x: 29, y: 17}
+        - {x: 18, y: 33}
+      - - {x: 25, y: -29}
+        - {x: 25, y: -33}
+        - {x: 29, y: -33}
+        - {x: 29, y: -27}
+        - {x: 27, y: -27}
+    - name: rabbit-jump-lantern-bindle_49
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 333
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 32.5}
+        - {x: -29, y: 32.5}
+        - {x: -29, y: 9.5}
+        - {x: -21, y: 2.5}
+        - {x: -12, y: 4.5}
+        - {x: -9, y: 6.5}
+        - {x: -12, y: 4.5}
+        - {x: -29, y: -20.5}
+        - {x: -29, y: -32.5}
+        - {x: 11, y: -32.5}
+        - {x: 29, y: -8.5}
+        - {x: 29, y: 10.5}
+        - {x: 24, y: 25.5}
+      - - {x: 25, y: -29.5}
+        - {x: 25, y: -32.5}
+        - {x: 29, y: -32.5}
+        - {x: 29, y: -27.5}
+        - {x: 27, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_52
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 334
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 32}
+        - {x: -29.5, y: 32}
+        - {x: -29.5, y: 8}
+        - {x: -18.5, y: 0}
+        - {x: -12.5, y: 4}
+        - {x: -10.5, y: 6}
+        - {x: -11.5, y: 3}
+        - {x: -29.5, y: -15}
+        - {x: -29.5, y: -32}
+        - {x: 10.5, y: -32}
+        - {x: 29.5, y: -12}
+        - {x: 29.5, y: 18}
+        - {x: 26.5, y: 26}
+      - - {x: 24.5, y: -30}
+        - {x: 24.5, y: -32}
+        - {x: 29.5, y: -32}
+        - {x: 29.5, y: -28}
+        - {x: 26.5, y: -28}
+    - name: rabbit-jump-lantern-bindle_55
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_57
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 333
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -10.5}
+        - {x: 29.5, y: 17.5}
+        - {x: 26.5, y: 26.5}
+        - {x: 12.5, y: 32.5}
+        - {x: -29.5, y: 32.5}
+        - {x: -29.5, y: -32.5}
+        - {x: -22.5, y: -32.5}
+        - {x: -16.5, y: -29.5}
+        - {x: -11.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+      - - {x: 24.5, y: -29.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 26.5, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_58
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_59
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 331
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_62
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_65
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_66
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_67
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_68
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_71
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 297
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 32.5}
+        - {x: -29.5, y: -32.5}
+        - {x: 13.5, y: -32.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 29.5, y: 17.5}
+        - {x: 18.5, y: 32.5}
+      - - {x: 24.5, y: -29.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 26.5, y: -27.5}
+    - name: rabbit-jump-lantern-bindle_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_74
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 227
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: -33}
+        - {x: 14.5, y: -33}
+        - {x: 29.5, y: -10}
+        - {x: 29.5, y: 23}
+        - {x: 20.5, y: 33}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_76
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_77
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 227
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: -33}
+        - {x: 11.5, y: -33}
+        - {x: 29.5, y: -16}
+        - {x: 29.5, y: 22}
+        - {x: 22.5, y: 33}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_79
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_80
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_81
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 227
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: 9}
+        - {x: -19.5, y: 2}
+        - {x: -14.5, y: 6}
+        - {x: -9.5, y: 11}
+        - {x: -11.5, y: 4}
+        - {x: -12.5, y: -1}
+        - {x: -25.5, y: -19}
+        - {x: -29.5, y: -26}
+        - {x: -29.5, y: -33}
+        - {x: 12.5, y: -33}
+        - {x: 29.5, y: -15}
+        - {x: 29.5, y: 19}
+        - {x: 19.5, y: 33}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_82
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_83
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_84
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 227
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: -33}
+        - {x: 12.5, y: -33}
+        - {x: 29.5, y: -16}
+        - {x: 29.5, y: 19}
+        - {x: 19.5, y: 33}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_85
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_87
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 227
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: 12}
+        - {x: -23.5, y: 5}
+        - {x: -12.5, y: 5}
+        - {x: -9.5, y: 7}
+        - {x: -11.5, y: 4}
+        - {x: -27.5, y: -18}
+        - {x: -29.5, y: -25}
+        - {x: -29.5, y: -33}
+        - {x: 4.5, y: -33}
+        - {x: 17.5, y: -23}
+        - {x: 29.5, y: -9}
+        - {x: 29.5, y: 33}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_88
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_89
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_92
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_93
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 33}
+        - {x: -29.5, y: 33}
+        - {x: -29.5, y: 12}
+        - {x: -19.5, y: 4}
+        - {x: -11.5, y: 5}
+        - {x: -8.5, y: 8}
+        - {x: -8.5, y: 10}
+        - {x: -8.5, y: 7}
+        - {x: -11.5, y: 4}
+        - {x: -12.5, y: -1}
+        - {x: -25.5, y: -19}
+        - {x: -29.5, y: -26}
+        - {x: -29.5, y: -33}
+        - {x: 5.5, y: -33}
+        - {x: 29.5, y: -12}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_96
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_97
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 122
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: -33}
+        - {x: 5.5, y: -33}
+        - {x: 29.5, y: -12}
+        - {x: 29.5, y: 33}
+      - - {x: 24.5, y: -29}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -33}
+        - {x: 29.5, y: -27}
+        - {x: 26.5, y: -27}
+    - name: rabbit-jump-lantern-bindle_98
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-jump-lantern-bindle_99
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

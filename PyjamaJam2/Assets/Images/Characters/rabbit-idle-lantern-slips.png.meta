@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: b6c49d689c3d1144787b59f74ff840a6
+timeCreated: 1458148983
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-idle-lantern-slips_0
+    21300002: rabbit-idle-lantern-slips_1
+    21300004: rabbit-idle-lantern-slips_2
+    21300006: rabbit-idle-lantern-slips_3
+    21300008: rabbit-idle-lantern-slips_4
+    21300010: rabbit-idle-lantern-slips_5
+    21300012: rabbit-idle-lantern-slips_6
+    21300014: rabbit-idle-lantern-slips_7
+    21300016: rabbit-idle-lantern-slips_8
+    21300018: rabbit-idle-lantern-slips_9
+    21300020: rabbit-idle-lantern-slips_10
+    21300022: rabbit-idle-lantern-slips_11
+    21300024: rabbit-idle-lantern-slips_12
+    21300026: rabbit-idle-lantern-slips_13
+    21300028: rabbit-idle-lantern-slips_14
+    21300030: rabbit-idle-lantern-slips_15
+    21300032: rabbit-idle-lantern-slips_16
+    21300034: rabbit-idle-lantern-slips_17
+    21300036: rabbit-idle-lantern-slips_18
+    21300038: rabbit-idle-lantern-slips_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-idle-lantern-slips_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 435
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 37.5}
+        - {x: -21.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 21.5, y: 25.5}
+        - {x: 3.5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 435
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 37.5}
+        - {x: -21.5, y: -37.5}
+        - {x: 20.5, y: -37.5}
+        - {x: 21.5, y: -36.5}
+        - {x: 21.5, y: 21.5}
+        - {x: 4.5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 435
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 37.5}
+        - {x: -22, y: 7.5}
+        - {x: -14, y: 9.5}
+        - {x: -12, y: 11.5}
+        - {x: -22, y: -10.5}
+        - {x: -22, y: -25.5}
+        - {x: -19, y: -37.5}
+        - {x: 8, y: -37.5}
+        - {x: 22, y: -34.5}
+        - {x: 22, y: 33.5}
+        - {x: 8, y: 37.5}
+    - name: rabbit-idle-lantern-slips_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 435
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 37.5}
+        - {x: -23.5, y: 30.5}
+        - {x: -23.5, y: -37.5}
+        - {x: 8.5, y: -37.5}
+        - {x: 23.5, y: -33.5}
+        - {x: 23.5, y: 17.5}
+        - {x: 3.5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 435
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 37.5}
+        - {x: -25, y: 37.5}
+        - {x: -25, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 25, y: 9.5}
+        - {x: 24, y: 14.5}
+    - name: rabbit-idle-lantern-slips_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 435
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 38}
+        - {x: -26, y: -38}
+        - {x: 26, y: -38}
+        - {x: 26, y: 15}
+        - {x: 2, y: 38}
+    - name: rabbit-idle-lantern-slips_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 38}
+        - {x: -22, y: 38}
+        - {x: -28, y: 31}
+        - {x: -28, y: 12}
+        - {x: -27, y: 11}
+        - {x: -20, y: 10}
+        - {x: -25, y: -17}
+        - {x: -22, y: -38}
+        - {x: 28, y: -38}
+        - {x: 28, y: -10}
+        - {x: 24, y: 8}
+    - name: rabbit-idle-lantern-slips_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 329
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -27, y: 31.5}
+        - {x: -27, y: -35.5}
+        - {x: -24, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 27, y: 5.5}
+        - {x: 13, y: 37.5}
+    - name: rabbit-idle-lantern-slips_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 329
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 38}
+        - {x: -26.5, y: 38}
+        - {x: -26.5, y: 10}
+        - {x: -18.5, y: 10}
+        - {x: -26.5, y: -17}
+        - {x: -22.5, y: -38}
+        - {x: 21.5, y: -38}
+        - {x: 26.5, y: -36}
+        - {x: 26.5, y: 3}
+        - {x: 20.5, y: 18}
+    - name: rabbit-idle-lantern-slips_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 329
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37.5}
+        - {x: -24, y: 33.5}
+        - {x: -24, y: -28.5}
+        - {x: -23, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 24, y: -36.5}
+        - {x: 24, y: 15.5}
+        - {x: 5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_10
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 329
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37.5}
+        - {x: -22.5, y: -37.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 22.5, y: 33.5}
+        - {x: 13.5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 329
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 6.5}
+        - {x: 14.5, y: 6.5}
+        - {x: 12.5, y: 4.5}
+        - {x: 14.5, y: 7.5}
+        - {x: 17.5, y: 6.5}
+        - {x: 22.5, y: 12.5}
+        - {x: 22.5, y: 28.5}
+        - {x: 6.5, y: 37.5}
+        - {x: -22.5, y: 37.5}
+        - {x: -22.5, y: -37.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 22.5, y: 4.5}
+        - {x: 21.5, y: 5.5}
+    - name: rabbit-idle-lantern-slips_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 37}
+        - {x: -23, y: -37}
+        - {x: 17, y: -37}
+        - {x: 23, y: -27}
+        - {x: 23, y: 25}
+        - {x: 14, y: 37}
+    - name: rabbit-idle-lantern-slips_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 223
+        width: 49
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 37.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -24.5, y: 9.5}
+        - {x: -8.5, y: 5.5}
+        - {x: -7.5, y: 11.5}
+        - {x: -7.5, y: 13.5}
+        - {x: -7.5, y: 11.5}
+        - {x: -8.5, y: 3.5}
+        - {x: -24.5, y: -9.5}
+        - {x: -24.5, y: -33.5}
+        - {x: -11.5, y: -37.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 24.5, y: -30.5}
+        - {x: 24.5, y: 28.5}
+        - {x: 7.5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 223
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 37.5}
+        - {x: -19, y: 10.5}
+        - {x: -13, y: 8.5}
+        - {x: -7, y: 8.5}
+        - {x: -26, y: -7.5}
+        - {x: -26, y: -34.5}
+        - {x: -13, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 26, y: -24.5}
+        - {x: 26, y: 27.5}
+        - {x: 9, y: 37.5}
+    - name: rabbit-idle-lantern-slips_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 223
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 37.5}
+        - {x: -16, y: 37.5}
+        - {x: -21, y: 25.5}
+        - {x: -13, y: 5.5}
+        - {x: -6, y: 8.5}
+        - {x: -3, y: 11.5}
+        - {x: -3, y: 13.5}
+        - {x: -3, y: 11.5}
+        - {x: -4, y: 7.5}
+        - {x: -24, y: -3.5}
+        - {x: -28, y: -11.5}
+        - {x: -28, y: -29.5}
+        - {x: -15, y: -37.5}
+        - {x: 26, y: -37.5}
+        - {x: 28, y: -22.5}
+        - {x: 28, y: 29.5}
+        - {x: 27, y: 32.5}
+    - name: rabbit-idle-lantern-slips_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 223
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 37.5}
+        - {x: -16, y: 37.5}
+        - {x: -22, y: 23.5}
+        - {x: -13, y: 0.5}
+        - {x: -9, y: 3.5}
+        - {x: -23, y: -3.5}
+        - {x: -27, y: -12.5}
+        - {x: -27, y: -30.5}
+        - {x: -10, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 27, y: 18.5}
+        - {x: 17, y: 30.5}
+    - name: rabbit-idle-lantern-slips_17
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 223
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 30.5}
+        - {x: 21, y: 37.5}
+        - {x: -21, y: 37.5}
+        - {x: -25, y: 25.5}
+        - {x: -25, y: -33.5}
+        - {x: -6, y: -36.5}
+        - {x: -2, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 23, y: -25.5}
+        - {x: 21, y: -21.5}
+        - {x: 25, y: -19.5}
+    - name: rabbit-idle-lantern-slips_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 117
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 37.5}
+        - {x: -19.5, y: 36.5}
+        - {x: -22.5, y: 20.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -16.5, y: 8.5}
+        - {x: -11.5, y: 8.5}
+        - {x: -8.5, y: 11.5}
+        - {x: -8.5, y: 13.5}
+        - {x: -8.5, y: 11.5}
+        - {x: -15.5, y: -10.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -22.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 22.5, y: 27.5}
+        - {x: 6.5, y: 37.5}
+    - name: rabbit-idle-lantern-slips_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 117
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 37.5}
+        - {x: -21.5, y: -37.5}
+        - {x: 21.5, y: -37.5}
+        - {x: 21.5, y: 25.5}
+        - {x: 3.5, y: 37.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
