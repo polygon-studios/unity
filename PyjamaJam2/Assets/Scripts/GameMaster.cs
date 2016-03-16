@@ -76,6 +76,7 @@ public class GameMaster:MonoBehaviour
 	}
 
 	public void addPoints(string character, int pointVal){
+		Debug.Log ("ADDING SCORE");
 		if (character.Contains ("Fox")) {
 			foxScore += foxScore + pointVal;
 		}
