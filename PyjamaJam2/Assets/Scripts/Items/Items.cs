@@ -5,6 +5,8 @@ using System.Collections.Generic;
 public class Items : MonoBehaviour {
 
 	public static Items ITEMS;
+    public GameObject oil;
+    public List<GameObject> currentOil = new List<GameObject>();
 	//public List<GameObject> ITEMSARRAY = new List<GameObject>();
 	public List<GameObject> lev1ItemsPrefabs = new List<GameObject> ();
 	public List<GameObject> lev2ItemsPrefabs = new List<GameObject>();
@@ -19,9 +21,14 @@ public class Items : MonoBehaviour {
 	int maxMedItemsInScene = 6;
 	int maxHardItemsInScene = 4;
 
+    int maxOilInArea = 7;
+    bool isDark = false;
+
 	List<Vector2> easyItemPositions ;
 	List<Vector2> mediumItemPositions ;
 	List<Vector2> hardItemPositions ;
+    List<Vector2> allItemPositions;
+    List<GameObject> allCurrentItems = new List<GameObject>();
 
 	float timer = 3; //in seconds
 
@@ -33,6 +40,10 @@ public class Items : MonoBehaviour {
 		DontDestroyOnLoad (this);
 
 		fillArrayPositions ();
+        allItemPositions = new List<Vector2>();
+        allItemPositions.AddRange(easyItemPositions);
+        allItemPositions.AddRange(hardItemPositions);
+        allItemPositions.AddRange(mediumItemPositions);
 	}
 
 	void Update(){
@@ -44,23 +55,47 @@ public class Items : MonoBehaviour {
 	}
 
 	void checkTypes(){
-		int easyCount = lev1ItemsCurrent.Count;
-		int medCount = lev2ItemsCurrent.Count;
-		int hardCount = lev3ItemsCurrent.Count;
+        allCurrentItems.AddRange(lev1ItemsCurrent);
+        allCurrentItems.AddRange(lev2ItemsCurrent);
+        allCurrentItems.AddRange(lev3ItemsCurrent);
+        allCurrentItems.AddRange(currentOil);
+
+        int easyCount = getCount(lev1ItemsCurrent);
+		int medCount = getCount(lev2ItemsCurrent);
+		int hardCount = getCount(lev3ItemsCurrent);
+        int oilCount = getCount(currentOil);
 
 		if (easyCount < maxEasyItemsInScene) {
-			lev1ItemsCurrent.Add (generateItems(easyItemPositions, lev1ItemsCurrent, lev1ItemsPrefabs));
+			lev1ItemsCurrent.Add (generateItems(easyItemPositions, allCurrentItems, lev1ItemsPrefabs, null));
 		}
 		if (medCount < maxMedItemsInScene) {
-			lev2ItemsCurrent.Add (generateItems(mediumItemPositions, lev2ItemsCurrent, lev2ItemsPrefabs));
+			lev2ItemsCurrent.Add (generateItems(mediumItemPositions, allCurrentItems, lev2ItemsPrefabs, null));
 		}
 		if (hardCount < maxHardItemsInScene) {
-			lev3ItemsCurrent.Add (generateItems(hardItemPositions, lev3ItemsCurrent, lev3ItemsPrefabs));
+			lev3ItemsCurrent.Add (generateItems(hardItemPositions, allCurrentItems, lev3ItemsPrefabs, null));
 		}
+        if (isDark)
+        {
+            if (oilCount < maxOilInArea)
+            {
+                currentOil.Add(generateItems(allItemPositions, allCurrentItems, null, oil));
+            }
+        }
 
 	}
 
-	GameObject generateItems(List<Vector2> possibleItemPositions, List<GameObject> currentItemsInPlay, List<GameObject> prefabsToChoose){
+    int getCount(List<GameObject> listToCount)
+    {
+        int counter = 0;
+        foreach(GameObject obj in listToCount)
+        {
+            if (obj != null)
+                counter++;
+        }
+        return counter;
+    }
+
+	GameObject generateItems(List<Vector2> possibleItemPositions, List<GameObject> currentItemsInPlay, List<GameObject> prefabsToChoose, GameObject itemToUse){
 
 		int randPos = -10;
 		bool randPosIsUnique= false;
@@ -71,22 +106,32 @@ public class Items : MonoBehaviour {
 			
 			if(currentItemsInPlay.Count > 0){
 				foreach(GameObject itmObj in currentItemsInPlay){
-					if( possibleItemPositions[randPos].x > itmObj.transform.position.x + 0.1 ||
-					   possibleItemPositions[randPos].x < itmObj.transform.position.x - 0.1 )
-						randPosIsUnique = true;
-					else{
-						randPosIsUnique = false;
-						break;
-					}
+                    if (itmObj != null)
+                    {
+                        if (possibleItemPositions[randPos].x > itmObj.transform.position.x + 0.1 ||
+                           possibleItemPositions[randPos].x < itmObj.transform.position.x - 0.1)
+                            randPosIsUnique = true;
+                        else {
+                            randPosIsUnique = false;
+                            break;
+                        }
+                    }
 				}	
 			}else
 				randPosIsUnique = true;
 		}
-		
-		int randItem = Random.Range (0, prefabsToChoose.Count);
-		
-		GameObject itemObj = (GameObject)Instantiate (prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x,possibleItemPositions[randPos].y, 0) , Quaternion.identity);
-		if (itemObj != null)
+
+        GameObject itemObj = new GameObject();
+        if (itemToUse == null && prefabsToChoose != null)
+        {
+            int randItem = Random.Range(0, prefabsToChoose.Count);
+            itemObj = (GameObject)Instantiate(prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, 0), Quaternion.identity);
+        }
+        else if (itemToUse != null)
+        {
+            itemObj = (GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, 0), Quaternion.identity);
+        }
+        if (itemObj != null)
 			return itemObj; 
 		return null;
 	}
@@ -94,6 +139,7 @@ public class Items : MonoBehaviour {
     public void setDarkMode()
     {
         Debug.Log("SETTING DARK MODE");
+        isDark = true;
         foreach(GameObject itemObj in lev1ItemsCurrent)
         {
             if (itemObj != null)
@@ -133,10 +179,10 @@ public class Items : MonoBehaviour {
 		}
 		else if (itemObj.GetComponent<TreasureChest> () != null) {
             Debug.Log("break3");
-            lev2ItemsCurrent.Remove(itemObj);
+            lev3ItemsCurrent.Remove(itemObj);
             Debug.Log("Break4");
 		}else if (itemObj.GetComponent<Firework> () != null) {
-			lev2ItemsCurrent.Remove(itemObj);
+			lev3ItemsCurrent.Remove(itemObj);
 		}
 	}
 

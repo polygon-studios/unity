@@ -49,7 +49,7 @@ public class TreasureChest : Item {
         }
 
 		if (timer < 0) {
-            
+            Debug.Log("break5");
 			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);

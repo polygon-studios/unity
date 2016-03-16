@@ -11,7 +11,7 @@ public class Fish : Item {
 	List<GameObject> floppingFishes;
 
 	int effectTimer; 
-	float timer = 20; //in seconds
+	float timer = 10; //in seconds
 	
 	// Use this for initialization
 	protected override void Start () {
