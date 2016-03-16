@@ -42,11 +42,10 @@ public class GameMaster:MonoBehaviour
 
 		timer += Time.deltaTime;
 
-		//OnGUI ();
+		OnGUI ();
 	}
 
-	/*void OnGUI()
-	{
+	void OnGUI() {
 		if (!gameOver)
 		{
 			int minutes = Mathf.FloorToInt(timer / 60F);
@@ -55,14 +54,17 @@ public class GameMaster:MonoBehaviour
 			niceTime = "Time: " + niceTime;
 			//GUI.Label(new Rect(10, 10, 250, 100), niceTime);
 			
-			string fox = "Fox: " + string.Format("{000}", foxScore);
-			GUI.Label(new Rect(600, 230, 250, 100), fox);
+			string fox = string.Format("{0000}", foxScore);
+			GUI.Label(new Rect(574, 315, 250, 100), fox);
 			
-			string skunk = "Skunk: " + string.Format("{000}", foxScore);
-			GUI.Label(new Rect(600, 250, 250, 100), skunk);
+			string skunk = string.Format("{0000}", skunkScore);
+			GUI.Label(new Rect(815, 315, 250, 100), skunk);
+
+			string rabbit = string.Format("{0000}", rabbitScore);
+			GUI.Label(new Rect(574, 355, 250, 100), rabbit);
 			
-			string bear = "Bear: " + string.Format("{000}", bearScore);
-			GUI.Label(new Rect(600, 270, 250, 100), bear);
+			string bear = string.Format("{000}", bearScore);
+			GUI.Label(new Rect(815, 355, 250, 100), bear);
 		}
 		
 		if (gameOver)
@@ -71,7 +73,7 @@ public class GameMaster:MonoBehaviour
 			centeredStyle.alignment = TextAnchor.UpperCenter;
 			GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 250, 100), "GAME OVER!!", centeredStyle);
 		}
-	}*/
+	}
 
 	public void addPoints(string character, int pointVal){
 		if (character.Contains ("Fox")) {

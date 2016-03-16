@@ -304,7 +304,9 @@ public class Character : MonoBehaviour {
 			}
 			stunCharacter(2, true, side, hasItem);
 			io.playerEnter(this.name, side, itemHeld);
-			GMScript.addPoints(this.name, item.points);
+			if(hasItem)
+				GMScript.addPoints(this.name, item.points);
+
 		}
 
 
