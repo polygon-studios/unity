@@ -81,9 +81,12 @@ public class SocketIOLogic : MonoBehaviour
 		if (tempTrap.Contains ("bramble")) {
 			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
 			Debug.Log("Placing bramble");
-		} else {
-			GameObject button = (GameObject)Instantiate (buttonPrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
+		} else if (tempTrap.Contains("pinecone")) {
+			GameObject pinecone = (GameObject)Instantiate (pineconePrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
 		}
+        else {
+            GameObject button = (GameObject)Instantiate(buttonPrefab, new Vector3(xPos, yPos, 0), Quaternion.identity);
+        }
 		if (e.data == null) { return; }
 
 		Debug.Log(
