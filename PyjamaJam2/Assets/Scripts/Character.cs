@@ -325,7 +325,7 @@ public class Character : MonoBehaviour {
 		int seconds = stunDuration;
 
 		if(hasItem)
-			seconds += 4;
+			seconds += 7;
 
 		// wait 3 seconds and continue
 		yield return new WaitForSeconds(seconds);

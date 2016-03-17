@@ -55,8 +55,7 @@ public class Item : MonoBehaviour {
         Debug.Log(this.gameObject);
         this.gameObject.GetComponent<Animator>().SetBool("night", true);
 	}
-
-	// Subtracts health from character when hit
+    
 	public Vector2 getItemPosition()
 	{
 		Vector2 pos = transform.position;
