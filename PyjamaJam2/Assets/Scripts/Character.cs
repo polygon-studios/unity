@@ -3,38 +3,42 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Character : MonoBehaviour {
-	public bool onGround = false;
-
-	public void isOnGround(bool passThrough){
-		onGround = passThrough;
-	}
+	
 	public Items gameMaster;
 	public SocketIOLogic io;
-	public float currentJump = 0f;
-	public float starterJump;
+	
+    // Controller variables
 	public KeyCode inputLeft;
 	public KeyCode inputRight;
 	public KeyCode inputJump;
-	public string charID;
-	public KeyCode lastPressedKey;
+    public KeyCode lastPressedKey;
+
+    public string charID;
 	public string controllerXAxis;
 	public string controllerA;
 	public string controllerX;
+
+    // Movement variables
+    public float currentJump = 0f;
+    public float starterJump;
     public bool invincible;
     public float currentSpeed; //walk 0.5f //run 0.8f
     public float starterSpeed;
 
+    float lastY;
+    float moveSpeed = 0f;
+
+    public bool onGround = false;
+    public void isOnGround(bool passThrough) {  onGround = passThrough; }
+
+    // Item variables
     public GameObject latern;
 	public GameObject GM;
-
-
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
-	float itemDebounceTimer; 
-	float lastY;
-	float moveSpeed = 0f;
+    float itemDebounceTimer;
+    bool itemDebounceTimeDone = false;
 	Latern laternScript;
 	GameMaster GMScript;
-    bool itemDebounceTimeDone = false;
     bool isStunned;
     bool isDark;
 
@@ -151,6 +155,10 @@ public class Character : MonoBehaviour {
 			}
 			
 		}
+        else
+        {
+            animator.SetBool("bindle", false);
+        }
 
 	}
 
@@ -281,8 +289,11 @@ public class Character : MonoBehaviour {
 			}
 			stunCharacter(2, true, side, hasItem);
 			io.playerEnter(this.name, side, itemHeld);
-			if(hasItem)
-				GMScript.addPoints(this.name, item.points);
+            if (hasItem)
+            {
+                GMScript.addPoints(this.name, item.points);
+                item = null;
+            }
 
 		}
 

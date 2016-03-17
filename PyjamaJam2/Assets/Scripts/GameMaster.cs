@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -9,8 +8,10 @@ public class GameMaster:MonoBehaviour
 	public List<Character> CHARACTERS;
 	public bool isDark;
 
+    private bool showGUI = true;
 
-	public int foxScore;
+
+    public int foxScore;
 	public int skunkScore;
 	public int bearScore;
 	public int rabbitScore;
@@ -46,33 +47,25 @@ public class GameMaster:MonoBehaviour
 	}
 
 	void OnGUI() {
-		if (!gameOver)
-		{
-			int minutes = Mathf.FloorToInt(timer / 60F);
-			int seconds = Mathf.FloorToInt(timer - minutes * 60);
-			string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
-			niceTime = "Time: " + niceTime;
-			//GUI.Label(new Rect(10, 10, 250, 100), niceTime);
-			
-			string fox = string.Format("{0000}", foxScore);
-			GUI.Label(new Rect(574, 315, 250, 100), fox);
-			
-			string skunk = string.Format("{0000}", skunkScore);
-			GUI.Label(new Rect(815, 315, 250, 100), skunk);
+        //int minutes = Mathf.FloorToInt(timer / 60F);
+        //int seconds = Mathf.FloorToInt(timer - minutes * 60);
+        //string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
+        //niceTime = "Time: " + niceTime;
+        //GUI.Label(new Rect(10, 10, 250, 100), niceTime);
+        if (showGUI)
+        {
+            string fox = string.Format("{0000}", foxScore);
+            GUI.Label(new Rect(574, 315, 250, 100), fox);
 
-			string rabbit = string.Format("{0000}", rabbitScore);
-			GUI.Label(new Rect(574, 355, 250, 100), rabbit);
-			
-			string bear = string.Format("{000}", bearScore);
-			GUI.Label(new Rect(815, 355, 250, 100), bear);
-		}
-		
-		if (gameOver)
-		{
-			var centeredStyle = GUI.skin.GetStyle("Label");
-			centeredStyle.alignment = TextAnchor.UpperCenter;
-			GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 250, 100), "GAME OVER!!", centeredStyle);
-		}
+            string skunk = string.Format("{0000}", skunkScore);
+            GUI.Label(new Rect(815, 315, 250, 100), skunk);
+
+            string rabbit = string.Format("{0000}", rabbitScore);
+            GUI.Label(new Rect(574, 355, 250, 100), rabbit);
+
+            string bear = string.Format("{0000}", bearScore);
+            GUI.Label(new Rect(815, 355, 250, 100), bear);
+        }
 	}
 
 	public void addPoints(string character, int pointVal){

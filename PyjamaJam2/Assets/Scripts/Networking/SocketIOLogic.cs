@@ -29,12 +29,13 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("playerEnter", fuckYou);
 
 		StartCoroutine(BeepBoop(1.0f));
-	}
+        InvokeRepeating("getPlayerPositions", 0.5f, 0.3f);
+    }
 
 	public void Update()
 	{
-		getPlayerPositions ();
-	}
+		//getPlayerPositions ();
+    }
 
 	IEnumerator BeepBoop(float disValue)
 	{
