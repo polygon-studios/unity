@@ -20,6 +20,14 @@ public class Collision : MonoBehaviour {
             {
                 character.isOnGround(true);
             }
+            if (objectHit.gameObject.tag == "coin")
+            {
+                GameObject coin = objectHit.gameObject;
+                Vector2 coinPos = new Vector2(coin.transform.position.x, coin.transform.position.y);
+                //x value: coinPos.x;
+                //y value: coinPos.y;
+                //play coin audio
+            }
         }
     }
 }

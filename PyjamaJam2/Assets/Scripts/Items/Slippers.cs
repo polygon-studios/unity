@@ -29,6 +29,7 @@ public class Slippers : Item{
 		this.character.currentJump = newHeightJump;
 		timer -= Time.deltaTime;
 		this.character.animator.SetBool ("slippers", true);
+        
 	}
 
 	void updateTrigger(){

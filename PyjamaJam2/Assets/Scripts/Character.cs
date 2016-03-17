@@ -121,6 +121,7 @@ public class Character : MonoBehaviour {
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger ("jump");
+            //play jump audio
 		}
 	}
 

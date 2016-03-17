@@ -34,6 +34,7 @@ public class Chili : Item {
 	void updateTrigger(){
 		timer -= Time.deltaTime;
 
+        //item is done
         if (timer < 0)
         {
             //character.currentJump = character.starterJump;
@@ -50,13 +51,12 @@ public class Chili : Item {
             base.DestroySelf();
             Destroy(this.gameObject);
         }
-        else {
+        else { //chili is in use
             foreach (Character currChar in base.GM.CHARACTERS)
             {
                 if (currChar != character && currChar != null)
                 {
                     currChar.animator.SetBool("fire", true);
-                    Debug.Log("Fire in the hole");
                     if (currChar.lastPressedKey == currChar.inputRight)
                     {
                         currChar.transform.Translate(currChar.currentSpeed * Time.deltaTime, 0.0f, 0.0f);
