@@ -31,9 +31,21 @@ public class Chili : Item {
         audioSource.PlayOneShot(audioEffectFire, 0.25f);
 	}
 
-	public override void TriggerEffect(){
-		timer -= Time.deltaTime;
-	}
+    public override void TriggerEffect()
+    {
+        timer -= Time.deltaTime;
+        foreach (Character currChar in base.GM.CHARACTERS)
+        {
+            if (currChar != character && currChar != null)
+            {
+                if (currChar.isStunned == true)
+                {
+                    currChar.isStunned = false;
+                    currChar.animator.SetBool("stun", false);
+                }
+            }
+        }
+    }
 
 	void updateTrigger(){
 		timer -= Time.deltaTime;

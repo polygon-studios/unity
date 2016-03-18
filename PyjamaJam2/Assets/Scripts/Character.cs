@@ -24,6 +24,7 @@ public class Character : MonoBehaviour {
     public bool invincible;
     public float currentSpeed; //walk 0.5f //run 0.8f
     public float starterSpeed;
+    public bool noJump = false;
 
     float lastY;
     float moveSpeed = 0f;
@@ -39,7 +40,10 @@ public class Character : MonoBehaviour {
     bool itemDebounceTimeDone = false;
 	Latern laternScript;
 	GameMaster GMScript;
-    bool isStunned;
+    public bool isStunned;
+    float fishTimer = 10;
+    bool isFished;
+    
     bool isDark;
 
     //audio
@@ -89,6 +93,8 @@ public class Character : MonoBehaviour {
 		if (laternScript.isActivated == true) {
 			updateLatern();
 		}
+        if (isFished)
+            updateFish();
 	}
 
 	void Movement(){
@@ -129,7 +135,7 @@ public class Character : MonoBehaviour {
 
 
 		//if (Input.GetKey (inputJump) && onGround) {
-		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false){ //
+		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false && noJump == false){ //
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger ("jump");
@@ -376,7 +382,10 @@ public class Character : MonoBehaviour {
 		if (houseMove) {
 			Vector3 houseCenter = new Vector3 (14.3f, 1.82f, -6.0f);
 			transform.position = houseCenter;
-		}
+
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            //object1.rigidbody.velocity = Vector3.zero;
+        }
 
 		int seconds = stunDuration;
 
@@ -400,5 +409,29 @@ public class Character : MonoBehaviour {
 		isStunned = false;
         animator.SetBool("stun", false);
 	}
+
+    public void isFishedTrigger()
+    {
+        if (isFished == true)
+            fishTimer += 10;
+        
+        animator.SetBool("fish", true);
+        isStunned = true;
+        isFished = true;
+
+    }
+
+    void updateFish()
+    {
+        fishTimer -= Time.deltaTime;
+
+        if (fishTimer < 0)
+        {
+            isFished = false;
+            isStunned = false;
+            animator.SetBool("fish", false);
+            fishTimer = 10;
+        }
+    }
 
 }

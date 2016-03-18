@@ -163,27 +163,30 @@ public class Items : MonoBehaviour {
 	
 	public void removeItemFromArray(GameObject itemObj){
 		//ITEMSARRAY.Remove (itemObj);
+
+
 		if (itemObj.GetComponent<Prune> () != null) {
 			lev1ItemsCurrent.Remove(itemObj);
 		}if (itemObj.GetComponent<Chili> () != null) {
 			lev1ItemsCurrent.Remove(itemObj);
-		}if (itemObj.GetComponent<Fish> () != null) {
+		}if (itemObj.GetComponent<GhostItem> () != null) {
 			lev1ItemsCurrent.Remove(itemObj);
 		}
 		else if (itemObj.GetComponent<Slippers> () != null) {
 			lev2ItemsCurrent.Remove(itemObj);
 		}else if (itemObj.GetComponent<Pinwheel> () != null) {
 			lev2ItemsCurrent.Remove(itemObj);
-		}else if (itemObj.GetComponent<GhostItem> () != null) {
+		}else if (itemObj.GetComponent<Firework> () != null) {
 			lev2ItemsCurrent.Remove(itemObj);
 		}
 		else if (itemObj.GetComponent<TreasureChest> () != null) {
-            Debug.Log("break3");
             lev3ItemsCurrent.Remove(itemObj);
-            Debug.Log("Break4");
-		}else if (itemObj.GetComponent<Firework> () != null) {
+		}else if (itemObj.GetComponent<Fish> () != null) {
 			lev3ItemsCurrent.Remove(itemObj);
-		}
+		}else if (itemObj.GetComponent<OilLatern>() != null)
+        {
+            currentOil.Remove(itemObj);
+        }
 	}
     /*
 	public List<GameObject> getEasyItems(){
