@@ -17,9 +17,9 @@ public class Items : MonoBehaviour {
 	public List<GameObject> lev3ItemsCurrent = new List<GameObject>();
 	public GameMaster GM;
 
-	int maxEasyItemsInScene = 5;
-	int maxMedItemsInScene = 6;
-	int maxHardItemsInScene = 4;
+	int maxEasyItemsInScene = 5; //5
+	int maxMedItemsInScene = 6;//6
+	int maxHardItemsInScene = 4;//4
 
     int maxOilInArea = 7;
     bool isDark = false;

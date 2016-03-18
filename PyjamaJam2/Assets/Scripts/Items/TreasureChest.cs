@@ -6,6 +6,7 @@ public class TreasureChest : Item {
 	public GameObject coinPrefab;
 	Character character;
 
+    public AudioClip audioEffectCoinChest; 
 	float timer = 10f; //seconds
 	float timerInterval = 0.5f; //seconds
 
@@ -25,6 +26,9 @@ public class TreasureChest : Item {
 
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectCoinChest = (AudioClip)Resources.Load("Coin Chest") as AudioClip;
+        audioSource.PlayOneShot(audioEffectCoinChest, 0.4f);
 	}
 
 	public override void TriggerEffect(){

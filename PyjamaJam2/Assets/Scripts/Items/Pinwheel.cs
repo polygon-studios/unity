@@ -4,6 +4,8 @@ using System.Collections;
 public class Pinwheel : Item {
 	public GameObject windPrefab;
 
+    public AudioClip audioEffectWind;
+
 	Character character;
 	float timer = 5f;//in seconds
 	Vector2 force = new Vector2 (4, 0);
@@ -13,7 +15,7 @@ public class Pinwheel : Item {
 
 	// Use this for initialization
 	protected override void Start () {
-		base.Start ();
+		base.Start ();     
 	}
 	
 	// Update is called once per frame
@@ -27,6 +29,9 @@ public class Pinwheel : Item {
 
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectWind = (AudioClip)Resources.Load("Wind") as AudioClip;
+        audioSource.PlayOneShot(audioEffectWind);
 	}
 
 	public override void TriggerEffect(){
@@ -64,5 +69,5 @@ public class Pinwheel : Item {
 			Destroy (this.gameObject);
 		}
 	}
-
+    //AudioSource.PlayClipAtPoint(audioEffectWind, Camera.main.transform.position)
 }

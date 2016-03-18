@@ -7,6 +7,8 @@ public class Fish : Item {
 	public GameObject floppingFishPrefab;
 	//public GameMaster GM;
 
+    public AudioClip audioEffectFloppyFish;
+
 	Character character;
 	List<GameObject> floppingFishes;
 
@@ -28,10 +30,19 @@ public class Fish : Item {
 	
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectFloppyFish = (AudioClip)Resources.Load("Fish") as AudioClip;
+        audioSource.PlayOneShot(audioEffectFloppyFish, 1.0f);
 	}
 	
 	public override void TriggerEffect(){
 		timer -= Time.deltaTime;
+
+
+        //audioSource.clip = Resources.Load("Audio/Fish", typeof(AudioClip)); 
+        //audioSource.Play();
+       // AudioSource.PlayClipAtPoint(audioEffectFloppyFish, Camera.main.transform.position);
+
 		floppingFishes = new List<GameObject>();
 		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){

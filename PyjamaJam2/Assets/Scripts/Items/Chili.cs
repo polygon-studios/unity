@@ -9,6 +9,7 @@ public class Chili : Item {
 	float timer = 10; //in seconds
 	//Character characters[];//holds all other characters
 
+    public AudioClip audioEffectFire; 
 
 	// Use this for initialization
 	protected override void Start () {
@@ -25,6 +26,9 @@ public class Chili : Item {
 
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectFire = (AudioClip)Resources.Load("Chili") as AudioClip;
+        audioSource.PlayOneShot(audioEffectFire, 0.25f);
 	}
 
 	public override void TriggerEffect(){

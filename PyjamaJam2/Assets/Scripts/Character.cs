@@ -42,6 +42,15 @@ public class Character : MonoBehaviour {
     bool isStunned;
     bool isDark;
 
+    //audio
+    public AudioClip audioEffectJump;
+    public AudioClip audioEffectJumpWithBunnyPowers;
+    public AudioClip audioEffectLand;
+    public AudioClip audioEffectFire;
+    public AudioClip audioEffectItemPickup;
+    public AudioClip audioEffectStunnedHit;
+    public AudioClip audioEffectDoorClosed;
+    public AudioClip audioEffectPineconeHit;
 
 	public Animator animator;
 	Rigidbody2D rigidbody;
@@ -54,6 +63,8 @@ public class Character : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+       
 		animator = this.gameObject.GetComponent<Animator> ();
 		rigidbody = this.gameObject.GetComponent<Rigidbody2D> ();
 		rend = GetComponent<Renderer>();
@@ -116,13 +127,36 @@ public class Character : MonoBehaviour {
             }
 		}
 
+
 		//if (Input.GetKey (inputJump) && onGround) {
 		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false){ //
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger ("jump");
-            //play jump audio
+
+            if (currentJump > starterJump )
+            {
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(audioEffectJumpWithBunnyPowers, 0.2f);
+            }
+            else{
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(audioEffectJump, 0.2f);
+            }
 		}
+
+        //code for when char lands, but repeats every time onGround is true...fix this
+        bool canPlay;
+        canPlay = true;
+        if (onGround){
+            AudioSource audio = GetComponent<AudioSource>();
+            if (!audio.isPlaying && canPlay == true){
+                canPlay = false;
+                //audio.PlayOneShot(audioEffectLand, 0.2f);
+            }
+        }
+       
+        
 	}
 
 	public void activateLight(){
@@ -188,11 +222,18 @@ public class Character : MonoBehaviour {
 
 	}
 
+    //this is where I think the glitch lies that one item can be picked up by more than one character
+    //the audio is left in so you can hear the repeating initiations of the item pickup sound
+    //when debugged, the first 'if' statement triggers 4-16 messages(ie 4-16 collision and button press itteration frames)
+    //depending on the item...before the items is destroyed. Hope this helps. Could be wrong, because I am 
+    //pretty noob at coding, but it seems like it could be it. |
+
 	void doCollision(GameObject objectHit){
 			if(Input.GetKey(KeyCode.I) ||Input.GetButtonDown(controllerX)){
-				itemDebounceTimer = itemDebounceTimerSaveTime;
-				
+               
+				itemDebounceTimer = itemDebounceTimerSaveTime;       
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {
+
 					//requires other multiplayer prior to coding
 					
 					Chili chili = objectHit.gameObject.GetComponent<Chili>();
@@ -249,6 +290,8 @@ public class Character : MonoBehaviour {
 					newItem.Hide();
 					item = newItem;
 				}*/
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(audioEffectItemPickup, 0.2f);
 			}
 	}
 
@@ -260,13 +303,21 @@ public class Character : MonoBehaviour {
 			coin.destroySelf();
 			
 		}
-		
+
+        //Iannnnnn
+        //check if this can be split into two tags for two seperate audio effects?
+        //if so then bramble sound effect can be implemented easier 
 		if (objectHit.gameObject.tag == "Trap" && invincible == false) {
 			stunCharacter(3, false);
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.PlayOneShot(audioEffectStunnedHit, 0.2f );
+            audio.PlayOneShot(audioEffectPineconeHit, 0.2f);
 		}
-
+        //same for enemy 
 		if (objectHit.gameObject.tag == "Enemy" && invincible == false) {
 			stunCharacter(3, false);
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.PlayOneShot(audioEffectStunnedHit, 0.2f);
 		}
 
 		if (objectHit.gameObject.tag == "Door") {
@@ -309,6 +360,10 @@ public class Character : MonoBehaviour {
 	public void stunCharacter(int duration, bool houseMove = false, string side = "right", bool hasItem = false){
 		isStunned = true;
         animator.SetBool("stun", true);
+
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.PlayOneShot(audioEffectDoorClosed);
+
         if (houseMove) {
 			StartCoroutine (Unstun (duration, true, side, hasItem));
 		} else {
