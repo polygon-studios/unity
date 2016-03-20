@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -10,13 +11,17 @@ public class GameMaster:MonoBehaviour
 
     private bool showGUI = true;
 
+	//public Text foxText;
+	//public Text skunkText;
+	//public Text bearText;
+	//public Text rabbitText;
 
-    public int foxScore;
-	public int skunkScore;
-	public int bearScore;
-	public int rabbitScore;
-	public static float timer;
-	public bool gameOver;
+    int foxScore;
+	int skunkScore;
+	int bearScore;
+	int rabbitScore;
+	static float timer;
+	bool gameOver;
 
 	void Awake(){
 		if (GM != null)
@@ -42,6 +47,21 @@ public class GameMaster:MonoBehaviour
 	void Update(){
 
 		timer += Time.deltaTime;
+
+		string fox = string.Format("{0000}", foxScore);
+		string skunk = string.Format("{0000}", skunkScore);
+		string rabbit = string.Format("{0000}", rabbitScore);
+		string bear = string.Format("{0000}", bearScore);
+
+		//foxText = gameObject.GetComponent<Text> ();
+		//skunkText = gameObject.GetComponent<Text> ();
+		//bearText = gameObject.GetComponent<Text> ();
+		//rabbitText = gameObject.GetComponent<Text> ();
+
+		//foxText.text = fox;
+		//skunkText.text = skunk;
+		//bearText.text = bear;
+		//rabbitText.text = rabbit;
 	}
 
 	void OnGUI() {
@@ -53,16 +73,16 @@ public class GameMaster:MonoBehaviour
         if (showGUI)
         {
             string fox = string.Format("{0000}", foxScore);
-            GUI.Label(new Rect(574, 315, 250, 100), fox);
+            //GUI.Label(new Rect(574, 315, 250, 100), fox);
 
             string skunk = string.Format("{0000}", skunkScore);
-            GUI.Label(new Rect(815, 315, 250, 100), skunk);
+            //GUI.Label(new Rect(815, 315, 250, 100), skunk);
 
             string rabbit = string.Format("{0000}", rabbitScore);
-            GUI.Label(new Rect(574, 355, 250, 100), rabbit);
+            //GUI.Label(new Rect(574, 355, 250, 100), rabbit);
 
             string bear = string.Format("{0000}", bearScore);
-            GUI.Label(new Rect(815, 355, 250, 100), bear);
+            //GUI.Label(new Rect(815, 355, 250, 100), bear);
         }
 	}
 

@@ -3,17 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Traps : MonoBehaviour {
-	
-	public static Traps TRAPS;
-    public List<GameObject> TRAPARRAY = new List<GameObject>();
+
     public float lifeSpan = 40f; //in seconds
 	
-	void Awake(){
-		if (TRAPS != null)
-			GameObject.Destroy (TRAPS);
-		else
-			TRAPS = this;
-		DontDestroyOnLoad (this);
+	void Start(){
 	}
 
     // Update is called once per frame
@@ -23,18 +16,16 @@ public class Traps : MonoBehaviour {
 
         if (lifeSpan < 0)
         {
+			Debug.Log ("DELETE THIS TRAP" + lifeSpan);
             destroySelf();
         }
     }
 
     public void destroySelf()
     {
-        if (gameObject != null)
-            Destroy(gameObject);
+        if (gameObject != null) {
+			Destroy (gameObject);
+			Debug.Log ("TRAP DELETED");
+		}
     }
-
-
-    public void removeItemFromArray(GameObject itemObj){
-		TRAPARRAY.Remove (itemObj);
-	}
 }

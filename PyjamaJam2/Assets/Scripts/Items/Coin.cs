@@ -24,6 +24,8 @@ public class Coin : MonoBehaviour {
 	public void destroySelf(){
         if(gameObject != null)
 		    Destroy(gameObject);
+
+		Debug.Log ("DELETED COIN");
 	}
     
 }

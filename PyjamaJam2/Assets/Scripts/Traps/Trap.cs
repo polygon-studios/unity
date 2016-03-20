@@ -32,7 +32,6 @@ public class Trap : MonoBehaviour {
 	}
 	
 	public void DestroySelf(){
-		allItems.removeItemFromArray (this.gameObject);
 		Destroy(gameObject);
 	}
 }
