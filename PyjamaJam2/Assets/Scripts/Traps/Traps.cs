@@ -16,16 +16,13 @@ public class Traps : MonoBehaviour {
 
         if (lifeSpan < 0)
         {
-			Debug.Log ("DELETE THIS TRAP" + lifeSpan);
             destroySelf();
         }
     }
 
     public void destroySelf()
     {
-        if (gameObject != null) {
-			Destroy (gameObject);
-			Debug.Log ("TRAP DELETED");
-		}
+        if (gameObject != null) 
+            Destroy(gameObject);
     }
 }

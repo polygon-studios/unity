@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour {
 	List<Vector2> charlesPositions ;
 	List<Vector2> gruntPositions ;
 
-	float timer = 10; //in seconds
+	float timer = 50; //in seconds
 
 	int spawns;
 	int deaths;
@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour {
 		deaths = 0;
 
 		fillArrayPositions ();
+		currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
 	}
 	
 	// Update is called once per frame
@@ -32,10 +33,10 @@ public class Enemy : MonoBehaviour {
 
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			timer = 10;
+			timer = 50;
             if (currentEnemies.Count < 2)
             {
-               // currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+                currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
                 Debug.Log("Enemies: " + enemyPrefs[0]);
             }
 		}
@@ -60,10 +61,10 @@ public class Enemy : MonoBehaviour {
 
 		// Possible dug placements
 		dugPositions = new List<Vector2> ();
-		dugPositions.Add(new Vector2(7, 0));
-		dugPositions.Add(new Vector2(8.35f, 0));
-		dugPositions.Add(new Vector2(10, 0));
-		dugPositions.Add(new Vector2(11.39f, 0));
+		dugPositions.Add(new Vector2(12.5f, 4.7f));
+		dugPositions.Add(new Vector2(2.68f, 5.72f));
+		dugPositions.Add(new Vector2(21.8f,4.22f));
+		dugPositions.Add(new Vector2(26.39f, 2.14f));
 
 		// Possible charles placements
 		charlesPositions = new List<Vector2> ();

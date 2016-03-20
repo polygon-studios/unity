@@ -318,6 +318,9 @@ public class Character : MonoBehaviour {
             AudioSource audio = GetComponent<AudioSource>();
             audio.PlayOneShot(audioEffectStunnedHit, 0.2f );
             audio.PlayOneShot(audioEffectPineconeHit, 0.2f);
+
+			//Traps trap = objectHit.gameObject.GetComponent<Traps> ();
+			//trap.destroySelf ();
 		}
         //same for enemy 
 		if (objectHit.gameObject.tag == "Enemy" && invincible == false) {
