@@ -46,9 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FireworkLight.cs" />
      <Compile Include="Assets\JSON\JSONObject.cs" />
      <Compile Include="Assets\JSON\JSONTemplates.cs" />
      <Compile Include="Assets\JSON\VectorTemplates.cs" />
+     <Compile Include="Assets\Scripts\Background Animations\Bird.cs" />
+     <Compile Include="Assets\Scripts\Background Animations\CloudMove.cs" />
+     <Compile Include="Assets\Scripts\Background Animations\LeafMove.cs" />
      <Compile Include="Assets\Scripts\BackgroundChanger.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\Collision.cs" />
@@ -60,6 +64,7 @@
      <Compile Include="Assets\Scripts\Items\Chili.cs" />
      <Compile Include="Assets\Scripts\Items\Coin.cs" />
      <Compile Include="Assets\Scripts\Items\Firework.cs" />
+     <Compile Include="Assets\Scripts\Items\FireworkController.cs" />
      <Compile Include="Assets\Scripts\Items\Fish.cs" />
      <Compile Include="Assets\Scripts\Items\GhostItem.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
@@ -75,6 +80,9 @@
      <Compile Include="Assets\Scripts\Networking\Spout.cs" />
      <Compile Include="Assets\Scripts\Networking\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\Networking\SpoutSender.cs" />
+     <Compile Include="Assets\Scripts\ScoreText.cs" />
+     <Compile Include="Assets\Scripts\StarterScripts\CharacterSelector.cs" />
+     <Compile Include="Assets\Scripts\StarterScripts\StarterGM.cs" />
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
      <Compile Include="Assets\Scripts\Traps\Trap.cs" />
      <Compile Include="Assets\Scripts\Traps\Traps.cs" />

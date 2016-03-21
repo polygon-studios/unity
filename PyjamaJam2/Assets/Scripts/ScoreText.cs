@@ -11,12 +11,12 @@ public class ScoreText : MonoBehaviour {
 	void Start () {
 		currentScore = 0;
 		txt = gameObject.GetComponent<Text>(); 
-		txt.text= " " + currentScore;
+		txt.text= "" + currentScore;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		txt.text=" " + currentScore;  
+		txt.text= "" + currentScore;  
 	}
 
 	public void updateScore(int points){

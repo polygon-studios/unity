@@ -78,6 +78,8 @@ public class Character : MonoBehaviour {
 
 		laternScript = latern.GetComponent<Latern> ();
 		GMScript = GM.GetComponent<GameMaster> ();
+
+		invincible = false;
 	}
 	
 	// Update is called once per frame
@@ -320,8 +322,17 @@ public class Character : MonoBehaviour {
             audio.PlayOneShot(audioEffectStunnedHit, 0.2f );
             audio.PlayOneShot(audioEffectPineconeHit, 0.2f);
 
-			//Traps trap = objectHit.gameObject.GetComponent<Traps> ();
-			//trap.destroySelf ();
+			if(objectHit.gameObject.name.Contains ("button")){
+				Debug.Log ("You hit a button m8");
+				var objects = GameObject.FindGameObjectsWithTag("jailDoor");
+				var objectCount = objects.Length;
+				foreach (var obj in objects) {
+					obj.active = true;
+				}
+			}
+
+			Traps trap = objectHit.gameObject.GetComponent<Traps> ();
+			trap.destroySelf ();
 		}
         //same for enemy 
 		if (objectHit.gameObject.tag == "Enemy" && invincible == false) {

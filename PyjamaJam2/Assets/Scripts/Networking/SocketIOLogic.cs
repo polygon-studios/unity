@@ -9,9 +9,11 @@ using System.Collections.Generic;
 public class SocketIOLogic : MonoBehaviour
 {
 	private SocketIOComponent socket;
+	public GameMaster GM;
 	public GameObject buttonPrefab;
 	public GameObject bramblePrefab;
 	public GameObject pineconePrefab;
+	bool isCalled = false;
 
 	public void Start()
 	{
@@ -35,6 +37,10 @@ public class SocketIOLogic : MonoBehaviour
 	public void Update()
 	{
 		//getPlayerPositions ();
+		if (GM.isDark == true && !isCalled) {
+			socket.Emit ("nighttime");
+			isCalled = true;
+		}
     }
 
 	IEnumerator BeepBoop(float disValue)
