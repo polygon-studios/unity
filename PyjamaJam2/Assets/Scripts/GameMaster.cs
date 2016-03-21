@@ -11,10 +11,15 @@ public class GameMaster:MonoBehaviour
 
     private bool showGUI = true;
 
-	//public Text foxText;
-	//public Text skunkText;
-	//public Text bearText;
-	//public Text rabbitText;
+	public GameObject foxCanvas;
+	public GameObject skunkCanvas;
+	public GameObject bearCanvas;
+	public GameObject rabbitCanvas;
+
+	ScoreText foxText;
+	ScoreText skunkText;
+	ScoreText bearText;
+	ScoreText rabbitText;
 
     int foxScore;
 	int skunkScore;
@@ -42,63 +47,37 @@ public class GameMaster:MonoBehaviour
 		skunkScore = 0;
 		bearScore = 0;
 		rabbitScore = 0;
+
+		foxText = foxCanvas.GetComponent<ScoreText> ();
+		skunkText = skunkCanvas.GetComponent<ScoreText> ();
+		bearText = bearCanvas.GetComponent<ScoreText> ();
+		rabbitText = rabbitCanvas.GetComponent<ScoreText> ();
 	}
 
 	void Update(){
 
 		timer += Time.deltaTime;
 
-		string fox = string.Format("{0000}", foxScore);
-		string skunk = string.Format("{0000}", skunkScore);
-		string rabbit = string.Format("{0000}", rabbitScore);
-		string bear = string.Format("{0000}", bearScore);
-
-		//foxText = gameObject.GetComponent<Text> ();
-		//skunkText = gameObject.GetComponent<Text> ();
-		//bearText = gameObject.GetComponent<Text> ();
-		//rabbitText = gameObject.GetComponent<Text> ();
-
-		//foxText.text = fox;
-		//skunkText.text = skunk;
-		//bearText.text = bear;
-		//rabbitText.text = rabbit;
 	}
 
-	void OnGUI() {
-        //int minutes = Mathf.FloorToInt(timer / 60F);
-        //int seconds = Mathf.FloorToInt(timer - minutes * 60);
-        //string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
-        //niceTime = "Time: " + niceTime;
-        //GUI.Label(new Rect(10, 10, 250, 100), niceTime);
-        if (showGUI)
-        {
-            string fox = string.Format("{0000}", foxScore);
-            //GUI.Label(new Rect(574, 315, 250, 100), fox);
-
-            string skunk = string.Format("{0000}", skunkScore);
-            //GUI.Label(new Rect(815, 315, 250, 100), skunk);
-
-            string rabbit = string.Format("{0000}", rabbitScore);
-            //GUI.Label(new Rect(574, 355, 250, 100), rabbit);
-
-            string bear = string.Format("{0000}", bearScore);
-            //GUI.Label(new Rect(815, 355, 250, 100), bear);
-        }
-	}
 
 	public void addPoints(string character, int pointVal){
 		Debug.Log ("ADDING SCORE");
 		if (character.Contains ("Fox")) {
 			foxScore += foxScore + pointVal;
+			foxText.updateScore (foxScore);
 		}
 		if (character.Contains ("Skunk")) {
 			skunkScore += skunkScore + pointVal;
+			skunkText.updateScore (skunkScore);
 		}
 		if (character.Contains ("Bear")) {
 			bearScore += bearScore + pointVal;
+			bearText.updateScore (bearScore);
 		}
 		if (character.Contains ("Rabbit")) {
 			rabbitScore += rabbitScore + pointVal;
+			rabbitText.updateScore (rabbitScore);
 		}
 	}
 

@@ -20,6 +20,6 @@ public class ScoreText : MonoBehaviour {
 	}
 
 	public void updateScore(int points){
-		currentScore += currentScore + points;
+		currentScore = points;
 	}
 }

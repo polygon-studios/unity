@@ -98,19 +98,12 @@ public class Character : MonoBehaviour {
 	}
 
 	void Movement(){
-		Debug.Log ("Is Stunned?: " + isStunned);
         /*
 		A button used to jump
 		X button used for picking up, activating, and using items
 		B button used to drop items
 		*/
 
-		if (Input.GetKeyDown("a")) { //moving character right
-			Debug.Log ("Pressing the A Key");
-		}
-		if (Input.GetKeyDown("space")) { //moving character right
-			Debug.Log ("Pressing the space Key");
-		}
 
         moveSpeed = Mathf.Abs((transform.position.x - lastPosition.x));
 		lastPosition = transform.position;
