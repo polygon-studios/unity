@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 5fe96af8a26d5f448bc7bf7bafdb01bb
+timeCreated: 1458524400
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: leafSway_0
+    21300002: leafSway_1
+    21300004: leafSway_2
+    21300006: leafSway_3
+    21300008: leafSway_4
+    21300010: leafSway_5
+    21300012: leafSway_6
+    21300014: leafSway_7
+    21300016: leafSway_8
+    21300018: leafSway_9
+    21300020: leafSway_10
+    21300022: leafSway_11
+    21300024: leafSway_12
+    21300026: leafSway_13
+    21300028: leafSway_14
+    21300030: leafSway_15
+    21300032: leafSway_16
+    21300034: leafSway_17
+    21300036: leafSway_18
+    21300038: leafSway_19
+    21300040: leafSway_20
+    21300042: leafSway_21
+    21300044: leafSway_22
+    21300046: leafSway_23
+    21300048: leafSway_24
+    21300050: leafSway_25
+    21300052: leafSway_26
+    21300054: leafSway_27
+    21300056: leafSway_28
+    21300058: leafSway_29
+    21300060: leafSway_30
+    21300062: leafSway_31
+    21300064: leafSway_32
+    21300066: leafSway_33
+    21300068: leafSway_34
+    21300070: leafSway_35
+    21300072: leafSway_36
+    21300074: leafSway_37
+    21300076: leafSway_38
+    21300078: leafSway_39
+    21300080: leafSway_40
+    21300082: leafSway_41
+    21300084: leafSway_42
+    21300086: leafSway_43
+    21300088: leafSway_44
+    21300090: leafSway_45
+    21300092: leafSway_46
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: leafSway_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 243
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 243
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 243
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 243
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 243
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 243
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 243
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 243
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 196
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 196
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 196
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 196
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 196
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 196
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 196
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 196
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 150
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 150
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 150
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 150
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 150
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 150
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 150
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_23
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 150
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 103
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 103
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 103
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_27
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 103
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 103
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_29
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 103
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_30
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 103
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_31
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 103
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 56
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 56
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 56
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_36
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 56
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_37
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 56
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_38
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 56
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_39
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 56
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_42
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 10
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_43
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 10
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 10
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_45
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 10
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leafSway_46
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 10
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

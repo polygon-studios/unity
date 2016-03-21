@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: e2c9cf6dd43b00746a20330049a07bb9
+timeCreated: 1458503200
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: raven_0
+    21300002: raven_1
+    21300004: raven_2
+    21300006: raven_3
+    21300008: raven_4
+    21300010: raven_5
+    21300012: raven_6
+    21300014: raven_7
+    21300016: raven_8
+    21300018: raven_9
+    21300020: raven_10
+    21300022: raven_11
+    21300024: raven_12
+    21300026: raven_13
+    21300028: raven_14
+    21300030: raven_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: raven_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 280
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 281
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 232
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 232
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 173
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 117
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 117
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 63
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 62
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 57
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raven_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

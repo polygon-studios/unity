@@ -13,11 +13,11 @@ public class BackgroundChanger : MonoBehaviour {
 	public int whichNextLvl;
 	public GameMaster GM;
     public Items items;
-	
-	
-	
-	// Use this for initialization
-	void Start () {
+
+    GameObject[] bgAnimList;
+
+    // Use this for initialization
+    void Start () {
 		GameObject[] trap = GameObject.FindGameObjectsWithTag("Trap");
 		
 		foreach (GameObject traps in trap) {
@@ -46,8 +46,18 @@ public class BackgroundChanger : MonoBehaviour {
 
             //set items to night mode
             items.setDarkMode();
-		}
-		if(Input.GetKeyDown(KeyCode.T)){
+
+            //set background animations to night mode
+            bgAnimList = GameObject.FindGameObjectsWithTag("BackgroundAnim");
+            foreach (GameObject bgAnim in bgAnimList)
+            {
+                if(bgAnim != null)
+                    bgAnim.gameObject.GetComponent<Animator>().SetBool("night", true);
+            }
+
+
+        }
+        if (Input.GetKeyDown(KeyCode.T)){
 			StartCoroutine(TrapFadeTo(1.0f, 0.25f));
 		}
 	}
