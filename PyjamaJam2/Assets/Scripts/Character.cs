@@ -309,6 +309,7 @@ public class Character : MonoBehaviour {
 			//increase points
 			
 			Coin coin = objectHit.gameObject.GetComponent<Coin>();
+			GMScript.addPoints(this.name, coin.points);
 			coin.destroySelf();
 			
 		}
@@ -342,7 +343,7 @@ public class Character : MonoBehaviour {
 		}
 
 		if (objectHit.gameObject.tag == "mushroom" && invincible == false) {
-			Vector2 force = new Vector2 (0, 12);
+			Vector2 force = new Vector2 (0, 8);
 			Rigidbody2D rb = GetComponent<Rigidbody2D>();
 			rb.AddForce(force, ForceMode2D.Impulse);
 		}

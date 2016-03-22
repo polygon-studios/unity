@@ -85,13 +85,13 @@ public class SocketIOLogic : MonoBehaviour
 		Debug.Log(tempTrap);
 
 		if (tempTrap.Contains ("bramble")) {
-			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
+			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
 			Debug.Log("Placing bramble");
 		} else if (tempTrap.Contains("pinecone")) {
-			GameObject pinecone = (GameObject)Instantiate (pineconePrefab, new Vector3 (xPos, yPos, 0), Quaternion.identity);
+			GameObject pinecone = (GameObject)Instantiate (pineconePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
 		}
         else {
-            GameObject button = (GameObject)Instantiate(buttonPrefab, new Vector3(xPos, yPos, 0), Quaternion.identity);
+            GameObject button = (GameObject)Instantiate(buttonPrefab, new Vector3(xPos, yPos, -7), Quaternion.identity);
         }
 		if (e.data == null) { return; }
 

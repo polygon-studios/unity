@@ -6,6 +6,8 @@ public class Coin : MonoBehaviour {
 	public float lifeSpan = 20f; //in seconds
 	public int mass;
 
+	public int points = 5;
+
 
 	// Use this for initialization
 	void Start () {

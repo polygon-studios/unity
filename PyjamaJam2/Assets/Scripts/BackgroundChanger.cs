@@ -27,7 +27,7 @@ public class BackgroundChanger : MonoBehaviour {
 			traps.GetComponent<Renderer>().material.color = newColor;
 		}
 
-		StartCoroutine(ActivateNight(240));
+		//StartCoroutine(ActivateNight(240));
 	}
 
 	// Update is called once per frame
