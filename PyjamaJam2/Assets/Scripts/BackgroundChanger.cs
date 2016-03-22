@@ -26,6 +26,8 @@ public class BackgroundChanger : MonoBehaviour {
 			Color newColor = new Color(1, 1, 1, 0.0f);
 			traps.GetComponent<Renderer>().material.color = newColor;
 		}
+
+		StartCoroutine(ActivateNight(240));
 	}
 
 	// Update is called once per frame
@@ -76,6 +78,34 @@ public class BackgroundChanger : MonoBehaviour {
 				background.GetComponent<Renderer>().material.color = newColor;
 				yield return null;
 			}
+		}
+	}
+
+	IEnumerator ActivateNight(int time)
+	{
+		yield return new WaitForSeconds(time);
+
+		//go to night map
+		StartCoroutine(FadeTo(0.0f, 3.75f));
+		
+		//set GameMaster to darkmode
+		GM.isDark = true;
+		
+		//turn characters lights on
+		foreach (Character character in GM.CHARACTERS) {
+			if(character != null)
+				character.activateLight();
+		}
+		
+		//set items to night mode
+		items.setDarkMode();
+		
+		//set background animations to night mode
+		bgAnimList = GameObject.FindGameObjectsWithTag("BackgroundAnim");
+		foreach (GameObject bgAnim in bgAnimList)
+		{
+			if(bgAnim != null)
+				bgAnim.gameObject.GetComponent<Animator>().SetBool("night", true);
 		}
 	}
 
