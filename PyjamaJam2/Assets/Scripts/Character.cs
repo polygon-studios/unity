@@ -341,6 +341,13 @@ public class Character : MonoBehaviour {
             audio.PlayOneShot(audioEffectStunnedHit, 0.2f);
 		}
 
+		if (objectHit.gameObject.tag == "mushroom" && invincible == false) {
+			Vector2 force = new Vector2 (0, 12);
+			Rigidbody2D rb = GetComponent<Rigidbody2D>();
+			rb.AddForce(force, ForceMode2D.Impulse);
+		}
+
+
 		if (objectHit.gameObject.tag == "Door") {
 			string itemHeld;
 			string side;

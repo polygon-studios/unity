@@ -125,11 +125,11 @@ public class Items : MonoBehaviour {
         if (itemToUse == null && prefabsToChoose != null)
         {
             int randItem = Random.Range(0, prefabsToChoose.Count);
-            itemObj = (GameObject)Instantiate(prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, 0), Quaternion.identity);
+            itemObj = (GameObject)Instantiate(prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity);
         }
         else if (itemToUse != null)
         {
-            itemObj = (GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, 0), Quaternion.identity);
+            itemObj = (GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity);
         }
         if (itemObj != null)
 			return itemObj; 
