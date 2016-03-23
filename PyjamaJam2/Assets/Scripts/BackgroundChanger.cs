@@ -27,6 +27,15 @@ public class BackgroundChanger : MonoBehaviour {
 			traps.GetComponent<Renderer>().material.color = newColor;
 		}
 
+		GameObject[] nightImg = GameObject.FindGameObjectsWithTag("NightMap");
+		
+		foreach (GameObject image in nightImg) {
+			float alpha = image.GetComponent<Renderer>().material.color.a;
+			Color newColor = new Color(1, 1, 1, 0.0f);
+			image.GetComponent<SpriteRenderer>().material.color = newColor;
+			Debug.Log ("Hiding night map");
+		}
+
 		//StartCoroutine(ActivateNight(240));
 	}
 

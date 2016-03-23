@@ -64,20 +64,24 @@ public class GameMaster:MonoBehaviour
 	public void addPoints(string character, int pointVal){
 		Debug.Log ("ADDING SCORE");
 		if (character.Contains ("Fox")) {
-			foxScore += foxScore + pointVal;
+			foxScore = foxScore + pointVal;
 			foxText.updateScore (foxScore);
+			Debug.Log("Fox score: " + foxScore);
 		}
 		if (character.Contains ("Skunk")) {
-			skunkScore += skunkScore + pointVal;
+			skunkScore = skunkScore + pointVal;
 			skunkText.updateScore (skunkScore);
+			Debug.Log("Skunk score: " + skunkScore);
 		}
 		if (character.Contains ("Bear")) {
-			bearScore += bearScore + pointVal;
+			bearScore = bearScore + pointVal;
 			bearText.updateScore (bearScore);
+			Debug.Log("Bear score: " + bearScore);
 		}
 		if (character.Contains ("Rabbit")) {
-			rabbitScore += rabbitScore + pointVal;
+			rabbitScore = rabbitScore + pointVal;
 			rabbitText.updateScore (rabbitScore);
+			Debug.Log("Rabbit score: " + rabbitScore);
 		}
 	}
 
