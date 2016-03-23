@@ -47,7 +47,6 @@ public class LeafMove : MonoBehaviour
         //Vector3 newPos = new Vector3(initPos.x, initPos.position.y, initPos.position.z);
         transform.position = initPos;
         speed = Random.Range(0.1f, 0.5f);
-        print("reset leaf");
     }
 }
 

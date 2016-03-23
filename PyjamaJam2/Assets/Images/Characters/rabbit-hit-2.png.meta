@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: f22ad363f28579c4cb692d05d14df30a
+timeCreated: 1458761196
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-hit-2_0
+    21300002: rabbit-hit-2_1
+    21300004: rabbit-hit-2_2
+    21300006: rabbit-hit-2_3
+    21300008: rabbit-hit-2_4
+    21300010: rabbit-hit-2_5
+    21300012: rabbit-hit-2_6
+    21300014: rabbit-hit-2_7
+    21300016: rabbit-hit-2_8
+    21300018: rabbit-hit-2_9
+    21300020: rabbit-hit-2_10
+    21300022: rabbit-hit-2_11
+    21300024: rabbit-hit-2_12
+    21300026: rabbit-hit-2_13
+    21300028: rabbit-hit-2_14
+    21300030: rabbit-hit-2_15
+    21300032: rabbit-hit-2_16
+    21300034: rabbit-hit-2_17
+    21300036: rabbit-hit-2_18
+    21300038: rabbit-hit-2_19
+    21300040: rabbit-hit-2_20
+    21300042: rabbit-hit-2_21
+    21300044: rabbit-hit-2_22
+    21300046: rabbit-hit-2_23
+    21300048: rabbit-hit-2_24
+    21300050: rabbit-hit-2_25
+    21300052: rabbit-hit-2_26
+    21300054: rabbit-hit-2_27
+    21300056: rabbit-hit-2_28
+    21300058: rabbit-hit-2_29
+    21300060: rabbit-hit-2_30
+    21300062: rabbit-hit-2_31
+    21300064: rabbit-hit-2_32
+    21300066: rabbit-hit-2_33
+    21300068: rabbit-hit-2_34
+    21300070: rabbit-hit-2_35
+    21300072: rabbit-hit-2_36
+    21300074: rabbit-hit-2_37
+    21300076: rabbit-hit-2_38
+    21300078: rabbit-hit-2_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-hit-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 951
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -23.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 22.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -22.5, y: 16.5}
+        - {x: -18.5, y: 20.5}
+        - {x: -15.5, y: 20.5}
+        - {x: -13.5, y: 22.5}
+        - {x: -11.5, y: 23.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -31.5, y: 4.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 951
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -21.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 4.5}
+        - {x: -30.5, y: -13.5}
+        - {x: -29.5, y: -23.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 951
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -17.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 31.5, y: -15.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -12.5}
+        - {x: -27.5, y: -18.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 10.5, y: -18.5}
+    - name: rabbit-hit-2_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 951
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -16.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -21.5, y: -14.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 951
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -4.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -17.5}
+        - {x: 30.5, y: -7.5}
+    - name: rabbit-hit-2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 10.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -11.5}
+        - {x: 19.5, y: -0.5}
+    - name: rabbit-hit-2_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 849
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -21.5}
+        - {x: 31.5, y: -16.5}
+        - {x: 31.5, y: -15.5}
+        - {x: 29.5, y: -10.5}
+        - {x: 18.5, y: -2.5}
+        - {x: 30.5, y: 5.5}
+        - {x: 31.5, y: 7.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 10.5, y: -24.5}
+    - name: rabbit-hit-2_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 849
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: -24.5}
+        - {x: 32.5, y: -20.5}
+        - {x: 32.5, y: 36.5}
+        - {x: -32.5, y: 36.5}
+        - {x: -32.5, y: -36.5}
+        - {x: 32.5, y: -36.5}
+        - {x: 32.5, y: -25.5}
+        - {x: 31.5, y: -24.5}
+    - name: rabbit-hit-2_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 849
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -22.5}
+        - {x: 29, y: -20.5}
+        - {x: 32, y: -15.5}
+        - {x: 32, y: -14.5}
+        - {x: 21, y: -2.5}
+        - {x: 32, y: -2.5}
+        - {x: 32, y: 36.5}
+        - {x: -32, y: 36.5}
+        - {x: -32, y: -36.5}
+        - {x: 32, y: -36.5}
+        - {x: 32, y: -24.5}
+        - {x: 12, y: -24.5}
+    - name: rabbit-hit-2_9
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 849
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -22.5}
+        - {x: 29.5, y: -18.5}
+        - {x: 30.5, y: -15.5}
+        - {x: 22.5, y: -5.5}
+        - {x: 19.5, y: -3.5}
+        - {x: 13.5, y: -3.5}
+        - {x: 18.5, y: -2.5}
+        - {x: 25.5, y: -6.5}
+        - {x: 31.5, y: -7.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -23.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 25.5, y: -24.5}
+        - {x: 31.5, y: -22.5}
+        - {x: 31.5, y: 3.5}
+        - {x: 30.5, y: 6.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 27.5, y: 15.5}
+        - {x: 31.5, y: 22.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 747
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 747
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 747
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 747
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 645
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 645
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 645
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 645
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -23.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 16.5}
+        - {x: -28.5, y: -14.5}
+        - {x: -26.5, y: -20.5}
+        - {x: -19.5, y: -19.5}
+        - {x: -14.5, y: -15.5}
+        - {x: -4.5, y: -24.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 543
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -21.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 8.5}
+        - {x: -30.5, y: -13.5}
+        - {x: -29.5, y: -23.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 543
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -17.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 31.5, y: -15.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 14.5}
+        - {x: -29.5, y: -15.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 10.5, y: -18.5}
+    - name: rabbit-hit-2_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 543
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -16.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -21.5, y: -14.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_24
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 543
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -4.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -14.5}
+        - {x: -30.5, y: -17.5}
+        - {x: -31.5, y: -21.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -17.5}
+        - {x: 30.5, y: -7.5}
+    - name: rabbit-hit-2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 10.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -11.5}
+        - {x: 19.5, y: -0.5}
+    - name: rabbit-hit-2_26
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 441
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -7.5}
+        - {x: -26.5, y: -7.5}
+        - {x: -31.5, y: -22.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 441
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: -24.5}
+        - {x: 26.5, y: -22.5}
+        - {x: 32.5, y: -14.5}
+        - {x: 19.5, y: -2.5}
+        - {x: 32.5, y: 2.5}
+        - {x: 32.5, y: 36.5}
+        - {x: -32.5, y: 36.5}
+        - {x: -32.5, y: -36.5}
+        - {x: 32.5, y: -36.5}
+        - {x: 32.5, y: -25.5}
+        - {x: 31.5, y: -24.5}
+    - name: rabbit-hit-2_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 441
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -22.5}
+        - {x: 29, y: -20.5}
+        - {x: 32, y: -15.5}
+        - {x: 32, y: -14.5}
+        - {x: 21, y: -2.5}
+        - {x: 32, y: -2.5}
+        - {x: 32, y: 5.5}
+        - {x: 27, y: 13.5}
+        - {x: 12, y: 13.5}
+        - {x: 20, y: 13.5}
+        - {x: 24, y: 15.5}
+        - {x: 32, y: 22.5}
+        - {x: 32, y: 36.5}
+        - {x: -32, y: 36.5}
+        - {x: -32, y: -36.5}
+        - {x: 32, y: -36.5}
+        - {x: 32, y: -24.5}
+        - {x: 12, y: -24.5}
+    - name: rabbit-hit-2_29
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 441
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -22.5}
+        - {x: 29.5, y: -18.5}
+        - {x: 30.5, y: -15.5}
+        - {x: 22.5, y: -5.5}
+        - {x: 19.5, y: -3.5}
+        - {x: 13.5, y: -3.5}
+        - {x: 18.5, y: -2.5}
+        - {x: 25.5, y: -6.5}
+        - {x: 30.5, y: -7.5}
+        - {x: 31.5, y: -7.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -23.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 25.5, y: -24.5}
+        - {x: 31.5, y: -22.5}
+        - {x: 31.5, y: 4.5}
+        - {x: 23.5, y: 14.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 12.5, y: 16.5}
+        - {x: 12.5, y: 15.5}
+        - {x: 14.5, y: 16.5}
+        - {x: 21.5, y: 19.5}
+        - {x: 31.5, y: 24.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 11.5, y: -24.5}
+    - name: rabbit-hit-2_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 339
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_32
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 339
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 339
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_34
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 339
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 7.5}
+        - {x: -30.5, y: 3.5}
+        - {x: -31.5, y: -14.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 237
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 21.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -26.5, y: 8.5}
+        - {x: -22.5, y: 8.5}
+        - {x: -19.5, y: 11.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -16.5, y: 11.5}
+        - {x: -20.5, y: 9.5}
+        - {x: -21.5, y: 8.5}
+        - {x: -31.5, y: 8.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 237
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    - name: rabbit-hit-2_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 237
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 21.5}
+        - {x: 10.5, y: 23.5}
+        - {x: 31.5, y: 24.5}
+        - {x: 31.5, y: 36.5}
+        - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: 19.5}
+        - {x: -30.5, y: 10.5}
+        - {x: -26.5, y: 7.5}
+        - {x: -23.5, y: 7.5}
+        - {x: -19.5, y: 13.5}
+        - {x: -17.5, y: 11.5}
+        - {x: -31.5, y: -5.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 24.5}
+        - {x: 26.5, y: 24.5}
+    - name: rabbit-hit-2_39
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 237
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 31.5, y: 36.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

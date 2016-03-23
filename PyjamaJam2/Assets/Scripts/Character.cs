@@ -177,7 +177,20 @@ public class Character : MonoBehaviour {
 
 	void updateLatern(){
 		laternScript.updateWithCharData (transform.position.x, transform.position.y);
+        if(laternScript.checkLightBrightness() == false)
+        {
+            goHome();
+            laternScript.resetLight(transform.position.x, transform.position.y);
+        }
 	}
+
+    void goHome()
+    {
+        if (transform.position.x > 14.5)
+            transform.position = new Vector3(17.3f, 1.5f, transform.position.z);
+        else
+            transform.position = new Vector3(12.3f, 1.5f, transform.position.z);
+    }
 
 	void ItemCheck(){
 		if (item != null) {
