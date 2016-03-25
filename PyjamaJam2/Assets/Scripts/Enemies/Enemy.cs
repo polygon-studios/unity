@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour {
 	List<Vector2> charlesPositions ;
 	List<Vector2> gruntPositions ;
 
-	float timer = 50; //in seconds
+	float timer = 30; //in seconds
 
 	int spawns;
 	int deaths;
@@ -33,14 +33,28 @@ public class Enemy : MonoBehaviour {
 
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			timer = 50;
-            if (currentEnemies.Count < 2)
+			timer = 30;
+
+			int enemyCount = getCount(currentEnemies);
+
+			if (enemyCount < 1)
             {
                 currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
                 Debug.Log("Enemies: " + enemyPrefs[0]);
             }
 		}
 	
+	}
+
+	int getCount(List<GameObject> listToCount)
+	{
+		int counter = 0;
+		foreach(GameObject obj in listToCount)
+		{
+			if (obj != null)
+				counter++;
+		}
+		return counter;
 	}
 
 	GameObject generateEnemy(List<Vector2> possiblePositions, List<GameObject> enemyPrefabs, int enemy){
