@@ -1,28 +1,61 @@
-﻿Shader "Transparent/VertexLit with Z" {
+﻿Shader "Custom/Diffuse" {
 	Properties{
-		_Color("Main Color", Color) = (1,1,1,1)
-		_MainTex("Base (RGB) Trans (A)", 2D) = "white" {}
+		[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+	_Color("Tint", Color) = (1,1,1,1)
+		[MaterialToggle] PixelSnap("Pixel snap", Float) = 0
+	}
+		SubShader
+	{
+		Tags{
+		"Queue" = "Transparent"
+		"IgnoreProjector" = "True"
+		"RenderType" = "Transparent"
+		"PreviewType" = "Plane"
+		"CanUseSpriteAtlas" = "True"
+	}
+		Cull Off
+		Lighting Off
+		ZWrite Off
+		Blend One OneMinusSrcAlpha
+
+		CGPROGRAM
+#pragma surface surf Lambert vertex:vert nofog keepalpha
+#pragma multi_compile _ PIXELSNAP_ON
+
+		sampler2D _MainTex;
+	fixed4 _Color;
+	sampler2D _AlphaTex;
+	float _AlphaSplitEnabled;
+
+	struct Input {
+		float2 uv_MainTex;
+		fixed4 color;
+	};
+
+	void vert(inout appdata_full v, out Input o) {
+#if defined(PIXELSNAP_ON)
+		v.vertex = UnityPixelSnap(v.vertex);
+#endif
+		UNITY_INITIALIZE_OUTPUT(Input, o);
+		o.color = v.color * _Color;
 	}
 
-		SubShader{
-		Tags{ "RenderType" = "Transparent" "Queue" = "Transparent" }
-		// Render into depth buffer only
-		Pass{
-		ColorMask 0
+	fixed4 SampleSpriteTexture(float2 uv) {
+		fixed4 color = tex2D(_MainTex, uv);
+
+#if UNITY_TEXTURE_ALPHASPLIT_ALLOWED
+		if (_AlphaSplitEnabled)
+			color.a = tex2D(_AlphaTex, uv).r;
+#endif //UNITY_TEXTURE_ALPHASPLIT_ALLOWED
+
+		return color;
 	}
-		// Render normally
-		Pass{
-		ZWrite Off
-		Blend SrcAlpha OneMinusSrcAlpha
-		ColorMask RGB
-		Material{
-		Diffuse[_Color]
-		Ambient[_Color]
+	void surf(Input IN, inout SurfaceOutput o) {
+		fixed4 c = SampleSpriteTexture(IN.uv_MainTex) * IN.color;
+		o.Albedo = c.rgb * c.a;
+		o.Alpha = c.a;
 	}
-		Lighting On
-		SetTexture[_MainTex]{
-		Combine texture * primary DOUBLE, texture * primary
+	ENDCG
 	}
-	}
-	}
+		Fallback "Transparent/VertexLit"
 }

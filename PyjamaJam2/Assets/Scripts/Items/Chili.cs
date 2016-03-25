@@ -64,7 +64,7 @@ public class Chili : Item {
             }
 
             base.allItems.removeItemFromArray(this.gameObject);
-            base.DestroySelf();
+            //base.DestroySelf();
             Destroy(this.gameObject);
         }
         else { //chili is in use

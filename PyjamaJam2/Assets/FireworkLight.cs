@@ -12,6 +12,7 @@ public class FireworkLight : MonoBehaviour {
 	void Start () {
         light = GetComponent<Light>();
         light.range = 0;
+        firework.gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, firework.gameObject.transform.position.z);
     }
 	
 	// Update is called once per frame

@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Firework : Item {
 
+    public List<GameObject> fireworks;
 	Character character;
 
 	// Use this for initialization

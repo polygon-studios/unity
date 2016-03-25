@@ -307,12 +307,20 @@ public class Character : MonoBehaviour {
 					treasure.Hide ();
 					
 					item = treasure;
-				}/*else{
+				}
+                else if (objectHit.gameObject.GetComponent<Firework>() != null)
+                {
+                    Firework firework = objectHit.gameObject.GetComponent<Firework>();
+                    firework.initVariables(this.gameObject.GetComponent<Character>());
+                    firework.Hide();
+
+                    item = firework;
+                }/*else{
 					Item newItem = objectHit.gameObject.GetComponent<Item>();
 					newItem.Hide();
 					item = newItem;
 				}*/
-                AudioSource audio = GetComponent<AudioSource>();
+            AudioSource audio = GetComponent<AudioSource>();
                 audio.PlayOneShot(audioEffectItemPickup, 0.2f);
 			}
 	}

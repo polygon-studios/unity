@@ -65,12 +65,20 @@ public class Items : MonoBehaviour {
 		int hardCount = getCount(lev3ItemsCurrent);
         int oilCount = getCount(currentOil);
 
+		itemsAreInBounds (lev1ItemsCurrent);
+		itemsAreInBounds (lev2ItemsCurrent);
+		itemsAreInBounds (lev3ItemsCurrent);
+
 		if (easyCount < maxEasyItemsInScene) {
-			lev1ItemsCurrent.Add (generateItems(easyItemPositions, allCurrentItems, lev1ItemsPrefabs, null));
-		}
+            GameObject itemObj = generateItems(easyItemPositions, allCurrentItems, lev1ItemsPrefabs, null);
+            if(itemObj != null)
+				lev1ItemsCurrent.Add (itemObj);
+			
+        }
 		if (medCount < maxMedItemsInScene) {
-			lev2ItemsCurrent.Add (generateItems(mediumItemPositions, allCurrentItems, lev2ItemsPrefabs, null));
-		}
+            lev2ItemsCurrent.Add (generateItems(mediumItemPositions, allCurrentItems, lev2ItemsPrefabs, null));
+
+        }
 		if (hardCount < maxHardItemsInScene) {
 			lev3ItemsCurrent.Add (generateItems(hardItemPositions, allCurrentItems, lev3ItemsPrefabs, null));
 		}
@@ -82,6 +90,18 @@ public class Items : MonoBehaviour {
             }
         }
 
+	}
+
+	void itemsAreInBounds(List<GameObject> items){
+
+		foreach(GameObject item in items){
+			if (item.gameObject.transform.position.y < 0) {
+				
+				removeItemFromArray (item);
+				item.GetComponent<Item> ().DestroySelf ();
+				break;
+			}
+		}
 	}
 
     int getCount(List<GameObject> listToCount)
@@ -121,24 +141,20 @@ public class Items : MonoBehaviour {
 				randPosIsUnique = true;
 		}
 
-        GameObject itemObj = new GameObject();
         if (itemToUse == null && prefabsToChoose != null)
         {
             int randItem = Random.Range(0, prefabsToChoose.Count);
-            itemObj = (GameObject)Instantiate(prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity);
+			return( (GameObject)Instantiate(prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity));
         }
         else if (itemToUse != null)
         {
-            itemObj = (GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity);
+			return((GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity));
         }
-        if (itemObj != null)
-			return itemObj; 
 		return null;
 	}
 
     public void setDarkMode()
     {
-        Debug.Log("SETTING DARK MODE");
         isDark = true;
         foreach(GameObject itemObj in lev1ItemsCurrent)
         {
@@ -156,15 +172,8 @@ public class Items : MonoBehaviour {
                 itemObj.gameObject.GetComponent<Item>().setDarkMode();
         }
     }
-	
-	public void addItemToArray(GameObject itemObj){
-		//ITEMSARRAY.Add (itemObj);
-	}
-	
+
 	public void removeItemFromArray(GameObject itemObj){
-		//ITEMSARRAY.Remove (itemObj);
-
-
 		if (itemObj.GetComponent<Prune> () != null) {
 			lev1ItemsCurrent.Remove(itemObj);
 		}if (itemObj.GetComponent<Chili> () != null) {
@@ -220,16 +229,16 @@ public class Items : MonoBehaviour {
 
 		/////medium Item Positions
 		mediumItemPositions = new List<Vector2> ();
-		mediumItemPositions.Add(new Vector2(3.3f, 0.5f));
+		/*mediumItemPositions.Add(new Vector2(3.3f, 0.5f));
 		mediumItemPositions.Add(new Vector2(4, 0.5f));
 		mediumItemPositions.Add(new Vector2(4.7f, 0.5f));
 		mediumItemPositions.Add(new Vector2(5.4f, 0.5f));
-		mediumItemPositions.Add(new Vector2(6.1f, 0.5f));
-		mediumItemPositions.Add(new Vector2(22.8f, 0.5f));
-		mediumItemPositions.Add(new Vector2(23.5f, 0.5f));
-		mediumItemPositions.Add(new Vector2(24.2f, 0.5f));
-		mediumItemPositions.Add(new Vector2(24.9f, 0.5f));
-		mediumItemPositions.Add(new Vector2(25.6f, 0.5f));
+		mediumItemPositions.Add(new Vector2(6.1f, 0.5f));*/
+		mediumItemPositions.Add(new Vector2(22.8f, 0.7f));
+		mediumItemPositions.Add(new Vector2(23.5f, 0.7f));
+		mediumItemPositions.Add(new Vector2(24.2f, 0.7f));
+		mediumItemPositions.Add(new Vector2(24.9f, 0.7f));
+		mediumItemPositions.Add(new Vector2(25.6f, 0.7f));
 
 		mediumItemPositions.Add(new Vector2(24.9f, 1.5f));
 		mediumItemPositions.Add(new Vector2(25.6f, 1.5f));
@@ -273,19 +282,19 @@ public class Items : MonoBehaviour {
 		//hardItemPositions.Add(new Vector2(27.9f, 0));
 		//hardItemPositions.Add(new Vector2(28.7f, 0));
 
-		//hardItemPositions.Add(new Vector2(0.42f, 1.5f));
+		hardItemPositions.Add(new Vector2(0.42f, 1.5f));
 		hardItemPositions.Add(new Vector2(2.64f, 1.5f));
 		hardItemPositions.Add(new Vector2(26.36f, 1.5f));
 
 		hardItemPositions.Add(new Vector2(1.89f, 3f));
-		//hardItemPositions.Add(new Vector2(28.7f, 3f));
+		hardItemPositions.Add(new Vector2(28.7f, 3f));
 
 		mediumItemPositions.Add(new Vector2(26.37f, 3.7f));
 		mediumItemPositions.Add(new Vector2(27.1f, 3.7f));
 
-		///hardItemPositions.Add(new Vector2(1.15f, 5));
+		hardItemPositions.Add(new Vector2(1.15f, 5));
 		hardItemPositions.Add(new Vector2(2.58f, 5));
-		//hardItemPositions.Add(new Vector2(27.8f, 5));
+		hardItemPositions.Add(new Vector2(27.8f, 5));
 
 		hardItemPositions.Add(new Vector2(7.7f, 5.8f));
 		hardItemPositions.Add(new Vector2(8.45f, 5.8f));
@@ -295,8 +304,8 @@ public class Items : MonoBehaviour {
 		hardItemPositions.Add(new Vector2(22.7f, 5.8f));
 		hardItemPositions.Add(new Vector2(23.4f, 5.8f));
 
-		//hardItemPositions.Add(new Vector2(0.42f, 6.5f));
-		//hardItemPositions.Add(new Vector2(1.22f, 6.5f));
+		hardItemPositions.Add(new Vector2(0.42f, 6.5f));
+		hardItemPositions.Add(new Vector2(1.22f, 6.5f));
 		hardItemPositions.Add(new Vector2(2.65f, 6.5f));
 		hardItemPositions.Add(new Vector2(4f, 6.5f));
 		hardItemPositions.Add(new Vector2(6.25f, 6.5f));
@@ -308,7 +317,7 @@ public class Items : MonoBehaviour {
 		hardItemPositions.Add(new Vector2(20.64f, 6.5f));
 		hardItemPositions.Add(new Vector2(25.7f, 6.5f));
 		hardItemPositions.Add(new Vector2(27f, 6.5f));
-		//hardItemPositions.Add(new Vector2(28.6f, 6.5f));
+		hardItemPositions.Add(new Vector2(28.6f, 6.5f));
 	}
 
 }

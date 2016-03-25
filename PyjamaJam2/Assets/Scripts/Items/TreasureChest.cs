@@ -41,7 +41,6 @@ public class TreasureChest : Item {
 		timerInterval -= Time.deltaTime;
 
 		if (timerInterval < 0) {
-            Debug.Log("break1");
             float xPosition = Random.Range (character.transform.position.x - 4.0f, character.transform.position.x + 4.0f);
 			GameObject coin = (GameObject)Instantiate (coinPrefab, new Vector3 (xPosition, 8.0f, 0), Quaternion.identity);
 
@@ -49,11 +48,9 @@ public class TreasureChest : Item {
 			coinScript.lifeSpan = Random.Range(5f, 10f);
 
 			timerInterval = 0.5f;
-            Debug.Log("break2");
         }
 
 		if (timer < 0) {
-            Debug.Log("break5");
 			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);
