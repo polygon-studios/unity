@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Firework : Item {
 
     public List<GameObject> fireworks;
-	Character character;
+	//Character character;
 
 	// Use this for initialization
 	protected override void Start () {
@@ -19,7 +19,8 @@ public class Firework : Item {
 	}
 	
 	public void initVariables(Character currCharacter){
-		character = currCharacter;
+		//character = currCharacter;
+		GameObject firework1 = (GameObject)Instantiate (fireworks[0], new Vector3 (20, 8.0f, 0), Quaternion.identity);
 	}
 	
 	public override void TriggerEffect(){

@@ -6,7 +6,7 @@ public class Prune : Item {
 
 	int effectTimer; 
 	Character character;
-	float timer = 20; //in seconds
+	float timer = 10; //in seconds
     float newSpeed = 0.6f;
 	//Character characters[];//holds all other characters
 	

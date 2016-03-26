@@ -43,14 +43,15 @@ public class Latern : MonoBehaviour {
     public void resetLight(float xPos, float yPos)
     {
         light.range = 30;
-        light.intensity = 2.5f;
+        light.intensity = 1.75f;
         Vector3 newPos = new Vector3(xPos, yPos, -6f);
         gameObject.transform.position = newPos;
     }
 
 	public void lightBoost(){
 		light.range += 16f;
-		light.intensity += 0.25f;
+		if(light.intensity < 2f)
+			light.intensity += 0.25f;
 
         Vector3 newPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z - 2.5f);
         gameObject.transform.position = newPos;
