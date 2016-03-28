@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class StarterGM : MonoBehaviour {
 
     public GameObject splashScreen;
+	public GameObject pressStartCharSel;
     public List<GameObject> possibleCharacters;
     public List<bool> isSelectedCharacter;
     //public List<GameObject> savedCharacterOrder;
@@ -13,6 +14,7 @@ public class StarterGM : MonoBehaviour {
     public string buttonStart = "_start";
 
     public bool passedStartScreen = false;
+	public bool passedCharacterSelScreen = false;
 
     int totalSelectedChars = 0;
 
@@ -20,7 +22,7 @@ public class StarterGM : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		pressStartCharSel.gameObject.GetComponent<Renderer> ().material.color = new Color (1, 1, 1, 0f);
 	}
 	
 	// Update is called once per frame
@@ -34,6 +36,11 @@ public class StarterGM : MonoBehaviour {
             StartCoroutine(FadeTo(0.0f, 1.0f, splashScreen));
             passedStartScreen = true;
         }
+
+		if (passedStartScreen == true && passedCharacterSelScreen == false && totalSelectedChars == 4) {
+			Debug.Log ("FOUR CHARS");
+			StartCoroutine(FadeTo(0.0f, 1.0f, pressStartCharSel.gameObject));
+		}
     }
     
 
@@ -43,7 +50,7 @@ public class StarterGM : MonoBehaviour {
         for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
         {
             Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
-            go.GetComponent<Renderer>().material.color = newColor;
+			go.GetComponent<Renderer>().material.color = newColor;
             yield return null;
         }
     }
@@ -59,4 +66,10 @@ public class StarterGM : MonoBehaviour {
     {
         possibleCharacters[characterNum].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
     }
+
+	public void removeSelection(int characterNum){
+		possibleCharacters[characterNum].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+		totalSelectedChars--;
+		isSelectedCharacter[characterNum] = false;
+	}
 }
