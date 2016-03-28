@@ -16,6 +16,11 @@ public class GameMaster:MonoBehaviour
 	public GameObject bearCanvas;
 	public GameObject rabbitCanvas;
 
+	string first;
+	string second;
+	string third;
+	string fourth;
+
 	ScoreText foxText;
 	ScoreText skunkText;
 	ScoreText bearText;
@@ -57,6 +62,71 @@ public class GameMaster:MonoBehaviour
 	void Update(){
 
 		timer += Time.deltaTime;
+
+		if (foxScore > skunkScore && foxScore > bearScore && foxScore > rabbitScore) {
+			first = "fox";
+			if (skunkScore > bearScore && skunkScore > rabbitScore) {
+				second = "skunk";
+				if(rabbitScore > bearScore){
+					third = "rabbit";
+					fourth = "bear";
+				}
+				else {
+					third = "bear";
+					fourth = "rabbit";
+				}
+			}
+			if (bearScore > skunkScore && bearScore > rabbitScore) {
+				second = "bear";
+				if(rabbitScore > skunkScore){
+					third = "rabbit";
+					fourth = "skunk";
+				}
+				else {
+					third = "skunk";
+					fourth = "rabbit";
+				}
+			}
+			if (rabbitScore > bearScore && rabbitScore > skunkScore) {
+				second = "rabbit";
+			}
+		}
+		if (skunkScore > foxScore && skunkScore > bearScore && skunkScore > rabbitScore) {
+			first = "skunk";
+			if (foxScore > bearScore && foxScore > rabbitScore) {
+				second = "fox";
+			}
+			if (bearScore > foxScore && bearScore > rabbitScore) {
+				second = "bear";
+			}
+			if (rabbitScore > bearScore && rabbitScore > foxScore) {
+				second = "rabbit";
+			}
+		}
+		if (bearScore > skunkScore && bearScore > foxScore && bearScore > rabbitScore) {
+			first = "bear";
+			if (skunkScore > foxScore && skunkScore > rabbitScore) {
+				second = "skunk";
+			}
+			if (foxScore > skunkScore && foxScore > rabbitScore) {
+				second = "fox";
+			}
+			if (rabbitScore > foxScore && rabbitScore > skunkScore) {
+				second = "rabbit";
+			}
+		}
+		if (rabbitScore > skunkScore && rabbitScore > bearScore && rabbitScore > foxScore) {
+			first = "rabbit";
+			if (skunkScore > bearScore && skunkScore > foxScore) {
+				second = "skunk";
+			}
+			if (bearScore > skunkScore && bearScore > foxScore) {
+				second = "bear";
+			}
+			if (foxScore > bearScore && foxScore > skunkScore) {
+				second = "fox";
+			}
+		}
 
 	}
 
