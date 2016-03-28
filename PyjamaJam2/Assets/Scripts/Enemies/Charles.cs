@@ -1,8 +1,8 @@
 ﻿/*
-*   FireflyFriends.cs
+*   Charles.cs
 *   
-*   File that handles the firefly friends movement
-*   and collection
+*   File that handles the Charle's movement
+*   
 *  
 *   Author: Ian Clarke
 */
@@ -19,6 +19,8 @@ public class Charles : MonoBehaviour {
 	// Speed of enemy
 	public float speed;
 	public float distance;
+
+	public float lifeSpan = 120f; //in seconds
 	
 	// Initial X position
 	float initialX;

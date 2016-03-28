@@ -26,21 +26,30 @@ public class Enemy : MonoBehaviour {
 
 		fillArrayPositions ();
 		currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+		currentEnemies.Add(generateEnemy(charlesPositions, enemyPrefs, 1));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		bool charlesExists = false;
 		timer -= Time.deltaTime;
 		if (timer < 0) {
 			timer = 30;
 
 			int enemyCount = getCount(currentEnemies);
 
-			if (enemyCount < 1)
+			if (enemyCount < 2)
             {
-                currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
-                Debug.Log("Enemies: " + enemyPrefs[0]);
+				for(int i = 0; i < currentEnemies.Count; i++) {
+					if(currentEnemies[i].name.Contains("Charles")){
+						charlesExists = true;
+					}	
+				}
+				if(charlesExists){
+                	currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+				}else {
+					currentEnemies.Add(generateEnemy(charlesPositions, enemyPrefs, 1));
+				}
             }
 		}
 	
@@ -82,12 +91,8 @@ public class Enemy : MonoBehaviour {
 
 		// Possible charles placements
 		charlesPositions = new List<Vector2> ();
-		charlesPositions.Add(new Vector2(3.3f, 0));
-		charlesPositions.Add(new Vector2(4, 0));
-		charlesPositions.Add(new Vector2(4.7f, 0));
-		charlesPositions.Add(new Vector2(5.4f, 0));
-		charlesPositions.Add(new Vector2(6.1f, 0));
-		charlesPositions.Add(new Vector2(22.8f, 0));
+		charlesPositions.Add(new Vector2(19.36f, 2.45f));
+		charlesPositions.Add(new Vector2(5.65f, 3.95f));
 		
 		// Possible grunt positions
 		gruntPositions = new List<Vector2> ();
