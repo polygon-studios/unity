@@ -21,7 +21,7 @@ public class CharacterSelector : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (starterGM.passedStartScreen == true && characterSelected == false)
+        if (starterGM.passedStartScreen == true)
         {
 			if (characterSelected == false) {
 				//move character selector to right

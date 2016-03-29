@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\BackgroundChanger.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\Collision.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\Enemies\Charles.cs" />
      <Compile Include="Assets\Scripts\Enemies\Dug.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />

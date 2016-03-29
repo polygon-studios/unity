@@ -11,6 +11,8 @@ public class GameMaster:MonoBehaviour
 
     private bool showGUI = true;
 
+	GameObject controllerToChar;
+
 	public GameObject foxCanvas;
 	public GameObject skunkCanvas;
 	public GameObject bearCanvas;
@@ -39,14 +41,26 @@ public class GameMaster:MonoBehaviour
 		else
 			GM = this;
 		DontDestroyOnLoad (this);
+
+
+
+
 	}
 
-	void Start(){
-
+	void OnEnable(){
 		GameObject[] charGO = GameObject.FindGameObjectsWithTag ("character");
 		foreach (GameObject GO in charGO) {
 			CHARACTERS.Add(GO.GetComponent<Character>());
 		}
+
+		controllerToChar = GameObject.Find ("DontDestroy");
+		setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter);
+
+	}
+
+	void Start(){
+
+
 
 		foxScore = 0;
 		skunkScore = 0;
@@ -64,9 +78,16 @@ public class GameMaster:MonoBehaviour
 		timer += Time.deltaTime;
 
 
-
 	}
 
+	void setCharactersAndControllers(List<Vector2> contToChars){
+		/*foreach (Vector2 contToChar in contToChars) {
+			switch (contToChar.y) {
+				case 0:
+					
+			}
+		}*/
+	}
 
 	public void addPoints(string character, int pointVal){
 		Debug.Log ("ADDING SCORE");
