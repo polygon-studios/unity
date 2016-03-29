@@ -89,42 +89,122 @@ public class GameMaster:MonoBehaviour
 			}
 			if (rabbitScore > bearScore && rabbitScore > skunkScore) {
 				second = "rabbit";
+				if(bearScore > skunkScore){
+					third = "bear";
+					fourth = "skunk";
+				}
+				else {
+					third = "skunk";
+					fourth = "bear";
+				}
 			}
 		}
 		if (skunkScore > foxScore && skunkScore > bearScore && skunkScore > rabbitScore) {
 			first = "skunk";
 			if (foxScore > bearScore && foxScore > rabbitScore) {
 				second = "fox";
+				if(rabbitScore > bearScore){
+					third = "rabbit";
+					fourth = "bear";
+				}
+				else {
+					third = "bear";
+					fourth = "rabbit";
+				}
 			}
 			if (bearScore > foxScore && bearScore > rabbitScore) {
 				second = "bear";
+				if(foxScore > rabbitScore){
+					third = "fox";
+					fourth = "rabbit";
+				}
+				else {
+					third = "rabbit";
+					fourth = "fox";
+				}
 			}
 			if (rabbitScore > bearScore && rabbitScore > foxScore) {
 				second = "rabbit";
+				if(foxScore > bearScore){
+					third = "fox";
+					fourth = "bear";
+				}
+				else {
+					third = "bear";
+					fourth = "fox";
+				}
 			}
 		}
 		if (bearScore > skunkScore && bearScore > foxScore && bearScore > rabbitScore) {
 			first = "bear";
 			if (skunkScore > foxScore && skunkScore > rabbitScore) {
 				second = "skunk";
+				if(foxScore > rabbitScore){
+					third = "fox";
+					fourth = "rabbit";
+				}
+				else {
+					third = "rabbit";
+					fourth = "fox";
+				}
 			}
 			if (foxScore > skunkScore && foxScore > rabbitScore) {
 				second = "fox";
+				if(rabbitScore > skunkScore){
+					third = "rabbit";
+					fourth = "skunk";
+				}
+				else {
+					third = "skunk";
+					fourth = "rabbit";
+				}
 			}
 			if (rabbitScore > foxScore && rabbitScore > skunkScore) {
 				second = "rabbit";
+				if(foxScore > skunkScore){
+					third = "fox";
+					fourth = "skunk";
+				}
+				else {
+					third = "skunk";
+					fourth = "fox";
+				}
 			}
 		}
 		if (rabbitScore > skunkScore && rabbitScore > bearScore && rabbitScore > foxScore) {
 			first = "rabbit";
 			if (skunkScore > bearScore && skunkScore > foxScore) {
 				second = "skunk";
+				if(foxScore > bearScore){
+					third = "fox";
+					fourth = "bear";
+				}
+				else {
+					third = "bear";
+					fourth = "fox";
+				}
 			}
 			if (bearScore > skunkScore && bearScore > foxScore) {
 				second = "bear";
+				if(foxScore > skunkScore){
+					third = "fox";
+					fourth = "skunk";
+				}
+				else {
+					third = "skunk";
+					fourth = "fox";
+				}
 			}
 			if (foxScore > bearScore && foxScore > skunkScore) {
 				second = "fox";
+				if(bearScore > skunkScore){
+					third = "bear";
+					fourth = "skunk";
+				}
+				else {
+					third = "skunk";
+					fourth = "bear";
+				}
 			}
 		}
 

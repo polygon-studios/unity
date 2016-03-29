@@ -97,6 +97,7 @@ public class Character : MonoBehaviour {
 		}
         if (isFished)
             updateFish();
+
 	}
 
 	void Movement(){
@@ -397,6 +398,11 @@ public class Character : MonoBehaviour {
                 item = null;
             }
 
+		}
+		if (objectHit.gameObject.tag == "Ground") {
+			if (transform.position.y < 0.453f) {
+				onGround = true;
+			}
 		}
 
 

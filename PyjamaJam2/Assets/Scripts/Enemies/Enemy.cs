@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour {
 
 			int enemyCount = getCount(currentEnemies);
 
-			if (enemyCount < 2)
+			if (enemyCount < 3)
             {
 				for(int i = 0; i < currentEnemies.Count; i++) {
 					if(currentEnemies[i].name.Contains("Charles")){
@@ -46,7 +46,15 @@ public class Enemy : MonoBehaviour {
 					}	
 				}
 				if(charlesExists){
-                	currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+					int chooseEnemy;
+
+					chooseEnemy = Random.Range (0,1);
+					if(chooseEnemy == 0){
+                		currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+					}
+					else {
+						currentEnemies.Add(generateEnemy(gruntPositions, enemyPrefs, 2));
+					}
 				}else {
 					currentEnemies.Add(generateEnemy(charlesPositions, enemyPrefs, 1));
 				}
@@ -96,11 +104,10 @@ public class Enemy : MonoBehaviour {
 		
 		// Possible grunt positions
 		gruntPositions = new List<Vector2> ();
-		gruntPositions.Add(new Vector2(0.42f, 0));
-		gruntPositions.Add(new Vector2(1.18f, 0));
-		gruntPositions.Add(new Vector2(1.88f, 0));
-		gruntPositions.Add(new Vector2(2.6f, 0));
-		gruntPositions.Add(new Vector2(26.36f, 0));
+		gruntPositions.Add(new Vector2(11.11f, 6.16f));
+		gruntPositions.Add(new Vector2(12.83f, 6.16f));
+		gruntPositions.Add(new Vector2(21.8f, 4.01f));
+		gruntPositions.Add(new Vector2(1.99f, 3.21f));
 
 	}
 }
