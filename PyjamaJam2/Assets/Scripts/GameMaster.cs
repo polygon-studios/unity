@@ -63,6 +63,34 @@ public class GameMaster:MonoBehaviour
 
 		timer += Time.deltaTime;
 
+
+
+	}
+
+
+	public void addPoints(string character, int pointVal){
+		Debug.Log ("ADDING SCORE");
+		if (character.Contains ("Fox")) {
+			foxScore = foxScore + pointVal;
+			foxText.updateScore (foxScore);
+			Debug.Log("Fox score: " + foxScore);
+		}
+		if (character.Contains ("Skunk")) {
+			skunkScore = skunkScore + pointVal;
+			skunkText.updateScore (skunkScore);
+			Debug.Log("Skunk score: " + skunkScore);
+		}
+		if (character.Contains ("Bear")) {
+			bearScore = bearScore + pointVal;
+			bearText.updateScore (bearScore);
+			Debug.Log("Bear score: " + bearScore);
+		}
+		if (character.Contains ("Rabbit")) {
+			rabbitScore = rabbitScore + pointVal;
+			rabbitText.updateScore (rabbitScore);
+			Debug.Log("Rabbit score: " + rabbitScore);
+		}
+
 		if (foxScore > skunkScore && foxScore > bearScore && foxScore > rabbitScore) {
 			first = "fox";
 			if (skunkScore > bearScore && skunkScore > rabbitScore) {
@@ -206,32 +234,6 @@ public class GameMaster:MonoBehaviour
 					fourth = "bear";
 				}
 			}
-		}
-
-	}
-
-
-	public void addPoints(string character, int pointVal){
-		Debug.Log ("ADDING SCORE");
-		if (character.Contains ("Fox")) {
-			foxScore = foxScore + pointVal;
-			foxText.updateScore (foxScore);
-			Debug.Log("Fox score: " + foxScore);
-		}
-		if (character.Contains ("Skunk")) {
-			skunkScore = skunkScore + pointVal;
-			skunkText.updateScore (skunkScore);
-			Debug.Log("Skunk score: " + skunkScore);
-		}
-		if (character.Contains ("Bear")) {
-			bearScore = bearScore + pointVal;
-			bearText.updateScore (bearScore);
-			Debug.Log("Bear score: " + bearScore);
-		}
-		if (character.Contains ("Rabbit")) {
-			rabbitScore = rabbitScore + pointVal;
-			rabbitText.updateScore (rabbitScore);
-			Debug.Log("Rabbit score: " + rabbitScore);
 		}
 	}
 
