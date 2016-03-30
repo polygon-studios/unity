@@ -2,17 +2,22 @@
 using System.Collections;
 
 public class CharacterSelector : MonoBehaviour {
-    public StarterGM starterGM;
-    public int controllerNum;
+    //character selection
+	public StarterGM starterGM;
+	bool characterSelected = false;
     int currentSelected = 0;
 
+	public float offsetX;
+
+	//controls
+	public int controllerNum;
     string playerControllerName;
     string joystickX = "_JoystickX";
     string buttonA = "_A";
 	string buttonB = "_B";
 
     bool joystickReset;
-    bool characterSelected = false;
+    
 
     // Use this for initialization
     void Start () {
@@ -35,7 +40,7 @@ public class CharacterSelector : MonoBehaviour {
 						if (starterGM.isSelectedCharacter [currentSelected] == false)
 							onUnselectedChar = true;
 					}
-					transform.position = new Vector3 (starterGM.possibleCharacters [currentSelected].transform.position.x, transform.position.y, 0f);
+					transform.position = new Vector3 (starterGM.possibleCharacters [currentSelected].transform.position.x + offsetX, transform.position.y, 0f);
 					joystickReset = false;
 				}
             	//move character selector to left
@@ -49,7 +54,7 @@ public class CharacterSelector : MonoBehaviour {
 						if (starterGM.isSelectedCharacter [currentSelected] == false)
 							onUnselectedChar = true;
 					}
-					transform.position = new Vector3 (starterGM.possibleCharacters [currentSelected].transform.position.x, transform.position.y, 0f);
+					transform.position = new Vector3 (starterGM.possibleCharacters [currentSelected].transform.position.x + offsetX, transform.position.y, 0f);
 					joystickReset = false;
 				}
 
@@ -63,7 +68,7 @@ public class CharacterSelector : MonoBehaviour {
 	            {
 					if (starterGM.isSelectedCharacter [currentSelected] == false) {
 						starterGM.setCharToController (currentSelected, controllerNum);
-						starterGM.updateScreen (currentSelected);
+						//starterGM.updateScreen (currentSelected);
 						characterSelected = true;
 					}
 	            }

@@ -81,7 +81,9 @@
      <Compile Include="Assets\Scripts\Networking\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\Networking\SpoutSender.cs" />
      <Compile Include="Assets\Scripts\ScoreText.cs" />
+     <Compile Include="Assets\Scripts\StarterScripts\CharacterForSelection.cs" />
      <Compile Include="Assets\Scripts\StarterScripts\CharacterSelector.cs" />
+     <Compile Include="Assets\Scripts\StarterScripts\IconBackground.cs" />
      <Compile Include="Assets\Scripts\StarterScripts\StarterGM.cs" />
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
      <Compile Include="Assets\Scripts\Traps\Trap.cs" />

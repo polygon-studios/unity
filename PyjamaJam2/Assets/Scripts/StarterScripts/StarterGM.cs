@@ -23,7 +23,7 @@ public class StarterGM : MonoBehaviour {
 	public bool passedCharacterSelScreen = false;
 
     int totalSelectedChars = 0;
-	float charSelTimer = 10f;
+	float charSelTimer = 25f;
 
     //public List<Vector2> controllerToCharacter = new List<Vector2> (); //fox 1, skunk 2, rabbit 2, bear 3
 
@@ -84,15 +84,17 @@ public class StarterGM : MonoBehaviour {
 		dontDestroy.GetComponent<DontDestroy>().controllerToCharacter.Add(new Vector2(controllerNum, characterNum));
         isSelectedCharacter[characterNum] = true;
         totalSelectedChars++;
+		possibleCharacters [characterNum].GetComponent<CharacterForSelection> ().isSelected (controllerNum);
     }
 
-    public void updateScreen(int characterNum)
-    {
+   /* public void updateScreen(int characterNum)
+    {s
         possibleCharacters[characterNum].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
-    }
+    }*/
 
 	public void removeSelection(int characterNum){
-		possibleCharacters[characterNum].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+		//possibleCharacters[characterNum].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+		possibleCharacters [characterNum].GetComponent<CharacterForSelection> ().deSelected ();
 		totalSelectedChars--;
 		isSelectedCharacter[characterNum] = false;
 
