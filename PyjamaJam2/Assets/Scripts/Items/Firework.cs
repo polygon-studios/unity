@@ -5,7 +5,8 @@ using System.Collections.Generic;
 public class Firework : Item {
 
     public List<GameObject> fireworks;
-	//Character character;
+	float timer = 10f; //seconds
+	float timerInterval = 0.2f; //seconds
 
 	// Use this for initialization
 	protected override void Start () {
@@ -15,23 +16,39 @@ public class Firework : Item {
 	// Update is called once per frame
 	protected override void Update () {
 		base.Update ();
-		
+
+		if (base.beenTriggered == true) {
+			updateTrigger ();
+		}
 	}
 	
 	public void initVariables(Character currCharacter){
-		//character = currCharacter;
-		GameObject firework1 = (GameObject)Instantiate (fireworks[0], new Vector3 (20, 8.0f, 0), Quaternion.identity);
+
 	}
 	
 	public override void TriggerEffect(){
-		//ask Ian how he is doing the character constants (perhaps need a constants page)
-		//save last button press and continue direction of characters in here by going through a for loop of character array
-		base.allItems.removeItemFromArray(this.gameObject);
-		base.DestroySelf();
-		Destroy(this.gameObject);
+
+		timer -= Time.deltaTime;
+		timerInterval -= Time.deltaTime;
 	}
 	
 	void updateTrigger(){
-		
+		timer -= Time.deltaTime;
+		timerInterval -= Time.deltaTime;
+
+		if (timerInterval < 0) {
+			float xPosition = Random.Range (2f, 27f);
+			float yPosition = Random.Range (3f, 6f);
+			GameObject firework = (GameObject)Instantiate (fireworks[Random.Range(0, fireworks.Count)], new Vector3 (xPosition, yPosition, 0), Quaternion.identity);
+
+			timerInterval = 0.5f;
+		}
+
+		if (timer < 0) {
+			base.allItems.removeItemFromArray(this.gameObject);
+			base.DestroySelf ();
+			Destroy (this.gameObject);
+
+		}
 	}
 }

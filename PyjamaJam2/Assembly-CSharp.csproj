@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FireworkLight.cs" />
      <Compile Include="Assets\JSON\JSONObject.cs" />
      <Compile Include="Assets\JSON\JSONTemplates.cs" />
      <Compile Include="Assets\JSON\VectorTemplates.cs" />
@@ -65,6 +64,7 @@
      <Compile Include="Assets\Scripts\Items\Coin.cs" />
      <Compile Include="Assets\Scripts\Items\Firework.cs" />
      <Compile Include="Assets\Scripts\Items\FireworkController.cs" />
+     <Compile Include="Assets\Scripts\Items\FireworkLight.cs" />
      <Compile Include="Assets\Scripts\Items\Fish.cs" />
      <Compile Include="Assets\Scripts\Items\GhostItem.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />

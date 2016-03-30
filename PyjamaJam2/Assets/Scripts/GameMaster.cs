@@ -89,43 +89,45 @@ public class GameMaster:MonoBehaviour
 	}
 
 	void setCharactersAndControllers(List<Vector2> contToChars){
-		foreach (Character character in CHARACTERS) {
-			bool foundChar = false;
-			foreach (Vector2 contToChar in contToChars) {
-				if (contToChar.x != 0) {
-					if (character.charID.Contains ("fox") && contToChar.y == 0) {
-						foundChar = true;
-						character.controllerNumber = (int)contToChar.x;
-					} else if (character.charID.Contains ("skunk") && contToChar.y == 1) {
-						foundChar = true;
-						character.controllerNumber = (int)contToChar.x;
-					} else if (character.charID.Contains ("rabbit") && contToChar.y == 2) {
-						foundChar = true;
-						character.controllerNumber = (int)contToChar.x;
-					} else if (character.charID.Contains ("bear") && contToChar.y == 3) {
-						foundChar = true;
-						character.controllerNumber = (int)contToChar.x;
-					}
-				}			
+		if (contToChars != null) {
+			foreach (Character character in CHARACTERS) {
+				bool foundChar = false;
+				foreach (Vector2 contToChar in contToChars) {
+					if (contToChar.x != 0) {
+						if (character.charID.Contains ("fox") && contToChar.y == 0) {
+							foundChar = true;
+							character.controllerNumber = (int)contToChar.x;
+						} else if (character.charID.Contains ("skunk") && contToChar.y == 1) {
+							foundChar = true;
+							character.controllerNumber = (int)contToChar.x;
+						} else if (character.charID.Contains ("rabbit") && contToChar.y == 2) {
+							foundChar = true;
+							character.controllerNumber = (int)contToChar.x;
+						} else if (character.charID.Contains ("bear") && contToChar.y == 3) {
+							foundChar = true;
+							character.controllerNumber = (int)contToChar.x;
+						}
+					}			
 
 
+				}
+				if (foundChar == false) {
+					character.destroySelf ();
+					character.controllerNumber = 0;
+					//remove this character from gameplay
+					//remove character from stroed list
+				}
 			}
-			if (foundChar == false) {
-				character.destroySelf ();
-				character.controllerNumber = 0;
-				//remove this character from gameplay
-				//remove character from stroed list
+
+			List<Character> newTempCharList = new List<Character> ();
+			foreach (Character character in CHARACTERS) {
+				if (character.controllerNumber > 0)
+					newTempCharList.Add (character);
 			}
-		}
 
-		List<Character> newTempCharList = new List<Character> ();
-		foreach (Character character in CHARACTERS) {
-			if (character.controllerNumber > 0)
-				newTempCharList.Add (character);
+			CHARACTERS = new List<Character> ();
+			CHARACTERS = newTempCharList;
 		}
-
-		CHARACTERS = new List<Character> ();
-		CHARACTERS = newTempCharList;
 	}
 
 	public void addPoints(string character, int pointVal){
