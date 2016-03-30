@@ -23,7 +23,7 @@ public class StarterGM : MonoBehaviour {
 	public bool passedCharacterSelScreen = false;
 
     int totalSelectedChars = 0;
-	float charSelTimer = 20f;
+	float charSelTimer = 10f;
 
     //public List<Vector2> controllerToCharacter = new List<Vector2> (); //fox 1, skunk 2, rabbit 2, bear 3
 

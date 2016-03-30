@@ -14,9 +14,11 @@ public class Character : MonoBehaviour {
     public KeyCode lastPressedKey;
 
     public string charID;
-	public string controllerXAxis;
-	public string controllerA;
-	public string controllerX;
+	public int controllerNumber;
+	string playerName = "Player";
+	string controllerXAxis = "_JoystickX";
+	string controllerA = "_A";
+	string controllerX = "_X";
 
     // Movement variables
     public float currentJump = 0f;
@@ -124,9 +126,9 @@ public class Character : MonoBehaviour {
 			transform.eulerAngles = new Vector2(0, 180);
 			lastPressedKey = inputLeft;
 		}
-		if(Input.GetAxis(controllerXAxis) != 0 && isStunned == false){
-			transform.Translate(Vector3.right*Mathf.Abs(Input.GetAxis(controllerXAxis))* currentSpeed * Time.deltaTime);
-            if (Input.GetAxis(controllerXAxis) < 0)
+		if(Input.GetAxis(playerName + controllerNumber + controllerXAxis) != 0 && isStunned == false){
+			transform.Translate(Vector3.right*Mathf.Abs(Input.GetAxis(playerName + controllerNumber + controllerXAxis))* currentSpeed * Time.deltaTime);
+			if (Input.GetAxis(playerName + controllerNumber + controllerXAxis) < 0)
             {
                 transform.eulerAngles = new Vector2(0, 180);
                 lastPressedKey = inputLeft;
@@ -139,7 +141,7 @@ public class Character : MonoBehaviour {
 
 
 		//if (Input.GetKey (inputJump) && onGround) {
-		if((Input.GetButtonDown(controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false && noJump == false){ //
+		if((Input.GetButtonDown(playerName + controllerNumber + controllerA) || Input.GetKey (inputJump)) && onGround && isStunned == false && noJump == false){ //
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger ("jump");
@@ -195,11 +197,11 @@ public class Character : MonoBehaviour {
 
 	void ItemCheck(){
 		if (item != null) {
-
+			Debug.Log (playerName + controllerNumber + controllerX);
 			if(item.beenTriggered == true){
 				item.doUpdate();
 			}
-			else if(Input.GetKey(KeyCode.I) || Input.GetButtonDown(controllerX)){
+			else if(Input.GetButtonDown(playerName + controllerNumber + controllerX)){ //Input.GetKey(KeyCode.I) || 
 				itemDebounceTimer -= Time.deltaTime;
 				
 				if (itemDebounceTimer < 0f) {
@@ -252,7 +254,7 @@ public class Character : MonoBehaviour {
     //pretty noob at coding, but it seems like it could be it. |
 
 	void doCollision(GameObject objectHit){
-			if(Input.GetKey(KeyCode.I) ||Input.GetButtonDown(controllerX)){
+		if(Input.GetKey(KeyCode.I) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
                
 				itemDebounceTimer = itemDebounceTimerSaveTime;       
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {
@@ -483,5 +485,9 @@ public class Character : MonoBehaviour {
             fishTimer = 10;
         }
     }
+
+	public void destroySelf(){
+		Destroy (this.gameObject);
+	}
 
 }

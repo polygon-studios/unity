@@ -36,7 +36,7 @@ public class Item : MonoBehaviour {
 
 	public void Hide(){
   		this.gameObject.GetComponent<Renderer>().enabled = false;
-		this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+		//this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
 	}
 
 
