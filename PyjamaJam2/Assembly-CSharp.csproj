@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
      <Compile Include="Assets\Scripts\Traps\Trap.cs" />
      <Compile Include="Assets\Scripts\Traps\Traps.cs" />
+     <Compile Include="Assets\Scripts\VFXJump.cs" />
      <Compile Include="Assets\Scripts\VideoController.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Ack.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Decoder.cs" />

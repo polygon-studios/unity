@@ -22,7 +22,7 @@ public class Collision : MonoBehaviour {
             Character character = objectHit.gameObject.GetComponent<Character>();
             if (character.isFalling() == true){               
                 character.isOnGround(true);
-
+				character.justLanded ();
             }
         }
         if (objectHit.gameObject.tag == "coin")

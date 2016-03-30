@@ -34,12 +34,15 @@ public class Character : MonoBehaviour {
     public bool onGround = false;
     public void isOnGround(bool passThrough) {  onGround = passThrough; }
 
+	//VFX variables
+	public GameObject jumpVFX;
+	public GameObject landedVFX;
+
     // Item variables
     public GameObject latern;
 	public GameObject GM;
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
     float itemDebounceTimer;
-    bool itemDebounceTimeDone = false;
 	Latern laternScript;
 	GameMaster GMScript;
     public bool isStunned;
@@ -145,6 +148,11 @@ public class Character : MonoBehaviour {
 			onGround = false;
 			GetComponent<Rigidbody2D>().AddForce(transform.up * currentJump);
 			animator.SetTrigger ("jump");
+
+			//jump VFX
+			if (jumpVFX != null) {
+				GameObject vfx = (GameObject)Instantiate (jumpVFX, new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z), Quaternion.identity);
+			}
 
             if (currentJump > starterJump )
             {
@@ -485,6 +493,10 @@ public class Character : MonoBehaviour {
             fishTimer = 10;
         }
     }
+
+	public void justLanded(){
+		GameObject vfx = (GameObject)Instantiate (landedVFX, new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z), Quaternion.identity);
+	}
 
 	public void destroySelf(){
 		Destroy (this.gameObject);

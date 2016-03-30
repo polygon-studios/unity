@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 7d16dda737ae6cc42af2b37f9e140628
+timeCreated: 1459373364
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jump_Landing_0
+    21300002: Jump_Landing_1
+    21300004: Jump_Landing_2
+    21300006: Jump_Landing_3
+    21300008: Jump_Landing_4
+    21300010: Jump_Landing_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Jump_Landing_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -5}
+        - {x: -23, y: -7}
+        - {x: -23, y: -13}
+        - {x: -18, y: -18}
+        - {x: -7, y: -18}
+        - {x: -2, y: -14}
+        - {x: -2, y: -10}
+        - {x: -4, y: -5}
+    - name: Jump_Landing_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -2}
+        - {x: -44, y: -4}
+        - {x: -72, y: -8}
+        - {x: -73, y: -11}
+        - {x: -73, y: -17}
+        - {x: -72, y: -18}
+        - {x: -34, y: -19}
+        - {x: 43, y: -19}
+        - {x: 43, y: -11}
+        - {x: 10, y: -2}
+    - name: Jump_Landing_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 19}
+        - {x: -48, y: 19}
+        - {x: -78, y: 12}
+        - {x: -88, y: -12}
+        - {x: -87, y: -15}
+        - {x: -42, y: -19}
+        - {x: -7, y: -20}
+        - {x: 73, y: -20}
+        - {x: 79, y: -16}
+        - {x: 79, y: 1}
+    - name: Jump_Landing_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -6}
+        - {x: 18, y: -11}
+        - {x: 17, y: -16}
+        - {x: 17, y: -20}
+        - {x: 29, y: -20}
+        - {x: 31, y: -16}
+        - {x: 31, y: -9}
+        - {x: 28, y: -5}
+      - - {x: -89, y: -8}
+        - {x: -89, y: -18}
+        - {x: -86, y: -19}
+        - {x: -67, y: -19}
+        - {x: -66, y: -15}
+        - {x: -66, y: -11}
+        - {x: -71, y: -8}
+      - - {x: 46, y: -6}
+        - {x: 37, y: -6}
+        - {x: 36, y: -8}
+        - {x: 36, y: -12}
+        - {x: 44, y: -18}
+        - {x: 61, y: -18}
+        - {x: 70, y: -14}
+        - {x: 70, y: -10}
+        - {x: 68, y: -7}
+      - - {x: -31, y: 30}
+        - {x: -34, y: 27}
+        - {x: -35, y: 24}
+        - {x: -35, y: 11}
+        - {x: -29, y: -1}
+        - {x: -30, y: -2}
+        - {x: -34, y: -3}
+        - {x: -34, y: 9}
+        - {x: -35, y: 10}
+        - {x: -35, y: 12}
+        - {x: -36, y: 17}
+        - {x: -44, y: 26}
+        - {x: -55, y: 26}
+        - {x: -60, y: 25}
+        - {x: -60, y: 10}
+        - {x: -51, y: -17}
+        - {x: -12, y: -17}
+        - {x: -12, y: 3}
+        - {x: -30, y: 30}
+      - - {x: -11, y: 28}
+        - {x: -17, y: 28}
+        - {x: -17, y: 2}
+        - {x: -14, y: -12}
+        - {x: -7, y: -17}
+        - {x: -2, y: -17}
+        - {x: -1, y: -16}
+        - {x: -1, y: 4}
+        - {x: -4, y: 22}
+      - - {x: 9, y: 24}
+        - {x: 4, y: 24}
+        - {x: 2, y: 21}
+        - {x: 2, y: -13}
+        - {x: 5, y: -15}
+        - {x: 13, y: -15}
+        - {x: 15, y: -11}
+        - {x: 15, y: 8}
+        - {x: 12, y: 17}
+      - - {x: -70, y: 11}
+        - {x: -70, y: 0}
+        - {x: -68, y: -6}
+        - {x: -55, y: -6}
+        - {x: -54, y: -4}
+        - {x: -57, y: 3}
+        - {x: -64, y: 11}
+      - - {x: 42, y: 15}
+        - {x: 36, y: 15}
+        - {x: 31, y: 10}
+        - {x: 31, y: -1}
+        - {x: 41, y: -5}
+        - {x: 50, y: -5}
+        - {x: 54, y: -1}
+        - {x: 54, y: 6}
+        - {x: 51, y: 13}
+      - - {x: 17, y: 18}
+        - {x: 15, y: 17}
+        - {x: 15, y: 1}
+        - {x: 19, y: -1}
+        - {x: 25, y: -1}
+        - {x: 26, y: 1}
+        - {x: 26, y: 11}
+        - {x: 25, y: 18}
+    - name: Jump_Landing_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: -8}
+        - {x: 75, y: -10}
+        - {x: 75, y: -17}
+        - {x: 80, y: -20}
+        - {x: 93, y: -20}
+        - {x: 100, y: -16}
+        - {x: 100, y: -8}
+      - - {x: -80, y: -4}
+        - {x: -82, y: -6}
+        - {x: -82, y: -9}
+        - {x: -79, y: -16}
+        - {x: -69, y: -16}
+        - {x: -64, y: -15}
+        - {x: -64, y: -10}
+        - {x: -65, y: -8}
+        - {x: -72, y: -5}
+      - - {x: 72, y: 10}
+        - {x: 66, y: 7}
+        - {x: 66, y: -2}
+        - {x: 68, y: -3}
+        - {x: 76, y: -3}
+        - {x: 77, y: -1}
+        - {x: 77, y: 10}
+      - - {x: -80, y: 11}
+        - {x: -81, y: 10}
+        - {x: -81, y: 0}
+        - {x: -71, y: 0}
+        - {x: -68, y: 1}
+        - {x: -68, y: 6}
+        - {x: -74, y: 11}
+      - - {x: 58, y: 21}
+        - {x: 53, y: 16}
+        - {x: 53, y: 10}
+        - {x: 56, y: 7}
+        - {x: 59, y: 7}
+        - {x: 64, y: 12}
+        - {x: 64, y: 16}
+        - {x: 60, y: 21}
+      - - {x: -68, y: 22}
+        - {x: -71, y: 19}
+        - {x: -71, y: 13}
+        - {x: -68, y: 9}
+        - {x: -56, y: 9}
+        - {x: -56, y: 14}
+        - {x: -63, y: 22}
+      - - {x: 45, y: 26}
+        - {x: 39, y: 23}
+        - {x: 39, y: 16}
+        - {x: 43, y: 11}
+        - {x: 45, y: 11}
+        - {x: 51, y: 17}
+        - {x: 51, y: 22}
+        - {x: 49, y: 26}
+      - - {x: -32, y: 32}
+        - {x: -32, y: 16}
+        - {x: -29, y: 14}
+        - {x: -22, y: 14}
+        - {x: -22, y: 28}
+        - {x: -23, y: 32}
+      - - {x: 22, y: 18}
+        - {x: 24, y: 14}
+        - {x: 30, y: 14}
+        - {x: 32, y: 15}
+        - {x: 32, y: 26}
+        - {x: 31, y: 30}
+        - {x: 25, y: 30}
+        - {x: 22, y: 28}
+      - - {x: -52, y: 29}
+        - {x: -54, y: 28}
+        - {x: -54, y: 19}
+        - {x: -49, y: 15}
+        - {x: -43, y: 15}
+        - {x: -40, y: 18}
+        - {x: -41, y: 22}
+        - {x: -47, y: 29}
+      - - {x: -10, y: 30}
+        - {x: -11, y: 27}
+        - {x: -11, y: 18}
+        - {x: -8, y: 17}
+        - {x: -2, y: 17}
+        - {x: -1, y: 20}
+        - {x: -1, y: 29}
+        - {x: -5, y: 32}
+      - - {x: 7, y: 32}
+        - {x: 6, y: 31}
+        - {x: 6, y: 22}
+        - {x: 8, y: 17}
+        - {x: 14, y: 17}
+        - {x: 16, y: 18}
+        - {x: 16, y: 28}
+        - {x: 15, y: 32}
+    - name: Jump_Landing_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -8}
+        - {x: -100, y: -19}
+        - {x: -88, y: -19}
+        - {x: -84, y: -18}
+        - {x: -84, y: -12}
+        - {x: -90, y: -8}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
