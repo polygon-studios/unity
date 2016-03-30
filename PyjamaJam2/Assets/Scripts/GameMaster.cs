@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using SocketIO;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,6 +18,8 @@ public class GameMaster:MonoBehaviour
 	public GameObject skunkCanvas;
 	public GameObject bearCanvas;
 	public GameObject rabbitCanvas;
+
+	private SocketIOComponent socket;
 
 	string first;
 	string second;
@@ -71,6 +74,11 @@ public class GameMaster:MonoBehaviour
 		skunkText = skunkCanvas.GetComponent<ScoreText> ();
 		bearText = bearCanvas.GetComponent<ScoreText> ();
 		rabbitText = rabbitCanvas.GetComponent<ScoreText> ();
+
+		GameObject go = GameObject.FindWithTag("SocketIO");
+		if (go) {
+			socket = go.GetComponent<SocketIOComponent> ();
+		}
 	}
 
 	void Update(){
@@ -256,6 +264,13 @@ public class GameMaster:MonoBehaviour
 				}
 			}
 		}
+
+		Dictionary<string, string> data = new Dictionary<string, string>();
+		data["foxScore"] = foxScore;
+		data["skunkScore"] = skunkScore;
+		data["rabbitScore"] = rabbitScore;
+		data["bearScore"] = bearScore;
+		socket.Emit("scoreUpdate", new JSONObject(data));
 	}
 
 
