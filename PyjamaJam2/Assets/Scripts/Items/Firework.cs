@@ -23,7 +23,7 @@ public class Firework : Item {
 	}
 	
 	public void initVariables(Character currCharacter){
-
+		
 	}
 	
 	public override void TriggerEffect(){

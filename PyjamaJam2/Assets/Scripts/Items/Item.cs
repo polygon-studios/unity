@@ -9,8 +9,12 @@ public class Item : MonoBehaviour {
 	public Material diffuseMat;
 	public Renderer rend;
 
+
     bool isDark = false;
+	bool isHiding = false;
+	bool isHidden = false;
 	public int points = 10;
+	float pickedUpTimer = 1f;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -28,6 +32,9 @@ public class Item : MonoBehaviour {
 	// Update is called once per frame
 	protected virtual void Update () {
 		Physics.IgnoreLayerCollision(9,11, true);
+
+		if (isHiding == true && isHidden == false)
+			Hide ();
 	}
 
 	public virtual void TriggerEffect(){
@@ -35,7 +42,19 @@ public class Item : MonoBehaviour {
 	}
 
 	public void Hide(){
-  		this.gameObject.GetComponent<Renderer>().enabled = false;
+		if (isHiding == false) {
+			Animator animator = this.gameObject.GetComponent<Animator> ();
+			animator.SetBool ("isPickedUp", true);
+			isHiding = true;
+		}
+
+
+		pickedUpTimer -= Time.deltaTime;
+
+		if (pickedUpTimer < 0) {
+			this.gameObject.GetComponent<Renderer> ().enabled = false;
+			isHidden = true;
+		}
 		//this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
 	}
 
