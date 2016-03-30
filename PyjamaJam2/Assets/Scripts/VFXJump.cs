@@ -14,7 +14,7 @@ public class VFXJump : MonoBehaviour {
 	void Update () {
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			Destroy (this);
+			Destroy (this.gameObject);
 		}
 	
 	}
