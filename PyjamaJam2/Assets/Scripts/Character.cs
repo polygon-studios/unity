@@ -11,6 +11,7 @@ public class Character : MonoBehaviour {
 	public KeyCode inputLeft;
 	public KeyCode inputRight;
 	public KeyCode inputJump;
+	public KeyCode inputItem;
     public KeyCode lastPressedKey;
 
     public string charID;
@@ -209,7 +210,7 @@ public class Character : MonoBehaviour {
 			if(item.beenTriggered == true){
 				item.doUpdate();
 			}
-			else if(Input.GetButtonDown(playerName + controllerNumber + controllerX)){ //Input.GetKey(KeyCode.I) || 
+			else if(Input.GetKey(inputItem) || Input.GetButtonDown(playerName + controllerNumber + controllerX)){
 				itemDebounceTimer -= Time.deltaTime;
 				
 				if (itemDebounceTimer < 0f) {
@@ -262,7 +263,7 @@ public class Character : MonoBehaviour {
     //pretty noob at coding, but it seems like it could be it. |
 
 	void doCollision(GameObject objectHit){
-		if(Input.GetKey(KeyCode.I) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
+		if(Input.GetKey(inputItem) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
                
 				itemDebounceTimer = itemDebounceTimerSaveTime;       
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {

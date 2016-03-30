@@ -1,18 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameMaster.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Character.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameMaster.cs" Line="81" Column="3" />
-      <File FileName="Assets\Scripts\StarterScripts\CharacterSelector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StarterScripts\StarterGM.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ScoreText.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Slippers.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Items.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DontDestroy.cs" Line="21" Column="3" />
+      <File FileName="Assets\Scripts\StarterScripts\StarterGM.cs" Line="65" Column="4" />
+      <File FileName="Assets\Scripts\VFXJump.cs" Line="17" Column="30" />
+      <File FileName="Assets\Scripts\Character.cs" Line="9" Column="2" />
+      <File FileName="Assets\Scripts\Items\TreasureChest.cs" Line="38" Column="2" />
+      <File FileName="Assets\Scripts\Collision.cs" Line="26" Column="14" />
+      <File FileName="Assets\Scripts\Items\Firework.cs" Line="21" Column="21" />
+      <File FileName="Assets\Scripts\Items\Item.cs" Line="59" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\Documents\School\Senior Project\PyjamaJam6\unity\PyjamaJam2\Assets\Scripts\Items\Chili.cs" line="39" column="1" />
+      <Breakpoint file="D:\Documents\School\Senior Project\PyjamaJam6\unity\PyjamaJam2\Assets\Scripts\Items\Chili.cs" line="36" column="1" />
+      <Breakpoint file="D:\Documents\School\Senior Project\PyjamaJam6\unity\PyjamaJam2\Assets\Scripts\Items\GhostItem.cs" line="36" column="1" />
+      <Breakpoint file="D:\Documents\School\Senior Project\PyjamaJam6\unity\PyjamaJam2\Assets\Scripts\Items\Items.cs" line="101" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
