@@ -59,11 +59,19 @@ public class StarterGM : MonoBehaviour {
 					StartCoroutine (FadeTo (0.0f, 0.5f, obj));
 				}
 				charSelTimerText.text = "";
-				SceneManager.LoadScene (1);
+				passedCharacterSelScreen = true;
+
 			}
 		}
 		if (passedCharacterSelScreen == true) {
 			Debug.Log ("show instructions");
+			if (Input.GetButtonDown (playerControllerName + "1" + buttonStart) ||
+				Input.GetButtonDown (playerControllerName + "2" + buttonStart) ||
+				Input.GetButtonDown (playerControllerName + "3" + buttonStart) ||
+				Input.GetButtonDown (playerControllerName + "4" + buttonStart)) {
+				SceneManager.LoadScene (1);
+			}
+
 		}
     }
     
