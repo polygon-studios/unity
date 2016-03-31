@@ -10,7 +10,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Charles : MonoBehaviour {
+public class Charles : Enemy {
 	
 	/*
     * Declarations

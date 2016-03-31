@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Dug: MonoBehaviour {
+public class Dug: Enemy {
 
 	Transform target; //the enemy's target
 	public float moveSpeed= 3; //move speed
@@ -97,7 +97,10 @@ public class Dug: MonoBehaviour {
 
 	public void destroySelf()
 	{
-		if (gameObject != null) 
-			Destroy(gameObject);
+		if (gameObject != null) { 
+			base.removeItemFromArray(this.gameObject);
+			base.destroySelf();
+			Destroy (this.gameObject);
+		}
 	}
 }

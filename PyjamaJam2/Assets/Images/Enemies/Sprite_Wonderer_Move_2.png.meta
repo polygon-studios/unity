@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: 4ac5e1e29615749a7a98c575c0ecd37a
+timeCreated: 1459382840
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite_Wonderer_Move_2_0
+    21300002: Sprite_Wonderer_Move_2_1
+    21300004: Sprite_Wonderer_Move_2_2
+    21300006: Sprite_Wonderer_Move_2_3
+    21300008: Sprite_Wonderer_Move_2_4
+    21300010: Sprite_Wonderer_Move_2_5
+    21300012: Sprite_Wonderer_Move_2_6
+    21300014: Sprite_Wonderer_Move_2_7
+    21300016: Sprite_Wonderer_Move_2_8
+    21300018: Sprite_Wonderer_Move_2_9
+    21300020: Sprite_Wonderer_Move_2_10
+    21300022: Sprite_Wonderer_Move_2_11
+    21300024: Sprite_Wonderer_Move_2_12
+    21300026: Sprite_Wonderer_Move_2_13
+    21300028: Sprite_Wonderer_Move_2_14
+    21300030: Sprite_Wonderer_Move_2_15
+    21300032: Sprite_Wonderer_Move_2_16
+    21300034: Sprite_Wonderer_Move_2_17
+    21300036: Sprite_Wonderer_Move_2_18
+    21300038: Sprite_Wonderer_Move_2_19
+    21300040: Sprite_Wonderer_Move_2_20
+    21300042: Sprite_Wonderer_Move_2_21
+    21300044: Sprite_Wonderer_Move_2_22
+    21300046: Sprite_Wonderer_Move_2_23
+    21300048: Sprite_Wonderer_Move_2_24
+    21300050: Sprite_Wonderer_Move_2_25
+    21300052: Sprite_Wonderer_Move_2_26
+    21300054: Sprite_Wonderer_Move_2_27
+    21300056: Sprite_Wonderer_Move_2_28
+    21300058: Sprite_Wonderer_Move_2_29
+    21300060: Sprite_Wonderer_Move_2_30
+    21300062: Sprite_Wonderer_Move_2_31
+    21300064: Sprite_Wonderer_Move_2_32
+    21300066: Sprite_Wonderer_Move_2_33
+    21300068: Sprite_Wonderer_Move_2_34
+    21300070: Sprite_Wonderer_Move_2_35
+    21300072: Sprite_Wonderer_Move_2_36
+    21300074: Sprite_Wonderer_Move_2_37
+    21300076: Sprite_Wonderer_Move_2_38
+    21300078: Sprite_Wonderer_Move_2_39
+    21300080: Sprite_Wonderer_Move_2_40
+    21300082: Sprite_Wonderer_Move_2_41
+    21300084: Sprite_Wonderer_Move_2_42
+    21300086: Sprite_Wonderer_Move_2_43
+    21300088: Sprite_Wonderer_Move_2_44
+    21300090: Sprite_Wonderer_Move_2_45
+    21300092: Sprite_Wonderer_Move_2_46
+    21300094: Sprite_Wonderer_Move_2_47
+    21300096: Sprite_Wonderer_Move_2_48
+    21300098: Sprite_Wonderer_Move_2_49
+    21300100: Sprite_Wonderer_Move_2_50
+    21300102: Sprite_Wonderer_Move_2_51
+    21300104: Sprite_Wonderer_Move_2_52
+    21300106: Sprite_Wonderer_Move_2_53
+    21300108: Sprite_Wonderer_Move_2_54
+    21300110: Sprite_Wonderer_Move_2_55
+    21300112: Sprite_Wonderer_Move_2_56
+    21300114: Sprite_Wonderer_Move_2_57
+    21300116: Sprite_Wonderer_Move_2_58
+    21300118: Sprite_Wonderer_Move_2_59
+    21300120: Sprite_Wonderer_Move_2_60
+    21300122: Sprite_Wonderer_Move_2_61
+    21300124: Sprite_Wonderer_Move_2_62
+    21300126: Sprite_Wonderer_Move_2_63
+    21300128: Sprite_Wonderer_Move_2_64
+    21300130: Sprite_Wonderer_Move_2_65
+    21300132: Sprite_Wonderer_Move_2_66
+    21300134: Sprite_Wonderer_Move_2_67
+    21300136: Sprite_Wonderer_Move_2_68
+    21300138: Sprite_Wonderer_Move_2_69
+    21300140: Sprite_Wonderer_Move_2_70
+    21300142: Sprite_Wonderer_Move_2_71
+    21300144: Sprite_Wonderer_Move_2_72
+    21300146: Sprite_Wonderer_Move_2_73
+    21300148: Sprite_Wonderer_Move_2_74
+    21300150: Sprite_Wonderer_Move_2_75
+    21300152: Sprite_Wonderer_Move_2_76
+    21300154: Sprite_Wonderer_Move_2_77
+    21300156: Sprite_Wonderer_Move_2_78
+    21300158: Sprite_Wonderer_Move_2_79
+    21300160: Sprite_Wonderer_Move_2_80
+    21300162: Sprite_Wonderer_Move_2_81
+    21300164: Sprite_Wonderer_Move_2_82
+    21300166: Sprite_Wonderer_Move_2_83
+    21300168: Sprite_Wonderer_Move_2_84
+    21300170: Sprite_Wonderer_Move_2_85
+    21300172: Sprite_Wonderer_Move_2_86
+    21300174: Sprite_Wonderer_Move_2_87
+    21300176: Sprite_Wonderer_Move_2_88
+    21300178: Sprite_Wonderer_Move_2_89
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sprite_Wonderer_Move_2_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1184
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1200
+        width: 133
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1204
+        width: 153
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1204
+        width: 196
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_4
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1204
+        width: 215
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_5
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1204
+        width: 235
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_6
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1204
+        width: 223
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_7
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1204
+        width: 216
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_8
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 1204
+        width: 184
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_9
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 1204
+        width: 153
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_10
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 1204
+        width: 141
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_11
+      rect:
+        serializedVersion: 2
+        x: 3317
+        y: 1204
+        width: 141
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_12
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 1204
+        width: 161
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_13
+      rect:
+        serializedVersion: 2
+        x: 3862
+        y: 1204
+        width: 188
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_14
+      rect:
+        serializedVersion: 2
+        x: 4172
+        y: 1204
+        width: 176
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_15
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 1204
+        width: 160
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_16
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 1204
+        width: 153
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_17
+      rect:
+        serializedVersion: 2
+        x: 5097
+        y: 1204
+        width: 137
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_18
+      rect:
+        serializedVersion: 2
+        x: 5395
+        y: 1204
+        width: 137
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_19
+      rect:
+        serializedVersion: 2
+        x: 5693
+        y: 1204
+        width: 133
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_20
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 1204
+        width: 137
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_21
+      rect:
+        serializedVersion: 2
+        x: 6289
+        y: 1204
+        width: 149
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_22
+      rect:
+        serializedVersion: 2
+        x: 6583
+        y: 1204
+        width: 181
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_23
+      rect:
+        serializedVersion: 2
+        x: 6881
+        y: 1204
+        width: 212
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_24
+      rect:
+        serializedVersion: 2
+        x: 7179
+        y: 1204
+        width: 216
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_25
+      rect:
+        serializedVersion: 2
+        x: 7477
+        y: 1204
+        width: 224
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_26
+      rect:
+        serializedVersion: 2
+        x: 7775
+        y: 1204
+        width: 228
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 808
+        width: 227
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 808
+        width: 231
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_29
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 808
+        width: 235
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_30
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 808
+        width: 239
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_31
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 808
+        width: 231
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_32
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 808
+        width: 231
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_33
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 808
+        width: 227
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_34
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 808
+        width: 219
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_35
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 808
+        width: 208
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_36
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 808
+        width: 192
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_37
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 808
+        width: 172
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_38
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 808
+        width: 157
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_39
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 808
+        width: 153
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_40
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 808
+        width: 133
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_41
+      rect:
+        serializedVersion: 2
+        x: 4227
+        y: 808
+        width: 125
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_42
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 804
+        width: 125
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_43
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 800
+        width: 129
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_44
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 800
+        width: 133
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_45
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 788
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_46
+      rect:
+        serializedVersion: 2
+        x: 5701
+        y: 788
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_47
+      rect:
+        serializedVersion: 2
+        x: 5995
+        y: 788
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_48
+      rect:
+        serializedVersion: 2
+        x: 6293
+        y: 788
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_49
+      rect:
+        serializedVersion: 2
+        x: 6591
+        y: 788
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_50
+      rect:
+        serializedVersion: 2
+        x: 6889
+        y: 788
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_51
+      rect:
+        serializedVersion: 2
+        x: 7183
+        y: 788
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_52
+      rect:
+        serializedVersion: 2
+        x: 7481
+        y: 788
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_53
+      rect:
+        serializedVersion: 2
+        x: 7779
+        y: 788
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_54
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_55
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_56
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_57
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_58
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_59
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_60
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_61
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_62
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_63
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_64
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_65
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 396
+        width: 149
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_66
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_67
+      rect:
+        serializedVersion: 2
+        x: 3917
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_68
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 396
+        width: 149
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_69
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_70
+      rect:
+        serializedVersion: 2
+        x: 4807
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_71
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_72
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_73
+      rect:
+        serializedVersion: 2
+        x: 5701
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_74
+      rect:
+        serializedVersion: 2
+        x: 5995
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_75
+      rect:
+        serializedVersion: 2
+        x: 6293
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_76
+      rect:
+        serializedVersion: 2
+        x: 6591
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_77
+      rect:
+        serializedVersion: 2
+        x: 6889
+        y: 396
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_78
+      rect:
+        serializedVersion: 2
+        x: 7183
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_79
+      rect:
+        serializedVersion: 2
+        x: 7481
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_80
+      rect:
+        serializedVersion: 2
+        x: 7779
+        y: 396
+        width: 145
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_81
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_82
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_83
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 0
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_84
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 0
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_85
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 0
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_86
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 0
+        width: 145
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_87
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 0
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_88
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 0
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Wonderer_Move_2_89
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 0
+        width: 145
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

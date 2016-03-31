@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Enemy : MonoBehaviour {
-
 	public float lifeTime;
 
 	public List<GameObject> enemyPrefs = new List<GameObject> ();
@@ -86,6 +85,22 @@ public class Enemy : MonoBehaviour {
 		if (itemObj != null)
 			return itemObj; 
 		return null;
+	}
+
+	public void removeItemFromArray(GameObject itemObj){
+		if (itemObj.GetComponent<Dug> () != null) {
+			currentEnemies.Remove(itemObj);
+		}if (itemObj.GetComponent<Charles> () != null) {
+			currentEnemies.Remove(itemObj);
+		}if (itemObj.GetComponent<Wanderer> () != null) {
+			currentEnemies.Remove(itemObj);
+		}
+	}
+
+	public void destroySelf()
+	{
+		if (gameObject != null) 
+			Destroy(gameObject);
 	}
 
 	void fillArrayPositions(){
