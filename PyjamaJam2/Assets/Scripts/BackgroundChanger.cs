@@ -18,14 +18,6 @@ public class BackgroundChanger : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		GameObject[] trap = GameObject.FindGameObjectsWithTag("Trap");
-		
-		foreach (GameObject traps in trap) {
-			float alpha = traps.GetComponent<Renderer>().material.color.a;
-			
-			Color newColor = new Color(1, 1, 1, 0.0f);
-			traps.GetComponent<Renderer>().material.color = newColor;
-		}
 
 		GameObject[] nightImg = GameObject.FindGameObjectsWithTag("NightMap");
 		

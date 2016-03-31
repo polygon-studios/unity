@@ -49,6 +49,8 @@ public class Character : MonoBehaviour {
     public bool isStunned;
     float fishTimer = 10;
     bool isFished;
+
+	List<GameObject> jailDoors = new List<GameObject>();
     
     bool isDark;
 
@@ -86,6 +88,12 @@ public class Character : MonoBehaviour {
 		GMScript = GM.GetComponent<GameMaster> ();
 
 		invincible = false;
+
+		var objects = GameObject.FindGameObjectsWithTag("jailDoor");
+		foreach (GameObject obj in objects) {
+			jailDoors.Add(obj);
+			obj.SetActive(false);
+		}
 	}
 	
 	// Update is called once per frame
@@ -351,19 +359,19 @@ public class Character : MonoBehaviour {
         //check if this can be split into two tags for two seperate audio effects?
         //if so then bramble sound effect can be implemented easier 
 		if (objectHit.gameObject.tag == "Trap" && invincible == false) {
-			stunCharacter(3, false);
+			if(objectHit.gameObject.name.Contains ("button")){
+				foreach (var obj in jailDoors) {
+					Debug.Log ("Trying to activate ze jail door");
+					obj.SetActive(true);
+				}
+			} else {
+				stunCharacter(3, false);
+			}
+
             AudioSource audio = GetComponent<AudioSource>();
             audio.PlayOneShot(audioEffectStunnedHit, 0.2f );
             audio.PlayOneShot(audioEffectPineconeHit, 0.2f);
 
-			if(objectHit.gameObject.name.Contains ("button")){
-				Debug.Log ("You hit a button m8");
-				var objects = GameObject.FindGameObjectsWithTag("jailDoor");
-				var objectCount = objects.Length;
-				foreach (var obj in objects) {
-					obj.active = true;
-				}
-			}
 
 			Traps trap = objectHit.gameObject.GetComponent<Traps> ();
 			trap.destroySelf ();
@@ -373,6 +381,15 @@ public class Character : MonoBehaviour {
 			stunCharacter(3, false);
             AudioSource audio = GetComponent<AudioSource>();
             audio.PlayOneShot(audioEffectStunnedHit, 0.2f);
+		}
+
+		if (objectHit.gameObject.tag == "Projectile" && invincible == false) {
+			stunCharacter(3, false);
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.PlayOneShot(audioEffectStunnedHit, 0.2f);
+
+			Rock rock = objectHit.gameObject.GetComponent<Rock>();
+			rock.destroySelf();
 		}
 
 		if (objectHit.gameObject.tag == "mushroom" && invincible == false) {

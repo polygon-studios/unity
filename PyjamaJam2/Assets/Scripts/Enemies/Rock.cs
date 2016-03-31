@@ -38,8 +38,13 @@ public class Rock : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D objectHit){
 		if (objectHit.gameObject.tag == "ground") {
-			if(gameObject != null)
-				Destroy(gameObject);
+			destroySelf();
 		}
+	}
+
+	public void destroySelf()
+	{
+		if (gameObject != null) 
+			Destroy(gameObject);
 	}
 }
