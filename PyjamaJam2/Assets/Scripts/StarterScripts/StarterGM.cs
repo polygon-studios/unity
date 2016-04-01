@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-//using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -69,7 +69,7 @@ public class StarterGM : MonoBehaviour {
 				Input.GetButtonDown (playerControllerName + "2" + buttonStart) ||
 				Input.GetButtonDown (playerControllerName + "3" + buttonStart) ||
 				Input.GetButtonDown (playerControllerName + "4" + buttonStart)) {
-				//SceneManager.LoadScene (1);
+				SceneManager.LoadScene (1);
 			}
 
 		}

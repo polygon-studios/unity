@@ -28,7 +28,7 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
-		socket.On("playerEnter", fuckYou);
+//		socket.On("playerEnter", fuckYou);
 
 		StartCoroutine(BeepBoop(1.0f));
         InvokeRepeating("getPlayerPositions", 0.5f, 0.3f);
