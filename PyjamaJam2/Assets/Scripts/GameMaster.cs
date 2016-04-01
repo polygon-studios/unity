@@ -19,7 +19,7 @@ public class GameMaster:MonoBehaviour
 	public GameObject bearCanvas;
 	public GameObject rabbitCanvas;
 
-	private SocketIOComponent socket;
+	public SocketIOLogic io;
 
 	string first;
 	string second;
@@ -74,17 +74,16 @@ public class GameMaster:MonoBehaviour
 		skunkText = skunkCanvas.GetComponent<ScoreText> ();
 		bearText = bearCanvas.GetComponent<ScoreText> ();
 		rabbitText = rabbitCanvas.GetComponent<ScoreText> ();
-
-		GameObject go = GameObject.FindWithTag("SocketIO");
-		if (go) {
-			socket = go.GetComponent<SocketIOComponent> ();
-		}
 	}
 
 	void Update(){
 
 		timer += Time.deltaTime;
 
+		if (Input.GetKeyDown ("space")) {
+			io.endGame (first, second, third, fourth);
+			Debug.Log ("TRYING TO SEND ENDGAME");
+		}
 
 	}
 
@@ -153,11 +152,16 @@ public class GameMaster:MonoBehaviour
 			Debug.Log("Rabbit score: " + rabbitScore);
 		}
 
+		first = "fox";
+		second = "skunk";
+		third = "bear";
+		fourth = "rabbit";
+
 		if (foxScore > skunkScore && foxScore > bearScore && foxScore > rabbitScore) {
 			first = "fox";
-			if (skunkScore > bearScore && skunkScore > rabbitScore) {
+			if (skunkScore >= bearScore && skunkScore >= rabbitScore) {
 				second = "skunk";
-				if(rabbitScore > bearScore){
+				if(rabbitScore >= bearScore){
 					third = "rabbit";
 					fourth = "bear";
 				}
@@ -166,9 +170,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "rabbit";
 				}
 			}
-			if (bearScore > skunkScore && bearScore > rabbitScore) {
+			if (bearScore >= skunkScore && bearScore >= rabbitScore) {
 				second = "bear";
-				if(rabbitScore > skunkScore){
+				if(rabbitScore >= skunkScore){
 					third = "rabbit";
 					fourth = "skunk";
 				}
@@ -177,9 +181,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "rabbit";
 				}
 			}
-			if (rabbitScore > bearScore && rabbitScore > skunkScore) {
+			if (rabbitScore >= bearScore && rabbitScore >= skunkScore) {
 				second = "rabbit";
-				if(bearScore > skunkScore){
+				if(bearScore >= skunkScore){
 					third = "bear";
 					fourth = "skunk";
 				}
@@ -191,9 +195,9 @@ public class GameMaster:MonoBehaviour
 		}
 		if (skunkScore > foxScore && skunkScore > bearScore && skunkScore > rabbitScore) {
 			first = "skunk";
-			if (foxScore > bearScore && foxScore > rabbitScore) {
+			if (foxScore >= bearScore && foxScore >= rabbitScore) {
 				second = "fox";
-				if(rabbitScore > bearScore){
+				if(rabbitScore >= bearScore){
 					third = "rabbit";
 					fourth = "bear";
 				}
@@ -202,9 +206,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "rabbit";
 				}
 			}
-			if (bearScore > foxScore && bearScore > rabbitScore) {
+			if (bearScore >= foxScore && bearScore >= rabbitScore) {
 				second = "bear";
-				if(foxScore > rabbitScore){
+				if(foxScore >= rabbitScore){
 					third = "fox";
 					fourth = "rabbit";
 				}
@@ -213,9 +217,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "fox";
 				}
 			}
-			if (rabbitScore > bearScore && rabbitScore > foxScore) {
+			if (rabbitScore >= bearScore && rabbitScore >= foxScore) {
 				second = "rabbit";
-				if(foxScore > bearScore){
+				if(foxScore >= bearScore){
 					third = "fox";
 					fourth = "bear";
 				}
@@ -227,9 +231,9 @@ public class GameMaster:MonoBehaviour
 		}
 		if (bearScore > skunkScore && bearScore > foxScore && bearScore > rabbitScore) {
 			first = "bear";
-			if (skunkScore > foxScore && skunkScore > rabbitScore) {
+			if (skunkScore >= foxScore && skunkScore >= rabbitScore) {
 				second = "skunk";
-				if(foxScore > rabbitScore){
+				if(foxScore >= rabbitScore){
 					third = "fox";
 					fourth = "rabbit";
 				}
@@ -238,9 +242,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "fox";
 				}
 			}
-			if (foxScore > skunkScore && foxScore > rabbitScore) {
+			if (foxScore >= skunkScore && foxScore >= rabbitScore) {
 				second = "fox";
-				if(rabbitScore > skunkScore){
+				if(rabbitScore >= skunkScore){
 					third = "rabbit";
 					fourth = "skunk";
 				}
@@ -249,9 +253,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "rabbit";
 				}
 			}
-			if (rabbitScore > foxScore && rabbitScore > skunkScore) {
+			if (rabbitScore >= foxScore && rabbitScore >= skunkScore) {
 				second = "rabbit";
-				if(foxScore > skunkScore){
+				if(foxScore >= skunkScore){
 					third = "fox";
 					fourth = "skunk";
 				}
@@ -263,9 +267,9 @@ public class GameMaster:MonoBehaviour
 		}
 		if (rabbitScore > skunkScore && rabbitScore > bearScore && rabbitScore > foxScore) {
 			first = "rabbit";
-			if (skunkScore > bearScore && skunkScore > foxScore) {
+			if (skunkScore >= bearScore && skunkScore >= foxScore) {
 				second = "skunk";
-				if(foxScore > bearScore){
+				if(foxScore >= bearScore){
 					third = "fox";
 					fourth = "bear";
 				}
@@ -274,9 +278,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "fox";
 				}
 			}
-			if (bearScore > skunkScore && bearScore > foxScore) {
+			if (bearScore >= skunkScore && bearScore >= foxScore) {
 				second = "bear";
-				if(foxScore > skunkScore){
+				if(foxScore >= skunkScore){
 					third = "fox";
 					fourth = "skunk";
 				}
@@ -285,9 +289,9 @@ public class GameMaster:MonoBehaviour
 					fourth = "fox";
 				}
 			}
-			if (foxScore > bearScore && foxScore > skunkScore) {
+			if (foxScore >= bearScore && foxScore >= skunkScore) {
 				second = "fox";
-				if(bearScore > skunkScore){
+				if(bearScore >= skunkScore){
 					third = "bear";
 					fourth = "skunk";
 				}
@@ -297,13 +301,6 @@ public class GameMaster:MonoBehaviour
 				}
 			}
 		}
-
-		/*Dictionary<string, string> data = new Dictionary<string, string>();
-		data["foxScore"] = foxScore;
-		data["skunkScore"] = skunkScore;
-		data["rabbitScore"] = rabbitScore;
-		data["bearScore"] = bearScore;
-		socket.Emit("scoreUpdate", new JSONObject(data));*/
 	}
 
 

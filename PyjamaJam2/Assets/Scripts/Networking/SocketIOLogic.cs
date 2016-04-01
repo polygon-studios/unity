@@ -182,6 +182,7 @@ public class SocketIOLogic : MonoBehaviour
 		data["fourth"] = fourthPlace;
 		
 		socket.Emit("endGame", new JSONObject(data));
+		Debug.Log ("Sent the endgame");
 	}
 
 
