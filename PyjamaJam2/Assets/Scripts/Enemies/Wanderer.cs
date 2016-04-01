@@ -7,7 +7,7 @@ public class Wanderer : Enemy {
 
 	public float lifeSpan = 40f; //in seconds
 
-	float timer = 3.8f; //in seconds
+	float timer = 4.8f; //in seconds
 
 	float lastPosX;
 	float lastPosY;
@@ -22,7 +22,7 @@ public class Wanderer : Enemy {
 	void Update () {
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			timer = 3.8f;
+			timer = 3.7f;
 			Instantiate (rockPrefab, new Vector3(lastPosX,lastPosY, -8) , Quaternion.identity);
 		}
 

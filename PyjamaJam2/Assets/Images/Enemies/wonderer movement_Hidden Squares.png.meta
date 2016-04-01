@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: 3d626ba76c5cf4cf79cb1d0ab27717d8
+timeCreated: 1459521206
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wonderer movement_Hidden Squares_0
+    21300002: wonderer movement_Hidden Squares_1
+    21300004: wonderer movement_Hidden Squares_2
+    21300006: wonderer movement_Hidden Squares_3
+    21300008: wonderer movement_Hidden Squares_4
+    21300010: wonderer movement_Hidden Squares_5
+    21300012: wonderer movement_Hidden Squares_6
+    21300014: wonderer movement_Hidden Squares_7
+    21300016: wonderer movement_Hidden Squares_8
+    21300018: wonderer movement_Hidden Squares_9
+    21300020: wonderer movement_Hidden Squares_10
+    21300022: wonderer movement_Hidden Squares_11
+    21300024: wonderer movement_Hidden Squares_12
+    21300026: wonderer movement_Hidden Squares_13
+    21300028: wonderer movement_Hidden Squares_14
+    21300030: wonderer movement_Hidden Squares_15
+    21300032: wonderer movement_Hidden Squares_16
+    21300034: wonderer movement_Hidden Squares_17
+    21300036: wonderer movement_Hidden Squares_18
+    21300038: wonderer movement_Hidden Squares_19
+    21300040: wonderer movement_Hidden Squares_20
+    21300042: wonderer movement_Hidden Squares_21
+    21300044: wonderer movement_Hidden Squares_22
+    21300046: wonderer movement_Hidden Squares_23
+    21300048: wonderer movement_Hidden Squares_24
+    21300050: wonderer movement_Hidden Squares_25
+    21300052: wonderer movement_Hidden Squares_26
+    21300054: wonderer movement_Hidden Squares_27
+    21300056: wonderer movement_Hidden Squares_28
+    21300058: wonderer movement_Hidden Squares_29
+    21300060: wonderer movement_Hidden Squares_30
+    21300062: wonderer movement_Hidden Squares_31
+    21300064: wonderer movement_Hidden Squares_32
+    21300066: wonderer movement_Hidden Squares_33
+    21300068: wonderer movement_Hidden Squares_34
+    21300070: wonderer movement_Hidden Squares_35
+    21300072: wonderer movement_Hidden Squares_36
+    21300074: wonderer movement_Hidden Squares_37
+    21300076: wonderer movement_Hidden Squares_38
+    21300078: wonderer movement_Hidden Squares_39
+    21300080: wonderer movement_Hidden Squares_40
+    21300082: wonderer movement_Hidden Squares_41
+    21300084: wonderer movement_Hidden Squares_42
+    21300086: wonderer movement_Hidden Squares_43
+    21300088: wonderer movement_Hidden Squares_44
+    21300090: wonderer movement_Hidden Squares_45
+    21300092: wonderer movement_Hidden Squares_46
+    21300094: wonderer movement_Hidden Squares_47
+    21300096: wonderer movement_Hidden Squares_48
+    21300098: wonderer movement_Hidden Squares_49
+    21300100: wonderer movement_Hidden Squares_50
+    21300102: wonderer movement_Hidden Squares_51
+    21300104: wonderer movement_Hidden Squares_52
+    21300106: wonderer movement_Hidden Squares_53
+    21300108: wonderer movement_Hidden Squares_54
+    21300110: wonderer movement_Hidden Squares_55
+    21300112: wonderer movement_Hidden Squares_56
+    21300114: wonderer movement_Hidden Squares_57
+    21300116: wonderer movement_Hidden Squares_58
+    21300118: wonderer movement_Hidden Squares_59
+    21300120: wonderer movement_Hidden Squares_60
+    21300122: wonderer movement_Hidden Squares_61
+    21300124: wonderer movement_Hidden Squares_62
+    21300126: wonderer movement_Hidden Squares_63
+    21300128: wonderer movement_Hidden Squares_64
+    21300130: wonderer movement_Hidden Squares_65
+    21300132: wonderer movement_Hidden Squares_66
+    21300134: wonderer movement_Hidden Squares_67
+    21300136: wonderer movement_Hidden Squares_68
+    21300138: wonderer movement_Hidden Squares_69
+    21300140: wonderer movement_Hidden Squares_70
+    21300142: wonderer movement_Hidden Squares_71
+    21300144: wonderer movement_Hidden Squares_72
+    21300146: wonderer movement_Hidden Squares_73
+    21300148: wonderer movement_Hidden Squares_74
+    21300150: wonderer movement_Hidden Squares_75
+    21300152: wonderer movement_Hidden Squares_76
+    21300154: wonderer movement_Hidden Squares_77
+    21300156: wonderer movement_Hidden Squares_78
+    21300158: wonderer movement_Hidden Squares_79
+    21300160: wonderer movement_Hidden Squares_80
+    21300162: wonderer movement_Hidden Squares_81
+    21300164: wonderer movement_Hidden Squares_82
+    21300166: wonderer movement_Hidden Squares_83
+    21300168: wonderer movement_Hidden Squares_84
+    21300170: wonderer movement_Hidden Squares_85
+    21300172: wonderer movement_Hidden Squares_86
+    21300174: wonderer movement_Hidden Squares_87
+    21300176: wonderer movement_Hidden Squares_88
+    21300178: wonderer movement_Hidden Squares_89
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: wonderer movement_Hidden Squares_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_2
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_4
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_5
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_6
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_7
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_8
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_9
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_10
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_11
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2882
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_14
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_16
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_17
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_18
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_19
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_20
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_21
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_22
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_23
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2472
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_26
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_27
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_28
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_29
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_30
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_31
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_32
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_33
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_34
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_35
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2062
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_38
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_39
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_40
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_41
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_42
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_43
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_44
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_45
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_46
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_47
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1652
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_49
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_50
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_51
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_52
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_53
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_54
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_55
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_56
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_57
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_58
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_59
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1242
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_61
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_62
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_63
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_64
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_65
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_66
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_67
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_68
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_69
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_70
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_71
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 832
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_73
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_74
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_75
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_76
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_77
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_78
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_79
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_80
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_81
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_82
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_83
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 422
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_84
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_85
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 12
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_86
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 12
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_87
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 12
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_88
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 12
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wonderer movement_Hidden Squares_89
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 12
+        width: 324
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

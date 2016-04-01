@@ -168,6 +168,22 @@ public class SocketIOLogic : MonoBehaviour
 		socket.Emit("playerEnter", new JSONObject(data));
 	}
 
+	public void lockHouse() {
+		
+		socket.Emit("redButton");
+	}
+
+	public void endGame(string firstPlace, string secondPlace, string thirdPlace, string fourthPlace) {
+
+		Dictionary<string, string> data = new Dictionary<string, string>();
+		data["first"] = firstPlace;
+		data["second"] = secondPlace;
+		data["third"] = thirdPlace;
+		data["fourth"] = fourthPlace;
+		
+		socket.Emit("endGame", new JSONObject(data));
+	}
+
 
 	public void fuckYou (SocketIOEvent e){
 		Debug.Log("Character " + e.data["character"] + " came from " + e.data["side"] + " with ze item " + e.data["holdingItem"]);

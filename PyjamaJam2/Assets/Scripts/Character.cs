@@ -355,19 +355,19 @@ public class Character : MonoBehaviour {
 			
 		}
 
-        //Iannnnnn
-        //check if this can be split into two tags for two seperate audio effects?
-        //if so then bramble sound effect can be implemented easier 
+        
 		if (objectHit.gameObject.tag == "Trap" && invincible == false) {
 			if(objectHit.gameObject.name.Contains ("button")){
 				foreach (var obj in jailDoors) {
-					Debug.Log ("Trying to activate ze jail door");
 					obj.SetActive(true);
 				}
+				io.lockHouse();
 			} else {
 				stunCharacter(3, false);
 			}
+			if(objectHit.gameObject.name.Contains ("bramble")){
 
+			}
             AudioSource audio = GetComponent<AudioSource>();
             audio.PlayOneShot(audioEffectStunnedHit, 0.2f );
             audio.PlayOneShot(audioEffectPineconeHit, 0.2f);
@@ -376,7 +376,7 @@ public class Character : MonoBehaviour {
 			Traps trap = objectHit.gameObject.GetComponent<Traps> ();
 			trap.destroySelf ();
 		}
-        //same for enemy 
+        
 		if (objectHit.gameObject.tag == "Enemy" && invincible == false) {
 			stunCharacter(3, false);
             AudioSource audio = GetComponent<AudioSource>();
@@ -393,9 +393,12 @@ public class Character : MonoBehaviour {
 		}
 
 		if (objectHit.gameObject.tag == "mushroom" && invincible == false) {
-			Vector2 force = new Vector2 (0, 8);
-			Rigidbody2D rb = GetComponent<Rigidbody2D>();
-			rb.AddForce(force, ForceMode2D.Impulse);
+			if(transform.position.y > objectHit.gameObject.transform.position.y){
+				Vector2 force = new Vector2 (0, 8);
+				Rigidbody2D rb = GetComponent<Rigidbody2D>();
+				rb.AddForce(force, ForceMode2D.Impulse);
+			}
+
 		}
 
 
