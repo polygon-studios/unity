@@ -426,6 +426,7 @@ public class Character : MonoBehaviour {
             if (hasItem)
             {
                 GMScript.addPoints(this.name, item.points);
+				laternScript.resetLight(transform.position.x, transform.position.y);
                 item = null;
             }
 

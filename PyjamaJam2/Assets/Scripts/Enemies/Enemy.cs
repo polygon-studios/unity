@@ -81,7 +81,7 @@ public class Enemy : MonoBehaviour {
 			
 
 		
-		GameObject itemObj = (GameObject)Instantiate (enemyPrefabs[enemy], new Vector3(possiblePositions[randPos].x,possiblePositions[randPos].y, -8) , Quaternion.identity);
+		GameObject itemObj = (GameObject)Instantiate (enemyPrefabs[enemy], new Vector3(possiblePositions[randPos].x,possiblePositions[randPos].y, -0.6f) , Quaternion.identity);
 		if (itemObj != null)
 			return itemObj; 
 		return null;

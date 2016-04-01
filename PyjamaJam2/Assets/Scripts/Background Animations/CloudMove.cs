@@ -46,7 +46,7 @@ public class CloudMove : MonoBehaviour
 
     void resetCloud()
     {
-        Vector3 newPos = new Vector3(32, Random.Range(4, 6), 0);
+        Vector3 newPos = new Vector3(32, Random.Range(4, 6), 0.1f);
         transform.position = newPos;
         generateTarget();
         speed = Random.Range(0.1f, 0.5f);

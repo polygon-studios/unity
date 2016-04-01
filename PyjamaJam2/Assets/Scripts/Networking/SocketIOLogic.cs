@@ -185,18 +185,9 @@ public class SocketIOLogic : MonoBehaviour
 		Debug.Log ("Sent the endgame");
 	}
 
-
-	public void fuckYou (SocketIOEvent e){
-		Debug.Log("Character " + e.data["character"] + " came from " + e.data["side"] + " with ze item " + e.data["holdingItem"]);
-
-
-		string tempSide = string.Format ("{0}", e.data ["side"]);
-		float side = (float.Parse (tempSide)) * 1.0f;
-
-		string tempChar = string.Format ("{0}", e.data ["character"]);
-		string tempItem = string.Format ("{0}", e.data ["holdingItem"]);
-
-		Debug.Log("Character " + tempChar + " came from " + side + " with ze item " + tempItem);
+	public void resetHouse() {
+		
+		socket.Emit("resetHouse");
 	}
-
+	
 }

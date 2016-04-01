@@ -36,7 +36,7 @@ public class BackgroundChanger : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.B)){
 
 			//go to night map
-			StartCoroutine(FadeTo(0.0f, 3.75f));
+			StartCoroutine(FadeTo(0.0f, 1.75f));
 
 			//set GameMaster to darkmode
 			GM.isDark = true;

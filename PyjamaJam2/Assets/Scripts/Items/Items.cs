@@ -148,7 +148,7 @@ public class Items : MonoBehaviour {
         }
         else if (itemToUse != null)
         {
-			return((GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity));
+			return((GameObject)Instantiate(itemToUse, new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -0.6f), Quaternion.identity));
         }
 		return null;
 	}
