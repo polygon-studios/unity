@@ -18,7 +18,7 @@ public class Items : MonoBehaviour {
 	public GameMaster GM;
 
 	int maxEasyItemsInScene = 5; //5
-	int maxMedItemsInScene = 20;//6
+	int maxMedItemsInScene = 6;//6
 	int maxHardItemsInScene = 4;//4
 
     int maxOilInArea = 7;
