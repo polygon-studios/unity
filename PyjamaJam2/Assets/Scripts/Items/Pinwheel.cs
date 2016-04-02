@@ -35,6 +35,7 @@ public class Pinwheel : Item {
 	}
 
 	public override void TriggerEffect(){
+		base.TriggerEffect ();
 		timer -= Time.deltaTime;
 
 		wind1 = (GameObject)Instantiate (windPrefab, new Vector3 (22.0f, 4.0f, -2.4f), Quaternion.identity);

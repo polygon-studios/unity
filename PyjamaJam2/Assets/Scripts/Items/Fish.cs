@@ -24,6 +24,7 @@ public class Fish : Item {
 	}
 	
 	public override void TriggerEffect(){
+		base.TriggerEffect ();
 		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
                 currChar.isFishedTrigger();

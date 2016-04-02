@@ -229,6 +229,7 @@ public class Character : MonoBehaviour {
 				}
 			}else{
 				animator.SetBool ("bindle", true);
+				item.inBindle (transform.position, transform.rotation.eulerAngles);
 			}
 			
 		}

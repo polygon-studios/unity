@@ -26,6 +26,7 @@ public class Slippers : Item{
 	}
 
 	public override void TriggerEffect(){
+		base.TriggerEffect ();
 		this.character.currentJump = newHeightJump;
 		timer -= Time.deltaTime;
 		this.character.animator.SetBool ("slippers", true);

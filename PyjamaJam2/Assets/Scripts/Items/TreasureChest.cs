@@ -32,6 +32,7 @@ public class TreasureChest : Item {
 	}
 
 	public override void TriggerEffect(){
+		base.TriggerEffect ();
 		timer -= Time.deltaTime;
 		timerInterval -= Time.deltaTime;
 	}

@@ -57,7 +57,8 @@ public class GameMaster:MonoBehaviour
 		}
 
 		controllerToChar = GameObject.Find ("DontDestroy");
-		setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter);
+		if(controllerToChar != null)
+			setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter);
 
 	}
 

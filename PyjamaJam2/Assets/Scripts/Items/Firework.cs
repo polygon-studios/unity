@@ -27,7 +27,7 @@ public class Firework : Item {
 	}
 	
 	public override void TriggerEffect(){
-
+		base.TriggerEffect ();
 		timer -= Time.deltaTime;
 		timerInterval -= Time.deltaTime;
 	}

@@ -33,6 +33,7 @@ public class Chili : Item {
 
     public override void TriggerEffect()
     {
+		base.TriggerEffect ();
         timer -= Time.deltaTime;
         foreach (Character currChar in base.GM.CHARACTERS)
         {

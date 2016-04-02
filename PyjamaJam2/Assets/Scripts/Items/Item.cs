@@ -8,6 +8,9 @@ public class Item : MonoBehaviour {
 	public int difficulty;
 	public Material diffuseMat;
 	public Renderer rend;
+	public GameObject itemIconPrefab;
+	public GameObject itemIconRef;
+	//public Character character;
 
 
     bool isDark = false;
@@ -38,7 +41,9 @@ public class Item : MonoBehaviour {
 	}
 
 	public virtual void TriggerEffect(){
-
+		if (itemIconRef) {
+			Destroy (itemIconRef.gameObject);
+		}
 	}
 
 	public void Hide(){
@@ -55,7 +60,20 @@ public class Item : MonoBehaviour {
 			this.gameObject.GetComponent<Renderer> ().enabled = false;
 			isHidden = true;
 		}
+
+		if (itemIconPrefab & !itemIconRef) {
+			itemIconRef = (GameObject)Instantiate (itemIconPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+		}
+
 		//this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+	}
+
+	public void inBindle(Vector3 charPos, Vector3 charRot){
+		if (itemIconRef != null) {
+			Vector3 iconPos = new Vector3 (charPos.x, charPos.y + 0.7f, charPos.z);
+			itemIconRef.transform.position = iconPos;
+			itemIconRef.transform.eulerAngles = charRot;
+		}
 	}
 
 
@@ -69,7 +87,6 @@ public class Item : MonoBehaviour {
 	}
     
 	public void setDarkMode(){
-        Debug.Log("ITEM DARK");
         //this.gameObject.GetComponent<SpriteRenderer> ().material = diffuseMat;
         Debug.Log(this.gameObject);
         this.gameObject.GetComponent<Animator>().SetBool("night", true);
