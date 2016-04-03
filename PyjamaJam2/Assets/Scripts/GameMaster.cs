@@ -35,8 +35,11 @@ public class GameMaster:MonoBehaviour
 	int skunkScore;
 	int bearScore;
 	int rabbitScore;
-	static float timer;
+	float timer = 30;
 	bool gameOver;
+
+	float charSelTimer = 20f;
+	public Text countDownTimerText;
 
 	void Awake(){
 		if (GM != null)
@@ -44,10 +47,6 @@ public class GameMaster:MonoBehaviour
 		else
 			GM = this;
 		DontDestroyOnLoad (this);
-
-
-
-
 	}
 
 	void OnEnable(){
@@ -64,8 +63,6 @@ public class GameMaster:MonoBehaviour
 
 	void Start(){
 
-
-
 		foxScore = 0;
 		skunkScore = 0;
 		bearScore = 0;
@@ -75,17 +72,30 @@ public class GameMaster:MonoBehaviour
 		skunkText = skunkCanvas.GetComponent<ScoreText> ();
 		bearText = bearCanvas.GetComponent<ScoreText> ();
 		rabbitText = rabbitCanvas.GetComponent<ScoreText> ();
+
+		countDownTimerText.text = "";
+
+		GameObject countDowntext = GameObject.FindGameObjectWithTag("CountdownText");
+		if (countDowntext) {
+			float alpha = countDowntext.GetComponent<Renderer> ().material.color.a;
+			Color newColor = new Color (1, 1, 1, 0.0f);
+			countDowntext.GetComponent<SpriteRenderer> ().material.color = newColor;
+			Debug.Log("Trying to hide countdown text");
+		}
 	}
 
 	void Update(){
 
-		timer += Time.deltaTime;
+		timer -= Time.deltaTime;
 
 		if (Input.GetKeyDown ("space")) {
 			io.endGame (first, second, third, fourth);
 			Debug.Log ("TRYING TO SEND ENDGAME");
 		}
-
+		if (timer < 0) {
+			charSelTimer -= Time.deltaTime;
+			countDownTimerText.text = "" + Mathf.RoundToInt (charSelTimer);
+		}
 	}
 
 	void setCharactersAndControllers(List<Vector2> contToChars){

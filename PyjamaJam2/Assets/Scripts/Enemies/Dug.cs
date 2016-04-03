@@ -45,13 +45,13 @@ public class Dug: Enemy {
 			// Reflect the sprite if the enemy changes directions
 			if (lastPosX > enemyTransform.position.x) {
 				Vector3 theScale = transform.localScale;
-				theScale.x = -0.42511f;
+				theScale.x = theScale.x * -1;
 				transform.localScale = theScale;
 				lastPosX = enemyTransform.position.x;
 			}
 			else {
 				Vector3 theScale = transform.localScale;
-				theScale.x = 0.42511f;
+				theScale.x = theScale.x * 1;
 				transform.localScale = theScale;
 				lastPosX = enemyTransform.position.x;
 			}
