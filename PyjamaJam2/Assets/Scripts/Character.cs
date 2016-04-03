@@ -377,6 +377,7 @@ public class Character : MonoBehaviour {
 					obj.SetActive(true);
 				}
 				io.lockHouse();
+				unlockJailDoor(5);
 			} else {
 				stunCharacter(3, false);
 			}
@@ -522,8 +523,19 @@ public class Character : MonoBehaviour {
         animator.SetBool("stun", false);
 	}
 
-    public void isFishedTrigger()
-    {
+	IEnumerator unlockJailDoor(int lockDuration)
+	{
+		int seconds = lockDuration;
+
+		yield return new WaitForSeconds(seconds);
+		
+		foreach (var obj in jailDoors) {
+			obj.SetActive(false);
+		}
+	}
+	
+	public void isFishedTrigger()
+	{
         if (isFished == true)
             fishTimer += 10;
         
