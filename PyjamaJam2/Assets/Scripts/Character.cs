@@ -47,6 +47,7 @@ public class Character : MonoBehaviour {
 	Latern laternScript;
 	GameMaster GMScript;
     public bool isStunned;
+    float scoreTimer = 10;
     float fishTimer = 10;
     bool isFished;
 
@@ -63,6 +64,11 @@ public class Character : MonoBehaviour {
     public AudioClip audioEffectStunnedHit;
     public AudioClip audioEffectDoorClosed;
     public AudioClip audioEffectPineconeHit;
+    public AudioClip audioEffectBrambleHit;
+    public AudioClip audioEffectProjectileHit;
+    public AudioClip audioEffectMushroomHit;
+    public AudioClip audioEffectMakingDatMoolahYay;
+    public AudioClip audioEffectButton;
 
 	public Animator animator;
 	Rigidbody2D rigidbody;
@@ -173,7 +179,12 @@ public class Character : MonoBehaviour {
                 audio.PlayOneShot(audioEffectJump, 0.2f);
             }
 		}
-
+        /////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////
         //code for when char lands, but repeats every time onGround is true...fix this
         bool canPlay;
         canPlay = true;
@@ -358,8 +369,11 @@ public class Character : MonoBehaviour {
 
         
 		if (objectHit.gameObject.tag == "Trap" && invincible == false) {
-			if(objectHit.gameObject.name.Contains ("button")){
+            if (objectHit.gameObject.name.Contains("button"))
+            {
 				foreach (var obj in jailDoors) {
+                    AudioSource audio = GetComponent<AudioSource>();
+                    audio.PlayOneShot(audioEffectButton, 0.7f);
 					obj.SetActive(true);
 				}
 				io.lockHouse();
@@ -367,11 +381,17 @@ public class Character : MonoBehaviour {
 				stunCharacter(3, false);
 			}
 			if(objectHit.gameObject.name.Contains ("bramble")){
-
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(audioEffectStunnedHit, 0.7f);
+                audio.PlayOneShot(audioEffectBrambleHit, 0.7f);
 			}
-            AudioSource audio = GetComponent<AudioSource>();
-            audio.PlayOneShot(audioEffectStunnedHit, 0.2f );
-            audio.PlayOneShot(audioEffectPineconeHit, 0.2f);
+
+            if(objectHit.gameObject.name.Contains ("pinecone")){
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(audioEffectStunnedHit, 0.7f );
+                audio.PlayOneShot(audioEffectPineconeHit, 0.7f);
+            }
+
 
 
 			Traps trap = objectHit.gameObject.GetComponent<Traps> ();
@@ -381,20 +401,23 @@ public class Character : MonoBehaviour {
 		if (objectHit.gameObject.tag == "Enemy" && invincible == false) {
 			stunCharacter(3, false);
             AudioSource audio = GetComponent<AudioSource>();
-            audio.PlayOneShot(audioEffectStunnedHit, 0.2f);
+            audio.PlayOneShot(audioEffectStunnedHit, 1.0f);
 		}
 
 		if (objectHit.gameObject.tag == "Projectile" && invincible == false) {
 			stunCharacter(3, false);
 			AudioSource audio = GetComponent<AudioSource>();
-			audio.PlayOneShot(audioEffectStunnedHit, 0.2f);
+			audio.PlayOneShot(audioEffectProjectileHit, 1.0f);
 
 			Rock rock = objectHit.gameObject.GetComponent<Rock>();
 			rock.destroySelf();
 		}
 
-		if (objectHit.gameObject.tag == "mushroom" && invincible == false) {
+		if (objectHit.gameObject.tag == "mushroom") {
 			if(transform.position.y > objectHit.gameObject.transform.position.y){
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(audioEffectMushroomHit, 1.0f);
+                
 				Vector2 force = new Vector2 (0, 8);
 				Rigidbody2D rb = GetComponent<Rigidbody2D>();
 				rb.AddForce(force, ForceMode2D.Impulse);
@@ -426,9 +449,15 @@ public class Character : MonoBehaviour {
 			io.playerEnter(this.name, side, itemHeld);
             if (hasItem)
             {
-                GMScript.addPoints(this.name, item.points);
-				laternScript.resetLight(transform.position.x, transform.position.y);
-                item = null;
+                ////////////////add timer for house points
+                   AudioSource audio = GetComponent<AudioSource>();
+                   audio.PlayOneShot(audioEffectMakingDatMoolahYay, 0.7f);
+
+                   GMScript.addPoints(this.name, item.points);
+                   laternScript.resetLight(transform.position.x, transform.position.y);
+                   item = null;
+                ///////////////////////////////////////////////
+
             }
 
 		}

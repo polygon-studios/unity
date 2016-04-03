@@ -29,12 +29,13 @@ public class Pinwheel : Item {
 
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
-        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        AudioClip audioEffectWind = (AudioClip)Resources.Load("Wind") as AudioClip;
-        audioSource.PlayOneShot(audioEffectWind);
 	}
 
 	public override void TriggerEffect(){
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectWind = (AudioClip)Resources.Load("Wind") as AudioClip;
+        audioSource.PlayOneShot(audioEffectWind);
+
 		base.TriggerEffect ();
 		timer -= Time.deltaTime;
 

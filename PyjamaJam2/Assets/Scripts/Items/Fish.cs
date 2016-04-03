@@ -18,21 +18,28 @@ public class Fish : Item {
 	
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
-        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        AudioClip audioEffectFloppyFish = (AudioClip)Resources.Load("Fish") as AudioClip;
-        audioSource.PlayOneShot(audioEffectFloppyFish, 1.0f);
 	}
 	
 	public override void TriggerEffect(){
+
 		base.TriggerEffect ();
+
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectFloppyFish = (AudioClip)Resources.Load("Fish") as AudioClip;
+        audioSource.PlayOneShot(audioEffectFloppyFish, 1.0f);
+
 		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
                 currChar.isFishedTrigger();
 			}
 		}
-
-        base.DestroySelf();
+ 
+    }
+    void updateTrigger()
+    {
         base.allItems.removeItemFromArray(this.gameObject);
+        base.DestroySelf();
         Destroy(this.gameObject);
+        
     }
 }

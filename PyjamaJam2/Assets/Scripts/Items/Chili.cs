@@ -26,13 +26,13 @@ public class Chili : Item {
 
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
-        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        AudioClip audioEffectFire = (AudioClip)Resources.Load("Chili") as AudioClip;
-        audioSource.PlayOneShot(audioEffectFire, 0.25f);
 	}
 
     public override void TriggerEffect()
     {
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectFire = (AudioClip)Resources.Load("Chili") as AudioClip;
+        audioSource.PlayOneShot(audioEffectFire, 0.2f);
 		base.TriggerEffect ();
         timer -= Time.deltaTime;
         foreach (Character currChar in base.GM.CHARACTERS)

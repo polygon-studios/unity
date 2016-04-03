@@ -6,6 +6,7 @@ public class CharacterSelector : MonoBehaviour {
 	public StarterGM starterGM;
 	bool characterSelected = false;
     int currentSelected = 0;
+    public AudioClip audioEffectCharacterSelect; 
 
 	public float offsetX;
 
@@ -69,6 +70,11 @@ public class CharacterSelector : MonoBehaviour {
 					if (starterGM.isSelectedCharacter [currentSelected] == false) {
 						starterGM.setCharToController (currentSelected, controllerNum);
 						//starterGM.updateScreen (currentSelected);
+
+                        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+                        AudioClip audioEffectCharacterSelect = (AudioClip)Resources.Load("Select") as AudioClip;
+                        AudioSource.PlayClipAtPoint(audioEffectCharacterSelect, new Vector3(0, 0, 0));
+
 						characterSelected = true;
 					}
 	            }

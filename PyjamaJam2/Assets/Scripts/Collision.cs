@@ -29,9 +29,10 @@ public class Collision : MonoBehaviour {
         {
            GameObject coin = objectHit.gameObject;
            Vector2 coinPos = new Vector2(coin.transform.position.x, coin.transform.position.y);
+
            AudioSource audioSource = gameObject.AddComponent<AudioSource>();
            AudioClip audioEffectCoinHit = (AudioClip)Resources.Load("Coin Drop") as AudioClip;
-           audioSource.PlayOneShot(audioEffectCoinHit, 0.1f);
+           AudioSource.PlayClipAtPoint(audioEffectCoinHit, coinPos);
        }
     }
 }

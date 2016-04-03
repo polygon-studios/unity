@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class FireworkLight : MonoBehaviour {
-
     public GameObject firework;
     Light light;
     public float totalTimer;
@@ -15,6 +14,8 @@ public class FireworkLight : MonoBehaviour {
         light.range = 0;
 		fireworkTriggered = true;
 		firework = (GameObject)Instantiate (firework, new Vector3 (transform.position.x, transform.position.y, firework.gameObject.transform.position.z), Quaternion.identity);
+
+
         //firework.gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, firework.gameObject.transform.position.z);
 		light.range = 15f;
 	}

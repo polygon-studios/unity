@@ -27,9 +27,6 @@ public class GhostItem : Item {
 	
 	public void initVariables(Character currCharacter){
 		character = currCharacter;
-        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        AudioClip audioEffectCharacterAsGhost = (AudioClip)Resources.Load("Ghost") as AudioClip;
-        audioSource.PlayOneShot(audioEffectCharacterAsGhost, 0.7f);
 	}
 	
 	public override void TriggerEffect(){
@@ -39,6 +36,11 @@ public class GhostItem : Item {
         this.character.animator.SetBool("ghost", true);
         this.character.invincible = true;
         this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.8f);
+
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        AudioClip audioEffectCharacterAsGhost = (AudioClip)Resources.Load("Ghost") as AudioClip;
+        audioSource.PlayOneShot(audioEffectCharacterAsGhost, 0.7f);
+
     }
 
     void updateTrigger()
