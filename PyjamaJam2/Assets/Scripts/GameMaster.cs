@@ -19,8 +19,13 @@ public class GameMaster:MonoBehaviour
 	public GameObject bearCanvas;
 	public GameObject rabbitCanvas;
 	public GameObject countDownTimerCanvas;
+	public BackgroundChanger backgroundChanger;
+	public GameObject blackScreen;
 
 	public SocketIOLogic io;
+
+	float nightTimer = 210f;
+	float fullGameTimer = 420f;
 
 	string first;
 	string second;
@@ -37,7 +42,6 @@ public class GameMaster:MonoBehaviour
 	int skunkScore;
 	int bearScore;
 	int rabbitScore;
-	float timer = 30;
 	bool gameOver;
 
 	float countDownTimerVal = 20f;
@@ -69,6 +73,8 @@ public class GameMaster:MonoBehaviour
 		bearScore = 0;
 		rabbitScore = 0;
 
+		blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 0f);
+
 		foxText = foxCanvas.GetComponent<ScoreText> ();
 		skunkText = skunkCanvas.GetComponent<ScoreText> ();
 		bearText = bearCanvas.GetComponent<ScoreText> ();
@@ -77,21 +83,43 @@ public class GameMaster:MonoBehaviour
 		countDownText = countDownTimerCanvas.GetComponent<ScoreText> ();
 
 		countDownText.isHidden = true;
+
+
 	}
 
 	void Update(){
 
-		timer -= Time.deltaTime;
+
+		if (isDark == false) {
+			nightTimer -= Time.deltaTime;
+		}
 
 		if (Input.GetKeyDown ("space")) {
 			io.endGame (first, second, third, fourth);
 			Debug.Log ("TRYING TO SEND ENDGAME");
 		}
-		if (timer < 0) {
+
+		if (nightTimer < 0) {
+
+			backgroundChanger.goDark();
+			isDark = true;
+		}
+
+		fullGameTimer -= Time.deltaTime;
+		Debug.Log (fullGameTimer);
+
+		if (fullGameTimer < 0) {
+			Debug.Log("END GAME END GAME");
 			countDownText.isHidden = false;
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
 			countDownText.updateScore (countDownInt);
+
+		}
+
+		if (countDownTimerVal < 0) {
+			io.endGame(first, second, third, fourth);
+			blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 1f);
 		}
 	}
 

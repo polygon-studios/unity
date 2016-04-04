@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-//using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -24,6 +24,7 @@ public class StarterGM : MonoBehaviour {
 
     int totalSelectedChars = 0;
 	float charSelTimer = 25f;
+	float instructionsTimer = 15f;
 
     //public List<Vector2> controllerToCharacter = new List<Vector2> (); //fox 1, skunk 2, rabbit 2, bear 3
 
@@ -64,12 +65,12 @@ public class StarterGM : MonoBehaviour {
 			}
 		}
 		if (passedCharacterSelScreen == true) {
+			instructionsTimer -= Time.deltaTime;
+
 			Debug.Log ("show instructions");
-			if (Input.GetButtonDown (playerControllerName + "1" + buttonStart) ||
-				Input.GetButtonDown (playerControllerName + "2" + buttonStart) ||
-				Input.GetButtonDown (playerControllerName + "3" + buttonStart) ||
-				Input.GetButtonDown (playerControllerName + "4" + buttonStart)) {
-				//SceneManager.LoadScene (1);
+			if(instructionsTimer < 0){
+				SceneManager.LoadScene (1);
+				//Application.LoadLevel(1);
 			}
 
 		}

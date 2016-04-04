@@ -50,6 +50,8 @@
      <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\link.xml" />
+     <None Include="Assets\Shaders\DiffuseTransparency.shader" />
+     <None Include="Assets\Shaders\AlphaIgnore.shader" />
      <None Include="Assets\SocketIO\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

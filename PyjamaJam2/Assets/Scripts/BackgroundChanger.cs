@@ -13,6 +13,7 @@ public class BackgroundChanger : MonoBehaviour {
 	public int whichNextLvl;
 	public GameMaster GM;
     public Items items;
+	public GameObject[] BGs;
 
     GameObject[] bgAnimList;
 
@@ -20,6 +21,7 @@ public class BackgroundChanger : MonoBehaviour {
     void Start () {
 
 		GameObject[] nightImg = GameObject.FindGameObjectsWithTag("NightMap");
+
 		
 		foreach (GameObject image in nightImg) {
 			float alpha = image.GetComponent<Renderer>().material.color.a;
@@ -35,34 +37,38 @@ public class BackgroundChanger : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.B)){
 
-			//go to night map
-			StartCoroutine(FadeTo(0.0f, 1.75f));
-
-			//set GameMaster to darkmode
-			GM.isDark = true;
-
-			//turn characters lights on
-			foreach (Character character in GM.CHARACTERS) {
-                if(character != null)
-				    character.activateLight();
-			}
-
-            //set items to night mode
-            items.setDarkMode();
-
-            //set background animations to night mode
-            bgAnimList = GameObject.FindGameObjectsWithTag("BackgroundAnim");
-            foreach (GameObject bgAnim in bgAnimList)
-            {
-                if(bgAnim != null)
-                    bgAnim.gameObject.GetComponent<Animator>().SetBool("night", true);
-            }
+			goDark();
 
 
         }
         if (Input.GetKeyDown(KeyCode.T)){
 			StartCoroutine(TrapFadeTo(1.0f, 0.25f));
 		}
+	}
+
+	public void goDark(){
+		//go to night map
+		StartCoroutine(FadeTo(0.0f, 1.75f));
+		
+		//set GameMaster to darkmode
+		//GM.isDark = true;
+		
+		//turn characters lights on
+		foreach (Character character in GM.CHARACTERS) {
+			if(character != null)
+				character.activateLight();
+		}
+		
+		//set items to night mode
+		items.setDarkMode();
+		
+		//set background animations to night mode
+		//bgAnimList = GameObject.FindGameObjectsWithTag("BackgroundAnim");
+		/*foreach (GameObject bgAnim in bgAnimList)
+		{
+			if(bgAnim != null)
+				bgAnim.gameObject.GetComponent<Animator>().SetBool("night", true);
+		}*/
 	}
 	
 	
