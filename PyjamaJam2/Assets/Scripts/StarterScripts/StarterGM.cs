@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -69,7 +69,7 @@ public class StarterGM : MonoBehaviour {
 
 			Debug.Log ("show instructions");
 			if(instructionsTimer < 0){
-				SceneManager.LoadScene (1);
+				//SceneManager.LoadScene (1);
 				//Application.LoadLevel(1);
 			}
 

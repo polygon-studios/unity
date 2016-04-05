@@ -64,6 +64,16 @@ public class GameMaster:MonoBehaviour
 		if(controllerToChar != null)
 			setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter);
 
+
+		GameObject nightImg = GameObject.Find ("BlackScreen");
+		
+		
+		if (nightImg) {
+			float alpha = nightImg.GetComponent<Renderer>().material.color.a;
+			Color newColor = new Color(1, 1, 1, 0.0f);
+			nightImg.GetComponent<SpriteRenderer>().material.color = newColor;
+			Debug.Log ("Hiding black map");
+		}
 	}
 
 	void Start(){
@@ -106,7 +116,7 @@ public class GameMaster:MonoBehaviour
 		}
 
 		fullGameTimer -= Time.deltaTime;
-		Debug.Log (fullGameTimer);
+		//Debug.Log (fullGameTimer);
 
 		if (fullGameTimer < 0) {
 			Debug.Log("END GAME END GAME");
@@ -114,12 +124,28 @@ public class GameMaster:MonoBehaviour
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
 			countDownText.updateScore (countDownInt);
-
+			StartCoroutine(FadeTo(0.0f, 1.75f))
 		}
 
 		if (countDownTimerVal < 0) {
 			io.endGame(first, second, third, fourth);
 			blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 1f);
+			countDownText.isHidden = true;
+		}
+	}
+
+	IEnumerator FadeTo(float aValue, float aTime)
+	{
+		GameObject nightImg = GameObject.Find ("BlackScreen");;
+		
+		if (nightImg) {
+			float alpha = nightImg.GetComponent<Renderer>().material.color.a;
+			for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+			{
+				Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha,aValue,t));
+				nightImg.GetComponent<Renderer>().material.color = newColor;
+				yield return null;
+			}
 		}
 	}
 
