@@ -10,6 +10,7 @@ public class Item : MonoBehaviour {
 	public Renderer rend;
 	public GameObject itemIconPrefab;
 	public GameObject itemIconRef;
+	public bool isNightOnly;
 	//public Character character;
 
 

@@ -208,11 +208,11 @@ public class Character : MonoBehaviour {
 
 	void updateLatern(){
 		laternScript.updateWithCharData (transform.position.x, transform.position.y);
-        if(laternScript.checkLightBrightness() == false)
+        /*if(laternScript.checkLightBrightness() == false)
         {
             goHome();
             laternScript.resetLight(transform.position.x, transform.position.y);
-        }
+        }*/
 	}
 
     void goHome()

@@ -141,10 +141,25 @@ public class Items : MonoBehaviour {
 				randPosIsUnique = true;
 		}
 
+		//generate normal item
         if (itemToUse == null && prefabsToChoose != null)
         {
-            int randItem = Random.Range(0, prefabsToChoose.Count);
-			return( (GameObject)Instantiate(prefabsToChoose[randItem], new Vector3(possibleItemPositions[randPos].x, possibleItemPositions[randPos].y, -8), Quaternion.identity));
+			GameObject itemGenerated = new GameObject();
+			//don't generate night items during the day
+			if (isDark == false) {
+				bool isDayObj = false;
+				int randItem = 0;
+				while (isDayObj == false) {
+					randItem = Random.Range (0, prefabsToChoose.Count);
+					isDayObj = !prefabsToChoose [randItem].gameObject.GetComponent<Item> ().isNightOnly;
+				}
+
+				return ((GameObject)Instantiate (prefabsToChoose [randItem], new Vector3 (possibleItemPositions [randPos].x, possibleItemPositions [randPos].y, -8), Quaternion.identity));
+			} else {
+				int randItem = Random.Range (0, prefabsToChoose.Count);
+				itemGenerated = (GameObject)Instantiate (prefabsToChoose [randItem], new Vector3 (possibleItemPositions [randPos].x, possibleItemPositions [randPos].y, -8), Quaternion.identity);
+				return(itemGenerated);
+			}
         }
         else if (itemToUse != null)
         {

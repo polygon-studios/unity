@@ -3,11 +3,11 @@ using System.Collections;
 
 public class Latern : MonoBehaviour {
 	public bool isActivated = false;
-	Light light;
+	Light light1;
 
 	// Use this for initialization
 	void Start () {
-		light = GetComponent<Light> ();
+		light1 = GetComponent<Light> ();
 	}
 
 	// Update is called once per frame
@@ -17,41 +17,49 @@ public class Latern : MonoBehaviour {
 
 	public void activateLatern(){
 		//start latern
-		light.range = 40;
+		light1.range = 40;
 		isActivated = true;
 
 	}
 
 	public void updateWithCharData(float xPos, float yPos){
-		Vector3 newPos = new Vector3(xPos, yPos, gameObject.transform.position.z + 0.003f);
-		gameObject.transform.position = newPos;
+		Vector3 newPos = new Vector3(xPos, yPos, gameObject.transform.position.z);
 
-        light.range -= 0.0005f;
-        light.intensity -= 0.0004f;
+		Debug.Log (light1.intensity + "  " + gameObject.transform.position.z + "     " + light1.range);
+		if ((light1.intensity > 0.75 && gameObject.transform.position.z < -1.5f && light1.range > 38)) {
+
+			light1.range -= 0.002f; //  0.0005f
+			light1.intensity -= 0.0016f; //0.0004f
+			newPos = new Vector3(xPos, yPos, gameObject.transform.position.z + 0.012f); //0.003f
+
+
+		}
+
+		gameObject.transform.position = newPos;
     }
 
-    public bool checkLightBrightness()
+   /* public bool checkLightBrightness()
     {
-        if(light.range < 7 || light.intensity < 0.01 || gameObject.transform.position.z > -0.5f)
+		if(light1.range < 7 || light1.intensity < 0.01 || gameObject.transform.position.z > -0.5f)
         {
             Debug.Log("LOW");
             return false;
         }
         return true;
-    }
+    }*/
 
     public void resetLight(float xPos, float yPos)
     {
-        light.range = 30;
-        light.intensity = 1.75f;
+		light1.range = 30;
+		light1.intensity = 1.75f;
         Vector3 newPos = new Vector3(xPos, yPos, -6f);
         gameObject.transform.position = newPos;
     }
 
 	public void lightBoost(){
-		light.range += 16f;
-		if(light.intensity < 2f)
-			light.intensity += 0.25f;
+		light1.range += 16f;
+		if(light1.intensity < 2f)
+			light1.intensity += 0.25f;
 
         Vector3 newPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z - 2.5f);
         gameObject.transform.position = newPos;
