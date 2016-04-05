@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FireworkLight.cs" />
      <Compile Include="Assets\JSON\JSONObject.cs" />
      <Compile Include="Assets\JSON\JSONTemplates.cs" />
      <Compile Include="Assets\JSON\VectorTemplates.cs" />
@@ -56,15 +55,19 @@
      <Compile Include="Assets\Scripts\BackgroundChanger.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\Collision.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\Enemies\Charles.cs" />
      <Compile Include="Assets\Scripts\Enemies\Dug.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Rock.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Wanderer.cs" />
      <Compile Include="Assets\Scripts\GameMaster.cs" />
      <Compile Include="Assets\Scripts\InvertCamera.cs" />
      <Compile Include="Assets\Scripts\Items\Chili.cs" />
      <Compile Include="Assets\Scripts\Items\Coin.cs" />
      <Compile Include="Assets\Scripts\Items\Firework.cs" />
      <Compile Include="Assets\Scripts\Items\FireworkController.cs" />
+     <Compile Include="Assets\Scripts\Items\FireworkLight.cs" />
      <Compile Include="Assets\Scripts\Items\Fish.cs" />
      <Compile Include="Assets\Scripts\Items\GhostItem.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
@@ -81,11 +84,14 @@
      <Compile Include="Assets\Scripts\Networking\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\Networking\SpoutSender.cs" />
      <Compile Include="Assets\Scripts\ScoreText.cs" />
+     <Compile Include="Assets\Scripts\StarterScripts\CharacterForSelection.cs" />
      <Compile Include="Assets\Scripts\StarterScripts\CharacterSelector.cs" />
+     <Compile Include="Assets\Scripts\StarterScripts\IconBackground.cs" />
      <Compile Include="Assets\Scripts\StarterScripts\StarterGM.cs" />
      <Compile Include="Assets\Scripts\TextureInfo.cs" />
      <Compile Include="Assets\Scripts\Traps\Trap.cs" />
      <Compile Include="Assets\Scripts\Traps\Traps.cs" />
+     <Compile Include="Assets\Scripts\VFXJump.cs" />
      <Compile Include="Assets\Scripts\VideoController.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Ack.cs" />
      <Compile Include="Assets\SocketIO\Scripts\SocketIO\Decoder.cs" />
@@ -166,6 +172,8 @@
      <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketStream.cs" />
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\link.xml" />
+     <None Include="Assets\Shaders\DiffuseTransparency.shader" />
+     <None Include="Assets\Shaders\AlphaIgnore.shader" />
      <None Include="Assets\SocketIO\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour {
 
 		fillArrayPositions ();
 		currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
+        currentEnemies.Add(generateEnemy(gruntPositions, enemyPrefs, 2));
 		currentEnemies.Add(generateEnemy(charlesPositions, enemyPrefs, 1));
 	}
 	
@@ -47,7 +48,7 @@ public class Enemy : MonoBehaviour {
 				if(charlesExists){
 					int chooseEnemy;
 
-					chooseEnemy = Random.Range (0,1);
+					chooseEnemy = Random.Range (0,2);
 					if(chooseEnemy == 0){
                 		currentEnemies.Add(generateEnemy(dugPositions, enemyPrefs, 0));
 					}
@@ -57,6 +58,7 @@ public class Enemy : MonoBehaviour {
 				}else {
 					currentEnemies.Add(generateEnemy(charlesPositions, enemyPrefs, 1));
 				}
+                Debug.Log("Less than 3!");
             }
 		}
 	

@@ -19,8 +19,13 @@ public class GameMaster:MonoBehaviour
 	public GameObject bearCanvas;
 	public GameObject rabbitCanvas;
 	public GameObject countDownTimerCanvas;
+	public BackgroundChanger backgroundChanger;
+	public GameObject blackScreen;
 
 	public SocketIOLogic io;
+
+	float nightTimer = 210f;
+	float fullGameTimer = 420f;
 
 	string first;
 	string second;
@@ -37,7 +42,6 @@ public class GameMaster:MonoBehaviour
 	int skunkScore;
 	int bearScore;
 	int rabbitScore;
-	float timer = 30;
 	bool gameOver;
 
 	float countDownTimerVal = 20f;
@@ -60,6 +64,16 @@ public class GameMaster:MonoBehaviour
 		if(controllerToChar != null)
 			setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter);
 
+
+		GameObject nightImg = GameObject.Find ("BlackScreen");
+		
+		
+		if (nightImg) {
+			float alpha = nightImg.GetComponent<Renderer>().material.color.a;
+			Color newColor = new Color(1, 1, 1, 0.0f);
+			nightImg.GetComponent<SpriteRenderer>().material.color = newColor;
+			Debug.Log ("Hiding black map");
+		}
 	}
 
 	void Start(){
@@ -69,6 +83,8 @@ public class GameMaster:MonoBehaviour
 		bearScore = 0;
 		rabbitScore = 0;
 
+		blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 0f);
+
 		foxText = foxCanvas.GetComponent<ScoreText> ();
 		skunkText = skunkCanvas.GetComponent<ScoreText> ();
 		bearText = bearCanvas.GetComponent<ScoreText> ();
@@ -77,21 +93,59 @@ public class GameMaster:MonoBehaviour
 		countDownText = countDownTimerCanvas.GetComponent<ScoreText> ();
 
 		countDownText.isHidden = true;
+
+
 	}
 
 	void Update(){
 
-		timer -= Time.deltaTime;
+
+		if (isDark == false) {
+			nightTimer -= Time.deltaTime;
+		}
 
 		if (Input.GetKeyDown ("space")) {
 			io.endGame (first, second, third, fourth);
 			Debug.Log ("TRYING TO SEND ENDGAME");
 		}
-		if (timer < 0) {
+
+		if (nightTimer < 0) {
+
+			backgroundChanger.goDark();
+			isDark = true;
+		}
+
+		fullGameTimer -= Time.deltaTime;
+		//Debug.Log (fullGameTimer);
+
+		if (fullGameTimer < 0) {
+			Debug.Log("END GAME END GAME");
 			countDownText.isHidden = false;
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
 			countDownText.updateScore (countDownInt);
+			StartCoroutine(FadeTo(0.0f, 1.75f))
+		}
+
+		if (countDownTimerVal < 0) {
+			io.endGame(first, second, third, fourth);
+			blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 1f);
+			countDownText.isHidden = true;
+		}
+	}
+
+	IEnumerator FadeTo(float aValue, float aTime)
+	{
+		GameObject nightImg = GameObject.Find ("BlackScreen");;
+		
+		if (nightImg) {
+			float alpha = nightImg.GetComponent<Renderer>().material.color.a;
+			for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+			{
+				Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha,aValue,t));
+				nightImg.GetComponent<Renderer>().material.color = newColor;
+				yield return null;
+			}
 		}
 	}
 
