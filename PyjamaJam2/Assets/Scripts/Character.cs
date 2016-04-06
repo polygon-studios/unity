@@ -50,10 +50,11 @@ public class Character : MonoBehaviour {
     float scoreTimer = 10;
     float fishTimer = 10;
     bool isFished;
+	bool isCollidingWithItem = false;
+
+	bool isDark;
 
 	List<GameObject> jailDoors = new List<GameObject>();
-    
-    bool isDark;
 
     //audio
     public AudioClip audioEffectJump;
@@ -229,7 +230,7 @@ public class Character : MonoBehaviour {
 			if(item.beenTriggered == true){
 				item.doUpdate();
 			}
-			else if(Input.GetKey(inputItem) || Input.GetButtonDown(playerName + controllerNumber + controllerX)){
+			else if((Input.GetKey(inputItem) || Input.GetButtonDown(playerName + controllerNumber + controllerX)) && isCollidingWithItem == false){
 				itemDebounceTimer -= Time.deltaTime;
 				
 				if (itemDebounceTimer < 0f) {
@@ -257,7 +258,7 @@ public class Character : MonoBehaviour {
         items.AddRange(gameMaster.lev2ItemsCurrent);
         items.AddRange(gameMaster.lev3ItemsCurrent);
         items.AddRange(gameMaster.currentOil);
-
+		isCollidingWithItem = false;
 
         if (items != null){
 			foreach(GameObject eItem in items)
@@ -268,6 +269,7 @@ public class Character : MonoBehaviour {
 					if (itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y) {
 						//Debug.Log (eItem.name + " item near character: " + this.name);
 						doCollision (eItem);
+						isCollidingWithItem = true;
 					}
 				}
 
@@ -286,7 +288,9 @@ public class Character : MonoBehaviour {
 
 	void doCollision(GameObject objectHit){
 		if(Input.GetKey(inputItem) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
-			Item item2 = null; // make temp item to hold new one
+			if (item != null)
+				item.unusedItemCheck ();
+			//Item item2 = null; // make temp item to hold new one
 
 
 				itemDebounceTimer = itemDebounceTimerSaveTime;       
@@ -295,50 +299,50 @@ public class Character : MonoBehaviour {
 					chili.initVariables (this.gameObject.GetComponent<Character> ());
 					chili.Hide();
 					
-				item2 = chili;
+				item = chili;
 				}else if (objectHit.gameObject.GetComponent<Fish> () != null) {
 					Fish fish = objectHit.gameObject.GetComponent<Fish> ();
 					fish.initVariables (this.gameObject.GetComponent<Character> ());
 					fish.Hide ();
 					
-				item2 = fish;
+				item = fish;
 				}else if (objectHit.gameObject.GetComponent<GhostItem> () != null) {
 					GhostItem ghost = objectHit.gameObject.GetComponent<GhostItem> ();
 					ghost.initVariables (this.gameObject.GetComponent<Character> ());
 					ghost.Hide ();
 					
-				item2 = ghost;
+				item = ghost;
 				} else if (objectHit.gameObject.GetComponent<OilLatern> () != null) {
 					OilLatern oil = objectHit.gameObject.GetComponent<OilLatern> ();
 					oil.initVariables (this.gameObject.GetComponent<Character> ());
 					oil.Hide ();
 					
-				item2 = oil;
+				item = oil;
 				}else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
 					Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
 					pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
 					pinwheel.Hide ();
 					
-				item2 = pinwheel;
+				item = pinwheel;
 				} else if (objectHit.gameObject.GetComponent<Prune> () != null) {
 					//requires other multiplayer prior to coding
 					Prune prune = objectHit.gameObject.GetComponent<Prune>();
 					prune.initVariables (this.gameObject.GetComponent<Character> ());
 					prune.Hide();
 					
-				item2 = prune;
+				item = prune;
 				} else if (objectHit.gameObject.GetComponent<Slippers> () != null) {
 					Slippers slippers = objectHit.gameObject.GetComponent<Slippers> ();
 					slippers.initVariables (this.gameObject.GetComponent<Character> ());
 					slippers.Hide ();
 					
-				item2 = slippers;
+				item = slippers;
 				} else if (objectHit.gameObject.GetComponent<TreasureChest> () != null) {
 					TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest> ();
 					treasure.initVariables (this.gameObject.GetComponent<Character> ());
 					treasure.Hide ();
 					
-				item2 = treasure;
+				item = treasure;
 				}
                 else if (objectHit.gameObject.GetComponent<Firework>() != null)
                 {
@@ -346,20 +350,20 @@ public class Character : MonoBehaviour {
                     firework.initVariables(this.gameObject.GetComponent<Character>());
 				firework.Hide();
 
-				item2 = firework;
+				item = firework;
                 }
 
             AudioSource audio = GetComponent<AudioSource>();
                 audio.PlayOneShot(audioEffectItemPickup, 0.2f);
 
-
+			/*
 			//check if the character is already holding an item. If they do, remove that item before taking a new one
 			if (item != null)
-				item.DestroySelf ();
+				item.unusedItemCheck ();
 			
 			//set current holding item to the temp one
 			item = item2;
-
+			*/
 			}
 
 

@@ -14,6 +14,10 @@ public class Fish : Item {
 	// Update is called once per frame
 	protected override void Update () {
 		base.Update ();
+
+		if (base.beenTriggered == true) {
+			updateTrigger ();
+		}
 	}
 	
 	public void initVariables(Character currCharacter){

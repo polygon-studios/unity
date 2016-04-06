@@ -105,4 +105,10 @@ public class Item : MonoBehaviour {
 		float radius = rend.bounds.extents.magnitude;
 		return radius;
 	}
+
+	public void unusedItemCheck(){
+		if (beenTriggered == false) {
+			DestroySelf ();
+		}
+	}
 }
