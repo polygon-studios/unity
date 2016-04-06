@@ -38,7 +38,6 @@ public class Slippers : Item{
 
    		if (timer < 0) {
 			this.character.animator.SetBool ("slippers", false);
-			base.allItems.removeItemFromArray(this.gameObject);
 			Reset();
 			base.DestroySelf();
 			Destroy(this.gameObject);

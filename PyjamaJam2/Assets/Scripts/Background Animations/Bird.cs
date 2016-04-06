@@ -7,12 +7,13 @@ public class Bird : MonoBehaviour {
 
     GameObject[] targetsList;
 
-    float timeLeft = Random.Range(0, 30);
+	float timeLeft;
 
     // Use this for initialization
     void Start () {
         targetsList = GameObject.FindGameObjectsWithTag("BirdTarget");
         generateTarget();
+		timeLeft = Random.Range (0, 30);
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class Bird : MonoBehaviour {
 
         this.transform.position = Vector3.MoveTowards(transform.position, target.position, step);
 
-        Vector3 pos = this.transform.position;
+       // Vector3 pos = this.transform.position;
 
         if (Vector3.Distance(transform.position, target.position) < 0.1f)
         {

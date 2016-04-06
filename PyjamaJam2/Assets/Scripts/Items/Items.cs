@@ -18,8 +18,8 @@ public class Items : MonoBehaviour {
 	public GameMaster GM;
 
 	int maxEasyItemsInScene = 5; //5
-	int maxMedItemsInScene = 0;//6
-	int maxHardItemsInScene = 0;//4
+	int maxMedItemsInScene = 6;//6
+	int maxHardItemsInScene = 4;//4
 
     int maxOilInArea = 7;
     bool isDark = false;

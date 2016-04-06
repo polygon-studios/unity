@@ -9,7 +9,7 @@ public class CloudMove : MonoBehaviour
 
     GameObject[] targetsList;
 
-    float timeLeft = Random.Range(0, 30);
+    float timeLeft;
 
     // Use this for initialization
     void Start()
@@ -17,6 +17,7 @@ public class CloudMove : MonoBehaviour
         targetsList = GameObject.FindGameObjectsWithTag("CloudTarget");
         generateTarget();
         speed = Random.Range(0.1f, 0.5f);
+		timeLeft = Random.Range (0f, 30f);
     }
 
     // Update is called once per frame
@@ -34,19 +35,19 @@ public class CloudMove : MonoBehaviour
             if (timeLeft < 0)
             {
                 resetCloud();
-                timeLeft = Random.Range(0, 30);
+                timeLeft = Random.Range(0f, 30f);
             }
         }
     }
 
     void generateTarget()
     {
-        target = targetsList[Random.Range(0, targetsList.Length)].transform;
+		target = targetsList[Random.Range(0, targetsList.Length)].transform;
     }
 
     void resetCloud()
     {
-        Vector3 newPos = new Vector3(32, Random.Range(4, 6), 0.1f);
+        Vector3 newPos = new Vector3(32f, Random.Range(4f, 6f), 0.1f);
         transform.position = newPos;
         generateTarget();
         speed = Random.Range(0.1f, 0.5f);

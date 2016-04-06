@@ -33,6 +33,10 @@ public class Firework : Item {
 		endTimer -= Time.deltaTime;
 		timerInterval -= Time.deltaTime;
 		totalIntervalTimer -= Time.deltaTime;
+
+		/*AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+		AudioClip audioEffectFirework = (AudioClip)Resources.Load("Fireworks") as AudioClip;
+		audioSource.PlayOneShot(audioEffectFirework, 0.9f);*/
 	}
 	
 	void updateTrigger(){
@@ -46,16 +50,13 @@ public class Firework : Item {
 
 			GameObject firework = (GameObject)Instantiate (fireworks[Random.Range(0, fireworks.Count)], new Vector3 (xPosition, yPosition, 0), Quaternion.identity);
             
-            AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-            AudioClip audioEffectFirework = (AudioClip)Resources.Load("Firework") as AudioClip;
-            audioSource.PlayOneShot(audioEffectFirework, 0.9f);
+            
 
 
 			timerInterval = 0.5f;
 		}
 
 		if (endTimer < 0) {
-			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);
 

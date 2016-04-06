@@ -286,7 +286,7 @@ public class Character : MonoBehaviour {
 
 	void doCollision(GameObject objectHit){
 		if(Input.GetKey(inputItem) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
-			Item item2 = new Item(); // make temp item to hold new one
+			Item item2 = null; // make temp item to hold new one
 
 
 				itemDebounceTimer = itemDebounceTimerSaveTime;       

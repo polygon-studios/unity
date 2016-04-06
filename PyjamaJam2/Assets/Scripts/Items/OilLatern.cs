@@ -28,7 +28,6 @@ public class OilLatern : Item {
 		Latern laternScript = character.latern.GetComponent<Latern> ();
 		laternScript.lightBoost ();
 
-		base.allItems.removeItemFromArray(this.gameObject);
 		base.DestroySelf();
 		Destroy(this.gameObject);
 	}

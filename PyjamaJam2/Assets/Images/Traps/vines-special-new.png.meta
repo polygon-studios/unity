@@ -1,19 +1,19 @@
 fileFormatVersion: 2
 guid: e2d61378bc20a4c529189deffe886097
-timeCreated: 1459527915
+timeCreated: 1459965794
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: vines-special-new_0
+    21300000: vines-special-new_2
     21300002: vines-special-new_1
-    21300004: vines-special-new_2
-    21300006: vines-special-new_3
-    21300008: vines-special-new_4
-    21300010: vines-special-new_5
-    21300012: vines-special-new_6
-    21300014: vines-special-new_7
-    21300016: vines-special-new_8
-    21300018: vines-special-new_9
+    21300004: vines-special-new_3
+    21300006: vines-special-new_6
+    21300008: vines-special-new_5
+    21300010: vines-special-new_7
+    21300012: vines-special-new_8
+    21300014: vines-special-new_9
+    21300016: vines-special-new_4
+    21300018: vines-special-new_11
     21300020: vines-special-new_10
   serializedVersion: 2
   mipmaps:
@@ -28,7 +28,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -53,7 +53,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -61,7 +61,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: vines-special-new_0
+    - name: vines-special-new_2
       rect:
         serializedVersion: 2
         x: 569
@@ -69,8 +69,23 @@ TextureImporter:
         width: 564
         height: 519
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: -92}
+        - {x: 29, y: -88}
+        - {x: 16, y: -89}
+        - {x: -10, y: -52}
+        - {x: -137, y: -52}
+        - {x: -141, y: -100}
+        - {x: -141, y: -130}
+        - {x: 142, y: -130}
+        - {x: 142, y: -107}
+        - {x: 96, y: -52}
+      - - {x: -141, y: 130}
+        - {x: -141, y: 118}
+        - {x: 142, y: 118}
+        - {x: 142, y: 130}
     - name: vines-special-new_1
       rect:
         serializedVersion: 2
@@ -79,9 +94,22 @@ TextureImporter:
         width: 566
         height: 526
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_2
+      outline:
+      - - {x: 84.5, y: -92.5}
+        - {x: 3.5, y: -51.5}
+        - {x: -36.5, y: -51.5}
+        - {x: -141.5, y: -96.5}
+        - {x: -141.5, y: -131.5}
+        - {x: 141.5, y: -131.5}
+        - {x: 141.5, y: -105.5}
+        - {x: 94.5, y: -86.5}
+      - - {x: -141.5, y: 132.5}
+        - {x: -141.5, y: 120.5}
+        - {x: 141.5, y: 120.5}
+        - {x: 141.5, y: 132.5}
+    - name: vines-special-new_3
       rect:
         serializedVersion: 2
         x: 1148
@@ -89,9 +117,20 @@ TextureImporter:
         width: 551
         height: 519
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_3
+      outline:
+      - - {x: -134, y: -7.5}
+        - {x: -138, y: -10.5}
+        - {x: -138, y: -129.5}
+        - {x: 125, y: -129.5}
+        - {x: 125, y: -7.5}
+      - - {x: -138, y: 130.5}
+        - {x: -138, y: 118.5}
+        - {x: 123, y: 118.5}
+        - {x: 125, y: 120.5}
+        - {x: 125, y: 130.5}
+    - name: vines-special-new_6
       rect:
         serializedVersion: 2
         x: 1144
@@ -99,9 +138,33 @@ TextureImporter:
         width: 554
         height: 549
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_4
+      outline:
+      - - {x: -138.5, y: -137}
+        - {x: -135.5, y: -137}
+        - {x: -135.5, y: -117}
+        - {x: -137.5, y: -115}
+        - {x: -138.5, y: -115}
+      - - {x: 91.5, y: 79}
+        - {x: 89.5, y: 78}
+        - {x: 79.5, y: 70}
+        - {x: 72.5, y: 10}
+        - {x: 11.5, y: 79}
+        - {x: -122.5, y: 79}
+        - {x: -138.5, y: 74}
+        - {x: -138.5, y: -110}
+        - {x: -135.5, y: -137}
+        - {x: 138.5, y: -137}
+        - {x: 138.5, y: 71}
+        - {x: 102.5, y: 79}
+      - - {x: -138.5, y: 138}
+        - {x: -138.5, y: 113}
+        - {x: -135.5, y: 114}
+        - {x: -132.5, y: 112}
+        - {x: 138.5, y: 112}
+        - {x: 138.5, y: 138}
+    - name: vines-special-new_5
       rect:
         serializedVersion: 2
         x: 575
@@ -109,9 +172,37 @@ TextureImporter:
         width: 561
         height: 537
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_5
+      outline:
+      - - {x: 93, y: 23}
+        - {x: 65, y: 47}
+        - {x: -22, y: 47}
+        - {x: -48, y: -12}
+        - {x: -49, y: -15}
+        - {x: -47, y: -23}
+        - {x: -85, y: 29}
+        - {x: -106, y: 32}
+        - {x: -109, y: 31}
+        - {x: -113, y: 31}
+        - {x: -121, y: 30}
+        - {x: -126, y: 18}
+        - {x: -140, y: 8}
+        - {x: -140, y: 2}
+        - {x: -138, y: 1}
+        - {x: -126, y: -31}
+        - {x: -140, y: -115}
+        - {x: -140, y: -118}
+        - {x: -135, y: -134}
+        - {x: 141, y: -134}
+        - {x: 141, y: 11}
+        - {x: 119, y: 35}
+      - - {x: -135, y: 135}
+        - {x: -135, y: 113}
+        - {x: -132, y: 110}
+        - {x: 141, y: 110}
+        - {x: 141, y: 135}
+    - name: vines-special-new_7
       rect:
         serializedVersion: 2
         x: 0
@@ -119,9 +210,35 @@ TextureImporter:
         width: 553
         height: 564
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_6
+      outline:
+      - - {x: 125.5, y: -60}
+        - {x: 137.5, y: 5}
+        - {x: 132.5, y: 109}
+        - {x: 129.5, y: 111}
+        - {x: 126.5, y: 108}
+        - {x: 119.5, y: 95}
+        - {x: 77.5, y: 108}
+        - {x: 138.5, y: 112}
+        - {x: 138.5, y: 141}
+        - {x: -134.5, y: 141}
+        - {x: -138.5, y: 139}
+        - {x: -138.5, y: 112}
+        - {x: -84.5, y: 112}
+        - {x: -88.5, y: 107}
+        - {x: -123.5, y: 111}
+        - {x: -132.5, y: 111}
+        - {x: -138.5, y: 20}
+        - {x: -138.5, y: 2}
+        - {x: -126.5, y: -69}
+        - {x: -97.5, y: -76}
+        - {x: -138.5, y: -114}
+        - {x: -138.5, y: -141}
+        - {x: 138.5, y: -141}
+        - {x: 138.5, y: -114}
+        - {x: 89.5, y: -108}
+    - name: vines-special-new_8
       rect:
         serializedVersion: 2
         x: 556
@@ -129,9 +246,33 @@ TextureImporter:
         width: 569
         height: 563
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_7
+      outline:
+      - - {x: 121.5, y: -60.5}
+        - {x: 132.5, y: 9.5}
+        - {x: 115.5, y: 50.5}
+        - {x: 128.5, y: 91.5}
+        - {x: 129.5, y: 110.5}
+        - {x: 126.5, y: 111.5}
+        - {x: 123.5, y: 110.5}
+        - {x: 106.5, y: 89.5}
+        - {x: 30.5, y: 112.5}
+        - {x: 142.5, y: 112.5}
+        - {x: 142.5, y: 141.5}
+        - {x: -142.5, y: 141.5}
+        - {x: -142.5, y: 112.5}
+        - {x: -136.5, y: 111.5}
+        - {x: -138.5, y: 9.5}
+        - {x: -124.5, y: -64.5}
+        - {x: -116.5, y: -68.5}
+        - {x: -89.5, y: -108.5}
+        - {x: -142.5, y: -113.5}
+        - {x: -142.5, y: -140.5}
+        - {x: 142.5, y: -140.5}
+        - {x: 142.5, y: -113.5}
+        - {x: 87.5, y: -112.5}
+    - name: vines-special-new_9
       rect:
         serializedVersion: 2
         x: 1107
@@ -139,9 +280,33 @@ TextureImporter:
         width: 573
         height: 563
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_8
+      outline:
+      - - {x: 144, y: 54.5}
+        - {x: 133, y: 110.5}
+        - {x: 129, y: 111.5}
+        - {x: 126, y: 108.5}
+        - {x: 124, y: 105.5}
+        - {x: 86, y: 106.5}
+        - {x: 54, y: 106.5}
+        - {x: 35, y: 104.5}
+        - {x: 139, y: 112.5}
+        - {x: 141, y: 114.5}
+        - {x: 144, y: 133.5}
+        - {x: 144, y: 141.5}
+        - {x: -143, y: 141.5}
+        - {x: -143, y: 112.5}
+        - {x: -17, y: 105.5}
+        - {x: -47, y: 105.5}
+        - {x: -100, y: 109.5}
+        - {x: -134, y: 111.5}
+        - {x: -143, y: 57.5}
+        - {x: -143, y: -140.5}
+        - {x: 140, y: -140.5}
+        - {x: 141, y: -138.5}
+        - {x: 144, y: -113.5}
+    - name: vines-special-new_4
       rect:
         serializedVersion: 2
         x: 0
@@ -149,9 +314,34 @@ TextureImporter:
         width: 563
         height: 545
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: vines-special-new_9
+      outline:
+      - - {x: 104, y: 5}
+        - {x: 66, y: 12}
+        - {x: 59, y: 14}
+        - {x: -32, y: 14}
+        - {x: -44, y: -41}
+        - {x: -42, y: -46}
+        - {x: -27, y: -55}
+        - {x: -68, y: -67}
+        - {x: -89, y: -5}
+        - {x: -103, y: 7}
+        - {x: -122, y: 7}
+        - {x: -135, y: 1}
+        - {x: -141, y: -15}
+        - {x: -141, y: -77}
+        - {x: -136, y: -136}
+        - {x: 141, y: -136}
+        - {x: 141, y: 5}
+        - {x: 120, y: 11}
+      - - {x: -141, y: 137}
+        - {x: -141, y: 132}
+        - {x: -136, y: 114}
+        - {x: -133, y: 111}
+        - {x: 141, y: 111}
+        - {x: 141, y: 137}
+    - name: vines-special-new_11
       rect:
         serializedVersion: 2
         x: 558
@@ -159,8 +349,37 @@ TextureImporter:
         width: 561
         height: 546
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.5, y: -65.5}
+        - {x: 133.5, y: -7.5}
+        - {x: 137.5, y: 96.5}
+        - {x: 131.5, y: 98.5}
+        - {x: 124.5, y: 119.5}
+        - {x: 117.5, y: 121.5}
+        - {x: 140.5, y: 121.5}
+        - {x: 140.5, y: 136.5}
+        - {x: -138.5, y: 136.5}
+        - {x: -140.5, y: 129.5}
+        - {x: -140.5, y: 121.5}
+        - {x: -95.5, y: 118.5}
+        - {x: -125.5, y: 120.5}
+        - {x: -128.5, y: 119.5}
+        - {x: -128.5, y: 112.5}
+        - {x: -140.5, y: 102.5}
+        - {x: -140.5, y: -13.5}
+        - {x: -118.5, y: -55.5}
+        - {x: -91.5, y: -75.5}
+        - {x: -81.5, y: -101.5}
+        - {x: -138.5, y: -101.5}
+        - {x: -140.5, y: -122.5}
+        - {x: -140.5, y: -131.5}
+        - {x: -51.5, y: -133.5}
+        - {x: 75.5, y: -133.5}
+        - {x: 140.5, y: -131.5}
+        - {x: 140.5, y: -104.5}
+        - {x: 88.5, y: -66.5}
     - name: vines-special-new_10
       rect:
         serializedVersion: 2
@@ -169,8 +388,35 @@ TextureImporter:
         width: 552
         height: 525
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -49.5}
+        - {x: 138, y: 14.5}
+        - {x: 138, y: 18.5}
+        - {x: 135, y: 121.5}
+        - {x: 130, y: 121.5}
+        - {x: 127, y: 119.5}
+        - {x: 52, y: 122.5}
+        - {x: 138, y: 122.5}
+        - {x: 138, y: 131.5}
+        - {x: -138, y: 131.5}
+        - {x: -138, y: 122.5}
+        - {x: -68, y: 116.5}
+        - {x: -98, y: 104.5}
+        - {x: -124, y: 120.5}
+        - {x: -127, y: 121.5}
+        - {x: -131, y: 120.5}
+        - {x: -136, y: 0.5}
+        - {x: -122, y: -55.5}
+        - {x: -138, y: -101.5}
+        - {x: -138, y: -130.5}
+        - {x: -74, y: -131.5}
+        - {x: 92, y: -131.5}
+        - {x: 138, y: -130.5}
+        - {x: 138, y: -103.5}
+        - {x: 91, y: -93.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

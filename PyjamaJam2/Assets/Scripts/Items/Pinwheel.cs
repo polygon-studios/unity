@@ -62,11 +62,10 @@ public class Pinwheel : Item {
 	}
 	void updateTrigger(){
 		timer -= Time.deltaTime;
-		Debug.Log ("YES");
+		Debug.Log ("timer: " + timer);
 		if (timer < 0) {
 			Destroy(wind1);
 			Destroy(wind2);
-			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);
 		}

@@ -6,7 +6,7 @@ public class GhostItem : Item {
 
     public AudioClip audioEffectCharacterAsGhost;
 
-    float timer = 20; 
+    float timer = 20f; 
 	Character character;
 	//Character characters[];//holds all other characters
 	

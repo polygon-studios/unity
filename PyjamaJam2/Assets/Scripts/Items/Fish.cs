@@ -37,7 +37,6 @@ public class Fish : Item {
     }
     void updateTrigger()
     {
-        base.allItems.removeItemFromArray(this.gameObject);
         base.DestroySelf();
         Destroy(this.gameObject);
         
