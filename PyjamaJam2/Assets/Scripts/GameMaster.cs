@@ -124,7 +124,7 @@ public class GameMaster:MonoBehaviour
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
 			countDownText.updateScore (countDownInt);
-			StartCoroutine(FadeTo(0.0f, 1.75f))
+			StartCoroutine(FadeTo(0.0f, 1.75f));
 		}
 
 		if (countDownTimerVal < 0) {
