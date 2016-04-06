@@ -25,12 +25,12 @@ public class Latern : MonoBehaviour {
 	public void updateWithCharData(float xPos, float yPos){
 		Vector3 newPos = new Vector3(xPos, yPos, gameObject.transform.position.z);
 
-		Debug.Log (light1.intensity + "  " + gameObject.transform.position.z + "     " + light1.range);
-		if ((light1.intensity > 0.75 && gameObject.transform.position.z < -1.5f && light1.range > 38)) {
+		//Debug.Log (light1.intensity + "  " + gameObject.transform.position.z + "     " + light1.range);
+		if ((light1.intensity > 0.7 && gameObject.transform.position.z < -1.2f && light1.range > 37)) {
 
-			light1.range -= 0.002f; //  0.0005f
-			light1.intensity -= 0.0016f; //0.0004f
-			newPos = new Vector3(xPos, yPos, gameObject.transform.position.z + 0.012f); //0.003f
+			light1.range -=  0.0005f; //  0.0005f
+			light1.intensity -= 0.0004f; //0.0004f
+			newPos = new Vector3(xPos, yPos, gameObject.transform.position.z + 0.003f); //0.003f
 
 
 		}

@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Character : MonoBehaviour {
-	
-	public Items gameMaster;
+	public GameObject GM;
+	public Items gameMaster; //bad name but can't change, or things break. my bad! 
 	public SocketIOLogic io;
 	
     // Controller variables
@@ -41,7 +41,7 @@ public class Character : MonoBehaviour {
 
     // Item variables
     public GameObject latern;
-	public GameObject GM;
+	Item item; //holds item
 	float itemDebounceTimerSaveTime = 0.03f; //seconds
     float itemDebounceTimer;
 	Latern laternScript;
@@ -73,7 +73,7 @@ public class Character : MonoBehaviour {
 	public Animator animator;
 	Rigidbody2D rigidbody;
 	Renderer rend;
-	Item item; //holds item
+
 
 	
 	Vector3 lastPosition = Vector3.zero;
@@ -262,11 +262,13 @@ public class Character : MonoBehaviour {
         if (items != null){
 			foreach(GameObject eItem in items)
 			{
-				float itemX = eItem.transform.position.x;
-				float itemY = eItem.transform.position.y;
-				if(itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y){
-					//Debug.Log (eItem.name + " item near character: " + this.name);
-					doCollision (eItem);
+				if (eItem != null) {
+					float itemX = eItem.transform.position.x;
+					float itemY = eItem.transform.position.y;
+					if (itemX + 0.4 > transform.position.x && itemX - 0.4 < transform.position.x && itemY + 0.5 > transform.position.y && itemY - 0.5 < transform.position.y) {
+						//Debug.Log (eItem.name + " item near character: " + this.name);
+						doCollision (eItem);
+					}
 				}
 
 			}
@@ -284,77 +286,83 @@ public class Character : MonoBehaviour {
 
 	void doCollision(GameObject objectHit){
 		if(Input.GetKey(inputItem) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
-               
+			Item item2 = new Item(); // make temp item to hold new one
+
+
 				itemDebounceTimer = itemDebounceTimerSaveTime;       
 				if (objectHit.gameObject.GetComponent<Chili> () != null) {
-
-					//requires other multiplayer prior to coding
-					
 					Chili chili = objectHit.gameObject.GetComponent<Chili>();
 					chili.initVariables (this.gameObject.GetComponent<Character> ());
-					//chili.TriggerEffect(characters[], this.gameObject.GetComponent<Character>()); //requires list of all other characters, and the current one
 					chili.Hide();
 					
-					item = chili;
+				item2 = chili;
 				}else if (objectHit.gameObject.GetComponent<Fish> () != null) {
 					Fish fish = objectHit.gameObject.GetComponent<Fish> ();
 					fish.initVariables (this.gameObject.GetComponent<Character> ());
 					fish.Hide ();
 					
-					item = fish;
+				item2 = fish;
 				}else if (objectHit.gameObject.GetComponent<GhostItem> () != null) {
 					GhostItem ghost = objectHit.gameObject.GetComponent<GhostItem> ();
 					ghost.initVariables (this.gameObject.GetComponent<Character> ());
 					ghost.Hide ();
 					
-					item = ghost;
+				item2 = ghost;
 				} else if (objectHit.gameObject.GetComponent<OilLatern> () != null) {
 					OilLatern oil = objectHit.gameObject.GetComponent<OilLatern> ();
 					oil.initVariables (this.gameObject.GetComponent<Character> ());
 					oil.Hide ();
 					
-					item = oil;
+				item2 = oil;
 				}else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
 					Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
 					pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
 					pinwheel.Hide ();
 					
-					item = pinwheel;
+				item2 = pinwheel;
 				} else if (objectHit.gameObject.GetComponent<Prune> () != null) {
 					//requires other multiplayer prior to coding
 					Prune prune = objectHit.gameObject.GetComponent<Prune>();
 					prune.initVariables (this.gameObject.GetComponent<Character> ());
 					prune.Hide();
 					
-					item = prune;
+				item2 = prune;
 				} else if (objectHit.gameObject.GetComponent<Slippers> () != null) {
 					Slippers slippers = objectHit.gameObject.GetComponent<Slippers> ();
 					slippers.initVariables (this.gameObject.GetComponent<Character> ());
 					slippers.Hide ();
 					
-					item = slippers;
+				item2 = slippers;
 				} else if (objectHit.gameObject.GetComponent<TreasureChest> () != null) {
 					TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest> ();
 					treasure.initVariables (this.gameObject.GetComponent<Character> ());
 					treasure.Hide ();
 					
-					item = treasure;
+				item2 = treasure;
 				}
                 else if (objectHit.gameObject.GetComponent<Firework>() != null)
                 {
                     Firework firework = objectHit.gameObject.GetComponent<Firework>();
                     firework.initVariables(this.gameObject.GetComponent<Character>());
-                    firework.Hide();
+				firework.Hide();
 
-                    item = firework;
-                }/*else{
-					Item newItem = objectHit.gameObject.GetComponent<Item>();
-					newItem.Hide();
-					item = newItem;
-				}*/
+				item2 = firework;
+                }
+
             AudioSource audio = GetComponent<AudioSource>();
                 audio.PlayOneShot(audioEffectItemPickup, 0.2f);
+
+
+			//check if the character is already holding an item. If they do, remove that item before taking a new one
+			if (item != null)
+				item.DestroySelf ();
+			
+			//set current holding item to the temp one
+			item = item2;
+
 			}
+
+
 	}
 
 	void OnTriggerEnter2D(Collider2D objectHit){

@@ -52,7 +52,7 @@ public class GhostItem : Item {
             this.character.invincible = false;
             this.character.animator.SetBool("ghost", false);
             this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
-            base.allItems.removeItemFromArray(this.gameObject);
+            
             base.DestroySelf();
             Destroy(this.gameObject);
         }

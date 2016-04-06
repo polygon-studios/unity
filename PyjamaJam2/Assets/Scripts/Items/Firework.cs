@@ -5,8 +5,9 @@ using System.Collections.Generic;
 public class Firework : Item {
 
     public List<GameObject> fireworks;
-	float timer = 10f; //seconds
-	float timerInterval = 0.2f; //seconds
+	float totalIntervalTimer = 10f; //seconds. //when this timer is done no more fireworks spawn
+	float endTimer = 20f; //needs to be the largest of the three. When this timer is done the item is deleted
+	float timerInterval = 0.2f; //seconds //new firework every 20ms
     public AudioClip audioFireworkEffect;
 
 	// Use this for initialization
@@ -29,15 +30,17 @@ public class Firework : Item {
 	
 	public override void TriggerEffect(){
 		base.TriggerEffect ();
-		timer -= Time.deltaTime;
+		endTimer -= Time.deltaTime;
 		timerInterval -= Time.deltaTime;
+		totalIntervalTimer -= Time.deltaTime;
 	}
 	
 	void updateTrigger(){
-		timer -= Time.deltaTime;
+		endTimer -= Time.deltaTime;
 		timerInterval -= Time.deltaTime;
+		totalIntervalTimer -= Time.deltaTime;
 
-		if (timerInterval < 0) {
+		if (timerInterval < 0 && totalIntervalTimer > 0) {
 			float xPosition = Random.Range (2f, 27f);
 			float yPosition = Random.Range (3f, 6f);
 
@@ -51,7 +54,7 @@ public class Firework : Item {
 			timerInterval = 0.5f;
 		}
 
-		if (timer < 0) {
+		if (endTimer < 0) {
 			base.allItems.removeItemFromArray(this.gameObject);
 			base.DestroySelf ();
 			Destroy (this.gameObject);

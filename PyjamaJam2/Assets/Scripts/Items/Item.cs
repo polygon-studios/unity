@@ -13,7 +13,6 @@ public class Item : MonoBehaviour {
 	public bool isNightOnly;
 	//public Character character;
 
-
     bool isDark = false;
 	bool isHiding = false;
 	bool isHidden = false;
@@ -63,7 +62,7 @@ public class Item : MonoBehaviour {
 		}
 
 		if (itemIconPrefab & !itemIconRef) {
-			itemIconRef = (GameObject)Instantiate (itemIconPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+			itemIconRef = (GameObject)Instantiate (itemIconPrefab, new Vector3(0, -10, 0), Quaternion.identity);
 		}
 
 		//this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
@@ -84,6 +83,8 @@ public class Item : MonoBehaviour {
 
 	public void DestroySelf(){
 		//allItems.removeItemFromArray (this.gameObject);
+		Destroy(itemIconRef);
+		allItems.removeItemFromArray(this.gameObject);
 		Destroy(gameObject);
 	}
     
