@@ -82,6 +82,7 @@
      <Compile Include="Assets\Scripts\Networking\Spout.cs" />
      <Compile Include="Assets\Scripts\Networking\SpoutReceiver.cs" />
      <Compile Include="Assets\Scripts\Networking\SpoutSender.cs" />
+     <Compile Include="Assets\Scripts\ScoreBoardText.cs" />
      <Compile Include="Assets\Scripts\ScoreText.cs" />
      <Compile Include="Assets\Scripts\StarterScripts\CharacterForSelection.cs" />
      <Compile Include="Assets\Scripts\StarterScripts\CharacterSelector.cs" />

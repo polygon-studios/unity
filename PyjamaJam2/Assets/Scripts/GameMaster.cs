@@ -20,7 +20,6 @@ public class GameMaster:MonoBehaviour
 	public GameObject rabbitCanvas;
 	public GameObject countDownTimerCanvas;
 	public BackgroundChanger backgroundChanger;
-	public GameObject blackScreen;
 
 	public SocketIOLogic io;
 
@@ -32,10 +31,10 @@ public class GameMaster:MonoBehaviour
 	string third;
 	string fourth;
 
-	ScoreText foxText;
-	ScoreText skunkText;
-	ScoreText bearText;
-	ScoreText rabbitText;
+	ScoreBoardText foxText;
+	ScoreBoardText skunkText;
+	ScoreBoardText bearText;
+	ScoreBoardText rabbitText;
 	ScoreText countDownText;
 
     int foxScore;
@@ -52,6 +51,7 @@ public class GameMaster:MonoBehaviour
 		else
 			GM = this;
 		DontDestroyOnLoad (this);
+
 	}
 
 	void OnEnable(){
@@ -67,34 +67,31 @@ public class GameMaster:MonoBehaviour
 
 		GameObject nightImg = GameObject.Find ("BlackScreen");
 		
-		
 		if (nightImg) {
 			float alpha = nightImg.GetComponent<Renderer>().material.color.a;
 			Color newColor = new Color(1, 1, 1, 0.0f);
 			nightImg.GetComponent<SpriteRenderer>().material.color = newColor;
 			Debug.Log ("Hiding black map");
 		}
+
+
+
 	}
 
 	void Start(){
-
 		foxScore = 0;
 		skunkScore = 0;
 		bearScore = 0;
 		rabbitScore = 0;
 
-		blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 0f);
-
-		foxText = foxCanvas.GetComponent<ScoreText> ();
-		skunkText = skunkCanvas.GetComponent<ScoreText> ();
-		bearText = bearCanvas.GetComponent<ScoreText> ();
-		rabbitText = rabbitCanvas.GetComponent<ScoreText> ();
+		foxText = foxCanvas.GetComponent<ScoreBoardText>();
+		skunkText = skunkCanvas.GetComponent<ScoreBoardText>();
+		bearText = bearCanvas.GetComponent<ScoreBoardText>();
+		rabbitText = rabbitCanvas.GetComponent<ScoreBoardText>();
 
 		countDownText = countDownTimerCanvas.GetComponent<ScoreText> ();
 
 		countDownText.isHidden = true;
-
-
 	}
 
 	void Update(){
@@ -105,8 +102,9 @@ public class GameMaster:MonoBehaviour
 		}
 
 		if (Input.GetKeyDown ("space")) {
-			io.endGame (first, second, third, fourth);
-			Debug.Log ("TRYING TO SEND ENDGAME");
+			//io.endGame (first, second, third, fourth);
+			Debug.Log ("FoxText: " + foxText);
+			//Debug.Log ("TRYING TO SEND ENDGAME");
 		}
 
 		if (nightTimer < 0) {
@@ -129,7 +127,7 @@ public class GameMaster:MonoBehaviour
 
 		if (countDownTimerVal < 0) {
 			io.endGame(first, second, third, fourth);
-			blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 1f);
+			//blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 1f);
 			countDownText.isHidden = true;
 		}
 	}
@@ -195,6 +193,7 @@ public class GameMaster:MonoBehaviour
 		Debug.Log ("ADDING SCORE");
 		if (character.Contains ("Fox")) {
 			foxScore = foxScore + pointVal;
+			Debug.Log ("FoxText: " + foxText);
 			foxText.updateScore (foxScore);
 			Debug.Log("Fox score: " + foxScore);
 		}
