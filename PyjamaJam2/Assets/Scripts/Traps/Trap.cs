@@ -1,37 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Trap : MonoBehaviour {
-	public Traps allItems;
-	int points = 10;
-	public bool beenTriggered = false;
+
+	public TrapMaster allTraps;
 	
-	// Use this for initialization
-	protected virtual void Start () {
-		//GameObject goItems = GameObject.Find("GameMasterItems");    
-		//allItems = goItems.GetComponent<Traps> ();
+	public float lifeSpan = 40f; //in seconds
+	
+	void Start(){
 	}
 	
 	// Update is called once per frame
-	protected virtual void Update () {
+	void Update()
+	{
+		lifeSpan -= Time.deltaTime;
 		
+		if (lifeSpan < 0)
+		{
+			destroySelf();
+		}
 	}
 	
-	public virtual void TriggerEffect(){
-		
-	}
-	
-	public void Hide(){
-		this.gameObject.GetComponent<Renderer>().enabled = false;
-		this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
-	}
-	
-	
-	public void doUpdate(){
-		this.Update();
-	}
-	
-	public void DestroySelf(){
-		Destroy(gameObject);
+	public void destroySelf()
+	{
+		if (gameObject != null) {
+			Destroy (gameObject);
+			allTraps.removeItemFromArray(this.gameObject);
+		}
 	}
 }

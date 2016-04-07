@@ -10,10 +10,13 @@ public class SocketIOLogic : MonoBehaviour
 {
 	private SocketIOComponent socket;
 	public GameMaster GM;
+	public GameObject TrapMaster;
 	public GameObject buttonPrefab;
 	public GameObject bramblePrefab;
 	public GameObject pineconePrefab;
 	bool isCalled = false;
+
+	TrapMaster TM;
 
 	public void Start()
 	{
@@ -21,6 +24,9 @@ public class SocketIOLogic : MonoBehaviour
 		if (go) {
 			socket = go.GetComponent<SocketIOComponent> ();
 		}
+
+		TM = TrapMaster.GetComponent<TrapMaster> ();
+
 		socket.On("open", TestOpen);
 		socket.On("news", TestBoop);
 		socket.On("success", TestBoop);
@@ -28,9 +34,7 @@ public class SocketIOLogic : MonoBehaviour
 		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
-//		socket.On("playerEnter", fuckYou);
 
-		StartCoroutine(BeepBoop(1.0f));
         InvokeRepeating("getPlayerPositions", 0.5f, 0.3f);
     }
 
@@ -42,20 +46,6 @@ public class SocketIOLogic : MonoBehaviour
 			isCalled = true;
 		}
     }
-
-	IEnumerator BeepBoop(float disValue)
-	{
-		Debug.Log ("Testing beepboop");
-
-		// wait 3 seconds and continue
-		yield return new WaitForSeconds(3);
-
-		socket.Emit("beep");
-		// wait 2 seconds and continue
-		yield return new WaitForSeconds(2);
-
-		socket.Emit("getPositions");
-	}
 
 
 	public void TestBoop(SocketIOEvent e)
@@ -78,15 +68,20 @@ public class SocketIOLogic : MonoBehaviour
 
 		string tempx = string.Format ("{0}", e.data ["pos-x"]);
 		float xPos = (float.Parse (tempx)) * 0.733f;
+
 		string tempy = string.Format ("{0}", e.data ["pos-y"]);
 		float yPos = (float.Parse (tempy)) * 0.747f;
+
+		string tempID = string.Format ("{0}", e.data ["ID"]);
+		int ID = int.Parse (tempID);
+
 		string tempTrap = string.Format ("{0}", e.data ["trap"]);
 
 		Debug.Log(tempTrap);
 
+
 		if (tempTrap.Contains ("bramble")) {
 			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
-			Debug.Log("Placing bramble");
 		} else if (tempTrap.Contains("pinecone")) {
 			GameObject pinecone = (GameObject)Instantiate (pineconePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
 		}
