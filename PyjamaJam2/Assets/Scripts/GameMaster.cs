@@ -20,11 +20,16 @@ public class GameMaster:MonoBehaviour
 	public GameObject rabbitCanvas;
 	public GameObject countDownTimerCanvas;
 	public BackgroundChanger backgroundChanger;
+	public GameObject sleepSongPrefab;
+	GameObject sleepSongRef;
+
+	public AudioClip audioSleepSong;
+	bool audioSleepSongPlaying;
 
 	public SocketIOLogic io;
 
-	float nightTimer = 210f;
-	float fullGameTimer = 420f;
+	float nightTimer = 240f;
+	float fullGameTimer = 480f;
 
 	string first;
 	string second;
@@ -105,6 +110,7 @@ public class GameMaster:MonoBehaviour
 			//io.endGame (first, second, third, fourth);
 			Debug.Log ("FoxText: " + foxText);
 			//Debug.Log ("TRYING TO SEND ENDGAME");
+
 		}
 
 		if (nightTimer < 0) {
@@ -126,8 +132,13 @@ public class GameMaster:MonoBehaviour
 		}
 
 		if (countDownTimerVal < 0) {
+
+			if (audioSleepSongPlaying == false) {
+				sleepSongRef = (GameObject)Instantiate (sleepSongPrefab, new Vector3 (15, 0f, 0f), Quaternion.identity);
+				audioSleepSongPlaying = true;
+			}
+
 			io.endGame(first, second, third, fourth);
-			//blackScreen.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (1f, 1f, 1f, 1f);
 			countDownText.isHidden = true;
 		}
 	}

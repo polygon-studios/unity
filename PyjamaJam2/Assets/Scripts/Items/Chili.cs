@@ -32,7 +32,7 @@ public class Chili : Item {
     {
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         AudioClip audioEffectFire = (AudioClip)Resources.Load("Chili") as AudioClip;
-        audioSource.PlayOneShot(audioEffectFire, 0.2f);
+        audioSource.PlayOneShot(audioEffectFire, 0.5f);
 		base.TriggerEffect ();
         timer -= Time.deltaTime;
         foreach (Character currChar in base.GM.CHARACTERS)

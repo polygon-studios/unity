@@ -173,7 +173,7 @@ public class Character : MonoBehaviour {
             if (currentJump > starterJump )
             {
                 AudioSource audio = GetComponent<AudioSource>();
-                audio.PlayOneShot(audioEffectJumpWithBunnyPowers, 0.2f);
+                audio.PlayOneShot(audioEffectJumpWithBunnyPowers, 0.4f);
             }
             else{
                 AudioSource audio = GetComponent<AudioSource>();
@@ -354,7 +354,7 @@ public class Character : MonoBehaviour {
                 }
 
             AudioSource audio = GetComponent<AudioSource>();
-                audio.PlayOneShot(audioEffectItemPickup, 0.2f);
+                audio.PlayOneShot(audioEffectItemPickup, 0.3f);
 
 			/*
 			//check if the character is already holding an item. If they do, remove that item before taking a new one
@@ -384,10 +384,12 @@ public class Character : MonoBehaviour {
             if (objectHit.gameObject.name.Contains("button"))
             {
 				foreach (var obj in jailDoors) {
-                    AudioSource audio = GetComponent<AudioSource>();
-                    audio.PlayOneShot(audioEffectButton, 0.7f);
 					obj.SetActive(true);
 				}
+
+				AudioSource audio = GetComponent<AudioSource>();
+				audio.PlayOneShot(audioEffectButton, 0.7f);
+
 				io.lockHouse();
 				unlockJailDoor(5);
 			} else {
@@ -395,14 +397,14 @@ public class Character : MonoBehaviour {
 			}
 			if(objectHit.gameObject.name.Contains ("bramble")){
                 AudioSource audio = GetComponent<AudioSource>();
-                audio.PlayOneShot(audioEffectStunnedHit, 0.7f);
-                audio.PlayOneShot(audioEffectBrambleHit, 0.7f);
+                audio.PlayOneShot(audioEffectStunnedHit, 0.8f);
+                audio.PlayOneShot(audioEffectBrambleHit, 0.9f);
 			}
 
             if(objectHit.gameObject.name.Contains ("pinecone")){
                 AudioSource audio = GetComponent<AudioSource>();
-                audio.PlayOneShot(audioEffectStunnedHit, 0.7f );
-                audio.PlayOneShot(audioEffectPineconeHit, 0.7f);
+                audio.PlayOneShot(audioEffectStunnedHit, 0.8f );
+                audio.PlayOneShot(audioEffectPineconeHit,0.9f );
             }
 
 
@@ -420,7 +422,7 @@ public class Character : MonoBehaviour {
 		if (objectHit.gameObject.tag == "Projectile" && invincible == false) {
 			stunCharacter(3, false);
 			AudioSource audio = GetComponent<AudioSource>();
-			audio.PlayOneShot(audioEffectProjectileHit, 1.0f);
+			audio.PlayOneShot(audioEffectProjectileHit, 1.2f);
 
 			Rock rock = objectHit.gameObject.GetComponent<Rock>();
 			rock.destroySelf();
@@ -429,7 +431,7 @@ public class Character : MonoBehaviour {
 		if (objectHit.gameObject.tag == "mushroom") {
 			if(transform.position.y > objectHit.gameObject.transform.position.y){
                 AudioSource audio = GetComponent<AudioSource>();
-                audio.PlayOneShot(audioEffectMushroomHit, 1.0f);
+                audio.PlayOneShot(audioEffectMushroomHit, 1.1f);
                 
 				Vector2 force = new Vector2 (0, 8);
 				Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -572,6 +574,8 @@ public class Character : MonoBehaviour {
 
 	public void justLanded(){
 		GameObject vfx = (GameObject)Instantiate (landedVFX, new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z), Quaternion.identity);
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.PlayOneShot(audioEffectLand, 0.1f);
 	}
 
 	public void destroySelf(){

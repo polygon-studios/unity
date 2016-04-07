@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class Fish : Item {
     public AudioClip audioEffectFloppyFish;
 	Character character;
+	float timer = 3f;
     
 	// Use this for initialization
 	protected override void Start () {
@@ -30,7 +31,7 @@ public class Fish : Item {
 
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         AudioClip audioEffectFloppyFish = (AudioClip)Resources.Load("Fish") as AudioClip;
-        audioSource.PlayOneShot(audioEffectFloppyFish, 1.0f);
+        audioSource.PlayOneShot(audioEffectFloppyFish, 3.0f);
 
 		foreach (Character currChar in base.GM.CHARACTERS) {
 			if(currChar != character && currChar != null){
@@ -41,8 +42,11 @@ public class Fish : Item {
     }
     void updateTrigger()
     {
-        base.DestroySelf();
-        Destroy(this.gameObject);
+		timer -= Time.deltaTime;
+		if (timer < 0) {
+			base.DestroySelf ();
+			Destroy (this.gameObject);
+		}
         
     }
 }
