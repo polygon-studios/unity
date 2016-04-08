@@ -31,17 +31,24 @@ public class TrapMaster : MonoBehaviour {
 		return counter;
 	}
 
-	public void generateTrap(string trapName, float xPos, float yPos, int ID){
+	public void generateTrap(string trapName, float xPos, float yPos, string ID){
 		GameObject trap;
 		if (trapName.Contains ("bramble")) {
 			trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
+			Traps bramble = trap.GetComponent<Traps>();
+			bramble.trapID = ID;
 		} else if (trapName.Contains("pinecone")) {
 			trap = (GameObject)Instantiate (pineconePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
+			Traps pinecone = trap.GetComponent<Traps>();
+			pinecone.trapID = ID;
 		}
 		else {
 			trap = (GameObject)Instantiate(buttonPrefab, new Vector3(xPos, yPos, -7), Quaternion.identity);
+			Traps button = trap.GetComponent<Traps>();
+			button.trapID = ID;
 		}
 		currentTraps.Add (trap);
+		Debug.Log ("Generated trap");
 	}
 
 	public void removeItemFromArray(GameObject itemObj){

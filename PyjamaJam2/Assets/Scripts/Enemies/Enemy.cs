@@ -121,10 +121,10 @@ public class Enemy : MonoBehaviour {
 		
 		// Possible grunt positions
 		gruntPositions = new List<Vector2> ();
-		gruntPositions.Add(new Vector2(11.11f, 6.16f));
-		gruntPositions.Add(new Vector2(12.83f, 6.16f));
-		gruntPositions.Add(new Vector2(21.8f, 4.01f));
-		gruntPositions.Add(new Vector2(1.99f, 3.21f));
+		gruntPositions.Add(new Vector2(11.11f, 6.35f));
+		gruntPositions.Add(new Vector2(12.83f, 6.35f));
+		gruntPositions.Add(new Vector2(21.8f, 4.21f));
+		gruntPositions.Add(new Vector2(1.99f, 3.41f));
 
 	}
 }

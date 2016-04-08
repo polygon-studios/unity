@@ -63,31 +63,22 @@ public class SocketIOLogic : MonoBehaviour
 
 	public void placeTrap(SocketIOEvent e)
 	{
-		Debug.Log("Trap x pos:" + e.data["pos-x"] + " trap y pos: " + e.data["pos-y"]);
-
-
 		string tempx = string.Format ("{0}", e.data ["pos-x"]);
 		float xPos = (float.Parse (tempx)) * 0.733f;
-
+		Debug.Log("Retreived xPos: " + xPos);
 		string tempy = string.Format ("{0}", e.data ["pos-y"]);
 		float yPos = (float.Parse (tempy)) * 0.747f;
+		Debug.Log("Retreived yPos: " + yPos);
 
-		string tempID = string.Format ("{0}", e.data ["ID"]);
-		int ID = int.Parse (tempID);
+		string tempID = string.Format ("{00}", e.data ["ID"]);
+
+		Debug.Log("String ID: " + tempID);
 
 		string tempTrap = string.Format ("{0}", e.data ["trap"]);
 
-		Debug.Log(tempTrap);
 
+		TM.generateTrap (tempTrap, xPos, yPos, tempID);
 
-		if (tempTrap.Contains ("bramble")) {
-			GameObject trap = (GameObject)Instantiate (bramblePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
-		} else if (tempTrap.Contains("pinecone")) {
-			GameObject pinecone = (GameObject)Instantiate (pineconePrefab, new Vector3 (xPos, yPos, -7), Quaternion.identity);
-		}
-        else {
-            GameObject button = (GameObject)Instantiate(buttonPrefab, new Vector3(xPos, yPos, -7), Quaternion.identity);
-        }
 		if (e.data == null) { return; }
 
 		Debug.Log(
@@ -96,6 +87,7 @@ public class SocketIOLogic : MonoBehaviour
 			"#####################################################"
 			);
 	}
+
 
 	/*
 	 *
@@ -164,8 +156,16 @@ public class SocketIOLogic : MonoBehaviour
 	}
 
 	public void lockHouse() {
-		
+
 		socket.Emit("redButton");
+	}
+
+	public void removeTrap(string ID){
+		Dictionary<string, string> data = new Dictionary<string, string>();
+		
+		data["trapID"] = ID;
+
+		socket.Emit("deleteTrap", new JSONObject(data));
 	}
 
 	public void endGame(string firstPlace, string secondPlace, string thirdPlace, string fourthPlace) {
