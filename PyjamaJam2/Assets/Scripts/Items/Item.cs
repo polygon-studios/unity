@@ -18,6 +18,7 @@ public class Item : MonoBehaviour {
 	bool isHidden = false;
 	public int points = 10;
 	float pickedUpTimer = 1f;
+	Vector3 itemDeadLocation = new Vector3 (35f, 1f, -1.78032f);
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -65,6 +66,7 @@ public class Item : MonoBehaviour {
 			itemIconRef = (GameObject)Instantiate (itemIconPrefab, new Vector3(0, -10, 0), Quaternion.identity);
 		}
 
+		this.transform.position = itemDeadLocation; //move item to a useless location until deleted from scene
 		//this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
 	}
 

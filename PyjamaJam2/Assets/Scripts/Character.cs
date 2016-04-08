@@ -263,6 +263,7 @@ public class Character : MonoBehaviour {
         if (items != null){
 			foreach(GameObject eItem in items)
 			{
+				
 				if (eItem != null) {
 					float itemX = eItem.transform.position.x;
 					float itemY = eItem.transform.position.y;
@@ -288,70 +289,73 @@ public class Character : MonoBehaviour {
 
 	void doCollision(GameObject objectHit){
 		if(Input.GetKey(inputItem) ||Input.GetButtonDown(playerName + controllerNumber + controllerX)){
-			if (item != null)
+			Debug.Log ("xubutton on item");
+			if (item != null) {
 				item.unusedItemCheck ();
+				item = null;
+			}
 			//Item item2 = null; // make temp item to hold new one
 
 
-				itemDebounceTimer = itemDebounceTimerSaveTime;       
-				if (objectHit.gameObject.GetComponent<Chili> () != null) {
-					Chili chili = objectHit.gameObject.GetComponent<Chili>();
-					chili.initVariables (this.gameObject.GetComponent<Character> ());
-					chili.Hide();
-					
-				item = chili;
-				}else if (objectHit.gameObject.GetComponent<Fish> () != null) {
-					Fish fish = objectHit.gameObject.GetComponent<Fish> ();
-					fish.initVariables (this.gameObject.GetComponent<Character> ());
-					fish.Hide ();
-					
-				item = fish;
-				}else if (objectHit.gameObject.GetComponent<GhostItem> () != null) {
-					GhostItem ghost = objectHit.gameObject.GetComponent<GhostItem> ();
-					ghost.initVariables (this.gameObject.GetComponent<Character> ());
-					ghost.Hide ();
-					
-				item = ghost;
-				} else if (objectHit.gameObject.GetComponent<OilLatern> () != null) {
-					OilLatern oil = objectHit.gameObject.GetComponent<OilLatern> ();
-					oil.initVariables (this.gameObject.GetComponent<Character> ());
-					oil.Hide ();
-					
-				item = oil;
-				}else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
-					Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
-					pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
-					pinwheel.Hide ();
-					
-				item = pinwheel;
-				} else if (objectHit.gameObject.GetComponent<Prune> () != null) {
-					//requires other multiplayer prior to coding
-					Prune prune = objectHit.gameObject.GetComponent<Prune>();
-					prune.initVariables (this.gameObject.GetComponent<Character> ());
-					prune.Hide();
-					
-				item = prune;
-				} else if (objectHit.gameObject.GetComponent<Slippers> () != null) {
-					Slippers slippers = objectHit.gameObject.GetComponent<Slippers> ();
-					slippers.initVariables (this.gameObject.GetComponent<Character> ());
-					slippers.Hide ();
-					
-				item = slippers;
-				} else if (objectHit.gameObject.GetComponent<TreasureChest> () != null) {
-					TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest> ();
-					treasure.initVariables (this.gameObject.GetComponent<Character> ());
-					treasure.Hide ();
-					
-				item = treasure;
-				}
-                else if (objectHit.gameObject.GetComponent<Firework>() != null)
-                {
-                    Firework firework = objectHit.gameObject.GetComponent<Firework>();
-                    firework.initVariables(this.gameObject.GetComponent<Character>());
-				firework.Hide();
+			itemDebounceTimer = itemDebounceTimerSaveTime;       
+			if (objectHit.gameObject.GetComponent<Chili> () != null) {
+				Chili chili = objectHit.gameObject.GetComponent<Chili>();
+				chili.initVariables (this.gameObject.GetComponent<Character> ());
+				chili.Hide();
+				
+			item = chili;
+			}else if (objectHit.gameObject.GetComponent<Fish> () != null) {
+				Fish fish = objectHit.gameObject.GetComponent<Fish> ();
+				fish.initVariables (this.gameObject.GetComponent<Character> ());
+				fish.Hide ();
+				
+			item = fish;
+			}else if (objectHit.gameObject.GetComponent<GhostItem> () != null) {
+				GhostItem ghost = objectHit.gameObject.GetComponent<GhostItem> ();
+				ghost.initVariables (this.gameObject.GetComponent<Character> ());
+				ghost.Hide ();
+				
+			item = ghost;
+			} else if (objectHit.gameObject.GetComponent<OilLatern> () != null) {
+				OilLatern oil = objectHit.gameObject.GetComponent<OilLatern> ();
+				oil.initVariables (this.gameObject.GetComponent<Character> ());
+				oil.Hide ();
+				
+			item = oil;
+			}else if (objectHit.gameObject.GetComponent<Pinwheel> () != null) {
+				Pinwheel pinwheel = objectHit.gameObject.GetComponent<Pinwheel> ();
+				pinwheel.initVariables (this.gameObject.GetComponent<Character> ());
+				pinwheel.Hide ();
+				
+			item = pinwheel;
+			} else if (objectHit.gameObject.GetComponent<Prune> () != null) {
+				//requires other multiplayer prior to coding
+				Prune prune = objectHit.gameObject.GetComponent<Prune>();
+				prune.initVariables (this.gameObject.GetComponent<Character> ());
+				prune.Hide();
+				
+			item = prune;
+			} else if (objectHit.gameObject.GetComponent<Slippers> () != null) {
+				Slippers slippers = objectHit.gameObject.GetComponent<Slippers> ();
+				slippers.initVariables (this.gameObject.GetComponent<Character> ());
+				slippers.Hide ();
+				
+			item = slippers;
+			} else if (objectHit.gameObject.GetComponent<TreasureChest> () != null) {
+				TreasureChest treasure = objectHit.gameObject.GetComponent<TreasureChest> ();
+				treasure.initVariables (this.gameObject.GetComponent<Character> ());
+				treasure.Hide ();
+				
+			item = treasure;
+			}
+            else if (objectHit.gameObject.GetComponent<Firework>() != null)
+            {
+                Firework firework = objectHit.gameObject.GetComponent<Firework>();
+                firework.initVariables(this.gameObject.GetComponent<Character>());
+			firework.Hide();
 
-				item = firework;
-                }
+			item = firework;
+            }
 
             AudioSource audio = GetComponent<AudioSource>();
                 audio.PlayOneShot(audioEffectItemPickup, 0.3f);
@@ -364,7 +368,7 @@ public class Character : MonoBehaviour {
 			//set current holding item to the temp one
 			item = item2;
 			*/
-			}
+		}
 
 
 	}
