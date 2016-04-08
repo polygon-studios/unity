@@ -1,9 +1,20 @@
 fileFormatVersion: 2
 guid: c29c18a712133407bb0cc818cd72ba77
-timeCreated: 1459522810
+timeCreated: 1460133654
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: mushroomJump_red_day_0
+    21300002: mushroomJump_red_day_1
+    21300004: mushroomJump_red_day_2
+    21300006: mushroomJump_red_day_3
+    21300008: mushroomJump_red_day_4
+    21300010: mushroomJump_red_day_5
+    21300012: mushroomJump_red_day_6
+    21300014: mushroomJump_red_day_7
+    21300016: mushroomJump_red_day_8
+    21300018: mushroomJump_red_day_9
+    21300020: mushroomJump_red_day_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -17,7 +28,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -26,11 +37,11 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,18 +49,236 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: mushroomJump_red_day_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 218
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 48.5}
+        - {x: -48.5, y: 26.5}
+        - {x: -48.5, y: -48.5}
+        - {x: 35.5, y: -48.5}
+        - {x: 48.5, y: -24.5}
+        - {x: 48.5, y: 24.5}
+        - {x: 28.5, y: 48.5}
+    - name: mushroomJump_red_day_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 218
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 48.5}
+        - {x: -48.5, y: 31.5}
+        - {x: -48.5, y: -41.5}
+        - {x: -43.5, y: -47.5}
+        - {x: -36.5, y: -48.5}
+        - {x: 39.5, y: -48.5}
+        - {x: 48.5, y: -40.5}
+        - {x: 48.5, y: 32.5}
+        - {x: 39.5, y: 48.5}
+    - name: mushroomJump_red_day_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 218
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 48.5}
+        - {x: -48.5, y: 27.5}
+        - {x: -48.5, y: -30.5}
+        - {x: -44.5, y: -40.5}
+        - {x: -34.5, y: -48.5}
+        - {x: 28.5, y: -48.5}
+        - {x: 42.5, y: -47.5}
+        - {x: 48.5, y: -28.5}
+        - {x: 48.5, y: 27.5}
+        - {x: 27.5, y: 48.5}
+    - name: mushroomJump_red_day_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 218
+        width: 97
+        height: 97
+      alignment: 9
+      pivot: {x: 0.56630147, y: 0.49052855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.931244, y: 49.41873}
+        - {x: -54.931244, y: 44.41873}
+        - {x: -54.931244, y: -47.58127}
+        - {x: 37.068756, y: -47.58127}
+        - {x: 41.068756, y: -41.58127}
+        - {x: 41.068756, y: 29.418732}
+        - {x: 34.068756, y: 49.41873}
+    - name: mushroomJump_red_day_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 113
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 48.5}
+        - {x: -29.5, y: 48.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -48.5, y: -27.5}
+        - {x: -40.5, y: -48.5}
+        - {x: 40.5, y: -48.5}
+        - {x: 48.5, y: -30.5}
+        - {x: 48.5, y: 22.5}
+        - {x: 25.5, y: 44.5}
+    - name: mushroomJump_red_day_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 113
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40.5}
+        - {x: -48.5, y: 20.5}
+        - {x: -48.5, y: -42.5}
+        - {x: -41.5, y: -48.5}
+        - {x: 39.5, y: -48.5}
+        - {x: 44.5, y: -47.5}
+        - {x: 48.5, y: -44.5}
+        - {x: 48.5, y: 29.5}
+        - {x: 44.5, y: 40.5}
+    - name: mushroomJump_red_day_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 113
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 39.5}
+        - {x: 27.5, y: 40.5}
+        - {x: -40.5, y: 40.5}
+        - {x: -46.5, y: 16.5}
+        - {x: -46.5, y: -23.5}
+        - {x: -34.5, y: -42.5}
+        - {x: 29.5, y: -42.5}
+        - {x: 37.5, y: -37.5}
+        - {x: 48.5, y: -19.5}
+        - {x: 48.5, y: 9.5}
+    - name: mushroomJump_red_day_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 113
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 40.5}
+        - {x: -41.5, y: 22.5}
+        - {x: -41.5, y: -8.5}
+        - {x: -38.5, y: -18.5}
+        - {x: -30.5, y: -37.5}
+        - {x: 25.5, y: -37.5}
+        - {x: 38.5, y: -22.5}
+        - {x: 38.5, y: 20.5}
+        - {x: 29.5, y: 40.5}
+    - name: mushroomJump_red_day_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 39.5}
+        - {x: -40.5, y: 32.5}
+        - {x: -40.5, y: -34.5}
+        - {x: -39.5, y: -38.5}
+        - {x: 26.5, y: -38.5}
+        - {x: 39.5, y: -23.5}
+        - {x: 39.5, y: 12.5}
+        - {x: 24.5, y: 39.5}
+    - name: mushroomJump_red_day_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 8
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 35.5}
+        - {x: -34.5, y: 35.5}
+        - {x: -41.5, y: 22.5}
+        - {x: -41.5, y: -30.5}
+        - {x: -30.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 43.5, y: -25.5}
+        - {x: 43.5, y: 14.5}
+        - {x: 42.5, y: 18.5}
+    - name: mushroomJump_red_day_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 8
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 39.5}
+        - {x: -32.5, y: 38.5}
+        - {x: -38.5, y: 14.5}
+        - {x: -38.5, y: -22.5}
+        - {x: -27.5, y: -38.5}
+        - {x: 28.5, y: -38.5}
+        - {x: 41.5, y: -22.5}
+        - {x: 41.5, y: 15.5}
+        - {x: 30.5, y: 39.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

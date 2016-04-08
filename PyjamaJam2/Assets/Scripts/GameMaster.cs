@@ -89,6 +89,11 @@ public class GameMaster:MonoBehaviour
 		bearScore = 0;
 		rabbitScore = 0;
 
+		first = "fox";
+		second = "skunk";
+		third = "bear";
+		fourth = "rabbit";
+
 		foxText = foxCanvas.GetComponent<ScoreBoardText>();
 		skunkText = skunkCanvas.GetComponent<ScoreBoardText>();
 		bearText = bearCanvas.GetComponent<ScoreBoardText>();
@@ -113,7 +118,9 @@ public class GameMaster:MonoBehaviour
 
 		}
 
-		if (nightTimer < 0) {
+
+
+		if (nightTimer < 0 || Input.GetKey(KeyCode.B)) {
 
 			backgroundChanger.goDark();
 			isDark = true;
@@ -377,6 +384,7 @@ public class GameMaster:MonoBehaviour
 
 	//see how the character ranks against other characters for score
 	public int getCurrentRank(string charName){
+		
 		if (first.Contains (charName)) {
 			return 1;
 		} else if (second.Contains (charName)) {

@@ -29,6 +29,11 @@ public class Firework : Item {
 	}
 	
 	public override void TriggerEffect(){
+
+		AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+		AudioClip audioEffectFire = (AudioClip)Resources.Load("Fireworks") as AudioClip;
+		audioSource.PlayOneShot(audioEffectFire, 0.8f);
+
 		base.TriggerEffect ();
 		endTimer -= Time.deltaTime;
 		timerInterval -= Time.deltaTime;

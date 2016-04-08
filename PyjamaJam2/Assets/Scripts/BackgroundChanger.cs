@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class BackgroundChanger : MonoBehaviour {
 
@@ -14,6 +15,8 @@ public class BackgroundChanger : MonoBehaviour {
 	public GameMaster GM;
     public Items items;
 	public GameObject[] BGs;
+	public List<GameObject> mushrooms;
+	public Material diffuseMat;
 
     GameObject[] bgAnimList;
 
@@ -35,12 +38,12 @@ public class BackgroundChanger : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.B)){
+		/*if(Input.GetKeyDown(KeyCode.B)){
 
 			goDark();
 
 
-        }
+        }*/
         if (Input.GetKeyDown(KeyCode.T)){
 			StartCoroutine(TrapFadeTo(1.0f, 0.25f));
 		}
@@ -57,6 +60,14 @@ public class BackgroundChanger : MonoBehaviour {
 		foreach (Character character in GM.CHARACTERS) {
 			if(character != null)
 				character.activateLight();
+		}
+
+		foreach (GameObject mushroom in mushrooms) {
+			
+			Animator animator = mushroom.gameObject.GetComponent<Animator> ();
+			animator.SetBool ("night", true);
+
+			mushroom.gameObject.GetComponent<Renderer> ().material = diffuseMat;
 		}
 		
 		//set items to night mode

@@ -437,10 +437,13 @@ public class Character : MonoBehaviour {
 			if(transform.position.y > objectHit.gameObject.transform.position.y){
                 AudioSource audio = GetComponent<AudioSource>();
                 audio.PlayOneShot(audioEffectMushroomHit, 1.1f);
+				objectHit.gameObject.GetComponent<Animator> ().SetTrigger ("bounce");
                 
 				Vector2 force = new Vector2 (0, 8);
 				Rigidbody2D rb = GetComponent<Rigidbody2D>();
 				rb.AddForce(force, ForceMode2D.Impulse);
+
+
 			}
 
 		}
