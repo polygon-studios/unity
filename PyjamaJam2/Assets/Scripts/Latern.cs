@@ -3,6 +3,10 @@ using System.Collections;
 
 public class Latern : MonoBehaviour {
 	public bool isActivated = false;
+
+	float defaultRange;
+	float defaultIntensity;
+	float defaultZ;
 	Light light1;
 
 	// Use this for initialization
@@ -17,8 +21,55 @@ public class Latern : MonoBehaviour {
 
 	public void activateLatern(){
 		//start latern
-		light1.range = 40;
+		//defaultRange = 40f;
+		light1.range = 45f;
+		//isActivated = true;
+
+		light1.intensity = 2f;
+
+	}
+
+	public void activateLatern(int rank){
+
+		switch (rank) {
+		case 1:
+			defaultRange = 45f;
+			defaultIntensity = 2.1f;
+			defaultZ = -11f;
+			break;
+
+		case 2:
+			defaultRange = 42f;
+			defaultIntensity = 1.9f;
+			defaultZ = -9f;
+			break;
+
+		case 3:
+			defaultRange = 35f;
+			defaultIntensity = 1.7f;
+			defaultZ = -7f;
+			break;
+
+		case 4:
+			defaultRange = 30f;
+			defaultIntensity = 1.5f;
+			defaultZ = -5f;
+			break;
+
+		default:
+			defaultRange = 40f;
+			defaultIntensity = 1.6f;
+			defaultZ = -9f;
+			break;
+
+		}
+
+		light1.range = defaultRange;
+		light1.intensity = defaultIntensity;
 		isActivated = true;
+
+		Vector3 newPos = new Vector3(0, 0, defaultZ);
+		gameObject.transform.position = newPos;
 
 	}
 

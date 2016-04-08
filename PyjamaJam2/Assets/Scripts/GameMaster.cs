@@ -375,6 +375,20 @@ public class GameMaster:MonoBehaviour
 		}
 	}
 
+	//see how the character ranks against other characters for score
+	public int getCurrentRank(string charName){
+		if (first.Contains (charName)) {
+			return 1;
+		} else if (second.Contains (charName)) {
+			return 2;
+		} else if (third.Contains (charName)) {
+			return 3;
+		} else if (fourth.Contains (charName)) {
+			return 4;
+		} else
+			return 0;
+
+	}
 
 }
 

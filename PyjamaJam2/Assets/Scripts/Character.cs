@@ -201,8 +201,9 @@ public class Character : MonoBehaviour {
 	}
 
 	public void activateLight(){
-		if (latern != null)
-			laternScript.activateLatern ();
+		if (latern != null) {
+			laternScript.activateLatern (GMScript.getCurrentRank(charID));
+		}
         isDark = true;
         animator.SetBool("night", true);
 	}
