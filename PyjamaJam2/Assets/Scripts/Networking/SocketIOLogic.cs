@@ -163,9 +163,10 @@ public class SocketIOLogic : MonoBehaviour
 	public void removeTrap(string ID){
 		Dictionary<string, string> data = new Dictionary<string, string>();
 		
-		data["trapID"] = ID;
+		data["ID"] = ID;
 
 		socket.Emit("deleteTrap", new JSONObject(data));
+		Debug.Log ("trapsent id: " + ID);
 	}
 
 	public void endGame(string firstPlace, string secondPlace, string thirdPlace, string fourthPlace) {

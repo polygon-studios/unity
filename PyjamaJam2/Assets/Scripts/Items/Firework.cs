@@ -32,7 +32,7 @@ public class Firework : Item {
 
 		AudioSource audioSource = gameObject.AddComponent<AudioSource>();
 		AudioClip audioEffectFire = (AudioClip)Resources.Load("Fireworks") as AudioClip;
-		audioSource.PlayOneShot(audioEffectFire, 0.8f);
+		audioSource.PlayOneShot(audioEffectFire, 1.0f);
 
 		base.TriggerEffect ();
 		endTimer -= Time.deltaTime;

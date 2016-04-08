@@ -70,6 +70,7 @@ public class Character : MonoBehaviour {
     public AudioClip audioEffectMushroomHit;
     public AudioClip audioEffectMakingDatMoolahYay;
     public AudioClip audioEffectButton;
+	public AudioClip audioEffectChains;
 
 	public Animator animator;
 	Rigidbody2D rigidbody;
@@ -394,6 +395,9 @@ public class Character : MonoBehaviour {
 
 				AudioSource audio = GetComponent<AudioSource>();
 				audio.PlayOneShot(audioEffectButton, 0.7f);
+
+				AudioSource audio2 = GetComponent<AudioSource>();
+				audio.PlayOneShot(audioEffectChains, 0.7f);
 
 				io.lockHouse();
 				unlockJailDoor(5);

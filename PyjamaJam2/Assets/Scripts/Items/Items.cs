@@ -18,8 +18,8 @@ public class Items : MonoBehaviour {
 	public GameMaster GM;
 
 	int maxEasyItemsInScene = 5; //5
-	int maxMedItemsInScene = 6;//6
-	int maxHardItemsInScene = 4;//4
+	int maxMedItemsInScene = 0;//6
+	int maxHardItemsInScene = 0;//4
 
     int maxOilInArea = 7;
     bool isDark = false;
@@ -65,9 +65,9 @@ public class Items : MonoBehaviour {
 		int hardCount = getCount(lev3ItemsCurrent);
         int oilCount = getCount(currentOil);
 
-		itemsAreInBounds (lev1ItemsCurrent);
+		/*itemsAreInBounds (lev1ItemsCurrent);
 		itemsAreInBounds (lev2ItemsCurrent);
-		itemsAreInBounds (lev3ItemsCurrent);
+		itemsAreInBounds (lev3ItemsCurrent);*/
 
 		if (easyCount < maxEasyItemsInScene) {
             GameObject itemObj = generateItems(easyItemPositions, allCurrentItems, lev1ItemsPrefabs, null);
