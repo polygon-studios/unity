@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-//using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -23,8 +23,8 @@ public class StarterGM : MonoBehaviour {
 	public bool passedCharacterSelScreen = false;
 
     int totalSelectedChars = 0;
-	float charSelTimer = 25f;
-	float instructionsTimer = 15f;
+	float charSelTimer = 15f; // 35f
+	float instructionsTimer = 5f; // 25f
 
     //public List<Vector2> controllerToCharacter = new List<Vector2> (); //fox 1, skunk 2, rabbit 2, bear 3
 
@@ -69,7 +69,8 @@ public class StarterGM : MonoBehaviour {
 
 			Debug.Log ("show instructions");
 			if(instructionsTimer < 0){
-				//SceneManager.LoadScene (1);
+				Debug.Log ("loading scene");
+				SceneManager.LoadScene (1);
 				//Application.LoadLevel(1);
 			}
 
