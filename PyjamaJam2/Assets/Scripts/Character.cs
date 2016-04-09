@@ -48,7 +48,7 @@ public class Character : MonoBehaviour {
 	GameMaster GMScript;
     public bool isStunned;
     float scoreTimer = 10;
-    float fishTimer = 10;
+    float fishTimer = 4;
     bool isFished;
 	bool isCollidingWithItem = false;
 

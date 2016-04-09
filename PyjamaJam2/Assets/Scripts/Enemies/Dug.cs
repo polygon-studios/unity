@@ -49,12 +49,13 @@ public class Dug: Enemy {
 
 		foreach (GameObject character in characterList) {
 			target = character.transform;
-			
-			if (Vector3.Distance(enemyTransform.position,target.position)<4f) {
+
+            if (Vector3.Distance(enemyTransform.position, target.position) < 4f && Vector3.Distance(enemyTransform.position, target.position) > 0.1f)
+            {
 				transform.Translate(new Vector3(actualXSpeed* Time.deltaTime,actualYSpeed* Time.deltaTime,0) );
+
 				// Reflect the sprite if the enemy changes directions
 				float deltaX = lastPosX - enemyTransform.position.x;
-				Debug.Log ("DeltaX: " + deltaX);
 				if ((lastPosX > enemyTransform.position.x) && (deltaX > 0.010 || deltaX < -0.010)) {
 					Vector3 theScale = transform.localScale;
 					if(theScale.x > 0){
@@ -62,18 +63,25 @@ public class Dug: Enemy {
 						transform.localScale = theScale;
 						lastPosX = enemyTransform.position.x;
 					}
-					else {
-						theScale.x = theScale.x;
-					}
+                    Debug.Log("Moving left with scale of: "+ theScale.x);
 				}
+                else if(lastPosX > enemyTransform.position.x) { 
+                    Vector3 theScale = transform.localScale;
+					if(theScale.x > 0){
+						theScale.x = theScale.x * -1;
+						transform.localScale = theScale;
+						lastPosX = enemyTransform.position.x;
+					}
+                }
 				else {
 					Vector3 theScale = transform.localScale;
-					if(theScale.x < 0){
+					if(theScale.x < 0f){
 						theScale.x = theScale.x * -1;
 					}
 					theScale.x = theScale.x * 1;
 					transform.localScale = theScale;
 					lastPosX = enemyTransform.position.x;
+                    Debug.Log("Moving left with scale of: " + theScale.x);
 				}
 				
 				// Determine if negative movespeed is required

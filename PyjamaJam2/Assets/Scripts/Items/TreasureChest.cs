@@ -6,7 +6,8 @@ public class TreasureChest : Item {
 	public GameObject coinPrefab;
 	Character character;
 
-    public AudioClip audioEffectCoinChest; 
+    public AudioClip audioEffectCoinChest;
+    public int points = 30;
 	float timer = 10f; //seconds
 	float timerInterval = 0.5f; //seconds
 

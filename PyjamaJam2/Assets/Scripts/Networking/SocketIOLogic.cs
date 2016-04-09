@@ -72,7 +72,7 @@ public class SocketIOLogic : MonoBehaviour
 	public void placeTrap(SocketIOEvent e)
 	{
 		string tempx = string.Format ("{0}", e.data ["pos-x"]);
-		float xPos = (float.Parse (tempx)) * 0.733f;
+		float xPos = (float.Parse (tempx)) * 0.722f + 0.5f;
 		Debug.Log("Retreived xPos: " + xPos);
 		string tempy = string.Format ("{0}", e.data ["pos-y"]);
 		float yPos = (float.Parse (tempy)) * 0.747f;

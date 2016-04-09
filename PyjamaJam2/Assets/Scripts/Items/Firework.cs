@@ -9,7 +9,7 @@ public class Firework : Item {
 	float endTimer = 20f; //needs to be the largest of the three. When this timer is done the item is deleted
 	float timerInterval = 0.2f; //seconds //new firework every 20ms
     public AudioClip audioFireworkEffect;
-
+    public int points = 20;
 	// Use this for initialization
 	protected override void Start () {
 		base.Start ();

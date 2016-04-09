@@ -41,11 +41,12 @@ public class Enemy : MonoBehaviour {
 			if (enemyCount < 3)
             {
 				for(int i = 0; i < enemyCount; i++) {
-					Debug.Log ("Trying to see if charles exists for item gen: " + currentEnemies[i].name);
-					if(currentEnemies[i].name.Contains("Charles")){
-						charlesExists = true;
-					}	
+					//Debug.Log ("Trying to see if charles exists for item gen: " + currentEnemies[i].name);
+					//if(currentEnemies[i].name.Contains("Charles")){
+					//	charlesExists = true;
+					//}	
 				}
+                charlesExists = true;
 				if(charlesExists){
 					int chooseEnemy;
 

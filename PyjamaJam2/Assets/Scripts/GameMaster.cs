@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using SocketIO;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -31,6 +32,9 @@ public class GameMaster:MonoBehaviour
 	float nightTimer = 240f;
 	float fullGameTimer = 480f;
 	float restartGameTimer = 500f;
+
+    public string playerControllerName = "Player";
+    public string buttonStart = "_start";
 
 	public string first;
 	public string second;
@@ -183,7 +187,6 @@ public class GameMaster:MonoBehaviour
 			//io.endGame (first, second, third, fourth);
 			Debug.Log ("FoxText: " + foxText);
 			//Debug.Log ("TRYING TO SEND ENDGAME");
-
 		}
 
 		if (nightTimer < 0 || Input.GetKey(KeyCode.B)) {
@@ -193,7 +196,7 @@ public class GameMaster:MonoBehaviour
 		}
 
 		fullGameTimer -= Time.deltaTime;
-		restartGameTimer -= Time.deltaTime;
+        restartGameTimer -= Time.deltaTime;
 
 		if(nightTimer < 20f && !sunSet){
 			StartCoroutine(FadeTo(0.3f, 15.00f, "SunsetFilter"));
@@ -212,6 +215,7 @@ public class GameMaster:MonoBehaviour
 
 		if (fullGameTimer < 0) {
 			Debug.Log("END GAME END GAME");
+            io.endGame(first, second, third, fourth);
 			countDownText.isHidden = false;
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
@@ -220,6 +224,13 @@ public class GameMaster:MonoBehaviour
 		}
 		if (restartGameTimer < 0) {
 			countDownText.addCustomText("Restart?");
+            if ((Input.GetButtonDown(playerControllerName + "1" + buttonStart) ||
+                  Input.GetButtonDown(playerControllerName + "2" + buttonStart) ||
+                  Input.GetButtonDown(playerControllerName + "3" + buttonStart) ||
+                  Input.GetButtonDown(playerControllerName + "4" + buttonStart)))
+            {
+                SceneManager.LoadScene(0);
+            }
 		}
 
 

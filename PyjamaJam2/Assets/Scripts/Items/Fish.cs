@@ -6,6 +6,7 @@ public class Fish : Item {
     public AudioClip audioEffectFloppyFish;
 	Character character;
 	float timer = 3f;
+    public int points = 30;
     
 	// Use this for initialization
 	protected override void Start () {
