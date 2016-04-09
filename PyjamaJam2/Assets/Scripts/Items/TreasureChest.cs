@@ -7,10 +7,14 @@ public class TreasureChest : Item {
 	Character character;
 
     public AudioClip audioEffectCoinChest;
-    public int points = 30;
+    
 	float timer = 10f; //seconds
 	float timerInterval = 0.5f; //seconds
-
+    public int points;
+    public TreasureChest()
+    {
+        points = 30;
+    }
 	// Use this for initialization
 	protected override void Start () {
 		base.Start ();

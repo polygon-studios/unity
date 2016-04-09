@@ -7,7 +7,11 @@ public class Slippers : Item{
 	Character character;
 	float timer = 10; //in seconds
 	float newHeightJump = 500f;
-    public int points = 20;
+    public int points;
+    public Slippers()
+    {
+        points = 20;
+    }
 
 	// Use this for initialization
 	protected override void Start () {

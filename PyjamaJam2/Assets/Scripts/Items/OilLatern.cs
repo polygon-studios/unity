@@ -5,7 +5,12 @@ public class OilLatern : Item {
 	
 	int effectTimer; 
 	Character character;
-    public int points = 30;
+    public int points;
+    public OilLatern()
+    {
+        points = 20;
+    }
+    
 	//Character characters[];//holds all other characters
 	
 	

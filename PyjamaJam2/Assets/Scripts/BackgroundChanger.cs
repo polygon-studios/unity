@@ -17,6 +17,7 @@ public class BackgroundChanger : MonoBehaviour {
 	public GameObject[] BGs;
 	public List<GameObject> mushrooms;
 	public Material diffuseMat;
+    //public Enemy enemies;
 
     GameObject[] bgAnimList;
 
@@ -51,7 +52,7 @@ public class BackgroundChanger : MonoBehaviour {
 
 	public void goDark(){
 		//go to night map
-		StartCoroutine(FadeTo(0.0f, 1.25f));
+		//StartCoroutine(FadeTo(0.0f, 1.25f));
 		
 		//set GameMaster to darkmode
 		//GM.isDark = true;
@@ -69,7 +70,14 @@ public class BackgroundChanger : MonoBehaviour {
 
 			mushroom.gameObject.GetComponent<Renderer> ().material = diffuseMat;
 		}
-		
+
+        GameObject[] BGs = GameObject.FindGameObjectsWithTag("DayMap");
+
+        foreach (GameObject background in BGs)
+        {
+            Debug.Log("Trying to fade: " + background);
+            StartCoroutine(FadeTo(0.0f, 3.5f, background));
+        }
 		//set items to night mode
 		items.setDarkMode();
 		
@@ -84,19 +92,17 @@ public class BackgroundChanger : MonoBehaviour {
 	
 	
 
-	IEnumerator FadeTo(float aValue, float aTime)
+	IEnumerator FadeTo(float aValue, float aTime, GameObject background)
 	{
-		GameObject[] BGs = GameObject.FindGameObjectsWithTag("DayMap");
 		
-		foreach (GameObject background in BGs) {
-			float alpha = background.GetComponent<Renderer>().material.color.a;
-			for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
-			{
-				Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha,aValue,t));
-				background.GetComponent<Renderer>().material.color = newColor;
-				yield return null;
-			}
+		float alpha = background.GetComponent<Renderer>().material.color.a;
+		for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+		{
+			Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha,aValue,t));
+			background.GetComponent<Renderer>().material.color = newColor;
+			yield return null;
 		}
+		
 	}
 
 	IEnumerator ActivateNight(int time)
@@ -104,7 +110,13 @@ public class BackgroundChanger : MonoBehaviour {
 		yield return new WaitForSeconds(time);
 
 		//go to night map
-		StartCoroutine(FadeTo(0.0f, 3.75f));
+		//StartCoroutine(FadeTo(0.0f, 3.75f));
+        GameObject[] BGs = GameObject.FindGameObjectsWithTag("DayMap");
+
+        foreach (GameObject background in BGs)
+        {
+            FadeTo(0.0f, 2.5f, background);
+        }
 		
 		//set GameMaster to darkmode
 		GM.isDark = true;

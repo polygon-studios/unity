@@ -289,7 +289,6 @@ public class SocketIOLogic : MonoBehaviour
 	}
 
 	public void resetHouse() {
-		
 		socket.Emit("resetHouse");
 	}
 	

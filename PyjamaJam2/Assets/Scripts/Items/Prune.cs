@@ -9,7 +9,11 @@ public class Prune : Item {
 	float timer = 10; //in seconds
     float newSpeed = 0.6f;
 	//Character characters[];//holds all other characters
-	
+	public int points;
+    public Prune()
+    {
+        points = 10;
+    }
 	
 	// Use this for initialization
 	protected override void Start () {

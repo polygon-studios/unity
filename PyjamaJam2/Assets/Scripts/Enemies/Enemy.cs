@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class Enemy : MonoBehaviour {
 	public float lifeTime;
+    public Material diffuseMat;
+    public bool isDark;
 
 	public List<GameObject> enemyPrefs = new List<GameObject> ();
 
@@ -86,6 +88,12 @@ public class Enemy : MonoBehaviour {
 
 		
 		GameObject itemObj = (GameObject)Instantiate (enemyPrefabs[enemy], new Vector3(possiblePositions[randPos].x,possiblePositions[randPos].y, -0.6f) , Quaternion.identity);
+
+        if (isDark == true)
+        {
+
+            itemObj.gameObject.GetComponent<Renderer>().material = diffuseMat;
+        }
 		if (itemObj != null)
 			return itemObj; 
 		return null;
@@ -102,6 +110,17 @@ public class Enemy : MonoBehaviour {
 			Debug.Log ("Removing Wanderer from list");
 		}
 	}
+
+    public void goDark()
+    {
+        isDark = true;
+        foreach (GameObject enemy in currentEnemies)
+        {
+
+            enemy.gameObject.GetComponent<Renderer>().material = diffuseMat;
+        }
+
+    }
 
 	public void destroySelf()
 	{

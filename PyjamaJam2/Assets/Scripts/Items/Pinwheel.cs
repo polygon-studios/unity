@@ -5,7 +5,12 @@ public class Pinwheel : Item {
 	public GameObject windPrefab;
 
     public AudioClip audioEffectWind;
-    public int points = 20;
+    public int points;
+    public Pinwheel()
+    {
+        points = 20;
+    }
+    
 
 	Character character;
 	float timer = 5f;//in seconds

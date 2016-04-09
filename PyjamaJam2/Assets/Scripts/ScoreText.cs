@@ -7,7 +7,7 @@ public class ScoreText : MonoBehaviour {
 	Text txt;
 	private int currentScore;
 	public bool isHidden = false;
-	public string customText;
+	public string customText = "";
 
 	// Use this for initialization
 	void Start () {
@@ -18,8 +18,8 @@ public class ScoreText : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (customText != null) {
-			
+		if (customText != "") {
+            txt.text = customText;
 		} else {
 			txt.text = "" + currentScore;
 		}

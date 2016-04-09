@@ -413,7 +413,7 @@ public class Character : MonoBehaviour {
 				audio.PlayOneShot(audioEffectChains, 0.7f);
 
 				io.lockHouse();
-				unlockJailDoor(5);
+				StartCoroutine(unlockJailDoor(5));
 			} else {
 				stunCharacter(3, false);
 			}
@@ -492,8 +492,16 @@ public class Character : MonoBehaviour {
                 ////////////////add timer for house points
                    AudioSource audio = GetComponent<AudioSource>();
                    audio.PlayOneShot(audioEffectMakingDatMoolahYay, 0.7f);
-
-                   GMScript.addPoints(this.name, item.points);
+                   int tempPoints = 0;
+                   if (item.name.Contains("Chest") || item.name.Contains("Fish"))
+                   {
+                       tempPoints = 20;
+                   }
+                   if (item.name.Contains("Slippers") || item.name.Contains("Pinwheel") || item.name.Contains("Firework") || item.name.Contains("Oil"))
+                   {
+                       tempPoints = 10;
+                   }
+                   GMScript.addPoints(this.name, item.points + tempPoints);
                    laternScript.resetLight(transform.position.x, transform.position.y);
 					item.DestroySelf ();
                    item = null;
@@ -565,6 +573,7 @@ public class Character : MonoBehaviour {
 
 	IEnumerator unlockJailDoor(int lockDuration)
 	{
+        Debug.Log("Unlcock ze jail doors");
 		int seconds = lockDuration;
 
 		yield return new WaitForSeconds(seconds);

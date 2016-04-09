@@ -29,9 +29,9 @@ public class GameMaster:MonoBehaviour
 
 	public SocketIOLogic io;
 
-	float nightTimer = 20f;//240
+	float nightTimer = 240f;//240
 	float fullGameTimer = 480f;//480
-	float restartGameTimer = 500f;
+	float restartGameTimer = 490f;
 
     public string playerControllerName = "Player";
     public string buttonStart = "_start";
@@ -69,8 +69,9 @@ public class GameMaster:MonoBehaviour
 	bool sunSet;
 	bool darknessSet;
 	bool darknessFaded;
+    bool everythingSetDark;
 
-	float countDownTimerVal = 20f;
+	float countDownTimerVal = 10f;
 
 	void Awake(){
 		if (GM != null)
@@ -89,7 +90,7 @@ public class GameMaster:MonoBehaviour
 
 		controllerToChar = GameObject.Find ("DontDestroy");
 		if(controllerToChar != null)
-			setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter);
+			setCharactersAndControllers (controllerToChar.GetComponent<DontDestroy> ().controllerToCharacter); 
 
 
 		GameObject nightImg = GameObject.Find ("BlackScreen");
@@ -172,6 +173,8 @@ public class GameMaster:MonoBehaviour
 		sunSet = false;
 		darknessSet = false;
 		darknessFaded = false;
+        everythingSetDark = false;
+        gameOver = false;
 	}
 
 
@@ -189,16 +192,18 @@ public class GameMaster:MonoBehaviour
 			//Debug.Log ("TRYING TO SEND ENDGAME");
 		}
 
-		if (nightTimer < 0 || Input.GetKey(KeyCode.B)) {
+		if ((nightTimer < 0 || Input.GetKey(KeyCode.B)) && !everythingSetDark) {
 
 			backgroundChanger.goDark();
 			isDark = true;
+            everythingSetDark = true;
+            Debug.Log("its nighttime");
 		}
 
 		fullGameTimer -= Time.deltaTime;
         restartGameTimer -= Time.deltaTime;
 
-		if(nightTimer < 20f && !sunSet){
+		if(nightTimer < 30f && !sunSet){
 			StartCoroutine(FadeTo(0.3f, 15.00f, "SunsetFilter"));
 			sunSet = true;
 		}
@@ -213,27 +218,21 @@ public class GameMaster:MonoBehaviour
 			darknessFaded = true;
 		}
 
-		if (fullGameTimer < 0) {
-			Debug.Log("END GAME END GAME");
-            io.endGame(first, second, third, fourth);
+		if (fullGameTimer < 10f) {
 			countDownText.isHidden = false;
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
 			countDownText.updateScore (countDownInt);
-			StartCoroutine(FadeTo(1.0f, 4.75f, "BlackScreen"));
+            Debug.Log("Should be showing timer counton with: " + countDownInt);
 		}
-		if (restartGameTimer < 0) {
-			countDownText.addCustomText("Restart?");
-            if ((Input.GetButtonDown(playerControllerName + "1" + buttonStart) ||
-                  Input.GetButtonDown(playerControllerName + "2" + buttonStart) ||
-                  Input.GetButtonDown(playerControllerName + "3" + buttonStart) ||
-                  Input.GetButtonDown(playerControllerName + "4" + buttonStart)))
-            {
-                SceneManager.LoadScene(0);
-            }
-		}
-
-
+        if (fullGameTimer < 0 && !gameOver)
+        {
+            gameOver = true;
+            Debug.Log("END GAME END GAME");
+            io.endGame(first, second, third, fourth);
+            StartCoroutine(FadeTo(1.0f, 4.75f, "BlackScreen"));
+        }
+		
 		if (countDownTimerVal < 0) {
 
 			if (audioSleepSongPlaying == false) {
@@ -241,15 +240,29 @@ public class GameMaster:MonoBehaviour
 				audioSleepSongPlaying = true;
 			}
 
-			io.endGame(first, second, third, fourth);
+			//io.endGame(first, second, third, fourth);
 			countDownText.isHidden = true;
 		}
+        if (restartGameTimer < 0)
+        {
+            countDownText.isHidden = true;
+            countDownText.addCustomText("Restart?");
+            io.resetHouse();
+            Debug.Log("Showing restart text");
+            if ((Input.GetButtonDown(playerControllerName + "1" + buttonStart) ||
+                  Input.GetButtonDown(playerControllerName + "2" + buttonStart) ||
+                  Input.GetButtonDown(playerControllerName + "3" + buttonStart) ||
+                  Input.GetButtonDown(playerControllerName + "4" + buttonStart)))
+            {
+                //SceneManager.LoadScene(0);
+            }
+        }
 	}
 
 	IEnumerator FadeTo(float aValue, float aTime, string tag)
 	{
 		GameObject nightImg = GameObject.Find (tag);
-		Debug.Log ("Fading the " + tag + " tag to a value of " + aValue);
+		//Debug.Log ("Fading the " + tag + " tag to a value of " + aValue);
 		
 		if (nightImg) {
 			float alpha = nightImg.GetComponent<Renderer>().material.color.a;

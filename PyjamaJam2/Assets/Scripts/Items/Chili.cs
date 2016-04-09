@@ -9,6 +9,12 @@ public class Chili : Item {
 	float timer = 10; //in seconds
 	//Character characters[];//holds all other characters
 
+    public int points;
+    public Chili()
+    {
+        points = 10;
+    }
+
     public AudioClip audioEffectFire; 
 
 	// Use this for initialization

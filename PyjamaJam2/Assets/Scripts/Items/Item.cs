@@ -20,6 +20,7 @@ public class Item : MonoBehaviour {
 	float pickedUpTimer = 1f;
 	Vector3 itemDeadLocation = new Vector3 (35f, 1f, -1.78032f);
 
+    
 	// Use this for initialization
 	protected virtual void Start () {
 		GameObject goItems = GameObject.Find("GameMasterItems"); 
@@ -113,4 +114,9 @@ public class Item : MonoBehaviour {
 			DestroySelf ();
 		}
 	}
+
+    public int returnPointVal()
+    {
+        return points;
+    }
 }
