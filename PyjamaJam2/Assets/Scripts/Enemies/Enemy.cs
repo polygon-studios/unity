@@ -40,7 +40,8 @@ public class Enemy : MonoBehaviour {
 
 			if (enemyCount < 3)
             {
-				for(int i = 0; i < currentEnemies.Count; i++) {
+				for(int i = 0; i < enemyCount; i++) {
+					Debug.Log ("Trying to see if charles exists for item gen: " + currentEnemies[i].name);
 					if(currentEnemies[i].name.Contains("Charles")){
 						charlesExists = true;
 					}	
@@ -92,17 +93,20 @@ public class Enemy : MonoBehaviour {
 	public void removeItemFromArray(GameObject itemObj){
 		if (itemObj.GetComponent<Dug> () != null) {
 			currentEnemies.Remove(itemObj);
+			Debug.Log ("Removing Dug from list");
 		}if (itemObj.GetComponent<Charles> () != null) {
 			currentEnemies.Remove(itemObj);
 		}if (itemObj.GetComponent<Wanderer> () != null) {
 			currentEnemies.Remove(itemObj);
+			Debug.Log ("Removing Wanderer from list");
 		}
 	}
 
 	public void destroySelf()
 	{
-		if (gameObject != null) 
-			Destroy(gameObject);
+		if (gameObject != null) {
+			Destroy (gameObject);
+		}
 	}
 
 	void fillArrayPositions(){

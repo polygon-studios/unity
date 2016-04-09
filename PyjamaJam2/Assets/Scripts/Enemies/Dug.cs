@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Dug: Enemy {
 
@@ -10,6 +11,8 @@ public class Dug: Enemy {
 	public float lifeSpan = 60f; //in seconds
 
 	public GameObject[] characters;
+
+	public List<GameObject> characterList = new List<GameObject>();
 	
 	
 	Transform enemyTransform; //current transform data of this enemy
@@ -27,7 +30,12 @@ public class Dug: Enemy {
 	
 	
 	void Start() {
-		target = GameObject.FindWithTag("character").transform; //target the player
+		characters = GameObject.FindGameObjectsWithTag("character"); //target the player
+
+		foreach (GameObject character in characters) {
+			characterList.Add(character);
+		}
+		
 		// Store initial y
 		initialX = enemyTransform.position.x;
 		lastPosX = enemyTransform.position.x;
@@ -36,44 +44,51 @@ public class Dug: Enemy {
 	
 	
 	void Update () {
-		characters = GameObject.FindGameObjectsWithTag("character"); //target the player
+		//characters = GameObject.FindGameObjectsWithTag("character"); //target the player
 
 
-		foreach (GameObject character in characters) {
+		foreach (GameObject character in characterList) {
 			target = character.transform;
-
-			// Reflect the sprite if the enemy changes directions
-			if (lastPosX > enemyTransform.position.x) {
-				Vector3 theScale = transform.localScale;
-				theScale.x = theScale.x * -1;
-				transform.localScale = theScale;
-				lastPosX = enemyTransform.position.x;
-			}
-			else {
-				Vector3 theScale = transform.localScale;
-				theScale.x = theScale.x * 1;
-				transform.localScale = theScale;
-				lastPosX = enemyTransform.position.x;
-			}
 			
-			// Determine if negative movespeed is required
-			if (target.position.x < enemyTransform.position.x) {
-				actualXSpeed = -moveSpeed;
-			} else {
-				actualXSpeed = moveSpeed;
-			}
-			
-			// Determine if negative movespeed is required
-			if (target.position.y < enemyTransform.position.y) {
-				actualYSpeed = -moveSpeed;
-			} else {
-				actualYSpeed = moveSpeed;
-			}
-			
-			
-			if (Vector3.Distance(enemyTransform.position,target.position)<4f){
+			if (Vector3.Distance(enemyTransform.position,target.position)<4f) {
 				transform.Translate(new Vector3(actualXSpeed* Time.deltaTime,actualYSpeed* Time.deltaTime,0) );
-				//Debug.Log("Moving towards: " + target.position);
+				// Reflect the sprite if the enemy changes directions
+				float deltaX = lastPosX - enemyTransform.position.x;
+				Debug.Log ("DeltaX: " + deltaX);
+				if ((lastPosX > enemyTransform.position.x) && (deltaX > 0.010 || deltaX < -0.010)) {
+					Vector3 theScale = transform.localScale;
+					if(theScale.x > 0){
+						theScale.x = theScale.x * -1;
+						transform.localScale = theScale;
+						lastPosX = enemyTransform.position.x;
+					}
+					else {
+						theScale.x = theScale.x;
+					}
+				}
+				else {
+					Vector3 theScale = transform.localScale;
+					if(theScale.x < 0){
+						theScale.x = theScale.x * -1;
+					}
+					theScale.x = theScale.x * 1;
+					transform.localScale = theScale;
+					lastPosX = enemyTransform.position.x;
+				}
+				
+				// Determine if negative movespeed is required
+				if (target.position.x < enemyTransform.position.x) {
+					actualXSpeed = -moveSpeed;
+				} else {
+					actualXSpeed = moveSpeed;
+				}
+				
+				// Determine if negative movespeed is required
+				if (target.position.y < enemyTransform.position.y) {
+					actualYSpeed = -moveSpeed;
+				} else {
+					actualYSpeed = moveSpeed;
+				}
 			}
 			else {
 				Vector3 pos = transform.position;
@@ -99,8 +114,8 @@ public class Dug: Enemy {
 	{
 		if (gameObject != null) { 
 			base.removeItemFromArray(this.gameObject);
-			base.destroySelf();
-			Destroy (this.gameObject);
+			//base.destroySelf();
+			Destroy (gameObject);
 		}
 	}
 }

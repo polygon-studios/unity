@@ -16,6 +16,9 @@ public class SocketIOLogic : MonoBehaviour
 	public GameObject pineconePrefab;
 	bool isCalled = false;
 
+	int trapsPlaced;
+	int itemsCollected;
+
 	TrapMaster TM;
 
 	public void Start()
@@ -25,17 +28,22 @@ public class SocketIOLogic : MonoBehaviour
 			socket = go.GetComponent<SocketIOComponent> ();
 		}
 
+		trapsPlaced = 0;
+		itemsCollected = 0;
+
 		TM = TrapMaster.GetComponent<TrapMaster> ();
 
 		socket.On("open", TestOpen);
 		socket.On("news", TestBoop);
 		socket.On("success", TestBoop);
 		socket.On("trapPlace", placeTrap);
+		socket.On("marco", sayPolo);
 		socket.On("boop", TestBoop);
 		socket.On("error", TestError);
 		socket.On("close", TestClose);
 
         InvokeRepeating("getPlayerPositions", 0.5f, 0.3f);
+		InvokeRepeating("getDashboardStats", 1.0f, 1.0f);
     }
 
 	public void Update()
@@ -86,6 +94,11 @@ public class SocketIOLogic : MonoBehaviour
 			"THIS: " + e.data.GetField("this").str +
 			"#####################################################"
 			);
+	}
+
+	public void sayPolo(SocketIOEvent e)
+	{
+		socket.Emit("polo");
 	}
 
 
@@ -142,7 +155,101 @@ public class SocketIOLogic : MonoBehaviour
 
 		}
 		socket.Emit("playerPositions", new JSONObject(data));
+	}
 
+	public void getDashboardStats() {
+		Dictionary<string, string> data = new Dictionary<string, string>();
+		string firstPlace = GM.first.ToString();
+		string secondPlace = GM.second.ToString();
+		string thirdPlace = GM.third.ToString();
+		string fourthPlace = GM.fourth.ToString();
+
+		string foxScore = GM.foxScore.ToString ();
+		string skunkScore = GM.skunkScore.ToString();
+		string bearScore = GM.bearScore.ToString ();
+		string rabbitScore = GM.rabbitScore.ToString();
+
+		string foxButtons = GM.foxButtons.ToString ();
+		string skunkButtons = GM.skunkButtons.ToString();
+		string bearButtons = GM.bearButtons.ToString ();
+		string rabbitButtons = GM.rabbitButtons.ToString();
+
+		data ["firstChar"] = firstPlace;
+		if (firstPlace.Contains ("Fox")) {
+			data ["firstPoints"] = foxScore;
+			data ["firstButtons"] = foxButtons;
+		}
+		if(firstPlace.Contains ("Skunk")) {
+			data ["firstPoints"] = skunkScore;
+			data ["firstButtons"] = skunkButtons;
+		}
+		if(firstPlace.Contains ("Bear")) {
+			data ["firstPoints"] = bearScore;
+			data ["firstButtons"] = bearButtons;
+		}
+		if(firstPlace.Contains ("Rabbit")) {
+			data ["firstPoints"] = rabbitScore;
+			data ["firstButtons"] = rabbitButtons;
+		}
+	
+		data ["secondChar"] = secondPlace;
+		if (secondPlace.Contains ("Fox")) {
+			data ["secondPoints"] = foxScore;
+			data ["secondButtons"] = foxButtons;
+		}
+		if(secondPlace.Contains ("Skunk")) {
+			data ["secondPoints"] = skunkScore;
+			data ["secondButtons"] = skunkButtons;
+		}
+		if(secondPlace.Contains ("Bear")) {
+			data ["secondPoints"] = bearScore;
+			data ["secondButtons"] = bearButtons;
+		}
+		if(secondPlace.Contains ("Rabbit")) {
+			data ["secondPoints"] = rabbitScore;
+			data ["secondButtons"] = rabbitButtons;
+		}
+
+		data ["thirdChar"] = thirdPlace;
+		if (thirdPlace.Contains ("Fox")) {
+			data ["thirdPoints"] = foxScore;
+			data ["thirdButtons"] = foxButtons;
+		}
+		if(thirdPlace.Contains ("Skunk")) {
+			data ["thirdPoints"] = skunkScore;
+			data ["thirdButtons"] = skunkButtons;
+		}
+		if(thirdPlace.Contains ("Bear")) {
+			data ["thirdPoints"] = bearScore;
+			data ["thirdButtons"] = bearButtons;
+		}
+		if(thirdPlace.Contains ("Rabbit")) {
+			data ["thirdPoints"] = rabbitScore;
+			data ["thirdButtons"] = rabbitButtons;
+		}
+
+		data ["fourthChar"] = fourthPlace;
+		if (fourthPlace.Contains ("Fox")) {
+			data ["fourthPoints"] = foxScore;
+			data ["fourthButtons"] = foxButtons;
+		}
+		if(fourthPlace.Contains ("Skunk")) {
+			data ["fourthPoints"] = skunkScore;
+			data ["fourthButtons"] = skunkButtons;
+		}
+		if(fourthPlace.Contains ("Bear")) {
+			data ["fourthPoints"] = bearScore;
+			data ["fourthButtons"] = bearButtons;
+		}
+		if(fourthPlace.Contains ("Rabbit")) {
+			data ["fourthPoints"] = rabbitScore;
+			data ["fourthButtons"] = rabbitButtons;
+		}
+
+		data["numItems"] = GM.itemsCollected.ToString ();
+		data["numTraps"] = GM.trapsPlaced.ToString ();
+
+		socket.Emit("dashboardPacket", new JSONObject(data));
 	}
 
 	public void playerEnter(string name, string side, string item) {

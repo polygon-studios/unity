@@ -181,6 +181,13 @@ public class Character : MonoBehaviour {
                 audio.PlayOneShot(audioEffectJump, 0.2f);
             }
 		}
+		if((Input.GetButtonDown(playerName + controllerNumber + controllerA) || Input.GetKey (inputJump))){ //
+			GMScript.buttonsMashed(this.name);
+		}
+
+		if ((Input.GetKey (inputItem) || Input.GetButtonDown (playerName + controllerNumber + controllerX))) {
+			GMScript.buttonsMashed(this.name);
+		}
         /////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////
@@ -358,6 +365,9 @@ public class Character : MonoBehaviour {
 
 			item = firework;
             }
+			if(item != null){
+				GMScript.addItemPickup(this.name);
+			}
 
             AudioSource audio = GetComponent<AudioSource>();
                 audio.PlayOneShot(audioEffectItemPickup, 0.3f);
@@ -417,7 +427,7 @@ public class Character : MonoBehaviour {
             }
 
 
-
+			GMScript.addTrapPickup();
 			Traps trap = objectHit.gameObject.GetComponent<Traps> ();
 			trap.destroySelf ();
 		}

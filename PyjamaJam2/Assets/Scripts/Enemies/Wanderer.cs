@@ -37,7 +37,9 @@ public class Wanderer : Enemy {
 
 	public void destroySelf()
 	{
-		if (gameObject != null) 
-			Destroy(gameObject);
+		if (gameObject != null) {
+			base.removeItemFromArray(this.gameObject);
+			Destroy (gameObject);
+		}
 	}
 }

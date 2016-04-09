@@ -67,16 +67,4 @@ public class Charles : Enemy {
 		}
 		
 	}
-
-	
-	// See if firefly friend is collected
-	void OnTriggerEnter2D(Collider2D objectHit)
-	{
-		if(objectHit.gameObject.tag == "Player")
-		{
-
-		}
-	}
-	
-	
 }

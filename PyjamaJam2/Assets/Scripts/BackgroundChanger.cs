@@ -51,7 +51,7 @@ public class BackgroundChanger : MonoBehaviour {
 
 	public void goDark(){
 		//go to night map
-		StartCoroutine(FadeTo(0.0f, 1.75f));
+		StartCoroutine(FadeTo(0.0f, 1.25f));
 		
 		//set GameMaster to darkmode
 		//GM.isDark = true;

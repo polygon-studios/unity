@@ -30,11 +30,25 @@ public class GameMaster:MonoBehaviour
 
 	float nightTimer = 240f;
 	float fullGameTimer = 480f;
+	float restartGameTimer = 500f;
 
-	string first;
-	string second;
-	string third;
-	string fourth;
+	public string first;
+	public string second;
+	public string third;
+	public string fourth;
+
+	public int foxScore;
+	public int skunkScore;
+	public int bearScore;
+	public int rabbitScore;
+
+	public int foxButtons;
+	public int skunkButtons;
+	public int bearButtons;
+	public int rabbitButtons;
+
+	public int trapsPlaced;
+	public int itemsCollected;
 
 	ScoreBoardText foxText;
 	ScoreBoardText skunkText;
@@ -42,11 +56,15 @@ public class GameMaster:MonoBehaviour
 	ScoreBoardText rabbitText;
 	ScoreText countDownText;
 
-    int foxScore;
-	int skunkScore;
-	int bearScore;
-	int rabbitScore;
+	public GameObject foxScoreboard;
+	public GameObject skunkScoreboard;
+	public GameObject bearScoreboard;
+	public GameObject rabbitScoreboard;
+	
 	bool gameOver;
+	bool sunSet;
+	bool darknessSet;
+	bool darknessFaded;
 
 	float countDownTimerVal = 20f;
 
@@ -79,7 +97,42 @@ public class GameMaster:MonoBehaviour
 			Debug.Log ("Hiding black map");
 		}
 
+		Color hiddenColor = new Color(1, 1, 1, 0.0f);
+		Color showColor = new Color(1, 1, 1, 1.0f);
 
+		foxText = foxCanvas.GetComponent<ScoreBoardText>();
+		skunkText = skunkCanvas.GetComponent<ScoreBoardText>();
+		bearText = bearCanvas.GetComponent<ScoreBoardText>();
+		rabbitText = rabbitCanvas.GetComponent<ScoreBoardText>();
+
+		foxScoreboard.GetComponent<SpriteRenderer>().material.color = hiddenColor;
+		skunkScoreboard.GetComponent<SpriteRenderer>().material.color = hiddenColor;
+		bearScoreboard.GetComponent<SpriteRenderer>().material.color = hiddenColor;
+		rabbitScoreboard.GetComponent<SpriteRenderer>().material.color = hiddenColor;
+	
+
+		Debug.Log ("Hiding black map");
+
+
+
+		foreach (Character player in CHARACTERS){
+			if(player.name.Contains("Fox")){
+				foxText.isHidden = false;
+				foxScoreboard.GetComponent<SpriteRenderer>().material.color = showColor;
+			}
+			if(player.name.Contains("Skunk")){
+				skunkText.isHidden = false;
+				skunkScoreboard.GetComponent<SpriteRenderer>().material.color = showColor;
+			}
+			if(player.name.Contains("Bear")){
+				bearText.isHidden = false;
+				bearScoreboard.GetComponent<SpriteRenderer>().material.color = showColor;
+			}
+			if(player.name.Contains("Rabbit")){
+				rabbitText.isHidden = false;
+				rabbitScoreboard.GetComponent<SpriteRenderer>().material.color = showColor;
+			}
+		}
 
 	}
 
@@ -89,20 +142,35 @@ public class GameMaster:MonoBehaviour
 		bearScore = 0;
 		rabbitScore = 0;
 
-		first = "fox";
-		second = "skunk";
-		third = "bear";
-		fourth = "rabbit";
+		foxButtons = 0;
+		skunkButtons = 0;
+		bearButtons = 0;
+		rabbitButtons = 0;
 
-		foxText = foxCanvas.GetComponent<ScoreBoardText>();
-		skunkText = skunkCanvas.GetComponent<ScoreBoardText>();
-		bearText = bearCanvas.GetComponent<ScoreBoardText>();
-		rabbitText = rabbitCanvas.GetComponent<ScoreBoardText>();
+		first = "Fox";
+		second = "Skunk";
+		third = "Bear";
+		fourth = "Rabbit";
 
 		countDownText = countDownTimerCanvas.GetComponent<ScoreText> ();
 
 		countDownText.isHidden = true;
+
+		GameObject sunsetImg = GameObject.FindGameObjectWithTag("SunsetFilter");
+		
+		if (sunsetImg) {
+			float alpha = sunsetImg.GetComponent<Renderer>().material.color.a;
+			Color newColor = new Color(1, 1, 1, 0.0f);
+			sunsetImg.GetComponent<SpriteRenderer>().material.color = newColor;
+			Debug.Log ("Hiding sunset map");
+		}
+
+		sunSet = false;
+		darknessSet = false;
+		darknessFaded = false;
 	}
+
+
 
 	void Update(){
 
@@ -118,8 +186,6 @@ public class GameMaster:MonoBehaviour
 
 		}
 
-
-
 		if (nightTimer < 0 || Input.GetKey(KeyCode.B)) {
 
 			backgroundChanger.goDark();
@@ -127,7 +193,22 @@ public class GameMaster:MonoBehaviour
 		}
 
 		fullGameTimer -= Time.deltaTime;
+		restartGameTimer -= Time.deltaTime;
+
+		if(nightTimer < 20f && !sunSet){
+			StartCoroutine(FadeTo(0.3f, 15.00f, "SunsetFilter"));
+			sunSet = true;
+		}
+		if(nightTimer < 10f && !darknessSet){
+			StartCoroutine(FadeTo(0.0f, 10.00f, "SunsetFilter"));
+			StartCoroutine(FadeTo(0.4f, 8.00f, "BlackScreen"));
+			darknessSet = true;
+		}
 		//Debug.Log (fullGameTimer);
+		if (fullGameTimer < 220f && !darknessFaded) {
+			StartCoroutine(FadeTo(0.0f, 10.00f, "BlackScreen"));
+			darknessFaded = true;
+		}
 
 		if (fullGameTimer < 0) {
 			Debug.Log("END GAME END GAME");
@@ -135,8 +216,12 @@ public class GameMaster:MonoBehaviour
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
 			countDownText.updateScore (countDownInt);
-			StartCoroutine(FadeTo(0.0f, 1.75f));
+			StartCoroutine(FadeTo(1.0f, 4.75f, "BlackScreen"));
 		}
+		if (restartGameTimer < 0) {
+			countDownText.addCustomText("Restart?");
+		}
+
 
 		if (countDownTimerVal < 0) {
 
@@ -150,9 +235,10 @@ public class GameMaster:MonoBehaviour
 		}
 	}
 
-	IEnumerator FadeTo(float aValue, float aTime)
+	IEnumerator FadeTo(float aValue, float aTime, string tag)
 	{
-		GameObject nightImg = GameObject.Find ("BlackScreen");;
+		GameObject nightImg = GameObject.Find (tag);
+		Debug.Log ("Fading the " + tag + " tag to a value of " + aValue);
 		
 		if (nightImg) {
 			float alpha = nightImg.GetComponent<Renderer>().material.color.a;
@@ -231,87 +317,87 @@ public class GameMaster:MonoBehaviour
 			Debug.Log("Rabbit score: " + rabbitScore);
 		}
 
-		first = "fox";
-		second = "skunk";
-		third = "bear";
-		fourth = "rabbit";
+		first = "Fox";
+		second = "Skunk";
+		third = "Bear";
+		fourth = "Rabbit";
 
 		if (foxScore > skunkScore && foxScore > bearScore && foxScore > rabbitScore) {
-			first = "fox";
+			first = "Fox";
 			if (skunkScore >= bearScore && skunkScore >= rabbitScore) {
-				second = "skunk";
+				second = "Skunk";
 				if(rabbitScore >= bearScore){
-					third = "rabbit";
-					fourth = "bear";
+					third = "Rabbit";
+					fourth = "Bear";
 				}
 				else {
-					third = "bear";
-					fourth = "rabbit";
+					third = "Bear";
+					fourth = "Rabbit";
 				}
 			}
 			if (bearScore >= skunkScore && bearScore >= rabbitScore) {
-				second = "bear";
+				second = "Bear";
 				if(rabbitScore >= skunkScore){
-					third = "rabbit";
-					fourth = "skunk";
+					third = "Rabbit";
+					fourth = "Skunk";
 				}
 				else {
-					third = "skunk";
-					fourth = "rabbit";
+					third = "Skunk";
+					fourth = "Rabbit";
 				}
 			}
 			if (rabbitScore >= bearScore && rabbitScore >= skunkScore) {
-				second = "rabbit";
+				second = "Rabbit";
 				if(bearScore >= skunkScore){
-					third = "bear";
-					fourth = "skunk";
+					third = "Bear";
+					fourth = "Skunk";
 				}
 				else {
-					third = "skunk";
-					fourth = "bear";
+					third = "Skunk";
+					fourth = "Bear";
 				}
 			}
 		}
 		if (skunkScore > foxScore && skunkScore > bearScore && skunkScore > rabbitScore) {
-			first = "skunk";
+			first = "Skunk";
 			if (foxScore >= bearScore && foxScore >= rabbitScore) {
 				second = "fox";
 				if(rabbitScore >= bearScore){
-					third = "rabbit";
-					fourth = "bear";
+					third = "Rabbit";
+					fourth = "Bear";
 				}
 				else {
-					third = "bear";
-					fourth = "rabbit";
+					third = "Bear";
+					fourth = "Rabbit";
 				}
 			}
 			if (bearScore >= foxScore && bearScore >= rabbitScore) {
-				second = "bear";
+				second = "Bear";
 				if(foxScore >= rabbitScore){
 					third = "fox";
-					fourth = "rabbit";
+					fourth = "Rabbit";
 				}
 				else {
-					third = "rabbit";
+					third = "Rabbit";
 					fourth = "fox";
 				}
 			}
 			if (rabbitScore >= bearScore && rabbitScore >= foxScore) {
-				second = "rabbit";
+				second = "Rabbit";
 				if(foxScore >= bearScore){
 					third = "fox";
-					fourth = "bear";
+					fourth = "Bear";
 				}
 				else {
-					third = "bear";
+					third = "Bear";
 					fourth = "fox";
 				}
 			}
 		}
 		if (bearScore > skunkScore && bearScore > foxScore && bearScore > rabbitScore) {
-			first = "bear";
+			first = "Bear";
 			if (skunkScore >= foxScore && skunkScore >= rabbitScore) {
-				second = "skunk";
+				second = "Skunk";
 				if(foxScore >= rabbitScore){
 					third = "fox";
 					fourth = "rabbit";
@@ -324,59 +410,59 @@ public class GameMaster:MonoBehaviour
 			if (foxScore >= skunkScore && foxScore >= rabbitScore) {
 				second = "fox";
 				if(rabbitScore >= skunkScore){
-					third = "rabbit";
-					fourth = "skunk";
+					third = "Rabbit";
+					fourth = "Skunk";
 				}
 				else {
-					third = "skunk";
-					fourth = "rabbit";
+					third = "Skunk";
+					fourth = "Rabbit";
 				}
 			}
 			if (rabbitScore >= foxScore && rabbitScore >= skunkScore) {
-				second = "rabbit";
+				second = "Rabbit";
 				if(foxScore >= skunkScore){
 					third = "fox";
-					fourth = "skunk";
+					fourth = "Skunk";
 				}
 				else {
-					third = "skunk";
+					third = "Skunk";
 					fourth = "fox";
 				}
 			}
 		}
 		if (rabbitScore > skunkScore && rabbitScore > bearScore && rabbitScore > foxScore) {
-			first = "rabbit";
+			first = "Rabbit";
 			if (skunkScore >= bearScore && skunkScore >= foxScore) {
-				second = "skunk";
+				second = "Skunk";
 				if(foxScore >= bearScore){
 					third = "fox";
-					fourth = "bear";
+					fourth = "Bear";
 				}
 				else {
-					third = "bear";
+					third = "Bear";
 					fourth = "fox";
 				}
 			}
 			if (bearScore >= skunkScore && bearScore >= foxScore) {
-				second = "bear";
+				second = "Bear";
 				if(foxScore >= skunkScore){
 					third = "fox";
-					fourth = "skunk";
+					fourth = "Skunk";
 				}
 				else {
-					third = "skunk";
+					third = "Skunk";
 					fourth = "fox";
 				}
 			}
 			if (foxScore >= bearScore && foxScore >= skunkScore) {
 				second = "fox";
 				if(bearScore >= skunkScore){
-					third = "bear";
-					fourth = "skunk";
+					third = "Bear";
+					fourth = "Skunk";
 				}
 				else {
-					third = "skunk";
-					fourth = "bear";
+					third = "Skunk";
+					fourth = "Bear";
 				}
 			}
 		}
@@ -398,5 +484,27 @@ public class GameMaster:MonoBehaviour
 
 	}
 
+	public void addItemPickup(string character) {
+		itemsCollected++;
+	}
+
+	public void buttonsMashed(string character) {
+		if (character.Contains ("Fox")) {
+			foxButtons++;
+		}
+		if (character.Contains ("Skunk")) {
+			skunkButtons++;
+		}
+		if (character.Contains ("Bear")) {
+			bearButtons++;
+		}
+		if (character.Contains ("Rabbit")) {
+			rabbitButtons++;
+		}
+	}
+
+	public void addTrapPickup() {
+		trapsPlaced++;
+	}
 }
 
