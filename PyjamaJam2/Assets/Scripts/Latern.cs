@@ -26,6 +26,7 @@ public class Latern : MonoBehaviour {
 		//isActivated = true;
 
 		light1.intensity = 2f;
+        isActivated = true;
 
 	}
 
@@ -63,6 +64,9 @@ public class Latern : MonoBehaviour {
 			break;
 
 		}
+       /* defaultRange = 42f;
+        defaultIntensity = 1.9f;
+        defaultZ = -9f;*/
 
 		light1.range = defaultRange;
 		light1.intensity = defaultIntensity;

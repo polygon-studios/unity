@@ -210,13 +210,16 @@ public class Character : MonoBehaviour {
 
 	public void activateLight(){
 		if (latern != null) {
-			laternScript.activateLatern (GMScript.getCurrentRank(charID));
+           laternScript.activateLatern();
+            //int currentRank = GMScript.getCurrentRank(charID);
+			//laternScript.activateLatern (currentRank);
 		}
         isDark = true;
         animator.SetBool("night", true);
 	}
 
 	void updateLatern(){
+        Debug.Log(charID + "HERE updateLatern");
 		laternScript.updateWithCharData (transform.position.x, transform.position.y);
         /*if(laternScript.checkLightBrightness() == false)
         {

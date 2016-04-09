@@ -29,8 +29,8 @@ public class GameMaster:MonoBehaviour
 
 	public SocketIOLogic io;
 
-	float nightTimer = 240f;
-	float fullGameTimer = 480f;
+	float nightTimer = 20f;//240
+	float fullGameTimer = 480f;//480
 	float restartGameTimer = 500f;
 
     public string playerControllerName = "Player";
