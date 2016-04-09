@@ -1,20 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameMaster.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreText.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameMaster.cs" Line="100" Column="43" />
+      <File FileName="Assets/Scripts/GameMaster.cs" Line="222" Column="44" />
       <File FileName="Assets/Scripts/StarterScripts/StarterGM.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Networking/SocketIOLogic.cs" Line="244" Column="30" />
+      <File FileName="Assets/Scripts/Networking/SocketIOLogic.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Traps/Trap.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Traps/TrapMaster.cs" Line="3" Column="1" />
-      <File FileName="Assets/Scripts/Enemies/Enemy.cs" Line="44" Column="92" />
-      <File FileName="Assets/Scripts/Character.cs" Line="103" Column="4" />
-      <File FileName="Assets/Scripts/Enemies/Dug.cs" Line="69" Column="11" />
-      <File FileName="Assets/Scripts/Enemies/Charles.cs" Line="52" Column="24" />
-      <File FileName="Assets/Scripts/Enemies/Wanderer.cs" Line="23" Column="27" />
+      <File FileName="Assets/Scripts/Traps/TrapMaster.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemies/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Character.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemies/Dug.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemies/Charles.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemies/Wanderer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/BackgroundChanger.cs" Line="54" Column="39" />
-      <File FileName="Assets/Scripts/ScoreText.cs" Line="21" Column="3" />
-      <File FileName="Assets/Scripts/ScoreBoardText.cs" Line="9" Column="29" />
+      <File FileName="Assets/Scripts/ScoreText.cs" Line="21" Column="22" />
+      <File FileName="Assets/Scripts/ScoreBoardText.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

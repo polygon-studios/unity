@@ -18,7 +18,7 @@ public class ScoreText : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (customText) {
+		if (customText != null) {
 			
 		} else {
 			txt.text = "" + currentScore;
