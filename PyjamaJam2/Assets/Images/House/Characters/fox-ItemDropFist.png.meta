@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 9af92880908b995479f4b6fb04214f8e
+timeCreated: 1457460714
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox-ItemDropFist_0
+    21300002: fox-ItemDropFist_1
+    21300004: fox-ItemDropFist_2
+    21300006: fox-ItemDropFist_3
+    21300008: fox-ItemDropFist_4
+    21300010: fox-ItemDropFist_5
+    21300012: fox-ItemDropFist_6
+    21300014: fox-ItemDropFist_7
+    21300016: fox-ItemDropFist_8
+    21300018: fox-ItemDropFist_9
+    21300020: fox-ItemDropFist_10
+    21300022: fox-ItemDropFist_11
+    21300024: fox-ItemDropFist_12
+    21300026: fox-ItemDropFist_13
+    21300028: fox-ItemDropFist_14
+    21300030: fox-ItemDropFist_15
+    21300032: fox-ItemDropFist_16
+    21300034: fox-ItemDropFist_17
+    21300036: fox-ItemDropFist_18
+    21300038: fox-ItemDropFist_19
+    21300040: fox-ItemDropFist_20
+    21300042: fox-ItemDropFist_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox-ItemDropFist_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1696
+        width: 250
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: -16}
+        - {x: 125, y: 52}
+        - {x: 57, y: 167}
+        - {x: 42, y: 176}
+        - {x: 12, y: 176}
+        - {x: -4, y: 166}
+        - {x: -37, y: 121}
+        - {x: -106, y: 156}
+        - {x: -125, y: 143}
+        - {x: -125, y: 38}
+        - {x: -100, y: -1}
+        - {x: -125, y: -49}
+        - {x: -125, y: -57}
+        - {x: -59, y: -77}
+        - {x: -27, y: -176}
+        - {x: 51, y: -176}
+        - {x: 59, y: -173}
+        - {x: 69, y: -100}
+        - {x: 90, y: -32}
+    - name: fox-ItemDropFist_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1699
+        width: 250
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 10.5}
+        - {x: 110, y: 32.5}
+        - {x: 125, y: 62.5}
+        - {x: 125, y: 74.5}
+        - {x: 71, y: 118.5}
+        - {x: 42, y: 174.5}
+        - {x: -13, y: 174.5}
+        - {x: -54, y: 131.5}
+        - {x: -105, y: 148.5}
+        - {x: -125, y: 137.5}
+        - {x: -125, y: 50.5}
+        - {x: -100, y: 0.5}
+        - {x: -125, y: -47.5}
+        - {x: -125, y: -55.5}
+        - {x: -59, y: -75.5}
+        - {x: -27, y: -174.5}
+        - {x: 52, y: -174.5}
+        - {x: 60, y: -172.5}
+        - {x: 77, y: -40.5}
+        - {x: 125, y: -25.5}
+    - name: fox-ItemDropFist_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1704
+        width: 250
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 89}
+        - {x: 24, y: 172}
+        - {x: -25, y: 172}
+        - {x: -29, y: 164}
+        - {x: -35, y: 145}
+        - {x: -42, y: 107}
+        - {x: -41, y: 117}
+        - {x: -44, y: 124}
+        - {x: -105, y: 151}
+        - {x: -125, y: 145}
+        - {x: -125, y: -56}
+        - {x: -27, y: -172}
+        - {x: 52, y: -172}
+        - {x: 60, y: -170}
+        - {x: 125, y: -15}
+        - {x: 125, y: 15}
+    - name: fox-ItemDropFist_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1709
+        width: 250
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 14.5}
+        - {x: 79, y: 41.5}
+        - {x: 112, y: 95.5}
+        - {x: 65, y: 116.5}
+        - {x: 15, y: 169.5}
+        - {x: -70, y: 169.5}
+        - {x: -121, y: 152.5}
+        - {x: -125, y: 140.5}
+        - {x: -125, y: 55.5}
+        - {x: -100, y: 5.5}
+        - {x: -125, y: -42.5}
+        - {x: -125, y: -50.5}
+        - {x: -59, y: -70.5}
+        - {x: -27, y: -169.5}
+        - {x: 52, y: -169.5}
+        - {x: 60, y: -167.5}
+        - {x: 77, y: -35.5}
+        - {x: 125, y: -6.5}
+    - name: fox-ItemDropFist_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1710
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: -9}
+        - {x: 125, y: 18}
+        - {x: 94, y: 66}
+        - {x: 107, y: 92}
+        - {x: 9, y: 169}
+        - {x: -68, y: 169}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -59, y: -70}
+        - {x: -27, y: -169}
+        - {x: 51, y: -169}
+        - {x: 59, y: -166}
+        - {x: 69, y: -93}
+        - {x: 76, y: -33}
+    - name: fox-ItemDropFist_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1710
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -100}
+        - {x: 125, y: -14}
+        - {x: 125, y: 22}
+        - {x: 107, y: 92}
+        - {x: 9, y: 169}
+        - {x: -68, y: 169}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 40, y: -169}
+        - {x: 51, y: -163}
+        - {x: 46, y: -152}
+    - name: fox-ItemDropFist_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1710
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: -14}
+        - {x: 125, y: 18}
+        - {x: 94, y: 66}
+        - {x: 107, y: 92}
+        - {x: 9, y: 169}
+        - {x: -68, y: 169}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -59, y: -70}
+        - {x: -27, y: -169}
+        - {x: 51, y: -169}
+        - {x: 59, y: -166}
+        - {x: 51, y: -77}
+        - {x: 83, y: -69}
+    - name: fox-ItemDropFist_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1710
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: -7}
+        - {x: 125, y: 18}
+        - {x: 94, y: 66}
+        - {x: 107, y: 92}
+        - {x: 9, y: 169}
+        - {x: -68, y: 169}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 39, y: -169}
+        - {x: 52, y: -163}
+        - {x: 45, y: -106}
+        - {x: 73, y: -40}
+    - name: fox-ItemDropFist_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 18}
+        - {x: 94, y: 66}
+        - {x: 107, y: 92}
+        - {x: 9, y: 169}
+        - {x: -66, y: 169}
+        - {x: -105, y: 154}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -33}
+        - {x: 125, y: -9}
+    - name: fox-ItemDropFist_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 16}
+        - {x: 116, y: 33}
+        - {x: 100, y: 109}
+        - {x: 1, y: 169}
+        - {x: -52, y: 169}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -35}
+        - {x: 125, y: -6}
+    - name: fox-ItemDropFist_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 15}
+        - {x: 94, y: 32}
+        - {x: 107, y: 91}
+        - {x: 0, y: 169}
+        - {x: -52, y: 169}
+        - {x: -105, y: 154}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -35}
+        - {x: 125, y: -6}
+    - name: fox-ItemDropFist_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 15}
+        - {x: 89, y: 32}
+        - {x: 107, y: 92}
+        - {x: 2, y: 169}
+        - {x: -44, y: 169}
+        - {x: -61, y: 148}
+        - {x: -125, y: 159}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -35}
+        - {x: 125, y: -6}
+    - name: fox-ItemDropFist_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 15}
+        - {x: 111, y: 21}
+        - {x: 110, y: 93}
+        - {x: 0, y: 169}
+        - {x: -52, y: 169}
+        - {x: -105, y: 154}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -35}
+        - {x: 125, y: -6}
+    - name: fox-ItemDropFist_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 15}
+        - {x: 79, y: 43}
+        - {x: 112, y: 93}
+        - {x: 10, y: 169}
+        - {x: -66, y: 169}
+        - {x: -105, y: 154}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -35}
+        - {x: 125, y: -6}
+    - name: fox-ItemDropFist_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1358
+        width: 250
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 18}
+        - {x: 94, y: 66}
+        - {x: 107, y: 92}
+        - {x: 9, y: 169}
+        - {x: -66, y: 169}
+        - {x: -105, y: 154}
+        - {x: -121, y: 152}
+        - {x: -125, y: 141}
+        - {x: -125, y: 56}
+        - {x: -100, y: 6}
+        - {x: -125, y: -42}
+        - {x: -125, y: -50}
+        - {x: -61, y: -70}
+        - {x: -25, y: -169}
+        - {x: 45, y: -169}
+        - {x: 59, y: -166}
+        - {x: 76, y: -33}
+        - {x: 125, y: -9}
+    - name: fox-ItemDropFist_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1357
+        width: 250
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 14.5}
+        - {x: 79, y: 41.5}
+        - {x: 112, y: 95.5}
+        - {x: 65, y: 116.5}
+        - {x: 15, y: 169.5}
+        - {x: -70, y: 169.5}
+        - {x: -121, y: 152.5}
+        - {x: -125, y: 140.5}
+        - {x: -125, y: 55.5}
+        - {x: -100, y: 5.5}
+        - {x: -125, y: -42.5}
+        - {x: -125, y: -50.5}
+        - {x: -61, y: -70.5}
+        - {x: -25, y: -169.5}
+        - {x: 45, y: -169.5}
+        - {x: 59, y: -166.5}
+        - {x: 76, y: -35.5}
+        - {x: 125, y: -6.5}
+    - name: fox-ItemDropFist_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1016
+        width: 250
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 14}
+        - {x: 77, y: 37}
+        - {x: 119, y: 84}
+        - {x: 10, y: 170}
+        - {x: -41, y: 170}
+        - {x: -74, y: 136}
+        - {x: -105, y: 153}
+        - {x: -125, y: 147}
+        - {x: -125, y: 44}
+        - {x: -100, y: 5}
+        - {x: -125, y: -43}
+        - {x: -125, y: -51}
+        - {x: -61, y: -71}
+        - {x: -25, y: -170}
+        - {x: 45, y: -170}
+        - {x: 59, y: -167}
+        - {x: 76, y: -36}
+        - {x: 125, y: -7}
+    - name: fox-ItemDropFist_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1014
+        width: 250
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 79.5}
+        - {x: 15, y: 171.5}
+        - {x: -28, y: 171.5}
+        - {x: -38, y: 153.5}
+        - {x: -42, y: 112.5}
+        - {x: -46, y: 102.5}
+        - {x: -42, y: 118.5}
+        - {x: -44, y: 125.5}
+        - {x: -105, y: 151.5}
+        - {x: -125, y: 145.5}
+        - {x: -125, y: -52.5}
+        - {x: -61, y: -72.5}
+        - {x: -25, y: -171.5}
+        - {x: 45, y: -171.5}
+        - {x: 59, y: -168.5}
+        - {x: 125, y: -24.5}
+        - {x: 125, y: 65.5}
+    - name: fox-ItemDropFist_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1011
+        width: 250
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 12}
+        - {x: 99, y: 53}
+        - {x: 112, y: 80}
+        - {x: 27, y: 173}
+        - {x: -24, y: 173}
+        - {x: -44, y: 150}
+        - {x: -105, y: 150}
+        - {x: -125, y: 144}
+        - {x: -125, y: 41}
+        - {x: -100, y: 2}
+        - {x: -125, y: -46}
+        - {x: -125, y: -54}
+        - {x: -61, y: -74}
+        - {x: -25, y: -173}
+        - {x: 45, y: -173}
+        - {x: 59, y: -170}
+        - {x: 76, y: -39}
+        - {x: 125, y: -10}
+    - name: fox-ItemDropFist_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1009
+        width: 250
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: -12}
+        - {x: 125, y: 10}
+        - {x: 83, y: 31}
+        - {x: 121, y: 67}
+        - {x: 63, y: 135}
+        - {x: 27, y: 174}
+        - {x: -28, y: 174}
+        - {x: -125, y: 143}
+        - {x: -125, y: 40}
+        - {x: -100, y: 1}
+        - {x: -125, y: -47}
+        - {x: -125, y: -55}
+        - {x: -61, y: -75}
+        - {x: -25, y: -174}
+        - {x: 39, y: -174}
+        - {x: 52, y: -168}
+        - {x: 46, y: -111}
+        - {x: 71, y: -46}
+    - name: fox-ItemDropFist_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1007
+        width: 250
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 29}
+        - {x: 122, y: 34}
+        - {x: 125, y: 51}
+        - {x: 125, y: 63}
+        - {x: 41, y: 172}
+        - {x: 33, y: 175}
+        - {x: -10, y: 175}
+        - {x: -14, y: 173}
+        - {x: -59, y: 151}
+        - {x: -125, y: 148}
+        - {x: -125, y: 50}
+        - {x: -100, y: 0}
+        - {x: -125, y: -48}
+        - {x: -125, y: -56}
+        - {x: -61, y: -76}
+        - {x: -25, y: -175}
+        - {x: 45, y: -175}
+        - {x: 59, y: -172}
+        - {x: 78, y: -50}
+        - {x: 125, y: -35}
+    - name: fox-ItemDropFist_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1005
+        width: 250
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: -44}
+        - {x: 125, y: -14}
+        - {x: 125, y: 22}
+        - {x: 116, y: 66}
+        - {x: 50, y: 175}
+        - {x: 46, y: 176}
+        - {x: -11, y: 176}
+        - {x: -55, y: 125}
+        - {x: -105, y: 147}
+        - {x: -125, y: 141}
+        - {x: -125, y: 38}
+        - {x: -100, y: -1}
+        - {x: -125, y: -49}
+        - {x: -125, y: -57}
+        - {x: -61, y: -77}
+        - {x: -25, y: -176}
+        - {x: 40, y: -176}
+        - {x: 51, y: -170}
+        - {x: 46, y: -159}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

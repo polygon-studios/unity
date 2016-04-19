@@ -28,6 +28,8 @@ public class Character : MonoBehaviour {
     public float currentSpeed; //walk 0.5f //run 0.8f
     public float starterSpeed;
     public bool noJump = false;
+	public GameObject houseMovementPrefab;
+	public bool isInHouse = false;
 
     float lastY;
     float moveSpeed = 0f;
@@ -466,7 +468,8 @@ public class Character : MonoBehaviour {
 		}
 
 
-		if (objectHit.gameObject.tag == "Door") {
+		if (objectHit.gameObject.tag == "Door" && isInHouse == false) {
+			Debug.Log ("door hit");
 			string itemHeld;
 			string side;
 			bool hasItem = false;
@@ -485,8 +488,17 @@ public class Character : MonoBehaviour {
 			else {
 				side = "left";
 			}
-			stunCharacter(2, true, side, hasItem);
-			io.playerEnter(this.name, side, itemHeld);
+
+			if (!GMScript.isFullSetup) {
+				GameObject houseMovement = (GameObject)Instantiate (houseMovementPrefab, new Vector3 (0f, 0f, 0f), Quaternion.identity);
+				houseMovement.GetComponent<InsideHouseMovement> ().initVariables (this.gameObject.GetComponent<Character> (), side, itemHeld);
+				isInHouse = true;
+				isStunned = true;
+			}else{
+				io.playerEnter(this.name, side, itemHeld);
+				stunCharacter(2, true, side, hasItem);
+			}
+
             if (hasItem)
             {
                 ////////////////add timer for house points

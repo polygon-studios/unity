@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: df40e86ac588ef94894f07737ab29680
+timeCreated: 1461091771
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbit-fist-bump_0
+    21300002: rabbit-fist-bump_1
+    21300004: rabbit-fist-bump_2
+    21300006: rabbit-fist-bump_3
+    21300008: rabbit-fist-bump_4
+    21300010: rabbit-fist-bump_5
+    21300012: rabbit-fist-bump_6
+    21300014: rabbit-fist-bump_7
+    21300016: rabbit-fist-bump_8
+    21300018: rabbit-fist-bump_9
+    21300020: rabbit-fist-bump_10
+    21300022: rabbit-fist-bump_11
+    21300024: rabbit-fist-bump_12
+    21300026: rabbit-fist-bump_13
+    21300028: rabbit-fist-bump_14
+    21300030: rabbit-fist-bump_15
+    21300032: rabbit-fist-bump_16
+    21300034: rabbit-fist-bump_17
+    21300036: rabbit-fist-bump_18
+    21300038: rabbit-fist-bump_19
+    21300040: rabbit-fist-bump_20
+    21300042: rabbit-fist-bump_21
+    21300044: rabbit-fist-bump_22
+    21300046: rabbit-fist-bump_23
+    21300048: rabbit-fist-bump_24
+    21300050: rabbit-fist-bump_25
+    21300052: rabbit-fist-bump_26
+    21300054: rabbit-fist-bump_27
+    21300056: rabbit-fist-bump_28
+    21300058: rabbit-fist-bump_29
+    21300060: rabbit-fist-bump_30
+    21300062: rabbit-fist-bump_31
+    21300064: rabbit-fist-bump_32
+    21300066: rabbit-fist-bump_33
+    21300068: rabbit-fist-bump_34
+    21300070: rabbit-fist-bump_35
+    21300072: rabbit-fist-bump_36
+    21300074: rabbit-fist-bump_37
+    21300076: rabbit-fist-bump_38
+    21300078: rabbit-fist-bump_39
+    21300080: rabbit-fist-bump_40
+    21300082: rabbit-fist-bump_41
+    21300084: rabbit-fist-bump_42
+    21300086: rabbit-fist-bump_43
+    21300088: rabbit-fist-bump_44
+    21300090: rabbit-fist-bump_45
+    21300092: rabbit-fist-bump_46
+    21300094: rabbit-fist-bump_47
+    21300096: rabbit-fist-bump_48
+    21300098: rabbit-fist-bump_49
+    21300100: rabbit-fist-bump_50
+    21300102: rabbit-fist-bump_51
+    21300104: rabbit-fist-bump_52
+    21300106: rabbit-fist-bump_53
+    21300108: rabbit-fist-bump_54
+    21300110: rabbit-fist-bump_55
+    21300112: rabbit-fist-bump_56
+    21300114: rabbit-fist-bump_57
+    21300116: rabbit-fist-bump_58
+    21300118: rabbit-fist-bump_59
+    21300120: rabbit-fist-bump_60
+    21300122: rabbit-fist-bump_61
+    21300124: rabbit-fist-bump_62
+    21300126: rabbit-fist-bump_63
+    21300128: rabbit-fist-bump_64
+    21300130: rabbit-fist-bump_65
+    21300132: rabbit-fist-bump_66
+    21300134: rabbit-fist-bump_67
+    21300136: rabbit-fist-bump_68
+    21300138: rabbit-fist-bump_69
+    21300140: rabbit-fist-bump_70
+    21300142: rabbit-fist-bump_71
+    21300144: rabbit-fist-bump_72
+    21300146: rabbit-fist-bump_73
+    21300148: rabbit-fist-bump_74
+    21300150: rabbit-fist-bump_75
+    21300152: rabbit-fist-bump_76
+    21300154: rabbit-fist-bump_77
+    21300156: rabbit-fist-bump_78
+    21300158: rabbit-fist-bump_79
+    21300160: rabbit-fist-bump_80
+    21300162: rabbit-fist-bump_81
+    21300164: rabbit-fist-bump_82
+    21300166: rabbit-fist-bump_83
+    21300168: rabbit-fist-bump_84
+    21300170: rabbit-fist-bump_85
+    21300172: rabbit-fist-bump_86
+    21300174: rabbit-fist-bump_87
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbit-fist-bump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 899
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 42}
+        - {x: -26.5, y: 42}
+        - {x: -30.5, y: 39}
+        - {x: -30.5, y: -23}
+        - {x: -23.5, y: -42}
+        - {x: 17.5, y: -42}
+        - {x: 30.5, y: -9}
+        - {x: 30.5, y: 18}
+        - {x: 22.5, y: 33}
+      - - {x: 21.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 29.5, y: -28}
+        - {x: 29.5, y: -21}
+        - {x: 21.5, y: -21}
+      - - {x: 21.5, y: 42}
+        - {x: 21.5, y: 37}
+        - {x: 23.5, y: 35}
+        - {x: 27.5, y: 35}
+        - {x: 29.5, y: 37}
+        - {x: 29.5, y: 42}
+    - name: rabbit-fist-bump_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 978
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 899
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 40.5}
+        - {x: -30.5, y: 35.5}
+        - {x: -30.5, y: -3.5}
+        - {x: -18.5, y: -40.5}
+        - {x: 17.5, y: -40.5}
+        - {x: 30.5, y: -19.5}
+        - {x: 30.5, y: 17.5}
+        - {x: 19.5, y: 40.5}
+      - - {x: 21.5, y: -27.5}
+        - {x: 27.5, y: -27.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 29.5, y: -19.5}
+        - {x: 21.5, y: -19.5}
+      - - {x: 21.5, y: 40.5}
+        - {x: 21.5, y: 38.5}
+        - {x: 23.5, y: 36.5}
+        - {x: 27.5, y: 36.5}
+        - {x: 30.5, y: 39.5}
+        - {x: 30.5, y: 40.5}
+    - name: rabbit-fist-bump_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 978
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 978
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 978
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 978
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 978
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 978
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 914
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 914
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 899
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 27.5}
+        - {x: 2.5, y: 39.5}
+        - {x: -30.5, y: 39.5}
+        - {x: -30.5, y: -14.5}
+        - {x: -16.5, y: -39.5}
+        - {x: 15.5, y: -39.5}
+        - {x: 15.5, y: -37.5}
+        - {x: 13.5, y: -34.5}
+        - {x: 30.5, y: -10.5}
+      - - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: -26.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 30.5, y: -24.5}
+        - {x: 30.5, y: -18.5}
+    - name: rabbit-fist-bump_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 914
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 899
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: 9}
+        - {x: -20.5, y: -5}
+        - {x: -15.5, y: 1}
+        - {x: -11.5, y: 0}
+        - {x: -12.5, y: 0}
+        - {x: -18.5, y: -6}
+        - {x: -19.5, y: -13}
+        - {x: -12.5, y: -38}
+        - {x: 21.5, y: -38}
+        - {x: 30.5, y: -12}
+        - {x: 30.5, y: 20}
+        - {x: 14.5, y: 38}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 914
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 887
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 887
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 887
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 887
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_19
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 887
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 887
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_21
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 887
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 887
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: 13}
+        - {x: -21.5, y: 1}
+        - {x: -15.5, y: 1}
+        - {x: -12.5, y: 2}
+        - {x: -9.5, y: 6}
+        - {x: -20.5, y: -9}
+        - {x: -13.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 30.5, y: 38}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 823
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 808
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: 15}
+        - {x: -27.5, y: 5}
+        - {x: -18.5, y: 0}
+        - {x: -15.5, y: 0}
+        - {x: -21.5, y: -9}
+        - {x: -12.5, y: -38}
+        - {x: 17.5, y: -38}
+        - {x: 30.5, y: -17}
+        - {x: 30.5, y: 34}
+        - {x: 29.5, y: 37}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_26
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 823
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_27
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 808
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: 12}
+        - {x: -21.5, y: 1}
+        - {x: -15.5, y: 0}
+        - {x: -21.5, y: -10}
+        - {x: -12.5, y: -38}
+        - {x: 16.5, y: -38}
+        - {x: 30.5, y: -8}
+        - {x: 30.5, y: 29}
+        - {x: 7.5, y: 38}
+      - - {x: 21.5, y: -17}
+        - {x: 21.5, y: -25}
+        - {x: 29.5, y: -25}
+        - {x: 30.5, y: -23}
+        - {x: 30.5, y: -17}
+    - name: rabbit-fist-bump_28
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 823
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_29
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 808
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: 2}
+        - {x: -20.5, y: -1}
+        - {x: -8.5, y: 4}
+        - {x: -16.5, y: -2}
+        - {x: -21.5, y: -14}
+        - {x: -12.5, y: -38}
+        - {x: 17.5, y: -38}
+        - {x: 30.5, y: -6}
+        - {x: 30.5, y: 23}
+        - {x: 18.5, y: 38}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_30
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 823
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 797
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 797
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 797
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 797
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_35
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 797
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_36
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 797
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_37
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 797
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_38
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 797
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: -38}
+        - {x: 19.5, y: -38}
+        - {x: 30.5, y: -32}
+        - {x: 30.5, y: 36}
+        - {x: 20.5, y: 38}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_40
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 732
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_41
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 717
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 30}
+        - {x: 0.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: 13}
+        - {x: -25.5, y: 6}
+        - {x: -18.5, y: 0}
+        - {x: -15.5, y: 0}
+        - {x: -8.5, y: 5}
+        - {x: -20.5, y: -9}
+        - {x: -12.5, y: -38}
+        - {x: 14.5, y: -38}
+        - {x: 15.5, y: -37}
+        - {x: 15.5, y: -36}
+        - {x: 30.5, y: -10}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_42
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 732
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_43
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 717
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: 13}
+        - {x: -25.5, y: 6}
+        - {x: -21.5, y: 2}
+        - {x: -15.5, y: 0}
+        - {x: -8.5, y: 5}
+        - {x: -20.5, y: -10}
+        - {x: -12.5, y: -38}
+        - {x: 15.5, y: -38}
+        - {x: 30.5, y: -29}
+        - {x: 30.5, y: 38}
+      - - {x: 21.5, y: -17}
+        - {x: 21.5, y: -25}
+        - {x: 29.5, y: -25}
+        - {x: 30.5, y: -23}
+        - {x: 30.5, y: -17}
+    - name: rabbit-fist-bump_44
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 732
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_45
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 717
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: 14}
+        - {x: -24.5, y: 4}
+        - {x: -19.5, y: 1}
+        - {x: -15.5, y: 1}
+        - {x: -10.5, y: 6}
+        - {x: -16.5, y: -3}
+        - {x: -20.5, y: -11}
+        - {x: -19.5, y: -13}
+        - {x: -12.5, y: -38}
+        - {x: 13.5, y: -38}
+        - {x: 14.5, y: -37}
+        - {x: 30.5, y: -13}
+        - {x: 30.5, y: 31}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_46
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 732
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 706
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 706
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_49
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 706
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_50
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 706
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_51
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 706
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_52
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 706
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_53
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 706
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_54
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 706
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: -3}
+        - {x: -19.5, y: -38}
+        - {x: 16.5, y: -38}
+        - {x: 30.5, y: -4}
+        - {x: 30.5, y: 16}
+        - {x: 25.5, y: 32}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_56
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 641
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_57
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 626
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 16}
+        - {x: 24.5, y: 31}
+        - {x: 1.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: 13}
+        - {x: -25.5, y: 6}
+        - {x: -18.5, y: 0}
+        - {x: -14.5, y: -3}
+        - {x: -15.5, y: 0}
+        - {x: -20.5, y: -9}
+        - {x: -12.5, y: -38}
+        - {x: 14.5, y: -38}
+        - {x: 15.5, y: -37}
+        - {x: 15.5, y: -36}
+        - {x: 30.5, y: -7}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_58
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 641
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_59
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 626
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: -12}
+        - {x: -12.5, y: -38}
+        - {x: 19.5, y: -38}
+        - {x: 30.5, y: -12}
+        - {x: 30.5, y: 28}
+        - {x: 27.5, y: 34}
+      - - {x: 21.5, y: -17}
+        - {x: 21.5, y: -25}
+        - {x: 29.5, y: -25}
+        - {x: 30.5, y: -23}
+        - {x: 30.5, y: -17}
+    - name: rabbit-fist-bump_60
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 641
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_61
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 626
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 38}
+        - {x: -30.5, y: 38}
+        - {x: -30.5, y: 4}
+        - {x: -18.5, y: 0}
+        - {x: -15.5, y: 1}
+        - {x: -18.5, y: -2}
+        - {x: -21.5, y: -15}
+        - {x: -12.5, y: -38}
+        - {x: 19.5, y: -38}
+        - {x: 30.5, y: -21}
+        - {x: 30.5, y: 21}
+        - {x: 24.5, y: 31}
+      - - {x: 21.5, y: -25}
+        - {x: 27.5, y: -25}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: -17}
+        - {x: 21.5, y: -17}
+    - name: rabbit-fist-bump_62
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 641
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_63
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 615
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_64
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 615
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_65
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 615
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 615
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_67
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 615
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_68
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 615
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_69
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 535
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 40.5}
+        - {x: -21.5, y: 40.5}
+        - {x: -30.5, y: 37.5}
+        - {x: -30.5, y: 6.5}
+        - {x: -12.5, y: -40.5}
+        - {x: 16.5, y: -40.5}
+        - {x: 30.5, y: -20.5}
+        - {x: 30.5, y: 22.5}
+      - - {x: 21.5, y: -27.5}
+        - {x: 27.5, y: -27.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 29.5, y: -19.5}
+        - {x: 21.5, y: -19.5}
+      - - {x: 21.5, y: 40.5}
+        - {x: 22.5, y: 37.5}
+        - {x: 27.5, y: 37.5}
+        - {x: 29.5, y: 39.5}
+        - {x: 29.5, y: 40.5}
+    - name: rabbit-fist-bump_70
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 615
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_71
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 615
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 535
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38.5}
+        - {x: -30.5, y: -20.5}
+        - {x: -22.5, y: -38.5}
+        - {x: 25.5, y: -38.5}
+        - {x: 30.5, y: -23.5}
+        - {x: 30.5, y: 36.5}
+        - {x: 21.5, y: 38.5}
+      - - {x: 21.5, y: -25.5}
+        - {x: 27.5, y: -25.5}
+        - {x: 29.5, y: -24.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+    - name: rabbit-fist-bump_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 550
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_74
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 535
+        width: 61
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 25}
+        - {x: 11.5, y: 36}
+        - {x: 3.5, y: 39}
+        - {x: -30.5, y: 39}
+        - {x: -30.5, y: 14}
+        - {x: -20.5, y: 2}
+        - {x: -13.5, y: 0}
+        - {x: -10.5, y: 5}
+        - {x: -20.5, y: -10}
+        - {x: -19.5, y: -14}
+        - {x: -12.5, y: -39}
+        - {x: 14.5, y: -39}
+        - {x: 15.5, y: -38}
+        - {x: 15.5, y: -37}
+        - {x: 30.5, y: -13}
+      - - {x: 21.5, y: -26}
+        - {x: 27.5, y: -26}
+        - {x: 29.5, y: -25}
+        - {x: 29.5, y: -18}
+        - {x: 21.5, y: -18}
+    - name: rabbit-fist-bump_75
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 550
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_76
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 535
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40}
+        - {x: -30.5, y: -6}
+        - {x: -16.5, y: -40}
+        - {x: 18.5, y: -40}
+        - {x: 30.5, y: -15}
+        - {x: 30.5, y: 26}
+        - {x: 0.5, y: 40}
+      - - {x: 21.5, y: -19}
+        - {x: 21.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 30.5, y: -25}
+        - {x: 30.5, y: -19}
+    - name: rabbit-fist-bump_77
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 550
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_78
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 550
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 41}
+        - {x: -28.5, y: 41}
+        - {x: -30.5, y: 39}
+        - {x: -30.5, y: -20}
+        - {x: -16.5, y: -41}
+        - {x: 16.5, y: -41}
+        - {x: 30.5, y: -27}
+        - {x: 30.5, y: 27}
+      - - {x: 21.5, y: -28}
+        - {x: 27.5, y: -28}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: -20}
+        - {x: 21.5, y: -20}
+      - - {x: 21.5, y: 41}
+        - {x: 21.5, y: 39}
+        - {x: 23.5, y: 37}
+        - {x: 27.5, y: 37}
+        - {x: 29.5, y: 39}
+        - {x: 29.5, y: 41}
+    - name: rabbit-fist-bump_80
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 524
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_81
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 524
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_82
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 444
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 41.5}
+        - {x: -30.5, y: -29.5}
+        - {x: -13.5, y: -41.5}
+        - {x: 25.5, y: -41.5}
+        - {x: 30.5, y: -24.5}
+        - {x: 30.5, y: 29.5}
+        - {x: 3.5, y: 41.5}
+      - - {x: 21.5, y: -28.5}
+        - {x: 27.5, y: -28.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 21.5, y: -20.5}
+      - - {x: 21.5, y: 41.5}
+        - {x: 21.5, y: 38.5}
+        - {x: 23.5, y: 36.5}
+        - {x: 28.5, y: 36.5}
+        - {x: 30.5, y: 38.5}
+        - {x: 30.5, y: 41.5}
+    - name: rabbit-fist-bump_83
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 524
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_84
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 524
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_85
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 459
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rabbit-fist-bump_86
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 459
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

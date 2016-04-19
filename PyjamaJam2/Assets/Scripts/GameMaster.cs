@@ -7,8 +7,9 @@ using System.Collections.Generic;
 
 public class GameMaster:MonoBehaviour
 {
-	public static GameMaster GM;
+	public GameMaster GM;
 	public List<Character> CHARACTERS;
+	public HouseMaster houseMaster;
 	public bool isDark;
 
     private bool showGUI = true;
@@ -29,6 +30,7 @@ public class GameMaster:MonoBehaviour
 
 	public SocketIOLogic io;
 
+	public bool isFullSetup;
 	float nightTimer = 240f;//240
 	float fullGameTimer = 480f;//480
 	float restartGameTimer = 490f;
@@ -74,11 +76,11 @@ public class GameMaster:MonoBehaviour
 	float countDownTimerVal = 10f;
 
 	void Awake(){
-		if (GM != null)
+		/*if (GM != null)
 			GameObject.Destroy (GM);
 		else
 			GM = this;
-		DontDestroyOnLoad (this);
+		DontDestroyOnLoad (this);*/
 
 	}
 
@@ -186,6 +188,9 @@ public class GameMaster:MonoBehaviour
 			nightTimer -= Time.deltaTime;
 		}
 
+		if (isFullSetup == false)
+			houseMaster.characterInsideHouse (CHARACTERS);
+
 		if (Input.GetKeyDown ("space")) {
 			//io.endGame (first, second, third, fourth);
 			Debug.Log ("FoxText: " + foxText);
@@ -239,8 +244,10 @@ public class GameMaster:MonoBehaviour
 				sleepSongRef = (GameObject)Instantiate (sleepSongPrefab, new Vector3 (15, 0f, 0f), Quaternion.identity);
 				audioSleepSongPlaying = true;
 			}
-
-			//io.endGame(first, second, third, fourth);
+			if (isFullSetup == false) {
+				houseMaster.setSleepingChars (first, second, third, fourth);
+			}//else
+				//io.endGame(first, second, third, fourth);
 			countDownText.isHidden = true;
 		}
         if (restartGameTimer < 0)
@@ -254,7 +261,7 @@ public class GameMaster:MonoBehaviour
                   Input.GetButtonDown(playerControllerName + "3" + buttonStart) ||
                   Input.GetButtonDown(playerControllerName + "4" + buttonStart)))
             {
-                //SceneManager.LoadScene(0);
+                SceneManager.LoadScene(0);
             }
         }
 	}

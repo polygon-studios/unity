@@ -41,7 +41,7 @@ public class GhostItem : Item {
 		base.TriggerEffect ();
         this.character.animator.SetBool("ghost", true);
         this.character.invincible = true;
-        this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.8f);
+        //this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.8f);
 
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         AudioClip audioEffectCharacterAsGhost = (AudioClip)Resources.Load("Ghost") as AudioClip;
@@ -57,7 +57,7 @@ public class GhostItem : Item {
         {
             this.character.invincible = false;
             this.character.animator.SetBool("ghost", false);
-            this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+            //this.character.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
             
             base.DestroySelf();
             Destroy(this.gameObject);

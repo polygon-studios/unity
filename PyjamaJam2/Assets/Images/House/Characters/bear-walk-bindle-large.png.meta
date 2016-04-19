@@ -1,0 +1,735 @@
+fileFormatVersion: 2
+guid: 07b39cf61a1c74549a616334cd6eaafb
+timeCreated: 1458082295
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear-walk-bindle-large_0
+    21300002: bear-walk-bindle-large_1
+    21300004: bear-walk-bindle-large_2
+    21300006: bear-walk-bindle-large_3
+    21300008: bear-walk-bindle-large_4
+    21300010: bear-walk-bindle-large_5
+    21300012: bear-walk-bindle-large_6
+    21300014: bear-walk-bindle-large_7
+    21300016: bear-walk-bindle-large_8
+    21300018: bear-walk-bindle-large_9
+    21300020: bear-walk-bindle-large_10
+    21300022: bear-walk-bindle-large_11
+    21300024: bear-walk-bindle-large_12
+    21300026: bear-walk-bindle-large_13
+    21300028: bear-walk-bindle-large_14
+    21300030: bear-walk-bindle-large_15
+    21300032: bear-walk-bindle-large_16
+    21300034: bear-walk-bindle-large_17
+    21300036: bear-walk-bindle-large_18
+    21300038: bear-walk-bindle-large_19
+    21300040: bear-walk-bindle-large_20
+    21300042: bear-walk-bindle-large_21
+    21300044: bear-walk-bindle-large_22
+    21300046: bear-walk-bindle-large_23
+    21300048: bear-walk-bindle-large_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear-walk-bindle-large_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1698
+        width: 230
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 164}
+        - {x: -112, y: 164}
+        - {x: -115, y: 147}
+        - {x: -115, y: 80}
+        - {x: -99, y: 62}
+        - {x: -59, y: 64}
+        - {x: -47, y: 72}
+        - {x: -40, y: 78}
+        - {x: -38, y: 83}
+        - {x: -84, y: -63}
+        - {x: -80, y: -140}
+        - {x: -71, y: -164}
+        - {x: 109, y: -164}
+        - {x: 115, y: -150}
+        - {x: 115, y: 49}
+        - {x: 49, y: 144}
+    - name: bear-walk-bindle-large_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1700
+        width: 230
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 52.5}
+        - {x: 40, y: 138.5}
+        - {x: -64, y: 163.5}
+        - {x: -103, y: 163.5}
+        - {x: -115, y: 126.5}
+        - {x: -115, y: 75.5}
+        - {x: -110, y: 69.5}
+        - {x: -44, y: 60.5}
+        - {x: -86, y: -79.5}
+        - {x: -63, y: -163.5}
+        - {x: -9, y: -163.5}
+        - {x: 3, y: -154.5}
+        - {x: 74, y: -163.5}
+        - {x: 103, y: -77.5}
+        - {x: 115, y: -46.5}
+    - name: bear-walk-bindle-large_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1702
+        width: 231
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.5, y: 33.5}
+        - {x: 60.5, y: 108.5}
+        - {x: 36.5, y: 111.5}
+        - {x: -71.5, y: 163.5}
+        - {x: -105.5, y: 163.5}
+        - {x: -115.5, y: 150.5}
+        - {x: -115.5, y: -47.5}
+        - {x: -98.5, y: -147.5}
+        - {x: -69.5, y: -163.5}
+        - {x: 57.5, y: -163.5}
+        - {x: 75.5, y: -155.5}
+        - {x: 78.5, y: -149.5}
+        - {x: 115.5, y: -45.5}
+    - name: bear-walk-bindle-large_3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1703
+        width: 231
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.5, y: -58.5}
+        - {x: 115.5, y: 70.5}
+        - {x: 65.5, y: 103.5}
+        - {x: -71.5, y: 164.5}
+        - {x: -112.5, y: 164.5}
+        - {x: -115.5, y: 153.5}
+        - {x: -115.5, y: 58.5}
+        - {x: -28.5, y: 22.5}
+        - {x: -60.5, y: -93.5}
+        - {x: -56.5, y: -164.5}
+        - {x: 65.5, y: -164.5}
+        - {x: 64.5, y: -155.5}
+        - {x: 55.5, y: -149.5}
+        - {x: 108.5, y: -73.5}
+    - name: bear-walk-bindle-large_4
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1705
+        width: 231
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 138}
+        - {x: -72.5, y: 164}
+        - {x: -102.5, y: 164}
+        - {x: -115.5, y: 126}
+        - {x: -115.5, y: 75}
+        - {x: -90.5, y: 54}
+        - {x: -20.5, y: 62}
+        - {x: -59.5, y: -86}
+        - {x: -47.5, y: -145}
+        - {x: -25.5, y: -164}
+        - {x: 53.5, y: -164}
+        - {x: 62.5, y: -156}
+        - {x: 115.5, y: -48}
+        - {x: 115.5, y: 63}
+    - name: bear-walk-bindle-large_5
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1706
+        width: 232
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116, y: 72}
+        - {x: 62, y: 123}
+        - {x: 37, y: 126}
+        - {x: -75, y: 164}
+        - {x: -100, y: 164}
+        - {x: -116, y: 132}
+        - {x: -116, y: 40}
+        - {x: -59, y: -118}
+        - {x: -39, y: -164}
+        - {x: 62, y: -164}
+        - {x: 86, y: -49}
+        - {x: 116, y: -47}
+    - name: bear-walk-bindle-large_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1327
+        width: 234
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 133}
+        - {x: 35, y: 136}
+        - {x: -75, y: 165}
+        - {x: -106, y: 165}
+        - {x: -117, y: 129}
+        - {x: -117, y: 78}
+        - {x: -50, y: 43}
+        - {x: -61, y: -73}
+        - {x: -63, y: -135}
+        - {x: -21, y: -165}
+        - {x: 46, y: -165}
+        - {x: 48, y: -164}
+        - {x: 54, y: -128}
+        - {x: 117, y: -37}
+        - {x: 117, y: 58}
+    - name: bear-walk-bindle-large_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1327
+        width: 233
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -37.5}
+        - {x: 116.5, y: 68.5}
+        - {x: 64.5, y: 143.5}
+        - {x: -55.5, y: 164.5}
+        - {x: -103.5, y: 164.5}
+        - {x: -93.5, y: 152.5}
+        - {x: -91.5, y: 151.5}
+        - {x: -95.5, y: 151.5}
+        - {x: -99.5, y: 148.5}
+        - {x: -100.5, y: 144.5}
+        - {x: -93.5, y: 138.5}
+        - {x: -108.5, y: 123.5}
+        - {x: -116.5, y: 112.5}
+        - {x: -116.5, y: 70.5}
+        - {x: -113.5, y: 49.5}
+        - {x: -55.5, y: -164.5}
+        - {x: 38.5, y: -164.5}
+        - {x: 39.5, y: -158.5}
+        - {x: 30.5, y: -152.5}
+        - {x: 51.5, y: -119.5}
+    - name: bear-walk-bindle-large_8
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1327
+        width: 231
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -118.5}
+        - {x: 115.5, y: -75.5}
+        - {x: 115.5, y: 104.5}
+        - {x: 89.5, y: 163.5}
+        - {x: -100.5, y: 163.5}
+        - {x: -115.5, y: 134.5}
+        - {x: -115.5, y: 32.5}
+        - {x: -37.5, y: -159.5}
+        - {x: -24.5, y: -163.5}
+        - {x: 29.5, y: -163.5}
+        - {x: 31.5, y: -160.5}
+        - {x: 28.5, y: -153.5}
+        - {x: 25.5, y: -152.5}
+    - name: bear-walk-bindle-large_9
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1327
+        width: 231
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.5, y: 5.5}
+        - {x: 61.5, y: 31.5}
+        - {x: 65.5, y: 27.5}
+        - {x: 71.5, y: 24.5}
+        - {x: 86.5, y: 23.5}
+        - {x: 108.5, y: 46.5}
+        - {x: 115.5, y: 67.5}
+        - {x: 67.5, y: 141.5}
+        - {x: -37.5, y: 162.5}
+        - {x: -115.5, y: 162.5}
+        - {x: -115.5, y: -13.5}
+        - {x: -39.5, y: -162.5}
+        - {x: 32.5, y: -162.5}
+        - {x: 115.5, y: -82.5}
+        - {x: 115.5, y: 0.5}
+        - {x: 107.5, y: 3.5}
+    - name: bear-walk-bindle-large_10
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1324
+        width: 231
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.5, y: -4.5}
+        - {x: 111.5, y: 0.5}
+        - {x: 115.5, y: 50.5}
+        - {x: 115.5, y: 60.5}
+        - {x: 76.5, y: 146.5}
+        - {x: 10.5, y: 163.5}
+        - {x: -115.5, y: 163.5}
+        - {x: -115.5, y: 72.5}
+        - {x: -52.5, y: 18.5}
+        - {x: -64.5, y: -155.5}
+        - {x: -44.5, y: -163.5}
+        - {x: 46.5, y: -163.5}
+        - {x: 78.5, y: -95.5}
+        - {x: 112.5, y: -30.5}
+        - {x: 115.5, y: -23.5}
+    - name: bear-walk-bindle-large_11
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1319
+        width: 230
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: -103}
+        - {x: 115, y: 135}
+        - {x: 98, y: 165}
+        - {x: -104, y: 165}
+        - {x: -115, y: 138}
+        - {x: -115, y: 82}
+        - {x: -111, y: 70}
+        - {x: -85, y: 65}
+        - {x: -51, y: 59}
+        - {x: -58, y: -76}
+        - {x: -58, y: -141}
+        - {x: -28, y: -165}
+        - {x: 2, y: -165}
+        - {x: 2, y: -157}
+        - {x: 36, y: -148}
+        - {x: 65, y: -139}
+    - name: bear-walk-bindle-large_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 936
+        width: 230
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 82}
+        - {x: 21, y: 150}
+        - {x: -68, y: 166}
+        - {x: -102, y: 166}
+        - {x: -115, y: 125}
+        - {x: -115, y: 74}
+        - {x: -103, y: 53}
+        - {x: -39, y: 34}
+        - {x: -79, y: -130}
+        - {x: -51, y: -166}
+        - {x: 39, y: -166}
+        - {x: 63, y: -154}
+        - {x: 107, y: -115}
+        - {x: 95, y: -100}
+        - {x: 115, y: -35}
+    - name: bear-walk-bindle-large_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 937
+        width: 230
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: -45}
+        - {x: 115, y: 67}
+        - {x: 41, y: 145}
+        - {x: -26, y: 166}
+        - {x: -101, y: 166}
+        - {x: -115, y: 155}
+        - {x: -115, y: 78}
+        - {x: -93, y: 50}
+        - {x: -71, y: -135}
+        - {x: -38, y: -166}
+        - {x: 13, y: -166}
+        - {x: 79, y: -141}
+        - {x: 88, y: -119}
+        - {x: 80, y: -115}
+    - name: bear-walk-bindle-large_14
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 938
+        width: 231
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 129.5}
+        - {x: -63.5, y: 166.5}
+        - {x: -103.5, y: 166.5}
+        - {x: -115.5, y: 140.5}
+        - {x: -115.5, y: 75.5}
+        - {x: -60.5, y: 62.5}
+        - {x: -23.5, y: 62.5}
+        - {x: -80.5, y: -136.5}
+        - {x: -38.5, y: -166.5}
+        - {x: 84.5, y: -166.5}
+        - {x: 98.5, y: -74.5}
+        - {x: 115.5, y: -30.5}
+        - {x: 115.5, y: 75.5}
+    - name: bear-walk-bindle-large_15
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 939
+        width: 231
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.5, y: 136.5}
+        - {x: -1.5, y: 167.5}
+        - {x: -107.5, y: 167.5}
+        - {x: -115.5, y: 159.5}
+        - {x: -115.5, y: 72.5}
+        - {x: -112.5, y: 67.5}
+        - {x: -79.5, y: 62.5}
+        - {x: -19.5, y: 73.5}
+        - {x: -94.5, y: -132.5}
+        - {x: -72.5, y: -167.5}
+        - {x: 85.5, y: -167.5}
+        - {x: 66.5, y: -53.5}
+        - {x: 115.5, y: -33.5}
+        - {x: 115.5, y: 52.5}
+    - name: bear-walk-bindle-large_16
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 937
+        width: 231
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.5, y: 83}
+        - {x: 30.5, y: 150}
+        - {x: -46.5, y: 169}
+        - {x: -113.5, y: 169}
+        - {x: -115.5, y: 164}
+        - {x: -115.5, y: 85}
+        - {x: -102.5, y: 66}
+        - {x: -48.5, y: -23}
+        - {x: -50.5, y: -80}
+        - {x: -79.5, y: -167}
+        - {x: -73.5, y: -169}
+        - {x: 39.5, y: -169}
+        - {x: 73.5, y: -148}
+        - {x: 66.5, y: -61}
+        - {x: 115.5, y: -30}
+    - name: bear-walk-bindle-large_17
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 936
+        width: 232
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 124}
+        - {x: 31, y: 132}
+        - {x: -31, y: 123}
+        - {x: -34, y: 122}
+        - {x: -25, y: 140}
+        - {x: -75, y: 170}
+        - {x: -116, y: 170}
+        - {x: -116, y: -18}
+        - {x: -55, y: -170}
+        - {x: 65, y: -170}
+        - {x: 116, y: -99}
+        - {x: 116, y: 47}
+        - {x: 111, y: 55}
+    - name: bear-walk-bindle-large_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 551
+        width: 234
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 171.5}
+        - {x: -110, y: 171.5}
+        - {x: -117, y: 136.5}
+        - {x: -117, y: 90.5}
+        - {x: -96, y: 72.5}
+        - {x: -64, y: 73.5}
+        - {x: -48, y: 78.5}
+        - {x: -86, y: -63.5}
+        - {x: -21, y: -171.5}
+        - {x: 28, y: -171.5}
+        - {x: 47, y: -161.5}
+        - {x: 117, y: -20.5}
+        - {x: 117, y: 60.5}
+        - {x: 68, y: 134.5}
+    - name: bear-walk-bindle-large_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 554
+        width: 233
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -47.5}
+        - {x: 116.5, y: 68.5}
+        - {x: 87.5, y: 150.5}
+        - {x: 5.5, y: 169.5}
+        - {x: -97.5, y: 169.5}
+        - {x: -96.5, y: 164.5}
+        - {x: -93.5, y: 157.5}
+        - {x: -91.5, y: 156.5}
+        - {x: -95.5, y: 156.5}
+        - {x: -106.5, y: 146.5}
+        - {x: -116.5, y: 125.5}
+        - {x: -116.5, y: -67.5}
+        - {x: -20.5, y: -169.5}
+        - {x: 19.5, y: -169.5}
+        - {x: 19.5, y: -160.5}
+        - {x: 18.5, y: -156.5}
+        - {x: 14.5, y: -153.5}
+    - name: bear-walk-bindle-large_20
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 556
+        width: 231
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: 120.5}
+        - {x: 41.5, y: 135.5}
+        - {x: 12.5, y: 119.5}
+        - {x: -59.5, y: 167.5}
+        - {x: -106.5, y: 167.5}
+        - {x: -115.5, y: 148.5}
+        - {x: -115.5, y: -8.5}
+        - {x: -110.5, y: -26.5}
+        - {x: -59.5, y: -150.5}
+        - {x: -20.5, y: -167.5}
+        - {x: 21.5, y: -167.5}
+        - {x: 45.5, y: -123.5}
+        - {x: 115.5, y: -23.5}
+        - {x: 115.5, y: 60.5}
+    - name: bear-walk-bindle-large_21
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 558
+        width: 231
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.5, y: 68.5}
+        - {x: 66.5, y: 156.5}
+        - {x: -2.5, y: 165.5}
+        - {x: -111.5, y: 165.5}
+        - {x: -115.5, y: 146.5}
+        - {x: -115.5, y: 57.5}
+        - {x: -76.5, y: 38.5}
+        - {x: -115.5, y: -97.5}
+        - {x: -115.5, y: -98.5}
+        - {x: -67.5, y: -47.5}
+        - {x: -58.5, y: -144.5}
+        - {x: -45.5, y: -165.5}
+        - {x: 32.5, y: -165.5}
+        - {x: 59.5, y: -109.5}
+        - {x: 115.5, y: -25.5}
+    - name: bear-walk-bindle-large_22
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 557
+        width: 231
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.5, y: 31.5}
+        - {x: 112.5, y: 52.5}
+        - {x: 106.5, y: 57.5}
+        - {x: 58.5, y: 125.5}
+        - {x: -64.5, y: 165.5}
+        - {x: -111.5, y: 165.5}
+        - {x: -115.5, y: 154.5}
+        - {x: -115.5, y: 77.5}
+        - {x: -82.5, y: 65.5}
+        - {x: -61.5, y: 67.5}
+        - {x: -47.5, y: 72.5}
+        - {x: -37.5, y: 84.5}
+        - {x: -92.5, y: -33.5}
+        - {x: -85.5, y: -63.5}
+        - {x: -67.5, y: -138.5}
+        - {x: -44.5, y: -165.5}
+        - {x: 19.5, y: -165.5}
+        - {x: 39.5, y: -163.5}
+        - {x: 41.5, y: -154.5}
+        - {x: 115.5, y: -36.5}
+    - name: bear-walk-bindle-large_23
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 556
+        width: 230
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: -146}
+        - {x: 56, y: -140}
+        - {x: 115, y: -73}
+        - {x: 115, y: 116}
+        - {x: 96, y: 164}
+        - {x: 89, y: 165}
+        - {x: -115, y: 165}
+        - {x: -115, y: -40}
+        - {x: -81, y: -64}
+        - {x: -65, y: -58}
+        - {x: -53, y: -82}
+        - {x: -75, y: -140}
+        - {x: -47, y: -165}
+        - {x: -34, y: -165}
+        - {x: -33, y: -161}
+        - {x: -34, y: -158}
+        - {x: 66, y: -163}
+    - name: bear-walk-bindle-large_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 171
+        width: 230
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: -124}
+        - {x: 115, y: -65}
+        - {x: 115, y: 110}
+        - {x: 10, y: 164}
+        - {x: -115, y: 164}
+        - {x: -115, y: 80}
+        - {x: -99, y: 62}
+        - {x: -59, y: 64}
+        - {x: -47, y: 72}
+        - {x: -40, y: 78}
+        - {x: -38, y: 83}
+        - {x: -99, y: -57}
+        - {x: -84, y: -73}
+        - {x: -77, y: -139}
+        - {x: -55, y: -164}
+        - {x: 49, y: -164}
+        - {x: 72, y: -149}
+        - {x: 88, y: -130}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

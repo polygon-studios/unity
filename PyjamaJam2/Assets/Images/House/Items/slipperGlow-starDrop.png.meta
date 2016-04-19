@@ -1,0 +1,4375 @@
+fileFormatVersion: 2
+guid: 92e35109a7fcd7248b05d1fdf0280c7f
+timeCreated: 1458416053
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: slipperGlow-starDrop_0
+    21300002: slipperGlow-starDrop_1
+    21300004: slipperGlow-starDrop_2
+    21300006: slipperGlow-starDrop_3
+    21300008: slipperGlow-starDrop_4
+    21300010: slipperGlow-starDrop_5
+    21300012: slipperGlow-starDrop_6
+    21300014: slipperGlow-starDrop_7
+    21300016: slipperGlow-starDrop_8
+    21300018: slipperGlow-starDrop_9
+    21300020: slipperGlow-starDrop_10
+    21300022: slipperGlow-starDrop_11
+    21300024: slipperGlow-starDrop_12
+    21300026: slipperGlow-starDrop_13
+    21300028: slipperGlow-starDrop_14
+    21300030: slipperGlow-starDrop_15
+    21300032: slipperGlow-starDrop_16
+    21300034: slipperGlow-starDrop_17
+    21300036: slipperGlow-starDrop_18
+    21300038: slipperGlow-starDrop_19
+    21300040: slipperGlow-starDrop_20
+    21300042: slipperGlow-starDrop_21
+    21300044: slipperGlow-starDrop_22
+    21300046: slipperGlow-starDrop_23
+    21300048: slipperGlow-starDrop_24
+    21300050: slipperGlow-starDrop_25
+    21300052: slipperGlow-starDrop_26
+    21300054: slipperGlow-starDrop_27
+    21300056: slipperGlow-starDrop_28
+    21300058: slipperGlow-starDrop_29
+    21300060: slipperGlow-starDrop_30
+    21300062: slipperGlow-starDrop_31
+    21300064: slipperGlow-starDrop_32
+    21300066: slipperGlow-starDrop_33
+    21300068: slipperGlow-starDrop_34
+    21300070: slipperGlow-starDrop_35
+    21300072: slipperGlow-starDrop_36
+    21300074: slipperGlow-starDrop_37
+    21300076: slipperGlow-starDrop_38
+    21300078: slipperGlow-starDrop_39
+    21300080: slipperGlow-starDrop_40
+    21300082: slipperGlow-starDrop_41
+    21300084: slipperGlow-starDrop_42
+    21300086: slipperGlow-starDrop_43
+    21300088: slipperGlow-starDrop_44
+    21300090: slipperGlow-starDrop_45
+    21300092: slipperGlow-starDrop_46
+    21300094: slipperGlow-starDrop_47
+    21300096: slipperGlow-starDrop_48
+    21300098: slipperGlow-starDrop_49
+    21300100: slipperGlow-starDrop_50
+    21300102: slipperGlow-starDrop_51
+    21300104: slipperGlow-starDrop_52
+    21300106: slipperGlow-starDrop_53
+    21300108: slipperGlow-starDrop_54
+    21300110: slipperGlow-starDrop_55
+    21300112: slipperGlow-starDrop_56
+    21300114: slipperGlow-starDrop_57
+    21300116: slipperGlow-starDrop_58
+    21300118: slipperGlow-starDrop_59
+    21300120: slipperGlow-starDrop_60
+    21300122: slipperGlow-starDrop_61
+    21300124: slipperGlow-starDrop_62
+    21300126: slipperGlow-starDrop_63
+    21300128: slipperGlow-starDrop_64
+    21300130: slipperGlow-starDrop_65
+    21300132: slipperGlow-starDrop_66
+    21300134: slipperGlow-starDrop_67
+    21300136: slipperGlow-starDrop_68
+    21300138: slipperGlow-starDrop_69
+    21300140: slipperGlow-starDrop_70
+    21300142: slipperGlow-starDrop_71
+    21300144: slipperGlow-starDrop_72
+    21300146: slipperGlow-starDrop_73
+    21300148: slipperGlow-starDrop_74
+    21300150: slipperGlow-starDrop_75
+    21300152: slipperGlow-starDrop_76
+    21300154: slipperGlow-starDrop_77
+    21300156: slipperGlow-starDrop_78
+    21300158: slipperGlow-starDrop_79
+    21300160: slipperGlow-starDrop_80
+    21300162: slipperGlow-starDrop_81
+    21300164: slipperGlow-starDrop_82
+    21300166: slipperGlow-starDrop_83
+    21300168: slipperGlow-starDrop_84
+    21300170: slipperGlow-starDrop_85
+    21300172: slipperGlow-starDrop_86
+    21300174: slipperGlow-starDrop_87
+    21300176: slipperGlow-starDrop_88
+    21300178: slipperGlow-starDrop_89
+    21300180: slipperGlow-starDrop_90
+    21300182: slipperGlow-starDrop_91
+    21300184: slipperGlow-starDrop_92
+    21300186: slipperGlow-starDrop_93
+    21300188: slipperGlow-starDrop_94
+    21300190: slipperGlow-starDrop_95
+    21300192: slipperGlow-starDrop_96
+    21300194: slipperGlow-starDrop_97
+    21300196: slipperGlow-starDrop_98
+    21300198: slipperGlow-starDrop_99
+    21300200: slipperGlow-starDrop_100
+    21300202: slipperGlow-starDrop_101
+    21300204: slipperGlow-starDrop_102
+    21300206: slipperGlow-starDrop_103
+    21300208: slipperGlow-starDrop_104
+    21300210: slipperGlow-starDrop_105
+    21300212: slipperGlow-starDrop_106
+    21300214: slipperGlow-starDrop_107
+    21300216: slipperGlow-starDrop_108
+    21300218: slipperGlow-starDrop_109
+    21300220: slipperGlow-starDrop_110
+    21300222: slipperGlow-starDrop_111
+    21300224: slipperGlow-starDrop_112
+    21300226: slipperGlow-starDrop_113
+    21300228: slipperGlow-starDrop_114
+    21300230: slipperGlow-starDrop_115
+    21300232: slipperGlow-starDrop_116
+    21300234: slipperGlow-starDrop_117
+    21300236: slipperGlow-starDrop_118
+    21300238: slipperGlow-starDrop_119
+    21300240: slipperGlow-starDrop_120
+    21300242: slipperGlow-starDrop_121
+    21300244: slipperGlow-starDrop_122
+    21300246: slipperGlow-starDrop_123
+    21300248: slipperGlow-starDrop_124
+    21300250: slipperGlow-starDrop_125
+    21300252: slipperGlow-starDrop_126
+    21300254: slipperGlow-starDrop_127
+    21300256: slipperGlow-starDrop_128
+    21300258: slipperGlow-starDrop_129
+    21300260: slipperGlow-starDrop_130
+    21300262: slipperGlow-starDrop_131
+    21300264: slipperGlow-starDrop_132
+    21300266: slipperGlow-starDrop_133
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: slipperGlow-starDrop_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: -17}
+        - {x: -49.5, y: -24}
+        - {x: -49.5, y: -36}
+        - {x: -31.5, y: -36}
+        - {x: -26.5, y: -32}
+        - {x: -26.5, y: -19}
+        - {x: -31.5, y: -17}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_2
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -15}
+        - {x: -43.5, y: -15}
+        - {x: -49.5, y: -23}
+        - {x: -49.5, y: -36}
+        - {x: -30.5, y: -36}
+        - {x: -25.5, y: -31}
+        - {x: -25.5, y: -19}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_3
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -11}
+        - {x: -48.5, y: -16}
+        - {x: -49.5, y: -24}
+        - {x: -49.5, y: -36}
+        - {x: -31.5, y: -36}
+        - {x: -24.5, y: -31}
+        - {x: -24.5, y: -15}
+        - {x: -31.5, y: -11}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_4
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -9}
+        - {x: -49.5, y: -13}
+        - {x: -49.5, y: -36}
+        - {x: -35.5, y: -36}
+        - {x: -28.5, y: -35}
+        - {x: -24.5, y: -27}
+        - {x: -24.5, y: -14}
+        - {x: -27.5, y: -9}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_5
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -12}
+        - {x: -29.5, y: -6}
+        - {x: -39.5, y: -6}
+        - {x: -49.5, y: -14}
+        - {x: -49.5, y: -36}
+        - {x: -37.5, y: -36}
+        - {x: -31.5, y: -32}
+        - {x: -23.5, y: -26}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_6
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: -3}
+        - {x: -49.5, y: -4}
+        - {x: -49.5, y: -36}
+        - {x: -31.5, y: -36}
+        - {x: -24.5, y: -34}
+        - {x: -22.5, y: -28}
+        - {x: -22.5, y: -8}
+        - {x: -29.5, y: -3}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_7
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: -3}
+        - {x: -47.5, y: -5}
+        - {x: -49.5, y: -9}
+        - {x: -49.5, y: -36}
+        - {x: -29.5, y: -36}
+        - {x: -22.5, y: -24}
+        - {x: -22.5, y: -4}
+        - {x: -25.5, y: -3}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_8
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 7816
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -46.5, y: -2}
+        - {x: -49.5, y: -10}
+        - {x: -49.5, y: -24}
+        - {x: -44.5, y: -28}
+        - {x: -25.5, y: -28}
+        - {x: -22.5, y: -21}
+        - {x: -22.5, y: -2}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -1.25}
+        - {x: -39.5, y: -1.25}
+        - {x: -48.5, y: -9.25}
+        - {x: -49.5, y: -13.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -27.5, y: -36.25}
+        - {x: -18.5, y: -26.25}
+        - {x: -18.5, y: -7.25}
+        - {x: -24.5, y: -3.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: -1.25}
+        - {x: -40.5, y: -1.25}
+        - {x: -49.5, y: -5.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -33.5, y: -36.25}
+        - {x: -17.5, y: -28.25}
+        - {x: -17.5, y: -13.25}
+        - {x: -20.5, y: -6.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_11
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: -0.25}
+        - {x: -49.5, y: -5.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -20.5, y: -36.25}
+        - {x: -17.5, y: -29.25}
+        - {x: -17.5, y: -8.25}
+        - {x: -23.5, y: -0.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_12
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -0.25}
+        - {x: -41.5, y: -0.25}
+        - {x: -49.5, y: -4.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -19.5, y: -36.25}
+        - {x: -15.5, y: -27.25}
+        - {x: -15.5, y: -10.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_13
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: -1.25}
+        - {x: -49.5, y: -7.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -18.5, y: -36.25}
+        - {x: -15.5, y: -28.25}
+        - {x: -15.5, y: -11.25}
+        - {x: -25.5, y: -1.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_14
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -2.25}
+        - {x: -49.5, y: -7.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -14.5, y: -36.25}
+        - {x: -13.5, y: -34.25}
+        - {x: -13.5, y: -9.25}
+        - {x: -20.5, y: -2.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_15
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -6.25}
+        - {x: -28.5, y: -3.25}
+        - {x: -43.5, y: -3.25}
+        - {x: -49.5, y: -9.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -17.5, y: -36.25}
+        - {x: -13.5, y: -29.25}
+        - {x: -13.5, y: -22.25}
+        - {x: -14.5, y: -17.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_16
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -4.25}
+        - {x: -41.5, y: -4.25}
+        - {x: -49.5, y: -8.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -12.5, y: -36.25}
+        - {x: -12.5, y: -17.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_17
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 7453
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: -5.25}
+        - {x: -42.5, y: -5.25}
+        - {x: -49.5, y: -8.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -13.5, y: -36.25}
+        - {x: -12.5, y: -33.25}
+        - {x: -12.5, y: -24.25}
+        - {x: -13.5, y: -19.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: -3}
+        - {x: -49.5, y: -12}
+        - {x: -49.5, y: -36}
+        - {x: -14.5, y: -36}
+        - {x: -12.5, y: -35}
+        - {x: -12.5, y: -20}
+        - {x: -22.5, y: -3}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_19
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: -3}
+        - {x: -40.5, y: -3}
+        - {x: -42.5, y: -4}
+        - {x: -46.5, y: -10}
+        - {x: -49.5, y: -15}
+        - {x: -49.5, y: -36}
+        - {x: -15.5, y: -36}
+        - {x: -12.5, y: -30}
+        - {x: -12.5, y: -19}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_20
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -2}
+        - {x: -41.5, y: -2}
+        - {x: -45.5, y: -3}
+        - {x: -49.5, y: -15}
+        - {x: -49.5, y: -36}
+        - {x: -15.5, y: -36}
+        - {x: -12.5, y: -33}
+        - {x: -12.5, y: -21}
+        - {x: -15.5, y: -11}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_21
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: -1}
+        - {x: -47.5, y: -7}
+        - {x: -49.5, y: -18}
+        - {x: -49.5, y: -36}
+        - {x: -16.5, y: -36}
+        - {x: -12.5, y: -33}
+        - {x: -12.5, y: -10}
+        - {x: -28.5, y: -1}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_22
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 0}
+        - {x: -49.5, y: -10}
+        - {x: -49.5, y: -36}
+        - {x: -17.5, y: -36}
+        - {x: -12.5, y: -34}
+        - {x: -12.5, y: -19}
+        - {x: -26.5, y: 0}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_23
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -1}
+        - {x: -39.5, y: -1}
+        - {x: -41.5, y: -2}
+        - {x: -47.5, y: -8}
+        - {x: -49.5, y: -18}
+        - {x: -49.5, y: -36}
+        - {x: -14.5, y: -36}
+        - {x: -12.5, y: -33}
+        - {x: -12.5, y: -12}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_24
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -13}
+        - {x: -20.5, y: -7}
+        - {x: -24.5, y: -4}
+        - {x: -26.5, y: -3}
+        - {x: -44.5, y: -3}
+        - {x: -49.5, y: -10}
+        - {x: -49.5, y: -36}
+        - {x: -17.5, y: -36}
+        - {x: -12.5, y: -31}
+        - {x: -12.5, y: -24}
+        - {x: -13.5, y: -20}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_25
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: -4}
+        - {x: -49.5, y: -13}
+        - {x: -49.5, y: -36}
+        - {x: -15.5, y: -36}
+        - {x: -12.5, y: -30}
+        - {x: -12.5, y: -13}
+        - {x: -18.5, y: -4}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_26
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 7090
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: -5}
+        - {x: -49.5, y: -6}
+        - {x: -49.5, y: -36}
+        - {x: -15.5, y: -36}
+        - {x: -12.5, y: -35}
+        - {x: -12.5, y: -10}
+        - {x: -14.5, y: -5}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -4.75}
+        - {x: -39.5, y: -4.75}
+        - {x: -49.5, y: -13.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -16.5, y: -35.75}
+        - {x: -12.5, y: -30.75}
+        - {x: -12.5, y: -15.75}
+        - {x: -13.5, y: -7.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_28
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 2.25}
+        - {x: -49.5, y: -6.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -15.5, y: -35.75}
+        - {x: -11.5, y: -34.75}
+        - {x: -11.5, y: 0.25}
+        - {x: -26.5, y: 2.25}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_29
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -6.75}
+        - {x: -26.5, y: 4.25}
+        - {x: -43.5, y: 4.25}
+        - {x: -49.5, y: 1.25}
+        - {x: -49.5, y: -35.75}
+        - {x: -13.5, y: -35.75}
+        - {x: -12.5, y: -31.75}
+        - {x: -12.5, y: -20.75}
+        - {x: -13.5, y: -11.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_30
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 7.25}
+        - {x: -49.5, y: 2.25}
+        - {x: -49.5, y: -35.75}
+        - {x: -12.5, y: -35.75}
+        - {x: -11.5, y: -34.75}
+        - {x: -11.5, y: -7.75}
+        - {x: -20.5, y: 7.25}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_31
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -42.5, y: 11.25}
+        - {x: -47.5, y: 10.25}
+        - {x: -49.5, y: 2.25}
+        - {x: -49.5, y: -7.75}
+        - {x: -42.5, y: -13.75}
+        - {x: -33.5, y: -13.75}
+        - {x: -26.5, y: -10.75}
+        - {x: -26.5, y: 9.25}
+        - {x: -29.5, y: 11.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_32
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -43.5, y: 15.25}
+        - {x: -48.5, y: 11.25}
+        - {x: -48.5, y: -6.75}
+        - {x: -41.5, y: -9.75}
+        - {x: -32.5, y: -9.75}
+        - {x: -25.5, y: -6.75}
+        - {x: -25.5, y: 15.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_33
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -41.5, y: 18.25}
+        - {x: -47.5, y: 15.25}
+        - {x: -47.5, y: -2.75}
+        - {x: -40.5, y: -5.75}
+        - {x: -26.5, y: -5.75}
+        - {x: -24.5, y: -3.75}
+        - {x: -24.5, y: 14.25}
+        - {x: -26.5, y: 18.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_34
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -38.5, y: 22.25}
+        - {x: -44.5, y: 21.25}
+        - {x: -45.5, y: 16.25}
+        - {x: -45.5, y: 2.25}
+        - {x: -42.5, y: -2.75}
+        - {x: -27.5, y: -2.75}
+        - {x: -22.5, y: 1.25}
+        - {x: -22.5, y: 15.25}
+        - {x: -30.5, y: 22.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_35
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 6727
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -26.5, y: 24.25}
+        - {x: -39.5, y: 24.25}
+        - {x: -43.5, y: 21.25}
+        - {x: -43.5, y: 6.25}
+        - {x: -41.5, y: 0.25}
+        - {x: -28.5, y: 0.25}
+        - {x: -21.5, y: 4.25}
+        - {x: -20.5, y: 8.25}
+        - {x: -20.5, y: 17.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -41.5, y: 20}
+        - {x: -41.5, y: 8}
+        - {x: -35.5, y: 2}
+        - {x: -24.5, y: 2}
+        - {x: -18.5, y: 5}
+        - {x: -18.5, y: 17}
+        - {x: -19.5, y: 23}
+        - {x: -22.5, y: 26}
+        - {x: -40.5, y: 26}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_37
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -34.5, y: 29}
+        - {x: -37.5, y: 27}
+        - {x: -37.5, y: 10}
+        - {x: -34.5, y: 5}
+        - {x: -17.5, y: 5}
+        - {x: -15.5, y: 9}
+        - {x: -15.5, y: 28}
+        - {x: -16.5, y: 29}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_38
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -28.5, y: 31}
+        - {x: -34.5, y: 26}
+        - {x: -34.5, y: 12}
+        - {x: -33.5, y: 7}
+        - {x: -12.5, y: 7}
+        - {x: -12.5, y: 26}
+        - {x: -18.5, y: 31}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_39
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -25.5, y: 32}
+        - {x: -30.5, y: 30}
+        - {x: -30.5, y: 14}
+        - {x: -25.5, y: 8}
+        - {x: -10.5, y: 8}
+        - {x: -8.5, y: 14}
+        - {x: -8.5, y: 29}
+        - {x: -10.5, y: 32}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_40
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -8.5, y: 33}
+        - {x: -27.5, y: 33}
+        - {x: -27.5, y: 13}
+        - {x: -26.5, y: 10}
+        - {x: -10.5, y: 10}
+        - {x: -5.5, y: 15}
+        - {x: -5.5, y: 27}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_41
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -17.5, y: 34}
+        - {x: -23.5, y: 33}
+        - {x: -23.5, y: 13}
+        - {x: -20.5, y: 11}
+        - {x: -3.5, y: 11}
+        - {x: -1.5, y: 16}
+        - {x: -1.5, y: 32}
+        - {x: -3.5, y: 34}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_42
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -14.5, y: 35}
+        - {x: -20.5, y: 33}
+        - {x: -20.5, y: 21}
+        - {x: -19.5, y: 16}
+        - {x: -14.5, y: 12}
+        - {x: 1.5, y: 12}
+        - {x: 1.5, y: 35}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_43
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 1.5, y: 36}
+        - {x: -9.5, y: 36}
+        - {x: -16.5, y: 32}
+        - {x: -16.5, y: 15}
+        - {x: -9.5, y: 13}
+        - {x: 2.5, y: 13}
+        - {x: 5.5, y: 20}
+        - {x: 5.5, y: 31}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_44
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 6364
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -8.5, y: 36}
+        - {x: -12.5, y: 35}
+        - {x: -12.5, y: 17}
+        - {x: -7.5, y: 13}
+        - {x: 0.5, y: 13}
+        - {x: 6.5, y: 16}
+        - {x: 9.5, y: 22}
+        - {x: 9.5, y: 31}
+        - {x: 5.5, y: 36}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -7.5, y: 36.75}
+        - {x: -9.5, y: 35.75}
+        - {x: -9.5, y: 19.75}
+        - {x: -3.5, y: 14.75}
+        - {x: 7.5, y: 14.75}
+        - {x: 12.5, y: 18.75}
+        - {x: 12.5, y: 30.75}
+        - {x: 10.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_46
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -1.5, y: 36.75}
+        - {x: -4.5, y: 33.75}
+        - {x: -4.5, y: 20.75}
+        - {x: 0.5, y: 15.75}
+        - {x: 2.5, y: 14.75}
+        - {x: 10.5, y: 14.75}
+        - {x: 16.5, y: 19.75}
+        - {x: 16.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_47
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -1.5, y: 36.75}
+        - {x: -1.5, y: 20.75}
+        - {x: 0.5, y: 15.75}
+        - {x: 16.5, y: 15.75}
+        - {x: 19.5, y: 17.75}
+        - {x: 19.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_48
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: 4.5, y: 36.75}
+        - {x: 2.5, y: 33.75}
+        - {x: 2.5, y: 19.75}
+        - {x: 8.5, y: 16.75}
+        - {x: 19.5, y: 16.75}
+        - {x: 23.5, y: 21.75}
+        - {x: 23.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_49
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: 5.5, y: 36.75}
+        - {x: 5.5, y: 19.75}
+        - {x: 6.5, y: 16.75}
+        - {x: 18.5, y: 16.75}
+        - {x: 26.5, y: 20.75}
+        - {x: 26.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_50
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: 11.5, y: 36.75}
+        - {x: 9.5, y: 33.75}
+        - {x: 9.5, y: 19.75}
+        - {x: 14.5, y: 17.75}
+        - {x: 28.5, y: 17.75}
+        - {x: 30.5, y: 19.75}
+        - {x: 30.5, y: 31.75}
+        - {x: 28.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_51
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: 16.5, y: 36.75}
+        - {x: 13.5, y: 34.75}
+        - {x: 12.5, y: 25.75}
+        - {x: 12.5, y: 21.75}
+        - {x: 17.5, y: 16.75}
+        - {x: 27.5, y: 16.75}
+        - {x: 33.5, y: 19.75}
+        - {x: 33.5, y: 32.75}
+        - {x: 30.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_52
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: 20.5, y: 36.75}
+        - {x: 16.5, y: 32.75}
+        - {x: 16.5, y: 15.75}
+        - {x: 34.5, y: 15.75}
+        - {x: 37.5, y: 20.75}
+        - {x: 37.5, y: 32.75}
+        - {x: 34.5, y: 36.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_53
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 6001
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: 24.5, y: 35.75}
+        - {x: 18.5, y: 29.75}
+        - {x: 18.5, y: 17.75}
+        - {x: 25.5, y: 13.75}
+        - {x: 37.5, y: 13.75}
+        - {x: 39.5, y: 15.75}
+        - {x: 39.5, y: 29.75}
+        - {x: 35.5, y: 35.75}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 35.5, y: 33}
+        - {x: 24.5, y: 33}
+        - {x: 21.5, y: 29}
+        - {x: 21.5, y: 14}
+        - {x: 28.5, y: 11}
+        - {x: 37.5, y: 11}
+        - {x: 41.5, y: 15}
+        - {x: 41.5, y: 30}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_55
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 30.5, y: 30}
+        - {x: 23.5, y: 28}
+        - {x: 22.5, y: 23}
+        - {x: 22.5, y: 13}
+        - {x: 27.5, y: 8}
+        - {x: 36.5, y: 8}
+        - {x: 42.5, y: 11}
+        - {x: 42.5, y: 26}
+        - {x: 38.5, y: 30}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_56
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 24.5, y: 26}
+        - {x: 21.5, y: 22}
+        - {x: 21.5, y: 9}
+        - {x: 24.5, y: 5}
+        - {x: 35.5, y: 5}
+        - {x: 41.5, y: 8}
+        - {x: 41.5, y: 24}
+        - {x: 36.5, y: 26}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_57
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 21.5, y: 23}
+        - {x: 21.5, y: 6}
+        - {x: 23.5, y: 1}
+        - {x: 35.5, y: 1}
+        - {x: 41.5, y: 5}
+        - {x: 41.5, y: 21}
+        - {x: 35.5, y: 23}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_58
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 19.5, y: 19}
+        - {x: 19.5, y: 4}
+        - {x: 22.5, y: -2}
+        - {x: 36.5, y: -2}
+        - {x: 39.5, y: -1}
+        - {x: 39.5, y: 18}
+        - {x: 35.5, y: 19}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_59
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 18.5, y: 17}
+        - {x: 17.5, y: 13}
+        - {x: 17.5, y: 0}
+        - {x: 23.5, y: -4}
+        - {x: 31.5, y: -4}
+        - {x: 37.5, y: 2}
+        - {x: 37.5, y: 16}
+        - {x: 33.5, y: 17}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_60
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 30.5, y: 14}
+        - {x: 19.5, y: 14}
+        - {x: 15.5, y: 13}
+        - {x: 15.5, y: -5}
+        - {x: 21.5, y: -7}
+        - {x: 30.5, y: -7}
+        - {x: 35.5, y: -3}
+        - {x: 35.5, y: 6}
+        - {x: 33.5, y: 13}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_61
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 16.5, y: 11}
+        - {x: 13.5, y: 6}
+        - {x: 13.5, y: -7}
+        - {x: 19.5, y: -9}
+        - {x: 30.5, y: -9}
+        - {x: 33.5, y: -4}
+        - {x: 33.5, y: 9}
+        - {x: 27.5, y: 11}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_62
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 5638
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 12.5, y: 10}
+        - {x: 9.5, y: 4}
+        - {x: 9.5, y: -9}
+        - {x: 12.5, y: -10}
+        - {x: 28.5, y: -10}
+        - {x: 29.5, y: -9}
+        - {x: 29.5, y: 6}
+        - {x: 27.5, y: 10}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: 6.5, y: -5.75}
+        - {x: 12.5, y: -10.75}
+        - {x: 22.5, y: -10.75}
+        - {x: 25.5, y: -9.75}
+        - {x: 25.5, y: 6.25}
+        - {x: 24.5, y: 10.25}
+        - {x: 10.5, y: 10.25}
+        - {x: 6.5, y: 4.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_64
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: 9.5, y: 10.25}
+        - {x: 4.5, y: 8.25}
+        - {x: 3.5, y: 3.25}
+        - {x: 3.5, y: -4.75}
+        - {x: 8.5, y: -9.75}
+        - {x: 20.5, y: -9.75}
+        - {x: 22.5, y: -4.75}
+        - {x: 22.5, y: 8.25}
+        - {x: 18.5, y: 10.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_65
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: 12.5, y: 11.25}
+        - {x: 2.5, y: 11.25}
+        - {x: -0.5, y: 8.25}
+        - {x: -0.5, y: -4.75}
+        - {x: 5.5, y: -9.75}
+        - {x: 11.5, y: -9.75}
+        - {x: 13.5, y: -8.75}
+        - {x: 18.5, y: -5.75}
+        - {x: 18.5, y: 7.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_66
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: 0.5, y: 12.25}
+        - {x: -3.5, y: 9.25}
+        - {x: -3.5, y: -5.75}
+        - {x: -1.5, y: -7.75}
+        - {x: 9.5, y: -7.75}
+        - {x: 15.5, y: -4.75}
+        - {x: 15.5, y: 6.25}
+        - {x: 12.5, y: 11.25}
+        - {x: 9.5, y: 12.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_67
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -6.5, y: -5.75}
+        - {x: -4.5, y: -6.75}
+        - {x: 5.5, y: -6.75}
+        - {x: 11.5, y: -3.75}
+        - {x: 11.5, y: 8.25}
+        - {x: 10.5, y: 13.25}
+        - {x: -4.5, y: 13.25}
+        - {x: -6.5, y: 9.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_68
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -5.5, y: 14.25}
+        - {x: -9.5, y: 11.25}
+        - {x: -9.5, y: -1.75}
+        - {x: -3.5, y: -5.75}
+        - {x: 1.5, y: -5.75}
+        - {x: 8.5, y: -1.75}
+        - {x: 8.5, y: 9.25}
+        - {x: 7.5, y: 14.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_69
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -5.5, y: 17.25}
+        - {x: -10.5, y: 15.25}
+        - {x: -10.5, y: 1.25}
+        - {x: -5.5, y: -2.75}
+        - {x: 3.5, y: -2.75}
+        - {x: 8.5, y: -1.75}
+        - {x: 8.5, y: 15.25}
+        - {x: 6.5, y: 17.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_70
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -0.5, y: 20.25}
+        - {x: -7.5, y: 15.25}
+        - {x: -7.5, y: 5.25}
+        - {x: -5.5, y: 0.25}
+        - {x: 6.5, y: 0.25}
+        - {x: 11.5, y: 6.25}
+        - {x: 11.5, y: 17.25}
+        - {x: 4.5, y: 20.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_71
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 5275
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -1.5, y: 21.25}
+        - {x: -2.5, y: 19.25}
+        - {x: -4.5, y: 14.25}
+        - {x: -4.5, y: 5.25}
+        - {x: -2.5, y: 2.25}
+        - {x: 8.5, y: 2.25}
+        - {x: 13.5, y: 4.25}
+        - {x: 13.5, y: 20.25}
+        - {x: 10.5, y: 21.25}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_72
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 5.5, y: 21}
+        - {x: -0.5, y: 18}
+        - {x: -0.5, y: 6}
+        - {x: 1.5, y: 2}
+        - {x: 12.5, y: 2}
+        - {x: 17.5, y: 3}
+        - {x: 17.5, y: 16}
+        - {x: 12.5, y: 21}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_73
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 6.5, y: 22}
+        - {x: 3.5, y: 20}
+        - {x: 3.5, y: 8}
+        - {x: 4.5, y: 3}
+        - {x: 18.5, y: 3}
+        - {x: 21.5, y: 9}
+        - {x: 21.5, y: 18}
+        - {x: 19.5, y: 22}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_74
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 17.5, y: 24}
+        - {x: 10.5, y: 24}
+        - {x: 5.5, y: 20}
+        - {x: 5.5, y: 9}
+        - {x: 9.5, y: 5}
+        - {x: 17.5, y: 5}
+        - {x: 23.5, y: 6}
+        - {x: 23.5, y: 20}
+        - {x: 20.5, y: 23}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_75
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 17.5, y: 22}
+        - {x: 12.5, y: 21}
+        - {x: 11.5, y: 19}
+        - {x: 11.5, y: 8}
+        - {x: 16.5, y: 3}
+        - {x: 27.5, y: 3}
+        - {x: 29.5, y: 9}
+        - {x: 29.5, y: 20}
+        - {x: 26.5, y: 22}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_76
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 26.5, y: 18}
+        - {x: 18.5, y: 18}
+        - {x: 14.5, y: 14}
+        - {x: 14.5, y: 3}
+        - {x: 19.5, y: -1}
+        - {x: 26.5, y: -1}
+        - {x: 32.5, y: 3}
+        - {x: 32.5, y: 14}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_77
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 21.5, y: 12}
+        - {x: 15.5, y: 9}
+        - {x: 15.5, y: -3}
+        - {x: 18.5, y: -7}
+        - {x: 28.5, y: -7}
+        - {x: 33.5, y: -5}
+        - {x: 33.5, y: 8}
+        - {x: 30.5, y: 12}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_78
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 16.5, y: 6}
+        - {x: 14.5, y: 3}
+        - {x: 14.5, y: -9}
+        - {x: 19.5, y: -13}
+        - {x: 31.5, y: -13}
+        - {x: 32.5, y: -8}
+        - {x: 32.5, y: 5}
+        - {x: 31.5, y: 6}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_79
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: 17.5, y: 0}
+        - {x: 14.5, y: -4}
+        - {x: 14.5, y: -13}
+        - {x: 17.5, y: -17}
+        - {x: 20.5, y: -18}
+        - {x: 27.5, y: -18}
+        - {x: 31.5, y: -13}
+        - {x: 31.5, y: -5}
+        - {x: 27.5, y: 0}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_80
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 4912
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: 14.5, y: -5}
+        - {x: 12.5, y: -10}
+        - {x: 12.5, y: -18}
+        - {x: 14.5, y: -22}
+        - {x: 17.5, y: -23}
+        - {x: 26.5, y: -23}
+        - {x: 28.5, y: -21}
+        - {x: 28.5, y: -8}
+        - {x: 27.5, y: -5}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: 11.5, y: -10.25}
+        - {x: 9.5, y: -16.25}
+        - {x: 9.5, y: -24.25}
+        - {x: 14.5, y: -28.25}
+        - {x: 24.5, y: -28.25}
+        - {x: 26.5, y: -24.25}
+        - {x: 26.5, y: -12.25}
+        - {x: 24.5, y: -10.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_82
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: 9.5, y: -16.25}
+        - {x: 8.5, y: -21.25}
+        - {x: 8.5, y: -31.25}
+        - {x: 13.5, y: -33.25}
+        - {x: 19.5, y: -33.25}
+        - {x: 24.5, y: -29.25}
+        - {x: 24.5, y: -17.25}
+        - {x: 22.5, y: -16.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_83
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 7.5, y: -21.25}
+        - {x: 4.5, y: -27.25}
+        - {x: 4.5, y: -34.25}
+        - {x: 5.5, y: -36.25}
+        - {x: 20.5, y: -36.25}
+        - {x: 20.5, y: -25.25}
+        - {x: 16.5, y: -21.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_84
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 8.5, y: -25.25}
+        - {x: 5.5, y: -26.25}
+        - {x: 2.5, y: -30.25}
+        - {x: 1.5, y: -35.25}
+        - {x: 2.5, y: -36.25}
+        - {x: 17.5, y: -36.25}
+        - {x: 17.5, y: -29.25}
+        - {x: 13.5, y: -25.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_85
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_86
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_87
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_88
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29.25}
+        - {x: -49.5, y: -36.25}
+        - {x: -38.5, y: -36.25}
+        - {x: -38.5, y: -30.25}
+        - {x: -40.5, y: -28.25}
+        - {x: -48.5, y: -28.25}
+      - - {x: 44.5, y: -30.25}
+        - {x: 44.5, y: -36.25}
+        - {x: 50.5, y: -36.25}
+        - {x: 50.5, y: -28.25}
+        - {x: 46.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -38.5, y: 27.75}
+        - {x: -38.5, y: 36.75}
+      - - {x: 45.5, y: 36.75}
+        - {x: 44.5, y: 35.75}
+        - {x: 44.5, y: 29.75}
+        - {x: 46.5, y: 27.75}
+        - {x: 50.5, y: 27.75}
+        - {x: 50.5, y: 36.75}
+    - name: slipperGlow-starDrop_89
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 4549
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36.25}
+        - {x: -39.5, y: -36.25}
+        - {x: -39.5, y: -30.25}
+        - {x: -41.5, y: -28.25}
+        - {x: -49.5, y: -28.25}
+      - - {x: 43.5, y: -30.25}
+        - {x: 43.5, y: -36.25}
+        - {x: 49.5, y: -36.25}
+        - {x: 49.5, y: -28.25}
+        - {x: 45.5, y: -28.25}
+      - - {x: -49.5, y: 36.75}
+        - {x: -49.5, y: 27.75}
+        - {x: -41.5, y: 27.75}
+        - {x: -39.5, y: 29.75}
+        - {x: -39.5, y: 35.75}
+        - {x: -40.5, y: 36.75}
+      - - {x: 44.5, y: 36.75}
+        - {x: 43.5, y: 35.75}
+        - {x: 43.5, y: 29.75}
+        - {x: 45.5, y: 27.75}
+        - {x: 49.5, y: 27.75}
+        - {x: 49.5, y: 36.75}
+    - name: slipperGlow-starDrop_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_91
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_92
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_93
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_94
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_95
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_96
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_97
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 30}
+        - {x: -48.5, y: 29}
+        - {x: -40.5, y: 29}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: 37}
+      - - {x: 44.5, y: 37}
+        - {x: 44.5, y: 31}
+        - {x: 46.5, y: 29}
+        - {x: 50.5, y: 29}
+        - {x: 50.5, y: 37}
+    - name: slipperGlow-starDrop_98
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 4186
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 37}
+        - {x: -49.5, y: 29}
+        - {x: -41.5, y: 29}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 37}
+      - - {x: 43.5, y: 37}
+        - {x: 43.5, y: 31}
+        - {x: 45.5, y: 29}
+        - {x: 49.5, y: 29}
+        - {x: 49.5, y: 37}
+    - name: slipperGlow-starDrop_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_100
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_101
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_102
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_103
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_104
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_105
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_106
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -38.5, y: -35.75}
+        - {x: -38.5, y: -26.75}
+      - - {x: 44.5, y: -28.75}
+        - {x: 44.5, y: -34.75}
+        - {x: 45.5, y: -35.75}
+        - {x: 50.5, y: -35.75}
+        - {x: 50.5, y: -26.75}
+        - {x: 46.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 30.25}
+        - {x: -48.5, y: 29.25}
+        - {x: -40.5, y: 29.25}
+        - {x: -38.5, y: 31.25}
+        - {x: -38.5, y: 37.25}
+      - - {x: 44.5, y: 37.25}
+        - {x: 44.5, y: 31.25}
+        - {x: 46.5, y: 29.25}
+        - {x: 50.5, y: 29.25}
+        - {x: 50.5, y: 37.25}
+    - name: slipperGlow-starDrop_107
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 3823
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -26.75}
+        - {x: -49.5, y: -35.75}
+        - {x: -40.5, y: -35.75}
+        - {x: -39.5, y: -34.75}
+        - {x: -39.5, y: -28.75}
+        - {x: -41.5, y: -26.75}
+      - - {x: 43.5, y: -28.75}
+        - {x: 43.5, y: -34.75}
+        - {x: 44.5, y: -35.75}
+        - {x: 49.5, y: -35.75}
+        - {x: 49.5, y: -26.75}
+        - {x: 45.5, y: -26.75}
+      - - {x: -49.5, y: 37.25}
+        - {x: -49.5, y: 29.25}
+        - {x: -41.5, y: 29.25}
+        - {x: -39.5, y: 31.25}
+        - {x: -39.5, y: 37.25}
+      - - {x: 43.5, y: 37.25}
+        - {x: 43.5, y: 31.25}
+        - {x: 45.5, y: 29.25}
+        - {x: 49.5, y: 29.25}
+        - {x: 49.5, y: 37.25}
+    - name: slipperGlow-starDrop_108
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3460
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_109
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3460
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_110
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3460
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_111
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 3460
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    - name: slipperGlow-starDrop_112
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 3460
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -36}
+        - {x: -39.5, y: -36}
+        - {x: -39.5, y: -30}
+        - {x: -41.5, y: -28}
+        - {x: -49.5, y: -28}
+      - - {x: 43.5, y: -30}
+        - {x: 43.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 49.5, y: -28}
+        - {x: 45.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 28}
+        - {x: -41.5, y: 28}
+        - {x: -39.5, y: 30}
+        - {x: -39.5, y: 36}
+      - - {x: 43.5, y: 36}
+        - {x: 43.5, y: 30}
+        - {x: 45.5, y: 28}
+        - {x: 49.5, y: 28}
+        - {x: 49.5, y: 36}
+    - name: slipperGlow-starDrop_113
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 3460
+        width: 396
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -29}
+        - {x: -49.5, y: -36}
+        - {x: -38.5, y: -36}
+        - {x: -38.5, y: -30}
+        - {x: -40.5, y: -28}
+        - {x: -48.5, y: -28}
+      - - {x: 44.5, y: -30}
+        - {x: 44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 50.5, y: -28}
+        - {x: 46.5, y: -28}
+      - - {x: -49.5, y: 36}
+        - {x: -49.5, y: 29}
+        - {x: -48.5, y: 28}
+        - {x: -40.5, y: 28}
+        - {x: -38.5, y: 30}
+        - {x: -38.5, y: 36}
+      - - {x: 44.5, y: 36}
+        - {x: 44.5, y: 30}
+        - {x: 46.5, y: 28}
+        - {x: 50.5, y: 28}
+        - {x: 50.5, y: 36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

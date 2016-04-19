@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: bcd93de823ff1d74498228817a6c4b6b
+timeCreated: 1457464223
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fox-walk-bindle_0
+    21300002: fox-walk-bindle_1
+    21300004: fox-walk-bindle_2
+    21300006: fox-walk-bindle_3
+    21300008: fox-walk-bindle_4
+    21300010: fox-walk-bindle_5
+    21300012: fox-walk-bindle_6
+    21300014: fox-walk-bindle_7
+    21300016: fox-walk-bindle_8
+    21300018: fox-walk-bindle_9
+    21300020: fox-walk-bindle_10
+    21300022: fox-walk-bindle_11
+    21300024: fox-walk-bindle_12
+    21300026: fox-walk-bindle_13
+    21300028: fox-walk-bindle_14
+    21300030: fox-walk-bindle_15
+    21300032: fox-walk-bindle_16
+    21300034: fox-walk-bindle_17
+    21300036: fox-walk-bindle_18
+    21300038: fox-walk-bindle_19
+    21300040: fox-walk-bindle_20
+    21300042: fox-walk-bindle_21
+    21300044: fox-walk-bindle_22
+    21300046: fox-walk-bindle_23
+    21300048: fox-walk-bindle_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fox-walk-bindle_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1698
+        width: 239
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.5, y: 168.5}
+        - {x: 7.5, y: 168.5}
+        - {x: -18.5, y: 108.5}
+        - {x: -19.5, y: 80.5}
+        - {x: -18.5, y: 70.5}
+        - {x: -13.5, y: 59.5}
+        - {x: -16.5, y: 65.5}
+        - {x: -57.5, y: 100.5}
+        - {x: -119.5, y: 39.5}
+        - {x: -119.5, y: -58.5}
+        - {x: -106.5, y: -65.5}
+        - {x: -87.5, y: -146.5}
+        - {x: -68.5, y: -168.5}
+        - {x: 37.5, y: -168.5}
+        - {x: 115.5, y: -141.5}
+        - {x: 119.5, y: -129.5}
+        - {x: 119.5, y: 81.5}
+      - - {x: 25.5, y: -168.5}
+        - {x: 24.5, y: -165.5}
+        - {x: 16.5, y: -165.5}
+        - {x: 15.5, y: -168.5}
+    - name: fox-walk-bindle_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1700
+        width: 239
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: -50}
+        - {x: 119.5, y: -26}
+        - {x: 119.5, y: 70}
+        - {x: 56.5, y: 167}
+        - {x: 55.5, y: 168}
+        - {x: -7.5, y: 168}
+        - {x: -91.5, y: 83}
+        - {x: -108.5, y: 41}
+        - {x: -119.5, y: -16}
+        - {x: -119.5, y: -65}
+        - {x: -112.5, y: -72}
+        - {x: -66.5, y: -142}
+        - {x: -43.5, y: -168}
+        - {x: -25.5, y: -168}
+        - {x: 7.5, y: -153}
+        - {x: 45.5, y: -168}
+        - {x: 64.5, y: -168}
+        - {x: 94.5, y: -143}
+        - {x: 53.5, y: -101}
+    - name: fox-walk-bindle_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1702
+        width: 238
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -3}
+        - {x: 116, y: -1}
+        - {x: 119, y: 18}
+        - {x: 119, y: 71}
+        - {x: 67, y: 162}
+        - {x: 55, y: 167}
+        - {x: 15, y: 167}
+        - {x: -27, y: 76}
+        - {x: -63, y: 91}
+        - {x: -117, y: 45}
+        - {x: -119, y: 34}
+        - {x: -119, y: -70}
+        - {x: -50, y: -106}
+        - {x: -60, y: -146}
+        - {x: -46, y: -167}
+        - {x: 95, y: -167}
+        - {x: 72, y: -102}
+        - {x: 119, y: -21}
+    - name: fox-walk-bindle_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1703
+        width: 236
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 165}
+        - {x: 56, y: 166}
+        - {x: 22, y: 166}
+        - {x: -14, y: 108}
+        - {x: -18, y: 81}
+        - {x: -18, y: 71}
+        - {x: -16, y: 65}
+        - {x: -19, y: 71}
+        - {x: -31, y: 80}
+        - {x: -90, y: 88}
+        - {x: -105, y: 42}
+        - {x: -118, y: -7}
+        - {x: -118, y: -77}
+        - {x: -39, y: -166}
+        - {x: 98, y: -166}
+        - {x: 118, y: -93}
+        - {x: 118, y: 69}
+    - name: fox-walk-bindle_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1705
+        width: 236
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 168}
+        - {x: 13, y: 168}
+        - {x: -24, y: 101}
+        - {x: -20, y: 70}
+        - {x: -19, y: 63}
+        - {x: -21, y: 73}
+        - {x: -29, y: 79}
+        - {x: -64, y: 87}
+        - {x: -83, y: 84}
+        - {x: -102, y: 30}
+        - {x: -109, y: 6}
+        - {x: -118, y: -30}
+        - {x: -118, y: -72}
+        - {x: -43, y: -168}
+        - {x: 53, y: -168}
+        - {x: 65, y: -160}
+        - {x: 118, y: -21}
+        - {x: 118, y: 104}
+    - name: fox-walk-bindle_5
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1706
+        width: 239
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 170}
+        - {x: 8.5, y: 163}
+        - {x: -21.5, y: 93}
+        - {x: -21.5, y: 73}
+        - {x: -20.5, y: 70}
+        - {x: -24.5, y: 70}
+        - {x: -21.5, y: 74}
+        - {x: -21.5, y: 76}
+        - {x: -23.5, y: 79}
+        - {x: -62.5, y: 104}
+        - {x: -119.5, y: 75}
+        - {x: -119.5, y: -133}
+        - {x: -103.5, y: -170}
+        - {x: 79.5, y: -170}
+        - {x: 119.5, y: -48}
+        - {x: 119.5, y: 70}
+        - {x: 62.5, y: 170}
+    - name: fox-walk-bindle_6
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1705
+        width: 243
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 171.5}
+        - {x: 8.5, y: 171.5}
+        - {x: -28.5, y: 89.5}
+        - {x: -60.5, y: 92.5}
+        - {x: -64.5, y: 92.5}
+        - {x: -89.5, y: 96.5}
+        - {x: -118.5, y: 57.5}
+        - {x: -121.5, y: 42.5}
+        - {x: -121.5, y: -61.5}
+        - {x: -60.5, y: -77.5}
+        - {x: -31.5, y: -156.5}
+        - {x: -8.5, y: -171.5}
+        - {x: 52.5, y: -171.5}
+        - {x: 53.5, y: -135.5}
+        - {x: 121.5, y: -24.5}
+        - {x: 121.5, y: 104.5}
+    - name: fox-walk-bindle_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1355
+        width: 245
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104.5, y: -43}
+        - {x: 91.5, y: -20}
+        - {x: 119.5, y: -7}
+        - {x: 122.5, y: 1}
+        - {x: 122.5, y: 24}
+        - {x: 117.5, y: 26}
+        - {x: 122.5, y: 56}
+        - {x: 122.5, y: 78}
+        - {x: 50.5, y: 172}
+        - {x: -19.5, y: 172}
+        - {x: -122.5, y: 68}
+        - {x: -122.5, y: -54}
+        - {x: -107.5, y: -60}
+        - {x: -89.5, y: -53}
+        - {x: -54.5, y: -67}
+        - {x: -27.5, y: -167}
+        - {x: -11.5, y: -172}
+        - {x: 41.5, y: -172}
+        - {x: 39.5, y: -166}
+        - {x: 32.5, y: -160}
+        - {x: 60.5, y: -130}
+      - - {x: -45.5, y: 172}
+        - {x: -44.5, y: 169}
+        - {x: -41.5, y: 169}
+        - {x: -39.5, y: 171}
+        - {x: -39.5, y: 172}
+    - name: fox-walk-bindle_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1355
+        width: 247
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114.5, y: -34}
+        - {x: 123.5, y: -14}
+        - {x: 123.5, y: 22}
+        - {x: 122.5, y: 24}
+        - {x: 123.5, y: 32}
+        - {x: 123.5, y: 77}
+        - {x: 53.5, y: 172}
+        - {x: -13.5, y: 172}
+        - {x: -123.5, y: 49}
+        - {x: -123.5, y: -59}
+        - {x: -113.5, y: -63}
+        - {x: -99.5, y: -61}
+        - {x: -43.5, y: -72}
+        - {x: -34.5, y: -168}
+        - {x: -20.5, y: -172}
+        - {x: 32.5, y: -172}
+        - {x: 34.5, y: -169}
+        - {x: 31.5, y: -162}
+        - {x: 56.5, y: -148}
+    - name: fox-walk-bindle_9
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1355
+        width: 245
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.5, y: -3}
+        - {x: 122.5, y: 76}
+        - {x: 43.5, y: 172}
+        - {x: -2.5, y: 172}
+        - {x: -39.5, y: 110}
+        - {x: -94.5, y: 102}
+        - {x: -122.5, y: 40}
+        - {x: -122.5, y: -74}
+        - {x: -47.5, y: -93}
+        - {x: -34.5, y: -164}
+        - {x: -22.5, y: -171}
+        - {x: -16.5, y: -172}
+        - {x: 22.5, y: -172}
+        - {x: 29.5, y: -171}
+        - {x: 58.5, y: -123}
+        - {x: 106.5, y: -36}
+    - name: fox-walk-bindle_10
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1353
+        width: 243
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: -137}
+        - {x: 1.5, y: -148}
+        - {x: 14.5, y: -161}
+        - {x: 64.5, y: -157}
+        - {x: 121.5, y: -32}
+        - {x: 121.5, y: -18}
+        - {x: 104.5, y: -10}
+        - {x: 96.5, y: -8}
+        - {x: 115.5, y: -7}
+        - {x: 121.5, y: -2}
+        - {x: 121.5, y: 16}
+        - {x: 120.5, y: 20}
+        - {x: 121.5, y: 28}
+        - {x: 121.5, y: 74}
+        - {x: 51.5, y: 165}
+        - {x: 42.5, y: 171}
+        - {x: -4.5, y: 171}
+        - {x: -98.5, y: 113}
+        - {x: -121.5, y: 30}
+        - {x: -121.5, y: -95}
+        - {x: -33.5, y: -170}
+        - {x: -23.5, y: -171}
+        - {x: 17.5, y: -171}
+        - {x: 16.5, y: -165}
+        - {x: -4.5, y: -149}
+        - {x: 0.5, y: -143}
+    - name: fox-walk-bindle_11
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1348
+        width: 241
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.5, y: -12}
+        - {x: 120.5, y: -7}
+        - {x: 120.5, y: 76}
+        - {x: 54.5, y: 171}
+        - {x: 4.5, y: 171}
+        - {x: -30.5, y: 99}
+        - {x: -82.5, y: 103}
+        - {x: -70.5, y: 82}
+        - {x: -110.5, y: 55}
+        - {x: -120.5, y: 12}
+        - {x: -120.5, y: -56}
+        - {x: -50.5, y: -86}
+        - {x: -54.5, y: -169}
+        - {x: -33.5, y: -171}
+        - {x: 7.5, y: -171}
+        - {x: 22.5, y: -162}
+        - {x: 114.5, y: -131}
+        - {x: 87.5, y: -43}
+    - name: fox-walk-bindle_12
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1344
+        width: 239
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.5, y: -34.5}
+        - {x: 119.5, y: -20.5}
+        - {x: 119.5, y: 74.5}
+        - {x: 62.5, y: 170.5}
+        - {x: 7.5, y: 170.5}
+        - {x: -6.5, y: 137.5}
+        - {x: -18.5, y: 108.5}
+        - {x: -74.5, y: 100.5}
+        - {x: -109.5, y: 36.5}
+        - {x: -119.5, y: -0.5}
+        - {x: -119.5, y: -49.5}
+        - {x: -38.5, y: -79.5}
+        - {x: -69.5, y: -133.5}
+        - {x: -42.5, y: -170.5}
+        - {x: -4.5, y: -170.5}
+        - {x: 6.5, y: -139.5}
+        - {x: 79.5, y: -151.5}
+        - {x: 99.5, y: -106.5}
+    - name: fox-walk-bindle_13
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1345
+        width: 236
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: -120.5}
+        - {x: 118, y: -13.5}
+        - {x: 118, y: -0.5}
+        - {x: 114, y: 7.5}
+        - {x: 118, y: 53.5}
+        - {x: 118, y: 67.5}
+        - {x: 50, y: 168.5}
+        - {x: 42, y: 170.5}
+        - {x: 3, y: 170.5}
+        - {x: -84, y: 103.5}
+        - {x: -118, y: 4.5}
+        - {x: -118, y: -70.5}
+        - {x: -65, y: -148.5}
+        - {x: -37, y: -170.5}
+        - {x: -17, y: -170.5}
+        - {x: -17, y: -163.5}
+        - {x: 50, y: -155.5}
+        - {x: 77, y: -141.5}
+    - name: fox-walk-bindle_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 991
+        width: 239
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.5, y: -25}
+        - {x: 119.5, y: 78}
+        - {x: 65.5, y: 167}
+        - {x: 55.5, y: 170}
+        - {x: 10.5, y: 170}
+        - {x: -67.5, y: 96}
+        - {x: -105.5, y: 56}
+        - {x: -119.5, y: -5}
+        - {x: -119.5, y: -56}
+        - {x: -54.5, y: -82}
+        - {x: -71.5, y: -134}
+        - {x: -70.5, y: -147}
+        - {x: -39.5, y: -170}
+        - {x: 16.5, y: -170}
+        - {x: 88.5, y: -157}
+        - {x: 67.5, y: -42}
+        - {x: 114.5, y: -32}
+    - name: fox-walk-bindle_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 992
+        width: 242
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: -23}
+        - {x: 121, y: -15}
+        - {x: 121, y: 68}
+        - {x: 77, y: 169}
+        - {x: 1, y: 169}
+        - {x: -72, y: 110}
+        - {x: -114, y: 61}
+        - {x: -121, y: 7}
+        - {x: -121, y: -46}
+        - {x: -57, y: -82}
+        - {x: -81, y: -156}
+        - {x: -48, y: -168}
+        - {x: -43, y: -169}
+        - {x: 18, y: -169}
+        - {x: 61, y: -161}
+        - {x: 64, y: -152}
+        - {x: 75, y: -29}
+    - name: fox-walk-bindle_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 990
+        width: 244
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: -11}
+        - {x: 122, y: 4}
+        - {x: 119, y: 11}
+        - {x: 122, y: 28}
+        - {x: 122, y: 76}
+        - {x: 76, y: 173}
+        - {x: -3, y: 173}
+        - {x: -34, y: 115}
+        - {x: -92, y: 92}
+        - {x: -114, y: 61}
+        - {x: -122, y: 18}
+        - {x: -122, y: -50}
+        - {x: -118, y: -53}
+        - {x: -54, y: -85}
+        - {x: -72, y: -168}
+        - {x: -54, y: -173}
+        - {x: 60, y: -173}
+        - {x: 67, y: -172}
+        - {x: 75, y: -26}
+        - {x: 115, y: -18}
+    - name: fox-walk-bindle_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 989
+        width: 246
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123, y: -9}
+        - {x: 123, y: 6}
+        - {x: 119, y: 15}
+        - {x: 123, y: 58}
+        - {x: 123, y: 73}
+        - {x: 55, y: 175}
+        - {x: 50, y: 176}
+        - {x: 14, y: 176}
+        - {x: 8, y: 170}
+        - {x: -24, y: 95}
+        - {x: -66, y: 105}
+        - {x: -123, y: 43}
+        - {x: -123, y: -58}
+        - {x: -77, y: -73}
+        - {x: -33, y: -176}
+        - {x: 62, y: -176}
+        - {x: 57, y: -108}
+        - {x: 68, y: -26}
+        - {x: 118, y: -18}
+    - name: fox-walk-bindle_18
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 987
+        width: 248
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 124, y: 80.5}
+        - {x: 67, y: 178.5}
+        - {x: -1, y: 178.5}
+        - {x: -40, y: 141.5}
+        - {x: -94, y: 71.5}
+        - {x: -124, y: 51.5}
+        - {x: -124, y: -54.5}
+        - {x: -114, y: -56.5}
+        - {x: -107, y: -56.5}
+        - {x: -37, y: -130.5}
+        - {x: -18, y: -176.5}
+        - {x: -9, y: -178.5}
+        - {x: 21, y: -178.5}
+        - {x: 44, y: -164.5}
+        - {x: 55, y: -117.5}
+        - {x: 124, y: -13.5}
+    - name: fox-walk-bindle_19
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 990
+        width: 247
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.5, y: 98}
+        - {x: 54.5, y: 172}
+        - {x: 40.5, y: 177}
+        - {x: 9.5, y: 177}
+        - {x: 3.5, y: 174}
+        - {x: -19.5, y: 108}
+        - {x: -83.5, y: 104}
+        - {x: -123.5, y: 38}
+        - {x: -123.5, y: -64}
+        - {x: -24.5, y: -92}
+        - {x: -33.5, y: -130}
+        - {x: -28.5, y: -162}
+        - {x: -6.5, y: -177}
+        - {x: 22.5, y: -177}
+        - {x: 41.5, y: -172}
+        - {x: 78.5, y: -41}
+        - {x: 117.5, y: -14}
+        - {x: 123.5, y: -11}
+    - name: fox-walk-bindle_20
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 992
+        width: 246
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123, y: -10}
+        - {x: 123, y: 6}
+        - {x: 118, y: 12}
+        - {x: 123, y: 41}
+        - {x: 123, y: 79}
+        - {x: 49, y: 176}
+        - {x: -11, y: 176}
+        - {x: -76, y: 105}
+        - {x: -122, y: 39}
+        - {x: -123, y: 31}
+        - {x: -123, y: -68}
+        - {x: -25, y: -91}
+        - {x: -49, y: -160}
+        - {x: -13, y: -176}
+        - {x: 12, y: -176}
+        - {x: 13, y: -173}
+        - {x: 13, y: -169}
+        - {x: 47, y: -131}
+    - name: fox-walk-bindle_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 637
+        width: 247
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.5, y: 7}
+        - {x: 118.5, y: 12}
+        - {x: 104.5, y: 40}
+        - {x: 123.5, y: 68}
+        - {x: 123.5, y: 78}
+        - {x: 43.5, y: 175}
+        - {x: -2.5, y: 175}
+        - {x: -27.5, y: 108}
+        - {x: -73.5, y: 86}
+        - {x: -123.5, y: 41}
+        - {x: -123.5, y: -69}
+        - {x: -114.5, y: -72}
+        - {x: -55.5, y: -154}
+        - {x: -47.5, y: -175}
+        - {x: 39.5, y: -175}
+        - {x: 58.5, y: -106}
+        - {x: 61.5, y: -62}
+        - {x: 123.5, y: -18}
+    - name: fox-walk-bindle_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 637
+        width: 245
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: -159}
+        - {x: 122.5, y: -45}
+        - {x: 122.5, y: 106}
+        - {x: 76.5, y: 173}
+        - {x: -26.5, y: 173}
+        - {x: -122.5, y: 94}
+        - {x: -71.5, y: 66}
+        - {x: -67.5, y: 64}
+        - {x: -85.5, y: 56}
+        - {x: -115.5, y: 35}
+        - {x: -122.5, y: 4}
+        - {x: -122.5, y: -77}
+        - {x: -70.5, y: -111}
+        - {x: -57.5, y: -173}
+        - {x: -18.5, y: -173}
+        - {x: -18.5, y: -167}
+        - {x: 43.5, y: -171}
+        - {x: 45.5, y: -162}
+    - name: fox-walk-bindle_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 636
+        width: 242
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: -26}
+        - {x: 121, y: -19}
+        - {x: 121, y: 81}
+        - {x: 58, y: 171}
+        - {x: 7, y: 171}
+        - {x: -3, y: 153}
+        - {x: -85, y: 84}
+        - {x: -117, y: 44}
+        - {x: -121, y: -4}
+        - {x: -121, y: -61}
+        - {x: -108, y: -65}
+        - {x: -69, y: -139}
+        - {x: -49, y: -171}
+        - {x: 44, y: -171}
+        - {x: 71, y: -168}
+        - {x: 70, y: -152}
+        - {x: 61, y: -146}
+    - name: fox-walk-bindle_24
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 636
+        width: 239
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.5, y: 69.5}
+        - {x: 68.5, y: 168.5}
+        - {x: 7.5, y: 168.5}
+        - {x: -18.5, y: 108.5}
+        - {x: -19.5, y: 80.5}
+        - {x: -18.5, y: 70.5}
+        - {x: -13.5, y: 59.5}
+        - {x: -22.5, y: 75.5}
+        - {x: -91.5, y: 99.5}
+        - {x: -119.5, y: 7.5}
+        - {x: -119.5, y: -80.5}
+        - {x: -77.5, y: -104.5}
+        - {x: -71.5, y: -168.5}
+        - {x: 87.5, y: -168.5}
+        - {x: 109.5, y: -140.5}
+        - {x: 57.5, y: -94.5}
+        - {x: 119.5, y: -35.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

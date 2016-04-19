@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: f08f863c399f5014eaf81875515d0cb8
+timeCreated: 1458076417
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: skunk-walk-large-bindle_0
+    21300002: skunk-walk-large-bindle_1
+    21300004: skunk-walk-large-bindle_2
+    21300006: skunk-walk-large-bindle_3
+    21300008: skunk-walk-large-bindle_4
+    21300010: skunk-walk-large-bindle_5
+    21300012: skunk-walk-large-bindle_6
+    21300014: skunk-walk-large-bindle_7
+    21300016: skunk-walk-large-bindle_8
+    21300018: skunk-walk-large-bindle_9
+    21300020: skunk-walk-large-bindle_10
+    21300022: skunk-walk-large-bindle_11
+    21300024: skunk-walk-large-bindle_12
+    21300026: skunk-walk-large-bindle_13
+    21300028: skunk-walk-large-bindle_14
+    21300030: skunk-walk-large-bindle_15
+    21300032: skunk-walk-large-bindle_16
+    21300034: skunk-walk-large-bindle_17
+    21300036: skunk-walk-large-bindle_18
+    21300038: skunk-walk-large-bindle_19
+    21300040: skunk-walk-large-bindle_20
+    21300042: skunk-walk-large-bindle_21
+    21300044: skunk-walk-large-bindle_22
+    21300046: skunk-walk-large-bindle_23
+    21300048: skunk-walk-large-bindle_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: skunk-walk-large-bindle_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1711
+        width: 240
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: -114.5}
+        - {x: 97, y: -64.5}
+        - {x: 120, y: -23.5}
+        - {x: 120, y: 89.5}
+        - {x: 81, y: 152.5}
+        - {x: 12, y: 152.5}
+        - {x: -26, y: 131.5}
+        - {x: -89, y: 133.5}
+        - {x: -113, y: 73.5}
+        - {x: -120, y: 53.5}
+        - {x: -120, y: -65.5}
+        - {x: -72, y: -134.5}
+        - {x: -48, y: -152.5}
+        - {x: 53, y: -152.5}
+        - {x: 73, y: -138.5}
+        - {x: 93, y: -117.5}
+    - name: skunk-walk-large-bindle_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1713
+        width: 238
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -23.5}
+        - {x: 119, y: 112.5}
+        - {x: 116, y: 119.5}
+        - {x: 56, y: 151.5}
+        - {x: 3, y: 151.5}
+        - {x: -14, y: 118.5}
+        - {x: -97, y: 151.5}
+        - {x: -104, y: 151.5}
+        - {x: -119, y: 81.5}
+        - {x: -119, y: -32.5}
+        - {x: -98, y: -34.5}
+        - {x: -72, y: -116.5}
+        - {x: -58, y: -141.5}
+        - {x: -39, y: -151.5}
+        - {x: 74, y: -151.5}
+        - {x: 94, y: -134.5}
+        - {x: 58, y: -83.5}
+    - name: skunk-walk-large-bindle_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1715
+        width: 236
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: -138.5}
+        - {x: 74, y: -132.5}
+        - {x: 64, y: -51.5}
+        - {x: 118, y: -19.5}
+        - {x: 118, y: 91.5}
+        - {x: 74, y: 150.5}
+        - {x: -5, y: 150.5}
+        - {x: -113, y: 127.5}
+        - {x: -118, y: 79.5}
+        - {x: -118, y: -40.5}
+        - {x: -52, y: -129.5}
+        - {x: -44, y: -141.5}
+        - {x: -35, y: -150.5}
+        - {x: -25, y: -150.5}
+        - {x: -24, y: -145.5}
+        - {x: 33, y: -150.5}
+        - {x: 55, y: -150.5}
+    - name: skunk-walk-large-bindle_3
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1716
+        width: 234
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: 150}
+        - {x: 6, y: 150}
+        - {x: -7, y: 124}
+        - {x: -16, y: 97}
+        - {x: -15, y: 93}
+        - {x: -83, y: 127}
+        - {x: -100, y: 129}
+        - {x: -117, y: 85}
+        - {x: -117, y: 62}
+        - {x: -115, y: 58}
+        - {x: -117, y: 50}
+        - {x: -117, y: -59}
+        - {x: -72, y: -150}
+        - {x: 61, y: -150}
+        - {x: 64, y: -145}
+        - {x: 117, y: -101}
+        - {x: 117, y: 146}
+    - name: skunk-walk-large-bindle_4
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1718
+        width: 232
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116, y: 5.5}
+        - {x: 113, y: 12.5}
+        - {x: 116, y: 38.5}
+        - {x: 116, y: 77.5}
+        - {x: 67, y: 151.5}
+        - {x: -16, y: 151.5}
+        - {x: -97, y: 130.5}
+        - {x: -116, y: 93.5}
+        - {x: -116, y: -48.5}
+        - {x: -40, y: -102.5}
+        - {x: -48, y: -131.5}
+        - {x: -26, y: -151.5}
+        - {x: 68, y: -151.5}
+        - {x: 42, y: -129.5}
+        - {x: 116, y: -18.5}
+    - name: skunk-walk-large-bindle_5
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1719
+        width: 236
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: -82.5}
+        - {x: 118, y: -16.5}
+        - {x: 118, y: 83.5}
+        - {x: 73, y: 153.5}
+        - {x: 6, y: 153.5}
+        - {x: -26, y: 132.5}
+        - {x: -101, y: 153.5}
+        - {x: -118, y: 66.5}
+        - {x: -118, y: -27.5}
+        - {x: -110, y: -35.5}
+        - {x: -39, y: -134.5}
+        - {x: -18, y: -153.5}
+        - {x: 47, y: -153.5}
+        - {x: 50, y: -150.5}
+        - {x: 51, y: -145.5}
+    - name: skunk-walk-large-bindle_6
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1719
+        width: 239
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.5, y: 101}
+        - {x: 76.5, y: 156}
+        - {x: 2.5, y: 156}
+        - {x: -38.5, y: 131}
+        - {x: -77.5, y: 140}
+        - {x: -107.5, y: 156}
+        - {x: -119.5, y: 93}
+        - {x: -119.5, y: -23}
+        - {x: -109.5, y: -23}
+        - {x: -23.5, y: -111}
+        - {x: -37.5, y: -139}
+        - {x: -8.5, y: -156}
+        - {x: 56.5, y: -156}
+        - {x: 60.5, y: -116}
+        - {x: 104.5, y: -69}
+        - {x: 119.5, y: -47}
+    - name: skunk-walk-large-bindle_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1352
+        width: 237
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -8}
+        - {x: 118.5, y: -7}
+        - {x: 118.5, y: 16}
+        - {x: 113.5, y: 18}
+        - {x: 118.5, y: 47}
+        - {x: 118.5, y: 88}
+        - {x: 75.5, y: 156}
+        - {x: -108.5, y: 156}
+        - {x: -118.5, y: 105}
+        - {x: -118.5, y: -29}
+        - {x: -36.5, y: -57}
+        - {x: -23.5, y: -155}
+        - {x: -18.5, y: -156}
+        - {x: 38.5, y: -156}
+        - {x: 46.5, y: -132}
+        - {x: 96.5, y: -29}
+        - {x: 93.5, y: -14}
+    - name: skunk-walk-large-bindle_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1352
+        width: 234
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: -67}
+        - {x: 117, y: -27}
+        - {x: 117, y: 17}
+        - {x: 94, y: 42}
+        - {x: 117, y: 72}
+        - {x: 117, y: 91}
+        - {x: 47, y: 156}
+        - {x: -106, y: 156}
+        - {x: -117, y: 81}
+        - {x: -117, y: -9}
+        - {x: -41, y: -46}
+        - {x: -36, y: -152}
+        - {x: -23, y: -156}
+        - {x: 32, y: -156}
+        - {x: 33, y: -154}
+        - {x: 31, y: -149}
+        - {x: 58, y: -112}
+    - name: skunk-walk-large-bindle_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1352
+        width: 235
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.5, y: 16}
+        - {x: 112.5, y: 18}
+        - {x: 117.5, y: 82}
+        - {x: 117.5, y: 86}
+        - {x: 89.5, y: 119}
+        - {x: 47.5, y: 156}
+        - {x: -33.5, y: 156}
+        - {x: -99.5, y: 141}
+        - {x: -117.5, y: 98}
+        - {x: -117.5, y: -15}
+        - {x: -108.5, y: -24}
+        - {x: -48.5, y: -70}
+        - {x: -31.5, y: -156}
+        - {x: 43.5, y: -156}
+        - {x: 66.5, y: -94}
+        - {x: 117.5, y: -13}
+    - name: skunk-walk-large-bindle_10
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1350
+        width: 237
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118.5, y: 104.5}
+        - {x: 113.5, y: 134.5}
+        - {x: 58.5, y: 154.5}
+        - {x: -2.5, y: 154.5}
+        - {x: -17.5, y: 121.5}
+        - {x: -80.5, y: 137.5}
+        - {x: -97.5, y: 138.5}
+        - {x: -116.5, y: 92.5}
+        - {x: -118.5, y: 80.5}
+        - {x: -118.5, y: -21.5}
+        - {x: -67.5, y: -43.5}
+        - {x: -42.5, y: -72.5}
+        - {x: -41.5, y: -154.5}
+        - {x: 39.5, y: -154.5}
+        - {x: 73.5, y: -112.5}
+        - {x: 64.5, y: -61.5}
+        - {x: 118.5, y: -38.5}
+    - name: skunk-walk-large-bindle_11
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1344
+        width: 238
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -78}
+        - {x: 114, y: -60}
+        - {x: 119, y: -55}
+        - {x: 119, y: 81}
+        - {x: 101, y: 128}
+        - {x: 55, y: 155}
+        - {x: -70, y: 155}
+        - {x: -103, y: 145}
+        - {x: -119, y: 75}
+        - {x: -119, y: -33}
+        - {x: -52, y: -66}
+        - {x: -49, y: -143}
+        - {x: -17, y: -155}
+        - {x: 6, y: -155}
+        - {x: 5, y: -148}
+        - {x: 51, y: -142}
+        - {x: 93, y: -109}
+    - name: skunk-walk-large-bindle_12
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1340
+        width: 238
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 108.5}
+        - {x: 60, y: 154.5}
+        - {x: -55, y: 154.5}
+        - {x: -95, y: 146.5}
+        - {x: -119, y: 91.5}
+        - {x: -119, y: -25.5}
+        - {x: -98, y: -22.5}
+        - {x: -84, y: -16.5}
+        - {x: -30, y: -95.5}
+        - {x: -68, y: -117.5}
+        - {x: -36, y: -154.5}
+        - {x: -6, y: -154.5}
+        - {x: -6, y: -147.5}
+        - {x: 59, y: -151.5}
+        - {x: 119, y: -104.5}
+    - name: skunk-walk-large-bindle_13
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1341
+        width: 239
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: -103}
+        - {x: 119.5, y: -29}
+        - {x: 119.5, y: 11}
+        - {x: 118.5, y: 15}
+        - {x: 119.5, y: 45}
+        - {x: 119.5, y: 74}
+        - {x: 113.5, y: 118}
+        - {x: 61.5, y: 154}
+        - {x: -103.5, y: 154}
+        - {x: -119.5, y: 60}
+        - {x: -119.5, y: -49}
+        - {x: -59.5, y: -119}
+        - {x: -56.5, y: -129}
+        - {x: -33.5, y: -152}
+        - {x: -25.5, y: -154}
+        - {x: -8.5, y: -154}
+        - {x: -9.5, y: -146}
+        - {x: 51.5, y: -139}
+        - {x: 86.5, y: -121}
+    - name: skunk-walk-large-bindle_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 972
+        width: 239
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.5, y: 153.5}
+        - {x: -61.5, y: 153.5}
+        - {x: -114.5, y: 143.5}
+        - {x: -119.5, y: 66.5}
+        - {x: -119.5, y: -17.5}
+        - {x: -114.5, y: -21.5}
+        - {x: -104.5, y: -24.5}
+        - {x: -88.5, y: -19.5}
+        - {x: -83.5, y: -17.5}
+        - {x: -63.5, y: -118.5}
+        - {x: -59.5, y: -135.5}
+        - {x: -27.5, y: -153.5}
+        - {x: 45.5, y: -153.5}
+        - {x: 114.5, y: -112.5}
+        - {x: 119.5, y: -53.5}
+        - {x: 119.5, y: 101.5}
+    - name: skunk-walk-large-bindle_15
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 973
+        width: 237
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118.5, y: -22}
+        - {x: 118.5, y: 86}
+        - {x: 73.5, y: 153}
+        - {x: -57.5, y: 153}
+        - {x: -79.5, y: 149}
+        - {x: -118.5, y: 93}
+        - {x: -118.5, y: -40}
+        - {x: -42.5, y: -43}
+        - {x: -71.5, y: -122}
+        - {x: -65.5, y: -134}
+        - {x: -33.5, y: -153}
+        - {x: 22.5, y: -153}
+        - {x: 78.5, y: -144}
+        - {x: 58.5, y: -81}
+    - name: skunk-walk-large-bindle_16
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 972
+        width: 236
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118, y: -46}
+        - {x: 118, y: 86}
+        - {x: 70, y: 156}
+        - {x: 14, y: 156}
+        - {x: -8, y: 129}
+        - {x: -7, y: 126}
+        - {x: -15, y: 101}
+        - {x: -22, y: 120}
+        - {x: -101, y: 144}
+        - {x: -118, y: 70}
+        - {x: -118, y: -47}
+        - {x: -64, y: -138}
+        - {x: -33, y: -153}
+        - {x: -20, y: -156}
+        - {x: -7, y: -156}
+        - {x: -9, y: -150}
+        - {x: 8, y: -156}
+        - {x: 55, y: -156}
+    - name: skunk-walk-large-bindle_17
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 971
+        width: 234
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 159}
+        - {x: -27, y: 138}
+        - {x: -20, y: 102}
+        - {x: -26, y: 97}
+        - {x: -20, y: 104}
+        - {x: -70, y: 139}
+        - {x: -87, y: 140}
+        - {x: -88, y: 136}
+        - {x: -91, y: 117}
+        - {x: -86, y: 113}
+        - {x: -117, y: 89}
+        - {x: -117, y: -36}
+        - {x: -40, y: -159}
+        - {x: 94, y: -159}
+        - {x: 117, y: -80}
+        - {x: 117, y: 131}
+        - {x: 80, y: 159}
+    - name: skunk-walk-large-bindle_18
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 969
+        width: 233
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 152.5}
+        - {x: 55.5, y: 162.5}
+        - {x: -7.5, y: 162.5}
+        - {x: -31.5, y: 136.5}
+        - {x: -109.5, y: 156.5}
+        - {x: -116.5, y: 123.5}
+        - {x: -116.5, y: -15.5}
+        - {x: -86.5, y: -26.5}
+        - {x: -30.5, y: -89.5}
+        - {x: -35.5, y: -128.5}
+        - {x: -10.5, y: -162.5}
+        - {x: 28.5, y: -162.5}
+        - {x: 39.5, y: -158.5}
+        - {x: 116.5, y: -12.5}
+        - {x: 116.5, y: 87.5}
+        - {x: 98.5, y: 120.5}
+    - name: skunk-walk-large-bindle_19
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 972
+        width: 237
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: -99}
+        - {x: 118.5, y: -18}
+        - {x: 118.5, y: 121}
+        - {x: 114.5, y: 134}
+        - {x: 60.5, y: 161}
+        - {x: -4.5, y: 161}
+        - {x: -20.5, y: 132}
+        - {x: -100.5, y: 153}
+        - {x: -118.5, y: 69}
+        - {x: -118.5, y: -60}
+        - {x: -44.5, y: -159}
+        - {x: -24.5, y: -161}
+        - {x: 15.5, y: -161}
+        - {x: 24.5, y: -152}
+        - {x: 19.5, y: -145}
+        - {x: 48.5, y: -115}
+    - name: skunk-walk-large-bindle_20
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 975
+        width: 241
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.5, y: 90.5}
+        - {x: 71.5, y: 141.5}
+        - {x: 46.5, y: 159.5}
+        - {x: -61.5, y: 159.5}
+        - {x: -101.5, y: 148.5}
+        - {x: -115.5, y: 78.5}
+        - {x: -120.5, y: 35.5}
+        - {x: -120.5, y: -17.5}
+        - {x: -111.5, y: -27.5}
+        - {x: -88.5, y: -21.5}
+        - {x: -92.5, y: -47.5}
+        - {x: -28.5, y: -153.5}
+        - {x: -7.5, y: -159.5}
+        - {x: 26.5, y: -159.5}
+        - {x: 61.5, y: -105.5}
+        - {x: 97.5, y: -48.5}
+        - {x: 120.5, y: -20.5}
+    - name: skunk-walk-large-bindle_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 605
+        width: 244
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 1}
+        - {x: 122, y: 49}
+        - {x: 122, y: 92}
+        - {x: 81, y: 146}
+        - {x: 50, y: 159}
+        - {x: -2, y: 159}
+        - {x: -30, y: 119}
+        - {x: -100, y: 141}
+        - {x: -119, y: 84}
+        - {x: -122, y: 50}
+        - {x: -122, y: -32}
+        - {x: -27, y: -82}
+        - {x: -55, y: -135}
+        - {x: -30, y: -159}
+        - {x: 23, y: -159}
+        - {x: 68, y: -91}
+        - {x: 122, y: -28}
+        - {x: 122, y: -1}
+    - name: skunk-walk-large-bindle_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 604
+        width: 242
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 157}
+        - {x: -22, y: 127}
+        - {x: -19, y: 98}
+        - {x: -18, y: 95}
+        - {x: -23, y: 85}
+        - {x: -25, y: 83}
+        - {x: -22, y: 88}
+        - {x: -20, y: 92}
+        - {x: -49, y: 111}
+        - {x: -92, y: 138}
+        - {x: -112, y: 85}
+        - {x: -121, y: 43}
+        - {x: -121, y: -51}
+        - {x: -55, y: -157}
+        - {x: 80, y: -157}
+        - {x: 121, y: -119}
+        - {x: 121, y: 109}
+        - {x: 96, y: 157}
+    - name: skunk-walk-large-bindle_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 603
+        width: 241
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.5, y: 3}
+        - {x: 70.5, y: 23}
+        - {x: 120.5, y: 64}
+        - {x: 120.5, y: 85}
+        - {x: 83.5, y: 137}
+        - {x: 65.5, y: 155}
+        - {x: 13.5, y: 155}
+        - {x: -25.5, y: 139}
+        - {x: -102.5, y: 134}
+        - {x: -120.5, y: 54}
+        - {x: -120.5, y: -38}
+        - {x: -76.5, y: -63}
+        - {x: -64.5, y: -128}
+        - {x: -39.5, y: -155}
+        - {x: 28.5, y: -155}
+        - {x: 85.5, y: -151}
+        - {x: 85.5, y: -39}
+        - {x: 120.5, y: -23}
+    - name: skunk-walk-large-bindle_24
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 603
+        width: 240
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: -23.5}
+        - {x: 120, y: 37.5}
+        - {x: 116, y: 56.5}
+        - {x: 120, y: 63.5}
+        - {x: 120, y: 84.5}
+        - {x: 62, y: 152.5}
+        - {x: -2, y: 152.5}
+        - {x: -33, y: 123.5}
+        - {x: -105, y: 127.5}
+        - {x: -120, y: 51.5}
+        - {x: -120, y: -31.5}
+        - {x: -77, y: -63.5}
+        - {x: -74, y: -134.5}
+        - {x: -48, y: -152.5}
+        - {x: 21, y: -152.5}
+        - {x: 74, y: -140.5}
+        - {x: 96, y: -116.5}
+        - {x: 60, y: -58.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
