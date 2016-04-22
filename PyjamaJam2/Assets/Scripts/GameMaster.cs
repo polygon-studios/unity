@@ -223,7 +223,7 @@ public class GameMaster:MonoBehaviour
 			darknessFaded = true;
 		}
 
-		if (fullGameTimer < 10f) {
+		if (fullGameTimer < 10f && !gameOver) {
 			countDownText.isHidden = false;
 			countDownTimerVal -= Time.deltaTime;
 			int countDownInt = (int)countDownTimerVal;
@@ -236,23 +236,28 @@ public class GameMaster:MonoBehaviour
             Debug.Log("END GAME END GAME");
             io.endGame(first, second, third, fourth);
             StartCoroutine(FadeTo(1.0f, 4.75f, "BlackScreen"));
+			foxText.isHidden = true;
+			skunkText.isHidden = true;
+			bearText.isHidden = true;
+			rabbitText.isHidden = true;
         }
 		
 		if (countDownTimerVal < 0) {
-
+			countDownText.isHidden = true;
 			if (audioSleepSongPlaying == false) {
 				sleepSongRef = (GameObject)Instantiate (sleepSongPrefab, new Vector3 (15, 0f, 0f), Quaternion.identity);
 				audioSleepSongPlaying = true;
 			}
 			if (isFullSetup == false) {
 				houseMaster.setSleepingChars (first, second, third, fourth);
+				houseMaster.revealInterior ();
 			}//else
 				//io.endGame(first, second, third, fourth);
-			countDownText.isHidden = true;
+
 		}
         if (restartGameTimer < 0)
         {
-            countDownText.isHidden = true;
+            countDownText.isHidden = false;
             countDownText.addCustomText("Restart?");
             io.resetHouse();
             Debug.Log("Showing restart text");

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DontDestroy : MonoBehaviour {
 
@@ -12,7 +13,8 @@ public class DontDestroy : MonoBehaviour {
 	}
 
 	void Awake(){
-		DontDestroyOnLoad (this);
+		
+			DontDestroyOnLoad (this);
 	}
 	
 	// Update is called once per frame

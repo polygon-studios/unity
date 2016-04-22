@@ -244,27 +244,14 @@ public class Items : MonoBehaviour {
 
 		/////medium Item Positions
 		mediumItemPositions = new List<Vector2> ();
-		/*mediumItemPositions.Add(new Vector2(3.3f, 0.5f));
-		mediumItemPositions.Add(new Vector2(4, 0.5f));
-		mediumItemPositions.Add(new Vector2(4.7f, 0.5f));
-		mediumItemPositions.Add(new Vector2(5.4f, 0.5f));
-		mediumItemPositions.Add(new Vector2(6.1f, 0.5f));*/
 		mediumItemPositions.Add(new Vector2(22.8f, 0.7f));
 		mediumItemPositions.Add(new Vector2(23.5f, 0.7f));
-		mediumItemPositions.Add(new Vector2(24.2f, 0.7f));
-		mediumItemPositions.Add(new Vector2(24.9f, 0.7f));
-		mediumItemPositions.Add(new Vector2(25.6f, 0.7f));
 
-		mediumItemPositions.Add(new Vector2(24.9f, 1.5f));
-		mediumItemPositions.Add(new Vector2(25.6f, 1.5f));
 
 		mediumItemPositions.Add(new Vector2(4.1f, 2.2f));
 		mediumItemPositions.Add(new Vector2(5.5f, 2.2f));
 		mediumItemPositions.Add(new Vector2(6.3f, 2.2f));
 
-		mediumItemPositions.Add(new Vector2(25f, 3f));
-
-		mediumItemPositions.Add(new Vector2(3.34f, 3.7f));
 		mediumItemPositions.Add(new Vector2(5.5f, 3.7f));
 		mediumItemPositions.Add(new Vector2(6.3f, 3.7f));
 		mediumItemPositions.Add(new Vector2(17f, 3.7f));
@@ -283,33 +270,25 @@ public class Items : MonoBehaviour {
 		mediumItemPositions.Add(new Vector2(3.41f, 5f));
 		mediumItemPositions.Add(new Vector2(3.7f, 5f));
 		mediumItemPositions.Add(new Vector2(19.13f, 5f));
-		mediumItemPositions.Add(new Vector2(24.85f, 5f));
+
 		mediumItemPositions.Add(new Vector2(5.08f, 5f));
+
+		if (GM.isFullSetup == true) {
+			mediumItemPositions.Add(new Vector2(24.2f, 0.7f));
+			mediumItemPositions.Add(new Vector2(24.9f, 0.7f));
+			mediumItemPositions.Add(new Vector2(25.6f, 0.7f));
+
+			mediumItemPositions.Add(new Vector2(24.9f, 1.5f));
+			mediumItemPositions.Add(new Vector2(25.6f, 1.5f));
+
+			mediumItemPositions.Add(new Vector2(25f, 3f));
+
+			mediumItemPositions.Add(new Vector2(3.34f, 3.7f));
+			mediumItemPositions.Add(new Vector2(24.85f, 5f));
+		}
 
 		////hard Item Positions
 		hardItemPositions = new List<Vector2> ();
-		//hardItemPositions.Add(new Vector2(0.42f, 0));
-		//hardItemPositions.Add(new Vector2(1.18f, 0));
-		//hardItemPositions.Add(new Vector2(1.88f, 0));
-		//hardItemPositions.Add(new Vector2(2.6f, 0));
-		//hardItemPositions.Add(new Vector2(26.36f, 0));
-		//hardItemPositions.Add(new Vector2(27.17f, 0));
-		//hardItemPositions.Add(new Vector2(27.9f, 0));
-		//hardItemPositions.Add(new Vector2(28.7f, 0));
-
-		hardItemPositions.Add(new Vector2(0.42f, 1.5f));
-		hardItemPositions.Add(new Vector2(2.64f, 1.5f));
-		hardItemPositions.Add(new Vector2(26.36f, 1.5f));
-
-		hardItemPositions.Add(new Vector2(1.89f, 3f));
-		hardItemPositions.Add(new Vector2(28.7f, 3f));
-
-		mediumItemPositions.Add(new Vector2(26.37f, 3.7f));
-		mediumItemPositions.Add(new Vector2(27.1f, 3.7f));
-
-		hardItemPositions.Add(new Vector2(1.15f, 5));
-		hardItemPositions.Add(new Vector2(2.58f, 5));
-		hardItemPositions.Add(new Vector2(27.8f, 5));
 
 		hardItemPositions.Add(new Vector2(7.7f, 5.8f));
 		hardItemPositions.Add(new Vector2(8.45f, 5.8f));
@@ -319,10 +298,7 @@ public class Items : MonoBehaviour {
 		hardItemPositions.Add(new Vector2(22.7f, 5.8f));
 		hardItemPositions.Add(new Vector2(23.4f, 5.8f));
 
-		hardItemPositions.Add(new Vector2(0.42f, 6.5f));
-		hardItemPositions.Add(new Vector2(1.22f, 6.5f));
-		hardItemPositions.Add(new Vector2(2.65f, 6.5f));
-		hardItemPositions.Add(new Vector2(4f, 6.5f));
+
 		hardItemPositions.Add(new Vector2(6.25f, 6.5f));
 		hardItemPositions.Add(new Vector2(9.86f, 6.5f));
 		hardItemPositions.Add(new Vector2(14.15f, 6.5f));
@@ -330,9 +306,30 @@ public class Items : MonoBehaviour {
 		hardItemPositions.Add(new Vector2(17f, 6.5f));
 		hardItemPositions.Add(new Vector2(19.18f, 6.5f));
 		hardItemPositions.Add(new Vector2(20.64f, 6.5f));
-		hardItemPositions.Add(new Vector2(25.7f, 6.5f));
-		hardItemPositions.Add(new Vector2(27f, 6.5f));
-		hardItemPositions.Add(new Vector2(28.6f, 6.5f));
+
+		if (GM.isFullSetup == true) {
+			hardItemPositions.Add(new Vector2(0.42f, 1.5f));
+			hardItemPositions.Add(new Vector2(2.64f, 1.5f));
+			hardItemPositions.Add(new Vector2(26.36f, 1.5f));
+
+			hardItemPositions.Add(new Vector2(1.89f, 3f));
+			hardItemPositions.Add(new Vector2(28.7f, 3f));
+
+			mediumItemPositions.Add(new Vector2(26.37f, 3.7f));
+			mediumItemPositions.Add(new Vector2(27.1f, 3.7f));
+
+			hardItemPositions.Add(new Vector2(1.15f, 5));
+			hardItemPositions.Add(new Vector2(2.58f, 5));
+			hardItemPositions.Add(new Vector2(27.8f, 5));
+
+			hardItemPositions.Add(new Vector2(0.42f, 6.5f));
+			hardItemPositions.Add(new Vector2(1.22f, 6.5f));
+			hardItemPositions.Add(new Vector2(2.65f, 6.5f));
+			hardItemPositions.Add(new Vector2(4f, 6.5f));
+			hardItemPositions.Add(new Vector2(25.7f, 6.5f));
+			hardItemPositions.Add(new Vector2(27f, 6.5f));
+			hardItemPositions.Add(new Vector2(28.6f, 6.5f));
+		}
 	}
 
 }

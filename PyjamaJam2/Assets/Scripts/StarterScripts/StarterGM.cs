@@ -7,8 +7,10 @@ using System.Collections.Generic;
 public class StarterGM : MonoBehaviour {
 
     public GameObject splashScreen;
+	public GameObject splashScreenSingle;
 	public GameObject pressStartCharSel;
 	public GameObject instructions;
+	public GameObject instructionsSingle;
 	public GameObject dontDestroy;
 	public Text charSelTimerText;
     public List<GameObject> possibleCharacters;
@@ -21,6 +23,7 @@ public class StarterGM : MonoBehaviour {
 
     public bool passedStartScreen = false;
 	public bool passedCharacterSelScreen = false;
+	public bool isFullSetup;
 
     int totalSelectedChars = 0;
 	float charSelTimer = 35f; // 35f
@@ -32,6 +35,13 @@ public class StarterGM : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		pressStartCharSel.gameObject.GetComponent<Renderer> ().material.color = new Color (1, 1, 1, 0f);
+
+		if (!isFullSetup) {
+			splashScreen.gameObject.GetComponent<SpriteRenderer>().sprite = splashScreenSingle.gameObject.GetComponent<SpriteRenderer>().sprite;
+			instructions.gameObject.GetComponent<SpriteRenderer>().sprite = instructionsSingle.gameObject.GetComponent<SpriteRenderer>().sprite;
+		}
+		splashScreenSingle.gameObject.GetComponent<SpriteRenderer> ().color = new Color (1, 1, 1, 0f);
+		instructionsSingle.gameObject.GetComponent<SpriteRenderer> ().color = new Color (1, 1, 1, 0f);
 	}
 	
 	// Update is called once per frame

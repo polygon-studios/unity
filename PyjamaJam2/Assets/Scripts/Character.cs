@@ -30,6 +30,7 @@ public class Character : MonoBehaviour {
     public bool noJump = false;
 	public GameObject houseMovementPrefab;
 	public bool isInHouse = false;
+	public bool didPushTrapButton = false;
 
     float lastY;
     float moveSpeed = 0f;
@@ -102,7 +103,7 @@ public class Character : MonoBehaviour {
 		var objects = GameObject.FindGameObjectsWithTag("jailDoor");
 		foreach (GameObject obj in objects) {
 			jailDoors.Add(obj);
-			obj.SetActive(false);
+			obj.transform.position = new Vector3 (obj.transform.position.x, -1.4f, obj.transform.position.z);
 		}
 	}
 	
@@ -405,7 +406,8 @@ public class Character : MonoBehaviour {
             if (objectHit.gameObject.name.Contains("button"))
             {
 				foreach (var obj in jailDoors) {
-					obj.SetActive(true);
+					obj.transform.position = new Vector3 (obj.transform.position.x, 0.4f, obj.transform.position.z);
+					//obj.SetActive(true);
 				}
 
 				AudioSource audio = GetComponent<AudioSource>();
@@ -414,7 +416,11 @@ public class Character : MonoBehaviour {
 				AudioSource audio2 = GetComponent<AudioSource>();
 				audio.PlayOneShot(audioEffectChains, 0.7f);
 
-				io.lockHouse();
+				if (GMScript.isFullSetup)
+					io.lockHouse ();
+				else {
+					didPushTrapButton = true;
+				}
 				StartCoroutine(unlockJailDoor(5));
 			} else {
 				stunCharacter(3, false);
@@ -591,8 +597,10 @@ public class Character : MonoBehaviour {
 		yield return new WaitForSeconds(seconds);
 		
 		foreach (var obj in jailDoors) {
-			obj.SetActive(false);
+			//obj.SetActive(false);
+			obj.transform.position = new Vector3 (obj.transform.position.x, -1.4f, obj.transform.position.z);
 		}
+		didPushTrapButton = false;
 	}
 	
 	public void isFishedTrigger()
